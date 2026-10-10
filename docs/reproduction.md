@@ -82,3 +82,8 @@ finer-physics comparisons, independent cost arithmetic and exact selected
 tensors for first/last quadrature training replications. Its original final
 software suite had 1,053 passing tests. These are recorded execution facts,
 not claims that a new clone has already rerun the experiments.
+
+On 2026-10-10, the full public-checkout suite passed **1,077 tests** in the pinned
+environment using `python -m pytest -q`. Publication fixtures create synthetic
+allocation and report records only inside temporary test directories; they do
+not require the original owner's private authorization or rerun the robot study.

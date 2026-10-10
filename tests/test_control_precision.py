@@ -10,12 +10,20 @@ from poc.io import atomic_json, read_json, sha256_file
 def request_inputs(root):
     """Small independent parent records; no scientific outcomes are generated."""
     repository = Path(__file__).resolve().parents[1]
-    for name in ('config/control_confirmation_design.json', 'config/authorization.json',
+    for name in ('config/control_confirmation_design.json',
                  'config/planner.json', 'docs/superpowers/specs/2026-10-06-control-precision.md',
                  'docs/superpowers/plans/2026-10-06-control-precision.md'):
         path = root/name
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_bytes((repository/name).read_bytes())
+    # Actual owner allocation is private. This record exists only inside the
+    # temporary test root and does not authorize an experiment or purchase.
+    atomic_json(root/'config/authorization.json', dict(
+        local_compute_authorized=True, package_network_authorized=True,
+        paid_services_authorized=False, ram_limit_gib=None, disk_limit_gib=None,
+        cpu_time_limit_hours=None,
+        authority_note='Synthetic unit-test fixture; grants no real execution authority',
+        recorded_utc='2026-10-10T00:00:00Z'))
     criteria = read_json(root/'config/control_confirmation_design.json')['criteria']
     result = dict(look_index=1, family_size=8, look_alpha=.025, tail_alpha=.0015625,
                   status='limited_scope_results', criteria=[dict(row, status='unresolved') for row in criteria],
@@ -246,10 +254,12 @@ def test_reused_fit_must_match_same_train_labels_scaler_and_training_engine():
 def test_known_recovery_variants_preserve_nominal_calculations_and_are_eligible():
     """Reject a scientific change while allowing the already audited recovery fix."""
     import ast
-    from poc.control_precision import verify_reuse_semantics
+    from poc.control_precision import NOMINAL_RECOVERY_VARIANTS, verify_reuse_semantics
     root = Path(__file__).resolve().parents[1]
     old = root/'study/precision-look-2/study/precision-look-3/study/precision-look-4'
-    new = root/'study/control-development'
+    # Both recovery source variants and selected-fit metadata are included in
+    # the public checkout; the separate development workspace is private.
+    new = root
     names = {'endpoint_loss', 'optimizer_for', 'epoch_starts', 'histories_for', 'rollout_loss',
              'batch_objective', 'select_checkpoint', 'nominal_convergence', 'TrainingSession',
              'validate_nominal', 'array_scales', 'constant_velocity_error', 'qualify_nominal'}
@@ -259,13 +269,15 @@ def test_known_recovery_variants_preserve_nominal_calculations_and_are_eligible(
                 if isinstance(n, (ast.FunctionDef, ast.ClassDef)) and n.name in names}
     assert set(calculations(old/'poc/train.py')) == names
     assert calculations(old/'poc/train.py') == calculations(new/'poc/train.py')
+    assert {sha256_file(old/'poc/train.py'), sha256_file(new/'poc/train.py')} == NOMINAL_RECOVERY_VARIANTS['poc/train.py']
     audit = read_json(root/'reports/selection_integrity_forty.json')
     proof = next(r for r in audit['cells'] if r['cell_id'] == 'direct__A__shared__power_correct__seed5')
     record = read_json(old/proof['manifest'])
     files = dict(record['job_inputs']['parameters']['data_hashes'])
     for name in record['job_inputs']['dependencies']:
         if (new/name).exists(): files[name] = sha256_file(new/name)
-    norm = read_json(new/'data/direct/A/normalization.json')
+    reference = next(r for r in audit['cells'] if r['cell_id'] == 'direct__A__shared__power_correct__seed0')
+    norm = read_json((new/reference['manifest']).parent/'normalization.json')
     definition = dict(actuator='direct', condition='A', loss_mode='shared', model_id='power_correct', seed=5)
     verify_reuse_semantics(record, read_json((old/proof['manifest']).parent/'normalization.json'),
                            definition, dict(files=files), norm)

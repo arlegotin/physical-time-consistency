@@ -147,9 +147,11 @@ def staged_closed_report(root, monkeypatch):
     from poc.control_utility import reserve_control_look
     import poc.control_precision_result as module
     d = read_json(Path('config/control_confirmation_design.json'))
-    old = read_json(Path('reports/control_confirmation_result.json'))
-    for row in old['criteria']:
-        row['look_index'] = 1
+    # Exercise immutable cached look-1 rows without requiring an omitted
+    # workstation report or treating historical measurements as test inputs.
+    old = dict(look_index=1, family_size=8, criteria=[
+        dict(row, status='unresolved', look_index=1, n_training_seeds=5)
+        for row in d['criteria']])
     stage_numerics(root)
     for name, value in [('config/control_confirmation_design.json', d),
                         ('reports/control_confirmation_result.json', old),

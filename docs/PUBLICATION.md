@@ -4,6 +4,12 @@ The owner approved AGPL-3.0-only and citation as Artem Legotin. The [README](../
 presents the scoped result, [CITATION.cff](../CITATION.cff) supplies citation
 metadata, and [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md) defines license scope.
 
+The screened repository was published on 2026-10-10 at
+[arlegotin/physical-time-consistency](https://github.com/arlegotin/physical-time-consistency).
+`PUBLICATION_MANIFEST.json` records the files in the initial public import,
+commit `5219641`; later maintenance changes are recorded by subsequent Git commits. Its hashes
+describe the initial import, rather than the latest version of each file.
+
 ## Publish the clean snapshot
 
 Development history contains local paths, machine metadata and executor records.
@@ -76,7 +82,7 @@ Push the reviewed clean history to the intended repository only after verifying
 the private backup and remote state. Do not copy local credentials or the old
 `.git` directory into the public checkout. If the final public
 URL changes, update both citation URL fields and regenerate the package. The
-current citation URL is the intended location, not evidence of publication.
+current citation URL points to the published repository.
 
 GitHub-hosted Actions logs, release assets and other remote attachments are
 outside the local scan. Review them separately if reusing a remote. Copies
@@ -89,6 +95,9 @@ made after publication cannot be recalled by making a repository private.
 - Author, license identifier, citation fields and unchanged license text are verified.
 - Package hashes, omissions, privacy checks and first-level documentation links are verified.
 - Focused model/controller tests run from an extracted package; they are software checks, not new experiments.
+- The full public-checkout suite passes 1,077 tests after its fixtures were made
+  independent of omitted workstation files. Model, controller and result bytes
+  remain unchanged from the screened initial import.
 - Uploading and changing visibility require the owner's authorization. The owner
   approved publication of this cleaned repository on 2026-10-10.
 

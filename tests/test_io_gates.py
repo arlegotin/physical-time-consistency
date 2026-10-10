@@ -33,6 +33,15 @@ class FoundationTests(unittest.TestCase):
             shutil.copytree(project / name, self.root / name)
         for name in ('requirements.in',):
             shutil.copyfile(project / name, self.root / name)
+        # The public checkout excludes the real owner's allocation. Keep this
+        # synthetic record confined to the temporary, non-executing fixture.
+        self.api('io', 'atomic_json')(self.root / 'config/authorization.json', {
+            'local_compute_authorized': True, 'package_network_authorized': True,
+            'paid_services_authorized': False, 'ram_limit_gib': None,
+            'disk_limit_gib': None, 'cpu_time_limit_hours': None,
+            'authority_note': 'Synthetic unit-test fixture; grants no real execution authority',
+            'recorded_utc': '2026-10-10T00:00:00Z',
+        })
         result = subprocess.run([sys.executable, '-S', '-m', 'poc', 'run', 'M00'],
                                 cwd=self.root, capture_output=True, text=True)
         self.assertEqual(result.returncode, 1)
