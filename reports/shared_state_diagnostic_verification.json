@@ -1,0 +1,11 @@
+{
+  "manifest_path": "evidence/M40/20261007T230617-ff6297b2/manifest.json",
+  "manifest_sha256": "6a93b78d12ee56eedc96f11a456ee74e0460a38898a134ed8e340d31422cda61",
+  "measured_model_rows": 3072,
+  "protocol_id": "PTCO-DIAG-0.1",
+  "report_hashes": {
+    "reports/shared_state_diagnostic_result.json": "4c9711503fe48644cf494efe94a2c541301baa41b849b52143cedd27d5f872f8",
+    "reports/shared_state_diagnostic_result.md": "92e82382bf668b8da3e6eb992bcda825b6f4291146901deb53b37f1d423b5235"
+  },
+  "status": "complete"
+}

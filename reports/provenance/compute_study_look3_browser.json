@@ -1,0 +1,21 @@
+{
+  "cleanup": "Owned page40 closed and preview session91204 exited0 after keyboard interrupt.",
+  "console_diagnostic": "Only favicon.ico returned 404; saved demo HTML returned 200. File-origin inspection separately showed a browser unique-origin diagnostic.",
+  "created_utc": "2026-10-09T18:01:12.571587Z",
+  "demo_sha256": "f0d34ea250be8ece12c1d3e9dbafa7c7ad272eae9b980ecacafefa3fca723c77",
+  "look": 3,
+  "mode": "temporary localhost HTTP preview",
+  "observed": {
+    "clip_count": 1920,
+    "controller_cards": 6,
+    "displayed_time_s": 1.6,
+    "painted_canvases": 6,
+    "seed_count": 16,
+    "selected_seed": 2026100815,
+    "selected_task": 19,
+    "task_count": 20
+  },
+  "result_sha256": "56e1a339eb4779835a9040ae5d75f3f302b513de77ec0592934d17ba5b3595bd",
+  "scientific_effect": "Preview occurred during training, before the isolated timing stage.",
+  "screenshot_status": "Optional capture did not complete; no screenshot claimed."
+}

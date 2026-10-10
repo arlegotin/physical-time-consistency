@@ -1,0 +1,11 @@
+{
+  "status": "stalled_startup",
+  "browser": "native Google Chrome 154.0.8037.98",
+  "termination": "SIGTERM to this check private-profile browser PID 27844 only",
+  "observed_diagnostics": [
+    "CVDisplayLinkCreateWithCGDisplay failed -6670",
+    "No renderer process and no DOM output"
+  ],
+  "next_action": "use the already cached standalone Chromium headless shell",
+  "scientific_evidence": "unaffected"
+}

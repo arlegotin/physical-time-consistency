@@ -1,0 +1,47 @@
+{
+  "allocation_sha256": "e483d8c5539157d22e9cb9bf65d257ae38979c4fa5c1e728230e5e245f90463d",
+  "matched": true,
+  "ratios": {
+    "affine_flow:40000000": 0.9591658831705995,
+    "affine_flow:5000000": 1.0050512888849106,
+    "node_quadrature:40000000": 0.9497373330594326,
+    "node_quadrature:5000000": 0.9973800885179854,
+    "node_structured:40000000": 0.9563753426003719,
+    "node_structured:5000000": 1.0
+  },
+  "reference_seconds": 0.220999833,
+  "samples_seconds": {
+    "affine_flow:40000000": [
+      0.212534791,
+      0.2119755,
+      0.21176375
+    ],
+    "affine_flow:5000000": [
+      0.2203415,
+      0.222116167,
+      0.222647292
+    ],
+    "node_quadrature:40000000": [
+      0.209891792,
+      0.209616459,
+      0.211591292
+    ],
+    "node_quadrature:5000000": [
+      0.217979708,
+      0.220420833,
+      0.227174042
+    ],
+    "node_structured:40000000": [
+      0.212973,
+      0.2088145,
+      0.211358791
+    ],
+    "node_structured:5000000": [
+      0.223596708,
+      0.220999833,
+      0.220323709
+    ]
+  },
+  "scope": "Timing-only development check; shared RNG preparation outside actual planner timer",
+  "source_sha256": "a67187174352035e7e2bb1bb0efc46f90378b20fa8515e76d4ba1128109f1421"
+}

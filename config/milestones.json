@@ -1,0 +1,249 @@
+{
+  "milestones": {
+    "M00": {
+      "gate": "G00",
+      "predecessors": [],
+      "successors": [
+        "M10",
+        "MX",
+        "MF"
+      ]
+    },
+    "M10": {
+      "gate": "G10",
+      "predecessors": [
+        "G00"
+      ],
+      "successors": [
+        "M20",
+        "MX",
+        "MF"
+      ]
+    },
+    "M20": {
+      "gate": "G20",
+      "predecessors": [
+        "G10"
+      ],
+      "successors": [
+        "M30",
+        "MX",
+        "MF"
+      ]
+    },
+    "M30": {
+      "gate": "G30",
+      "predecessors": [
+        "G20"
+      ],
+      "successors": [
+        "M40",
+        "MR",
+        "MX",
+        "MF"
+      ]
+    },
+    "M40": {
+      "gate": "G40",
+      "predecessors": [
+        "G30",
+        "GR"
+      ],
+      "successors": [
+        "M50",
+        "MX",
+        "MF"
+      ]
+    },
+    "M50": {
+      "gate": "G50",
+      "predecessors": [
+        "G40",
+        "GX"
+      ],
+      "successors": [
+        "M60",
+        "MX",
+        "MF"
+      ]
+    },
+    "M60": {
+      "gate": "G60",
+      "predecessors": [
+        "G50"
+      ],
+      "successors": [
+        "M70",
+        "MX",
+        "MF"
+      ]
+    },
+    "M70": {
+      "gate": "G70",
+      "predecessors": [
+        "G60"
+      ],
+      "successors": [
+        "M80",
+        "MX",
+        "MF"
+      ]
+    },
+    "M80": {
+      "gate": "G80",
+      "predecessors": [
+        "G70"
+      ],
+      "successors": [
+        "M90",
+        "MX",
+        "MF"
+      ]
+    },
+    "M90": {
+      "gate": "G90",
+      "predecessors": [
+        "G80"
+      ],
+      "successors": [
+        "MF",
+        "MX"
+      ]
+    },
+    "MF": {
+      "gate": "GF",
+      "predecessors": [],
+      "successors": []
+    },
+    "MR": {
+      "gate": "GR",
+      "predecessors": [
+        "G30",
+        "GX"
+      ],
+      "successors": [
+        "M40",
+        "MX",
+        "MF",
+        "M30"
+      ]
+    },
+    "MX": {
+      "gate": "GX",
+      "predecessors": [],
+      "requests": [
+        {
+          "branch": "repair",
+          "path": "config/revisions/MX-checkpoint-0001.json",
+          "request_id": "MX-checkpoint-0001"
+        },
+        {
+          "branch": "repair",
+          "path": "config/revisions/MX-checkpoint-0002.json",
+          "request_id": "MX-checkpoint-0002"
+        },
+        {
+          "branch": "repair",
+          "path": "config/revisions/MX-history-0003.json",
+          "request_id": "MX-history-0003"
+        },
+        {
+          "branch": "mechanism-negative",
+          "path": "config/revisions/MX-mechanism-negative-0004.json",
+          "request_id": "MX-mechanism-negative-0004"
+        },
+        {
+          "branch": "precision",
+          "command": [
+            "python",
+            "-m",
+            "poc.subset_precision",
+            "config/revisions/MX-precision-0005.json",
+            "--resume"
+          ],
+          "path": "config/revisions/MX-precision-0005.json",
+          "request_id": "MX-precision-0005"
+        },
+        {
+          "branch": "precision",
+          "command": [
+            "python",
+            "-m",
+            "poc.subset_precision",
+            "config/revisions/MX-precision-0006.json",
+            "--root",
+            "study/precision-look-2",
+            "--resume"
+          ],
+          "path": "config/revisions/MX-precision-0006.json",
+          "request_id": "MX-precision-0006",
+          "source_context": "study/precision-look-2"
+        },
+        {
+          "branch": "precision",
+          "command": [
+            "python",
+            "-m",
+            "poc.subset_precision",
+            "config/revisions/MX-precision-0007.json",
+            "--root",
+            "study/precision-look-2/study/precision-look-3",
+            "--resume"
+          ],
+          "path": "config/revisions/MX-precision-0007.json",
+          "request_id": "MX-precision-0007",
+          "source_context": "study/precision-look-2/study/precision-look-3"
+        },
+        {
+          "branch": "solver",
+          "command": [
+            "python",
+            "-m",
+            "poc.control_solver_continuation",
+            "--resume"
+          ],
+          "path": "config/revisions/MX-solver-control-0008.json",
+          "request_id": "MX-solver-control-0008"
+        },
+        {
+          "branch": "precision",
+          "command": [
+            "python",
+            "-m",
+            "poc.control_precision",
+            "config/revisions/MX-control-precision-0001.json",
+            "--resume"
+          ],
+          "path": "config/revisions/MX-control-precision-0001.json",
+          "request_id": "MX-control-precision-0001"
+        },
+        {
+          "branch": "reproduction",
+          "command": [
+            "python",
+            "-m",
+            "poc.control_precision_replay",
+            "--resume"
+          ],
+          "path": "config/revisions/MX-control-precision-replay-0001.json",
+          "request_id": "MX-control-precision-replay-0001"
+        },
+        {
+          "branch": "targeted-efficiency",
+          "command": [
+            "python",
+            "-m",
+            "poc.efficiency_pilot",
+            "run"
+          ],
+          "path": "config/revisions/MX-efficiency-pilot-0001.json",
+          "request_id": "MX-efficiency-pilot-0001"
+        }
+      ],
+      "successors": [
+        "MR"
+      ]
+    }
+  },
+  "protocol_version": "PTCO-1.0"
+}

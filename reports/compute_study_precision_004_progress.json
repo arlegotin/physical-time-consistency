@@ -1,0 +1,708 @@
+{
+  "completed_primary_fits": 41,
+  "created_utc": "2026-10-09T21:53:36.048468Z",
+  "expected_primary_fits": 66,
+  "fit_index": [
+    {
+      "canonical_tensor_sha256": "d3d0d54cf2b996573249c38d171787655a068c56baf0ff7b111c8a897ee2e83f",
+      "epochs": 400,
+      "model_id": "affine_flow",
+      "qualified": true,
+      "receipt": {
+        "job_key": "2433ac85ca168a35402fd553dcca6d04fa501e65b617c88593fbaf7f0f54b33d",
+        "manifest_sha256": "bd153eaa6d62870b6bd7e7ae710c922b7b55c41b9ac42546ce1de6b7dd2e958b",
+        "path": "jobs/2433ac85ca168a35402fd553dcca6d04fa501e65b617c88593fbaf7f0f54b33d"
+      },
+      "resources": {
+        "cpu_seconds": 433.653346,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 435.15332566713914
+      },
+      "seed": 2026100816
+    },
+    {
+      "canonical_tensor_sha256": "70a4c1687eaeb9ff16a061218f651ae1acf1cab05486e8f39c66c3c45fc43ae3",
+      "epochs": 100,
+      "model_id": "node_quadrature",
+      "qualified": true,
+      "receipt": {
+        "job_key": "47013b1aea2aaee7ea79de62dbe82d472e7fa2821aae3082a06799c5d9c4fc4a",
+        "manifest_sha256": "0ff57089904fe120a033046045b78d271cb74a6b2be8e3df4f31bc3faae5c679",
+        "path": "jobs/47013b1aea2aaee7ea79de62dbe82d472e7fa2821aae3082a06799c5d9c4fc4a"
+      },
+      "resources": {
+        "cpu_seconds": 97.68717600000002,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 97.92305633286014
+      },
+      "seed": 2026100816
+    },
+    {
+      "canonical_tensor_sha256": "8c636313cdf203640f420b4b3208e6b60037e6c55e0a7638c2fa874a592f244c",
+      "epochs": 300,
+      "model_id": "node_structured",
+      "qualified": true,
+      "receipt": {
+        "job_key": "46f12310e400bf3b5462a1dd0c59cde0b90528081afd13530e71b54401093ed8",
+        "manifest_sha256": "0a5e952270963eec3c9e6430c47ce6bc40d015ce679f2fb915c055a685b70791",
+        "path": "jobs/46f12310e400bf3b5462a1dd0c59cde0b90528081afd13530e71b54401093ed8"
+      },
+      "resources": {
+        "cpu_seconds": 537.365624,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 539.7614293340594
+      },
+      "seed": 2026100816
+    },
+    {
+      "canonical_tensor_sha256": "e6590637b9a756eb68a9e02531bd2e089391906c3742ab47b20e9b0b5158be30",
+      "epochs": 200,
+      "model_id": "affine_flow",
+      "qualified": true,
+      "receipt": {
+        "job_key": "5be76e89c1baee7632287d8213644445c43f8bc534a1097f22cc21284b25ac86",
+        "manifest_sha256": "ce02b19a7dccc62cca671c4cfff0fa9f29d3f1a77b5ffd03d926213456c049f3",
+        "path": "jobs/5be76e89c1baee7632287d8213644445c43f8bc534a1097f22cc21284b25ac86"
+      },
+      "resources": {
+        "cpu_seconds": 223.68412999999987,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 235.33242774987593
+      },
+      "seed": 2026100817
+    },
+    {
+      "canonical_tensor_sha256": "9b296c65e269070de36d310b7f65df01651289461efc0bba1956e2c945dc9ce6",
+      "epochs": 100,
+      "model_id": "node_quadrature",
+      "qualified": true,
+      "receipt": {
+        "job_key": "c50bffb555cd5869782ce4531b8fb0ab1f846be481722ee8da182b3a93a1ff62",
+        "manifest_sha256": "78f7c80ebe22406b4b7d40e948934240011174e762b647257f43bb5313949689",
+        "path": "jobs/c50bffb555cd5869782ce4531b8fb0ab1f846be481722ee8da182b3a93a1ff62"
+      },
+      "resources": {
+        "cpu_seconds": 102.54630900000006,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 103.53540887497365
+      },
+      "seed": 2026100817
+    },
+    {
+      "canonical_tensor_sha256": "617a006152dcb8053f294654188c0f8d7d3626b98111383aa5b333c8c86465ce",
+      "epochs": 200,
+      "model_id": "node_structured",
+      "qualified": true,
+      "receipt": {
+        "job_key": "651c1e741744156da621d70bb104d3c90c0fc4babc1c76b96daefde5b9fa7c17",
+        "manifest_sha256": "c8138fe822a073bb85066428f8d420e344a0092380cca8c97fb1ccff6795e5d6",
+        "path": "jobs/651c1e741744156da621d70bb104d3c90c0fc4babc1c76b96daefde5b9fa7c17"
+      },
+      "resources": {
+        "cpu_seconds": 348.4628869999999,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 349.9358525420539
+      },
+      "seed": 2026100817
+    },
+    {
+      "canonical_tensor_sha256": "7e16f842f03e90e38ba69298750ba3db987d6feafe929e16dabb05b8901a4a6d",
+      "epochs": 200,
+      "model_id": "affine_flow",
+      "qualified": true,
+      "receipt": {
+        "job_key": "c09b2d610332ae987b88cf2fef5df4ebdf57bc449b6ed40b97e2bb089e3385f2",
+        "manifest_sha256": "eee1c1265e69a49f875421d9a11d413cb74a297880a49e27961428a95a344779",
+        "path": "jobs/c09b2d610332ae987b88cf2fef5df4ebdf57bc449b6ed40b97e2bb089e3385f2"
+      },
+      "resources": {
+        "cpu_seconds": 225.872977,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 227.47387145785615
+      },
+      "seed": 2026100818
+    },
+    {
+      "canonical_tensor_sha256": "3c2bc36b53ec097163729bc16ab3bb8d8cbc7ba0ed8c4550c7d6c62c0d6dcd4b",
+      "epochs": 300,
+      "model_id": "node_quadrature",
+      "qualified": true,
+      "receipt": {
+        "job_key": "04ba509028246124f94f52f2655fec6f33990b7fa8e913278840a58303d79603",
+        "manifest_sha256": "8c9774e58fa25d75048aef4fe1d697cfda6381c773866c838f13957f9ee03e7a",
+        "path": "jobs/04ba509028246124f94f52f2655fec6f33990b7fa8e913278840a58303d79603"
+      },
+      "resources": {
+        "cpu_seconds": 329.1439459999999,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 331.46883370913565
+      },
+      "seed": 2026100818
+    },
+    {
+      "canonical_tensor_sha256": "747c7d6346beeebaf3d1d91da860f7f77a737adda809c6000def7394bfc70a7e",
+      "epochs": 400,
+      "model_id": "node_structured",
+      "qualified": true,
+      "receipt": {
+        "job_key": "005aa94903b6a9317e5a4098fa15c0ffffae707dfed105983d10f2b70f3eaeb6",
+        "manifest_sha256": "61c3ea5f1b535bfe4866328e9f952fc701d84a5485a2d9bea278657c670c43c0",
+        "path": "jobs/005aa94903b6a9317e5a4098fa15c0ffffae707dfed105983d10f2b70f3eaeb6"
+      },
+      "resources": {
+        "cpu_seconds": 740.4162969999998,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 744.7665447499603
+      },
+      "seed": 2026100818
+    },
+    {
+      "canonical_tensor_sha256": "7241dedacd83dbc4016549626a09e165e2441f11bd879c33bd662387fe50cbea",
+      "epochs": 100,
+      "model_id": "affine_flow",
+      "qualified": true,
+      "receipt": {
+        "job_key": "0636a33e39c55fc07dfebfe106d15d966150f5045ab81879ce78915b57b50ec2",
+        "manifest_sha256": "dc6e54774142f18f1f01f0d300bc2cd6ae04457fc1e4a52a723ac965ac24e196",
+        "path": "jobs/0636a33e39c55fc07dfebfe106d15d966150f5045ab81879ce78915b57b50ec2"
+      },
+      "resources": {
+        "cpu_seconds": 107.30301199999985,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 107.7338651670143
+      },
+      "seed": 2026100819
+    },
+    {
+      "canonical_tensor_sha256": "3e578bfc5ef1393540ab2708f3e597175acee2800da2c8f323581edca655a7f8",
+      "epochs": 300,
+      "model_id": "node_quadrature",
+      "qualified": true,
+      "receipt": {
+        "job_key": "e87d74d992a5d1810a38bd9bf3e22e87bd29f32c2655b7d5236a88cc0d314c52",
+        "manifest_sha256": "e320e5fa72e6f9752cd9da6396a3910db2e519eca17f8775eb989c24a99c445b",
+        "path": "jobs/e87d74d992a5d1810a38bd9bf3e22e87bd29f32c2655b7d5236a88cc0d314c52"
+      },
+      "resources": {
+        "cpu_seconds": 309.253561,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 310.7118065832183
+      },
+      "seed": 2026100819
+    },
+    {
+      "canonical_tensor_sha256": "758fd1366610514597009a3ac2f5a2b667f171ff821b916f4e96556efca53d79",
+      "epochs": 100,
+      "model_id": "node_structured",
+      "qualified": true,
+      "receipt": {
+        "job_key": "881d2a8e86fadd17ddead5b73caae3c9612b9a80a5e06572755ffb791bd1dbe7",
+        "manifest_sha256": "5f7135e27dcd652a17ccd8dff0df3a4c937b6c1db9ffda31e862f10865fbdcfb",
+        "path": "jobs/881d2a8e86fadd17ddead5b73caae3c9612b9a80a5e06572755ffb791bd1dbe7"
+      },
+      "resources": {
+        "cpu_seconds": 168.43017199999986,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 168.98037400003523
+      },
+      "seed": 2026100819
+    },
+    {
+      "canonical_tensor_sha256": "6c6f89095328902c83b3b25c6149c42ecea9e5881809f4ca40937e4182cc1721",
+      "epochs": 400,
+      "model_id": "affine_flow",
+      "qualified": true,
+      "receipt": {
+        "job_key": "4954e87406627753d6320a07c349eb8073ddcfc5996d189a3b42096e7f02d5f3",
+        "manifest_sha256": "7114fca1fd4ca8b9499e8279439df36b93747e7c3165f1335c2c51cde6819475",
+        "path": "jobs/4954e87406627753d6320a07c349eb8073ddcfc5996d189a3b42096e7f02d5f3"
+      },
+      "resources": {
+        "cpu_seconds": 463.94711099999995,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 466.32744862511754
+      },
+      "seed": 2026100820
+    },
+    {
+      "canonical_tensor_sha256": "70a774601649999a93281c69317cc83cc9c6ea9e4d3917031359040217b9a781",
+      "epochs": 200,
+      "model_id": "node_quadrature",
+      "qualified": true,
+      "receipt": {
+        "job_key": "7ee99e3a5ebbc3249c14416290eacbe509659fc9477243ac3c174be7620caa4c",
+        "manifest_sha256": "3e4795417b82a112535aeab7594421b864c2be4f451b5d0ebd57107fe3c4baa5",
+        "path": "jobs/7ee99e3a5ebbc3249c14416290eacbe509659fc9477243ac3c174be7620caa4c"
+      },
+      "resources": {
+        "cpu_seconds": 201.39974900000016,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 202.3118059579283
+      },
+      "seed": 2026100820
+    },
+    {
+      "canonical_tensor_sha256": "4fe66ca380fa6b18e3f6498f9f7ad357a8974c7c0d8ee81b7fdb97285f04f5cf",
+      "epochs": 200,
+      "model_id": "node_structured",
+      "qualified": true,
+      "receipt": {
+        "job_key": "b2ae5a3e7404580768a06b383829d71d52644e9d2e8eb3b094591bcd8a1096f8",
+        "manifest_sha256": "325beece0763d7ec3fa3599c391a58882675cb86f51a44e4845c64aa3d00e047",
+        "path": "jobs/b2ae5a3e7404580768a06b383829d71d52644e9d2e8eb3b094591bcd8a1096f8"
+      },
+      "resources": {
+        "cpu_seconds": 344.80629599999975,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 346.1434645410627
+      },
+      "seed": 2026100820
+    },
+    {
+      "canonical_tensor_sha256": "a0f3775b14562067fd4b0e809f324f764bcac2be218fa0a7433b99289aebb58f",
+      "epochs": 400,
+      "model_id": "affine_flow",
+      "qualified": true,
+      "receipt": {
+        "job_key": "07f67cad618b2e11b8f10a8f57b3db7fc53317edb2c95280597922dc8201e445",
+        "manifest_sha256": "9e784b86b839803fdeb42b0a6b249edb329979f78d56b5c39d613fb7569f9dd9",
+        "path": "jobs/07f67cad618b2e11b8f10a8f57b3db7fc53317edb2c95280597922dc8201e445"
+      },
+      "resources": {
+        "cpu_seconds": 467.80095299999994,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 470.26936175022274
+      },
+      "seed": 2026100821
+    },
+    {
+      "canonical_tensor_sha256": "1863e4d4809bb78a5565aa49f99d7bc593c0ef92cc544e4f6cf344664f44267a",
+      "epochs": 200,
+      "model_id": "node_quadrature",
+      "qualified": true,
+      "receipt": {
+        "job_key": "aef7673acc48faa4c30c898c6e1b330383807c5d2230a3313d3635f42691b8d0",
+        "manifest_sha256": "2214abca3603f6337cc6767fc72379fe5f099ae83f6324a6909221360b3482f7",
+        "path": "jobs/aef7673acc48faa4c30c898c6e1b330383807c5d2230a3313d3635f42691b8d0"
+      },
+      "resources": {
+        "cpu_seconds": 201.74309300000004,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 202.82659258320928
+      },
+      "seed": 2026100821
+    },
+    {
+      "canonical_tensor_sha256": "baf6f0f614873454394cc806f96fcdb1007193d20c900b3014b548482cc2e083",
+      "epochs": 300,
+      "model_id": "node_structured",
+      "qualified": true,
+      "receipt": {
+        "job_key": "a4f9c4335b31db735773cd6bc8ea6be4f85328aeb70bed0c403cd0f6b1e6d3d3",
+        "manifest_sha256": "0064402f4a706699a3851dcf0a3930d504c438c474d6b5ba86b93af3a283952c",
+        "path": "jobs/a4f9c4335b31db735773cd6bc8ea6be4f85328aeb70bed0c403cd0f6b1e6d3d3"
+      },
+      "resources": {
+        "cpu_seconds": 538.9225850000003,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 541.0950932078995
+      },
+      "seed": 2026100821
+    },
+    {
+      "canonical_tensor_sha256": "aefb19b1f80e4ab160349584832ccfcf4537c42f52dc7d0588255ac6bac78c99",
+      "epochs": 200,
+      "model_id": "affine_flow",
+      "qualified": true,
+      "receipt": {
+        "job_key": "7e64213839ee83525ff5ceb2149880eda69989b5a1963701d75f30c053053354",
+        "manifest_sha256": "2b46e0645a49be43a69c90a7b1d57d9a937df26faf8bb03dce68cd6622891927",
+        "path": "jobs/7e64213839ee83525ff5ceb2149880eda69989b5a1963701d75f30c053053354"
+      },
+      "resources": {
+        "cpu_seconds": 226.48721900000055,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 227.34187262505293
+      },
+      "seed": 2026100822
+    },
+    {
+      "canonical_tensor_sha256": "67bede78593f30578311f2a6ecca756d4ba040e25a46aee2fe55b482c2e529a2",
+      "epochs": 100,
+      "model_id": "node_quadrature",
+      "qualified": true,
+      "receipt": {
+        "job_key": "6c659e1768f80cd2138f82b497c691286e0c9eef4278f608279e36c07af5537a",
+        "manifest_sha256": "ec99a6216def48b857aea9ff7d0a747ceac8994498ead2c2d076820666846145",
+        "path": "jobs/6c659e1768f80cd2138f82b497c691286e0c9eef4278f608279e36c07af5537a"
+      },
+      "resources": {
+        "cpu_seconds": 100.75940400000036,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 101.23628458334133
+      },
+      "seed": 2026100822
+    },
+    {
+      "canonical_tensor_sha256": "887390445ff741737a8f024b2e893e46de712d5aac829da18ac69d0d82cd61df",
+      "epochs": 300,
+      "model_id": "node_structured",
+      "qualified": true,
+      "receipt": {
+        "job_key": "a41750446b82b2a927604025f20e581aff6d8a3db434d7bbea7f5c77a20988f5",
+        "manifest_sha256": "6e9444012056fd68192875c655e70c0877b4ce94cdfdf65da72626bb8703e992",
+        "path": "jobs/a41750446b82b2a927604025f20e581aff6d8a3db434d7bbea7f5c77a20988f5"
+      },
+      "resources": {
+        "cpu_seconds": 536.3372550000004,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 538.1775644998997
+      },
+      "seed": 2026100822
+    },
+    {
+      "canonical_tensor_sha256": "99434d895d0834f3a427160f2da4314ba44707c83aa4de7c756bb1a27321c0ab",
+      "epochs": 200,
+      "model_id": "affine_flow",
+      "qualified": true,
+      "receipt": {
+        "job_key": "81890e6242871fcf87b796c144b8e99f39b4d47594ccd5545e90e0aaf49c1259",
+        "manifest_sha256": "13395a748230352e8cf36f57f459645da91b927973307142fcd384643081c60e",
+        "path": "jobs/81890e6242871fcf87b796c144b8e99f39b4d47594ccd5545e90e0aaf49c1259"
+      },
+      "resources": {
+        "cpu_seconds": 228.09026300000005,
+        "peak_rss_bytes": 695959552,
+        "wall_seconds": 228.98979983339086
+      },
+      "seed": 2026100823
+    },
+    {
+      "canonical_tensor_sha256": "e188f11548ce76457c1474b195e17b46ba12f1eecb2a28c90adb879545f77c0f",
+      "epochs": 500,
+      "model_id": "node_quadrature",
+      "qualified": true,
+      "receipt": {
+        "job_key": "d45cfea6a4dd6f68f525fb84bf8892247c16f30f4bea44939c5d425c2b0a7164",
+        "manifest_sha256": "2f5ea2ac7c42d4373541d97c85a70f9a3ed7ebd98387d13934d6df6d9f35d3da",
+        "path": "jobs/d45cfea6a4dd6f68f525fb84bf8892247c16f30f4bea44939c5d425c2b0a7164"
+      },
+      "resources": {
+        "cpu_seconds": 562.9993050000003,
+        "peak_rss_bytes": 721207296,
+        "wall_seconds": 565.7584586250596
+      },
+      "seed": 2026100823
+    },
+    {
+      "canonical_tensor_sha256": "fcf4f163a0e4cab7d759bfb7df0172eb7828fd4e204668a4237d2a9503668117",
+      "epochs": 200,
+      "model_id": "node_structured",
+      "qualified": true,
+      "receipt": {
+        "job_key": "b707340d6fc07c3307b5e931740e979a7a274c4c624d2a86c287416f3d13f1ad",
+        "manifest_sha256": "d50ed3f5ccdca01e2196a56b4e6b012e3fd0dbe950ef7ec722e7d65def60f002",
+        "path": "jobs/b707340d6fc07c3307b5e931740e979a7a274c4c624d2a86c287416f3d13f1ad"
+      },
+      "resources": {
+        "cpu_seconds": 359.40145200000006,
+        "peak_rss_bytes": 721207296,
+        "wall_seconds": 360.66366008343175
+      },
+      "seed": 2026100823
+    },
+    {
+      "canonical_tensor_sha256": "8b7b1d8a85e4b4dc75977822fa3e8df016304155d42da338ccb8ccb4b5220028",
+      "epochs": 200,
+      "model_id": "affine_flow",
+      "qualified": true,
+      "receipt": {
+        "job_key": "6a5b27e5a63325fae4cd1bb68b76854f2e508488a8cc31c974b7cd910656893c",
+        "manifest_sha256": "e7fb20dbd27331c6cc0689cf8ebc39071c7abc10a3c8f21d0b925c355ff93544",
+        "path": "jobs/6a5b27e5a63325fae4cd1bb68b76854f2e508488a8cc31c974b7cd910656893c"
+      },
+      "resources": {
+        "cpu_seconds": 222.72576000000026,
+        "peak_rss_bytes": 721207296,
+        "wall_seconds": 223.52709983382374
+      },
+      "seed": 2026100824
+    },
+    {
+      "canonical_tensor_sha256": "5cb7b6504f9cc69442d9c1a6ccff2bfd7d7c6a6e023339c6679adf36849dcad1",
+      "epochs": 300,
+      "model_id": "node_quadrature",
+      "qualified": true,
+      "receipt": {
+        "job_key": "cce3e02c866b054aa29d613acbe6a9e93fd2d6e07471d75c24e62ede5973806a",
+        "manifest_sha256": "dac739a7bdfdc59bc7190723def3b02b39e58bc977f047361ca840aa31bb7b39",
+        "path": "jobs/cce3e02c866b054aa29d613acbe6a9e93fd2d6e07471d75c24e62ede5973806a"
+      },
+      "resources": {
+        "cpu_seconds": 309.6992129999999,
+        "peak_rss_bytes": 721207296,
+        "wall_seconds": 311.0283770840615
+      },
+      "seed": 2026100824
+    },
+    {
+      "canonical_tensor_sha256": "86fda85c160fd443fe95c79cedf96e7c70c20c7a73706d4f595c23596bf5efb0",
+      "epochs": 100,
+      "model_id": "node_structured",
+      "qualified": true,
+      "receipt": {
+        "job_key": "2ed81bc9bebeadafeb73e992194671763c172867e16e4f21c45a010ac1f8a725",
+        "manifest_sha256": "abd356f320ae9647b02b69fa46aa5d0dc0c6efaf22264947ee5270eaa62a6e7f",
+        "path": "jobs/2ed81bc9bebeadafeb73e992194671763c172867e16e4f21c45a010ac1f8a725"
+      },
+      "resources": {
+        "cpu_seconds": 174.09092600000076,
+        "peak_rss_bytes": 721207296,
+        "wall_seconds": 174.7164527089335
+      },
+      "seed": 2026100824
+    },
+    {
+      "canonical_tensor_sha256": "d7e5953b2f5dd0040785eae7bcbe69d5737d3725e0d739b63ed4c330b6c8ef68",
+      "epochs": 400,
+      "model_id": "affine_flow",
+      "qualified": true,
+      "receipt": {
+        "job_key": "92054d7e7375e9ebe430f2f16c68d53f7b6c7ddc4cc8f91aa3554917738e887f",
+        "manifest_sha256": "67151e12b8792579464d84c0923ca8a064229779658678c0aaa947e4a68966b1",
+        "path": "jobs/92054d7e7375e9ebe430f2f16c68d53f7b6c7ddc4cc8f91aa3554917738e887f"
+      },
+      "resources": {
+        "cpu_seconds": 470.9328719999994,
+        "peak_rss_bytes": 721207296,
+        "wall_seconds": 473.3251209575683
+      },
+      "seed": 2026100825
+    },
+    {
+      "canonical_tensor_sha256": "e7af342c1fb877fdb3a1648a6795912e163bc56efe403dae29663eda6c698b60",
+      "epochs": 300,
+      "model_id": "node_quadrature",
+      "qualified": true,
+      "receipt": {
+        "job_key": "703eb336e64e96a7f26064433e741cc61642cb86f64576bd6635ed126b42e083",
+        "manifest_sha256": "80c918fba187a9aa0f071e7ca1e2b366949aec6ae55dba81c12067d75a27053c",
+        "path": "jobs/703eb336e64e96a7f26064433e741cc61642cb86f64576bd6635ed126b42e083"
+      },
+      "resources": {
+        "cpu_seconds": 324.28998500000125,
+        "peak_rss_bytes": 721207296,
+        "wall_seconds": 325.9944710829295
+      },
+      "seed": 2026100825
+    },
+    {
+      "canonical_tensor_sha256": "1d33d263368cf2e0ce22194bcf08a07dc505461293faf5bfaa575572553fdd99",
+      "epochs": 200,
+      "model_id": "node_structured",
+      "qualified": true,
+      "receipt": {
+        "job_key": "ee9e9c99eeb6d728103d911f08573168d5fb769821e2dbfeeebae5b7b4add2a7",
+        "manifest_sha256": "84c461a82ace41c6517c278fe8e4ef363e69e355d945df9f8112c29223ce8d9f",
+        "path": "jobs/ee9e9c99eeb6d728103d911f08573168d5fb769821e2dbfeeebae5b7b4add2a7"
+      },
+      "resources": {
+        "cpu_seconds": 346.2698849999997,
+        "peak_rss_bytes": 721207296,
+        "wall_seconds": 347.6203676671721
+      },
+      "seed": 2026100825
+    },
+    {
+      "canonical_tensor_sha256": "e02e1df56d87936f8c181c43c9e2e0616f495357cd6e4cc578b1002eecbb1bf6",
+      "epochs": 200,
+      "model_id": "affine_flow",
+      "qualified": true,
+      "receipt": {
+        "job_key": "7f5332f64d5d1ee463fbb6d1103827fd4c4cf6657f3180bd0c7a289fe16946aa",
+        "manifest_sha256": "dbfdd5875d47431e2f1a2f4eb4d47286b517d18b4c6e1b0f2d4f84c6ed42d973",
+        "path": "jobs/7f5332f64d5d1ee463fbb6d1103827fd4c4cf6657f3180bd0c7a289fe16946aa"
+      },
+      "resources": {
+        "cpu_seconds": 218.1741380000003,
+        "peak_rss_bytes": 721207296,
+        "wall_seconds": 219.06620320910588
+      },
+      "seed": 2026100826
+    },
+    {
+      "canonical_tensor_sha256": "d69273f6bcf2b5fd5a9f179f89fe9e590d9902414f3d4d63debdbf549bb7f1d1",
+      "epochs": 100,
+      "model_id": "node_quadrature",
+      "qualified": true,
+      "receipt": {
+        "job_key": "fa307f3ef77edb31c7c7c62975c21b69622b79f95c89e998916d5a470573d7ba",
+        "manifest_sha256": "669901bce48e322bfbbaf8c01847fa612ebdcacba8d3106ca893c09c9ae47093",
+        "path": "jobs/fa307f3ef77edb31c7c7c62975c21b69622b79f95c89e998916d5a470573d7ba"
+      },
+      "resources": {
+        "cpu_seconds": 97.34209799999917,
+        "peak_rss_bytes": 721207296,
+        "wall_seconds": 97.70820820797235
+      },
+      "seed": 2026100826
+    },
+    {
+      "canonical_tensor_sha256": "4809301b132b8974f986642df600d604b8732f0d5416f045cb8ee59b95ae1677",
+      "epochs": 800,
+      "model_id": "node_structured",
+      "qualified": true,
+      "receipt": {
+        "job_key": "7de5bf5e27ef91cd32618b2833119bf0f800242e61c116238746c247cb43516a",
+        "manifest_sha256": "e5b44c1907ef5291170fd8db94133927d5be88fd3a87369598f398034269e62e",
+        "path": "jobs/7de5bf5e27ef91cd32618b2833119bf0f800242e61c116238746c247cb43516a"
+      },
+      "resources": {
+        "cpu_seconds": 1405.050654999999,
+        "peak_rss_bytes": 736837632,
+        "wall_seconds": 1411.0816911668517
+      },
+      "seed": 2026100826
+    },
+    {
+      "canonical_tensor_sha256": "655bbc7ce0e9371d33c2cf8034409d22d076cd53347ab131aab8aa9bdc199dd3",
+      "epochs": 500,
+      "model_id": "affine_flow",
+      "qualified": true,
+      "receipt": {
+        "job_key": "67555b4388230251e8b9b0c0684e23bf54475d8f8af9a45d64bca2d9765ea0bf",
+        "manifest_sha256": "ae8f0c1fc99fad208ad76e555477bb9269b78531ca699a19dff56906062ad340",
+        "path": "jobs/67555b4388230251e8b9b0c0684e23bf54475d8f8af9a45d64bca2d9765ea0bf"
+      },
+      "resources": {
+        "cpu_seconds": 523.5208759999987,
+        "peak_rss_bytes": 736837632,
+        "wall_seconds": 524.4531744159758
+      },
+      "seed": 2026100827
+    },
+    {
+      "canonical_tensor_sha256": "e54ef42637be7b48281c56174d325ea258ad116b67f1cbe77998674e464ed016",
+      "epochs": 200,
+      "model_id": "node_quadrature",
+      "qualified": true,
+      "receipt": {
+        "job_key": "1d9e2f4c0c21abf93c0f88cf53d4f5266e6806e9d319b5610ce5ed8775dac568",
+        "manifest_sha256": "8e1ecae685ffee294e2d015f6693e46b97eb296597fa78bec1974f9e352ffb29",
+        "path": "jobs/1d9e2f4c0c21abf93c0f88cf53d4f5266e6806e9d319b5610ce5ed8775dac568"
+      },
+      "resources": {
+        "cpu_seconds": 179.09114099999897,
+        "peak_rss_bytes": 736837632,
+        "wall_seconds": 179.34630883438513
+      },
+      "seed": 2026100827
+    },
+    {
+      "canonical_tensor_sha256": "18e633c9c0417fc651ba8fbcd2c42955e06d6e3228557c507bc3129a2b5dc2da",
+      "epochs": 300,
+      "model_id": "node_structured",
+      "qualified": true,
+      "receipt": {
+        "job_key": "bd3ab32866bf800eab9325afb675a992e6dde69f173bb57aeb2169fe56ed1940",
+        "manifest_sha256": "d246ea7118637ceac87f96d6905c746cd8aa479cc11ef00067d29850ef6d130f",
+        "path": "jobs/bd3ab32866bf800eab9325afb675a992e6dde69f173bb57aeb2169fe56ed1940"
+      },
+      "resources": {
+        "cpu_seconds": 455.95275500000025,
+        "peak_rss_bytes": 736837632,
+        "wall_seconds": 456.36109249992296
+      },
+      "seed": 2026100827
+    },
+    {
+      "canonical_tensor_sha256": "2be9c777a92614d407624e54c519442915b6c1cfe710835ad40c573b2d0fc786",
+      "epochs": 200,
+      "model_id": "affine_flow",
+      "qualified": true,
+      "receipt": {
+        "job_key": "09cb520707675c7d057a8dd0255761155e2f3c02b9c82b64b2b5d04c4fac53b2",
+        "manifest_sha256": "e88cef301d6942a4aa13b6171f9610dd4c05bef98f04a77f05a231d0bfbf8256",
+        "path": "jobs/09cb520707675c7d057a8dd0255761155e2f3c02b9c82b64b2b5d04c4fac53b2"
+      },
+      "resources": {
+        "cpu_seconds": 194.41796599999907,
+        "peak_rss_bytes": 736837632,
+        "wall_seconds": 194.6197055829689
+      },
+      "seed": 2026100828
+    },
+    {
+      "canonical_tensor_sha256": "b4389b3271a1085b6019412a41bd8cf15a42872b342cf702830dbeecf74c8e38",
+      "epochs": 300,
+      "model_id": "node_quadrature",
+      "qualified": true,
+      "receipt": {
+        "job_key": "33fbc59655a189e0f747857055b6f18570fb5e93e81a1c0334a6d61eba1bd38a",
+        "manifest_sha256": "a2a3b22612cbe3c963fbd5f6986545c5f9c16bb4ec7415303e9a3ef0f7d77730",
+        "path": "jobs/33fbc59655a189e0f747857055b6f18570fb5e93e81a1c0334a6d61eba1bd38a"
+      },
+      "resources": {
+        "cpu_seconds": 273.82938300000023,
+        "peak_rss_bytes": 736837632,
+        "wall_seconds": 274.561143417377
+      },
+      "seed": 2026100828
+    },
+    {
+      "canonical_tensor_sha256": "95f6251cc1dd222fa7de547352ac2116845fc7393c35572cb9805a98e836328f",
+      "epochs": 300,
+      "model_id": "node_structured",
+      "qualified": true,
+      "receipt": {
+        "job_key": "c166a29f925901bb93244a51dcaf48d4b87c229ed4da66e57148f59bc15d8e6e",
+        "manifest_sha256": "80a05355344670288ec77dc5dd66d39a262edf15501195cd007c8bbcad5d1d47",
+        "path": "jobs/c166a29f925901bb93244a51dcaf48d4b87c229ed4da66e57148f59bc15d8e6e"
+      },
+      "resources": {
+        "cpu_seconds": 458.2300200000009,
+        "peak_rss_bytes": 736837632,
+        "wall_seconds": 458.58902012510225
+      },
+      "seed": 2026100828
+    },
+    {
+      "canonical_tensor_sha256": "967945fb28a8deb602c705a20f4f77e58cc3f1cf1712b4af7d73eb257e173bc9",
+      "epochs": 300,
+      "model_id": "affine_flow",
+      "qualified": true,
+      "receipt": {
+        "job_key": "03e47a52b079834d6e70c5ddc212fc549cfda3d97730baba9311c2f6995dbfba",
+        "manifest_sha256": "980cd9fc42586f408c4bf2151fa29922282eaf14bc8679b2e08d654534ea8c1e",
+        "path": "jobs/03e47a52b079834d6e70c5ddc212fc549cfda3d97730baba9311c2f6995dbfba"
+      },
+      "resources": {
+        "cpu_seconds": 296.4160809999994,
+        "peak_rss_bytes": 736837632,
+        "wall_seconds": 296.78091758303344
+      },
+      "seed": 2026100829
+    },
+    {
+      "canonical_tensor_sha256": "72e7b586080fdec6c976b5adaf0816d79de714a0de78f37e03aec0f475f4e3d3",
+      "epochs": 300,
+      "model_id": "node_quadrature",
+      "qualified": true,
+      "receipt": {
+        "job_key": "9e17d17aa6ba6026d382229b2d65c2a759108e815d2e54ba514573af5e09e929",
+        "manifest_sha256": "f14604d1cea1a228804e240a0458f8ed7bf659bc640545a2f00960251f2867de",
+        "path": "jobs/9e17d17aa6ba6026d382229b2d65c2a759108e815d2e54ba514573af5e09e929"
+      },
+      "resources": {
+        "cpu_seconds": 279.4156160000002,
+        "peak_rss_bytes": 736837632,
+        "wall_seconds": 279.72878358280286
+      },
+      "seed": 2026100829
+    }
+  ],
+  "freeze_sha256": "b8de8a0b563dd1080165d33449ffa2a06471ffdb7fedc94ef48b1eae8fa450aa",
+  "pending": "All declared new-seed probes, control, replay/refinement and final comparator retraining",
+  "phase": "operational_training_progress_not_control_evidence",
+  "store_root": "/redacted-home/physical-time-consistency-artifacts/study/compute-matched-node/precision-004"
+}

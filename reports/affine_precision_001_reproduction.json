@@ -1,0 +1,2018 @@
+{
+  "controls": [
+    {
+      "cell": "affine_flow__step40000000__seed2026100800__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100801__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100802__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100803__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100804__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100805__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100806__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100807__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100808__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100809__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100810__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100800__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100801__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100802__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100803__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100804__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100805__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100806__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100807__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100808__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100809__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100810__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100800__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100801__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100802__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100803__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100804__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100805__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100806__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100807__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100808__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100809__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100810__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100800__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100801__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100802__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100803__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100804__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100805__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100806__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100807__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100808__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100809__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100810__task0",
+      "cost_relative_difference": 0.0,
+      "kind": "replay",
+      "max_command_difference": 0.0,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100800__task0",
+      "cost_relative_difference": 1.7519922747530846e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 6.17061957086662e-13,
+      "max_v_difference": 1.7390533457728452e-12,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100801__task0",
+      "cost_relative_difference": 2.440364756179148e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 1.056932319443149e-13,
+      "max_v_difference": 1.3616885397027545e-12,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100802__task0",
+      "cost_relative_difference": 2.0252016083033532e-14,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 5.823119764158946e-13,
+      "max_v_difference": 2.731148640577885e-12,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100803__task0",
+      "cost_relative_difference": 5.869887827810797e-14,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 4.3942627314663696e-13,
+      "max_v_difference": 1.4300990947013759e-12,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100804__task0",
+      "cost_relative_difference": 2.594259492718165e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 3.0608848788915566e-13,
+      "max_v_difference": 1.4176437801438624e-12,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100805__task0",
+      "cost_relative_difference": 4.546126475076098e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 1.5548673459875317e-13,
+      "max_v_difference": 9.562350911096473e-13,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100806__task0",
+      "cost_relative_difference": 2.8778878450676974e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 2.0838886172214188e-13,
+      "max_v_difference": 1.6817658377021871e-12,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100807__task0",
+      "cost_relative_difference": 3.0252082988270284e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 3.5166314305001833e-13,
+      "max_v_difference": 1.815436689867056e-12,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100808__task0",
+      "cost_relative_difference": 2.832913130491838e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 2.3925306180672123e-13,
+      "max_v_difference": 1.287303597052869e-12,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100809__task0",
+      "cost_relative_difference": 5.6115988656098147e-14,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 1.580124919797754e-13,
+      "max_v_difference": 1.4258594305260885e-12,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step40000000__seed2026100810__task0",
+      "cost_relative_difference": 1.3097370869168825e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 5.619948950652542e-13,
+      "max_v_difference": 3.0242475190789264e-12,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100800__task0",
+      "cost_relative_difference": 6.645702469510907e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 8.932299344621697e-13,
+      "max_v_difference": 1.7390533457728452e-12,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100801__task0",
+      "cost_relative_difference": 2.5355796702482554e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 1.6150969450734465e-13,
+      "max_v_difference": 1.3645820584606838e-12,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100802__task0",
+      "cost_relative_difference": 2.8913779237290544e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 5.643263634169671e-13,
+      "max_v_difference": 2.4855673075308005e-12,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100803__task0",
+      "cost_relative_difference": 7.039430599776225e-14,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 2.2448709557920665e-13,
+      "max_v_difference": 1.0890038870670082e-12,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100804__task0",
+      "cost_relative_difference": 3.0096272558893096e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 3.4916514124461173e-13,
+      "max_v_difference": 1.4174217355389374e-12,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100805__task0",
+      "cost_relative_difference": 3.435506281444436e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 2.978728375069295e-13,
+      "max_v_difference": 1.3052892100517965e-12,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100806__task0",
+      "cost_relative_difference": 3.745878890162752e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 2.5167368189471517e-13,
+      "max_v_difference": 1.229415874659523e-12,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100807__task0",
+      "cost_relative_difference": 2.4941315650404632e-14,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 2.561284517810236e-13,
+      "max_v_difference": 2.2892798767770728e-12,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100808__task0",
+      "cost_relative_difference": 3.2556554415645284e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 2.487454686672663e-13,
+      "max_v_difference": 1.3165024626005106e-12,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100809__task0",
+      "cost_relative_difference": 7.876027878921638e-14,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 3.665956427312267e-13,
+      "max_v_difference": 1.1656231535539519e-12,
+      "pass": true
+    },
+    {
+      "cell": "affine_flow__step5000000__seed2026100810__task0",
+      "cost_relative_difference": 7.553293893107483e-14,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 5.553890680687346e-13,
+      "max_v_difference": 2.9252156252823625e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100800__task0",
+      "cost_relative_difference": 4.2434323922530594e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 7.497336085293682e-13,
+      "max_v_difference": 2.068678561784054e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100801__task0",
+      "cost_relative_difference": 5.781634675489911e-14,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 1.056932319443149e-13,
+      "max_v_difference": 1.3616885397027545e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100802__task0",
+      "cost_relative_difference": 2.1387239746232507e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 6.339373470609644e-13,
+      "max_v_difference": 3.240963053485757e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100803__task0",
+      "cost_relative_difference": 5.664275851018983e-14,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 3.4228175849193576e-13,
+      "max_v_difference": 1.094624391129173e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100804__task0",
+      "cost_relative_difference": 3.5331182408098163e-14,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 2.1085910795193286e-13,
+      "max_v_difference": 1.390221271435621e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100805__task0",
+      "cost_relative_difference": 1.2440202478205347e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 3.7903014060702844e-13,
+      "max_v_difference": 1.6726897644758765e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100806__task0",
+      "cost_relative_difference": 1.0165698842320677e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 1.4324652575226082e-13,
+      "max_v_difference": 1.2497225476693075e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100807__task0",
+      "cost_relative_difference": 5.586105690750306e-14,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 3.4439118223872356e-13,
+      "max_v_difference": 1.927791259959122e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100808__task0",
+      "cost_relative_difference": 5.915722468201304e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 3.83026943495679e-13,
+      "max_v_difference": 1.519312453623911e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100809__task0",
+      "cost_relative_difference": 1.8666661291296087e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 2.2551405187698492e-13,
+      "max_v_difference": 1.6101009414626333e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step40000000__seed2026100810__task0",
+      "cost_relative_difference": 3.042749062687583e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 4.5219383792982626e-13,
+      "max_v_difference": 2.3812063432160357e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100800__task0",
+      "cost_relative_difference": 2.1814772412356343e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 6.702971511174383e-13,
+      "max_v_difference": 1.8527401834944612e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100801__task0",
+      "cost_relative_difference": 5.805281443078827e-14,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 1.056932319443149e-13,
+      "max_v_difference": 1.3616885397027545e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100802__task0",
+      "cost_relative_difference": 2.97449836830913e-15,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 7.147615832536758e-13,
+      "max_v_difference": 1.958433415438776e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100803__task0",
+      "cost_relative_difference": 8.542194401559689e-15,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 2.648437025243311e-13,
+      "max_v_difference": 1.1397549570801857e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100804__task0",
+      "cost_relative_difference": 3.548025912711968e-14,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 2.1091461910316411e-13,
+      "max_v_difference": 1.390221271435621e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100805__task0",
+      "cost_relative_difference": 4.737239196699719e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 3.390621117205228e-13,
+      "max_v_difference": 1.3942735854755028e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100806__task0",
+      "cost_relative_difference": 1.0165698842320678e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 1.432187701766452e-13,
+      "max_v_difference": 1.2497780588205387e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100807__task0",
+      "cost_relative_difference": 4.550200151271401e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 2.112754415861673e-13,
+      "max_v_difference": 1.7128520823916915e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100808__task0",
+      "cost_relative_difference": 4.016690032521909e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 2.156053113822054e-13,
+      "max_v_difference": 1.390443316040546e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100809__task0",
+      "cost_relative_difference": 6.01935968393839e-14,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 1.6556200854722647e-13,
+      "max_v_difference": 1.6101009414626333e-12,
+      "pass": true
+    },
+    {
+      "cell": "node_structured__step5000000__seed2026100810__task0",
+      "cost_relative_difference": 3.042749062687583e-13,
+      "kind": "finer_physics",
+      "max_command_difference": 0.0,
+      "max_q_difference": 4.525269048372138e-13,
+      "max_v_difference": 2.3812063432160357e-12,
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "predictions": [
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100800
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100800
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100800
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100800
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100800
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100800
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100800
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100800
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100800
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100800
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100800
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100800
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100801
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100801
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100801
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100801
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100801
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100801
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100801
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100801
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100801
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100801
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100801
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100801
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100802
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100802
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100802
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100802
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100802
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100802
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100802
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100802
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100802
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100802
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100802
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100802
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100803
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100803
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100803
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100803
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100803
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100803
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100803
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100803
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100803
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100803
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100803
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100803
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100804
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100804
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100804
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100804
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100804
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100804
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100804
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100804
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100804
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100804
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100804
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100804
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100805
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100805
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100805
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100805
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100805
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100805
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100805
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100805
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100805
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100805
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100805
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100805
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100806
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100806
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100806
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100806
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100806
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100806
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100806
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100806
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100806
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100806
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100806
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100806
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100807
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100807
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100807
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100807
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100807
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100807
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100807
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100807
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100807
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100807
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100807
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100807
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100808
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100808
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100808
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100808
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100808
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100808
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100808
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100808
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100808
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100808
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100808
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100808
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100809
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100809
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100809
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100809
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100809
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100809
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100809
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100809
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100809
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100809
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100809
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100809
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100810
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100810
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100810
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100810
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100810
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100810
+    },
+    {
+      "branch": "zero",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100810
+    },
+    {
+      "branch": "command",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100810
+    },
+    {
+      "branch": "composed",
+      "h_ns": 5000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100810
+    },
+    {
+      "branch": "zero",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100810
+    },
+    {
+      "branch": "command",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100810
+    },
+    {
+      "branch": "composed",
+      "h_ns": 10000000,
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100810
+    }
+  ],
+  "protocol_id": "PTCO-AFF-0.2",
+  "training": [
+    {
+      "max_parameter_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100800,
+      "validation_relative_difference": 0.0
+    },
+    {
+      "max_parameter_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100800,
+      "validation_relative_difference": 0.0
+    },
+    {
+      "max_parameter_difference": 0.0,
+      "model_id": "affine_flow",
+      "pass": true,
+      "seed": 2026100810,
+      "validation_relative_difference": 0.0
+    },
+    {
+      "max_parameter_difference": 0.0,
+      "model_id": "node_structured",
+      "pass": true,
+      "seed": 2026100810,
+      "validation_relative_difference": 0.0
+    }
+  ]
+}

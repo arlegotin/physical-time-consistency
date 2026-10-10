@@ -1,0 +1,2 @@
+# Completed evidence is byte-addressed; retain its exact recorded bytes.
+evidence/** -text -whitespace

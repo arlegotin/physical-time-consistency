@@ -1,0 +1,52 @@
+{
+  "branch": "main",
+  "control_equivalence_asserted": false,
+  "control_reporting_precision_met": true,
+  "control_superiority_supported": false,
+  "evidence": {
+    "reports/affine_fresh_demo.html": "aa21088c14ae83e9b16f3844ccbc4b6dda3022aa031e07ab6d79a3928521ad10",
+    "reports/affine_fresh_demo_receipt.json": "e23d40b65a7f7a006c3942d1ea1085dab43db54e50bcc7c265b9bf1f526f9dc7",
+    "reports/affine_practical_metrics.json": "c5f44e795c15ef5362ddc4c22cd014597b5918842d3d84a07b222627fd801b24",
+    "reports/affine_precision_001_independent_arithmetic.json": "bb25de44d7288f20a23cc75ea1310586708394b8cf9091f9822ad04bafb48257",
+    "reports/affine_precision_001_reproduction.json": "5420310f839a4f0a663c99e468b0a703d52020c24a21f13fce4bba1c3de9cefe",
+    "reports/affine_precision_001_result.json": "166cf989904e39547cc757018ba0a0c0c0bc428a3c55595bbb86cabd974075c4",
+    "reports/affine_refinement_findings.md": "420f9f7f8d608626e6bb2f0bc892405e61f1051d82a03ea17d75a3687ac45847",
+    "reports/affine_refinement_release_review_2026-10-09.md": "a1faddf7389c3c25c62775374958c1d147b28682f45cb65751a4196f51a38cba",
+    "reports/provenance/affine_refinement_ledger.md": "498f4d0c53cad82f8cc5fbd959b44ffdef92d4ea2cd5b55a69bb67167644dcd4"
+  },
+  "execution_archive": {
+    "archive_bytes": 19377279,
+    "archive_path": "reports/provenance/affine-refinement-execution.zip",
+    "archive_sha256": "f1ef60a2ff5e657f2db5da3dfd162a8f3014b7898c6a20df7a4a9a570e80d409",
+    "files": 88,
+    "logical_bytes": 66500705,
+    "recorded_utc": "2026-10-08T22:41:38.593287+00:00",
+    "scope": "Only the owned affine-flow refinement skill workspace; full readable logical contents including failed diagnostics and disposable fixtures retained. Other workspaces and scientific evidence remain untouched.",
+    "status": "verified"
+  },
+  "n_finer_physics_episodes": 44,
+  "n_primary_episodes": 440,
+  "n_probes": 512,
+  "n_replay_episodes": 44,
+  "n_training_pairs": 11,
+  "n_training_replications": 4,
+  "original_PTCO_PASS_asserted": false,
+  "primary_prediction_batch_gain_supported": true,
+  "protocol_id": "PTCO-AFF-0.2",
+  "recorded_utc": "2026-10-08T22:41:06.415901+00:00",
+  "remaining": [],
+  "review": {
+    "base": "9b07dec",
+    "critical": 0,
+    "deferred_implementation_minors": 0,
+    "head": "91b8ad3",
+    "important": 0
+  },
+  "scientific_scope": "Fully observed smooth two-link robot with known80ms motor lag; conditional fixed fresh training/probe corpus",
+  "status": "COMPLETE_SCOPED_TARGETED_REFINEMENT",
+  "tests": {
+    "command": ".venv/bin/python -m pytest -q",
+    "elapsed_seconds": 136.72,
+    "passed": 1010
+  }
+}

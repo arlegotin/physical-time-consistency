@@ -1,0 +1,94 @@
+{
+  "blocker": {
+    "check_id": "packages",
+    "reason": "Command failed (exit 1): ['/workspace/physical-time-consistency/.venv/bin/python', '-m', 'pip', '--isolated', '--disable-pip-version-check', 'install', '--only-binary=:all:', '--index-url', 'https://pypi.org/simple', '-r', 'requirements.in']; full output in /workspace/physical-time-consistency/evidence/M00/20260930T194636-e1ecb544/stderr.log",
+    "required_prerequisite": "Resolve packages at the specified pins on an authorized CPU host; resume M00"
+  },
+  "checks": [
+    {
+      "check_id": "authorization",
+      "reason": "Actual owner allocation recorded: {'ram_limit_gib': None, 'disk_limit_gib': None, 'cpu_time_limit_hours': None}",
+      "scope": "M00",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "python",
+      "reason": "3.11.5 | packaged by conda-forge | (main, Aug 27 2023, 03:33:12) [Clang 15.0.7 ]",
+      "scope": "M00",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "architecture",
+      "reason": "macOS-26.6.2-arm64-arm-64bit",
+      "scope": "M00",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "virtual_environment",
+      "reason": ".venv",
+      "scope": "M00",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "disk",
+      "reason": "13466304512 available bytes; suggested estimates are not resource caps",
+      "scope": "M00",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "packages",
+      "reason": "Command failed (exit 1): ['/workspace/physical-time-consistency/.venv/bin/python', '-m', 'pip', '--isolated', '--disable-pip-version-check', 'install', '--only-binary=:all:', '--index-url', 'https://pypi.org/simple', '-r', 'requirements.in']; full output in /workspace/physical-time-consistency/evidence/M00/20260930T194636-e1ecb544/stderr.log",
+      "scope": "M00",
+      "status": "blocked",
+      "tolerance": null
+    },
+    {
+      "check_id": "determinism",
+      "reason": "Not run",
+      "scope": "M00",
+      "status": "unresolved",
+      "tolerance": null
+    },
+    {
+      "check_id": "nstep",
+      "reason": "Not run",
+      "scope": "M00",
+      "status": "unresolved",
+      "tolerance": null
+    },
+    {
+      "check_id": "torch_smoke",
+      "reason": "Not run",
+      "scope": "M00",
+      "status": "unresolved",
+      "tolerance": null
+    },
+    {
+      "check_id": "wheel_lock",
+      "reason": "Not run",
+      "scope": "M00",
+      "status": "unresolved",
+      "tolerance": null
+    },
+    {
+      "check_id": "offline_install",
+      "reason": "Not run",
+      "scope": "M00",
+      "status": "unresolved",
+      "tolerance": null
+    },
+    {
+      "check_id": "validators",
+      "reason": "Not run",
+      "scope": "M00",
+      "status": "unresolved",
+      "tolerance": null
+    }
+  ],
+  "validity_status": "blocked"
+}

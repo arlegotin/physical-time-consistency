@@ -1,0 +1,130 @@
+{
+  "action_parameters": {
+    "actuator_interval_ns": 40000000,
+    "actuators": [
+      "direct",
+      "lagged"
+    ],
+    "episode_ids": [
+      0
+    ],
+    "model_step_ns": 5000000,
+    "models": [
+      "mlp_dt",
+      "power_correct"
+    ],
+    "physics_step_ns": 250000,
+    "seed_ids": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "tolerances": {
+      "command_nm": 1e-06,
+      "q_rad": 1e-06,
+      "relative_cost": 0.0001,
+      "v_rad_s": 1e-05
+    }
+  },
+  "authority": "Owner authorized continued local current-branch execution; Task 4 requires replay",
+  "authorization_reference": "config/authorization.json",
+  "branch": "reproduction",
+  "claim_ids": [
+    "C06"
+  ],
+  "contract": {
+    "1": "Exact element 1 in docs/superpowers/specs/2026-10-06-control-precision-replay.md, Twelve-part execution contract",
+    "10": "Exact element 10 in docs/superpowers/specs/2026-10-06-control-precision-replay.md, Twelve-part execution contract",
+    "11": "Exact element 11 in docs/superpowers/specs/2026-10-06-control-precision-replay.md, Twelve-part execution contract",
+    "12": "Exact element 12 in docs/superpowers/specs/2026-10-06-control-precision-replay.md, Twelve-part execution contract",
+    "2": "Exact element 2 in docs/superpowers/specs/2026-10-06-control-precision-replay.md, Twelve-part execution contract",
+    "3": "Exact element 3 in docs/superpowers/specs/2026-10-06-control-precision-replay.md, Twelve-part execution contract",
+    "4": "Exact element 4 in docs/superpowers/specs/2026-10-06-control-precision-replay.md, Twelve-part execution contract",
+    "5": "Exact element 5 in docs/superpowers/specs/2026-10-06-control-precision-replay.md, Twelve-part execution contract",
+    "6": "Exact element 6 in docs/superpowers/specs/2026-10-06-control-precision-replay.md, Twelve-part execution contract",
+    "7": "Exact element 7 in docs/superpowers/specs/2026-10-06-control-precision-replay.md, Twelve-part execution contract",
+    "8": "Exact element 8 in docs/superpowers/specs/2026-10-06-control-precision-replay.md, Twelve-part execution contract",
+    "9": "Exact element 9 in docs/superpowers/specs/2026-10-06-control-precision-replay.md, Twelve-part execution contract"
+  },
+  "expected_artifacts": [
+    "config/control_precision_replay_jobs.json",
+    "reports/control_precision_replay.json"
+  ],
+  "fresh_training": false,
+  "input_evidence": [
+    {
+      "path": "reports/control_confirmation_batch.json",
+      "role": "measured same-size first-task resource proxy",
+      "sha256": "cc1fd7ec7f080986bee3c25f74a94fd7990a75d8e06cb46dc8a7fd6ac35e4ef9"
+    }
+  ],
+  "input_hashes": {
+    "config/authorization.json": "c8935eb56837a5dc3430ea6c1ef7a0bf61f2a206c6a5b767ed13b15c38a52f78",
+    "config/revisions/MX-control-precision-0001.json": "2faa8eea8f660999b9ba6a5a82e5d4d8f315dd9df6b161dd2e88b13f4ea10e9d",
+    "docs/superpowers/specs/2026-10-06-control-precision-replay.md": "7d3e435bd1c9acd695af0e6287e29a0b8e4c5511d05d409fdce8d40d1b22bda3",
+    "locks/environment.json": "fe4c606657c8cef0768fb4687af1ac382240825e0d0e101738f6c5580a2f9dd3",
+    "poc/__init__.py": "a2663e8d543cbef68f5ef143d68b63cc6fde80d0d59bb560d4f23347632dcd10",
+    "poc/action_path.py": "5389db332d8ee89f21085cd5e8642ead126e845ba1d891f8422a4f509f9981b5",
+    "poc/analytic.py": "b6fd1dfef962c2517f7b24f0ffb96a4ef0188ab5058adea638309e6895f313fc",
+    "poc/calibration_batch.py": "f5723d548acc0d0b0a525d9c9bc109ccafdbc321f974409ca7eaef7513ab8604",
+    "poc/clocks.py": "7a45fe841e36bfabc1e4ee66c8b329755943dbd7a9c46fb016aceb925d544ef9",
+    "poc/contracts.py": "3615336d4cf41840c8026ad74afe0be2f36929bec625b7f0b2aaff56c7e4b7e4",
+    "poc/control.py": "b802a2e8a84200fd1d9741ce6cb7d4f2c98e66405b84cfb26f3c8a98289df5f5",
+    "poc/control_artifacts.py": "a22bf364e52c63ec05b44bfe329e2bbf5c36e37a1b9399cf2158a720733f7d04",
+    "poc/control_episode.py": "970168a74caf3f1ba5baa039a2de60ae035576c770e2b3dd58a341117db207a3",
+    "poc/control_jobs.py": "acbc3d196301c7128a26aab0585f40e0f55e7d536792741cf746c942366aca4f",
+    "poc/control_models.py": "50432a27298ef52e598d05e019fcf84e7d63a849dd9a62cc3a2bb7cb2e42ad31",
+    "poc/control_precision.py": "7712966dc115e3ab13ac75a068de5fb8637ad18de8577b0f875257a5087add78",
+    "poc/control_precision_replay.py": "dd39d2267a823f5d1f9c3d9e960f97c1a49004fb239581a41592ad99b5626f6f",
+    "poc/control_precision_result.py": "d2fc5ebd23cb688594d27684ae0f92fd4b48b6ce8ab88866489ca224094fd7c9",
+    "poc/control_replay.py": "2741564b67ad1b01fd8485f1460700e60703fbfd8f1c699247fb58bfa259ccbb",
+    "poc/control_utility.py": "75c2f019ec914aed8acf1293a9c0f7733a818cfe5106f61b4418bfb40237d94d",
+    "poc/envs.py": "e4635069a335d0b37d378adea3267c703f1c44f445a7c535afdc89f5e32ce35e",
+    "poc/execution.py": "7be39cb095560fd86df4109e1a88b4616174e1766edada9ea926718d192aa786",
+    "poc/gates.py": "a260b655bd8a7829237f00441be9d62a1bc3847d6d6570fecbd3b3a4042604b7",
+    "poc/history.py": "9f76f4bdd6776c01ecc8e53d77d5b4861c88f8d9e65b740353137416b457afdc",
+    "poc/io.py": "b7c169b0c7e296b7e11dfe42ae620ad33806de61b36b610db67d727bd7ac04cd",
+    "poc/models/__init__.py": "9af7c30ff7b9a23124b59def8f80551784db5aa4d97cad299a137e3663cf675a",
+    "poc/models/common.py": "1fed6c0593bab9a85a9899da66eb994eb6f4909c5fb200208e61f14320f947a1",
+    "poc/models/factory.py": "848243017a8b726c91483a080e026c6708dcb380fa75b7c34649420dc6b00c83",
+    "poc/models/mlp.py": "0859bac1c9eb737b3accfca9ecca3c9370f1100e110ccf251b0b1688c6f01110",
+    "poc/models/ode.py": "c2a5a2ecbca37c99afbcda2261e9dd05b3913508e5f1690935d3cb263dfda0ff",
+    "poc/models/power.py": "4d10d4d39aa2d1b35f301b2f60fe0148e3cdb529dc05f1b7601eb7d4a7a7c1d7",
+    "poc/models/sequence.py": "9cadc432670b4fb4e4d6ca88fb642c6de159b954747da720454e8da3d28acd95",
+    "poc/mpc.py": "ca2db4101a4b924af537705540a2e09eda5bdc7cac72d9acb9bbbf9452a2b61f",
+    "poc/mpc_calibration.py": "ede702834d517747db8f3f1493d39997990cc876b349f710af0c1a636bea40b8",
+    "poc/physics_fit.py": "95f5db85913f3ecc44f0236d3ad3f3ad27f644ebfc782a7c95bc79f9474998ad",
+    "poc/planner_qualification.py": "319d96f140a8d352a24e792c5538cad8f22fb43539f6e95c493b626bad100396",
+    "poc/reference_jobs.py": "2bbc9115bbf3f4ea759be85c64973966db666cabe9766decba4000e081d92fe5",
+    "poc/robot_calibration.py": "51bd9bedd37d6424e4bf98aaea14648c66ec36444cfa9959cbb2b6bed0481245",
+    "poc/train.py": "d56ccfaca398e08edc934b24c8b3ba7c7424628ffd5af4c753e36ef2bc5d7368"
+  },
+  "live_explanations": [
+    "Complete deterministic selected-weight replay",
+    "A replay/provenance/environment defect"
+  ],
+  "new_information": "Fresh-process same-weight replay of every new first-task coordinate; zero independent clusters and no statistical look",
+  "parent_gate": "control_precision_look_2",
+  "progress_condition": "All twenty complete actual parent/replay pairs compared under unchanged physical tolerances",
+  "protocol_id": "UTILITY-2026-10-02-control-v1",
+  "protocol_version": "PTCO-1.0",
+  "recorded_utc": "2026-10-06T07:46:23.497256Z",
+  "request_id": "MX-control-precision-replay-0001",
+  "resource_projection": {
+    "artifact_bytes": 50340391,
+    "basis": "Original same-size first-task cohort; actual new-parent projection required before dispatch",
+    "cpu_seconds": 1633.4375430000005,
+    "expected_episodes": 20,
+    "owner_imposed_caps": null,
+    "peak_rss_bytes": 410337280,
+    "producer_wall_seconds": 1637.788837998
+  },
+  "return_milestone": "M90",
+  "schema_version": 1,
+  "spec": "docs/superpowers/specs/2026-10-06-control-precision-replay.md",
+  "statistical_look": false,
+  "status": "ready",
+  "unresolved_question": "Do the fixed new selected weights reproduce their first paired control tasks?"
+}

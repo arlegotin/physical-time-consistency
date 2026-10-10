@@ -1,0 +1,15 @@
+{
+  "candidate_evaluations": 0,
+  "cpu_seconds": 0.290124,
+  "disk_bytes": 8612,
+  "network_calls": 0,
+  "original_estimate": {
+    "status": "estimate_not_a_cap",
+    "working_disk_gib": 10,
+    "working_ram_gib": 8
+  },
+  "peak_rss_bytes": 61587456,
+  "rss_convention": "macOS bytes",
+  "training_updates": 0,
+  "wall_seconds": 7.833278834
+}

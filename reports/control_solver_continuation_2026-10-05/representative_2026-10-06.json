@@ -1,0 +1,35 @@
+{
+  "job": {
+    "cell_id": "solver2__direct__A__shared__node_generic__seed0__h40000000__episode0",
+    "path": "config/control_solver_jobs/solver2__direct__A__shared__node_generic__seed0__h40000000__episode0.json",
+    "sha256": "f623e4cf13377308dd7e03b30b1cd5eb38a8dbf1b4ba4850533c818c003a5c6b"
+  },
+  "manifest": "evidence/M70/20261006T013641-43bdea98/manifest.json",
+  "manifest_sha256": "cc7f3de114546fc2d186854d0020d0b60312f671cebd0175073d7929afe747fb",
+  "recorded_utc": "2026-10-06T01:37:25.640878Z",
+  "resource_projection": {
+    "estimated_remaining_artifact_bytes": 245559699,
+    "free_bytes": 6955638784,
+    "limitation": "Measured two-substep representative artifact proxy; four-substep CPU cost will be measured by the serial runner.",
+    "owner_imposed_caps": null,
+    "remaining_episodes": 99
+  },
+  "resources": {
+    "cpu_seconds": 26.890625,
+    "disk_bytes": 2480401,
+    "original_estimate": null,
+    "peak_rss_bytes": 281460736,
+    "rss_convention": "macOS bytes",
+    "training_updates": 0,
+    "wall_seconds": 26.91807875
+  },
+  "returncode": 0,
+  "schema_version": 1,
+  "scientific_decision": "not_evaluated",
+  "state": "verified_representative_completed",
+  "statistical_look_reserved": false,
+  "verification": {
+    "actual_job_matches_frozen_registry": true,
+    "full_manifest_and_raw_episode_valid": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "actual_resources": {
+    "cpu_seconds": 7964.641973,
+    "fallback_count": 0,
+    "logical_artifact_bytes": 275571889,
+    "peak_rss_bytes": 408666112,
+    "producer_wall_seconds": 7976.233746588,
+    "rss_convention": "macOS bytes"
+  },
+  "alpha_spent": 0,
+  "corrected_field": "resource_scope",
+  "new_statistical_look": false,
+  "operational_only": true,
+  "parent": {
+    "path": "reports/control_precision_finer_completion_2026-10-07.json",
+    "sha256": "eef0b0216a8fb756abad6504ecc967baa28c89d89679a4f65f00f581833cc52c"
+  },
+  "reason": "The retained initial-finer proof copied a generic exclusion phrase that names finer physics; its actual resource totals include these one hundred initial finer producers.",
+  "recorded_utc": "2026-10-07T08:46:27.700197Z",
+  "resource_scope": "Only the one hundred completed initial 125-us finer episode producers. Startup, coordinator/root verification, training, interrupted attempts, any additional full/further physics refinement and replay are excluded.",
+  "schema_version": 1,
+  "scientific_artifacts_changed": false
+}

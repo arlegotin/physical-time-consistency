@@ -1,0 +1,19 @@
+{
+  "actual_command": "PYTHONPATH=. .venv/bin/python .superpowers/sdd/2026-10-06-control-precision/audit-primary-completion.py > .superpowers/sdd/2026-10-06-control-precision/audit-primary-completion.log 2>&1",
+  "actual_script_path": ".superpowers/sdd/2026-10-06-control-precision/audit-primary-completion.py",
+  "actual_script_sha256": "3e616a177240790658df865cea08ce12c58484b01d45fede4e69696e41ebf382",
+  "alpha_spent": 0,
+  "archive_note": "This one-time audit refuses to overwrite an existing completion receipt; use the registered result consumer to revalidate scientific evidence. The original completion receipt and all scientific files remain unchanged.",
+  "archived_script_path": "reports/control_precision_primary_completion_audit_2026-10-07.py",
+  "archived_script_sha256": "3e616a177240790658df865cea08ce12c58484b01d45fede4e69696e41ebf382",
+  "correction": "The parent verification_command names the byte-identical archived script. The actual successful audit ran the original private-workspace path below; the archival command is an equivalent source reference, not an additional execution.",
+  "execution_log_path": ".superpowers/sdd/2026-10-06-control-precision/audit-primary-completion.log",
+  "execution_log_sha256": "c455178fb1191f1cf8f89ae40e69892a29c021d2a6bc086a773502df7ab01729",
+  "new_statistical_look": false,
+  "operational_only": true,
+  "parent_path": "reports/control_precision_primary_completion_2026-10-07.json",
+  "parent_sha256": "2e2d52f23a55d3ef5e74e58e47a090d5a9a472ed0e10c2dd643c5f27c5269512",
+  "recorded_utc": "2026-10-07T08:10:22.523409Z",
+  "schema_version": 1,
+  "scientific_verdict": null
+}

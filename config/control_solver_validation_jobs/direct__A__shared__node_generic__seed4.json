@@ -1,0 +1,12 @@
+{
+  "actuator": "direct",
+  "canonical_tensor_sha256": "fa8164b6d6e7e23609a1ab72b235fbcdf1473df9092211db8bcfe1436fb02203",
+  "cell_id": "direct__A__shared__node_generic__seed4",
+  "checkpoint_sha256": "3fd0d6231c7a4e6905d2c1c78e391a6a00bedb506e81ec778115077361b9f89c",
+  "manifest": "study/precision-look-2/study/precision-look-3/study/precision-look-4/evidence/M30/20261001T122606-99fc22f8/manifest.json",
+  "manifest_sha256": "5f939c23175e8eaee8c21991cf152beb02531d23099bf83e0018a29b02551294",
+  "model_id": "node_generic",
+  "seed": 4,
+  "selection_audit_sha256": "0e3b83a0131d660ff6645404ecbba61844bfa68512203539e4469948d051f9ba",
+  "source_context": "study/precision-look-2/study/precision-look-3/study/precision-look-4"
+}

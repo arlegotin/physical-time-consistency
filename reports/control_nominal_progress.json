@@ -1,0 +1,1049 @@
+{
+  "active_nominal_fit": null,
+  "cell_id": "direct__A__shared__gru_dt__seed9000",
+  "cohort_receipt_sha256": "92586e02a296fc4f1886014ed9cc2c025aadec0a09d013d2a11ad83a91e07295",
+  "cohort_state": "complete",
+  "completed_blocks": [
+    {
+      "convergence": {
+        "relative_improvement": 0.20431011816980213,
+        "stabilized": false
+      },
+      "epochs": 100,
+      "learning_rate": 0.001,
+      "manifest": "study/control-development/evidence/M30/20261002T031601-56d11669/manifest.json",
+      "manifest_sha256": "c2f69c55dea3fcfe66d3211d4cf53175ffe679d975d0f5d0fda4e2b4f6757696",
+      "nominal_learning": true,
+      "resources": {
+        "cpu_seconds": 3143.212724,
+        "disk_bytes": 7083812,
+        "original_estimate": null,
+        "peak_rss_bytes": 718929920,
+        "rss_convention": "macOS bytes",
+        "training_updates": 12800,
+        "wall_seconds": 3143.921827125
+      },
+      "stabilized": false,
+      "validation": {
+        "epoch": 90,
+        "four_count": 7424,
+        "four_step": 0.0267456893775018,
+        "nominal_40ms_one_step": 0.00340483570471406,
+        "objective": 0.010520766056162818,
+        "one_count": 8192,
+        "one_step": 0.003834343711787369
+      }
+    },
+    {
+      "convergence": {
+        "relative_improvement": 0.10732872938536875,
+        "stabilized": false
+      },
+      "epochs": 200,
+      "learning_rate": 0.001,
+      "manifest": "study/control-development/evidence/M30/20261002T075259-f2c84049/manifest.json",
+      "manifest_sha256": "58f57e57b1002454df59c2ee987301bafda9dbc141230ca62e8f5f44b2c41878",
+      "nominal_learning": true,
+      "resources": {
+        "cpu_seconds": 3272.7187480000002,
+        "disk_bytes": 12309355,
+        "original_estimate": null,
+        "peak_rss_bytes": 738557952,
+        "rss_convention": "macOS bytes",
+        "training_updates": 25600,
+        "wall_seconds": 3311.007792875
+      },
+      "stabilized": false,
+      "validation": {
+        "epoch": 190,
+        "four_count": 7424,
+        "four_step": 0.009741643666435767,
+        "nominal_40ms_one_step": 0.0009784678695723414,
+        "objective": 0.0035519452060035635,
+        "one_count": 8192,
+        "one_step": 0.0011165342893946217
+      }
+    },
+    {
+      "convergence": {
+        "relative_improvement": 0.1423073689709766,
+        "stabilized": false
+      },
+      "epochs": 300,
+      "learning_rate": 0.001,
+      "manifest": "study/control-development/evidence/M30/20261002T084815-3031ffa6/manifest.json",
+      "manifest_sha256": "7d6736b8f55e1b4fb6c15fe8f80c198647607159c99d6e80c98f7bc7aaafb9f4",
+      "nominal_learning": true,
+      "resources": {
+        "cpu_seconds": 3783.815631,
+        "disk_bytes": 17559839,
+        "original_estimate": null,
+        "peak_rss_bytes": 732430336,
+        "rss_convention": "macOS bytes",
+        "training_updates": 38400,
+        "wall_seconds": 3809.459788125
+      },
+      "stabilized": false,
+      "validation": {
+        "epoch": 280,
+        "four_count": 7424,
+        "four_step": 0.005681819281499915,
+        "nominal_40ms_one_step": 0.0005121228750795126,
+        "objective": 0.0020095635097575346,
+        "one_count": 8192,
+        "one_step": 0.0005891086893825559
+      }
+    },
+    {
+      "convergence": {
+        "relative_improvement": 0.02727177021311869,
+        "stabilized": false
+      },
+      "epochs": 400,
+      "learning_rate": 0.001,
+      "manifest": "study/control-development/evidence/M30/20261002T095149-2165f2f0/manifest.json",
+      "manifest_sha256": "515f1de967834e0164225c19d72da6bf35eb11d774121a7642f4205ca994673b",
+      "nominal_learning": true,
+      "resources": {
+        "cpu_seconds": 3549.497345,
+        "disk_bytes": 22846375,
+        "original_estimate": null,
+        "peak_rss_bytes": 821346304,
+        "rss_convention": "macOS bytes",
+        "training_updates": 51200,
+        "wall_seconds": 3567.577481958
+      },
+      "stabilized": false,
+      "validation": {
+        "epoch": 385,
+        "four_count": 7424,
+        "four_step": 0.003915373511361018,
+        "nominal_40ms_one_step": 0.00034076167503371835,
+        "objective": 0.0014059960855837713,
+        "one_count": 8192,
+        "one_step": 0.00042715270774351666
+      }
+    },
+    {
+      "convergence": {
+        "relative_improvement": 0.2845444811404118,
+        "stabilized": false
+      },
+      "epochs": 500,
+      "learning_rate": 0.001,
+      "manifest": "study/control-development/evidence/M30/20261002T105121-2eef9e9a/manifest.json",
+      "manifest_sha256": "aa50f02097d6a05321621da508514cf051f988269702219b890f11a1faee2f3b",
+      "nominal_learning": true,
+      "resources": {
+        "cpu_seconds": 3654.4847480000003,
+        "disk_bytes": 28139363,
+        "original_estimate": null,
+        "peak_rss_bytes": 864714752,
+        "rss_convention": "macOS bytes",
+        "training_updates": 64000,
+        "wall_seconds": 3705.835841125
+      },
+      "stabilized": false,
+      "validation": {
+        "epoch": 475,
+        "four_count": 7424,
+        "four_step": 0.0033671797992328406,
+        "nominal_40ms_one_step": 0.0002748472325038165,
+        "objective": 0.0011900475046943406,
+        "one_count": 8192,
+        "one_step": 0.0003482525548861304
+      }
+    },
+    {
+      "convergence": {
+        "relative_improvement": 0.20712490342174422,
+        "stabilized": false
+      },
+      "epochs": 600,
+      "learning_rate": 0.001,
+      "manifest": "study/control-development/evidence/M30/20261002T115311-9be5446a/manifest.json",
+      "manifest_sha256": "2eceef8994a2d6138f9612d9f2ca0a77a190731592a8734be01a4f108febffef",
+      "nominal_learning": true,
+      "resources": {
+        "cpu_seconds": 3492.102355,
+        "disk_bytes": 33526293,
+        "original_estimate": null,
+        "peak_rss_bytes": 1054801920,
+        "rss_convention": "macOS bytes",
+        "training_updates": 76800,
+        "wall_seconds": 3498.706910166
+      },
+      "stabilized": false,
+      "validation": {
+        "epoch": 595,
+        "four_count": 7424,
+        "four_step": 0.002691777176692242,
+        "nominal_40ms_one_step": 0.0002068785106530413,
+        "objective": 0.0009531038302055032,
+        "one_count": 8192,
+        "one_step": 0.0002801595360324427
+      }
+    },
+    {
+      "convergence": {
+        "relative_improvement": 0.07548468005887776,
+        "stabilized": false
+      },
+      "epochs": 700,
+      "learning_rate": 0.001,
+      "manifest": "study/control-development/evidence/M30/20261002T125134-7b6f7fbc/manifest.json",
+      "manifest_sha256": "0fa0028ec61497c6a96479ab9aa463aa7af31067b886505dc7af9a74c3cca012",
+      "nominal_learning": true,
+      "resources": {
+        "cpu_seconds": 3383.4581160000002,
+        "disk_bytes": 38928805,
+        "original_estimate": null,
+        "peak_rss_bytes": 1046052864,
+        "rss_convention": "macOS bytes",
+        "training_updates": 89600,
+        "wall_seconds": 3389.622483125
+      },
+      "stabilized": false,
+      "validation": {
+        "epoch": 680,
+        "four_count": 7424,
+        "four_step": 0.002680838316258626,
+        "nominal_40ms_one_step": 0.000187203026143834,
+        "objective": 0.000923724094926409,
+        "one_count": 8192,
+        "one_step": 0.00025351451586175244
+      }
+    },
+    {
+      "convergence": {
+        "relative_improvement": -0.10157903306732874,
+        "stabilized": true
+      },
+      "epochs": 800,
+      "learning_rate": 0.001,
+      "manifest": "study/control-development/evidence/M30/20261002T134808-3ec3402f/manifest.json",
+      "manifest_sha256": "2cfa3a8900f9370140190c10ef5daa59e61b0a83d0ef2586e51531946d0fc1a6",
+      "nominal_learning": true,
+      "resources": {
+        "cpu_seconds": 3476.35062,
+        "disk_bytes": 44335809,
+        "original_estimate": null,
+        "peak_rss_bytes": 1027293184,
+        "rss_convention": "macOS bytes",
+        "training_updates": 102400,
+        "wall_seconds": 3506.884538375
+      },
+      "stabilized": true,
+      "validation": {
+        "epoch": 760,
+        "four_count": 7424,
+        "four_step": 0.0023947030764749546,
+        "nominal_40ms_one_step": 0.00016870145918801427,
+        "objective": 0.000821019471153516,
+        "one_count": 8192,
+        "one_step": 0.00022234370203477738
+      }
+    }
+  ],
+  "completed_fit_histories": [
+    {
+      "cell_id": "lagged__A__shared__gru_dt__seed9000",
+      "completed_blocks": [
+        {
+          "convergence": {
+            "relative_improvement": 0.25945396586430886,
+            "stabilized": false
+          },
+          "epochs": 100,
+          "learning_rate": 0.001,
+          "manifest": "study/control-development/evidence/M30/20261002T145341-9e7a4aa9/manifest.json",
+          "manifest_sha256": "3037c07530995fccd4512058a6c66734d7f592456f3cdc2c12ddc7f5b97e4116",
+          "nominal_learning": true,
+          "resources": {
+            "cpu_seconds": 3780.477609,
+            "disk_bytes": 7081605,
+            "original_estimate": null,
+            "peak_rss_bytes": 794345472,
+            "rss_convention": "macOS bytes",
+            "training_updates": 12800,
+            "wall_seconds": 3788.533887583
+          },
+          "stabilized": false,
+          "validation": {
+            "epoch": 90,
+            "four_count": 7424,
+            "four_step": 0.06158664861617706,
+            "nominal_40ms_one_step": 0.005617084912955761,
+            "objective": 0.02350039360618243,
+            "one_count": 8192,
+            "one_step": 0.008103731452138163
+          }
+        },
+        {
+          "convergence": {
+            "relative_improvement": 0.1660645638482549,
+            "stabilized": false
+          },
+          "epochs": 200,
+          "learning_rate": 0.001,
+          "manifest": "study/control-development/evidence/M30/20261002T155654-42682002/manifest.json",
+          "manifest_sha256": "1739ba34d3beaaa4dc9b31c2b5eeaa04eab9e09889fdbad2e2b32d6691f49891",
+          "nominal_learning": true,
+          "resources": {
+            "cpu_seconds": 3732.904797,
+            "disk_bytes": 12287681,
+            "original_estimate": null,
+            "peak_rss_bytes": 851705856,
+            "rss_convention": "macOS bytes",
+            "training_updates": 25600,
+            "wall_seconds": 3739.757618083
+          },
+          "stabilized": false,
+          "validation": {
+            "epoch": 200,
+            "four_count": 7424,
+            "four_step": 0.028231619031305007,
+            "nominal_40ms_one_step": 0.0017210992518812418,
+            "objective": 0.009711784889955668,
+            "one_count": 8192,
+            "one_step": 0.002653880132129416
+          }
+        },
+        {
+          "convergence": {
+            "relative_improvement": 0.18688749657196768,
+            "stabilized": false
+          },
+          "epochs": 300,
+          "learning_rate": 0.001,
+          "manifest": "study/control-development/evidence/M30/20261002T165918-11782ebe/manifest.json",
+          "manifest_sha256": "1d549eeeb5ddd7c1045029c012d5136d80983ad4b926687d9fbad56bc46c2274",
+          "nominal_learning": true,
+          "resources": {
+            "cpu_seconds": 3500.819309,
+            "disk_bytes": 17519530,
+            "original_estimate": null,
+            "peak_rss_bytes": 1037402112,
+            "rss_convention": "macOS bytes",
+            "training_updates": 38400,
+            "wall_seconds": 3505.425665083
+          },
+          "stabilized": false,
+          "timing_note": "UTC start/end span and perf-counter elapsed differ; cause not established. Original resource record is preserved.",
+          "utc_elapsed_seconds": 5158.489427,
+          "validation": {
+            "epoch": 290,
+            "four_count": 7424,
+            "four_step": 0.014377381175077532,
+            "nominal_40ms_one_step": 0.0009945500642061234,
+            "objective": 0.005136849968713594,
+            "one_count": 8192,
+            "one_step": 0.0015425046749442117
+          }
+        },
+        {
+          "convergence": {
+            "relative_improvement": 0.06789169489191889,
+            "stabilized": false
+          },
+          "epochs": 400,
+          "learning_rate": 0.001,
+          "manifest": "study/control-development/evidence/M30/20261002T182521-8566f421/manifest.json",
+          "manifest_sha256": "144264ed1cf4cf8ce3cd27def9121ae95d85b8dd66bab40b710098bb092a61fb",
+          "nominal_learning": true,
+          "resources": {
+            "cpu_seconds": 3667.0303769999996,
+            "disk_bytes": 22786175,
+            "original_estimate": null,
+            "peak_rss_bytes": 938344448,
+            "rss_convention": "macOS bytes",
+            "training_updates": 51200,
+            "wall_seconds": 3675.069489166
+          },
+          "stabilized": false,
+          "utc_elapsed_seconds": 3675.216756,
+          "validation": {
+            "epoch": 365,
+            "four_count": 7424,
+            "four_step": 0.013574552037958898,
+            "nominal_40ms_one_step": 0.0007965810946188867,
+            "objective": 0.00462685077936526,
+            "one_count": 8192,
+            "one_step": 0.0012332127698755357
+          }
+        },
+        {
+          "convergence": {
+            "relative_improvement": 0.37634415811249355,
+            "stabilized": false
+          },
+          "epochs": 500,
+          "learning_rate": 0.001,
+          "manifest": "study/control-development/evidence/M30/20261002T192640-bf3f8345/manifest.json",
+          "manifest_sha256": "7c253e425099dbd51505c78a41abfe67b3788648ac0c75de7144a7111881a4cb",
+          "nominal_learning": true,
+          "resources": {
+            "cpu_seconds": 3639.758941,
+            "disk_bytes": 28058090,
+            "original_estimate": null,
+            "peak_rss_bytes": 896221184,
+            "rss_convention": "macOS bytes",
+            "training_updates": 64000,
+            "wall_seconds": 3643.705630916
+          },
+          "stabilized": false,
+          "utc_elapsed_seconds": 3643.785117,
+          "validation": {
+            "epoch": 495,
+            "four_count": 7424,
+            "four_step": 0.00896258977131922,
+            "nominal_40ms_one_step": 0.0005755511811003089,
+            "objective": 0.003158085390294155,
+            "one_count": 8192,
+            "one_step": 0.0009174379474643501
+          }
+        },
+        {
+          "convergence": {
+            "relative_improvement": -0.05869159195077919,
+            "stabilized": true
+          },
+          "epochs": 600,
+          "learning_rate": 0.001,
+          "manifest": "study/control-development/evidence/M30/20261002T202728-8611a89c/manifest.json",
+          "manifest_sha256": "bf07633b82d1c6fc61023fcc87acd725e578a01e0707eb56b17932084bb282ec",
+          "nominal_learning": true,
+          "resources": {
+            "cpu_seconds": 3563.43865,
+            "disk_bytes": 33423359,
+            "original_estimate": null,
+            "peak_rss_bytes": 966443008,
+            "rss_convention": "macOS bytes",
+            "training_updates": 76800,
+            "wall_seconds": 3565.993961167
+          },
+          "stabilized": true,
+          "utc_elapsed_seconds": 3566.117269,
+          "validation": {
+            "epoch": 595,
+            "four_count": 7424,
+            "four_step": 0.007994772801825532,
+            "nominal_40ms_one_step": 0.0004626068694051355,
+            "objective": 0.0028023412853677844,
+            "one_count": 8192,
+            "one_step": 0.0008036480849114014
+          }
+        }
+      ],
+      "current_target_epochs": 600,
+      "qualified": true,
+      "selection": "Nominal validation only",
+      "state": "qualified"
+    },
+    {
+      "cell_id": "lagged__A__shared__node_generic__seed9000",
+      "completed_blocks": [
+        {
+          "convergence": {
+            "relative_improvement": 0.2382478868057728,
+            "stabilized": false
+          },
+          "epochs": 100,
+          "learning_rate": 0.001,
+          "manifest": "study/control-development/evidence/M30/20261002T212659-e8313d2a/manifest.json",
+          "manifest_sha256": "52260eef4e2dca9e770daa8f9ff42ff7b99bcdedf551519e6903bd88e587bee1",
+          "nominal_learning": true,
+          "resources": {
+            "cpu_seconds": 158.264711,
+            "disk_bytes": 6926212,
+            "original_estimate": null,
+            "peak_rss_bytes": 472481792,
+            "rss_convention": "macOS bytes",
+            "training_updates": 12800,
+            "wall_seconds": 158.671958875
+          },
+          "stabilized": false,
+          "utc_elapsed_seconds": 158.740499,
+          "validation": {
+            "epoch": 85,
+            "four_count": 7424,
+            "four_step": 0.020233611725667164,
+            "nominal_40ms_one_step": 0.0007862711208872497,
+            "objective": 0.006117827985753107,
+            "one_count": 8192,
+            "one_step": 0.001059425054336316
+          }
+        },
+        {
+          "convergence": {
+            "relative_improvement": 0.033725509017947346,
+            "stabilized": false
+          },
+          "epochs": 200,
+          "learning_rate": 0.001,
+          "manifest": "study/control-development/evidence/M30/20261002T212942-242c213b/manifest.json",
+          "manifest_sha256": "487cdbdd6e4019355503ac121b5d88471e4a1b44a959f85687853c5e4ce96a74",
+          "nominal_learning": true,
+          "resources": {
+            "cpu_seconds": 178.213986,
+            "disk_bytes": 12151095,
+            "original_estimate": null,
+            "peak_rss_bytes": 524877824,
+            "rss_convention": "macOS bytes",
+            "training_updates": 25600,
+            "wall_seconds": 178.905700834
+          },
+          "stabilized": false,
+          "utc_elapsed_seconds": 179.086484,
+          "validation": {
+            "epoch": 200,
+            "four_count": 7424,
+            "four_step": 0.008465265145348204,
+            "nominal_40ms_one_step": 0.0003320389660075307,
+            "objective": 0.0025840353445158236,
+            "one_count": 8192,
+            "one_step": 0.0004677190581787727
+          }
+        },
+        {
+          "convergence": {
+            "relative_improvement": 0.0919135327068788,
+            "stabilized": false
+          },
+          "epochs": 300,
+          "learning_rate": 0.001,
+          "manifest": "study/control-development/evidence/M30/20261002T213246-df7a04c2/manifest.json",
+          "manifest_sha256": "a5b9b3696b21ea08044b1ebc55ac9d67f42c080d12d795157fd9940927fe914d",
+          "nominal_learning": true,
+          "resources": {
+            "cpu_seconds": 187.655456,
+            "disk_bytes": 17392630,
+            "original_estimate": null,
+            "peak_rss_bytes": 661618688,
+            "rss_convention": "macOS bytes",
+            "training_updates": 38400,
+            "wall_seconds": 188.689069083
+          },
+          "stabilized": false,
+          "utc_elapsed_seconds": 188.88006,
+          "validation": {
+            "epoch": 285,
+            "four_count": 7424,
+            "four_step": 0.0066718034209018165,
+            "nominal_40ms_one_step": 0.0002648035006131977,
+            "objective": 0.002028288611999697,
+            "one_count": 8192,
+            "one_step": 0.00036033775677424273
+          }
+        },
+        {
+          "convergence": {
+            "relative_improvement": 0.054275241343577446,
+            "stabilized": false
+          },
+          "epochs": 400,
+          "learning_rate": 0.001,
+          "manifest": "study/control-development/evidence/M30/20261002T213559-588f05e0/manifest.json",
+          "manifest_sha256": "d467822372c8e220a7a855a7014041c8b9478887ed8d297016331cf6cf98f00f",
+          "nominal_learning": true,
+          "resources": {
+            "cpu_seconds": 192.290423,
+            "disk_bytes": 22666008,
+            "original_estimate": null,
+            "peak_rss_bytes": 759578624,
+            "rss_convention": "macOS bytes",
+            "training_updates": 51200,
+            "wall_seconds": 193.118737208
+          },
+          "stabilized": false,
+          "utc_elapsed_seconds": 193.298887,
+          "validation": {
+            "epoch": 400,
+            "four_count": 7424,
+            "four_step": 0.004669662257865952,
+            "nominal_40ms_one_step": 0.00017418572679162025,
+            "objective": 0.0014230183588348029,
+            "one_count": 8192,
+            "one_step": 0.0002556027943683148
+          }
+        },
+        {
+          "convergence": {
+            "relative_improvement": -0.09367115047256683,
+            "stabilized": true
+          },
+          "epochs": 500,
+          "learning_rate": 0.001,
+          "manifest": "study/control-development/evidence/M30/20261002T213916-a2d56caf/manifest.json",
+          "manifest_sha256": "1e381a68b4bd97820e30bef6a76f3e255737409c27c1fc9e6db4444e6d304b98",
+          "nominal_learning": true,
+          "resources": {
+            "cpu_seconds": 184.532536,
+            "disk_bytes": 27943389,
+            "original_estimate": null,
+            "peak_rss_bytes": 1117306880,
+            "rss_convention": "macOS bytes",
+            "training_updates": 64000,
+            "wall_seconds": 185.011896875
+          },
+          "stabilized": true,
+          "utc_elapsed_seconds": 185.126626,
+          "validation": {
+            "epoch": 400,
+            "four_count": 7424,
+            "four_step": 0.004669662257865952,
+            "nominal_40ms_one_step": 0.00017418572679162025,
+            "objective": 0.0014230183588348029,
+            "one_count": 8192,
+            "one_step": 0.0002556027943683148
+          }
+        }
+      ],
+      "current_target_epochs": 500,
+      "qualified": true,
+      "selection": "Nominal validation only",
+      "state": "qualified"
+    },
+    {
+      "cell_id": "lagged__A__shared__power_correct__seed9000",
+      "completed_blocks": [
+        {
+          "convergence": {
+            "relative_improvement": 0.24070178372410475,
+            "stabilized": false
+          },
+          "epochs": 100,
+          "learning_rate": 0.001,
+          "manifest": "study/control-development/evidence/M30/20261002T214225-54bcf204/manifest.json",
+          "manifest_sha256": "ad092d05b723a66539b6ed1c737c3ecde11d9abddadf28a8eb8b5bfcac728e3a",
+          "nominal_learning": true,
+          "resources": {
+            "cpu_seconds": 77.49078899999999,
+            "disk_bytes": 6926493,
+            "original_estimate": null,
+            "peak_rss_bytes": 464977920,
+            "rss_convention": "macOS bytes",
+            "training_updates": 12800,
+            "wall_seconds": 77.7411855
+          },
+          "stabilized": false,
+          "utc_elapsed_seconds": 77.810966,
+          "validation": {
+            "epoch": 95,
+            "four_count": 7424,
+            "four_step": 0.02907821750228197,
+            "nominal_40ms_one_step": 0.0009397064568474889,
+            "objective": 0.008889778499623986,
+            "one_count": 8192,
+            "one_step": 0.0016202241240534931
+          }
+        },
+        {
+          "convergence": {
+            "relative_improvement": 0.22050045384995653,
+            "stabilized": false
+          },
+          "epochs": 200,
+          "learning_rate": 0.001,
+          "manifest": "study/control-development/evidence/M30/20261002T214347-e09c4129/manifest.json",
+          "manifest_sha256": "36d2eae7914a59a4a61b0ae5320c5d668a5a17714a74ad79a849b7d46da4493c",
+          "nominal_learning": true,
+          "resources": {
+            "cpu_seconds": 84.350173,
+            "disk_bytes": 12147684,
+            "original_estimate": null,
+            "peak_rss_bytes": 590446592,
+            "rss_convention": "macOS bytes",
+            "training_updates": 25600,
+            "wall_seconds": 84.647849583
+          },
+          "stabilized": false,
+          "utc_elapsed_seconds": 84.721101,
+          "validation": {
+            "epoch": 180,
+            "four_count": 7424,
+            "four_step": 0.01578688269490095,
+            "nominal_40ms_one_step": 0.0005975340027362108,
+            "objective": 0.004895484995672475,
+            "one_count": 8192,
+            "one_step": 0.0009487643219472375
+          }
+        },
+        {
+          "convergence": {
+            "relative_improvement": 0.1290741802017189,
+            "stabilized": false
+          },
+          "epochs": 300,
+          "learning_rate": 0.001,
+          "manifest": "study/control-development/evidence/M30/20261002T214515-a225119f/manifest.json",
+          "manifest_sha256": "0c20ec9f5a277419772e32d789e5d0fe00c603a7bdec2bffd3229f8aac3475cf",
+          "nominal_learning": true,
+          "resources": {
+            "cpu_seconds": 90.93620200000001,
+            "disk_bytes": 17385320,
+            "original_estimate": null,
+            "peak_rss_bytes": 691453952,
+            "rss_convention": "macOS bytes",
+            "training_updates": 38400,
+            "wall_seconds": 91.329910375
+          },
+          "stabilized": false,
+          "utc_elapsed_seconds": 91.410638,
+          "validation": {
+            "epoch": 295,
+            "four_count": 7424,
+            "four_step": 0.009230747279522394,
+            "nominal_40ms_one_step": 0.0003683306567836553,
+            "objective": 0.002949654060761657,
+            "one_count": 8192,
+            "one_step": 0.0006419672408810584
+          }
+        },
+        {
+          "convergence": {
+            "relative_improvement": -0.042784123641221,
+            "stabilized": true
+          },
+          "epochs": 400,
+          "learning_rate": 0.001,
+          "manifest": "study/control-development/evidence/M30/20261002T214651-60f83515/manifest.json",
+          "manifest_sha256": "9a4c48e7855a376846214715845b6291c670e26e2ae7cf37e78ca8fe54eee16d",
+          "nominal_learning": true,
+          "resources": {
+            "cpu_seconds": 99.025431,
+            "disk_bytes": 22654230,
+            "original_estimate": null,
+            "peak_rss_bytes": 798261248,
+            "rss_convention": "macOS bytes",
+            "training_updates": 51200,
+            "wall_seconds": 99.449098541
+          },
+          "stabilized": true,
+          "utc_elapsed_seconds": 99.532155,
+          "validation": {
+            "epoch": 340,
+            "four_count": 7424,
+            "four_step": 0.008921849339960066,
+            "nominal_40ms_one_step": 0.0003560710756573826,
+            "objective": 0.0028171524842381867,
+            "one_count": 8192,
+            "one_step": 0.0005866901492481702
+          }
+        }
+      ],
+      "current_target_epochs": 400,
+      "qualified": true,
+      "selection": "Nominal validation only",
+      "state": "qualified"
+    },
+    {
+      "cell_id": "lagged__A__shared__node_structured__seed9000",
+      "completed_blocks": [
+        {
+          "convergence": {
+            "relative_improvement": 0.10005749917914006,
+            "stabilized": false
+          },
+          "epochs": 100,
+          "learning_rate": 0.001,
+          "manifest": "study/control-development/evidence/M30/20261002T214834-37ffd7a5/manifest.json",
+          "manifest_sha256": "b07962038adcd6e40f6a518acc8e17e13d252712795c1f6bebee39b8e08623dc",
+          "nominal_learning": true,
+          "resources": {
+            "cpu_seconds": 144.037156,
+            "disk_bytes": 6912254,
+            "original_estimate": null,
+            "peak_rss_bytes": 454803456,
+            "rss_convention": "macOS bytes",
+            "training_updates": 12800,
+            "wall_seconds": 144.240564833
+          },
+          "stabilized": false,
+          "utc_elapsed_seconds": 144.30801,
+          "validation": {
+            "epoch": 85,
+            "four_count": 7424,
+            "four_step": 0.02070505808484901,
+            "nominal_40ms_one_step": 0.0005469737807288766,
+            "objective": 0.006039224615521781,
+            "one_count": 8192,
+            "one_step": 0.0008629600943095284
+          }
+        },
+        {
+          "convergence": {
+            "relative_improvement": -0.14028743004979607,
+            "stabilized": true
+          },
+          "epochs": 200,
+          "learning_rate": 0.001,
+          "manifest": "study/control-development/evidence/M30/20261002T215102-a4c9fb6d/manifest.json",
+          "manifest_sha256": "851644586208dcb97ea11b16429832f4e246d301372159178682fa67062585a6",
+          "nominal_learning": true,
+          "resources": {
+            "cpu_seconds": 150.33718,
+            "disk_bytes": 12141168,
+            "original_estimate": null,
+            "peak_rss_bytes": 573620224,
+            "rss_convention": "macOS bytes",
+            "training_updates": 25600,
+            "wall_seconds": 150.617102459
+          },
+          "stabilized": true,
+          "utc_elapsed_seconds": 150.715447,
+          "validation": {
+            "epoch": 200,
+            "four_count": 7424,
+            "four_step": 0.010159946484832446,
+            "nominal_40ms_one_step": 0.00029625609749928117,
+            "objective": 0.0029945594559774628,
+            "one_count": 8192,
+            "one_step": 0.0004545728347693512
+          }
+        }
+      ],
+      "current_target_epochs": 200,
+      "qualified": true,
+      "selection": "Nominal validation only",
+      "state": "qualified"
+    }
+  ],
+  "completed_nominal_fits": 7,
+  "current_target_epochs": 800,
+  "engineering_note": "Prespecified optimizer stabilization is separate from withdrawn scientific effect floors; no artificial epoch cap",
+  "expected_nominal_fits": 7,
+  "next_cell_id": null,
+  "observed_utc": "2026-10-02T21:55:02.025412Z",
+  "qualified": true,
+  "schema_version": 1,
+  "scope": "The qualified flag and completed_blocks describe the direct GRU; verified_qualified_cells describes completed fits in the original seven-cell cohort",
+  "selection": "Nominal validation only; no control outcomes",
+  "state": "qualified",
+  "verified_qualified_cells": [
+    {
+      "cell_id": "direct__A__shared__gru_dt__seed9000",
+      "manifest": "study/control-development/evidence/M30/20261002T134808-3ec3402f/manifest.json",
+      "manifest_sha256": "2cfa3a8900f9370140190c10ef5daa59e61b0a83d0ef2586e51531946d0fc1a6",
+      "qualification": {
+        "convergence": {
+          "relative_improvement": -0.10157903306732874,
+          "stabilized": true
+        },
+        "nominal_learning": true,
+        "qualified": true,
+        "reason": "Nominal learning and convergence checked independently of fine-time outcomes"
+      },
+      "resources": {
+        "cpu_seconds": 3476.35062,
+        "disk_bytes": 44335809,
+        "original_estimate": null,
+        "peak_rss_bytes": 1027293184,
+        "rss_convention": "macOS bytes",
+        "training_updates": 102400,
+        "wall_seconds": 3506.884538375
+      },
+      "validation": {
+        "epoch": 760,
+        "four_count": 7424,
+        "four_step": 0.0023947030764749546,
+        "nominal_40ms_one_step": 0.00016870145918801427,
+        "objective": 0.000821019471153516,
+        "one_count": 8192,
+        "one_step": 0.00022234370203477738
+      }
+    },
+    {
+      "cell_id": "direct__A__shared__node_structured__seed9000",
+      "manifest": "study/control-development/evidence/M30/20261002T144640-2021313a/manifest.json",
+      "manifest_sha256": "f9e75e513195ec43bbc184941b9540569e2e44f6f169c56c31a22506ac823270",
+      "qualification": {
+        "convergence": {
+          "relative_improvement": -0.40858814004106775,
+          "stabilized": true
+        },
+        "nominal_learning": true,
+        "qualified": true,
+        "reason": "Nominal learning and convergence checked independently of fine-time outcomes"
+      },
+      "resources": {
+        "cpu_seconds": 149.91190300000002,
+        "disk_bytes": 6938227,
+        "original_estimate": null,
+        "peak_rss_bytes": 427802624,
+        "rss_convention": "macOS bytes",
+        "training_updates": 12800,
+        "wall_seconds": 150.68829575
+      },
+      "validation": {
+        "epoch": 90,
+        "four_count": 7424,
+        "four_step": 0.004728161297987691,
+        "nominal_40ms_one_step": 0.00020121264969930053,
+        "objective": 0.001429677926157167,
+        "one_count": 8192,
+        "one_step": 0.0002476376016602444
+      }
+    },
+    {
+      "cell_id": "lagged__A__shared__mlp_dt__seed9000",
+      "manifest": "study/control-development/evidence/M30/20261002T145227-d4e6da31/manifest.json",
+      "manifest_sha256": "2ca95ecc1c7da50625af026063ea7cb00b0c85e110d9e9ec56e814dba14fabee",
+      "qualification": {
+        "convergence": {
+          "relative_improvement": -0.23082278181022475,
+          "stabilized": true
+        },
+        "nominal_learning": true,
+        "qualified": true,
+        "reason": "Nominal learning and convergence checked independently of fine-time outcomes"
+      },
+      "resources": {
+        "cpu_seconds": 68.612865,
+        "disk_bytes": 22638908,
+        "original_estimate": null,
+        "peak_rss_bytes": 704413696,
+        "rss_convention": "macOS bytes",
+        "training_updates": 51200,
+        "wall_seconds": 69.385424333
+      },
+      "validation": {
+        "epoch": 400,
+        "four_count": 7424,
+        "four_step": 0.007974331267679848,
+        "nominal_40ms_one_step": 0.00039098371053114533,
+        "objective": 0.0026737544923325285,
+        "one_count": 8192,
+        "one_step": 0.0006801716754125664
+      }
+    },
+    {
+      "cell_id": "lagged__A__shared__gru_dt__seed9000",
+      "manifest": "study/control-development/evidence/M30/20261002T202728-8611a89c/manifest.json",
+      "manifest_sha256": "bf07633b82d1c6fc61023fcc87acd725e578a01e0707eb56b17932084bb282ec",
+      "qualification": {
+        "convergence": {
+          "relative_improvement": -0.05869159195077919,
+          "stabilized": true
+        },
+        "nominal_learning": true,
+        "qualified": true,
+        "reason": "Nominal learning and convergence checked independently of fine-time outcomes"
+      },
+      "resources": {
+        "cpu_seconds": 3563.43865,
+        "disk_bytes": 33423359,
+        "original_estimate": null,
+        "peak_rss_bytes": 966443008,
+        "rss_convention": "macOS bytes",
+        "training_updates": 76800,
+        "wall_seconds": 3565.993961167
+      },
+      "validation": {
+        "epoch": 595,
+        "four_count": 7424,
+        "four_step": 0.007994772801825532,
+        "nominal_40ms_one_step": 0.0004626068694051355,
+        "objective": 0.0028023412853677844,
+        "one_count": 8192,
+        "one_step": 0.0008036480849114014
+      }
+    },
+    {
+      "cell_id": "lagged__A__shared__node_generic__seed9000",
+      "manifest": "study/control-development/evidence/M30/20261002T213916-a2d56caf/manifest.json",
+      "manifest_sha256": "1e381a68b4bd97820e30bef6a76f3e255737409c27c1fc9e6db4444e6d304b98",
+      "qualification": {
+        "convergence": {
+          "relative_improvement": -0.09367115047256683,
+          "stabilized": true
+        },
+        "nominal_learning": true,
+        "qualified": true,
+        "reason": "Nominal learning and convergence checked independently of fine-time outcomes"
+      },
+      "resources": {
+        "cpu_seconds": 184.532536,
+        "disk_bytes": 27943389,
+        "original_estimate": null,
+        "peak_rss_bytes": 1117306880,
+        "rss_convention": "macOS bytes",
+        "training_updates": 64000,
+        "wall_seconds": 185.011896875
+      },
+      "validation": {
+        "epoch": 400,
+        "four_count": 7424,
+        "four_step": 0.004669662257865952,
+        "nominal_40ms_one_step": 0.00017418572679162025,
+        "objective": 0.0014230183588348029,
+        "one_count": 8192,
+        "one_step": 0.0002556027943683148
+      }
+    },
+    {
+      "cell_id": "lagged__A__shared__power_correct__seed9000",
+      "manifest": "study/control-development/evidence/M30/20261002T214651-60f83515/manifest.json",
+      "manifest_sha256": "9a4c48e7855a376846214715845b6291c670e26e2ae7cf37e78ca8fe54eee16d",
+      "qualification": {
+        "convergence": {
+          "relative_improvement": -0.042784123641221,
+          "stabilized": true
+        },
+        "nominal_learning": true,
+        "qualified": true,
+        "reason": "Nominal learning and convergence checked independently of fine-time outcomes"
+      },
+      "resources": {
+        "cpu_seconds": 99.025431,
+        "disk_bytes": 22654230,
+        "original_estimate": null,
+        "peak_rss_bytes": 798261248,
+        "rss_convention": "macOS bytes",
+        "training_updates": 51200,
+        "wall_seconds": 99.449098541
+      },
+      "validation": {
+        "epoch": 340,
+        "four_count": 7424,
+        "four_step": 0.008921849339960066,
+        "nominal_40ms_one_step": 0.0003560710756573826,
+        "objective": 0.0028171524842381867,
+        "one_count": 8192,
+        "one_step": 0.0005866901492481702
+      }
+    },
+    {
+      "cell_id": "lagged__A__shared__node_structured__seed9000",
+      "manifest": "study/control-development/evidence/M30/20261002T215102-a4c9fb6d/manifest.json",
+      "manifest_sha256": "851644586208dcb97ea11b16429832f4e246d301372159178682fa67062585a6",
+      "qualification": {
+        "convergence": {
+          "relative_improvement": -0.14028743004979607,
+          "stabilized": true
+        },
+        "nominal_learning": true,
+        "qualified": true,
+        "reason": "Nominal learning and convergence checked independently of fine-time outcomes"
+      },
+      "resources": {
+        "cpu_seconds": 150.33718,
+        "disk_bytes": 12141168,
+        "original_estimate": null,
+        "peak_rss_bytes": 573620224,
+        "rss_convention": "macOS bytes",
+        "training_updates": 25600,
+        "wall_seconds": 150.617102459
+      },
+      "validation": {
+        "epoch": 200,
+        "four_count": 7424,
+        "four_step": 0.010159946484832446,
+        "nominal_40ms_one_step": 0.00029625609749928117,
+        "objective": 0.0029945594559774628,
+        "one_count": 8192,
+        "one_step": 0.0004545728347693512
+      }
+    }
+  ]
+}

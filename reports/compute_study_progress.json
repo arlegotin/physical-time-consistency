@@ -1,0 +1,78 @@
+{
+  "state": "control_running",
+  "qualified_fits": 11,
+  "fitting": [
+    {
+      "seed": 2026100800,
+      "epochs": 500,
+      "validation_objective": 0.008626530131958385,
+      "cpu_seconds": 487.954766
+    },
+    {
+      "seed": 2026100801,
+      "epochs": 300,
+      "validation_objective": 0.009118117679432105,
+      "cpu_seconds": 286.76135899999997
+    },
+    {
+      "seed": 2026100802,
+      "epochs": 500,
+      "validation_objective": 0.008860173476430897,
+      "cpu_seconds": 509.734338
+    },
+    {
+      "seed": 2026100803,
+      "epochs": 300,
+      "validation_objective": 0.009032654515537836,
+      "cpu_seconds": 286.867393
+    },
+    {
+      "seed": 2026100804,
+      "epochs": 200,
+      "validation_objective": 0.009387377892412117,
+      "cpu_seconds": 186.3564980000001
+    },
+    {
+      "seed": 2026100805,
+      "epochs": 300,
+      "validation_objective": 0.009110273687085658,
+      "cpu_seconds": 285.00078900000017
+    },
+    {
+      "seed": 2026100806,
+      "epochs": 700,
+      "validation_objective": 0.008414386682363391,
+      "cpu_seconds": 731.5993169999999
+    },
+    {
+      "seed": 2026100807,
+      "epochs": 600,
+      "validation_objective": 0.008033058821418873,
+      "cpu_seconds": 592.7894429999997
+    },
+    {
+      "seed": 2026100808,
+      "epochs": 100,
+      "validation_objective": 0.01337118417516116,
+      "cpu_seconds": 87.69355300000007
+    },
+    {
+      "seed": 2026100809,
+      "epochs": 100,
+      "validation_objective": 0.011458123999859552,
+      "cpu_seconds": 86.83989900000006
+    },
+    {
+      "seed": 2026100810,
+      "epochs": 300,
+      "validation_objective": 0.009486680742062666,
+      "cpu_seconds": 277.67390000000023
+    }
+  ],
+  "mean_nominal_objective": 0.009536232891247512,
+  "mean_fit_cpu_seconds": 347.2064777272727,
+  "measurement_receipt": "reports/compute_study_measurement.json",
+  "primary_progress": "reports/compute_study_primary.json",
+  "pipeline": "reports/compute_study_execution.json",
+  "updated_utc": "2026-10-09T08:24:32.409157+00:00"
+}

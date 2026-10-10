@@ -1,0 +1,16 @@
+{
+  "pretraining_sha256": "1dbff3a07f5ef63b4fa718b3a78b2c9a294a84650fe361f6ffc01b586ad6fb3a",
+  "selected": {
+    "direct:mlp_h": {
+      "checkpoint_sha256": "dd825176db7ad48efa33ce0c2707d678e657eec065faee9200392f7101df0d48",
+      "manifest_sha256": "6f662735e8467d83e7e93112bf4c9f8ef283f8a2c68f5eac0503b814e6d23014",
+      "model_manifest": "study/control-development/evidence/M30/20261007T114143-8cf0e3cb/manifest.json"
+    },
+    "lagged:mlp_h": {
+      "checkpoint_sha256": "c07a6badf888cddd574a22cc81b362cc1e4a8c99dd3862299ce9b2fb537cead4",
+      "manifest_sha256": "0c29c62281270d176ab842c78aa658d371dcd0266a7e008626860cd7cec70df8",
+      "model_manifest": "study/control-development/evidence/M30/20261007T114623-36d1a44d/manifest.json"
+    }
+  },
+  "state": "complete"
+}

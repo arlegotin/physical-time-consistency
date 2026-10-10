@@ -1,0 +1,34 @@
+{
+  "confirmation_projection": {
+    "E01_jobs": 15,
+    "audit_wall_seconds": null,
+    "cpu_time_ceiling_hours": null,
+    "measured_development_fit_wall_seconds": {
+      "node_generic": 260.903840083,
+      "power_correct": 291.00522341600004
+    },
+    "note": "Training estimate uses actual nominally qualified development exposure; new seeds may need further nominal blocks. Audit time remains measured separately. No artificial resource or scientific ceiling.",
+    "training_fits": 10,
+    "training_wall_seconds": 2759.545317495
+  },
+  "confirmation_run": false,
+  "criteria_sha256": "4cba6f0d13e439a0bf02bd56a7647d2d406861461f403076454b5895ee72f700",
+  "extension": "mechanism-negative",
+  "freeze_sha256": "3066ed040b9ea958795775392637973d9da2ed25a5fd37481fa455287184ee85",
+  "missing_cells": [],
+  "qualifications": [
+    {
+      "cell_id": "direct__A__shared__node_generic__seed9000",
+      "model_id": "node_generic",
+      "qualified": true
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed9000",
+      "model_id": "power_correct",
+      "qualified": true
+    }
+  ],
+  "request_id": "MX-mechanism-negative-0004",
+  "statistical_family_size": 280,
+  "statistical_look": null
+}

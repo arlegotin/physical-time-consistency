@@ -1,0 +1,14 @@
+{
+  "cpu_seconds": 26.152686000000003,
+  "disk_bytes": 2449962,
+  "original_estimate": {
+    "basis": "Same model/partition representative episode producer time and disk, with 25% planning margin; estimate only, no artificial cap",
+    "disk_bytes": 3101440.0,
+    "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+    "wall_seconds": 32.605998488750004
+  },
+  "peak_rss_bytes": 389464064,
+  "rss_convention": "macOS bytes",
+  "training_updates": 0,
+  "wall_seconds": 26.165066167
+}

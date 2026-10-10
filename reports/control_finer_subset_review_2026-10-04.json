@@ -1,0 +1,59 @@
+{
+  "acceptance": {
+    "absolute_reduction_change_limit": 0.02,
+    "relative_cost_difference_limit": 0.02,
+    "success_or_fallback_changes_allowed": 0
+  },
+  "audited_episode_pairs": 300,
+  "evidence": [
+    {
+      "path": "reports/control_refinement_subset_audit.json",
+      "sha256": "569fc49982e707fa67d9471a2573461d38b9824d009e97591a2697e47d464af0"
+    },
+    {
+      "path": "reports/control_refinement_subset_batch.json",
+      "sha256": "ce451a0aa7a2520a67ff0a4b952e7aa3e87e0c5b0beddea8acbcb0eed1e58629"
+    },
+    {
+      "path": "config/control_refinement_subset.json",
+      "sha256": "b55678fed71397fe98cbfaeeefe6f583fedf30afb467d3dead672b133ff93d6b"
+    },
+    {
+      "path": "reports/control_confirmation_batch.json",
+      "sha256": "cc1fd7ec7f080986bee3c25f74a94fd7990a75d8e06cb46dc8a7fd6ac35e4ef9"
+    }
+  ],
+  "limitations": [
+    "This is a subset convergence check, not a certified numerical error bound.",
+    "A full affected-cell rerun may still be required for threshold-near decisions.",
+    "NODE integration error and physical-reference qualification remain separate checks.",
+    "No checkpoint, objective or statistical-look allocation changed."
+  ],
+  "metrics": {
+    "fallback_changes": 0,
+    "max_absolute_episode_cost_difference": 8.203437928955282e-13,
+    "max_absolute_reduction_change": 5.895284260759581e-14,
+    "max_relative_episode_cost_difference": 3.189124869577032e-12,
+    "success_changes": 0
+  },
+  "primary_physics_step_ns": 250000,
+  "recorded_utc": "2026-10-04T07:48:55.230468Z",
+  "refined_physics_step_ns": 125000,
+  "resources": {
+    "artifact_bytes_sum": 831096704,
+    "cpu_sum_seconds": 16549.464610999996,
+    "peak_rss_max_bytes": 414384128,
+    "scope": "These 300 completed finer-physics episode producers only.",
+    "wall_timer_sum_seconds": 16567.829662325
+  },
+  "schema_version": 1,
+  "scientific_decision": "not_evaluated_pending_reference_solver_checks_registered_control_look_and_reproduction",
+  "scope": "Both plants, three models, seeds 0\u20134, both 40/5 ms model partitions, first five episode IDs per cell.",
+  "state": "complete_subset_within_numerical_budgets",
+  "verification": {
+    "all_300_manifest_and_request_hashes_match": true,
+    "audit_parent_hashes_match": true,
+    "exact_expected_cell_coverage": true,
+    "frozen_input_hashes_match": true
+  }
+}

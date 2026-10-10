@@ -1,0 +1,73 @@
+{
+  "actuator": "direct",
+  "actuator_interval_ns": 40000000,
+  "candidate_count_per_decision": 512,
+  "checkpoint_hash": "3dab1c7ce6082394439d0b61a697b3d4b570292d2067689817323a4d89d3fb7e",
+  "command_effort_integral": 1.1603301072382253,
+  "complete": true,
+  "condition": "clean",
+  "cost_components": {
+    "effort": 0.0011603301072382252,
+    "terminal": 0.00163273387531346,
+    "total": 0.1800804815557063,
+    "tracking": 0.07804457643049686,
+    "velocity": 0.09924284114265775
+  },
+  "episode_id": 5,
+  "experiment_id": "E03",
+  "fallback_count": 0,
+  "final_window_sample_count": 801,
+  "initial_state": [
+    -0.4116957664921066,
+    -0.2755419341773374,
+    0.0,
+    0.0
+  ],
+  "model_id": "power_correct",
+  "model_partition_ns": [
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000
+  ],
+  "phase": "exploratory",
+  "physics_step_ns": 250000,
+  "planner_latency_median_seconds": 1.944138792,
+  "planner_latency_p95_seconds": 1.9750212521000001,
+  "power_mode": null,
+  "q_rmse_rad": 0.16940473724511956,
+  "realized_cost": 0.1800804815557063,
+  "run_id": "20261002T020903-bec51efa",
+  "seed": 9000,
+  "seed_namespaces": {
+    "cem": [
+      7101,
+      9000,
+      5,
+      2
+    ],
+    "disturbance": [
+      7101,
+      9000,
+      0,
+      4
+    ]
+  },
+  "success": false,
+  "target": [
+    0.14506337831147764,
+    -0.8884625522931109
+  ],
+  "terminal_q_error_rad": 0.01807060527660023,
+  "velocity_rms_rad_s": 0.7601577023391308,
+  "work": {
+    "history_tokens_processed": 0,
+    "network_calls": 15360,
+    "scalar_candidate_evaluations": 983040,
+    "vector_field_calls": 0
+  }
+}

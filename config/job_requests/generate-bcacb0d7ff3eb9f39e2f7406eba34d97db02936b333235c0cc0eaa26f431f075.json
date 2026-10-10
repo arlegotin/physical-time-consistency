@@ -1,0 +1,6 @@
+{
+  "actuator": "lagged",
+  "condition": "F",
+  "n_trajectories": 128,
+  "role": "development"
+}

@@ -1,0 +1,15 @@
+{
+  "classification": "Known deliberate software fixtures, not research results",
+  "detected": {
+    "direct_columns": true,
+    "direct_low_order": true,
+    "direct_sign": true,
+    "direct_zero": true,
+    "lagged_columns": true,
+    "lagged_direct_mismatch": true,
+    "lagged_low_order": true,
+    "lagged_sign": true,
+    "lagged_zero": true,
+    "w_initialized_from_u": true
+  }
+}

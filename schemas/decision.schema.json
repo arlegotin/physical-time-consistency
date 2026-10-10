@@ -1,0 +1,264 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "alpha_spent": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "code_tree_sha256": {
+      "pattern": "[0-9a-f]{64}",
+      "type": "string"
+    },
+    "configuration_sha256": {
+      "pattern": "[0-9a-f]{64}",
+      "type": "string"
+    },
+    "created_utc": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "criterion_evaluations": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "bounds": {
+            "anyOf": [
+              {
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "criterion_id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "estimate": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "operator": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "reason": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "pass",
+              "fail",
+              "unresolved",
+              "invalid",
+              "not_applicable"
+            ],
+            "type": "string"
+          },
+          "threshold": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "criterion_id",
+          "status",
+          "estimate",
+          "bounds",
+          "threshold",
+          "operator",
+          "reason"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "decision_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "evidence": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "producing_run_id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "role": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "sha256": {
+            "pattern": "[0-9a-f]{64}",
+            "type": "string"
+          }
+        },
+        "required": [
+          "path",
+          "sha256",
+          "role",
+          "producing_run_id"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "gate_id": {
+      "enum": [
+        "G00",
+        "G10",
+        "G20",
+        "G30",
+        "GR",
+        "G40",
+        "G50",
+        "G60",
+        "G70",
+        "G80",
+        "G90",
+        "GX",
+        "GF"
+      ],
+      "type": "string"
+    },
+    "look_index": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "milestone_id": {
+      "enum": [
+        "M00",
+        "M10",
+        "M20",
+        "M30",
+        "MR",
+        "M40",
+        "M50",
+        "M60",
+        "M70",
+        "M80",
+        "M90",
+        "MX",
+        "MF"
+      ],
+      "type": "string"
+    },
+    "outcome": {
+      "enum": [
+        "GO",
+        "NO-GO",
+        "INCONCLUSIVE",
+        "INVALID",
+        "BLOCKED"
+      ],
+      "type": "string"
+    },
+    "permitted_next_actions": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "phase": {
+      "enum": [
+        "preflight",
+        "unit",
+        "calibration",
+        "exploratory",
+        "confirmatory",
+        "replication",
+        "report"
+      ],
+      "type": "string"
+    },
+    "protocol_version": {
+      "enum": [
+        "PTCO-1.0"
+      ],
+      "type": "string"
+    },
+    "schema_version": {
+      "enum": [
+        1
+      ],
+      "type": "integer"
+    },
+    "terminal_verdict": {
+      "anyOf": [
+        {
+          "enum": [
+            "POC PASS",
+            "POC FAIL",
+            "BLOCKED",
+            "INCONCLUSIVE"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "validity_status": {
+      "enum": [
+        "valid",
+        "invalid",
+        "unresolved",
+        "blocked"
+      ],
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "protocol_version",
+    "milestone_id",
+    "gate_id",
+    "decision_id",
+    "phase",
+    "evidence",
+    "code_tree_sha256",
+    "configuration_sha256",
+    "validity_status",
+    "criterion_evaluations",
+    "outcome",
+    "terminal_verdict",
+    "permitted_next_actions",
+    "look_index",
+    "alpha_spent",
+    "created_utc"
+  ],
+  "type": "object"
+}

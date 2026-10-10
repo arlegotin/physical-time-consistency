@@ -1,0 +1,20 @@
+{
+  "actuator": "lagged",
+  "missing_cells": [],
+  "model_hashes": {
+    "canonical_tensor_sha256": "41f536af6ec0ed0b1c1969b4144e1eaf15933f7a51069a6d1061f3a0bb96eef3"
+  },
+  "model_id": "node_generic",
+  "robot_result": false,
+  "tiny_loss": 0.0009599500335752964,
+  "tiny_updates": 119,
+  "training_updates": 519,
+  "validation": {
+    "epoch": 100,
+    "four_count": 0,
+    "four_step": 0.0,
+    "objective": 0.00034109861007891595,
+    "one_count": 256,
+    "one_step": 0.00034109861007891595
+  }
+}

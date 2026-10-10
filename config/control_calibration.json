@@ -1,0 +1,87 @@
+{
+  "actuator_interval_ns": 40000000,
+  "actuators": [
+    "direct",
+    "lagged"
+  ],
+  "common_bank_audit": {
+    "decision_index": 0,
+    "episode_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "oracle_steps_ns": [
+      250000,
+      125000,
+      62500
+    ],
+    "physics_steps_s": [
+      0.00125,
+      0.000625,
+      0.0003125
+    ],
+    "ranking_rule": "No inversion resolved outside independent empirical two-successive-refinement cost envelopes",
+    "raw_arrays": "reference_bank.npz",
+    "selection": "All 512 candidates at the first decision of each fixed calibration task"
+  },
+  "episode_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "model_partition_ns": [
+    40000000
+  ],
+  "models": [
+    "zero_command",
+    "physics_fit",
+    "sim_oracle"
+  ],
+  "observation_interval_ns": 40000000,
+  "phase": "calibration",
+  "physics_step_ns": 250000,
+  "planner_config_sha256": "aee4a7ef9d5936f27714b2a63ffcacbfdf7a1d8ed9a3920190320d0c68bd3085",
+  "planner_settings": {
+    "candidate_count": 128,
+    "elite_count": 16,
+    "initial_std": 1.0,
+    "iterations": 4,
+    "std_floor": 0.1
+  },
+  "purpose": "Model-independent robot planner qualification before learned-model control outcomes",
+  "recorded_utc": "2026-10-01T22:40:30.830291Z",
+  "replanning_interval_ns": 40000000,
+  "resource_schedule": "Measure episode0 for each reference/actuator before projecting remaining jobs",
+  "schema_version": 1,
+  "seed_root": 7101,
+  "selection": "First model-independent qualifying common budget; learned results cannot select budget",
+  "task_distribution": "Original S09.1 fixed calibration draws; no task replacement",
+  "training_seed": 9000
+}

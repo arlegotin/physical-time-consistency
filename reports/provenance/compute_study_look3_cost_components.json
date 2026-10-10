@@ -1,0 +1,83 @@
+{
+  "components": "Four weighted contributions to the original score; effort is squared torque integral, not energy.",
+  "configuration_means": [
+    {
+      "components": {
+        "effort": 0.0023693975334727205,
+        "terminal": 0.0006111140970888018,
+        "tracking": 0.16699701432328737,
+        "velocity": 0.10685637575782066
+      },
+      "cost": 0.27683390171166955,
+      "model_id": "affine_flow",
+      "n_episodes": 320,
+      "step_ns": 5000000
+    },
+    {
+      "components": {
+        "effort": 0.002136905171020963,
+        "terminal": 0.0002454552603977573,
+        "tracking": 0.16593748376108555,
+        "velocity": 0.1052229712477287
+      },
+      "cost": 0.27354281544023296,
+      "model_id": "affine_flow",
+      "n_episodes": 320,
+      "step_ns": 40000000
+    },
+    {
+      "components": {
+        "effort": 0.002374745830980717,
+        "terminal": 0.0005727961734082645,
+        "tracking": 0.1665817149096204,
+        "velocity": 0.1077850321365934
+      },
+      "cost": 0.2773142890506028,
+      "model_id": "node_quadrature",
+      "n_episodes": 320,
+      "step_ns": 5000000
+    },
+    {
+      "components": {
+        "effort": 0.002176323289425213,
+        "terminal": 0.00029363228495144666,
+        "tracking": 0.1655481303871057,
+        "velocity": 0.1084844209919952
+      },
+      "cost": 0.27650250695347756,
+      "model_id": "node_quadrature",
+      "n_episodes": 320,
+      "step_ns": 40000000
+    },
+    {
+      "components": {
+        "effort": 0.0025590794375245822,
+        "terminal": 0.0008304624770356026,
+        "tracking": 0.16755472887502085,
+        "velocity": 0.10835849644121312
+      },
+      "cost": 0.2793027672307941,
+      "model_id": "node_structured",
+      "n_episodes": 320,
+      "step_ns": 5000000
+    },
+    {
+      "components": {
+        "effort": 0.0021897367995939165,
+        "terminal": 0.00030102533145018486,
+        "tracking": 0.1652890082499429,
+        "velocity": 0.10795415959125709
+      },
+      "cost": 0.27573392997224405,
+      "model_id": "node_structured",
+      "n_episodes": 320,
+      "step_ns": 40000000
+    }
+  ],
+  "created_utc": "2026-10-09T19:01:21.113512Z",
+  "limitations": "No new statistical contrast or practical superiority claim; all1920 complete paired episodes retained.",
+  "look": 3,
+  "parent_sha256": "56e1a339eb4779835a9040ae5d75f3f302b513de77ec0592934d17ba5b3595bd",
+  "phase": "secondary_descriptive",
+  "script_sha256": "8ea52a80ebce24c817675210b59d5c2c2065aac63a8a686251ff409aa154448f"
+}

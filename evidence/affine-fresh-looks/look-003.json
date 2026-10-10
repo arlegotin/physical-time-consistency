@@ -1,0 +1,22 @@
+{
+  "alpha": 0.00625,
+  "evidence_identity": {
+    "controls": {
+      "finer_physics": "8cc19df25dca76dda555a4615e1a457d69192d32ceac7e38da66c09c41ece1ae",
+      "primary": "a90bf4fdfae06646f27586ec92bbd446e60c2cc0e95d969a38ecb705cdb6948b"
+    },
+    "measurements": [
+      {
+        "path": "evidence/M40/20261008T104949-ef46ae39/manifest.json",
+        "sha256": "88c8ddc4921ee34550b3775e38e6cde629ccb91a649adfbfcd5f4481ffa98d48"
+      },
+      {
+        "path": "evidence/M40/20261008T125329-f7c1e6c7/manifest.json",
+        "sha256": "82bf491486928e0e53b2f7d0af5bccf2dc5db7bf585efb21c282145f0bcb71c7"
+      }
+    ],
+    "precision_freeze_sha256": "7330523c33baf822be31b1dee55acf41c617839454921cf2301350e0d1e86e42"
+  },
+  "look_index": 3,
+  "protocol_id": "PTCO-AFF-0.2"
+}

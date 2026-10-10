@@ -1,0 +1,89 @@
+{
+  "alpha": 0.025,
+  "control_evidence": "not_run",
+  "decision": "decisions/GR/0b79513e7f2cc7e8cc1eb8a416ba0e1330f54bab6e6f3d264977eb7eb5f1173d.json",
+  "decision_id": "0b79513e7f2cc7e8cc1eb8a416ba0e1330f54bab6e6f3d264977eb7eb5f1173d",
+  "decision_sha256": "52c39be772c2375e91e0871c44192bb6186f288613c779538caa1e13dd61ee6b",
+  "gate_outcome": "INCONCLUSIVE",
+  "independently_reaggregated_raw_summaries": 180,
+  "look_index": 1,
+  "probes_per_stratum": 256,
+  "protocol_version": "PTCO-1.0",
+  "report_kind": "NONTERMINAL progress",
+  "rows": [
+    {
+      "baseline_error": 0.0427494358890985,
+      "corrected_error": 0.021078097902902045,
+      "criterion_id": "K02.relative/actuator=direct/stratum=cold/h_ns=5000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+      "criterion_status": "unresolved",
+      "h_ms": 5.0,
+      "point_reduction": 0.5069385720648268,
+      "seed_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stratum": "cold"
+    },
+    {
+      "baseline_error": 0.046152612692634196,
+      "corrected_error": 0.02347379995300345,
+      "criterion_id": "K02.relative/actuator=direct/stratum=warm/h_ns=5000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+      "criterion_status": "unresolved",
+      "h_ms": 5.0,
+      "point_reduction": 0.4913874083503448,
+      "seed_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stratum": "warm"
+    },
+    {
+      "baseline_error": 0.02393962593701967,
+      "corrected_error": 0.019103019242767395,
+      "criterion_id": "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+      "criterion_status": "unresolved",
+      "h_ms": 10.0,
+      "point_reduction": 0.20203351159188587,
+      "seed_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stratum": "cold"
+    },
+    {
+      "baseline_error": 0.025455478122349762,
+      "corrected_error": 0.020867273651519906,
+      "criterion_id": "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+      "criterion_status": "unresolved",
+      "h_ms": 10.0,
+      "point_reduction": 0.18024428568094497,
+      "seed_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "stratum": "warm"
+    }
+  ],
+  "source": "evidence/MR/20261001T111511-ff500529/summary.json",
+  "source_sha256": "da41f458eff63cadd355b01c91c8118726d73c654dfb03ecdf17811f27dc5b1f",
+  "statistical_family_size": 280,
+  "training_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "reason": "Prior supervisor no longer exists; resume compatible complete child jobs and the hash-verified incomplete training checkpoint.",
+  "status": "interrupted",
+  "unfinished_child": "20260930T233626-74aabaf9",
+  "utc_recorded": "2026-10-01T06:38:08.309829Z"
+}

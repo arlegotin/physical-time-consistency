@@ -1,0 +1,20 @@
+{
+  "recorded_utc": "2026-10-04T23:14:35.648710Z",
+  "resource_projection": {
+    "estimated_artifact_bytes": 251486662,
+    "expected_episodes": 100,
+    "interpretation": "Same raw episode layout; NODE field work doubles/quadruples, controller overhead also contributes",
+    "original_nominal_cpu_seconds": 1370.67429
+  },
+  "scientific_execution_started": false,
+  "solver_jobs": 100,
+  "solver_registry_sha256": "5572a2be5925994b53c53e4407851b1794a0f36630658f24b2548b0360ac2680",
+  "source_hashes": {
+    "poc/control_result.py": "8e442a5cfc64ca1af2b414ae0c47b7ea98003f185425ef7272efb1d80a84d914",
+    "poc/control_solver_continuation.py": "d36d22822d73c4ba42d4b2cfd570104fece58847a3409e78ff09532f54e04ae7",
+    "poc/control_solver_validation.py": "11e2a09cc68bb762399b33d4da422d50b8d13502187c85d19cd7cc1fe33af339"
+  },
+  "statistical_look_reserved": false,
+  "validation_fits": 10,
+  "validation_registry_sha256": "0e606cfbd0ad556e903a5bfcd8ee892353d6acf052a9785ae5f8e213ecb32eba"
+}

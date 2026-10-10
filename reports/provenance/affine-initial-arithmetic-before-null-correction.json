@@ -1,0 +1,56 @@
+{
+  "audit_source_sha256": "6eb58481c4bc5318cc76e9c61b1e3f6c3715664a90e8c607ffbc7ea3059162a6",
+  "contrast_checks": [
+    {
+      "analytic_t_lower": 3.25194437083208e-07,
+      "component": "q",
+      "h_ns": 5000000,
+      "n": 5,
+      "scalar_mean": 2.2066814949677512e-06,
+      "scalar_sd": 1.5152948467591603e-06
+    },
+    {
+      "analytic_t_lower": -4.204489354119327e-05,
+      "component": "v",
+      "h_ns": 5000000,
+      "n": 5,
+      "scalar_mean": 0.0007384244315864449,
+      "scalar_sd": 0.0006285672502840474
+    },
+    {
+      "analytic_t_lower": 8.74339419586972e-07,
+      "component": "q",
+      "h_ns": 10000000,
+      "n": 5,
+      "scalar_mean": 8.28584356318967e-06,
+      "scalar_sd": 5.969009453704408e-06
+    },
+    {
+      "analytic_t_lower": -0.000402430210730426,
+      "component": "v",
+      "h_ns": 10000000,
+      "n": 5,
+      "scalar_mean": 0.0011941889756715803,
+      "scalar_sd": 0.001285870564590525
+    }
+  ],
+  "cost_checks": [],
+  "created_utc": "2026-10-08T11:20:20.204054Z",
+  "evidence": {
+    "evidence/M40/20261008T104949-ef46ae39/manifest.json": "88c8ddc4921ee34550b3775e38e6cde629ccb91a649adfbfcd5f4481ffa98d48"
+  },
+  "max_episode_cost_difference": 0.0,
+  "max_prediction_summary_difference": 8.673617379884035e-19,
+  "passed": true,
+  "prediction_statistic_rows": 80,
+  "protocol_id": "PTCO-AFF-0.2",
+  "result_sha256": "104b6c0a283ae71a1f7477826ae602f03bd4e2da78c0b748e6cf9e629fe39fb8",
+  "seeds": [
+    2026100800,
+    2026100801,
+    2026100802,
+    2026100803,
+    2026100804
+  ],
+  "timing_cells": 60
+}

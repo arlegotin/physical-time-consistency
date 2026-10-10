@@ -1,0 +1,18 @@
+{
+  "missing_cells": [],
+  "report_status": "NONTERMINAL",
+  "source_decision": "study/precision-look-2/study/precision-look-3/study/precision-look-4/decisions/GR/5d6033bf6fec551f96ec4a5ba0d0186345596a3cb90c845ca86bbb2dc0b016ee.json",
+  "source_decision_sha256": "1fbfbbc3b09f41dab7dd00300e2eda6e99f3c8a150fbd0224bbab5714998d63a",
+  "terminal_verdict": null,
+  "validation": {
+    "criteria_count": 294,
+    "scientific_evidence": {
+      "complete_runs": 570,
+      "criteria_status": "declared",
+      "statistical_family_size": 280,
+      "status": "valid"
+    },
+    "status": "valid",
+    "verdict": "NONTERMINAL"
+  }
+}

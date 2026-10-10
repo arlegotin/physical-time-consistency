@@ -1,0 +1,4 @@
+{
+  "actuator": "lagged",
+  "model_id": "mlp_dt"
+}

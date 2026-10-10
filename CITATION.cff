@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or its simulation results, please cite this repository."
+type: software
+title: "Physical-time consistency in learned robot dynamics: AffineFlow"
+authors:
+  - family-names: Legotin
+    given-names: Artem
+repository-code: "https://github.com/arlegotin/physical-time-consistency"
+url: "https://github.com/arlegotin/physical-time-consistency"
+license: AGPL-3.0-only
+date-released: "2026-10-10"
+abstract: >-
+  Research software for testing physical-time action-effect structure in learned
+  robot dynamics. AffineFlow predicts local acceleration drift and torque response
+  and uses known actuator dynamics in a two-evaluation transition map. The completed
+  compute-matched simulation study compares it against two mechanics-structured
+  neural ODE predictors on one fully observed two-link arm with known actuator lag,
+  across 38 training seeds and 4,560 paired control episodes. The supported control
+  advantage is modest and conditional on the specified plant, corpus and MPC cost;
+  prediction and inference-speed advantages depend on state stratum and batching.
+keywords:
+  - robot dynamics
+  - model predictive control
+  - neural ODE
+  - physical time
+  - actuator dynamics
+  - reproducible simulation

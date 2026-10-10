@@ -1,0 +1,370 @@
+{
+  "created_utc": "2026-10-08T13:27:45.213586Z",
+  "evidence": [
+    {
+      "path": "evidence/M40/20261008T104949-ef46ae39/manifest.json",
+      "sha256": "88c8ddc4921ee34550b3775e38e6cde629ccb91a649adfbfcd5f4481ffa98d48"
+    },
+    {
+      "path": "evidence/M40/20261008T125329-f7c1e6c7/manifest.json",
+      "sha256": "82bf491486928e0e53b2f7d0af5bccf2dc5db7bf585efb21c282145f0bcb71c7"
+    }
+  ],
+  "limitation": "Descriptive prespecified secondary strata; no new selected significance claim. Cold/warm differ in physical-state distribution; both models are stateless and fully observed.",
+  "phase": "confirmatory_secondary_descriptive",
+  "protocol_id": "PTCO-AFF-0.2",
+  "rows": [
+    {
+      "affine_mean": 3.1384555426409456e-06,
+      "component": "q",
+      "h_ns": 5000000,
+      "metric": "total_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 7.3913939018249905e-06,
+      "point_reduction": 0.5753905712065979,
+      "stratum": "cold"
+    },
+    {
+      "affine_mean": 3.1346673420324966e-06,
+      "component": "q",
+      "h_ns": 5000000,
+      "metric": "drift_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 7.338824893014479e-06,
+      "point_reduction": 0.5728652219218018,
+      "stratum": "cold"
+    },
+    {
+      "affine_mean": 3.940814596575386e-08,
+      "component": "q",
+      "h_ns": 5000000,
+      "metric": "command_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 2.6929321988195265e-07,
+      "point_reduction": 0.853660831182349,
+      "stratum": "cold"
+    },
+    {
+      "affine_mean": 4.5879034354773943e-07,
+      "component": "q",
+      "h_ns": 5000000,
+      "metric": "composition_discrepancy_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 9.876607329669792e-10,
+      "point_reduction": -463.5222071039634,
+      "stratum": "cold"
+    },
+    {
+      "affine_mean": 2.718041618577923e-06,
+      "component": "q",
+      "h_ns": 5000000,
+      "metric": "total_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 2.6011687960603355e-06,
+      "point_reduction": -0.04493088748973162,
+      "stratum": "warm"
+    },
+    {
+      "affine_mean": 2.7173620384240435e-06,
+      "component": "q",
+      "h_ns": 5000000,
+      "metric": "drift_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 2.6013281315832013e-06,
+      "point_reduction": -0.044605640262008084,
+      "stratum": "warm"
+    },
+    {
+      "affine_mean": 5.39276015681257e-08,
+      "component": "q",
+      "h_ns": 5000000,
+      "metric": "command_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 7.653169536380316e-08,
+      "point_reduction": 0.29535597882976483,
+      "stratum": "warm"
+    },
+    {
+      "affine_mean": 3.262882281541357e-07,
+      "component": "q",
+      "h_ns": 5000000,
+      "metric": "composition_discrepancy_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 3.435802811485335e-10,
+      "point_reduction": -948.6709970182421,
+      "stratum": "warm"
+    },
+    {
+      "affine_mean": 0.001335680205127556,
+      "component": "v",
+      "h_ns": 5000000,
+      "metric": "total_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 0.002824967344658647,
+      "point_reduction": 0.5271873823062008,
+      "stratum": "cold"
+    },
+    {
+      "affine_mean": 0.001333109013349247,
+      "component": "v",
+      "h_ns": 5000000,
+      "metric": "drift_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 0.0027932170344678675,
+      "point_reduction": 0.5227334657855487,
+      "stratum": "cold"
+    },
+    {
+      "affine_mean": 2.644189073489616e-05,
+      "component": "v",
+      "h_ns": 5000000,
+      "metric": "command_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 0.00015473866959500203,
+      "point_reduction": 0.8291190508222501,
+      "stratum": "cold"
+    },
+    {
+      "affine_mean": 5.3870142612310335e-06,
+      "component": "v",
+      "h_ns": 5000000,
+      "metric": "composition_discrepancy_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 2.7900588597539082e-08,
+      "point_reduction": -192.07887510682068,
+      "stratum": "cold"
+    },
+    {
+      "affine_mean": 0.001161557329217714,
+      "component": "v",
+      "h_ns": 5000000,
+      "metric": "total_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 0.0010347034657601283,
+      "point_reduction": -0.1225992447646771,
+      "stratum": "warm"
+    },
+    {
+      "affine_mean": 0.001160829724041492,
+      "component": "v",
+      "h_ns": 5000000,
+      "metric": "drift_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 0.0010346311692036138,
+      "point_reduction": -0.12197443745582981,
+      "stratum": "warm"
+    },
+    {
+      "affine_mean": 3.769620513529706e-05,
+      "component": "v",
+      "h_ns": 5000000,
+      "metric": "command_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 4.5133607996208856e-05,
+      "point_reduction": 0.1647863574641878,
+      "stratum": "warm"
+    },
+    {
+      "affine_mean": 4.727349512848536e-06,
+      "component": "v",
+      "h_ns": 5000000,
+      "metric": "composition_discrepancy_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 6.772818952316584e-09,
+      "point_reduction": -696.9884662695121,
+      "stratum": "warm"
+    },
+    {
+      "affine_mean": 1.1821296039067608e-05,
+      "component": "q",
+      "h_ns": 10000000,
+      "metric": "total_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 2.7117239310916557e-05,
+      "point_reduction": 0.564067127057852,
+      "stratum": "cold"
+    },
+    {
+      "affine_mean": 1.179268822058134e-05,
+      "component": "q",
+      "h_ns": 10000000,
+      "metric": "drift_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 2.670809070682754e-05,
+      "point_reduction": 0.5584600805041182,
+      "stratum": "cold"
+    },
+    {
+      "affine_mean": 2.9633255094665513e-07,
+      "component": "q",
+      "h_ns": 10000000,
+      "metric": "command_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 1.8879181576338892e-06,
+      "point_reduction": 0.8430373955839028,
+      "stratum": "cold"
+    },
+    {
+      "affine_mean": 3.630559251296411e-06,
+      "component": "q",
+      "h_ns": 10000000,
+      "metric": "composition_discrepancy_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 2.8525998169254934e-08,
+      "point_reduction": -126.27194434196505,
+      "stratum": "cold"
+    },
+    {
+      "affine_mean": 1.018205114899686e-05,
+      "component": "q",
+      "h_ns": 10000000,
+      "metric": "total_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 1.0286818775640942e-05,
+      "point_reduction": 0.010184647841971373,
+      "stratum": "warm"
+    },
+    {
+      "affine_mean": 1.0171834706041043e-05,
+      "component": "q",
+      "h_ns": 10000000,
+      "metric": "drift_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 1.0287433024525691e-05,
+      "point_reduction": 0.011236847735392907,
+      "stratum": "warm"
+    },
+    {
+      "affine_mean": 3.951326424548981e-07,
+      "component": "q",
+      "h_ns": 10000000,
+      "metric": "command_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 5.834107511190748e-07,
+      "point_reduction": 0.3227196418698648,
+      "stratum": "warm"
+    },
+    {
+      "affine_mean": 2.6024394838930256e-06,
+      "component": "q",
+      "h_ns": 10000000,
+      "metric": "composition_discrepancy_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 9.927314639301574e-09,
+      "point_reduction": -261.14939069122903,
+      "stratum": "warm"
+    },
+    {
+      "affine_mean": 0.002593695154189668,
+      "component": "v",
+      "h_ns": 10000000,
+      "metric": "total_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 0.004980948634739943,
+      "point_reduction": 0.47927687185935297,
+      "stratum": "cold"
+    },
+    {
+      "affine_mean": 0.0025818798127435,
+      "component": "v",
+      "h_ns": 10000000,
+      "metric": "drift_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 0.004862423981814739,
+      "point_reduction": 0.46901384527560286,
+      "stratum": "cold"
+    },
+    {
+      "affine_mean": 0.00011001572246511785,
+      "component": "v",
+      "h_ns": 10000000,
+      "metric": "command_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 0.0005205222333826348,
+      "point_reduction": 0.788643567153364,
+      "stratum": "cold"
+    },
+    {
+      "affine_mean": 4.099125847813146e-05,
+      "component": "v",
+      "h_ns": 10000000,
+      "metric": "composition_discrepancy_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 7.527937140152564e-07,
+      "point_reduction": -53.4521795479561,
+      "stratum": "cold"
+    },
+    {
+      "affine_mean": 0.0022840990989469153,
+      "component": "v",
+      "h_ns": 10000000,
+      "metric": "total_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 0.0020362840205124136,
+      "point_reduction": -0.12169966268857779,
+      "stratum": "warm"
+    },
+    {
+      "affine_mean": 0.0022778039618781562,
+      "component": "v",
+      "h_ns": 10000000,
+      "metric": "drift_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 0.0020354540642353444,
+      "point_reduction": -0.11906429228794946,
+      "stratum": "warm"
+    },
+    {
+      "affine_mean": 0.00015960929575280062,
+      "component": "v",
+      "h_ns": 10000000,
+      "metric": "command_error_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 0.00016984813951355268,
+      "point_reduction": 0.06028234274497346,
+      "stratum": "warm"
+    },
+    {
+      "affine_mean": 3.6955877379344885e-05,
+      "component": "v",
+      "h_ns": 10000000,
+      "metric": "composition_discrepancy_mean",
+      "n_probes_per_seed": 256,
+      "n_seeds": 11,
+      "node_mean": 1.8281837848564934e-07,
+      "point_reduction": -201.14530773910022,
+      "stratum": "warm"
+    }
+  ]
+}

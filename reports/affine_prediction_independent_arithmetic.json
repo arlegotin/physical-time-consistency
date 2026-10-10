@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "scalar_statistics_checked": 360,
+  "maximum_absolute_discrepancy": 3.469446951953614e-18,
+  "prediction_manifest": {
+    "path": "evidence/M40/20261008T071210-8a08def3/manifest.json",
+    "sha256": "70466bc4d3d73116850eac119d4872939d8298b1f1e4dff368088192da88bd0e"
+  },
+  "not_a_new_training_cluster": true,
+  "alpha_spent": 0
+}

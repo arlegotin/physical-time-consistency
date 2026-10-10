@@ -1,0 +1,11 @@
+{
+  "status": "stalled_command_completion",
+  "clarification": "The command did not return before termination, but DOM output captured after SIGTERM contains a passing replay audit. Earlier startup wording and renderer absence inferred from filtered ps output were too strong. Only the completed standalone headless-shell run supplies the final visual-check receipt.",
+  "native_dom_audit": {
+    "status": "pass",
+    "selections": 80,
+    "frames": 1200,
+    "clips": 400
+  },
+  "scientific_evidence": "unaffected"
+}

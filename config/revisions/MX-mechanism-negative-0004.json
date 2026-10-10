@@ -1,0 +1,91 @@
+{
+  "action_parameters": {
+    "actuator": "direct",
+    "competitor": "node_generic",
+    "condition": "A",
+    "development_seed": 9000,
+    "initial_confirmation_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "loss_mode": "shared",
+    "method": "power_correct",
+    "statistical_family_size": 280
+  },
+  "authorization_reference": "config/authorization.json",
+  "branch": "mechanism-negative",
+  "claim_ids": [
+    "C02"
+  ],
+  "contract": {
+    "1": "Purpose: resolve the live C02.relative superiority alternative with an independently confirmed necessary criterion; readiness itself asserts no scientific result.",
+    "10": "Resources: two development fits then ten initial confirmation fits and fifteen E01 jobs, serial CPU only. Use measured MLP-block reference for initial projection and both actual qualified fits to project confirmation. No arbitrary RAM/disk/epoch/seed/time ceilings; refuse only actual unauthorized allocation. All failed/interrupted work counted.",
+    "11": "Diagnosis/recovery: distinguish inadequate nominal optimization, original timing gain, discretization-specific NODE effects, numerical signal limits and sampling uncertainty. Preserve interrupted recurrent work for exact resumption if original M30 remains needed. Use S13 named branches, no task/cost/architecture/threshold rescue.",
+    "12": "Completion: a independently reaggregated hash-closed GX readiness and limited GR decision with honest tested scope. A valid negative can stop unnecessary remaining models per S02/S11; no subset support may substitute for full C01–C06 coverage. Original M30 and every unused claim remain explicitly unfinished/not evaluated.",
+    "2": "Entry: G20 GO; hash-verified completed exploratory discovery audits; original train/validation corpora and analytic learning controls; no mandatory rejection; register this request before new jobs. Preserve the active M30 attempt and recurrent checkpoint.",
+    "3": "Implementation: poc/rejection_subset.py and narrowly dispatched MX/MR handlers, tests/test_rejection_subset.py. Reuse existing train_cell, E01, raw reaggregation, oracle/FD/solver checks and evaluate_criterion. No new architecture or learned-model tuning.",
+    "4": "Protocol: qualify seed9000 direct/A/shared node_generic and power_correct using S07 nominal-only rules. GX GO authorizes MR only. Freeze full K280, original evaluator and recipes; generate sealed direct/A confirmation256 trajectories; train initial seeds0–4; audit 512 cold/warm probes and all six standard horizons, with the unchanged 5/10ms primary contrasts. NODE half-step audit mandatory. No one-step discovery data becomes confirmation.",
+    "5": "Commands: python -m poc run MX --dry-run; python -m poc run MX --resume; python -m poc decide GX; python -m poc run MR --dry-run; python -m poc run MR --resume; python -m poc decide GR. Only after this request is selected and other scientific jobs have stopped.",
+    "6": "Artifacts: S10 immutable manifests/logs/events/resources/validity/summary, selected checkpoints and nominal grids, request/scope/freeze records, complete raw E01 arrays, solver audits, contrast summaries, original spending ledger and eight atomic K02.relative subset evaluations.",
+    "7": "Validity: G20 and S08 reference budgets; complete paired seed/model/probe rows; training qualification for both models; no fine-time selection; reaggregate every E01 from raw arrays and re-evaluate criteria at GR; verify scope, checkpoint hashes, original family and saved look. Numerical uncertainty and solver guard remain mandatory.",
+    "8": "Rules: readiness GO only for both qualified unchanged recipes; unqualified fits INCONCLUSIVE/optimizer. MR NO-GO only for a mandatory contrast rejected at alpha_l/280 with required Fieller precision and robustness. All subset contrasts supported means GO back to unfinished M30, never whole-PoC or C02 PASS. Threshold overlap/influence/solver uncertainty INCONCLUSIVE; measurement defects INVALID; actual external prerequisites BLOCKED.",
+    "9": "Transitions: readiness GO->MR; readiness uncertainty->named MX optimizer; GR valid mandatory NO-GO->MF POC FAIL; subset support->M30 original matrix; unresolved GR->registered precision/solver/optimizer returning MR; invalid->repair earliest affected producer; external blocker->MF. Preserve old evidence and alpha history."
+  },
+  "execution_deviation": "Registered under S13.6 and S12/MR entry by MX request: test a rejection-capable qualified subset before finishing long recurrent development fits. No method/data/objective/threshold/selection-rule change; no full G30 or POC PASS from this shortcut.",
+  "expected_artifacts": [
+    "qualified development training manifests",
+    "config/core_negative_development_freeze.json",
+    "registered GX readiness decision",
+    "config/rejection_freeze.json",
+    "config/rejection_subset_scope.json",
+    "independent paired E01 and same-field solver audits",
+    "GR negative-only criterion decision"
+  ],
+  "input_evidence": [
+    {
+      "path": "evidence/M30/20261001T082347-e1f2c0c0/manifest.json",
+      "producing_run_id": "20261001T082347-e1f2c0c0",
+      "role": "exploratory_discovery",
+      "sha256": "411632adafc23f8ec0ae7c4c06d9422b90d450000707eb87e72120b724c513dd"
+    },
+    {
+      "path": "evidence/M30/20261001T082626-ed156418/manifest.json",
+      "producing_run_id": "20261001T082626-ed156418",
+      "role": "exploratory_discovery",
+      "sha256": "73efb421e500bb3bf62d11dc54e1e06278a35f57fc4be5129bbf4717c45e673a"
+    }
+  ],
+  "live_explanations": [
+    "The required advantage persists under shared rollout training",
+    "A qualified time-aware comparator already prevents the mandatory superiority claim"
+  ],
+  "new_information": "Qualify unchanged shared-loss development recipes, then obtain paired independent confirmation seeds 0–4 at both primary horizons and both strata; original K=280 and alpha ledger govern rejection.",
+  "parent_gate": "G20",
+  "progress_condition": "New independent clusters distinguish the frozen effect floor; subset support returns to unfinished M30, a adequately precise mandatory rejection authorizes MF, uncertainty requires a named precision/solver/optimizer request.",
+  "protocol_version": "PTCO-1.0",
+  "recorded_utc": "2026-10-01T10:47:40.454206Z",
+  "request_id": "MX-mechanism-negative-0004",
+  "resource_projection": {
+    "available_disk_gib": 10.0,
+    "initial_100_epoch_wall_seconds_projection": 1060.121966336,
+    "initial_confirmatory_e01_jobs": 15,
+    "initial_confirmatory_model_fits": 10,
+    "network_calls_per_power_prediction": 2,
+    "neural_field_calls_per_generic_NODE_prediction": 4,
+    "paid_services": false,
+    "projection_limitation": "MLP-based readiness estimate is unverified for NODE/head; replace with both measured qualified development fits before confirmation. Convergence may require extra 100-epoch blocks under the unchanged nominal-only grid. No scientific or owner-imposed cap.",
+    "readiness_model_fits": 2,
+    "reference_cpu_seconds": 122.03912199999999,
+    "reference_model": "direct/A/shared/mlp_dt 100-epoch continuation block",
+    "reference_path": "evidence/M30/20261001T093016-1bcf8aac/resources.json",
+    "reference_sha256": "2045aec1413ef43a96d665d6c2e0ac29f0e08efb60f82de88d7fba58dec2ff79",
+    "reference_wall_seconds": 132.515245792
+  },
+  "return_milestone": "MR",
+  "schema_version": 1,
+  "status": "registered",
+  "unresolved_question": "Does the original augmented shared-loss power head deliver the required 50% sensitivity improvement against the prespecified generic NODE on the direct plant?"
+}

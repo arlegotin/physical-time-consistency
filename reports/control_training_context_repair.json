@@ -1,0 +1,20 @@
+{
+  "active_forty_seed_context_unchanged": true,
+  "analytic_controls": "Rerun the seven participating controls under the repaired source before long fits",
+  "archive_unchanged": true,
+  "context": "study/control-development",
+  "current_source_hashes": {
+    "train.py": "d56ccfaca398e08edc934b24c8b3ba7c7424628ffd5af4c753e36ef2bc5d7368",
+    "training_jobs.py": "97ec7fc02811efa99a370fa4dda667efbe2d58bdee8acd1e5a6db08b74bb3a4c"
+  },
+  "initial_inventory_sha256": "55b360bd337a712c28dfba005b1cd83f1c4727f975989efc7a3e2656454cfbc6",
+  "prior_fit_handling": "Keep old fits; the unqualified direct GRU initial block may be recomputed under the new source, with its original seed/data/optimizer and explicit comparison; no old fit is relabeled as newly executed",
+  "prior_source_hashes": {
+    "train.py": "4f3dca540505a8cb4489944f00f4486b2adbc7713e24733ee6e7b7e94396c8c3",
+    "training_jobs.py": "6936a047ca67736c16c3bb17e5297ffbf1c57380f2c49df45c150d6649214ba4"
+  },
+  "recorded_utc": "2026-10-02T02:54:47.252236Z",
+  "repair_revision": "config/revisions/training-recovery-repair.json",
+  "schema_version": 1,
+  "training_selection": "Unchanged nominal-only recipe; new recovery code has new job identity"
+}

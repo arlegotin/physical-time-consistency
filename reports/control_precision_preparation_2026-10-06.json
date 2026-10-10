@@ -1,0 +1,33 @@
+{
+  "actual_free_bytes": 6112362496,
+  "context": "study/control-precision-look2",
+  "context_input_bytes": 163670081,
+  "coordinator_hashes": {
+    "poc/control_confirmation.py": "00e0db06937fae32f6098e3deec3655b7b14b0e7c51b7f25e48fe3b6ac799e43",
+    "poc/control_precision.py": "7712966dc115e3ab13ac75a068de5fb8637ad18de8577b0f875257a5087add78",
+    "poc/control_precision_result.py": "d2fc5ebd23cb688594d27684ae0f92fd4b48b6ce8ab88866489ca224094fd7c9",
+    "poc/control_retraining.py": "2f4d5c5330ddd6c168aad5642322a710d7cba7a5b86234c91e2f1030e2ae840e"
+  },
+  "copied_files": 156,
+  "expected_fits": 20,
+  "new_fits": 15,
+  "new_precision_control_episodes": 0,
+  "new_precision_fit_jobs_executed": 0,
+  "new_statistical_looks": 0,
+  "observed_prepare_returncode": 0,
+  "observed_utc": "2026-10-06T04:31:03.767928Z",
+  "prerequisite": "Original twelve-fit/480-policy reproduction must complete before dispatch",
+  "registry_path": "config/control_precision_nominal_jobs.json",
+  "registry_sha256": "c5e72dc0e148bd87ed73f13aa3b5b9a812b493fe69ef3e488faf21c3431f44af",
+  "resources_projection": "reports/control_precision_resources_2026-10-06.json",
+  "reused_cell_ids": [
+    "direct__A__shared__power_correct__seed5",
+    "direct__A__shared__power_correct__seed6",
+    "direct__A__shared__power_correct__seed7",
+    "direct__A__shared__power_correct__seed8",
+    "direct__A__shared__power_correct__seed9"
+  ],
+  "reused_fits": 5,
+  "schema_version": 1,
+  "state": "nominal_context_and_registry_prepared"
+}

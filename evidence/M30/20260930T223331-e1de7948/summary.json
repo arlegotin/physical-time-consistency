@@ -1,0 +1,7 @@
+{
+  "manifest_path": "data/direct/F/train/manifest.json",
+  "manifest_sha256": "16472fc994f8d3a55938fd053b51c1c3848fac755f4f2915a9f3b95dfc0634e0",
+  "missing_cells": [],
+  "trajectory_count": 1024,
+  "transition_count": 32768
+}

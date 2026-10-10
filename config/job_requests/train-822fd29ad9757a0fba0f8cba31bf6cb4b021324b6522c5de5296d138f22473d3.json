@@ -1,0 +1,18 @@
+{
+  "phase": "exploratory",
+  "protocol_version": "PTCO-1.0",
+  "purpose": "training",
+  "semantic_inputs": {
+    "actuator": "lagged",
+    "cell_id": "lagged__A__one_step__mlp_dt__seed9000",
+    "condition": "A",
+    "continue_from": "evidence/M30/20261001T081134-05d66f14",
+    "epochs": 200,
+    "learning_rate": 0.001,
+    "loss_mode": "one_step",
+    "model_id": "mlp_dt",
+    "seed": 9000,
+    "train_manifest": "data/lagged/A/train/manifest.json",
+    "validation_manifest": "data/lagged/A/validation/manifest.json"
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "aggregation": {
+    "comparison_percent": "Ratio of cell mean costs or ratio of cell timing medians; descriptive, not a confidence bound",
+    "cost": "Weighted tracking, velocity, command-effort and terminal engineering cost; lower is better",
+    "cost_and_errors": "Mean across 100 episodes in each cell, equal to the mean of five twenty-task seed means",
+    "planning_time": "Median of the 100 per-episode median end-to-end planning latencies; descriptive measured CPU timing, without timing uncertainty bounds",
+    "success": "Strict position and velocity tolerance at every accepted physics tick of the final 200 ms"
+  },
+  "alpha_spent": 0,
+  "cells": [
+    {
+      "actuator": "direct",
+      "episodes_per_seed": 20,
+      "fallback_count": 0,
+      "mean_cost": 0.2429272205396365,
+      "mean_q_rmse_rad": 0.19123320762748772,
+      "mean_terminal_q_error_rad": 0.01564317079746342,
+      "median_of_episode_planner_medians_seconds": 0.628215146,
+      "model_id": "mlp_dt",
+      "model_step_ns": 40000000,
+      "n_episodes": 100,
+      "n_training_seeds": 5,
+      "success_count": 27
+    },
+    {
+      "actuator": "direct",
+      "episodes_per_seed": 20,
+      "fallback_count": 0,
+      "mean_cost": 0.24292480046400527,
+      "mean_q_rmse_rad": 0.19171925345133592,
+      "mean_terminal_q_error_rad": 0.016111601138880688,
+      "median_of_episode_planner_medians_seconds": 0.647266729,
+      "model_id": "node_generic",
+      "model_step_ns": 40000000,
+      "n_episodes": 100,
+      "n_training_seeds": 5,
+      "success_count": 26
+    },
+    {
+      "actuator": "direct",
+      "episodes_per_seed": 20,
+      "fallback_count": 0,
+      "mean_cost": 0.24461163134052893,
+      "mean_q_rmse_rad": 0.19090991716110278,
+      "mean_terminal_q_error_rad": 0.018326107463915952,
+      "median_of_episode_planner_medians_seconds": 0.65823871875,
+      "model_id": "power_correct",
+      "model_step_ns": 40000000,
+      "n_episodes": 100,
+      "n_training_seeds": 5,
+      "success_count": 12
+    },
+    {
+      "actuator": "direct",
+      "episodes_per_seed": 20,
+      "fallback_count": 0,
+      "mean_cost": 0.3006098666535568,
+      "mean_q_rmse_rad": 0.20001514724994912,
+      "mean_terminal_q_error_rad": 0.06576737073887572,
+      "median_of_episode_planner_medians_seconds": 1.91787542675,
+      "model_id": "mlp_dt",
+      "model_step_ns": 5000000,
+      "n_episodes": 100,
+      "n_training_seeds": 5,
+      "success_count": 12
+    },
+    {
+      "actuator": "direct",
+      "episodes_per_seed": 20,
+      "fallback_count": 0,
+      "mean_cost": 0.24290631227556478,
+      "mean_q_rmse_rad": 0.19172970649834295,
+      "mean_terminal_q_error_rad": 0.01616804207023075,
+      "median_of_episode_planner_medians_seconds": 2.05813451075,
+      "model_id": "node_generic",
+      "model_step_ns": 5000000,
+      "n_episodes": 100,
+      "n_training_seeds": 5,
+      "success_count": 26
+    },
+    {
+      "actuator": "direct",
+      "episodes_per_seed": 20,
+      "fallback_count": 0,
+      "mean_cost": 0.24534343352196,
+      "mean_q_rmse_rad": 0.1914774193037448,
+      "mean_terminal_q_error_rad": 0.018602005432550004,
+      "median_of_episode_planner_medians_seconds": 2.029920229,
+      "model_id": "power_correct",
+      "model_step_ns": 5000000,
+      "n_episodes": 100,
+      "n_training_seeds": 5,
+      "success_count": 25
+    },
+    {
+      "actuator": "lagged",
+      "episodes_per_seed": 20,
+      "fallback_count": 0,
+      "mean_cost": 0.27952128747046906,
+      "mean_q_rmse_rad": 0.21380284874146874,
+      "mean_terminal_q_error_rad": 0.011701489164153929,
+      "median_of_episode_planner_medians_seconds": 0.64356637525,
+      "model_id": "mlp_dt",
+      "model_step_ns": 40000000,
+      "n_episodes": 100,
+      "n_training_seeds": 5,
+      "success_count": 52
+    },
+    {
+      "actuator": "lagged",
+      "episodes_per_seed": 20,
+      "fallback_count": 0,
+      "mean_cost": 0.27904597525627917,
+      "mean_q_rmse_rad": 0.21361332569225547,
+      "mean_terminal_q_error_rad": 0.010892900173620455,
+      "median_of_episode_planner_medians_seconds": 0.6640098750000001,
+      "model_id": "node_generic",
+      "model_step_ns": 40000000,
+      "n_episodes": 100,
+      "n_training_seeds": 5,
+      "success_count": 55
+    },
+    {
+      "actuator": "lagged",
+      "episodes_per_seed": 20,
+      "fallback_count": 0,
+      "mean_cost": 0.27836758792766814,
+      "mean_q_rmse_rad": 0.2139083823113624,
+      "mean_terminal_q_error_rad": 0.00948254012096443,
+      "median_of_episode_planner_medians_seconds": 0.63567491675,
+      "model_id": "power_correct",
+      "model_step_ns": 40000000,
+      "n_episodes": 100,
+      "n_training_seeds": 5,
+      "success_count": 60
+    },
+    {
+      "actuator": "lagged",
+      "episodes_per_seed": 20,
+      "fallback_count": 0,
+      "mean_cost": 0.3502228154740276,
+      "mean_q_rmse_rad": 0.23224259956270593,
+      "mean_terminal_q_error_rad": 0.07793374661970995,
+      "median_of_episode_planner_medians_seconds": 1.9595795310000002,
+      "model_id": "mlp_dt",
+      "model_step_ns": 5000000,
+      "n_episodes": 100,
+      "n_training_seeds": 5,
+      "success_count": 12
+    },
+    {
+      "actuator": "lagged",
+      "episodes_per_seed": 20,
+      "fallback_count": 0,
+      "mean_cost": 0.27893265129041944,
+      "mean_q_rmse_rad": 0.21361401359537321,
+      "mean_terminal_q_error_rad": 0.011160701727229187,
+      "median_of_episode_planner_medians_seconds": 2.12603810375,
+      "model_id": "node_generic",
+      "model_step_ns": 5000000,
+      "n_episodes": 100,
+      "n_training_seeds": 5,
+      "success_count": 62
+    },
+    {
+      "actuator": "lagged",
+      "episodes_per_seed": 20,
+      "fallback_count": 0,
+      "mean_cost": 0.2785679327618002,
+      "mean_q_rmse_rad": 0.214269507664028,
+      "mean_terminal_q_error_rad": 0.01359999433885959,
+      "median_of_episode_planner_medians_seconds": 1.98346882325,
+      "model_id": "power_correct",
+      "model_step_ns": 5000000,
+      "n_episodes": 100,
+      "n_training_seeds": 5,
+      "success_count": 51
+    }
+  ],
+  "descriptive_only": true,
+  "fine_comparisons": [
+    {
+      "actuator": "direct",
+      "all_five_seed_means_favor_head_over_fine_mlp": true,
+      "fine_mlp_population_status": "unresolved",
+      "head_cost_increase_vs_node_percent": 1.0033173792661332,
+      "head_cost_reduction_vs_mlp_percent": 18.38477018297261,
+      "head_nominal_cost_increase_vs_mlp_percent": 0.6933808393932539,
+      "head_planner_time_reduction_vs_node_percent": 1.3708667534911734
+    },
+    {
+      "actuator": "lagged",
+      "all_five_seed_means_favor_head_over_fine_mlp": true,
+      "fine_mlp_population_status": "unresolved_influence",
+      "head_cost_increase_vs_node_percent": -0.13075505034350066,
+      "head_cost_reduction_vs_mlp_percent": 20.459798604280632,
+      "head_nominal_cost_increase_vs_mlp_percent": -0.4127412095305316,
+      "head_planner_time_reduction_vs_node_percent": 6.70586666572579
+    }
+  ],
+  "independent_reconciliation": {
+    "cost_tolerance": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "seed_costs_checked": 60,
+    "source_batch_hash": "matches the published result parent",
+    "success_and_fallback_counts": "exactly match cached seed statistics"
+  },
+  "limitations": [
+    "All eight original signed population comparisons remain unresolved; the registered two-contrast continuation is separate.",
+    "Similar mean costs do not establish NODE equivalence, nominal noninferiority or equal strict task success.",
+    "No timing speedup significance or real-time deployment claim; roughly two seconds of planning per decision on this CPU configuration.",
+    "Only the qualified MLP and generic NODE are comparative controls here; no full competitor suite or perturbation/deployment claim."
+  ],
+  "new_statistical_look": false,
+  "phase": "report",
+  "recorded_utc": "2026-10-06T19:27:16.692353Z",
+  "schema_version": 1,
+  "scientific_verdict": null,
+  "scope": "Completed original five-seed clean fixed-clock experiment; no new-seed outcomes used",
+  "source_hashes": {
+    "reports/control_confirmation_batch.json": "cc1fd7ec7f080986bee3c25f74a94fd7990a75d8e06cb46dc8a7fd6ac35e4ef9",
+    "reports/control_confirmation_result.json": "345c2a96a4b1b2055f814efc535f19605f76bf2247d9d8ee5c8f1357872afbb4"
+  },
+  "state": "verified_descriptive_summary"
+}

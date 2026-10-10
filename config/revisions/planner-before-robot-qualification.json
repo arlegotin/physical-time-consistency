@@ -1,0 +1,56 @@
+{
+  "analytic_qualification": {
+    "criteria": {
+      "each_fraction_minimum": 0.5,
+      "median_fraction_minimum": 0.75,
+      "stream_mean_spread_strict_maximum": 0.05
+    },
+    "minimum_achieved_fraction": 0.7051797893291978,
+    "qualified": true,
+    "reason": "All search calibration requirements met",
+    "spread_of_stream_means": 0.013907107441026523,
+    "stream_means": [
+      0.7979969333283028,
+      0.8119040407693293,
+      0.809277654296263,
+      0.8101937851376306,
+      0.8029002426077845
+    ],
+    "stream_medians": [
+      0.7968458730405522,
+      0.80223495228173,
+      0.8037732504964716,
+      0.8183017434847417,
+      0.7976261311744028
+    ]
+  },
+  "final_common_budget_frozen": false,
+  "historical_protocol_version": "PTCO-1.0",
+  "learned_model_control": "not_run",
+  "qualification_evidence": [
+    {
+      "path": "reports/analytic_planner_calibration/20261001T195640-59998200.json",
+      "sha256": "96230d277108829cf7a6c1c27f6c7ce70686761f101f95f0fda4095c43e0ed26"
+    },
+    {
+      "path": "reports/analytic_planner_calibration/20261001T195758-5e1630bb.json",
+      "sha256": "2ae10c442ae5981bb5e4787004f89b4124a3793783ec15a77b0062e22319f2eb"
+    },
+    {
+      "path": "reports/analytic_planner_calibration/20261001T200045-69982e35.json",
+      "sha256": "69b27c17a9af7ed95404a04068ccf42f84521bfa75c1631ab71740f6999bcb94"
+    }
+  ],
+  "recorded_utc": "2026-10-01T20:06:15.764683Z",
+  "robot_reference_qualification": "not_run",
+  "schema_version": 1,
+  "selection_rule": "First qualifying common budget in the prespecified model-independent sequence",
+  "settings": {
+    "candidate_count": 128,
+    "elite_count": 16,
+    "initial_std": 1.0,
+    "iterations": 4,
+    "std_floor": 0.1
+  },
+  "status": "analytic_qualified_robot_pending"
+}

@@ -1,0 +1,10 @@
+{
+  "free_bytes": 4140261376,
+  "limitation": "Initial proxy; model and query-rate runtimes differ",
+  "owner_imposed_caps": null,
+  "projected_remaining_bytes": 1009896019,
+  "projected_remaining_seconds": 10722.303210938,
+  "remaining_episodes": 407,
+  "representative": "direct__power_correct__rate40000000__step40000000__task0",
+  "representative_wall_seconds": 26.344725334
+}

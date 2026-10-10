@@ -1,0 +1,12 @@
+{
+  "changed_file": "poc/reference_bank.py",
+  "diagnosis": "Distinct first-decision bank audits used the same default base configuration identity, incorrectly recording lagged audit as a replacement for direct audit. Raw arrays and numerical results remain intact.",
+  "next_action": "Reproduce the same banks under repaired metadata during the fixed batch; preserve both old attempts.",
+  "old_run_ids": [
+    "20261001T230536-32e8c4b7",
+    "20261001T230637-a63e62e9"
+  ],
+  "recorded_utc": "2026-10-01T23:10:15.508220Z",
+  "repair": "Pin the exact source episode request as logical configuration identity; different actuator/task banks cannot supersede each other.",
+  "schema_version": 1
+}

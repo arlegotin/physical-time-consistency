@@ -1,0 +1,61 @@
+{
+  "allocation_sha256": "e483d8c5539157d22e9cb9bf65d257ae38979c4fa5c1e728230e5e245f90463d",
+  "allowed_actions": [
+    "same selected weights",
+    "paired new task IDs",
+    "fresh-process replay and finer physics"
+  ],
+  "contract_path": "docs/superpowers/plans/2026-10-09-compute-matched-node-episodes.md",
+  "episodes_per_seed": 20,
+  "expected_new_primary_cells": 960,
+  "expected_new_reproduction_cells": 192,
+  "look": 3,
+  "mean_contrast": 0.0025986658688082797,
+  "new_episode_ids": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "planning_sd_margin": 1.25,
+  "prior_episodes_per_seed": 10,
+  "prior_result_sha256": "9908e96e94baaf3ef9ce40239d44071ead2dea13c911d200b9688bb764d47ab7",
+  "protocol_id": "PTCO-COMPUTE-0.1",
+  "reason": "Coarse strongest-NODE Holm influence and fine-NODE raw influence remain live; both mostly within-task uncertainty",
+  "resource_projection": {
+    "cpu_hours": 3.13,
+    "disk_gib": 8.5,
+    "peak_ram_gib": 0.52,
+    "wall_hours": 3.15
+  },
+  "schema_version": 1,
+  "seeds": [
+    2026100800,
+    2026100801,
+    2026100802,
+    2026100803,
+    2026100804,
+    2026100805,
+    2026100806,
+    2026100807,
+    2026100808,
+    2026100809,
+    2026100810,
+    2026100811,
+    2026100812,
+    2026100813,
+    2026100814,
+    2026100815
+  ],
+  "status": "prospectively_registered",
+  "variance": 9.397944104935655e-06,
+  "variance_evidence": "reports/provenance/compute_study_look_002_precision_analysis.json",
+  "within_episode_fraction": 0.8441310986271785,
+  "within_episode_variance": 7.93309688213615e-06
+}

@@ -1,0 +1,8 @@
+{
+  "actuator": "direct",
+  "condition": "A",
+  "loss_mode": "shared",
+  "model_id": "affine_flow",
+  "protocol_id": "PTCO-AFF-0.1",
+  "seed": 9000
+}

@@ -1,0 +1,230 @@
+{
+  "argv": [
+    "python",
+    "-m",
+    "poc",
+    "run",
+    "M00"
+  ],
+  "code_revision": "dae1881bbe57aca7c511c7d1f5379fa5def635bd",
+  "code_tree_sha256": "c566101dec1e17536881060c2d726d6b857922099465b041e07cc22fd5bdb477",
+  "completion_status": "complete",
+  "configuration_sha256": "bd5c064fda35b53ab3e3eb75d372cb52f991e9ef960e1c571b4455619aa0dd4e",
+  "data_hashes": {},
+  "dirty": true,
+  "ended_utc": "2026-09-30T17:48:27.853636Z",
+  "environment_sha256": "1ea4eb9d65a7e6f6fbaa329c745b08254113aac9f4b889b67fd90e039f8d6bd0",
+  "expected_cells": [
+    "authorization",
+    "python",
+    "architecture",
+    "virtual_environment",
+    "disk",
+    "packages",
+    "determinism",
+    "nstep",
+    "torch_smoke",
+    "wheel_lock",
+    "offline_install",
+    "validators"
+  ],
+  "job_inputs": {
+    "configuration_keys": {
+      "config/authorization.json": {
+        "authority_note": "User requested execution on the current branch and explicitly imposed no artificial RAM, disk or time caps; report real shortages for owner provisioning. Package acquisition is necessary to the authorized local protocol. No paid services.",
+        "cpu_time_limit_hours": null,
+        "disk_limit_gib": null,
+        "local_compute_authorized": true,
+        "package_network_authorized": true,
+        "paid_services_authorized": false,
+        "ram_limit_gib": null,
+        "recorded_utc": "2026-09-30T17:10:19.297355Z"
+      },
+      "config/base.json": {
+        "actuator_intervals_s": [
+          0.04,
+          0.02,
+          0.01
+        ],
+        "audit_dtype": "float64",
+        "bootstrap_resamples": 20000,
+        "device": "cpu",
+        "effective_batch": 256,
+        "episode_s": 1.6,
+        "episodes_per_seed": 20,
+        "gradient_clip_norm": 1.0,
+        "h0_s": 0.04,
+        "history_s": 0.32,
+        "initial_epochs": 100,
+        "initial_training_seeds": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "learning_rate": 0.001,
+        "model_partitions_s": [
+          0.04,
+          0.02,
+          0.01,
+          0.005,
+          0.0025
+        ],
+        "mpc_horizon_s": 0.24,
+        "observation_interval_s": 0.04,
+        "physics_step_s": 0.0005,
+        "primary_model_step_s": 0.005,
+        "protocol_version": "PTCO-1.0",
+        "replanning_interval_s": 0.04,
+        "rollout_loss_weight": 0.25,
+        "rollout_steps": 4,
+        "sensitivity_horizons_s": [
+          0.0025,
+          0.005,
+          0.01,
+          0.02,
+          0.04,
+          0.08
+        ],
+        "tau_s": 0.08,
+        "torque_limit_nm": 2.0,
+        "train_dtype": "float32",
+        "weight_decay": 1e-06
+      },
+      "config/criteria.json": {
+        "protocol_version": "PTCO-1.0",
+        "statistical_family_size": 280
+      },
+      "config/milestones.json": {
+        "protocol_version": "PTCO-1.0"
+      }
+    },
+    "dependencies": {
+      "POC_EXECUTION_PLAN.md": "d4f5e4edf7a2b645c46507dea14cc0c93cbfa605a5c79ff09fd0b17282b94df0",
+      "config/protocol_provenance.json": "fca11b57d878a246ff0b1faf2df92f271f2a10beb4a0fdaba793bbe231111b89",
+      "poc/__init__.py": "a2663e8d543cbef68f5ef143d68b63cc6fde80d0d59bb560d4f23347632dcd10",
+      "poc/__main__.py": "7e6168e57a39be15d9e6269d43cd71cd59c600f1eb7275ad0906b0885350f7db",
+      "poc/bootstrap.py": "0cecff4d46ff046fd366f4187c00ef7eafe34566041aaa2f233dc10bb8c73ff8",
+      "poc/contracts.py": "2ad6e0d60b900b05b1bb372abd52791c5d6dcdf2b11c6bef57d27d871d2c3d05",
+      "poc/gates.py": "69fcdd1c3caad525002fd601abf6aca5155a75e44ddc79e6cec19c7ca4cb86a6",
+      "poc/io.py": "b7c169b0c7e296b7e11dfe42ae620ad33806de61b36b610db67d727bd7ac04cd",
+      "requirements.in": "791895fba0129c9c7f07e95781ef516542b626436f21c96b232c9c9149831146",
+      "schemas/decision.schema.json": "11e5dcafe7c1c05c8c297dff1600dd891f7c8d2f38247e2b3905f9c49b05068b",
+      "schemas/manifest.schema.json": "eee6c0586eb8e665939901736b339802d4451f541aaeca99b3d6568a54e1376f"
+    },
+    "environment_fingerprint": {
+      "architecture": "arm64",
+      "core_count": 14,
+      "cpu_description": "arm",
+      "executable": "/workspace/physical-time-consistency/.venv/bin/python",
+      "kernel": "25.6.0",
+      "os": "Darwin",
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "python": "3.11.5 | packaged by conda-forge | (main, Aug 27 2023, 03:33:12) [Clang 15.0.7 ]",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1"
+      },
+      "virtual_environment": true
+    },
+    "intended_versions": {
+      "mujoco": "3.14.0",
+      "numpy": "2.2.6",
+      "pytest": "8.4.1",
+      "scipy": "1.15.3",
+      "torch": "2.8.0"
+    },
+    "milestone_id": "M00",
+    "phase": "preflight",
+    "protocol_version": "PTCO-1.0",
+    "wheel_hashes": {
+      "absl_py-2.5.0-py3-none-any.whl": "0f17b89f2a4eaaedc4f28c622998aa690564b3012a396a4ffad0821007fe03ba",
+      "etils-1.14.0-py3-none-any.whl": "b5df7341f54dbe1405a4450b2741207b4a8c279780402b45f87202b94dfc52b4",
+      "filelock-4.0.7-py3-none-any.whl": "a93c4d93269b339a6af4848342c7e940d0f9928ad95eff64764699e5f1bf8a6a",
+      "fsspec-2026.9.0-py3-none-any.whl": "8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f",
+      "glfw-2.10.2-py2.py3-none-macosx_11_0_arm64.whl": "c000b8a5e5fb4374b2c18d12347255ccb92001b9bcf80ef74c56072acbb98fe3",
+      "iniconfig-2.3.0-py3-none-any.whl": "f631c04d2c48c52b84d0d0549c99ff3859c98df65b3101406327ecc7d53fbf12",
+      "jinja2-3.1.6-py3-none-any.whl": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+      "markupsafe-3.0.3-cp311-cp311-macosx_11_0_arm64.whl": "4bd4cd07944443f5a265608cc6aab442e4f74dff8088b0dfc8238647b8f6ae9a",
+      "mpmath-1.3.0-py3-none-any.whl": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c",
+      "mujoco-3.14.0-cp311-cp311-macosx_11_0_arm64.whl": "ac43ebbfdf5522c556291cbc94a4d420ffed226f67e37a00dfcaf01525fa93bc",
+      "networkx-3.6.1-py3-none-any.whl": "d47fbf302e7d9cbbb9e2555a0d267983d2aa476bac30e90dfbe5669bd57f3762",
+      "numpy-2.2.6-cp311-cp311-macosx_14_0_arm64.whl": "3d70692235e759f260c3d837193090014aebdf026dfd167834bcba43e30c2a42",
+      "packaging-26.3-py3-none-any.whl": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "pip-23.2.1-py3-none-any.whl": "7ccf472345f20d35bdc9d1841ff5f313260c2c33fe417f48c30ac46cccabf5be",
+      "pluggy-1.6.0-py3-none-any.whl": "e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746",
+      "pygments-2.21.0-py3-none-any.whl": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+      "pyopengl-3.1.10-py3-none-any.whl": "794a943daced39300879e4e47bd94525280685f42dbb5a998d336cfff151d74f",
+      "pytest-8.4.1-py3-none-any.whl": "539c70ba6fcead8e78eebbf1115e8b589e7565830d7d006a8723f19ac8a0afb7",
+      "scipy-1.15.3-cp311-cp311-macosx_14_0_arm64.whl": "3b0334816afb8b91dab859281b1b9786934392aa3d527cd847e41bb6f45bee65",
+      "setuptools-65.5.0-py3-none-any.whl": "f62ea9da9ed6289bfe868cd6845968a2c854d1427f8548d52cae02a42b4f0356",
+      "sympy-1.14.0-py3-none-any.whl": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5",
+      "torch-2.8.0-cp311-none-macosx_11_0_arm64.whl": "5ae0524688fb6707c57a530c2325e13bb0090b745ba7b4a2cd6a3ce262572916",
+      "typing_extensions-4.16.0-py3-none-any.whl": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "websockets-17.1-cp311-cp311-macosx_11_0_arm64.whl": "020e271205f8ab3406d7a59cd00de6dec722315924411c421bd00642f18bad86",
+      "zipp-4.1.0-py3-none-any.whl": "25ad4e16390cd314347dd8f1de67a2ac538ae658ed4ab9db16029c07c188e97f"
+    }
+  },
+  "job_key": "7b573a0bc6255c11b9739137906943734576a291e549a99e118fbe09aa080e79",
+  "milestone_id": "M00",
+  "model_hashes": {},
+  "parent_decisions": [],
+  "phase": "preflight",
+  "produced_files": [
+    {
+      "path": "evidence/M00/20260930T194717-7ea70d3f/environment.json",
+      "sha256": "1ea4eb9d65a7e6f6fbaa329c745b08254113aac9f4b889b67fd90e039f8d6bd0"
+    },
+    {
+      "path": "evidence/M00/20260930T194717-7ea70d3f/events.jsonl",
+      "sha256": "6207fe92cacf34ff6adb63baede42cfe8e1f834b981a4857c3d8652f48bb20c1"
+    },
+    {
+      "path": "evidence/M00/20260930T194717-7ea70d3f/hash_fixture.txt",
+      "sha256": "1541d6937c952944275afa75751df65e1844d0e5486f3f5cf6dc51adb1010cdb"
+    },
+    {
+      "path": "evidence/M00/20260930T194717-7ea70d3f/offline_install.json",
+      "sha256": "ac77533e2633d245036c0119f134a142ce99d9b2eb7d819ac209e6181ff909fe"
+    },
+    {
+      "path": "evidence/M00/20260930T194717-7ea70d3f/pip-download.log",
+      "sha256": "f4c41c46d37391b37f9d6dc4518789a55556b71b8b197f5c40270152a0b25e44"
+    },
+    {
+      "path": "evidence/M00/20260930T194717-7ea70d3f/resources.json",
+      "sha256": "bba36f8e48dce8e108b0c3f71cb998c598b7ce95cb7edd35a8cb647093be0cc8"
+    },
+    {
+      "path": "evidence/M00/20260930T194717-7ea70d3f/smoke_weights.pt",
+      "sha256": "f38dbf750d2a4e15ee02562377ce1c2f2837a4a34a5dad71e2a4cad610d54d95"
+    },
+    {
+      "path": "evidence/M00/20260930T194717-7ea70d3f/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/M00/20260930T194717-7ea70d3f/stdout.log",
+      "sha256": "4a15a6a522f178efab18fe03301f559101df82b4c2bc648d69b2ea09228702b1"
+    },
+    {
+      "path": "evidence/M00/20260930T194717-7ea70d3f/summary.json",
+      "sha256": "e59bcc05893c13b1383d24abc264e69b662cce5f76198c89f18b52b6ce7d0f6e"
+    },
+    {
+      "path": "evidence/M00/20260930T194717-7ea70d3f/validity.json",
+      "sha256": "633d0bab27e28d0e3f8484826e26962210e28fc165caabd57f32a435372c3cab"
+    },
+    {
+      "path": "evidence/M00/20260930T194717-7ea70d3f/wheels.json",
+      "sha256": "7db829bc323883817ebbf34270f4f9d9aa377a5ab09b215278ea77c4f5f63fed"
+    }
+  ],
+  "protocol_version": "PTCO-1.0",
+  "run_id": "20260930T194717-7ea70d3f",
+  "schema_version": 1,
+  "started_utc": "2026-09-30T17:47:17.177941Z"
+}

@@ -1,0 +1,1689 @@
+{
+  "confirmation": [
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__mlp_dt__seed0",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_dt",
+      "seed": 0
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__mlp_h__seed0",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_h",
+      "seed": 0
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__gru_dt__seed0",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "gru_dt",
+      "seed": 0
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__lstm_dt__seed0",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "lstm_dt",
+      "seed": 0
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__attention_dt__seed0",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "attention_dt",
+      "seed": 0
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__ssm_dt__seed0",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "ssm_dt",
+      "seed": 0
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__node_generic__seed0",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_generic",
+      "seed": 0
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__power_correct__seed0",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "power_correct",
+      "seed": 0
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__node_structured__seed0",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_structured",
+      "seed": 0
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__power_correct__seed0",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 0
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__node_structured__seed0",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 0
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__mlp_dt__seed0",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 0
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__gru_dt__seed0",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 0
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__node_generic__seed0",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_generic",
+      "seed": 0
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__power_correct__seed0",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 0
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__node_structured__seed0",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 0
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__mlp_dt__seed0",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 0
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__gru_dt__seed0",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 0
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__mlp_dt__seed0",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_dt",
+      "seed": 0
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__mlp_h__seed0",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_h",
+      "seed": 0
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__gru_dt__seed0",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "gru_dt",
+      "seed": 0
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__lstm_dt__seed0",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "lstm_dt",
+      "seed": 0
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__attention_dt__seed0",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "attention_dt",
+      "seed": 0
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__ssm_dt__seed0",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "ssm_dt",
+      "seed": 0
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__node_generic__seed0",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_generic",
+      "seed": 0
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__power_correct__seed0",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "power_correct",
+      "seed": 0
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__node_structured__seed0",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_structured",
+      "seed": 0
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__power_correct__seed0",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 0
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__node_structured__seed0",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 0
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__mlp_dt__seed0",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 0
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__gru_dt__seed0",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 0
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__node_generic__seed0",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_generic",
+      "seed": 0
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__power_correct__seed0",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 0
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__node_structured__seed0",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 0
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__mlp_dt__seed0",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 0
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__gru_dt__seed0",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 0
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__mlp_dt__seed1",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_dt",
+      "seed": 1
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__mlp_h__seed1",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_h",
+      "seed": 1
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__gru_dt__seed1",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "gru_dt",
+      "seed": 1
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__lstm_dt__seed1",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "lstm_dt",
+      "seed": 1
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__attention_dt__seed1",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "attention_dt",
+      "seed": 1
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__ssm_dt__seed1",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "ssm_dt",
+      "seed": 1
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__node_generic__seed1",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_generic",
+      "seed": 1
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__power_correct__seed1",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "power_correct",
+      "seed": 1
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__node_structured__seed1",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_structured",
+      "seed": 1
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__power_correct__seed1",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 1
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__node_structured__seed1",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 1
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__mlp_dt__seed1",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 1
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__gru_dt__seed1",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 1
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__node_generic__seed1",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_generic",
+      "seed": 1
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__power_correct__seed1",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 1
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__node_structured__seed1",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 1
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__mlp_dt__seed1",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 1
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__gru_dt__seed1",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 1
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__mlp_dt__seed1",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_dt",
+      "seed": 1
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__mlp_h__seed1",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_h",
+      "seed": 1
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__gru_dt__seed1",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "gru_dt",
+      "seed": 1
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__lstm_dt__seed1",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "lstm_dt",
+      "seed": 1
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__attention_dt__seed1",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "attention_dt",
+      "seed": 1
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__ssm_dt__seed1",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "ssm_dt",
+      "seed": 1
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__node_generic__seed1",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_generic",
+      "seed": 1
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__power_correct__seed1",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "power_correct",
+      "seed": 1
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__node_structured__seed1",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_structured",
+      "seed": 1
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__power_correct__seed1",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 1
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__node_structured__seed1",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 1
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__mlp_dt__seed1",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 1
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__gru_dt__seed1",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 1
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__node_generic__seed1",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_generic",
+      "seed": 1
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__power_correct__seed1",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 1
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__node_structured__seed1",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 1
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__mlp_dt__seed1",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 1
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__gru_dt__seed1",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 1
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__mlp_dt__seed2",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_dt",
+      "seed": 2
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__mlp_h__seed2",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_h",
+      "seed": 2
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__gru_dt__seed2",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "gru_dt",
+      "seed": 2
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__lstm_dt__seed2",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "lstm_dt",
+      "seed": 2
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__attention_dt__seed2",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "attention_dt",
+      "seed": 2
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__ssm_dt__seed2",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "ssm_dt",
+      "seed": 2
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__node_generic__seed2",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_generic",
+      "seed": 2
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__power_correct__seed2",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "power_correct",
+      "seed": 2
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__node_structured__seed2",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_structured",
+      "seed": 2
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__power_correct__seed2",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 2
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__node_structured__seed2",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 2
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__mlp_dt__seed2",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 2
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__gru_dt__seed2",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 2
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__node_generic__seed2",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_generic",
+      "seed": 2
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__power_correct__seed2",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 2
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__node_structured__seed2",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 2
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__mlp_dt__seed2",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 2
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__gru_dt__seed2",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 2
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__mlp_dt__seed2",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_dt",
+      "seed": 2
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__mlp_h__seed2",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_h",
+      "seed": 2
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__gru_dt__seed2",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "gru_dt",
+      "seed": 2
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__lstm_dt__seed2",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "lstm_dt",
+      "seed": 2
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__attention_dt__seed2",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "attention_dt",
+      "seed": 2
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__ssm_dt__seed2",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "ssm_dt",
+      "seed": 2
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__node_generic__seed2",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_generic",
+      "seed": 2
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__power_correct__seed2",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "power_correct",
+      "seed": 2
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__node_structured__seed2",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_structured",
+      "seed": 2
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__power_correct__seed2",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 2
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__node_structured__seed2",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 2
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__mlp_dt__seed2",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 2
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__gru_dt__seed2",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 2
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__node_generic__seed2",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_generic",
+      "seed": 2
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__power_correct__seed2",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 2
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__node_structured__seed2",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 2
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__mlp_dt__seed2",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 2
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__gru_dt__seed2",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 2
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__mlp_dt__seed3",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_dt",
+      "seed": 3
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__mlp_h__seed3",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_h",
+      "seed": 3
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__gru_dt__seed3",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "gru_dt",
+      "seed": 3
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__lstm_dt__seed3",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "lstm_dt",
+      "seed": 3
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__attention_dt__seed3",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "attention_dt",
+      "seed": 3
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__ssm_dt__seed3",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "ssm_dt",
+      "seed": 3
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__node_generic__seed3",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_generic",
+      "seed": 3
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__power_correct__seed3",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "power_correct",
+      "seed": 3
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__node_structured__seed3",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_structured",
+      "seed": 3
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__power_correct__seed3",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 3
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__node_structured__seed3",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 3
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__mlp_dt__seed3",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 3
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__gru_dt__seed3",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 3
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__node_generic__seed3",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_generic",
+      "seed": 3
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__power_correct__seed3",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 3
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__node_structured__seed3",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 3
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__mlp_dt__seed3",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 3
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__gru_dt__seed3",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 3
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__mlp_dt__seed3",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_dt",
+      "seed": 3
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__mlp_h__seed3",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_h",
+      "seed": 3
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__gru_dt__seed3",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "gru_dt",
+      "seed": 3
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__lstm_dt__seed3",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "lstm_dt",
+      "seed": 3
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__attention_dt__seed3",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "attention_dt",
+      "seed": 3
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__ssm_dt__seed3",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "ssm_dt",
+      "seed": 3
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__node_generic__seed3",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_generic",
+      "seed": 3
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__power_correct__seed3",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "power_correct",
+      "seed": 3
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__node_structured__seed3",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_structured",
+      "seed": 3
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__power_correct__seed3",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 3
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__node_structured__seed3",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 3
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__mlp_dt__seed3",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 3
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__gru_dt__seed3",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 3
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__node_generic__seed3",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_generic",
+      "seed": 3
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__power_correct__seed3",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 3
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__node_structured__seed3",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 3
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__mlp_dt__seed3",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 3
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__gru_dt__seed3",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 3
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__mlp_dt__seed4",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_dt",
+      "seed": 4
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__mlp_h__seed4",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_h",
+      "seed": 4
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__gru_dt__seed4",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "gru_dt",
+      "seed": 4
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__lstm_dt__seed4",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "lstm_dt",
+      "seed": 4
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__attention_dt__seed4",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "attention_dt",
+      "seed": 4
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__ssm_dt__seed4",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "ssm_dt",
+      "seed": 4
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__node_generic__seed4",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_generic",
+      "seed": 4
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__power_correct__seed4",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "power_correct",
+      "seed": 4
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__node_structured__seed4",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_structured",
+      "seed": 4
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__power_correct__seed4",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 4
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__node_structured__seed4",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 4
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__mlp_dt__seed4",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 4
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__gru_dt__seed4",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 4
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__node_generic__seed4",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_generic",
+      "seed": 4
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__power_correct__seed4",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 4
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__node_structured__seed4",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 4
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__mlp_dt__seed4",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 4
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__gru_dt__seed4",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 4
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__mlp_dt__seed4",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_dt",
+      "seed": 4
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__mlp_h__seed4",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_h",
+      "seed": 4
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__gru_dt__seed4",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "gru_dt",
+      "seed": 4
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__lstm_dt__seed4",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "lstm_dt",
+      "seed": 4
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__attention_dt__seed4",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "attention_dt",
+      "seed": 4
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__ssm_dt__seed4",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "ssm_dt",
+      "seed": 4
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__node_generic__seed4",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_generic",
+      "seed": 4
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__power_correct__seed4",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "power_correct",
+      "seed": 4
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__node_structured__seed4",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_structured",
+      "seed": 4
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__power_correct__seed4",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 4
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__node_structured__seed4",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 4
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__mlp_dt__seed4",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 4
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__gru_dt__seed4",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 4
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__node_generic__seed4",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_generic",
+      "seed": 4
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__power_correct__seed4",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 4
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__node_structured__seed4",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 4
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__mlp_dt__seed4",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 4
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__gru_dt__seed4",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 4
+    }
+  ],
+  "development": [
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__mlp_dt__seed9000",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 9000
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__gru_dt__seed9000",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 9000
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__node_generic__seed9000",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_generic",
+      "seed": 9000
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__power_correct__seed9000",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 9000
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__F__one_step__node_structured__seed9000",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 9000
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__mlp_dt__seed9000",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 9000
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__gru_dt__seed9000",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 9000
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__node_generic__seed9000",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "node_generic",
+      "seed": 9000
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__power_correct__seed9000",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 9000
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__one_step__node_structured__seed9000",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 9000
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__mlp_dt__seed9000",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 9000
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__gru_dt__seed9000",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 9000
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__node_generic__seed9000",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_generic",
+      "seed": 9000
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__power_correct__seed9000",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 9000
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__F__one_step__node_structured__seed9000",
+      "condition": "F",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 9000
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__mlp_dt__seed9000",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "mlp_dt",
+      "seed": 9000
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__gru_dt__seed9000",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "gru_dt",
+      "seed": 9000
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__node_generic__seed9000",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "node_generic",
+      "seed": 9000
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__power_correct__seed9000",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "power_correct",
+      "seed": 9000
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__one_step__node_structured__seed9000",
+      "condition": "A",
+      "loss_mode": "one_step",
+      "model_id": "node_structured",
+      "seed": 9000
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__mlp_dt__seed9000",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_dt",
+      "seed": 9000
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__gru_dt__seed9000",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "gru_dt",
+      "seed": 9000
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__node_generic__seed9000",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_generic",
+      "seed": 9000
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__power_correct__seed9000",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "power_correct",
+      "seed": 9000
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__node_structured__seed9000",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_structured",
+      "seed": 9000
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__mlp_dt__seed9000",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_dt",
+      "seed": 9000
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__gru_dt__seed9000",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "gru_dt",
+      "seed": 9000
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__node_generic__seed9000",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_generic",
+      "seed": 9000
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__power_correct__seed9000",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "power_correct",
+      "seed": 9000
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__node_structured__seed9000",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_structured",
+      "seed": 9000
+    }
+  ],
+  "protocol_version": "PTCO-1.0",
+  "statistical_family_size": 280,
+  "status": "declared"
+}

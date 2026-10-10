@@ -1,0 +1,196 @@
+{
+  "evidence": [
+    {
+      "path": "reports/control_solver_continuation_result.json",
+      "sha256": "96dd1430833e57b68d6a2cca57b8738786852fb582fdbac5ddbb18eaf856a5d3"
+    },
+    {
+      "path": "reports/control_solver_continuation_batch.json",
+      "sha256": "06cbdcff6111aa62e5368887bbc14ea2628f58d2e9373be451fb75108124647a"
+    },
+    {
+      "path": "reports/control_solver_validation.json",
+      "sha256": "1d7d53bc0c43121b62188eea746b5d175c2528f318e184dce582b48c5c32ffcf"
+    },
+    {
+      "path": "reports/control_confirmation_numerical.json",
+      "sha256": "05172cb970f89cd494103fdd152aff33759713cd375c5dbd1b2ffa8178d1345e"
+    },
+    {
+      "path": "config/control_solver_continuation_jobs.json",
+      "sha256": "5572a2be5925994b53c53e4407851b1794a0f36630658f24b2548b0360ac2680"
+    },
+    {
+      "path": "config/control_solver_validation_jobs.json",
+      "sha256": "0e606cfbd0ad556e903a5bfcd8ee892353d6acf052a9785ae5f8e213ecb32eba"
+    }
+  ],
+  "full_qualification_returncode": 0,
+  "limitations": [
+    "Observed solver discrepancies are empirical subset envelopes, not certified error bounds.",
+    "Five nominal fits exceed the predeclared 0.5% diagnostic threshold; this is a discretization-specific fit limitation, not a scientific rejection or permission to replace the comparator.",
+    "No statistical look or control utility verdict has been assigned; reproduction remains pending."
+  ],
+  "n_nominal_validation_fits": 10,
+  "n_original_parents": 50,
+  "n_solver_episodes": 100,
+  "recorded_utc": "2026-10-06T02:53:58.336519Z",
+  "resources": {
+    "nominal_validation": {
+      "artifact_bytes_sum": 47089,
+      "cpu_sum_seconds": 21.431835999999997,
+      "peak_rss_max_bytes": 222724096,
+      "wall_timer_sum_seconds": 21.443442040999997
+    },
+    "solver": {
+      "artifact_bytes_sum": 251647990,
+      "cpu_sum_seconds": 2823.807658,
+      "peak_rss_max_bytes": 285736960,
+      "wall_timer_sum_seconds": 2824.072103788
+    }
+  },
+  "schema_version": 1,
+  "scientific_decision": "not_evaluated",
+  "scope": "Evaluation-only diagnostics for the original one-substep-trained discrete NODE comparator; unchanged learned checkpoints, observations, controls and control-result costs.",
+  "solver": {
+    "convergence": [
+      {
+        "actuator": "direct",
+        "diagnostic_budget": 0.00016868308765236262,
+        "original_paired_mean_effect": -0.001686830876523626,
+        "two_to_four_mean_cost_movement": 0.0
+      },
+      {
+        "actuator": "lagged",
+        "diagnostic_budget": 6.783873286110409e-05,
+        "original_paired_mean_effect": 0.0006783873286110409,
+        "two_to_four_mean_cost_movement": 5.489477898379392e-07
+      }
+    ],
+    "envelopes": {
+      "utility_control/direct/node_generic/h40000000": {
+        "lower": 0.0,
+        "upper": 0.0
+      },
+      "utility_control/lagged/node_generic/h40000000": {
+        "lower": 0.002199869393582299,
+        "upper": 0.002199869393582299
+      }
+    },
+    "original_to_refined_classification_changes": 6,
+    "required_actions": []
+  },
+  "solver_returncode": 0,
+  "state": "complete_verified_numerical_qualification",
+  "statistical_look_reserved": false,
+  "validation": [
+    {
+      "canonical_tensor_sha256": "b1e902c9e16db4fa5e8e35db36d9145399c7f47b875fd75b908f181267c325a7",
+      "cell_id": "direct__A__shared__node_generic__seed0",
+      "material_nominal_fit_change": false,
+      "relative_objective_changes": [
+        0.0,
+        0.0019176797265275415,
+        0.002067876234298558
+      ]
+    },
+    {
+      "canonical_tensor_sha256": "4a3891e20a12f13142ae5e2afb2fe2d248c1b4493146d21548c0ebc599811fe7",
+      "cell_id": "direct__A__shared__node_generic__seed1",
+      "material_nominal_fit_change": false,
+      "relative_objective_changes": [
+        0.0,
+        3.655824943840153e-05,
+        7.612437475461309e-05
+      ]
+    },
+    {
+      "canonical_tensor_sha256": "cf2f37625943c0c28e88b35bf11960756a787bc7e607f91db3d20134c22bb91a",
+      "cell_id": "direct__A__shared__node_generic__seed2",
+      "material_nominal_fit_change": false,
+      "relative_objective_changes": [
+        0.0,
+        0.0024292133801490584,
+        0.002596899381244242
+      ]
+    },
+    {
+      "canonical_tensor_sha256": "96152bbbe2059e80a00267f6fda993481f61b7981e518ea78e4846aaf284af88",
+      "cell_id": "direct__A__shared__node_generic__seed3",
+      "material_nominal_fit_change": true,
+      "relative_objective_changes": [
+        0.0,
+        0.008338671435021991,
+        0.00898392587407829
+      ]
+    },
+    {
+      "canonical_tensor_sha256": "fa8164b6d6e7e23609a1ab72b235fbcdf1473df9092211db8bcfe1436fb02203",
+      "cell_id": "direct__A__shared__node_generic__seed4",
+      "material_nominal_fit_change": false,
+      "relative_objective_changes": [
+        0.0,
+        0.0006922134803560452,
+        0.0007443084683443476
+      ]
+    },
+    {
+      "canonical_tensor_sha256": "5395517ef0ec1deceb7b43cf83d0e9ecf8d15074351640e7f7af244b6efe603c",
+      "cell_id": "lagged__A__shared__node_generic__seed0",
+      "material_nominal_fit_change": true,
+      "relative_objective_changes": [
+        0.0,
+        0.008632852319669987,
+        0.008965982746408788
+      ]
+    },
+    {
+      "canonical_tensor_sha256": "c9e75b5aa36ad2f0f68e19a6f574fe1be6117501e3d616c37cf1ba5b6946dda3",
+      "cell_id": "lagged__A__shared__node_generic__seed1",
+      "material_nominal_fit_change": false,
+      "relative_objective_changes": [
+        0.0,
+        0.00033004112782683814,
+        0.0005681874214860271
+      ]
+    },
+    {
+      "canonical_tensor_sha256": "a1f85ffe9c80561dca2d542536775645153ea085e9a5a86bc5b2c936c83ca1bd",
+      "cell_id": "lagged__A__shared__node_generic__seed2",
+      "material_nominal_fit_change": true,
+      "relative_objective_changes": [
+        0.0,
+        0.009736304259747487,
+        0.010530221557999923
+      ]
+    },
+    {
+      "canonical_tensor_sha256": "e6cd24239b9700ce81cd6fe1c534d2d3dfe6f071acc3f1777a5dffaff51be33b",
+      "cell_id": "lagged__A__shared__node_generic__seed3",
+      "material_nominal_fit_change": true,
+      "relative_objective_changes": [
+        0.0,
+        0.006039455321886175,
+        0.006760669067541144
+      ]
+    },
+    {
+      "canonical_tensor_sha256": "d187d3769b4a0a1913796a77eaffae2bf6f28048cedda26f80b63489ddbc059a",
+      "cell_id": "lagged__A__shared__node_generic__seed4",
+      "material_nominal_fit_change": true,
+      "relative_objective_changes": [
+        0.0,
+        0.012457281995890286,
+        0.013029307133715421
+      ]
+    }
+  ],
+  "validation_returncode": 0,
+  "verification": {
+    "all_frozen_inputs_match": true,
+    "exact_frozen_request_and_manifest_coverage": true,
+    "full_raw_evidence_closure_passed": true,
+    "original_validation_scores_reproduced": true,
+    "unchanged_selected_tensors_and_target_counts": true
+  }
+}

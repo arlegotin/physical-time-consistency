@@ -1,0 +1,13 @@
+{
+  "archived_file_count": 419876,
+  "decision_id": "37974156e9d94923ca9bc39b002121bb3219c745993c990fbec796fad2ffdb49",
+  "inventory_origin": "study/precision-look-2/study/precision-look-3/study/precision-look-4/INITIAL_CONTEXT.json",
+  "inventory_origin_sha256": "708d2b3d9fa3433993e3dc1e6295d3a92309a0091c3d0f9d7c711d2cad98e0ef",
+  "live_descendant_context": "study/precision-look-2/study/precision-look-3/study/precision-look-4",
+  "protocol_version": "PTCO-1.0",
+  "schema_version": 1,
+  "sealed_in_place": true,
+  "snapshot_sha256": "4b40ef480f8c5d48ce01493f485c95786ea26ba0367829b4bf8fb1efc2ba1388",
+  "study_relative": "study/precision-look-2/study/precision-look-3",
+  "verified_utc": "2026-10-01T18:05:45.502208Z"
+}

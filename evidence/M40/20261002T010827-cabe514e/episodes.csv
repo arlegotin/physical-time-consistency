@@ -1,0 +1,2 @@
+run_id,experiment_id,phase,model_id,actuator,seed,episode_id,condition,realized_cost,q_rmse_rad,terminal_q_error_rad,velocity_rms_rad_s,success,fallback_count
+20261002T010827-cabe514e,E03,exploratory,power_correct,direct,9000,0,clean,0.04054579448705297,0.08130452020003932,0.016769645264154486,0.3314525903532922,False,0

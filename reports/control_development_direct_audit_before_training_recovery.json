@@ -1,0 +1,504 @@
+{
+  "batch_sha256": "817b29fb1aac0bc06ebef3413dc2a82ed84b8c2d4dc1e36a7fd48c5e233c2db2",
+  "complete_episode_count": 60,
+  "contrasts": [
+    {
+      "baseline_mean_cost": 0.21272742736403213,
+      "baseline_model": "mlp_dt",
+      "episode_cost_differences": [
+        0.013063822490190127,
+        -0.003665743250890141,
+        0.005713618594556269,
+        0.0015047359587205267,
+        0.00021388051086365656,
+        0.0174871560207448,
+        -0.01598619828885456,
+        -0.004964174712434301,
+        0.0004700020051921494,
+        0.0066935067252361785
+      ],
+      "episodes_with_lower_head_cost": 7,
+      "method_mean_cost": 0.21067436675869972,
+      "model_step_ns": 40000000,
+      "relative_reduction": 0.009651132582067512
+    },
+    {
+      "baseline_mean_cost": 0.21204692428734254,
+      "baseline_model": "node_generic",
+      "episode_cost_differences": [
+        0.003910234947041673,
+        -0.004730523464747838,
+        0.002121442676672247,
+        -0.005240369651046961,
+        0.004776936141282662,
+        0.008628034451303196,
+        -0.00018427892801287094,
+        -0.004798873855026881,
+        0.00012636796335774303,
+        0.009116605005605363
+      ],
+      "episodes_with_lower_head_cost": 6,
+      "method_mean_cost": 0.21067436675869972,
+      "model_step_ns": 40000000,
+      "relative_reduction": 0.0064728952483313895
+    },
+    {
+      "baseline_mean_cost": 0.3006329668765475,
+      "baseline_model": "mlp_dt",
+      "episode_cost_differences": [
+        0.08053055865616571,
+        0.09317130183888969,
+        0.06654662455928045,
+        0.19532341428363326,
+        0.054346817097571776,
+        0.024210365178357507,
+        0.044621380747533024,
+        0.09618685197179327,
+        0.13704341324456928,
+        0.07485011575696271
+      ],
+      "episodes_with_lower_head_cost": 10,
+      "method_mean_cost": 0.21394988254307185,
+      "model_step_ns": 5000000,
+      "relative_reduction": 0.28833525888420397
+    },
+    {
+      "baseline_mean_cost": 0.21204692428734254,
+      "baseline_model": "node_generic",
+      "episode_cost_differences": [
+        0.0018094927058583468,
+        -0.0035745867906896434,
+        0.00864717736298054,
+        -0.013576499448368806,
+        0.0037846171446286603,
+        0.0006122737294782243,
+        -0.00626946301257475,
+        -0.0068350163004245925,
+        -0.009683571653640005,
+        0.00605599370545884
+      ],
+      "episodes_with_lower_head_cost": 5,
+      "method_mean_cost": 0.21394988254307185,
+      "model_step_ns": 5000000,
+      "relative_reduction": -0.008974231822153733
+    }
+  ],
+  "episodes_per_model_partition": 10,
+  "means": [
+    {
+      "fallbacks": 0,
+      "mean_cost": 0.21272742736403213,
+      "model_id": "mlp_dt",
+      "model_step_ns": 40000000,
+      "successes": 2
+    },
+    {
+      "fallbacks": 0,
+      "mean_cost": 0.3006329668765475,
+      "model_id": "mlp_dt",
+      "model_step_ns": 5000000,
+      "successes": 0
+    },
+    {
+      "fallbacks": 0,
+      "mean_cost": 0.21204692428734254,
+      "model_id": "node_generic",
+      "model_step_ns": 40000000,
+      "successes": 2
+    },
+    {
+      "fallbacks": 0,
+      "mean_cost": 0.21204692428734254,
+      "model_id": "node_generic",
+      "model_step_ns": 5000000,
+      "successes": 2
+    },
+    {
+      "fallbacks": 0,
+      "mean_cost": 0.21067436675869972,
+      "model_id": "power_correct",
+      "model_step_ns": 40000000,
+      "successes": 3
+    },
+    {
+      "fallbacks": 0,
+      "mean_cost": 0.21394988254307185,
+      "model_id": "power_correct",
+      "model_step_ns": 5000000,
+      "successes": 0
+    }
+  ],
+  "n_training_seeds": 1,
+  "recorded_utc": "2026-10-02T02:16:31.833045Z",
+  "schema_version": 1,
+  "scope": "Fixed direct development workload; raw costs independently summed from true anchors and executed commands; no population confidence claim",
+  "script_sha256": "ba72d7aa67ffe207c665482ed9696241ea29ed98e6c98196a2073183ae75b17e",
+  "seed_ids": [
+    9000
+  ],
+  "semantic_dependency_count": 2293,
+  "statistical_status": "descriptive_only",
+  "verified_episodes": [
+    {
+      "manifest": "evidence/M40/20261002T010413-96a83dd0/manifest.json",
+      "manifest_sha256": "42d1e409015603eebc267551975d4fdd975004546a49d9733c9d00d7a26e03e9",
+      "raw_cost": 0.05360961697724309,
+      "reported_cost": 0.0536096169772431
+    },
+    {
+      "manifest": "evidence/M40/20261002T011833-0441c7e2/manifest.json",
+      "manifest_sha256": "6642fc69d9fa449a356fa68e9f169de0b702f1673502728e01608812cc1e2db6",
+      "raw_cost": 0.19567354098826917,
+      "reported_cost": 0.19567354098826917
+    },
+    {
+      "manifest": "evidence/M40/20261002T011909-6550eac2/manifest.json",
+      "manifest_sha256": "138b125f55bb6b22d5779231ff02235c3d751a3aeab50fba55abe0e13286de22",
+      "raw_cost": 0.3146275119630969,
+      "reported_cost": 0.3146275119630969
+    },
+    {
+      "manifest": "evidence/M40/20261002T011945-cc9f3893/manifest.json",
+      "manifest_sha256": "6f521cf42bd4576fe38f37f4f201597db28ef0e2585358cb6de20b3f7d89c3f5",
+      "raw_cost": 0.4630883817116884,
+      "reported_cost": 0.4630883817116885
+    },
+    {
+      "manifest": "evidence/M40/20261002T012022-899dc564/manifest.json",
+      "manifest_sha256": "b52fbc93a63c97a262c006ac6cc078ba61d5e728e51384493ac5bd602fdb6336",
+      "raw_cost": 0.17934341416328387,
+      "reported_cost": 0.17934341416328384
+    },
+    {
+      "manifest": "evidence/M40/20261002T012058-4551248e/manifest.json",
+      "manifest_sha256": "eb92cf2dec7c21ee420506e3e86b6fb9a4f4aa8e3ed59581d999d73819be3b4c",
+      "raw_cost": 0.18955187685462613,
+      "reported_cost": 0.18955187685462613
+    },
+    {
+      "manifest": "evidence/M40/20261002T012135-29aba4ea/manifest.json",
+      "manifest_sha256": "ed08c86075461109ea2f3ed43dfbd86b9205d1517a41b9dd2a27fa4adfc20d10",
+      "raw_cost": 0.4297333471215671,
+      "reported_cost": 0.429733347121567
+    },
+    {
+      "manifest": "evidence/M40/20261002T012211-1ae71cb7/manifest.json",
+      "manifest_sha256": "bdb75836fc6e53295bc305829deb953f3ce088b599c2f14e5a8c2e4de799b282",
+      "raw_cost": 0.008473575337898057,
+      "reported_cost": 0.008473575337898056
+    },
+    {
+      "manifest": "evidence/M40/20261002T012248-78c6df61/manifest.json",
+      "manifest_sha256": "3c134052b711dc3455cdc790738e1821b15de729aeec44a8c7b6c6ad428acc0d",
+      "raw_cost": 0.16728509148675094,
+      "reported_cost": 0.16728509148675094
+    },
+    {
+      "manifest": "evidence/M40/20261002T012324-5b64f828/manifest.json",
+      "manifest_sha256": "9536c2b967abf8b60c42ed3c2684ec8b210d67320a7e64af1fcfaff1187c3b69",
+      "raw_cost": 0.12588791703589794,
+      "reported_cost": 0.12588791703589794
+    },
+    {
+      "manifest": "evidence/M40/20261002T010449-e81bb7ad/manifest.json",
+      "manifest_sha256": "10195c3902c7495350d7bcf7b272e70ad76e66336dca486f30cce9d7add291d2",
+      "raw_cost": 0.123177095384402,
+      "reported_cost": 0.12317709538440201
+    },
+    {
+      "manifest": "evidence/M40/20261002T012411-83b335c5/manifest.json",
+      "manifest_sha256": "34fe32762ba021165040f478c6d1059d9c64c24cf259602085081091f788964b",
+      "raw_cost": 0.2913546494039908,
+      "reported_cost": 0.2913546494039908
+    },
+    {
+      "manifest": "evidence/M40/20261002T012538-e1db62d4/manifest.json",
+      "manifest_sha256": "cbac86ed5a0071ca58d9c96e9686d829332f22e59d80fdf2fe886ac163fe22fe",
+      "raw_cost": 0.3689347832415128,
+      "reported_cost": 0.3689347832415128
+    },
+    {
+      "manifest": "evidence/M40/20261002T012707-fddaef38/manifest.json",
+      "manifest_sha256": "ded5bab46780803781660e98c008d5683144d618b0ee1b63fdec20acae703fb3",
+      "raw_cost": 0.665243189833923,
+      "reported_cost": 0.665243189833923
+    },
+    {
+      "manifest": "evidence/M40/20261002T012835-8bd1cd90/manifest.json",
+      "manifest_sha256": "22b24ad30b193f8e88c59d96bff5efed463b84b51044bb864c19c2470e722ccf",
+      "raw_cost": 0.23446866974664593,
+      "reported_cost": 0.23446866974664596
+    },
+    {
+      "manifest": "evidence/M40/20261002T013004-06ef97a7/manifest.json",
+      "manifest_sha256": "011fcf494e41dc6c5c9099b73298798b124bd21a94747423f7f0f7004d5bb4b4",
+      "raw_cost": 0.20429084673406384,
+      "reported_cost": 0.2042908467340638
+    },
+    {
+      "manifest": "evidence/M40/20261002T013132-868749fb/manifest.json",
+      "manifest_sha256": "68a18fa8a006c9baed59da97f68bc296311739c1b36ec9dd46e7910dec726267",
+      "raw_cost": 0.4964261102425165,
+      "reported_cost": 0.4964261102425165
+    },
+    {
+      "manifest": "evidence/M40/20261002T013259-2a2986ce/manifest.json",
+      "manifest_sha256": "194b80388fbc984622b59e64b46e7717d674085871a8bb01bc1ba59173c739f8",
+      "raw_cost": 0.11166074446752335,
+      "reported_cost": 0.11166074446752335
+    },
+    {
+      "manifest": "evidence/M40/20261002T013427-eccc8968/manifest.json",
+      "manifest_sha256": "e7f02cd5eba8a556805de311d570eeefc21e334046735a92ac25d66fba389674",
+      "raw_cost": 0.3136684423431258,
+      "reported_cost": 0.3136684423431258
+    },
+    {
+      "manifest": "evidence/M40/20261002T013555-4a0fb0ec/manifest.json",
+      "manifest_sha256": "3b926b7f26dd526e0d41f1052aeeb781b8703cfd48c8dc047d97b030932ca878",
+      "raw_cost": 0.19710513736777097,
+      "reported_cost": 0.197105137367771
+    },
+    {
+      "manifest": "evidence/M40/20261002T010616-f1e591d8/manifest.json",
+      "manifest_sha256": "9e49a96b9fc3ec4a2c86ff088f72e8289267a3f2d6283a9364fdee9933db1afa",
+      "raw_cost": 0.04445602943409464,
+      "reported_cost": 0.04445602943409464
+    },
+    {
+      "manifest": "evidence/M40/20261002T013735-1202c0bc/manifest.json",
+      "manifest_sha256": "ca912f71631cdd7dd588ed465d386bed36973264a80ffb0040e781b28c0d0d52",
+      "raw_cost": 0.19460876077441147,
+      "reported_cost": 0.19460876077441147
+    },
+    {
+      "manifest": "evidence/M40/20261002T013812-29e724fc/manifest.json",
+      "manifest_sha256": "ad1d61a3a277c779b0d06f41ee950c70a905995ec280ba5b1e7ad2593f9747fb",
+      "raw_cost": 0.31103533604521283,
+      "reported_cost": 0.3110353360452129
+    },
+    {
+      "manifest": "evidence/M40/20261002T013849-5f176fe2/manifest.json",
+      "manifest_sha256": "510dff4c2090fc2edff60632a7af80c3eb42265d1ee434dcc4e9e8547bdea852",
+      "raw_cost": 0.45634327610192105,
+      "reported_cost": 0.456343276101921
+    },
+    {
+      "manifest": "evidence/M40/20261002T013926-bd912db2/manifest.json",
+      "manifest_sha256": "65175694bcb2082f820308d94ee737c813b8dda75a8c7f3a8ced81a3adc883b4",
+      "raw_cost": 0.18390646979370284,
+      "reported_cost": 0.18390646979370284
+    },
+    {
+      "manifest": "evidence/M40/20261002T014003-eb6054d1/manifest.json",
+      "manifest_sha256": "449c63565da20aea7f36289ba9b68cc47479b3595cb51e6beba41987ce0880d7",
+      "raw_cost": 0.18069275528518453,
+      "reported_cost": 0.18069275528518453
+    },
+    {
+      "manifest": "evidence/M40/20261002T014040-8751fc9d/manifest.json",
+      "manifest_sha256": "5e1cfd6f964cdd7fac06daa7a70d3a2be42d9c672edb50a57f2d3924645eb0dd",
+      "raw_cost": 0.4455352664824087,
+      "reported_cost": 0.4455352664824087
+    },
+    {
+      "manifest": "evidence/M40/20261002T014117-09408055/manifest.json",
+      "manifest_sha256": "3cc8ce7646f4d7e712b04f7cc9d9ee849617ce0372403e368768175253bbc55a",
+      "raw_cost": 0.008638876195305475,
+      "reported_cost": 0.008638876195305475
+    },
+    {
+      "manifest": "evidence/M40/20261002T014154-50dd39c8/manifest.json",
+      "manifest_sha256": "11488a41b20e75f9f96d63ea4053681554ad2299b062508ec93614fb823d02af",
+      "raw_cost": 0.16694145744491654,
+      "reported_cost": 0.16694145744491654
+    },
+    {
+      "manifest": "evidence/M40/20261002T014231-021f7474/manifest.json",
+      "manifest_sha256": "dd6da6ea0f79d2c1cf6610b6bfcdc6740d3cf99c863dfd2b7a00621c81b88300",
+      "raw_cost": 0.12831101531626715,
+      "reported_cost": 0.12831101531626712
+    },
+    {
+      "manifest": "evidence/M40/20261002T010653-d6db615b/manifest.json",
+      "manifest_sha256": "4c35907c0f49c143f72e4e000279cd6243ee9e6f693a82699f428c47ba7df10a",
+      "raw_cost": 0.04445602943409464,
+      "reported_cost": 0.04445602943409464
+    },
+    {
+      "manifest": "evidence/M40/20261002T014318-35777bde/manifest.json",
+      "manifest_sha256": "7a1623367d4db2a6f6bdc34d1dd8ed41be685dc46d068d1857c83c527128238d",
+      "raw_cost": 0.19460876077441147,
+      "reported_cost": 0.19460876077441147
+    },
+    {
+      "manifest": "evidence/M40/20261002T014452-daba645b/manifest.json",
+      "manifest_sha256": "ef43f6aed9e447dab4884bf25b908b6b6b15c43a7871de41a306094a731200d6",
+      "raw_cost": 0.31103533604521283,
+      "reported_cost": 0.3110353360452129
+    },
+    {
+      "manifest": "evidence/M40/20261002T014626-960f8d4c/manifest.json",
+      "manifest_sha256": "134e0b3c442b5ded40ee4b4e4fb10c0435af5264786756c94c51d0d1c0ab26c3",
+      "raw_cost": 0.45634327610192105,
+      "reported_cost": 0.456343276101921
+    },
+    {
+      "manifest": "evidence/M40/20261002T014800-41668c23/manifest.json",
+      "manifest_sha256": "63dd727121dde29fb22aedad769d96a0e591192fb3604e5daf2d7d84ef3a1682",
+      "raw_cost": 0.18390646979370284,
+      "reported_cost": 0.18390646979370284
+    },
+    {
+      "manifest": "evidence/M40/20261002T014932-93d581f6/manifest.json",
+      "manifest_sha256": "0b9161ae080599808ca951db7396a9867977c5874221e16036af0a9f19d420b7",
+      "raw_cost": 0.18069275528518453,
+      "reported_cost": 0.18069275528518453
+    },
+    {
+      "manifest": "evidence/M40/20261002T015105-5293605d/manifest.json",
+      "manifest_sha256": "e756e2a736aac2177967d593e93747a3ab2266b780b55bf5c8966952b37cc50b",
+      "raw_cost": 0.4455352664824087,
+      "reported_cost": 0.4455352664824087
+    },
+    {
+      "manifest": "evidence/M40/20261002T015237-5985bed3/manifest.json",
+      "manifest_sha256": "576152bac1c9c98a28d343f80169cae0091846bdbcc75f3187b6596fc41cfad5",
+      "raw_cost": 0.008638876195305477,
+      "reported_cost": 0.008638876195305477
+    },
+    {
+      "manifest": "evidence/M40/20261002T015410-fee69926/manifest.json",
+      "manifest_sha256": "b9be1d976b2826c223d04c57a164a9ccf7a01460644f8cde4ae4967431bbc6e4",
+      "raw_cost": 0.1669414574449165,
+      "reported_cost": 0.1669414574449165
+    },
+    {
+      "manifest": "evidence/M40/20261002T015543-11888e39/manifest.json",
+      "manifest_sha256": "888379391cd4fb1167be9e0b11619f3ff8cb60af79619023db82d8b9f69330d3",
+      "raw_cost": 0.12831101531626715,
+      "reported_cost": 0.12831101531626712
+    },
+    {
+      "manifest": "evidence/M40/20261002T010827-cabe514e/manifest.json",
+      "manifest_sha256": "7db59b98bb2de8338bc20535b5b046a94c4d2133e24a6f1b4cd85a216ceaa11b",
+      "raw_cost": 0.040545794487052964,
+      "reported_cost": 0.04054579448705297
+    },
+    {
+      "manifest": "evidence/M40/20261002T015727-98aa33df/manifest.json",
+      "manifest_sha256": "c30c174382b982520a9bd067cc757b1f361cedc1733b6ba556972a8b67c4e0ae",
+      "raw_cost": 0.19933928423915934,
+      "reported_cost": 0.1993392842391593
+    },
+    {
+      "manifest": "evidence/M40/20261002T015803-dc34091c/manifest.json",
+      "manifest_sha256": "487eab05337861b4124ce6354addae2941668b199d61641d0efc8e939b9936b7",
+      "raw_cost": 0.3089138933685407,
+      "reported_cost": 0.30891389336854064
+    },
+    {
+      "manifest": "evidence/M40/20261002T015839-0a3edb89/manifest.json",
+      "manifest_sha256": "3f6375296c584cf8085eb50a89a6e9398129af89378dd6c18c02cfd5b4c2a47c",
+      "raw_cost": 0.461583645752968,
+      "reported_cost": 0.46158364575296795
+    },
+    {
+      "manifest": "evidence/M40/20261002T015916-daa0381d/manifest.json",
+      "manifest_sha256": "3497d951000ac485a805e87445c5143c622b304f3af7a25e58030c2ca52edeb0",
+      "raw_cost": 0.17912953365242018,
+      "reported_cost": 0.17912953365242018
+    },
+    {
+      "manifest": "evidence/M40/20261002T015952-a9c83047/manifest.json",
+      "manifest_sha256": "314b2b98cb1ac2c996803a9a7c6ed4b4aa9df4a5af119a243105c3af6ce7df97",
+      "raw_cost": 0.17206472083388133,
+      "reported_cost": 0.17206472083388133
+    },
+    {
+      "manifest": "evidence/M40/20261002T020029-fdce2b30/manifest.json",
+      "manifest_sha256": "5a41eda2f6fd98853635d2a2f6f2305603f30eafd2545fd73d39454877b8a39a",
+      "raw_cost": 0.4457195454104216,
+      "reported_cost": 0.4457195454104216
+    },
+    {
+      "manifest": "evidence/M40/20261002T020105-9e43b69b/manifest.json",
+      "manifest_sha256": "adf1cbb7b077c86bbd65d06e7c258f19ccc6d8c751a92fa056ef8193101b4f70",
+      "raw_cost": 0.013437750050332355,
+      "reported_cost": 0.013437750050332356
+    },
+    {
+      "manifest": "evidence/M40/20261002T020142-13c88144/manifest.json",
+      "manifest_sha256": "22e8d4d7c5c43c8d6a079a6d8f05a393cd2920ca669b07ddd7343bbc9805182c",
+      "raw_cost": 0.16681508948155876,
+      "reported_cost": 0.1668150894815588
+    },
+    {
+      "manifest": "evidence/M40/20261002T020219-5efd37a1/manifest.json",
+      "manifest_sha256": "0a6400a6b2437fe6ec4d6c4ebb8d0614d815a06c3c082b1f0d945b6ad3cfacf3",
+      "raw_cost": 0.11919441031066177,
+      "reported_cost": 0.11919441031066176
+    },
+    {
+      "manifest": "evidence/M40/20261002T010903-2835a00e/manifest.json",
+      "manifest_sha256": "ef63d03382718c126fd9a9f54572cb0664061ecb5eea28ee5721e4fe28858ed4",
+      "raw_cost": 0.0426465367282363,
+      "reported_cost": 0.042646536728236296
+    },
+    {
+      "manifest": "evidence/M40/20261002T020306-54881b5b/manifest.json",
+      "manifest_sha256": "a401f0f2a04aa21f2be76028643b2d550df55e1c051f6cc61bcb4c195e5e8a39",
+      "raw_cost": 0.19818334756510111,
+      "reported_cost": 0.19818334756510111
+    },
+    {
+      "manifest": "evidence/M40/20261002T020435-eac3593a/manifest.json",
+      "manifest_sha256": "35244288a06a7b98d8ec713d1db973bc64aed719be23ae2f8038e342381a9885",
+      "raw_cost": 0.30238815868223234,
+      "reported_cost": 0.30238815868223234
+    },
+    {
+      "manifest": "evidence/M40/20261002T020604-76c3d2d1/manifest.json",
+      "manifest_sha256": "1900a9bd54ada6a58c88101e25160415cf3c6e2d42ebfbcafb954e586454e9f5",
+      "raw_cost": 0.4699197755502898,
+      "reported_cost": 0.4699197755502898
+    },
+    {
+      "manifest": "evidence/M40/20261002T020734-68be8b9f/manifest.json",
+      "manifest_sha256": "14fdbc4754f67e775a79af3d3e7b18b5047b72ce885c5ada02b2704511e09caf",
+      "raw_cost": 0.18012185264907418,
+      "reported_cost": 0.18012185264907418
+    },
+    {
+      "manifest": "evidence/M40/20261002T020903-bec51efa/manifest.json",
+      "manifest_sha256": "e09ab540c66751e77aac41ecb21cb1939f3ea535f882be4956e03f21bca85062",
+      "raw_cost": 0.1800804815557063,
+      "reported_cost": 0.1800804815557063
+    },
+    {
+      "manifest": "evidence/M40/20261002T021032-e5200be5/manifest.json",
+      "manifest_sha256": "fa9316f690ec85af3ccc3e62183a3f42e45ba73635b24402e2870ca4d1302323",
+      "raw_cost": 0.4518047294949834,
+      "reported_cost": 0.45180472949498346
+    },
+    {
+      "manifest": "evidence/M40/20261002T021202-7fc828f6/manifest.json",
+      "manifest_sha256": "cf395569cc0c9b9e8a0b6ff7320e846c8606307ca4eaee851471fab2278db92b",
+      "raw_cost": 0.01547389249573007,
+      "reported_cost": 0.01547389249573007
+    },
+    {
+      "manifest": "evidence/M40/20261002T021331-bf6efa7f/manifest.json",
+      "manifest_sha256": "878f9330916adeeac9e8ea3b225f1240daf1677ab5c2d4e8f28837149b6bded9",
+      "raw_cost": 0.17662502909855649,
+      "reported_cost": 0.1766250290985565
+    },
+    {
+      "manifest": "evidence/M40/20261002T021500-df59167b/manifest.json",
+      "manifest_sha256": "b64f85571dcd9728ae1981d14718db42c62879a2abc8208e35761a419bc68b2a",
+      "raw_cost": 0.12225502161080828,
+      "reported_cost": 0.12225502161080828
+    }
+  ],
+  "wheel_count": 25
+}

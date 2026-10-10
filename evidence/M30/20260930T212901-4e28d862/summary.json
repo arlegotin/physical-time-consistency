@@ -1,0 +1,20 @@
+{
+  "actuator": "lagged",
+  "missing_cells": [],
+  "model_hashes": {
+    "canonical_tensor_sha256": "e2fde1d2d7cba429676c1c7be7a90711c94dd7fa70f661b28595307445fbfb32"
+  },
+  "model_id": "gru_dt",
+  "robot_result": false,
+  "tiny_loss": 0.0009975063148885965,
+  "tiny_updates": 256,
+  "training_updates": 656,
+  "validation": {
+    "epoch": 100,
+    "four_count": 0,
+    "four_step": 0.0,
+    "objective": 0.00021330566960386932,
+    "one_count": 256,
+    "one_step": 0.00021330566960386932
+  }
+}

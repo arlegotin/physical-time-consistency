@@ -1,0 +1,30 @@
+{
+  "actuator": "direct",
+  "actuator_interval_ns": 40000000,
+  "checkpoint_sha256": null,
+  "condition": "clean",
+  "episode_id": 0,
+  "manifest_sha256": null,
+  "model_id": "sim_oracle",
+  "model_manifest": null,
+  "model_partition_ns": [
+    40000000
+  ],
+  "phase": "calibration",
+  "physics_step_ns": 250000,
+  "planner_settings": {
+    "candidate_count": 128,
+    "elite_count": 16,
+    "initial_std": 1.0,
+    "iterations": 4,
+    "std_floor": 0.1
+  },
+  "power_mode": null,
+  "resource_projection": {
+    "disk_bytes": 10000000,
+    "reason": "Initial representative robot episode; measure before remaining calibration jobs",
+    "wall_seconds": null
+  },
+  "schema_version": 1,
+  "seed": 9000
+}

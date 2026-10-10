@@ -1,0 +1,2 @@
+run_id,experiment_id,phase,model_id,actuator,seed,episode_id,condition,realized_cost,q_rmse_rad,terminal_q_error_rad,velocity_rms_rad_s,success,fallback_count
+20261002T023246-f2d4a0f2,E03,exploratory,power_correct,lagged,9000,0,clean,0.05149468773534733,0.09547302160068302,0.0361769424330884,0.3231360348779197,True,0

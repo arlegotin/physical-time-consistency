@@ -1,0 +1,37 @@
+{
+  "actuator": "direct",
+  "actuator_interval_ns": 40000000,
+  "checkpoint_sha256": "42e9fcec639ae371d156532a10f682d77e387817da792f5476569e952ea0e3f1",
+  "condition": "clean",
+  "episode_id": 0,
+  "manifest_sha256": "a8ced6cd32276d7d7ef999b0efdac9643ff8cd0b9623246ff28a3ce83ade908d",
+  "model_id": "mlp_dt",
+  "model_manifest": "study/precision-look-2/study/precision-look-3/evidence/M30/20261001T093016-1bcf8aac/manifest.json",
+  "model_partition_ns": [
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000
+  ],
+  "phase": "exploratory",
+  "physics_step_ns": 250000,
+  "planner_settings": {
+    "candidate_count": 128,
+    "elite_count": 16,
+    "initial_std": 1.0,
+    "iterations": 4,
+    "std_floor": 0.1
+  },
+  "power_mode": null,
+  "resource_projection": {
+    "disk_bytes": 10000000,
+    "reason": "Initial representative learned-control episode; measure actual model/planner throughput before remaining development jobs",
+    "wall_seconds": null
+  },
+  "schema_version": 1,
+  "seed": 9000
+}

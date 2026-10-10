@@ -1,0 +1,181 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "argv": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "code_revision": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "code_tree_sha256": {
+      "pattern": "[0-9a-f]{64}",
+      "type": "string"
+    },
+    "completion_status": {
+      "enum": [
+        "complete",
+        "blocked",
+        "failed"
+      ],
+      "type": "string"
+    },
+    "configuration_sha256": {
+      "pattern": "[0-9a-f]{64}",
+      "type": "string"
+    },
+    "data_hashes": {
+      "type": "object"
+    },
+    "dirty": {
+      "type": "boolean"
+    },
+    "ended_utc": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "environment_sha256": {
+      "pattern": "[0-9a-f]{64}",
+      "type": "string"
+    },
+    "expected_cells": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "invalidates": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "job_inputs": {
+      "type": "object"
+    },
+    "job_key": {
+      "pattern": "[0-9a-f]{64}",
+      "type": "string"
+    },
+    "milestone_id": {
+      "enum": [
+        "M00",
+        "M10",
+        "M20",
+        "M30",
+        "MR",
+        "M40",
+        "M50",
+        "M60",
+        "M70",
+        "M80",
+        "M90",
+        "MX",
+        "MF"
+      ],
+      "type": "string"
+    },
+    "model_hashes": {
+      "type": "object"
+    },
+    "parent_decisions": {
+      "type": "array"
+    },
+    "phase": {
+      "enum": [
+        "preflight",
+        "unit",
+        "calibration",
+        "exploratory",
+        "confirmatory",
+        "replication",
+        "report"
+      ],
+      "type": "string"
+    },
+    "produced_files": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "sha256": {
+            "pattern": "[0-9a-f]{64}",
+            "type": "string"
+          }
+        },
+        "required": [
+          "path",
+          "sha256"
+        ],
+        "type": "object"
+      },
+      "minItems": 6,
+      "type": "array"
+    },
+    "protocol_version": {
+      "enum": [
+        "PTCO-1.0"
+      ],
+      "type": "string"
+    },
+    "reason": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "run_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "schema_version": {
+      "enum": [
+        1
+      ],
+      "type": "integer"
+    },
+    "started_utc": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "supersedes": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema_version",
+    "protocol_version",
+    "milestone_id",
+    "run_id",
+    "job_key",
+    "job_inputs",
+    "phase",
+    "argv",
+    "code_revision",
+    "code_tree_sha256",
+    "dirty",
+    "configuration_sha256",
+    "data_hashes",
+    "model_hashes",
+    "environment_sha256",
+    "parent_decisions",
+    "started_utc",
+    "ended_utc",
+    "completion_status",
+    "expected_cells",
+    "produced_files"
+  ],
+  "type": "object"
+}

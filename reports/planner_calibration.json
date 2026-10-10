@@ -1,0 +1,161 @@
+{
+  "artifact_kind": "analytic_planner_calibration_index",
+  "attempts": [
+    {
+      "bytes": 6274382,
+      "path": "reports/analytic_planner_calibration/20261001T195640-59998200.json",
+      "qualification": {
+        "criteria": {
+          "each_fraction_minimum": 0.5,
+          "median_fraction_minimum": 0.75,
+          "stream_mean_spread_strict_maximum": 0.05
+        },
+        "minimum_achieved_fraction": 0.42882201317608076,
+        "qualified": false,
+        "reason": "Common search budget does not yet meet the model-independent qualification",
+        "spread_of_stream_means": 0.03705665354446508,
+        "stream_means": [
+          0.5787240003738149,
+          0.5654120895864154,
+          0.579540048287966,
+          0.587572488798918,
+          0.5505158352544529
+        ],
+        "stream_medians": [
+          0.5730155085899313,
+          0.5670900759675144,
+          0.5774995645374428,
+          0.5882645487225402,
+          0.559161832215578
+        ]
+      },
+      "resources": {
+        "cpu_seconds": 18.220723,
+        "peak_rss_bytes": 251838464,
+        "wall_seconds": 18.76242916705087
+      },
+      "run_id": "20261001T195640-59998200",
+      "settings": {
+        "candidate_count": 64,
+        "elite_count": 8,
+        "initial_std": 1.0,
+        "iterations": 2,
+        "std_floor": 0.1
+      },
+      "sha256": "96230d277108829cf7a6c1c27f6c7ce70686761f101f95f0fda4095c43e0ed26",
+      "task_stream_count": 80
+    },
+    {
+      "bytes": 12442287,
+      "path": "reports/analytic_planner_calibration/20261001T195758-5e1630bb.json",
+      "qualification": {
+        "criteria": {
+          "each_fraction_minimum": 0.5,
+          "median_fraction_minimum": 0.75,
+          "stream_mean_spread_strict_maximum": 0.05
+        },
+        "minimum_achieved_fraction": 0.5048952485527731,
+        "qualified": false,
+        "reason": "Common search budget does not yet meet the model-independent qualification",
+        "spread_of_stream_means": 0.027181167863994604,
+        "stream_means": [
+          0.6059915367195379,
+          0.6275417740292101,
+          0.6331727045835325,
+          0.6221641419864441,
+          0.6120475286270498
+        ],
+        "stream_medians": [
+          0.5919092256951544,
+          0.6271425891075559,
+          0.6298760539689467,
+          0.6179369182508555,
+          0.5993605112847209
+        ]
+      },
+      "resources": {
+        "cpu_seconds": 34.431449,
+        "peak_rss_bytes": 262422528,
+        "wall_seconds": 35.06287066685036
+      },
+      "run_id": "20261001T195758-5e1630bb",
+      "settings": {
+        "candidate_count": 128,
+        "elite_count": 16,
+        "initial_std": 1.0,
+        "iterations": 2,
+        "std_floor": 0.1
+      },
+      "sha256": "2ae10c442ae5981bb5e4787004f89b4124a3793783ec15a77b0062e22319f2eb",
+      "task_stream_count": 80
+    },
+    {
+      "bytes": 24660743,
+      "path": "reports/analytic_planner_calibration/20261001T200045-69982e35.json",
+      "qualification": {
+        "criteria": {
+          "each_fraction_minimum": 0.5,
+          "median_fraction_minimum": 0.75,
+          "stream_mean_spread_strict_maximum": 0.05
+        },
+        "minimum_achieved_fraction": 0.7051797893291978,
+        "qualified": true,
+        "reason": "All search calibration requirements met",
+        "spread_of_stream_means": 0.013907107441026523,
+        "stream_means": [
+          0.7979969333283028,
+          0.8119040407693293,
+          0.809277654296263,
+          0.8101937851376306,
+          0.8029002426077845
+        ],
+        "stream_medians": [
+          0.7968458730405522,
+          0.80223495228173,
+          0.8037732504964716,
+          0.8183017434847417,
+          0.7976261311744028
+        ]
+      },
+      "resources": {
+        "cpu_seconds": 66.262339,
+        "peak_rss_bytes": 284721152,
+        "wall_seconds": 67.05995329213329
+      },
+      "run_id": "20261001T200045-69982e35",
+      "settings": {
+        "candidate_count": 128,
+        "elite_count": 16,
+        "initial_std": 1.0,
+        "iterations": 4,
+        "std_floor": 0.1
+      },
+      "sha256": "69b27c17a9af7ed95404a04068ccf42f84521bfa75c1631ab71740f6999bcb94",
+      "task_stream_count": 80
+    }
+  ],
+  "first_qualifying_budget": true,
+  "projection_requests": [
+    {
+      "path": "reports/analytic_planner_calibration/next_budget_128x2.json",
+      "sha256": "511a7ea727c8bb249a51ee7300ef51a8ac85219d0225c83610d08a4af5c3f426"
+    },
+    {
+      "path": "reports/analytic_planner_calibration/next_budget_128x4.json",
+      "sha256": "0042504e51fd979398d5eeae6ff9d828879822c2db345a0322f440324a8f2486"
+    }
+  ],
+  "recorded_utc": "2026-10-01T20:08:00.156099Z",
+  "robot_reference_qualification": "not_run",
+  "schema_version": 1,
+  "scope": "Exact unit-mass planner qualification; learned robot control not run",
+  "selected_settings": {
+    "candidate_count": 128,
+    "elite_count": 16,
+    "initial_std": 1.0,
+    "iterations": 4,
+    "std_floor": 0.1
+  },
+  "total_cpu_seconds": 118.914511,
+  "total_wall_seconds": 120.88525312603451
+}

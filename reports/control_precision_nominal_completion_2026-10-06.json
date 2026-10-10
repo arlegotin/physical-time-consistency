@@ -1,0 +1,2414 @@
+{
+  "alpha_spent": 0,
+  "completed_new_training_and_plumbing_units": 50,
+  "completed_units": [
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T154150-97464ee6/manifest.json",
+      "manifest_sha256": "518224fb4c3c80d679c5fa14fc1b50d38f4cdf4c35b0c95cfe07b43e1b58afd4",
+      "parameters": {
+        "actuator": "direct",
+        "analytic_epochs": 100,
+        "model_id": "mlp_dt",
+        "seed": 8100,
+        "tiny_threshold": 0.001,
+        "tiny_updates": 5000,
+        "validation_threshold": 0.05
+      },
+      "phase": "unit",
+      "resources": {
+        "cpu_seconds": 1.0153530000000002,
+        "disk_bytes": 900674,
+        "original_estimate": null,
+        "peak_rss_bytes": 348930048,
+        "rss_convention": "macOS bytes",
+        "training_updates": 480,
+        "wall_seconds": 1.243783416
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T154155-d466204c/manifest.json",
+      "manifest_sha256": "a6b75e6e486394c686f2655e982c8d5fff9801b8aaf0d5cd0c94ecda07dbfd9e",
+      "parameters": {
+        "actuator": "direct",
+        "cell_id": "direct__A__shared__mlp_dt__seed5",
+        "condition": "A",
+        "data_hashes": {
+          "data/direct/A/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+          "data/direct/A/train/manifest.json": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+          "data/direct/A/train/trajectories.npz": "dfdd4453775e067920b9267b6f22dc748a931788bdfa009d2dd29029b383c59c",
+          "data/direct/A/validation/manifest.json": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c",
+          "data/direct/A/validation/trajectories.npz": "4056b58e4aa571bf2ff9c01b572f67170b223b619b14ac1ad69e60d912aa2429",
+          "evidence/M30/20261006T154150-97464ee6/manifest.json": "518224fb4c3c80d679c5fa14fc1b50d38f4cdf4c35b0c95cfe07b43e1b58afd4"
+        },
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "ebd4067c876eda6938747874e270b1f9deea796cfa195975a25927350257b51e",
+        "seed": 5,
+        "train_manifest": "data/direct/A/train/manifest.json",
+        "validation_manifest": "data/direct/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 52.286643999999995,
+        "disk_bytes": 6937989,
+        "original_estimate": null,
+        "peak_rss_bytes": 445235200,
+        "rss_convention": "macOS bytes",
+        "training_updates": 12800,
+        "wall_seconds": 52.68258375
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T154251-61314fe9/manifest.json",
+      "manifest_sha256": "95e5b07dde72d1274f3347bace3464c7f726a605362b05d94e97dabecf4b9240",
+      "parameters": {
+        "actuator": "direct",
+        "cell_id": "direct__A__shared__mlp_dt__seed5",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T154155-d466204c",
+        "data_hashes": {
+          "data/direct/A/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+          "data/direct/A/train/manifest.json": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+          "data/direct/A/train/trajectories.npz": "dfdd4453775e067920b9267b6f22dc748a931788bdfa009d2dd29029b383c59c",
+          "data/direct/A/validation/manifest.json": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c",
+          "data/direct/A/validation/trajectories.npz": "4056b58e4aa571bf2ff9c01b572f67170b223b619b14ac1ad69e60d912aa2429",
+          "evidence/M30/20261006T154150-97464ee6/manifest.json": "518224fb4c3c80d679c5fa14fc1b50d38f4cdf4c35b0c95cfe07b43e1b58afd4",
+          "evidence/M30/20261006T154155-d466204c/manifest.json": "a6b75e6e486394c686f2655e982c8d5fff9801b8aaf0d5cd0c94ecda07dbfd9e",
+          "evidence/M30/20261006T154155-d466204c/resume.complete.json": "0b5c15869c89fa899ff6e63a85782086be0778ab0d6ec489f16d753e551e308e",
+          "evidence/M30/20261006T154155-d466204c/resume.pt": "77b74b5d733d5f3ae2ac6f317597b4629cbbb2688a79f6715b69b2379181fab0",
+          "evidence/M30/20261006T154155-d466204c/resume.rng.json": "5526cdbb477108af96a4f48dcc416fdc159f91578649a887bd2de3740d472b41",
+          "evidence/M30/20261006T154155-d466204c/selection.complete.json": "28c031d47af8ae31d9013d1809b756ef176f78b08fa660720598dafe491980d5",
+          "evidence/M30/20261006T154155-d466204c/selection.prev.complete.json": "5ad9bd38b8bd3910128342678d0d20ba6d435a79d8c185959c7afdd010392f22",
+          "evidence/M30/20261006T154155-d466204c/selection.prev.pt": "150e6fd408a8429dd99f48eeec03da0a6df6fe0c554c78e5e1c26f752790e7ab",
+          "evidence/M30/20261006T154155-d466204c/selection.pt": "565df315b4a931ca3dc75f3a1eb83b979f984981ac743cdcc6d4a419cd59b281",
+          "evidence/M30/20261006T154155-d466204c/validation_history.json": "9812e2959c5a3ec2d8e1e1345802cc41457ec996c997e7d680573c78ff8ebe31",
+          "evidence/M30/20261006T154155-d466204c/weights.pt": "555f2414f70d9676b6c992b8fb8505f21fe8707a0dd27c299bb617caa64c664f"
+        },
+        "epochs": 200,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "ebd4067c876eda6938747874e270b1f9deea796cfa195975a25927350257b51e",
+        "seed": 5,
+        "train_manifest": "data/direct/A/train/manifest.json",
+        "validation_manifest": "data/direct/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 56.840043,
+        "disk_bytes": 12182946,
+        "original_estimate": null,
+        "peak_rss_bytes": 474202112,
+        "rss_convention": "macOS bytes",
+        "training_updates": 25600,
+        "wall_seconds": 57.242765583
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T154351-f6f315d7/manifest.json",
+      "manifest_sha256": "8665b83ca76852ea30c0208b8a9bb1ce947d7665e5ba28daad28e7b34b8d9c34",
+      "parameters": {
+        "actuator": "direct",
+        "cell_id": "direct__A__shared__mlp_dt__seed5",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T154251-61314fe9",
+        "data_hashes": {
+          "data/direct/A/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+          "data/direct/A/train/manifest.json": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+          "data/direct/A/train/trajectories.npz": "dfdd4453775e067920b9267b6f22dc748a931788bdfa009d2dd29029b383c59c",
+          "data/direct/A/validation/manifest.json": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c",
+          "data/direct/A/validation/trajectories.npz": "4056b58e4aa571bf2ff9c01b572f67170b223b619b14ac1ad69e60d912aa2429",
+          "evidence/M30/20261006T154150-97464ee6/manifest.json": "518224fb4c3c80d679c5fa14fc1b50d38f4cdf4c35b0c95cfe07b43e1b58afd4",
+          "evidence/M30/20261006T154251-61314fe9/manifest.json": "95e5b07dde72d1274f3347bace3464c7f726a605362b05d94e97dabecf4b9240",
+          "evidence/M30/20261006T154251-61314fe9/resume.complete.json": "dc465a7f174e4f109f558162ac33b555d4f51714569c0fd64eb4eda36cf9e169",
+          "evidence/M30/20261006T154251-61314fe9/resume.pt": "8bcd7d8c17be582b56f763f948a3dcd7fc237e59f54ec73f7e4494a8edb8b58f",
+          "evidence/M30/20261006T154251-61314fe9/resume.rng.json": "3be7ae53f1e0cf298a142528e56f9415a164d6c9e7c7c8e31c67550da8e8f044",
+          "evidence/M30/20261006T154251-61314fe9/selection.complete.json": "9cc3152c02c0a471cc5d717cd6b3b4af8216dd7ecff9ef909b8eb90e843156f2",
+          "evidence/M30/20261006T154251-61314fe9/selection.prev.complete.json": "15bda2ef9378a44d5692525e6a21c51a4d49e15325ac62220a6aed12ecde0b89",
+          "evidence/M30/20261006T154251-61314fe9/selection.prev.pt": "40b97dddca96b94cee072636ffe2bc4c5867e5a36dc907fb25bd3ab1458cec95",
+          "evidence/M30/20261006T154251-61314fe9/selection.pt": "e009b65172a16da5e45e568a78e194c93a0510b0b24f52129d36a85dadea4d95",
+          "evidence/M30/20261006T154251-61314fe9/validation_history.json": "0fb08509e95d849882c0187670691845db91806e120773121a61fede8661a7fe",
+          "evidence/M30/20261006T154251-61314fe9/weights.pt": "963c1bddb8ac597a4c1bc41ad640e68fc9a5f5c37c4401cb595bd676c1770a04"
+        },
+        "epochs": 300,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "ebd4067c876eda6938747874e270b1f9deea796cfa195975a25927350257b51e",
+        "seed": 5,
+        "train_manifest": "data/direct/A/train/manifest.json",
+        "validation_manifest": "data/direct/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 60.00048099999999,
+        "disk_bytes": 17443892,
+        "original_estimate": null,
+        "peak_rss_bytes": 665206784,
+        "rss_convention": "macOS bytes",
+        "training_updates": 38400,
+        "wall_seconds": 60.536098958
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T154504-7e3f791f/manifest.json",
+      "manifest_sha256": "7175b62cf9e5a65cd2c0f82bc74a34449926d5c366954aee73d69646a0cdc07d",
+      "parameters": {
+        "actuator": "direct",
+        "cell_id": "direct__A__shared__mlp_dt__seed6",
+        "condition": "A",
+        "data_hashes": {
+          "data/direct/A/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+          "data/direct/A/train/manifest.json": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+          "data/direct/A/train/trajectories.npz": "dfdd4453775e067920b9267b6f22dc748a931788bdfa009d2dd29029b383c59c",
+          "data/direct/A/validation/manifest.json": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c",
+          "data/direct/A/validation/trajectories.npz": "4056b58e4aa571bf2ff9c01b572f67170b223b619b14ac1ad69e60d912aa2429",
+          "evidence/M30/20261006T154150-97464ee6/manifest.json": "518224fb4c3c80d679c5fa14fc1b50d38f4cdf4c35b0c95cfe07b43e1b58afd4"
+        },
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "ebd4067c876eda6938747874e270b1f9deea796cfa195975a25927350257b51e",
+        "seed": 6,
+        "train_manifest": "data/direct/A/train/manifest.json",
+        "validation_manifest": "data/direct/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 50.081663,
+        "disk_bytes": 6936404,
+        "original_estimate": null,
+        "peak_rss_bytes": 421724160,
+        "rss_convention": "macOS bytes",
+        "training_updates": 12800,
+        "wall_seconds": 50.456387208
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T154608-71838096/manifest.json",
+      "manifest_sha256": "d964bfd50b517275cd1f3c32af0d6c19a7319c20f0d9158807c90cdcf1208bb1",
+      "parameters": {
+        "actuator": "direct",
+        "cell_id": "direct__A__shared__mlp_dt__seed7",
+        "condition": "A",
+        "data_hashes": {
+          "data/direct/A/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+          "data/direct/A/train/manifest.json": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+          "data/direct/A/train/trajectories.npz": "dfdd4453775e067920b9267b6f22dc748a931788bdfa009d2dd29029b383c59c",
+          "data/direct/A/validation/manifest.json": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c",
+          "data/direct/A/validation/trajectories.npz": "4056b58e4aa571bf2ff9c01b572f67170b223b619b14ac1ad69e60d912aa2429",
+          "evidence/M30/20261006T154150-97464ee6/manifest.json": "518224fb4c3c80d679c5fa14fc1b50d38f4cdf4c35b0c95cfe07b43e1b58afd4"
+        },
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "ebd4067c876eda6938747874e270b1f9deea796cfa195975a25927350257b51e",
+        "seed": 7,
+        "train_manifest": "data/direct/A/train/manifest.json",
+        "validation_manifest": "data/direct/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 52.848382,
+        "disk_bytes": 6938686,
+        "original_estimate": null,
+        "peak_rss_bytes": 396165120,
+        "rss_convention": "macOS bytes",
+        "training_updates": 12800,
+        "wall_seconds": 53.542062625
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T154706-4575013f/manifest.json",
+      "manifest_sha256": "f5067aadc413b378f03086a2adb3e81e67d5d81ccff96634f6978c3d3a9315af",
+      "parameters": {
+        "actuator": "direct",
+        "cell_id": "direct__A__shared__mlp_dt__seed7",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T154608-71838096",
+        "data_hashes": {
+          "data/direct/A/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+          "data/direct/A/train/manifest.json": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+          "data/direct/A/train/trajectories.npz": "dfdd4453775e067920b9267b6f22dc748a931788bdfa009d2dd29029b383c59c",
+          "data/direct/A/validation/manifest.json": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c",
+          "data/direct/A/validation/trajectories.npz": "4056b58e4aa571bf2ff9c01b572f67170b223b619b14ac1ad69e60d912aa2429",
+          "evidence/M30/20261006T154150-97464ee6/manifest.json": "518224fb4c3c80d679c5fa14fc1b50d38f4cdf4c35b0c95cfe07b43e1b58afd4",
+          "evidence/M30/20261006T154608-71838096/manifest.json": "d964bfd50b517275cd1f3c32af0d6c19a7319c20f0d9158807c90cdcf1208bb1",
+          "evidence/M30/20261006T154608-71838096/resume.complete.json": "de5d5b6f4141c43bef8f50b4366a5b0c202d3283ee6c4b1e53947b7517127093",
+          "evidence/M30/20261006T154608-71838096/resume.pt": "79380aa67ef21368adeac52f23d320f6314b928819bda510a002e4c854c349f9",
+          "evidence/M30/20261006T154608-71838096/resume.rng.json": "d6a3593171ab1f252000987c096ce424e90032a7e061bcfc8a69927e95a03976",
+          "evidence/M30/20261006T154608-71838096/selection.complete.json": "b5b9fc5b65ffedd0c694255d048dccbc1229c51545727dc39f4fc04e26ea69e0",
+          "evidence/M30/20261006T154608-71838096/selection.prev.complete.json": "a5534398c36f3619c40ca20f4bf940de3954ccb57b3a6a9f725f18370eee9c44",
+          "evidence/M30/20261006T154608-71838096/selection.prev.pt": "c4c20dcbd5cfb7310480301f019831e2234ebe3c55ff3998e90e8183567be006",
+          "evidence/M30/20261006T154608-71838096/selection.pt": "0eef86fab1769ab1369d57dfb214f3f7135d9e5e31c539f7446ac62c5496cc4e",
+          "evidence/M30/20261006T154608-71838096/validation_history.json": "6b68fd7fa2f0475386091fc8260f3512ff3c6f8223bcf051cb9d69af0a770aa8",
+          "evidence/M30/20261006T154608-71838096/weights.pt": "696043f34a13959995c96697c83c4b795937515d0c7b062aec87b534204f2337"
+        },
+        "epochs": 200,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "ebd4067c876eda6938747874e270b1f9deea796cfa195975a25927350257b51e",
+        "seed": 7,
+        "train_manifest": "data/direct/A/train/manifest.json",
+        "validation_manifest": "data/direct/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 56.458424,
+        "disk_bytes": 12184010,
+        "original_estimate": null,
+        "peak_rss_bytes": 518963200,
+        "rss_convention": "macOS bytes",
+        "training_updates": 25600,
+        "wall_seconds": 56.888830291
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T154806-b641e101/manifest.json",
+      "manifest_sha256": "0c7b504481104e2d12d84719beeef88b098b04edd2b0a2a861ce450746be1bc5",
+      "parameters": {
+        "actuator": "direct",
+        "cell_id": "direct__A__shared__mlp_dt__seed7",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T154706-4575013f",
+        "data_hashes": {
+          "data/direct/A/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+          "data/direct/A/train/manifest.json": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+          "data/direct/A/train/trajectories.npz": "dfdd4453775e067920b9267b6f22dc748a931788bdfa009d2dd29029b383c59c",
+          "data/direct/A/validation/manifest.json": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c",
+          "data/direct/A/validation/trajectories.npz": "4056b58e4aa571bf2ff9c01b572f67170b223b619b14ac1ad69e60d912aa2429",
+          "evidence/M30/20261006T154150-97464ee6/manifest.json": "518224fb4c3c80d679c5fa14fc1b50d38f4cdf4c35b0c95cfe07b43e1b58afd4",
+          "evidence/M30/20261006T154706-4575013f/manifest.json": "f5067aadc413b378f03086a2adb3e81e67d5d81ccff96634f6978c3d3a9315af",
+          "evidence/M30/20261006T154706-4575013f/resume.complete.json": "a692dd52c7f02ac6f1fe99030b4d3299e0ce26dd2b250eccdbb0abfc88e2500a",
+          "evidence/M30/20261006T154706-4575013f/resume.pt": "aa5ad324ec9bf0a4b0e8ffae3ea9ec563b5c24810ceafdf4070e923bfac0bbee",
+          "evidence/M30/20261006T154706-4575013f/resume.rng.json": "3f7c29a96e6ead93588d4d16fc96ae54e8c196a04d2a77212faae11b966d6662",
+          "evidence/M30/20261006T154706-4575013f/selection.complete.json": "e42f45201bd048844d99df7edfab23f7302a623c0f0f67ef7955baf7eff55a29",
+          "evidence/M30/20261006T154706-4575013f/selection.prev.complete.json": "985e401d4622700ddc1060fb1aa50617e171ed5d58b87401c8087f5c642b74b0",
+          "evidence/M30/20261006T154706-4575013f/selection.prev.pt": "03e809bc6e119d0376a24a846e33c4c62d77b17bbf0f62b10277873daf18476b",
+          "evidence/M30/20261006T154706-4575013f/selection.pt": "181b7d9e0c0b2ad59c2e26618a8014181f1621bc24e983fb06a21a8142edf8db",
+          "evidence/M30/20261006T154706-4575013f/validation_history.json": "8b06a8a65a55d9fdd7b98bfd5cae01e44dbd91d0c175b0f8822909215c53ae66",
+          "evidence/M30/20261006T154706-4575013f/weights.pt": "6ec0a6fe389dcec5d490c639bdd6e427263285c6a49d0c1aa2f19613c695358b"
+        },
+        "epochs": 300,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "ebd4067c876eda6938747874e270b1f9deea796cfa195975a25927350257b51e",
+        "seed": 7,
+        "train_manifest": "data/direct/A/train/manifest.json",
+        "validation_manifest": "data/direct/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 63.725101,
+        "disk_bytes": 17444373,
+        "original_estimate": null,
+        "peak_rss_bytes": 615235584,
+        "rss_convention": "macOS bytes",
+        "training_updates": 38400,
+        "wall_seconds": 64.399714625
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T154924-c37664d2/manifest.json",
+      "manifest_sha256": "33fa211ce207c810f793105b1e0db723e6ca8ee42d1e59beb46bf2f6de3d3ac0",
+      "parameters": {
+        "actuator": "direct",
+        "cell_id": "direct__A__shared__mlp_dt__seed8",
+        "condition": "A",
+        "data_hashes": {
+          "data/direct/A/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+          "data/direct/A/train/manifest.json": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+          "data/direct/A/train/trajectories.npz": "dfdd4453775e067920b9267b6f22dc748a931788bdfa009d2dd29029b383c59c",
+          "data/direct/A/validation/manifest.json": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c",
+          "data/direct/A/validation/trajectories.npz": "4056b58e4aa571bf2ff9c01b572f67170b223b619b14ac1ad69e60d912aa2429",
+          "evidence/M30/20261006T154150-97464ee6/manifest.json": "518224fb4c3c80d679c5fa14fc1b50d38f4cdf4c35b0c95cfe07b43e1b58afd4"
+        },
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "ebd4067c876eda6938747874e270b1f9deea796cfa195975a25927350257b51e",
+        "seed": 8,
+        "train_manifest": "data/direct/A/train/manifest.json",
+        "validation_manifest": "data/direct/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 51.850896,
+        "disk_bytes": 6936092,
+        "original_estimate": null,
+        "peak_rss_bytes": 374964224,
+        "rss_convention": "macOS bytes",
+        "training_updates": 12800,
+        "wall_seconds": 54.675114625
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T155022-60c6666f/manifest.json",
+      "manifest_sha256": "6db107a9ba1f7ddcc2145376d70a3a121ba82109c3a112a317476df86a72341f",
+      "parameters": {
+        "actuator": "direct",
+        "cell_id": "direct__A__shared__mlp_dt__seed8",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T154924-c37664d2",
+        "data_hashes": {
+          "data/direct/A/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+          "data/direct/A/train/manifest.json": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+          "data/direct/A/train/trajectories.npz": "dfdd4453775e067920b9267b6f22dc748a931788bdfa009d2dd29029b383c59c",
+          "data/direct/A/validation/manifest.json": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c",
+          "data/direct/A/validation/trajectories.npz": "4056b58e4aa571bf2ff9c01b572f67170b223b619b14ac1ad69e60d912aa2429",
+          "evidence/M30/20261006T154150-97464ee6/manifest.json": "518224fb4c3c80d679c5fa14fc1b50d38f4cdf4c35b0c95cfe07b43e1b58afd4",
+          "evidence/M30/20261006T154924-c37664d2/manifest.json": "33fa211ce207c810f793105b1e0db723e6ca8ee42d1e59beb46bf2f6de3d3ac0",
+          "evidence/M30/20261006T154924-c37664d2/resume.complete.json": "f5ff1751e42e0765229011f31ca47d25ac238a2c513580e18e2b5709f2afd9b8",
+          "evidence/M30/20261006T154924-c37664d2/resume.pt": "9547a28e262234374eaac0e9e1ce53f6a81a6f014ab06c8b74b0d20e6ca16915",
+          "evidence/M30/20261006T154924-c37664d2/resume.rng.json": "817c9434d25fad9bc579257ee575b3b2e1f45ea053b076289b4c781902b2dab9",
+          "evidence/M30/20261006T154924-c37664d2/selection.complete.json": "d3160868272fecd47a8a29cc9f89c38fba9c4227dab74eb7ab70dd33478d18f4",
+          "evidence/M30/20261006T154924-c37664d2/selection.prev.complete.json": "39a0c88ca9e9d5dfbdfee767f72234d4273b3c65885edbbff5782755a49e6108",
+          "evidence/M30/20261006T154924-c37664d2/selection.prev.pt": "fbcafbf8cd01432b979e70f1b4b7cb5bca2216e5c99698b7b88fb96fc6f62c18",
+          "evidence/M30/20261006T154924-c37664d2/selection.pt": "4d3ed6663a796ac7209509e841f76e58e5361fb90a4d26437d889373fac17aa9",
+          "evidence/M30/20261006T154924-c37664d2/validation_history.json": "7a72eab627dfb622e363935544d60ce046ddf5cbf973ae47775379bead1355b8",
+          "evidence/M30/20261006T154924-c37664d2/weights.pt": "eb8e6ca755d9ed9265fd3d996c80201d9d896b7f0e0ad9a8c749a821846b0ef1"
+        },
+        "epochs": 200,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "ebd4067c876eda6938747874e270b1f9deea796cfa195975a25927350257b51e",
+        "seed": 8,
+        "train_manifest": "data/direct/A/train/manifest.json",
+        "validation_manifest": "data/direct/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 57.913492999999995,
+        "disk_bytes": 12178870,
+        "original_estimate": null,
+        "peak_rss_bytes": 470777856,
+        "rss_convention": "macOS bytes",
+        "training_updates": 25600,
+        "wall_seconds": 58.590461667
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T155133-5078725d/manifest.json",
+      "manifest_sha256": "cb8f2117856aee5588c29a0565b9b89772393f4d9aea6a0e0202517ff067fb7f",
+      "parameters": {
+        "actuator": "direct",
+        "cell_id": "direct__A__shared__mlp_dt__seed9",
+        "condition": "A",
+        "data_hashes": {
+          "data/direct/A/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+          "data/direct/A/train/manifest.json": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+          "data/direct/A/train/trajectories.npz": "dfdd4453775e067920b9267b6f22dc748a931788bdfa009d2dd29029b383c59c",
+          "data/direct/A/validation/manifest.json": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c",
+          "data/direct/A/validation/trajectories.npz": "4056b58e4aa571bf2ff9c01b572f67170b223b619b14ac1ad69e60d912aa2429",
+          "evidence/M30/20261006T154150-97464ee6/manifest.json": "518224fb4c3c80d679c5fa14fc1b50d38f4cdf4c35b0c95cfe07b43e1b58afd4"
+        },
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "ebd4067c876eda6938747874e270b1f9deea796cfa195975a25927350257b51e",
+        "seed": 9,
+        "train_manifest": "data/direct/A/train/manifest.json",
+        "validation_manifest": "data/direct/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 47.926151,
+        "disk_bytes": 6937016,
+        "original_estimate": null,
+        "peak_rss_bytes": 417742848,
+        "rss_convention": "macOS bytes",
+        "training_updates": 12800,
+        "wall_seconds": 48.148617541
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T155224-3bf60457/manifest.json",
+      "manifest_sha256": "ef31c7029cc410e29df368544fa4e3d9450f59c24faca3f0ce73ab2a1e8a467c",
+      "parameters": {
+        "actuator": "direct",
+        "cell_id": "direct__A__shared__mlp_dt__seed9",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T155133-5078725d",
+        "data_hashes": {
+          "data/direct/A/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+          "data/direct/A/train/manifest.json": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+          "data/direct/A/train/trajectories.npz": "dfdd4453775e067920b9267b6f22dc748a931788bdfa009d2dd29029b383c59c",
+          "data/direct/A/validation/manifest.json": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c",
+          "data/direct/A/validation/trajectories.npz": "4056b58e4aa571bf2ff9c01b572f67170b223b619b14ac1ad69e60d912aa2429",
+          "evidence/M30/20261006T154150-97464ee6/manifest.json": "518224fb4c3c80d679c5fa14fc1b50d38f4cdf4c35b0c95cfe07b43e1b58afd4",
+          "evidence/M30/20261006T155133-5078725d/manifest.json": "cb8f2117856aee5588c29a0565b9b89772393f4d9aea6a0e0202517ff067fb7f",
+          "evidence/M30/20261006T155133-5078725d/resume.complete.json": "2e0f3b53754bbe0e5572099177229dcc9701baa3274a7123fcd5e93efb1e4fa0",
+          "evidence/M30/20261006T155133-5078725d/resume.pt": "4063801fcfd2e3665c77b4560c6aeb2003f3d286944f0d744485417efbacc856",
+          "evidence/M30/20261006T155133-5078725d/resume.rng.json": "b822eab842eab66ac02f6c3ad7ef41a3466f5c0ff9b68cd60bd0f8372264277c",
+          "evidence/M30/20261006T155133-5078725d/selection.complete.json": "f7ce2936b388ce040ead06e6c9e775291b3b043d72e65c3cf4ef24490270e141",
+          "evidence/M30/20261006T155133-5078725d/selection.prev.complete.json": "ca6ca77213aa239f538fce0765dd2f91d204912649bb832cf57eb1dc8185b617",
+          "evidence/M30/20261006T155133-5078725d/selection.prev.pt": "15bb00b5b92e2d22045d55f0342eed2b1cab02aca796a9d1f220d6fa6c579697",
+          "evidence/M30/20261006T155133-5078725d/selection.pt": "ddbd1858d6aca0940b8da2f4f472ced0e1fdaab06fedc5d507b86c3c19a0a18c",
+          "evidence/M30/20261006T155133-5078725d/validation_history.json": "bca2d2416a22f0f665fd76f6f0042bae419711232ea7ba6168928a572a82e4a9",
+          "evidence/M30/20261006T155133-5078725d/weights.pt": "a26385a9ef59e2ab64eb97d8477daeb7f082682a3e24d8d22c02c1e1a23330e9"
+        },
+        "epochs": 200,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "ebd4067c876eda6938747874e270b1f9deea796cfa195975a25927350257b51e",
+        "seed": 9,
+        "train_manifest": "data/direct/A/train/manifest.json",
+        "validation_manifest": "data/direct/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 60.759796,
+        "disk_bytes": 12180543,
+        "original_estimate": null,
+        "peak_rss_bytes": 522338304,
+        "rss_convention": "macOS bytes",
+        "training_updates": 25600,
+        "wall_seconds": 61.646057334
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T155330-1ebe3400/manifest.json",
+      "manifest_sha256": "33ff84c6fc85a4f42abc83d9f0a2fe42c55ae25b3c002a9d2c63f06602d2a328",
+      "parameters": {
+        "actuator": "direct",
+        "cell_id": "direct__A__shared__mlp_dt__seed9",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T155224-3bf60457",
+        "data_hashes": {
+          "data/direct/A/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+          "data/direct/A/train/manifest.json": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+          "data/direct/A/train/trajectories.npz": "dfdd4453775e067920b9267b6f22dc748a931788bdfa009d2dd29029b383c59c",
+          "data/direct/A/validation/manifest.json": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c",
+          "data/direct/A/validation/trajectories.npz": "4056b58e4aa571bf2ff9c01b572f67170b223b619b14ac1ad69e60d912aa2429",
+          "evidence/M30/20261006T154150-97464ee6/manifest.json": "518224fb4c3c80d679c5fa14fc1b50d38f4cdf4c35b0c95cfe07b43e1b58afd4",
+          "evidence/M30/20261006T155224-3bf60457/manifest.json": "ef31c7029cc410e29df368544fa4e3d9450f59c24faca3f0ce73ab2a1e8a467c",
+          "evidence/M30/20261006T155224-3bf60457/resume.complete.json": "80b3daf593031fee7233e525706a0fb1d8be2744e492fe6fd27dbeb93eb2e8a2",
+          "evidence/M30/20261006T155224-3bf60457/resume.pt": "299f44a8bfa9a0ba012f1859698480ccb8b850d511ca76a3fe0d6b2de077f9b5",
+          "evidence/M30/20261006T155224-3bf60457/resume.rng.json": "6ce3889ad4f2e85d5f3156e4d74314a31cbee258eadd3a5ff85faae90866dde0",
+          "evidence/M30/20261006T155224-3bf60457/selection.complete.json": "f5b353cb90ac464c403ea58880185bcec33335a31a659c409e992e0971728f04",
+          "evidence/M30/20261006T155224-3bf60457/selection.prev.complete.json": "215b2d4a1f580bcfda8b37afe48ba7b3cb5baa41d1822c91b4b27ec149c67eae",
+          "evidence/M30/20261006T155224-3bf60457/selection.prev.pt": "e22a1f907d4af714c5fb26b0c8fbb15c83502388e867476c454f79982affabc7",
+          "evidence/M30/20261006T155224-3bf60457/selection.pt": "638b7a359d77005e34bc62a5fe329af1186219db33d6a06ef19a63b99fbf3968",
+          "evidence/M30/20261006T155224-3bf60457/validation_history.json": "e9befa1f723c64e56f6f76cbf3025e08a07e58e1996dd337a2391357e5af10d2",
+          "evidence/M30/20261006T155224-3bf60457/weights.pt": "146d061af702b8090d7500a79cfa4e9e1033e79d83b483b049159107e0a80b86"
+        },
+        "epochs": 300,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "ebd4067c876eda6938747874e270b1f9deea796cfa195975a25927350257b51e",
+        "seed": 9,
+        "train_manifest": "data/direct/A/train/manifest.json",
+        "validation_manifest": "data/direct/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 65.07717500000001,
+        "disk_bytes": 17440464,
+        "original_estimate": null,
+        "peak_rss_bytes": 598556672,
+        "rss_convention": "macOS bytes",
+        "training_updates": 38400,
+        "wall_seconds": 65.906099709
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T155517-ad34bad2/manifest.json",
+      "manifest_sha256": "e924e23894ad6dc4c866592ee8b0fd05d3cd368be742879111e6b6e78fec4989",
+      "parameters": {
+        "actuator": "lagged",
+        "analytic_epochs": 100,
+        "model_id": "mlp_dt",
+        "seed": 8100,
+        "tiny_threshold": 0.001,
+        "tiny_updates": 5000,
+        "validation_threshold": 0.05
+      },
+      "phase": "unit",
+      "resources": {
+        "cpu_seconds": 0.9243799999999998,
+        "disk_bytes": 958479,
+        "original_estimate": null,
+        "peak_rss_bytes": 334299136,
+        "rss_convention": "macOS bytes",
+        "training_updates": 527,
+        "wall_seconds": 1.03982075
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T155521-0f733e3c/manifest.json",
+      "manifest_sha256": "e0fdd0b38e97ccade979fb55513ae560c026226502bc9fbf5817c49269c916d1",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__mlp_dt__seed5",
+        "condition": "A",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T155517-ad34bad2/manifest.json": "e924e23894ad6dc4c866592ee8b0fd05d3cd368be742879111e6b6e78fec4989"
+        },
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 5,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 50.731219,
+        "disk_bytes": 6917034,
+        "original_estimate": null,
+        "peak_rss_bytes": 423755776,
+        "rss_convention": "macOS bytes",
+        "training_updates": 12800,
+        "wall_seconds": 50.948030167
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T155615-ae58e58f/manifest.json",
+      "manifest_sha256": "305a0f7bcb5e8c29cb60013e42117e099a386f996a5c54b50e9c7326afe56891",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__mlp_dt__seed5",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T155521-0f733e3c",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T155517-ad34bad2/manifest.json": "e924e23894ad6dc4c866592ee8b0fd05d3cd368be742879111e6b6e78fec4989",
+          "evidence/M30/20261006T155521-0f733e3c/manifest.json": "e0fdd0b38e97ccade979fb55513ae560c026226502bc9fbf5817c49269c916d1",
+          "evidence/M30/20261006T155521-0f733e3c/resume.complete.json": "a6d28401fb079773715f8d65dd0500487e11b0b7d23a7f57609612272f585aaa",
+          "evidence/M30/20261006T155521-0f733e3c/resume.pt": "cea43173cf038dbbc74ea6492a5767b3cfc64cbdf5fed9e20243c235b4392f3a",
+          "evidence/M30/20261006T155521-0f733e3c/resume.rng.json": "5526cdbb477108af96a4f48dcc416fdc159f91578649a887bd2de3740d472b41",
+          "evidence/M30/20261006T155521-0f733e3c/selection.complete.json": "cb05a82d3aba6f2e6cf4bb5a519f9736a73804ce57a2ea207ec3b96d52026f9a",
+          "evidence/M30/20261006T155521-0f733e3c/selection.prev.complete.json": "081a7c78b67007bab84c994136d158b18181bae19baad7e769da4c7e19080777",
+          "evidence/M30/20261006T155521-0f733e3c/selection.prev.pt": "73223a3f1681d02f025287f47ab709ca51f159a1e21186766a15afd7ec1900ca",
+          "evidence/M30/20261006T155521-0f733e3c/selection.pt": "6bd68c8ddb96054d452d7d49aeab79adb21a2ce1e13f348cf28709550d7dc0bb",
+          "evidence/M30/20261006T155521-0f733e3c/validation_history.json": "f60215f8fd6a83eca6db4c75eaf3f5c5ce938b68b237a7a821f86a1fcf3b7fbd",
+          "evidence/M30/20261006T155521-0f733e3c/weights.pt": "bd34bad42a582c153b54e71c665923277c49a8740e94f4d3bd59c287037a9d71"
+        },
+        "epochs": 200,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 5,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 60.880926,
+        "disk_bytes": 12135124,
+        "original_estimate": null,
+        "peak_rss_bytes": 485556224,
+        "rss_convention": "macOS bytes",
+        "training_updates": 25600,
+        "wall_seconds": 61.425017459
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T155730-84a12215/manifest.json",
+      "manifest_sha256": "4aa08d78bbf7888ca92cad094788bf751601e17ebc41f8b9a7a6e964f0fbef9e",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__mlp_dt__seed6",
+        "condition": "A",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T155517-ad34bad2/manifest.json": "e924e23894ad6dc4c866592ee8b0fd05d3cd368be742879111e6b6e78fec4989"
+        },
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 6,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 53.233121,
+        "disk_bytes": 6919322,
+        "original_estimate": null,
+        "peak_rss_bytes": 382648320,
+        "rss_convention": "macOS bytes",
+        "training_updates": 12800,
+        "wall_seconds": 54.144745875
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T155828-ee9d50ec/manifest.json",
+      "manifest_sha256": "9620caf310cfb35cda32242880eef86a287d4a0bdac23f3173d4642e6ab91aa8",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__mlp_dt__seed6",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T155730-84a12215",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T155517-ad34bad2/manifest.json": "e924e23894ad6dc4c866592ee8b0fd05d3cd368be742879111e6b6e78fec4989",
+          "evidence/M30/20261006T155730-84a12215/manifest.json": "4aa08d78bbf7888ca92cad094788bf751601e17ebc41f8b9a7a6e964f0fbef9e",
+          "evidence/M30/20261006T155730-84a12215/resume.complete.json": "0f4fe45a211ac483522c3a9fa5bb2e0a508d178a3587f6206a585244f4ebad22",
+          "evidence/M30/20261006T155730-84a12215/resume.pt": "fbd49d632c0c86dfd8d145b675514767f324807c54341cc5482815dedefdfe07",
+          "evidence/M30/20261006T155730-84a12215/resume.rng.json": "583fd0e4ed08bc45a703cbccc239ec7a987f0a514664c00c473d64f6a814a655",
+          "evidence/M30/20261006T155730-84a12215/selection.complete.json": "cf37bee32d0dcf3cd5bb605dca5fe8b707201f6a1671967750e34662a239d047",
+          "evidence/M30/20261006T155730-84a12215/selection.prev.complete.json": "dce37d55ac0afa6b026a2d7608c14d3456905c0387e8c8be796a38b79271d7b6",
+          "evidence/M30/20261006T155730-84a12215/selection.prev.pt": "2c8c002a1881c56e2a6365358e8b8b14c027556754127e9c4c95a922a0af5a35",
+          "evidence/M30/20261006T155730-84a12215/selection.pt": "ad17424d5e3d2db1bdb3195bce7f5ac602803ba5e07beee195e18e8cf3363f52",
+          "evidence/M30/20261006T155730-84a12215/validation_history.json": "4937cc9c9e51cb3bf225415bdcc6016e37629b2adc139b229479c1512be3b001",
+          "evidence/M30/20261006T155730-84a12215/weights.pt": "bbdc7d60df50a0dd8c354c4c27e292a039d0eb1db5f966bef8edd7c1170bbf03"
+        },
+        "epochs": 200,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 6,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 60.233703999999996,
+        "disk_bytes": 12136167,
+        "original_estimate": null,
+        "peak_rss_bytes": 543768576,
+        "rss_convention": "macOS bytes",
+        "training_updates": 25600,
+        "wall_seconds": 60.601439
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T155932-c58d4a3a/manifest.json",
+      "manifest_sha256": "e8d07d4d5020a62059bd65195087b07088bed7a1c345aef94766631d0bc80975",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__mlp_dt__seed6",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T155828-ee9d50ec",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T155517-ad34bad2/manifest.json": "e924e23894ad6dc4c866592ee8b0fd05d3cd368be742879111e6b6e78fec4989",
+          "evidence/M30/20261006T155828-ee9d50ec/manifest.json": "9620caf310cfb35cda32242880eef86a287d4a0bdac23f3173d4642e6ab91aa8",
+          "evidence/M30/20261006T155828-ee9d50ec/resume.complete.json": "177269f38b443c680b2fd6b5330e99dd2fd0610e375e9535f1799a849f175ca0",
+          "evidence/M30/20261006T155828-ee9d50ec/resume.pt": "986d8642c3cb28c1b5e9faba40e1720a712fa9030ed9cb061b163bfbc8077421",
+          "evidence/M30/20261006T155828-ee9d50ec/resume.rng.json": "2eb98fc41ab6b311e0abdf32ae2484083c3986d8e0b5ccb37662396ab3d2661a",
+          "evidence/M30/20261006T155828-ee9d50ec/selection.complete.json": "5ac2c541b5834b99d91a838f8835eea3c2add6becd22a876d527b83963652e48",
+          "evidence/M30/20261006T155828-ee9d50ec/selection.prev.complete.json": "d9fd5ff253d30cbc7e4b4c2d612ee076d724d200809c1f8beb397cc30684b68c",
+          "evidence/M30/20261006T155828-ee9d50ec/selection.prev.pt": "22cb01d52957ec757a8e366506e8e7707c4022348750ccdc6e32eb983070a67f",
+          "evidence/M30/20261006T155828-ee9d50ec/selection.pt": "5fa550b980420e9bfc019da69af817ed22d8a38c3ff1dbbe32b010cf79c4ca46",
+          "evidence/M30/20261006T155828-ee9d50ec/validation_history.json": "48ba2612558af76b287ab370db1ddc6e0f5d2f4e6699e851d15c41b2f0dbcf5e",
+          "evidence/M30/20261006T155828-ee9d50ec/weights.pt": "f5364dd2121c88e9f2ddb06646d7cb1af80fbfd82dd6008d7d78eb2a047b5351"
+        },
+        "epochs": 300,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 6,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 67.939853,
+        "disk_bytes": 17368497,
+        "original_estimate": null,
+        "peak_rss_bytes": 648609792,
+        "rss_convention": "macOS bytes",
+        "training_updates": 38400,
+        "wall_seconds": 68.576775875
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T160054-3054a076/manifest.json",
+      "manifest_sha256": "fd33d7ab991cd05ff947063c86d5bd81571895f2944809c65949ee07643c36d2",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__mlp_dt__seed7",
+        "condition": "A",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T155517-ad34bad2/manifest.json": "e924e23894ad6dc4c866592ee8b0fd05d3cd368be742879111e6b6e78fec4989"
+        },
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 7,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 51.965893,
+        "disk_bytes": 6918314,
+        "original_estimate": null,
+        "peak_rss_bytes": 437698560,
+        "rss_convention": "macOS bytes",
+        "training_updates": 12800,
+        "wall_seconds": 52.305654417
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T160150-a4188e65/manifest.json",
+      "manifest_sha256": "556f191c32e4e80ae676726251fc8879ce9ea03c756174dcce9c3dcda8d10509",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__mlp_dt__seed7",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T160054-3054a076",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T155517-ad34bad2/manifest.json": "e924e23894ad6dc4c866592ee8b0fd05d3cd368be742879111e6b6e78fec4989",
+          "evidence/M30/20261006T160054-3054a076/manifest.json": "fd33d7ab991cd05ff947063c86d5bd81571895f2944809c65949ee07643c36d2",
+          "evidence/M30/20261006T160054-3054a076/resume.complete.json": "8ce15dde4c9d319533c8539a38e448f3a47edeb4a8cb2dad283690471466c94d",
+          "evidence/M30/20261006T160054-3054a076/resume.pt": "f6e75c3263e7e15877c881da7dbc89141ccf24721391f99cc8967e68245d11ae",
+          "evidence/M30/20261006T160054-3054a076/resume.rng.json": "d6a3593171ab1f252000987c096ce424e90032a7e061bcfc8a69927e95a03976",
+          "evidence/M30/20261006T160054-3054a076/selection.complete.json": "164b753c6179f331599592769f6b93dc9bdd0e4ecdbd9b7d05aa02bb01daeed6",
+          "evidence/M30/20261006T160054-3054a076/selection.prev.complete.json": "a8326799ea2df742c859bbd195c360b46e7e7e208b23cd82f1beaa8109b8ea10",
+          "evidence/M30/20261006T160054-3054a076/selection.prev.pt": "d8737f0a55e90128a642194e5b9ad5834b7b5c16afe4f3aa6326ce66cc931905",
+          "evidence/M30/20261006T160054-3054a076/selection.pt": "b242e22c8ba591598b2923cf4c75bd8cc0862c2b1de27e5c34ac517e93ae160b",
+          "evidence/M30/20261006T160054-3054a076/validation_history.json": "fef35ae83cdf8a36ef0354536ff43a9fbc0cce4e6c47eb02155ceb2c4d7e6b8c",
+          "evidence/M30/20261006T160054-3054a076/weights.pt": "6dc81cfb95d012360880b669f4b527a6f3d59101ff4396819c11d25f9c40c991"
+        },
+        "epochs": 200,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 7,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 60.214994999999995,
+        "disk_bytes": 12137500,
+        "original_estimate": null,
+        "peak_rss_bytes": 547766272,
+        "rss_convention": "macOS bytes",
+        "training_updates": 25600,
+        "wall_seconds": 60.621170708
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T160254-fbc8dd3c/manifest.json",
+      "manifest_sha256": "b53a11262e831d7d748776c74a208914c650f87ba5cc51a38948db5a9ee6590d",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__mlp_dt__seed7",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T160150-a4188e65",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T155517-ad34bad2/manifest.json": "e924e23894ad6dc4c866592ee8b0fd05d3cd368be742879111e6b6e78fec4989",
+          "evidence/M30/20261006T160150-a4188e65/manifest.json": "556f191c32e4e80ae676726251fc8879ce9ea03c756174dcce9c3dcda8d10509",
+          "evidence/M30/20261006T160150-a4188e65/resume.complete.json": "2ece859bf7d5536be38498676ea2708be94c051c3ddae11a51eb7f7f5bbd2e10",
+          "evidence/M30/20261006T160150-a4188e65/resume.pt": "19822796754b3ed866dbe08c7455d236bb6f0e44411ab63bf9b9986459ec7d7f",
+          "evidence/M30/20261006T160150-a4188e65/resume.rng.json": "3f7c29a96e6ead93588d4d16fc96ae54e8c196a04d2a77212faae11b966d6662",
+          "evidence/M30/20261006T160150-a4188e65/selection.complete.json": "6d4aded1102db88d3e49790eb7228310682e45cb0bec93451e380d14aa4c1f24",
+          "evidence/M30/20261006T160150-a4188e65/selection.prev.complete.json": "2a10de59fee2fce4f3acec4b4dec4b548599a0879686f56a40d9e1e42e91209f",
+          "evidence/M30/20261006T160150-a4188e65/selection.prev.pt": "30f09e6e5a64392bbbcdb1ad76df7166662fe947fc1a26797121b619de6478b1",
+          "evidence/M30/20261006T160150-a4188e65/selection.pt": "8c74ce51ecc2bc109b198c00b86dbe6774958ee35ea428f33f6397c83e15b545",
+          "evidence/M30/20261006T160150-a4188e65/validation_history.json": "aead05537c5b6d5f26014f1cc760c73b3e624d9f61ea2abbc1b34474a7fa3d56",
+          "evidence/M30/20261006T160150-a4188e65/weights.pt": "c1fe8dde023c3fb660e22175e825a4e7aec37e1338d0709df6e6c2b787c75e1e"
+        },
+        "epochs": 300,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 7,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 66.54575200000001,
+        "disk_bytes": 17371753,
+        "original_estimate": null,
+        "peak_rss_bytes": 644726784,
+        "rss_convention": "macOS bytes",
+        "training_updates": 38400,
+        "wall_seconds": 67.096080542
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T160414-5823fb3f/manifest.json",
+      "manifest_sha256": "6303848bfd37928a0e9868d5c6c9eb28cf82ecdad83544d69bf33133f1d2724b",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__mlp_dt__seed8",
+        "condition": "A",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T155517-ad34bad2/manifest.json": "e924e23894ad6dc4c866592ee8b0fd05d3cd368be742879111e6b6e78fec4989"
+        },
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 8,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 53.398862,
+        "disk_bytes": 6919541,
+        "original_estimate": null,
+        "peak_rss_bytes": 378142720,
+        "rss_convention": "macOS bytes",
+        "training_updates": 12800,
+        "wall_seconds": 53.81798275
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T160512-1533363f/manifest.json",
+      "manifest_sha256": "4ce5f1ba7496dfdd4462a7926742eaea141a3a461615111ac6b70df333db9b53",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__mlp_dt__seed8",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T160414-5823fb3f",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T155517-ad34bad2/manifest.json": "e924e23894ad6dc4c866592ee8b0fd05d3cd368be742879111e6b6e78fec4989",
+          "evidence/M30/20261006T160414-5823fb3f/manifest.json": "6303848bfd37928a0e9868d5c6c9eb28cf82ecdad83544d69bf33133f1d2724b",
+          "evidence/M30/20261006T160414-5823fb3f/resume.complete.json": "36ae9a5ce4b5e55718270d8a224c89cd1ba93587ba1e3ee3ded759ba4522a23a",
+          "evidence/M30/20261006T160414-5823fb3f/resume.pt": "54519a4edb17aaef77d1372372e30f8f79db0520c54fdf1022f25ea66f0eb5e2",
+          "evidence/M30/20261006T160414-5823fb3f/resume.rng.json": "817c9434d25fad9bc579257ee575b3b2e1f45ea053b076289b4c781902b2dab9",
+          "evidence/M30/20261006T160414-5823fb3f/selection.complete.json": "96b3140f8aa846c7b960d68d6947602493497f0e24316a57a9bb3d4a6e6b9185",
+          "evidence/M30/20261006T160414-5823fb3f/selection.prev.complete.json": "b211313373448aaf4bba4bef0e0e928748eb7f5d7456d6591113a9ad27fc10e7",
+          "evidence/M30/20261006T160414-5823fb3f/selection.prev.pt": "34fe035727b90b17ff15003b801efe7fc184f5997418b4d95aa0b56d7041ab85",
+          "evidence/M30/20261006T160414-5823fb3f/selection.pt": "d4de662b4dcb296cccb57f387861811188035ea5c68a102187e20dec8f995218",
+          "evidence/M30/20261006T160414-5823fb3f/validation_history.json": "cd9355c9c0dc9dd841b0c328cbc93700e96b1c877269783a3770df859c18eecb",
+          "evidence/M30/20261006T160414-5823fb3f/weights.pt": "a5e6e3cb351f6d3d28138f7418dce39f9052617f596ed3d0e4a923602bd27104"
+        },
+        "epochs": 200,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 8,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 56.671051,
+        "disk_bytes": 12138085,
+        "original_estimate": null,
+        "peak_rss_bytes": 548618240,
+        "rss_convention": "macOS bytes",
+        "training_updates": 25600,
+        "wall_seconds": 57.064313083
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T160621-2db1c046/manifest.json",
+      "manifest_sha256": "21dc8cef78df36915782ca89eafbddbc94a34fe48fb7abcc0fc0d72877472fd8",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__mlp_dt__seed9",
+        "condition": "A",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T155517-ad34bad2/manifest.json": "e924e23894ad6dc4c866592ee8b0fd05d3cd368be742879111e6b6e78fec4989"
+        },
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 9,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 51.87562,
+        "disk_bytes": 6918687,
+        "original_estimate": null,
+        "peak_rss_bytes": 416120832,
+        "rss_convention": "macOS bytes",
+        "training_updates": 12800,
+        "wall_seconds": 52.16090925
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T160717-536c442c/manifest.json",
+      "manifest_sha256": "2b0edaa5894976246e48c77412b35e5f8df99da81dc41439ef2dee626b67c7d9",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__mlp_dt__seed9",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T160621-2db1c046",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T155517-ad34bad2/manifest.json": "e924e23894ad6dc4c866592ee8b0fd05d3cd368be742879111e6b6e78fec4989",
+          "evidence/M30/20261006T160621-2db1c046/manifest.json": "21dc8cef78df36915782ca89eafbddbc94a34fe48fb7abcc0fc0d72877472fd8",
+          "evidence/M30/20261006T160621-2db1c046/resume.complete.json": "5ade28dd10ad9b950deecf78a5d66a07ddbea4f327e1e5da31c7a92a29ecbbc3",
+          "evidence/M30/20261006T160621-2db1c046/resume.pt": "853d9201073223c23d7d92c4157c4a50b0912c6863cd70283fd0ac993844ed17",
+          "evidence/M30/20261006T160621-2db1c046/resume.rng.json": "b822eab842eab66ac02f6c3ad7ef41a3466f5c0ff9b68cd60bd0f8372264277c",
+          "evidence/M30/20261006T160621-2db1c046/selection.complete.json": "f1fa1f267439a3ec82cff382c7a8064e0b22beabe0fc3695807d4594ccd43078",
+          "evidence/M30/20261006T160621-2db1c046/selection.prev.complete.json": "6bc578a0a8b29e6ecc0933c782826a88f696613257931c512a8d5c1e9f0e8ca8",
+          "evidence/M30/20261006T160621-2db1c046/selection.prev.pt": "65f43c75e53baaafa098111ffc9ae4180fb64403715262131e0a5b80c8164438",
+          "evidence/M30/20261006T160621-2db1c046/selection.pt": "01d022246c30661561c77935ebe23a14adbc6b4431d67b84efdc128dc66bd0a9",
+          "evidence/M30/20261006T160621-2db1c046/validation_history.json": "aa28d672f8743f4d85dc574fc44600c8060a488fb7ee55bf50cb5f2a1341778a",
+          "evidence/M30/20261006T160621-2db1c046/weights.pt": "dfb8a23bddadf487cc9b1db2a2777055ccdadbd333809218d330c47571a2e64e"
+        },
+        "epochs": 200,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 9,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 58.676907,
+        "disk_bytes": 12137372,
+        "original_estimate": null,
+        "peak_rss_bytes": 447692800,
+        "rss_convention": "macOS bytes",
+        "training_updates": 25600,
+        "wall_seconds": 59.108324666
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T160820-8738165a/manifest.json",
+      "manifest_sha256": "cdb68ade8418d61ff7371b7ec858d0142716493565c057e897893bae945071d6",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__mlp_dt__seed9",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T160717-536c442c",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T155517-ad34bad2/manifest.json": "e924e23894ad6dc4c866592ee8b0fd05d3cd368be742879111e6b6e78fec4989",
+          "evidence/M30/20261006T160717-536c442c/manifest.json": "2b0edaa5894976246e48c77412b35e5f8df99da81dc41439ef2dee626b67c7d9",
+          "evidence/M30/20261006T160717-536c442c/resume.complete.json": "96b7f5c75f406970e95fe45f0795f275dd1610b1979926be9bebf447a585b93b",
+          "evidence/M30/20261006T160717-536c442c/resume.pt": "245d2b418c0c1bd39e9d7a93e83aa4cec2f00ac7c90bde51a8f528cbc665fde8",
+          "evidence/M30/20261006T160717-536c442c/resume.rng.json": "6ce3889ad4f2e85d5f3156e4d74314a31cbee258eadd3a5ff85faae90866dde0",
+          "evidence/M30/20261006T160717-536c442c/selection.complete.json": "1be235e639620852c72c9da3026acea8344df88ff92ac77a7db13be70f8d5257",
+          "evidence/M30/20261006T160717-536c442c/selection.prev.complete.json": "88838103a037f48a09d6feafab1c6e63599e40ad35a18f786474a6db6cefcb65",
+          "evidence/M30/20261006T160717-536c442c/selection.prev.pt": "d77358c9827878c469f4ba0f10b8a0b39e2f38f5e55b7fe198f58d050d4bbcdf",
+          "evidence/M30/20261006T160717-536c442c/selection.pt": "45a35ad990d1d87c03fcf761433e23cc2bbf38b2f6ae7d6cfd3ac208c3e81ab2",
+          "evidence/M30/20261006T160717-536c442c/validation_history.json": "9696bd250627c22fa8afdd9ddb2be943f3090b661bd0578bcb39a50fe551e5e2",
+          "evidence/M30/20261006T160717-536c442c/weights.pt": "35909796ff040c010edd3ba1c3ee40067a063cd2fd97ce8aae2567219a223fe8"
+        },
+        "epochs": 300,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 9,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 69.202793,
+        "disk_bytes": 17371393,
+        "original_estimate": null,
+        "peak_rss_bytes": 567721984,
+        "rss_convention": "macOS bytes",
+        "training_updates": 38400,
+        "wall_seconds": 70.064413834
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T160934-fc2ab457/manifest.json",
+      "manifest_sha256": "4880531cf365c2d85de8579dfd7f3a1a4a31405742c0fa1b959911bf909a1ccd",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__mlp_dt__seed9",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T160820-8738165a",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T155517-ad34bad2/manifest.json": "e924e23894ad6dc4c866592ee8b0fd05d3cd368be742879111e6b6e78fec4989",
+          "evidence/M30/20261006T160820-8738165a/manifest.json": "cdb68ade8418d61ff7371b7ec858d0142716493565c057e897893bae945071d6",
+          "evidence/M30/20261006T160820-8738165a/resume.complete.json": "3e427570133881eca9ed81fde8fde10669b98e3f774b7c470feac201770a210c",
+          "evidence/M30/20261006T160820-8738165a/resume.pt": "254e2c457eea066e1090949e3d5d7a0bc39c7ff9de079d4ae646db2395c1894e",
+          "evidence/M30/20261006T160820-8738165a/resume.rng.json": "ef0eb5eb491220126eca4a9e752f00fd87ac5a8ff02fe25ed2a378b23f7e52c0",
+          "evidence/M30/20261006T160820-8738165a/selection.complete.json": "8d252f54f0f4f94cfcc8ca3cb0fdf3ac3d6e24ee62ba60b2230132b10d8b3bfc",
+          "evidence/M30/20261006T160820-8738165a/selection.prev.complete.json": "cd1b49685c51226286c545809844ee52fd927652cf6f5848cd89fb05227e7825",
+          "evidence/M30/20261006T160820-8738165a/selection.prev.pt": "a0c02bca112ffc41af13b937cf44830aacea42ecf3261ea85308561e030cda7f",
+          "evidence/M30/20261006T160820-8738165a/selection.pt": "8c8be56f1e5c6acdd7bcac4bb00e372ac14621bcbb315965c0dc8951d0cf8b10",
+          "evidence/M30/20261006T160820-8738165a/validation_history.json": "b0036cd3016bfd7fe83d330e46a8c7b814f6861a6a8d0027cca0be5753e99e1e",
+          "evidence/M30/20261006T160820-8738165a/weights.pt": "1fe6f5ae43daef81dcea41f6f3d38d3c4218c11793cf205c818814f349cf1763"
+        },
+        "epochs": 400,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 9,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 75.617622,
+        "disk_bytes": 22635685,
+        "original_estimate": null,
+        "peak_rss_bytes": 656818176,
+        "rss_convention": "macOS bytes",
+        "training_updates": 51200,
+        "wall_seconds": 76.492047791
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T161054-c28bb97e/manifest.json",
+      "manifest_sha256": "63f0302b2be34f73ebe51b604cd06afadbdd1ee38b9610f0a0949c361d28fb4d",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__mlp_dt__seed9",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T160934-fc2ab457",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T155517-ad34bad2/manifest.json": "e924e23894ad6dc4c866592ee8b0fd05d3cd368be742879111e6b6e78fec4989",
+          "evidence/M30/20261006T160934-fc2ab457/manifest.json": "4880531cf365c2d85de8579dfd7f3a1a4a31405742c0fa1b959911bf909a1ccd",
+          "evidence/M30/20261006T160934-fc2ab457/resume.complete.json": "b79a4baf8680af4203b5bb13457202d110c9cf162cb4c50123c6d7df47704644",
+          "evidence/M30/20261006T160934-fc2ab457/resume.pt": "984f23cbc8cddbf6db3323df0be800b79525e0df509a05d38e74b3d2cdc30333",
+          "evidence/M30/20261006T160934-fc2ab457/resume.rng.json": "5278e1d202a146e98775030e46b8f621dc8fc76b37f130a81612cbebfc7df082",
+          "evidence/M30/20261006T160934-fc2ab457/selection.complete.json": "37fa1cf6917660763d7ecebd6173d4119c4108bf62623207f45980416449bd1b",
+          "evidence/M30/20261006T160934-fc2ab457/selection.prev.complete.json": "c949c33c059dd726ce4bf055077fce6de4ece6e6f2b4e10fbfbcb019ba79ca5c",
+          "evidence/M30/20261006T160934-fc2ab457/selection.prev.pt": "0f2805d9ee45b80b1fa8269329d5da000f41b7cd224df644102ace85a45dbe12",
+          "evidence/M30/20261006T160934-fc2ab457/selection.pt": "ea517409fc82637ef5bebdebacb0587a169eb7ee48ef6a5fba3ab1d9ea1c4bee",
+          "evidence/M30/20261006T160934-fc2ab457/validation_history.json": "acdc087d497f36f7e75b12ac687bb7a4cedf1e0831b567a59242228f67de79c8",
+          "evidence/M30/20261006T160934-fc2ab457/weights.pt": "1fe6f5ae43daef81dcea41f6f3d38d3c4218c11793cf205c818814f349cf1763"
+        },
+        "epochs": 500,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 9,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 79.34876299999999,
+        "disk_bytes": 27904210,
+        "original_estimate": null,
+        "peak_rss_bytes": 891879424,
+        "rss_convention": "macOS bytes",
+        "training_updates": 64000,
+        "wall_seconds": 80.393420667
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T161218-4437c0e3/manifest.json",
+      "manifest_sha256": "6747b382eba3c57eeee46da4ceaa3384d22470e2b4c7dd4d5ea56dca68894088",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__mlp_dt__seed9",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T161054-c28bb97e",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T155517-ad34bad2/manifest.json": "e924e23894ad6dc4c866592ee8b0fd05d3cd368be742879111e6b6e78fec4989",
+          "evidence/M30/20261006T161054-c28bb97e/manifest.json": "63f0302b2be34f73ebe51b604cd06afadbdd1ee38b9610f0a0949c361d28fb4d",
+          "evidence/M30/20261006T161054-c28bb97e/resume.complete.json": "96be4a89f5ae1180a9d91ebcfa28278f68181c7b8f53619e2fc984f3cbdf036f",
+          "evidence/M30/20261006T161054-c28bb97e/resume.pt": "650e7c64f712d9bfc3cdaef90a8e385672bfb139fb1f05e982eba88f01a29d4b",
+          "evidence/M30/20261006T161054-c28bb97e/resume.rng.json": "d914d4beb43848de32e9563868c15a832ac65ed4978428226fc8d3fa58a4ef53",
+          "evidence/M30/20261006T161054-c28bb97e/selection.complete.json": "0ce3004b5d4b7017d4f81233d585b512362096a93231dd842b2a86bf48820e3f",
+          "evidence/M30/20261006T161054-c28bb97e/selection.prev.complete.json": "b4fed2dd34d0374378f433be513a1f319b6d632259241eec1068ff749539d4c8",
+          "evidence/M30/20261006T161054-c28bb97e/selection.prev.pt": "1da1a642e81d04fefb965e59d5dcc1b865338a18a1c011d9104c660a43eede3c",
+          "evidence/M30/20261006T161054-c28bb97e/selection.pt": "c411587f9072da4b292764cdd2fe29466b4de94c35cdc6a7f8f42a15804af2bd",
+          "evidence/M30/20261006T161054-c28bb97e/validation_history.json": "ec26efc8a8d3f99f37c4611fdb49b0933728a09df76721bdbc11043497d5bccb",
+          "evidence/M30/20261006T161054-c28bb97e/weights.pt": "5ebb1293cbc07dceff2001fa353913113a89b2db3ec676806ad18759721fbaf5"
+        },
+        "epochs": 600,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 9,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 84.06171900000001,
+        "disk_bytes": 33264210,
+        "original_estimate": null,
+        "peak_rss_bytes": 595279872,
+        "rss_convention": "macOS bytes",
+        "training_updates": 76800,
+        "wall_seconds": 85.101700875
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T161347-fc098757/manifest.json",
+      "manifest_sha256": "63df5f4b863a826ae053b30d9f9f96c63ae175aa207b41203c6d02aa4c8da3f5",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__mlp_dt__seed9",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T161218-4437c0e3",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T155517-ad34bad2/manifest.json": "e924e23894ad6dc4c866592ee8b0fd05d3cd368be742879111e6b6e78fec4989",
+          "evidence/M30/20261006T161218-4437c0e3/manifest.json": "6747b382eba3c57eeee46da4ceaa3384d22470e2b4c7dd4d5ea56dca68894088",
+          "evidence/M30/20261006T161218-4437c0e3/resume.complete.json": "3b5a474518d6c1a706c3b0643d0a49bd1f3aebe9b58e1169c9ffdadcab70ba7b",
+          "evidence/M30/20261006T161218-4437c0e3/resume.pt": "beca35b0abac230834fc802f40f051446b1b782bc5fe9871fb97216e6c88d5f3",
+          "evidence/M30/20261006T161218-4437c0e3/resume.rng.json": "503865570526742cbf1b67ac05350df7446ba25863feb907e9c21f229d5b32d9",
+          "evidence/M30/20261006T161218-4437c0e3/selection.complete.json": "029c894eab98d56dad5ea717ce6c5bfb7ac866b8327b36da8541c2ef1297a39a",
+          "evidence/M30/20261006T161218-4437c0e3/selection.prev.complete.json": "43884c4bd17a50ba31be5b2d29127d6d5bf68b746d1db10836b786821b32e7fd",
+          "evidence/M30/20261006T161218-4437c0e3/selection.prev.pt": "c01ac23c864fc57613f482b5ae1c1410b81fec56f32da615fd7e796debd5624e",
+          "evidence/M30/20261006T161218-4437c0e3/selection.pt": "b1165c2579b0824318bd9a82a5bbcf760ac6bacd579184575bbc655798d7c4f6",
+          "evidence/M30/20261006T161218-4437c0e3/validation_history.json": "0595353f66fc79c14a7bc699515459d0eb9d162abd0ae1f00849a9bd077f0dce",
+          "evidence/M30/20261006T161218-4437c0e3/weights.pt": "f5d491055fb3986325d7be0a92977a639f3f1b7026e11b079a4cb7f4b0b53469"
+        },
+        "epochs": 700,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 9,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 88.784729,
+        "disk_bytes": 38639874,
+        "original_estimate": null,
+        "peak_rss_bytes": 1127907328,
+        "rss_convention": "macOS bytes",
+        "training_updates": 89600,
+        "wall_seconds": 89.778131875
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T161527-b4342e13/manifest.json",
+      "manifest_sha256": "36e139678c89b08bc2ab47c66a45175c67eedf1fb16aab3ff7d2bd1f59251b0f",
+      "parameters": {
+        "actuator": "lagged",
+        "analytic_epochs": 100,
+        "model_id": "power_correct",
+        "seed": 8100,
+        "tiny_threshold": 0.001,
+        "tiny_updates": 5000,
+        "validation_threshold": 0.05
+      },
+      "phase": "unit",
+      "resources": {
+        "cpu_seconds": 1.34023,
+        "disk_bytes": 958436,
+        "original_estimate": null,
+        "peak_rss_bytes": 348061696,
+        "rss_convention": "macOS bytes",
+        "training_updates": 527,
+        "wall_seconds": 1.480817041
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T161531-87b3dafd/manifest.json",
+      "manifest_sha256": "645bc789b85e71da31566d27a9b151bc0fab7fa3980f4f5c67233dbaf4d8f257",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__power_correct__seed5",
+        "condition": "A",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T161527-b4342e13/manifest.json": "36e139678c89b08bc2ab47c66a45175c67eedf1fb16aab3ff7d2bd1f59251b0f"
+        },
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "power_correct",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 5,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 85.60804499999999,
+        "disk_bytes": 6923503,
+        "original_estimate": null,
+        "peak_rss_bytes": 404291584,
+        "rss_convention": "macOS bytes",
+        "training_updates": 12800,
+        "wall_seconds": 86.282365583
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T161701-b45d5f75/manifest.json",
+      "manifest_sha256": "60c43f39ed5860d2881508b3f04be6a8c39384d212e91b2b03d359ab6960240d",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__power_correct__seed5",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T161531-87b3dafd",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T161527-b4342e13/manifest.json": "36e139678c89b08bc2ab47c66a45175c67eedf1fb16aab3ff7d2bd1f59251b0f",
+          "evidence/M30/20261006T161531-87b3dafd/manifest.json": "645bc789b85e71da31566d27a9b151bc0fab7fa3980f4f5c67233dbaf4d8f257",
+          "evidence/M30/20261006T161531-87b3dafd/resume.complete.json": "07195a7ab89bb5e906a2b67d55d7ac2e252f1572d2c942a6b51b95e0c70c6f36",
+          "evidence/M30/20261006T161531-87b3dafd/resume.pt": "a7ad26c72826f4e5291239e942b6065836670e26b9d4ba89e862495b58010ebb",
+          "evidence/M30/20261006T161531-87b3dafd/resume.rng.json": "5526cdbb477108af96a4f48dcc416fdc159f91578649a887bd2de3740d472b41",
+          "evidence/M30/20261006T161531-87b3dafd/selection.complete.json": "622a87d4b128f62a20a68b1eb680a4ce28c3bdd9b887b9b94ec593ec77002fc5",
+          "evidence/M30/20261006T161531-87b3dafd/selection.prev.complete.json": "cc057267053cfad8ef2f48cc08b670eee6d40396440d6ae8b1a1f7187364e3a6",
+          "evidence/M30/20261006T161531-87b3dafd/selection.prev.pt": "cfb9b34f92315a06438ea2dc6f14d5577c7d1338e708b959cab15e3141d4eace",
+          "evidence/M30/20261006T161531-87b3dafd/selection.pt": "074e83d9c4b2e0bff3be3e7abcf6bfcfab2c6ef994f4b504c54dad8d63df1119",
+          "evidence/M30/20261006T161531-87b3dafd/validation_history.json": "7a5dc3e394f6b24e7d2d31ccfad80ae515e4cd80665a4aeb1d12931cfa01a440",
+          "evidence/M30/20261006T161531-87b3dafd/weights.pt": "aa3e15f4fad8ed7a6c70024755c0d3ebcef0ab62bf56c4279d84077911201143"
+        },
+        "epochs": 200,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "power_correct",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 5,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 92.72457299999999,
+        "disk_bytes": 12144760,
+        "original_estimate": null,
+        "peak_rss_bytes": 493944832,
+        "rss_convention": "macOS bytes",
+        "training_updates": 25600,
+        "wall_seconds": 93.554706542
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T161838-363a5453/manifest.json",
+      "manifest_sha256": "411770ba54397e0aaeb955ec372d5d294d91b294f78d26d84fd484f3a64188ce",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__power_correct__seed5",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T161701-b45d5f75",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T161527-b4342e13/manifest.json": "36e139678c89b08bc2ab47c66a45175c67eedf1fb16aab3ff7d2bd1f59251b0f",
+          "evidence/M30/20261006T161701-b45d5f75/manifest.json": "60c43f39ed5860d2881508b3f04be6a8c39384d212e91b2b03d359ab6960240d",
+          "evidence/M30/20261006T161701-b45d5f75/resume.complete.json": "a68266274ba299ecc3904579404c64dbc406e920ff59c4cbcbed789ea3dffc2a",
+          "evidence/M30/20261006T161701-b45d5f75/resume.pt": "1bc4f8ce16e4182eeb73be7bd4a07b6bed7707c580d15f610756353c40faaf72",
+          "evidence/M30/20261006T161701-b45d5f75/resume.rng.json": "3be7ae53f1e0cf298a142528e56f9415a164d6c9e7c7c8e31c67550da8e8f044",
+          "evidence/M30/20261006T161701-b45d5f75/selection.complete.json": "8e23ea1231ab7ff9517652f13d0aa9376bed0985936a7f2077e942943f6def18",
+          "evidence/M30/20261006T161701-b45d5f75/selection.prev.complete.json": "2176a9b2ebc370c023de3706c7bd40dd010b8378729acf3a02a47e9a9c16e37e",
+          "evidence/M30/20261006T161701-b45d5f75/selection.prev.pt": "65f81a7b478f158d3091ffd2ec9f39d789c890c1d7c8395698e4b326ebede2d8",
+          "evidence/M30/20261006T161701-b45d5f75/selection.pt": "051331d8e1a327ee0651e9ebaf8c31bd7d0c7d7131eea6e6439eccc5211c69a2",
+          "evidence/M30/20261006T161701-b45d5f75/validation_history.json": "73b87ec2dfb5885ea778cc0bc06627ab6cfcb38d169558372e3fb7c2e4227a31",
+          "evidence/M30/20261006T161701-b45d5f75/weights.pt": "1c3d6fca12f3aefaf87a20218c26dc2114d970e82f1c343eeba21688fcdcab90"
+        },
+        "epochs": 300,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "power_correct",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 5,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 98.93531700000001,
+        "disk_bytes": 17383098,
+        "original_estimate": null,
+        "peak_rss_bytes": 637042688,
+        "rss_convention": "macOS bytes",
+        "training_updates": 38400,
+        "wall_seconds": 99.528436709
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T162021-cc7197a1/manifest.json",
+      "manifest_sha256": "579a02ec76833db49f8055f66eed956e56716ef50d1919d81b9d7855a227657a",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__power_correct__seed5",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T161838-363a5453",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T161527-b4342e13/manifest.json": "36e139678c89b08bc2ab47c66a45175c67eedf1fb16aab3ff7d2bd1f59251b0f",
+          "evidence/M30/20261006T161838-363a5453/manifest.json": "411770ba54397e0aaeb955ec372d5d294d91b294f78d26d84fd484f3a64188ce",
+          "evidence/M30/20261006T161838-363a5453/resume.complete.json": "350bbfb34e5b8c28619f5afdaa6d90f422deb6cb94e2c5f12e24a7529fd0affd",
+          "evidence/M30/20261006T161838-363a5453/resume.pt": "2793eebfed842027f890fc74cef3a9007a52fe0df851255ee859f1bc94a2787d",
+          "evidence/M30/20261006T161838-363a5453/resume.rng.json": "53918661c00643bbdba3d8cdc83ade1f9d7b65ac738d00ea302afecd4b224c72",
+          "evidence/M30/20261006T161838-363a5453/selection.complete.json": "d5139c2eb2f227a5901b0ddbce96478d36d8ba0ae306955db6a56c7c7251a662",
+          "evidence/M30/20261006T161838-363a5453/selection.prev.complete.json": "8729eeaa84013748ee563e9f0f2470dfcccb2a9a52eb14f4989eeb998f703503",
+          "evidence/M30/20261006T161838-363a5453/selection.prev.pt": "fb5bd0b3ce890724967a6689d3d0c767533c43fe8a21656722347d80a3f5b12d",
+          "evidence/M30/20261006T161838-363a5453/selection.pt": "239ce050ab6776fccbe45cb6e4507603faf6303e577849183453aade10f2323b",
+          "evidence/M30/20261006T161838-363a5453/validation_history.json": "6772eed147db716b0b73378c15c6a4f61778db1f9b598e90baebf291ab3a7b1a",
+          "evidence/M30/20261006T161838-363a5453/weights.pt": "ecb74e2df2e789f2ea6c7c141d9aba6268b9c6f1ad279d38f75d46a037c8a24b"
+        },
+        "epochs": 400,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "power_correct",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 5,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 105.28238,
+        "disk_bytes": 22653675,
+        "original_estimate": null,
+        "peak_rss_bytes": 723632128,
+        "rss_convention": "macOS bytes",
+        "training_updates": 51200,
+        "wall_seconds": 105.807385084
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T162211-41b7587c/manifest.json",
+      "manifest_sha256": "1fca04cc405d6b914bf150831274118bbf095d2f10a556cf314fd1226a73de79",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__power_correct__seed5",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T162021-cc7197a1",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T161527-b4342e13/manifest.json": "36e139678c89b08bc2ab47c66a45175c67eedf1fb16aab3ff7d2bd1f59251b0f",
+          "evidence/M30/20261006T162021-cc7197a1/manifest.json": "579a02ec76833db49f8055f66eed956e56716ef50d1919d81b9d7855a227657a",
+          "evidence/M30/20261006T162021-cc7197a1/resume.complete.json": "055b675e633d70c7e159768080f39c1dc1e3d57cec7630bbc12429a6a7870a75",
+          "evidence/M30/20261006T162021-cc7197a1/resume.pt": "2a2596bca648825296428daad8a0ab1944e602613ca360b6a795629d76b71d9c",
+          "evidence/M30/20261006T162021-cc7197a1/resume.rng.json": "61b6e013aea2eed0d3604b83ff8d15fe6637021bb928732f443816d6b00175a4",
+          "evidence/M30/20261006T162021-cc7197a1/selection.complete.json": "aaa70edb56203b01ce7329ffdc01bf79b9ae0e59bb670ac25e826ea19e2eeb8c",
+          "evidence/M30/20261006T162021-cc7197a1/selection.prev.complete.json": "cd5fa406f565092ed83de67f89b30bea54ce9fb946f3d01c57df82ef697131fb",
+          "evidence/M30/20261006T162021-cc7197a1/selection.prev.pt": "e4184c313eae72ff9fe353bf4ecec6720ac7b37d0d1c40184e7e3959bad85b69",
+          "evidence/M30/20261006T162021-cc7197a1/selection.pt": "4bccb67d472e10ea4620b645c3ed4e3d24680ab1e22f5d2f31d8388145fed53a",
+          "evidence/M30/20261006T162021-cc7197a1/validation_history.json": "233e79891f147b2302976475e60bfb014c47439b4961a1ec15f54bfea0f270c7",
+          "evidence/M30/20261006T162021-cc7197a1/weights.pt": "52b428f2e4734fd8ef6f3ebf1035828634d147fbfa650b89d3da4779221ab658"
+        },
+        "epochs": 500,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "power_correct",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 5,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 109.325872,
+        "disk_bytes": 27928562,
+        "original_estimate": null,
+        "peak_rss_bytes": 843972608,
+        "rss_convention": "macOS bytes",
+        "training_updates": 64000,
+        "wall_seconds": 110.859066291
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T162416-4908178e/manifest.json",
+      "manifest_sha256": "70a21d039e7cb722683169c6c65a86d5b16d7b2224afbdc88f8b9a7a96f91c25",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__power_correct__seed6",
+        "condition": "A",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T161527-b4342e13/manifest.json": "36e139678c89b08bc2ab47c66a45175c67eedf1fb16aab3ff7d2bd1f59251b0f"
+        },
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "power_correct",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 6,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 85.93695100000001,
+        "disk_bytes": 6925528,
+        "original_estimate": null,
+        "peak_rss_bytes": 375603200,
+        "rss_convention": "macOS bytes",
+        "training_updates": 12800,
+        "wall_seconds": 87.079311208
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T162548-d63e6407/manifest.json",
+      "manifest_sha256": "415b47f87d35c8047cf10eb0c3ef4e4ac44cb024695c52769ccec8ac6fad510f",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__power_correct__seed6",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T162416-4908178e",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T161527-b4342e13/manifest.json": "36e139678c89b08bc2ab47c66a45175c67eedf1fb16aab3ff7d2bd1f59251b0f",
+          "evidence/M30/20261006T162416-4908178e/manifest.json": "70a21d039e7cb722683169c6c65a86d5b16d7b2224afbdc88f8b9a7a96f91c25",
+          "evidence/M30/20261006T162416-4908178e/resume.complete.json": "6715a5718fbdeb05f9d31bf85529136986e5f3a596b805611eff10bf13775be1",
+          "evidence/M30/20261006T162416-4908178e/resume.pt": "eeb8b42e3d3d3b4f3e694f696a7fb64e752788520d51767d7f788fce47414ad1",
+          "evidence/M30/20261006T162416-4908178e/resume.rng.json": "583fd0e4ed08bc45a703cbccc239ec7a987f0a514664c00c473d64f6a814a655",
+          "evidence/M30/20261006T162416-4908178e/selection.complete.json": "1acb820a5e97b469e692b4d92c5e9691047de942bcb70741757516fdd37088bd",
+          "evidence/M30/20261006T162416-4908178e/selection.prev.complete.json": "aa0fbb10a5eca3e94c7e73ef5a51e8058f8a4116970940eb591a72f4b072b7c4",
+          "evidence/M30/20261006T162416-4908178e/selection.prev.pt": "8a5277a2f72bdb38224ba1bc65e1c4363e71fb9c8199d1d72c51d0c0cad52b06",
+          "evidence/M30/20261006T162416-4908178e/selection.pt": "b716e3a01a25cac09c32393d07611ef0914f459527359635b27b441fd02b19ca",
+          "evidence/M30/20261006T162416-4908178e/validation_history.json": "933948852fc576960cc67dc5c27d2e668d9f813751ca40fac5f5a4cda9bcc664",
+          "evidence/M30/20261006T162416-4908178e/weights.pt": "d7b9a2676e53597ea37d8e2a21cee6cd25c18af9d6dafbeee011f267b0386019"
+        },
+        "epochs": 200,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "power_correct",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 6,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 91.006874,
+        "disk_bytes": 12147382,
+        "original_estimate": null,
+        "peak_rss_bytes": 547241984,
+        "rss_convention": "macOS bytes",
+        "training_updates": 25600,
+        "wall_seconds": 91.949954792
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T162724-c6735aa8/manifest.json",
+      "manifest_sha256": "77b91e907c08f18051d08e3cb09edeea03d25b0e32349fd97bb9a0a13bd012b3",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__power_correct__seed6",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T162548-d63e6407",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T161527-b4342e13/manifest.json": "36e139678c89b08bc2ab47c66a45175c67eedf1fb16aab3ff7d2bd1f59251b0f",
+          "evidence/M30/20261006T162548-d63e6407/manifest.json": "415b47f87d35c8047cf10eb0c3ef4e4ac44cb024695c52769ccec8ac6fad510f",
+          "evidence/M30/20261006T162548-d63e6407/resume.complete.json": "1d7c6e24c271b2389f43723fee0a46554c3ec1ea77c877e707bc866882e3be4f",
+          "evidence/M30/20261006T162548-d63e6407/resume.pt": "f872583cce8c5d12c49c78b7b096e6b85c30209ef393473a8187d84aa4af0fdf",
+          "evidence/M30/20261006T162548-d63e6407/resume.rng.json": "2eb98fc41ab6b311e0abdf32ae2484083c3986d8e0b5ccb37662396ab3d2661a",
+          "evidence/M30/20261006T162548-d63e6407/selection.complete.json": "f9070e974db91ccbe6fa75f66dec5dec221b924b2e75f9722b8814cf3676a09b",
+          "evidence/M30/20261006T162548-d63e6407/selection.prev.complete.json": "843a692f217d3c4e12a41ec37449c24ea21fb431731702a40ae0d9ad0f106fd4",
+          "evidence/M30/20261006T162548-d63e6407/selection.prev.pt": "26047b1fe724cead2caea83c650173c6e478d721ecbcd29ddd7137d8089ea668",
+          "evidence/M30/20261006T162548-d63e6407/selection.pt": "d171e581add4fa06a81cc02233abe9235cf06b2bf268171126f9e534f7a0cee2",
+          "evidence/M30/20261006T162548-d63e6407/validation_history.json": "d19383379a05863ba988203dd8f8b54711f4716921dd05e6543409bca383cac5",
+          "evidence/M30/20261006T162548-d63e6407/weights.pt": "6d07f8c5f80377ed5b557a425013eb9c4ae5431270f60fb3e5d1f792e0a0f7e6"
+        },
+        "epochs": 300,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "power_correct",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 6,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 98.611403,
+        "disk_bytes": 17385269,
+        "original_estimate": null,
+        "peak_rss_bytes": 644644864,
+        "rss_convention": "macOS bytes",
+        "training_updates": 38400,
+        "wall_seconds": 99.294763
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T162915-38e31b3f/manifest.json",
+      "manifest_sha256": "3d13c00f2830fdcbd7211e926f0d08614bd97f520d82ed49e0fdd06cce460a99",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__power_correct__seed7",
+        "condition": "A",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T161527-b4342e13/manifest.json": "36e139678c89b08bc2ab47c66a45175c67eedf1fb16aab3ff7d2bd1f59251b0f"
+        },
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "power_correct",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 7,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 81.604088,
+        "disk_bytes": 6928120,
+        "original_estimate": null,
+        "peak_rss_bytes": 448724992,
+        "rss_convention": "macOS bytes",
+        "training_updates": 12800,
+        "wall_seconds": 81.817513042
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T163040-96f94158/manifest.json",
+      "manifest_sha256": "ec487ad7e656bbce1bd8d111d02e3b48c2e64a82f5fd5f81a6e45da8eeacd471",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__power_correct__seed7",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T162915-38e31b3f",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T161527-b4342e13/manifest.json": "36e139678c89b08bc2ab47c66a45175c67eedf1fb16aab3ff7d2bd1f59251b0f",
+          "evidence/M30/20261006T162915-38e31b3f/manifest.json": "3d13c00f2830fdcbd7211e926f0d08614bd97f520d82ed49e0fdd06cce460a99",
+          "evidence/M30/20261006T162915-38e31b3f/resume.complete.json": "99b6140edefb8d9b2301f20edfc6878982f94d917d72a24aeca416602d06a260",
+          "evidence/M30/20261006T162915-38e31b3f/resume.pt": "181aabded78d328b8e2249da4fe7836a8c699ea63fd25fd2e62c343de5805f49",
+          "evidence/M30/20261006T162915-38e31b3f/resume.rng.json": "d6a3593171ab1f252000987c096ce424e90032a7e061bcfc8a69927e95a03976",
+          "evidence/M30/20261006T162915-38e31b3f/selection.complete.json": "729395f355aa6a4e108f25f8db68dd78ff49fa0a24ee64dd839543c91df333d3",
+          "evidence/M30/20261006T162915-38e31b3f/selection.prev.complete.json": "b2f15b347a79c850aee03a4051b1da52b6896aa6bc4e6730dffb67159cc0f4eb",
+          "evidence/M30/20261006T162915-38e31b3f/selection.prev.pt": "61d1389329642bdbdf524162571da858c570c4a77667a4c66847a5e1d1c0d48e",
+          "evidence/M30/20261006T162915-38e31b3f/selection.pt": "b30ce7881a5a6f01f229caaf46ddb36798458eaf2a6c938c28c883da6c383072",
+          "evidence/M30/20261006T162915-38e31b3f/validation_history.json": "d43672a1d3ec28bcb00a849c51ebe11362f152fa8fdab6e6bb5afbdc7f2bd6aa",
+          "evidence/M30/20261006T162915-38e31b3f/weights.pt": "ac69d21571c02b686ccce0b8d528d6781994e85b80bbd2fbb4179e05bf4c48b2"
+        },
+        "epochs": 200,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "power_correct",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 7,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 92.206773,
+        "disk_bytes": 12150764,
+        "original_estimate": null,
+        "peak_rss_bytes": 564445184,
+        "rss_convention": "macOS bytes",
+        "training_updates": 25600,
+        "wall_seconds": 92.521037375
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T163216-fbf3e87e/manifest.json",
+      "manifest_sha256": "4e9dcb5d88a052284ce7bd7e76463f1db902d6a2cb86339e506350816f1bd019",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__power_correct__seed7",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T163040-96f94158",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T161527-b4342e13/manifest.json": "36e139678c89b08bc2ab47c66a45175c67eedf1fb16aab3ff7d2bd1f59251b0f",
+          "evidence/M30/20261006T163040-96f94158/manifest.json": "ec487ad7e656bbce1bd8d111d02e3b48c2e64a82f5fd5f81a6e45da8eeacd471",
+          "evidence/M30/20261006T163040-96f94158/resume.complete.json": "9369d322f8805672f2db9afcab2cccfef2827b64854509d8cb0833ca840b8116",
+          "evidence/M30/20261006T163040-96f94158/resume.pt": "6c381427390f27e08c6f898b9a34f43cbf21257aad48bf80bdec6489e9b805b5",
+          "evidence/M30/20261006T163040-96f94158/resume.rng.json": "3f7c29a96e6ead93588d4d16fc96ae54e8c196a04d2a77212faae11b966d6662",
+          "evidence/M30/20261006T163040-96f94158/selection.complete.json": "a0a41935e4ac3b5f0124b370986cc5f64a5794a1bdc90db84de252939c20427e",
+          "evidence/M30/20261006T163040-96f94158/selection.prev.complete.json": "b4867d3c99094fd1c68f67531995906597ab960cb6024ffb0ea9f309a87d5e57",
+          "evidence/M30/20261006T163040-96f94158/selection.prev.pt": "1aa43b81ca361945ca593def720f8771e9b1035e0a9cd27835815a3db38fe6ac",
+          "evidence/M30/20261006T163040-96f94158/selection.pt": "91111e767218ce08e75deb49f82e5675e9e8d0b3094317f4916d754508d62b2e",
+          "evidence/M30/20261006T163040-96f94158/validation_history.json": "5899ed3a33cc5e863a0edeb5f41022646289c53e3e4e219eb849f2d19d2d15a6",
+          "evidence/M30/20261006T163040-96f94158/weights.pt": "0a0f1774a41bdfd2228e616e89e7f45ed22590e4491b0683c4657d8305a4444c"
+        },
+        "epochs": 300,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "power_correct",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 7,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 100.123597,
+        "disk_bytes": 17389372,
+        "original_estimate": null,
+        "peak_rss_bytes": 608780288,
+        "rss_convention": "macOS bytes",
+        "training_updates": 38400,
+        "wall_seconds": 100.674036041
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T163401-9d622620/manifest.json",
+      "manifest_sha256": "be0ca5369543eb3ef59e09e2ef250e62774ee2384a97bb150cd93dce31911bc3",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__power_correct__seed7",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T163216-fbf3e87e",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T161527-b4342e13/manifest.json": "36e139678c89b08bc2ab47c66a45175c67eedf1fb16aab3ff7d2bd1f59251b0f",
+          "evidence/M30/20261006T163216-fbf3e87e/manifest.json": "4e9dcb5d88a052284ce7bd7e76463f1db902d6a2cb86339e506350816f1bd019",
+          "evidence/M30/20261006T163216-fbf3e87e/resume.complete.json": "af444286bd02e4e925034a0ed1b8baef138c32e51f7532998f91079b3ddea5f4",
+          "evidence/M30/20261006T163216-fbf3e87e/resume.pt": "34394bf25b924dc5986d1339b3425eae7c7ae77dacda043696fd7d4c37c8420f",
+          "evidence/M30/20261006T163216-fbf3e87e/resume.rng.json": "040e28341fb4d78dcfa132e0999bc39e4a83700270c739326cc7bdf7081b2b92",
+          "evidence/M30/20261006T163216-fbf3e87e/selection.complete.json": "15aeed7ea67742f26766961b6433d4dbef2469c9049089797399abceddfd3fdc",
+          "evidence/M30/20261006T163216-fbf3e87e/selection.prev.complete.json": "813493ab1045ca76638610c9e9f31eb4add8dcc2e7c69024af391a52cc302999",
+          "evidence/M30/20261006T163216-fbf3e87e/selection.prev.pt": "cdd42cb45f856db2a87293e8f10a1d74f14d914c8fe3f9acf80dedc036efb75a",
+          "evidence/M30/20261006T163216-fbf3e87e/selection.pt": "33b3a1ed8471bbd14d33cdd69879d6ce4632c5b823d2c1f53c1b6f30b38016c1",
+          "evidence/M30/20261006T163216-fbf3e87e/validation_history.json": "77558145cb85f848b7353661944a6f21fd3f26d80cd7c7ff59a2421003973ee0",
+          "evidence/M30/20261006T163216-fbf3e87e/weights.pt": "cfd149fe7ab7272f8775145be2db519741bd6cf2b2be15ee3cf9c39d6c9ca91f"
+        },
+        "epochs": 400,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "power_correct",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 7,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 110.048181,
+        "disk_bytes": 22658984,
+        "original_estimate": null,
+        "peak_rss_bytes": 692699136,
+        "rss_convention": "macOS bytes",
+        "training_updates": 51200,
+        "wall_seconds": 111.566561625
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T163556-f01aa835/manifest.json",
+      "manifest_sha256": "e4fff90147eca9542f1dbe9448592651b9ef3ae882446f50a5b1d050d187e3e4",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__power_correct__seed7",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T163401-9d622620",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T161527-b4342e13/manifest.json": "36e139678c89b08bc2ab47c66a45175c67eedf1fb16aab3ff7d2bd1f59251b0f",
+          "evidence/M30/20261006T163401-9d622620/manifest.json": "be0ca5369543eb3ef59e09e2ef250e62774ee2384a97bb150cd93dce31911bc3",
+          "evidence/M30/20261006T163401-9d622620/resume.complete.json": "6ce142540d927de05e530d0f10133cb6300b76e554d7ddaecd9792f071abb633",
+          "evidence/M30/20261006T163401-9d622620/resume.pt": "4ddb2a96352e70aa2b5e47b971d9055696c93f19337ff06116f3c1de9d7425a6",
+          "evidence/M30/20261006T163401-9d622620/resume.rng.json": "77fbd31878ab67f845ff97b87f8af73d7948753d3dd59b3cc95c6dac8bb0d762",
+          "evidence/M30/20261006T163401-9d622620/selection.complete.json": "e83baee1045b04883b6342040862494f858d34bbc08ad8da8d12f222de4c2336",
+          "evidence/M30/20261006T163401-9d622620/selection.prev.complete.json": "d8bc95fa1871591c1536859c75c8869af59b725de4e79d15699c3e6c08614f9c",
+          "evidence/M30/20261006T163401-9d622620/selection.prev.pt": "25fcdb97e0386241835333bc73307d05cff074e9f0306b295f5b02b72e1c61b8",
+          "evidence/M30/20261006T163401-9d622620/selection.pt": "c8d527eb736a18f7f5c36c50bc54d38d97144175a4f7d236719e79a025eddcc9",
+          "evidence/M30/20261006T163401-9d622620/validation_history.json": "377491ef1f7d4695e1c25db584234d85fb131ffabc61b7a40d86e416b775ffd4",
+          "evidence/M30/20261006T163401-9d622620/weights.pt": "2cd8a251c4352e0200fe2f05f0ab374730c6248f69351cec34b5538a61f74ded"
+        },
+        "epochs": 500,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "power_correct",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 7,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 117.847276,
+        "disk_bytes": 27933655,
+        "original_estimate": null,
+        "peak_rss_bytes": 918732800,
+        "rss_convention": "macOS bytes",
+        "training_updates": 64000,
+        "wall_seconds": 119.185094417
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T163807-98b5b26b/manifest.json",
+      "manifest_sha256": "88cc89ff8b1f328e903c85db7770fadce0807fc43a434949b0a156b0263c0aa0",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__power_correct__seed8",
+        "condition": "A",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T161527-b4342e13/manifest.json": "36e139678c89b08bc2ab47c66a45175c67eedf1fb16aab3ff7d2bd1f59251b0f"
+        },
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "power_correct",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 8,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 78.978133,
+        "disk_bytes": 6924917,
+        "original_estimate": null,
+        "peak_rss_bytes": 432848896,
+        "rss_convention": "macOS bytes",
+        "training_updates": 12800,
+        "wall_seconds": 79.303474458
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T163930-6a7bdfd2/manifest.json",
+      "manifest_sha256": "7bcd3b3df4d5cc32d15acda72ad643f93d16324d4c2a43f0b8075d6608e8bc75",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__power_correct__seed8",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T163807-98b5b26b",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T161527-b4342e13/manifest.json": "36e139678c89b08bc2ab47c66a45175c67eedf1fb16aab3ff7d2bd1f59251b0f",
+          "evidence/M30/20261006T163807-98b5b26b/manifest.json": "88cc89ff8b1f328e903c85db7770fadce0807fc43a434949b0a156b0263c0aa0",
+          "evidence/M30/20261006T163807-98b5b26b/resume.complete.json": "764bb9460f6327d908c1eca65c6c55d03034425e0612bc981372f53d065afd04",
+          "evidence/M30/20261006T163807-98b5b26b/resume.pt": "6c681252a09229dca595be756769ae7ade3a487fa5623873c74cc52b418af0bd",
+          "evidence/M30/20261006T163807-98b5b26b/resume.rng.json": "817c9434d25fad9bc579257ee575b3b2e1f45ea053b076289b4c781902b2dab9",
+          "evidence/M30/20261006T163807-98b5b26b/selection.complete.json": "654b5807d0f14268b50e1a334100c62a0eb6c74b840134212e4e01fd0ff93bd6",
+          "evidence/M30/20261006T163807-98b5b26b/selection.prev.complete.json": "98424b66b38c38a08ac9a500d2ae8a62bc7c770f954363b7ebae367155fb647e",
+          "evidence/M30/20261006T163807-98b5b26b/selection.prev.pt": "8d26470da498f650fbb2bb82fdf8bdd551e3830dc347350174e4fe60ee16250a",
+          "evidence/M30/20261006T163807-98b5b26b/selection.pt": "174699def55275ae6b612ef2783322f68dd8e26631ec7bb3cf6792f08c400128",
+          "evidence/M30/20261006T163807-98b5b26b/validation_history.json": "a6af3f28d58a5307b12ed119d70bf510c4674886b790a926430289ff8e03b8f1",
+          "evidence/M30/20261006T163807-98b5b26b/weights.pt": "226a3994b6a8a7d2ec5043708491318bb33f2375ef39ffce1f02231f71f64328"
+        },
+        "epochs": 200,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "power_correct",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 8,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 84.564809,
+        "disk_bytes": 12147833,
+        "original_estimate": null,
+        "peak_rss_bytes": 549322752,
+        "rss_convention": "macOS bytes",
+        "training_updates": 25600,
+        "wall_seconds": 84.835957584
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T164107-2be5e65d/manifest.json",
+      "manifest_sha256": "f08a5ed74bfd73bb7f466034b812fc91768d59013144dd29fbd2479cbcff21ed",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__power_correct__seed9",
+        "condition": "A",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T161527-b4342e13/manifest.json": "36e139678c89b08bc2ab47c66a45175c67eedf1fb16aab3ff7d2bd1f59251b0f"
+        },
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "power_correct",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 9,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 79.739266,
+        "disk_bytes": 6923963,
+        "original_estimate": null,
+        "peak_rss_bytes": 432291840,
+        "rss_convention": "macOS bytes",
+        "training_updates": 12800,
+        "wall_seconds": 80.101823667
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T164230-9361fc45/manifest.json",
+      "manifest_sha256": "0591e9b5e4538f6ac6c1d03a40a78cc02f3a9573869fc06dcf4da05b8f9847e2",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__power_correct__seed9",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T164107-2be5e65d",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T161527-b4342e13/manifest.json": "36e139678c89b08bc2ab47c66a45175c67eedf1fb16aab3ff7d2bd1f59251b0f",
+          "evidence/M30/20261006T164107-2be5e65d/manifest.json": "f08a5ed74bfd73bb7f466034b812fc91768d59013144dd29fbd2479cbcff21ed",
+          "evidence/M30/20261006T164107-2be5e65d/resume.complete.json": "429a4ee0413170aae310eeac841a7e7255b1df8af2d9477bf2a6959da97a3804",
+          "evidence/M30/20261006T164107-2be5e65d/resume.pt": "0869813088e8510f5b8a4071187530e4e7ade6ac97b20943cb4a962257090d54",
+          "evidence/M30/20261006T164107-2be5e65d/resume.rng.json": "b822eab842eab66ac02f6c3ad7ef41a3466f5c0ff9b68cd60bd0f8372264277c",
+          "evidence/M30/20261006T164107-2be5e65d/selection.complete.json": "3e7043541bab7ae120afca9d8bc0aa8f67aeed3b1892f65b52c205ef58e448c5",
+          "evidence/M30/20261006T164107-2be5e65d/selection.prev.complete.json": "0477e10b4643beba3507792c01c8cd6fa90f3f2e45e5dce67f97a81d725b8538",
+          "evidence/M30/20261006T164107-2be5e65d/selection.prev.pt": "b937c0fddb7583c4437f3e382b6eae81dec6cc4ebcd8fb66c28c07ec9ab03867",
+          "evidence/M30/20261006T164107-2be5e65d/selection.pt": "e99958920615962eddafff82671f7651db716c94dbb93d9611af211b7821fcbb",
+          "evidence/M30/20261006T164107-2be5e65d/validation_history.json": "64bee9db8536e97364bda81a991171a3d17ddd48231d546e8e4085834d7ecb73",
+          "evidence/M30/20261006T164107-2be5e65d/weights.pt": "a26680b862544dffe71b0da483e6a9bc8315b5d5201573824fad30e21c31ef17"
+        },
+        "epochs": 200,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "power_correct",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 9,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 85.1594,
+        "disk_bytes": 12145133,
+        "original_estimate": null,
+        "peak_rss_bytes": 494174208,
+        "rss_convention": "macOS bytes",
+        "training_updates": 25600,
+        "wall_seconds": 85.354110375
+      }
+    },
+    {
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T164359-acaa3104/manifest.json",
+      "manifest_sha256": "6a39959ef71cb85c22d177228f2d44076ce76d71a198eae15aa9f462542712fa",
+      "parameters": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__power_correct__seed9",
+        "condition": "A",
+        "continue_from": "evidence/M30/20261006T164230-9361fc45",
+        "data_hashes": {
+          "data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "data/lagged/A/train/trajectories.npz": "4613f07ebaac62f86e00535347b5708618286619ed688ef861a71758067a3865",
+          "data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094",
+          "data/lagged/A/validation/trajectories.npz": "a3abd0583023e48527e6d310b81a71a6a560ffae9cab0174941390b96561838d",
+          "evidence/M30/20261006T161527-b4342e13/manifest.json": "36e139678c89b08bc2ab47c66a45175c67eedf1fb16aab3ff7d2bd1f59251b0f",
+          "evidence/M30/20261006T164230-9361fc45/manifest.json": "0591e9b5e4538f6ac6c1d03a40a78cc02f3a9573869fc06dcf4da05b8f9847e2",
+          "evidence/M30/20261006T164230-9361fc45/resume.complete.json": "69cea38d18af037c1456511c379f385990b76eddaeed1b1ba123601dee4d3459",
+          "evidence/M30/20261006T164230-9361fc45/resume.pt": "a53bf6d3e84c48d0c7e93590f1761646350ce9715a02f7900653118cb301e3f6",
+          "evidence/M30/20261006T164230-9361fc45/resume.rng.json": "6ce3889ad4f2e85d5f3156e4d74314a31cbee258eadd3a5ff85faae90866dde0",
+          "evidence/M30/20261006T164230-9361fc45/selection.complete.json": "3a21cb21f67d8c20c67a6d30fd47ae48f3c9d0d448b88ecddf2264115a93b1c6",
+          "evidence/M30/20261006T164230-9361fc45/selection.prev.complete.json": "28cc1ea009dffbb48ecc033ac4c365ba5546524d6dd7a2bf87114a4cdc671c7a",
+          "evidence/M30/20261006T164230-9361fc45/selection.prev.pt": "00918ec7bf50701051a21d9c8bcdb1d2477b3f81a5b3b004dc47bfbfa0533771",
+          "evidence/M30/20261006T164230-9361fc45/selection.pt": "dacffcf1f7f4d7d02826f8fa14cd41638bfcce0d022ce70511d5058670f6a0a0",
+          "evidence/M30/20261006T164230-9361fc45/validation_history.json": "7a673ac07ec7ed37c24229d279369c1951400729bbf97be7622bad79ee0624e5",
+          "evidence/M30/20261006T164230-9361fc45/weights.pt": "4008de13c2b06dd8ac42233a7c7c68aeb500d06d6330bd65af283b61bcc8b0cd"
+        },
+        "epochs": 300,
+        "learning_rate": 0.001,
+        "loss_mode": "shared",
+        "model_id": "power_correct",
+        "normalization_sha256": "528cfde69e4fbd3c074b598f5c9d903389bc8996216737abeb6ba855550f60ca",
+        "seed": 9,
+        "train_manifest": "data/lagged/A/train/manifest.json",
+        "validation_manifest": "data/lagged/A/validation/manifest.json"
+      },
+      "phase": "confirmatory",
+      "resources": {
+        "cpu_seconds": 92.861199,
+        "disk_bytes": 17382497,
+        "original_estimate": null,
+        "peak_rss_bytes": 605061120,
+        "rss_convention": "macOS bytes",
+        "training_updates": 38400,
+        "wall_seconds": 93.398074667
+      }
+    }
+  ],
+  "independent_verification": "Rehashed complete selected/source closure and all new-context producer artifacts; independently recomputed canonical tensors. Nominal scores shown were independently recomputed by the original selection coordinator before control; no additional validation fit performed here.",
+  "measured_completed_unit_resources": {
+    "cpu_seconds": 3458.9958779999997,
+    "logical_artifact_bytes": 674468657,
+    "peak_rss_bytes": 1127907328,
+    "wall_seconds": 3491.2930464170004
+  },
+  "new_selected_fits": 15,
+  "nominal_snapshot_sha256": "fd8d7b5dd62b8ac48e7b475a3d2ec4478511fdd52ac61c385b37ba6d3fb30630",
+  "observed_utc": "2026-10-06T17:19:33.387800Z",
+  "operational_only": true,
+  "primary_registry_created_utc": "2026-10-06T16:45:52.363068Z",
+  "primary_registry_sha256": "501d5b78a76a521000bac8c85db674325d1fd6548959cd55fc6fdfceb40beeb8",
+  "reused_selected_fits": 5,
+  "schema_version": 1,
+  "scientific_verdict": null,
+  "scope": "New context complete producers including optimizer continuation ancestry and plumbing; repeated cumulative update counters are deliberately not summed. Excludes previously measured reused fits, copying/verification/startup/interrupted work and control.",
+  "selected": [
+    {
+      "canonical_tensor_sha256": "656ed50cad0c432feaa974133988a73fe184fa399736ad959acc76486e3d3fd0",
+      "cell_id": "direct__A__shared__mlp_dt__seed5",
+      "checkpoint_sha256": "a25beedf2a907c3ac0919f5afa11da5f1c878d8e7de08744743d16337fc5de68",
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T154351-f6f315d7/manifest.json",
+      "manifest_sha256": "8665b83ca76852ea30c0208b8a9bb1ce947d7665e5ba28daad28e7b34b8d9c34",
+      "mode": "fit",
+      "nominal_validation_recomputed_by_producer": {
+        "four_count": 7424,
+        "four_step": 0.0025729434828463127,
+        "objective": 0.0008836306512876035,
+        "one_count": 8192,
+        "one_step": 0.00024039478057602537
+      },
+      "qualified": true
+    },
+    {
+      "canonical_tensor_sha256": "8e4af0802894b6f69d526992ac412b340f882d573de7c2cf2b061b3ec4c0818a",
+      "cell_id": "direct__A__shared__mlp_dt__seed6",
+      "checkpoint_sha256": "66a60b466264492eb6ac3fcdf6afca9db120043359885cfa1d3052635fda64d6",
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T154504-7e3f791f/manifest.json",
+      "manifest_sha256": "7175b62cf9e5a65cd2c0f82bc74a34449926d5c366954aee73d69646a0cdc07d",
+      "mode": "fit",
+      "nominal_validation_recomputed_by_producer": {
+        "four_count": 7424,
+        "four_step": 0.006563712544510932,
+        "objective": 0.0023389572861717547,
+        "one_count": 8192,
+        "one_step": 0.0006980291500440217
+      },
+      "qualified": true
+    },
+    {
+      "canonical_tensor_sha256": "2c125abb81520051260be11ca32c20225d946698f1d528b26ad691c24a5e6045",
+      "cell_id": "direct__A__shared__mlp_dt__seed7",
+      "checkpoint_sha256": "b2202faf6fc3c6a068c704707e42f882fffeea621737b2ea0cc177eb2e9d641d",
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T154806-b641e101/manifest.json",
+      "manifest_sha256": "0c7b504481104e2d12d84719beeef88b098b04edd2b0a2a861ce450746be1bc5",
+      "mode": "fit",
+      "nominal_validation_recomputed_by_producer": {
+        "four_count": 7424,
+        "four_step": 0.0024615023891062173,
+        "objective": 0.0008560915040608711,
+        "one_count": 8192,
+        "one_step": 0.00024071590678431676
+      },
+      "qualified": true
+    },
+    {
+      "canonical_tensor_sha256": "123da07f7ba021564357b58548e6468994d4bdac0c29445255cbfef1008526b3",
+      "cell_id": "direct__A__shared__mlp_dt__seed8",
+      "checkpoint_sha256": "4fb9e565e165b666604473252d86c7f7b845cf7ca6462c87a9e55e42878a1246",
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T155022-60c6666f/manifest.json",
+      "manifest_sha256": "6db107a9ba1f7ddcc2145376d70a3a121ba82109c3a112a317476df86a72341f",
+      "mode": "fit",
+      "nominal_validation_recomputed_by_producer": {
+        "four_count": 7424,
+        "four_step": 0.003794796999625697,
+        "objective": 0.0013240402054493486,
+        "one_count": 8192,
+        "one_step": 0.00037534095554292435
+      },
+      "qualified": true
+    },
+    {
+      "canonical_tensor_sha256": "28935b5a1347f7523a158e024f9cc2c66d4fe86eb615eff77708545338b4a65d",
+      "cell_id": "direct__A__shared__mlp_dt__seed9",
+      "checkpoint_sha256": "dabfa59572ad96572f6ce3b3c14bda5dbe5965d7e0097aeee92714adb1e51492",
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T155330-1ebe3400/manifest.json",
+      "manifest_sha256": "33ff84c6fc85a4f42abc83d9f0a2fe42c55ae25b3c002a9d2c63f06602d2a328",
+      "mode": "fit",
+      "nominal_validation_recomputed_by_producer": {
+        "four_count": 7424,
+        "four_step": 0.002602320470863372,
+        "objective": 0.0009166407391862306,
+        "one_count": 8192,
+        "one_step": 0.00026606062147038756
+      },
+      "qualified": true
+    },
+    {
+      "canonical_tensor_sha256": "33295414427fdfcc4662a521424b6823607283e3ac019f02e147a778f1e912a4",
+      "cell_id": "direct__A__shared__power_correct__seed5",
+      "checkpoint_sha256": "ca6ba660350d6a63f15b00c21f08fa4686c179037fbdf957e5d661a66e514691",
+      "manifest": "study/precision-look-2/study/precision-look-3/study/precision-look-4/evidence/M30/20261001T133848-aee61b65/manifest.json",
+      "manifest_sha256": "07b69de8e1533dc6d0536ff15e4e6388c84d8cbd1b736ec7eb3edda4285856d8",
+      "mode": "reuse",
+      "nominal_validation_recomputed_by_producer": {
+        "four_count": 7424,
+        "four_step": 0.0033127706180243093,
+        "objective": 0.00108446990558887,
+        "one_count": 8192,
+        "one_step": 0.00025627725108279265
+      },
+      "qualified": true
+    },
+    {
+      "canonical_tensor_sha256": "d558b35a2d76f3c83fe2d635e856fd01b4bc765c564e100fa62ad0e4a1b570ab",
+      "cell_id": "direct__A__shared__power_correct__seed6",
+      "checkpoint_sha256": "39af1b55846d1dbd949df61c23d78c8926ebaa2d043dff37096fa2b90ad51d3c",
+      "manifest": "study/precision-look-2/study/precision-look-3/study/precision-look-4/evidence/M30/20261001T135211-dbbfbf30/manifest.json",
+      "manifest_sha256": "8b79e4f7ed3e13d8ec144c0d97816b54a84e72a632eab86a45c0a3d0852378ad",
+      "mode": "reuse",
+      "nominal_validation_recomputed_by_producer": {
+        "four_count": 7424,
+        "four_step": 0.003021827041109269,
+        "objective": 0.0009703293596493464,
+        "one_count": 8192,
+        "one_step": 0.00021487259937202907
+      },
+      "qualified": true
+    },
+    {
+      "canonical_tensor_sha256": "1da6edaefec08b07dd4ea3d147d5eca6cacb94b401c826c3f6523a26b793e355",
+      "cell_id": "direct__A__shared__power_correct__seed7",
+      "checkpoint_sha256": "99a004a10f1ac25cbab8a8212e30a8d1b01d8f2b15584989395ee99d45b473f2",
+      "manifest": "study/precision-look-2/study/precision-look-3/study/precision-look-4/evidence/M30/20261001T140319-28829181/manifest.json",
+      "manifest_sha256": "9c2ee9efb54df395595dbd080fb5708572dbe7049bdcba68883a5b20a17dee10",
+      "mode": "reuse",
+      "nominal_validation_recomputed_by_producer": {
+        "four_count": 7424,
+        "four_step": 0.003921943212907505,
+        "objective": 0.0012591028598919743,
+        "one_count": 8192,
+        "one_step": 0.00027861705666509806
+      },
+      "qualified": true
+    },
+    {
+      "canonical_tensor_sha256": "2f54c8b036265a93c977b653af16dea91cc2d7d511e6468fee343cc655e1ab06",
+      "cell_id": "direct__A__shared__power_correct__seed8",
+      "checkpoint_sha256": "19d9c398cc3135cca728f3623ffce3781255db630bdd824641871e14deacca60",
+      "manifest": "study/precision-look-2/study/precision-look-3/study/precision-look-4/evidence/M30/20261001T142614-4f39443b/manifest.json",
+      "manifest_sha256": "e42cbb73489d20a2969ed9b40a08c2595c57a655f03b4cc71643a27edb10e05a",
+      "mode": "reuse",
+      "nominal_validation_recomputed_by_producer": {
+        "four_count": 7424,
+        "four_step": 0.0018488901999513347,
+        "objective": 0.0005994254637079362,
+        "one_count": 8192,
+        "one_step": 0.00013720291372010252
+      },
+      "qualified": true
+    },
+    {
+      "canonical_tensor_sha256": "3dbca56b607bc6bd4ec298118fd26d3edb210e9ceb1f71eabc924207964ba36a",
+      "cell_id": "direct__A__shared__power_correct__seed9",
+      "checkpoint_sha256": "29f5c6a51cca131e2eb9b84f8a2c31bbe53e9110a39d64cbb2749fa676b879ea",
+      "manifest": "study/precision-look-2/study/precision-look-3/study/precision-look-4/evidence/M30/20261001T144745-175d6ace/manifest.json",
+      "manifest_sha256": "2a77593260d403daab673749d03ae56c24774047a633c565c691e5b0ff634de0",
+      "mode": "reuse",
+      "nominal_validation_recomputed_by_producer": {
+        "four_count": 7424,
+        "four_step": 0.0031997387736580627,
+        "objective": 0.0010591868584658092,
+        "one_count": 8192,
+        "one_step": 0.00025925216505129356
+      },
+      "qualified": true
+    },
+    {
+      "canonical_tensor_sha256": "42212cdd3f049a353c0f0b04a7884e344e2ed87e8911dfe76c0a4044ecc2a53b",
+      "cell_id": "lagged__A__shared__mlp_dt__seed5",
+      "checkpoint_sha256": "77daa90b9bab7c8b4a985c047f077396b86f7a8d9f9ac68f2382d73e078bec44",
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T155615-ae58e58f/manifest.json",
+      "manifest_sha256": "305a0f7bcb5e8c29cb60013e42117e099a386f996a5c54b50e9c7326afe56891",
+      "mode": "fit",
+      "nominal_validation_recomputed_by_producer": {
+        "four_count": 7424,
+        "four_step": 0.01585795954000285,
+        "objective": 0.0051582495186800045,
+        "one_count": 8192,
+        "one_step": 0.0011937596336792922
+      },
+      "qualified": true
+    },
+    {
+      "canonical_tensor_sha256": "3b7875ca716ff090b9f5c3809b69d6f66f1f82cac9917c53ee4ab0084787a5e3",
+      "cell_id": "lagged__A__shared__mlp_dt__seed6",
+      "checkpoint_sha256": "5aa6b686bcb1fd16a851a1bc763ba9a7f54690f4abb8baffc8a8fdae4bf2ad95",
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T155932-c58d4a3a/manifest.json",
+      "manifest_sha256": "e8d07d4d5020a62059bd65195087b07088bed7a1c345aef94766631d0bc80975",
+      "mode": "fit",
+      "nominal_validation_recomputed_by_producer": {
+        "four_count": 7424,
+        "four_step": 0.012960782242551996,
+        "objective": 0.004245245810297688,
+        "one_count": 8192,
+        "one_step": 0.0010050502496596891
+      },
+      "qualified": true
+    },
+    {
+      "canonical_tensor_sha256": "422022a5a265d269ba34d3a83493dbe955f47ee5b5c140856c513ead7e6578bc",
+      "cell_id": "lagged__A__shared__mlp_dt__seed7",
+      "checkpoint_sha256": "d96bbc6bff1cdf74436dc22498abc5844d5c1a990ee89965c0c717f4ed2db92e",
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T160254-fbc8dd3c/manifest.json",
+      "manifest_sha256": "b53a11262e831d7d748776c74a208914c650f87ba5cc51a38948db5a9ee6590d",
+      "mode": "fit",
+      "nominal_validation_recomputed_by_producer": {
+        "four_count": 7424,
+        "four_step": 0.009722939586183577,
+        "objective": 0.0032434669663353845,
+        "one_count": 8192,
+        "one_step": 0.0008127320697894902
+      },
+      "qualified": true
+    },
+    {
+      "canonical_tensor_sha256": "f71c20e0a080222e9b5244add9e8b76d8c027c04892b289c8ca62ecb8a1ed4c6",
+      "cell_id": "lagged__A__shared__mlp_dt__seed8",
+      "checkpoint_sha256": "23a92a18656e7a1d676ebc9056cbcba3d231ca44fabc2973e76d4af32e966202",
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T160512-1533363f/manifest.json",
+      "manifest_sha256": "4ce5f1ba7496dfdd4462a7926742eaea141a3a461615111ac6b70df333db9b53",
+      "mode": "fit",
+      "nominal_validation_recomputed_by_producer": {
+        "four_count": 7424,
+        "four_step": 0.01722022086599689,
+        "objective": 0.005598385880838232,
+        "one_count": 8192,
+        "one_step": 0.0012933306643390097
+      },
+      "qualified": true
+    },
+    {
+      "canonical_tensor_sha256": "16da31719e5a5a89ca32b0f86b6c02103b86d1f8f8119faa647ac0e7a58aa028",
+      "cell_id": "lagged__A__shared__mlp_dt__seed9",
+      "checkpoint_sha256": "589c464025ca3d488b1fee1417da59f934049c382ce495b7e1d9fd5e484ff01e",
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T161347-fc098757/manifest.json",
+      "manifest_sha256": "63df5f4b863a826ae053b30d9f9f96c63ae175aa207b41203c6d02aa4c8da3f5",
+      "mode": "fit",
+      "nominal_validation_recomputed_by_producer": {
+        "four_count": 7424,
+        "four_step": 0.007228847486564111,
+        "objective": 0.0023871957089105656,
+        "one_count": 8192,
+        "one_step": 0.0005799838372695376
+      },
+      "qualified": true
+    },
+    {
+      "canonical_tensor_sha256": "6d796620e1a3f3cdf7041c0c6f5d752fc8d2dc39c9a5dc9d7af8fd8175fc5e13",
+      "cell_id": "lagged__A__shared__power_correct__seed5",
+      "checkpoint_sha256": "52b428f2e4734fd8ef6f3ebf1035828634d147fbfa650b89d3da4779221ab658",
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T162211-41b7587c/manifest.json",
+      "manifest_sha256": "1fca04cc405d6b914bf150831274118bbf095d2f10a556cf314fd1226a73de79",
+      "mode": "fit",
+      "nominal_validation_recomputed_by_producer": {
+        "four_count": 7424,
+        "four_step": 0.0058719485884686385,
+        "objective": 0.0018923620661380797,
+        "one_count": 8192,
+        "one_step": 0.00042437491902092006
+      },
+      "qualified": true
+    },
+    {
+      "canonical_tensor_sha256": "79f6e4bc19a7e6a5bd7cfa63116c9b7da89533b816b9b4cc0ec70ce668b6c55d",
+      "cell_id": "lagged__A__shared__power_correct__seed6",
+      "checkpoint_sha256": "a275a0d8bed4fca64bf7fc1c4d25d3187427a1d297f1f7a316d954e30497877f",
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T162724-c6735aa8/manifest.json",
+      "manifest_sha256": "77b91e907c08f18051d08e3cb09edeea03d25b0e32349fd97bb9a0a13bd012b3",
+      "mode": "fit",
+      "nominal_validation_recomputed_by_producer": {
+        "four_count": 7424,
+        "four_step": 0.009006180448679891,
+        "objective": 0.00290320746198004,
+        "one_count": 8192,
+        "one_step": 0.0006516623498100671
+      },
+      "qualified": true
+    },
+    {
+      "canonical_tensor_sha256": "f77ea620c5a783366dd96bd5b95cbe0d87447e64df54cae1b30bef86ed07f009",
+      "cell_id": "lagged__A__shared__power_correct__seed7",
+      "checkpoint_sha256": "2cd8a251c4352e0200fe2f05f0ab374730c6248f69351cec34b5538a61f74ded",
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T163556-f01aa835/manifest.json",
+      "manifest_sha256": "e4fff90147eca9542f1dbe9448592651b9ef3ae882446f50a5b1d050d187e3e4",
+      "mode": "fit",
+      "nominal_validation_recomputed_by_producer": {
+        "four_count": 7424,
+        "four_step": 0.008686694602210051,
+        "objective": 0.0027581425352011515,
+        "one_count": 8192,
+        "one_step": 0.0005864688846486388
+      },
+      "qualified": true
+    },
+    {
+      "canonical_tensor_sha256": "1fc66d0a08c1a8c2c9bee6b0cefafffde0109064a4ae652d2ed16cf5df0c129d",
+      "cell_id": "lagged__A__shared__power_correct__seed8",
+      "checkpoint_sha256": "9ebe9a76d0f4b2cc46cf0a2fffb1293ba3f53a4748a1714b56e85831f5f32d72",
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T163930-6a7bdfd2/manifest.json",
+      "manifest_sha256": "7bcd3b3df4d5cc32d15acda72ad643f93d16324d4c2a43f0b8075d6608e8bc75",
+      "mode": "fit",
+      "nominal_validation_recomputed_by_producer": {
+        "four_count": 7424,
+        "four_step": 0.013228639466903806,
+        "objective": 0.004159822370983703,
+        "one_count": 8192,
+        "one_step": 0.0008526625042577507
+      },
+      "qualified": true
+    },
+    {
+      "canonical_tensor_sha256": "cb305c2e0490578f0eb3b335cc856ac8dd5731afb456973cb33c59384e956fe8",
+      "cell_id": "lagged__A__shared__power_correct__seed9",
+      "checkpoint_sha256": "71334e8551d46f63c6248342ca9df2e9e57ede91e79f023ce427367c2d350855",
+      "manifest": "study/control-precision-look2/evidence/M30/20261006T164359-acaa3104/manifest.json",
+      "manifest_sha256": "6a39959ef71cb85c22d177228f2d44076ce76d71a198eae15aa9f462542712fa",
+      "mode": "fit",
+      "nominal_validation_recomputed_by_producer": {
+        "four_count": 7424,
+        "four_step": 0.009126250864310664,
+        "objective": 0.002882132813126724,
+        "one_count": 8192,
+        "one_step": 0.000600570097049058
+      },
+      "qualified": true
+    }
+  ],
+  "selected_coordinates": 20,
+  "selection": "Frozen same nominal-only objective/adequacy rule; fine-time outputs did not select checkpoints",
+  "state": "complete"
+}

@@ -1,0 +1,240 @@
+{
+  "actuators": [
+    "direct",
+    "lagged"
+  ],
+  "checkpoint_selection": "Original nominal-only optimizer/adequacy procedure. Freeze exact qualified manifest, archive and canonical tensor hashes before opening any control outcome. Previously qualified confirmatory fits may be reused by semantic identity; never select by a fine-time or control metric.",
+  "contract": {
+    "1": "Estimate control cost utility of the existing correct head against MLP and generic NODE on both known actuator chains; no percentage improvement floor.",
+    "10": "Current producer-only proxy17.67hours and measured artifact projection; refresh using representative lagged jobs before full batch; no artificial caps and no paid compute.",
+    "11": "Preserve all old prediction/control development outcomes and interrupted attempts. Repairs invalidate affected dependency closures; new model/task selection prompted by outcomes is exploratory and needs new confirmation.",
+    "12": "Independent raw reaggregation, original numerical convergence checks, complete per-claim scope and reproducible frozen commands; whole-branch review at actual project completion.",
+    "2": "Owner amendment and qualified planner exist; independent confirmation control outcomes absent. Nominal checkpoint freeze is mandatory before execution.",
+    "3": "Reuse existing nominal fit, immutable checkpoint restoration, action compiler, CEM, episode recording and independent raw-cost audit; thin explicit batch and seed-cluster summary only.",
+    "4": "Complete needed nominal fits without control-outcome selection, freeze exact model/evaluator/task cells, then run paired original S09 episodes at40/5ms, hardware40ms, seeds0-4 and20IDs each.",
+    "5": "Existing control-job CLI executes concrete frozen requests; new thin confirmation runner implements dry-run/resume and explicit registry after nominal prerequisites.",
+    "6": "Qualified checkpoints/freezes,1200expected episode cells, raw candidate/action/truth/observation artifacts, seed metrics, numerical audit and new control look ledger.",
+    "7": "Full role/units/clocks/hash closure and coverage; no confirmation-seed replacement, hidden observations, omitted failures or winner-dependent planner changes.",
+    "8": "Per-condition lower/higher cost evidence uses paired seed means and the frozen eight-contrast/two-tail spending procedure. Unresolved cells remain unresolved; no original PTCO all-claims PASS.",
+    "9": "Supported limited claim -> report it at its actual scope; live unresolved sign -> prospectively sized additional clusters if justified; invalid -> repair; concrete external resource shortage -> report provisioning and resume conditions."
+  },
+  "criteria": [
+    {
+      "actuator": "direct",
+      "claim": "lower cost if positive; higher cost if negative",
+      "competitor": "mlp_dt",
+      "contrast": "baseline_minus_corrected",
+      "criterion_id": "utility_control/direct/mlp_dt/h40000000",
+      "effect_floor": 0.0,
+      "metric": "mean_realized_episode_cost",
+      "model_step_ns": 40000000
+    },
+    {
+      "actuator": "direct",
+      "claim": "lower cost if positive; higher cost if negative",
+      "competitor": "mlp_dt",
+      "contrast": "baseline_minus_corrected",
+      "criterion_id": "utility_control/direct/mlp_dt/h5000000",
+      "effect_floor": 0.0,
+      "metric": "mean_realized_episode_cost",
+      "model_step_ns": 5000000
+    },
+    {
+      "actuator": "direct",
+      "claim": "lower cost if positive; higher cost if negative",
+      "competitor": "node_generic",
+      "contrast": "baseline_minus_corrected",
+      "criterion_id": "utility_control/direct/node_generic/h40000000",
+      "effect_floor": 0.0,
+      "metric": "mean_realized_episode_cost",
+      "model_step_ns": 40000000
+    },
+    {
+      "actuator": "direct",
+      "claim": "lower cost if positive; higher cost if negative",
+      "competitor": "node_generic",
+      "contrast": "baseline_minus_corrected",
+      "criterion_id": "utility_control/direct/node_generic/h5000000",
+      "effect_floor": 0.0,
+      "metric": "mean_realized_episode_cost",
+      "model_step_ns": 5000000
+    },
+    {
+      "actuator": "lagged",
+      "claim": "lower cost if positive; higher cost if negative",
+      "competitor": "mlp_dt",
+      "contrast": "baseline_minus_corrected",
+      "criterion_id": "utility_control/lagged/mlp_dt/h40000000",
+      "effect_floor": 0.0,
+      "metric": "mean_realized_episode_cost",
+      "model_step_ns": 40000000
+    },
+    {
+      "actuator": "lagged",
+      "claim": "lower cost if positive; higher cost if negative",
+      "competitor": "mlp_dt",
+      "contrast": "baseline_minus_corrected",
+      "criterion_id": "utility_control/lagged/mlp_dt/h5000000",
+      "effect_floor": 0.0,
+      "metric": "mean_realized_episode_cost",
+      "model_step_ns": 5000000
+    },
+    {
+      "actuator": "lagged",
+      "claim": "lower cost if positive; higher cost if negative",
+      "competitor": "node_generic",
+      "contrast": "baseline_minus_corrected",
+      "criterion_id": "utility_control/lagged/node_generic/h40000000",
+      "effect_floor": 0.0,
+      "metric": "mean_realized_episode_cost",
+      "model_step_ns": 40000000
+    },
+    {
+      "actuator": "lagged",
+      "claim": "lower cost if positive; higher cost if negative",
+      "competitor": "node_generic",
+      "contrast": "baseline_minus_corrected",
+      "criterion_id": "utility_control/lagged/node_generic/h5000000",
+      "effect_floor": 0.0,
+      "metric": "mean_realized_episode_cost",
+      "model_step_ns": 5000000
+    }
+  ],
+  "development_outcomes_used": "Model set and useful questions chosen after development seed9000; no confirmatory control episode has been inspected. Existing prediction outcomes and owner amendment are disclosed.",
+  "episode_ns": 1600000000,
+  "episode_seed_root": 6101,
+  "failure_accounting": "Retain every episode/candidate status and fallback. True-plant invalidity requires repair. No missing/nonfinite episode can be averaged as zero or omitted.",
+  "hardware_clocks_ns": {
+    "actuator": 40000000,
+    "observation": 40000000,
+    "replanning": 40000000
+  },
+  "initial_episode_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "initial_training_seed_ids": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "loss_mode": "shared",
+  "model_steps_ns": [
+    40000000,
+    5000000
+  ],
+  "models": [
+    "mlp_dt",
+    "node_generic",
+    "power_correct"
+  ],
+  "numerical_confirmation": "Use the original next-finer-plant subset and expand affected/near-boundary cells before accepting a sign; report NODE solver checks separately.",
+  "owner_objective_revision": "config/revisions/owner-objective-2026-10-01.json",
+  "owner_objective_revision_sha256": "da4216c94bc8afa9df0715db0a02f7b3e7fb8bdf06795348512a0194f1965791",
+  "physics_step_ns": 250000,
+  "planner_sha256": "fef27c3be89d011c9774b3be6f9947202ca9d28c24007af58d3d892dbdbaebc5",
+  "protocol_id": "UTILITY-2026-10-02-control-v1",
+  "recorded_utc": "2026-10-02T08:35:00.687019Z",
+  "reference_scope": "Existing qualified physics baseline on same tasks/rates; first five episode IDs per seed receive simulator/finer-physics audits. No privileged supervision.",
+  "release_preconditions": [
+    "Nominal fits qualified and source compatible",
+    "Exact checkpoint/cell/evaluator hashes frozen",
+    "All needed learning controls passed",
+    "Original observation/action/cost schedules and paired CEM streams verified",
+    "Measured resource projection updated before full batch",
+    "No active duplicate job"
+  ],
+  "resource_projection": {
+    "direct_measured_proxies": [
+      {
+        "mean_artifact_bytes": 2466529.1,
+        "mean_producer_wall_seconds": 25.9108309959,
+        "measured_episodes": 10,
+        "model_id": "mlp_dt",
+        "model_step_ns": 40000000
+      },
+      {
+        "mean_artifact_bytes": 2469688.1,
+        "mean_producer_wall_seconds": 77.6005269082,
+        "measured_episodes": 10,
+        "model_id": "mlp_dt",
+        "model_step_ns": 5000000
+      },
+      {
+        "mean_artifact_bytes": 2467384.9,
+        "mean_producer_wall_seconds": 26.6627748918,
+        "measured_episodes": 10,
+        "model_id": "node_generic",
+        "model_step_ns": 40000000
+      },
+      {
+        "mean_artifact_bytes": 2467645.7,
+        "mean_producer_wall_seconds": 82.78524012089999,
+        "measured_episodes": 10,
+        "model_id": "node_generic",
+        "model_step_ns": 5000000
+      },
+      {
+        "mean_artifact_bytes": 2467888.1,
+        "mean_producer_wall_seconds": 26.215400737500005,
+        "measured_episodes": 10,
+        "model_id": "power_correct",
+        "model_step_ns": 40000000
+      },
+      {
+        "mean_artifact_bytes": 2468081.4,
+        "mean_producer_wall_seconds": 78.92833900410001,
+        "measured_episodes": 10,
+        "model_id": "power_correct",
+        "model_step_ns": 5000000
+      }
+    ],
+    "estimated_artifact_bytes": 2961443460.0,
+    "estimated_producer_wall_seconds": 63620.62253168,
+    "limitation": "Direct development throughput proxy for both plants; excludes missing training, startup/hash closure, calibration/reference and refinement audits; estimates, not caps",
+    "owner_imposed_caps": null,
+    "primary_episode_count": 1200,
+    "source": "reports/control_development_direct.json",
+    "source_sha256": "817b29fb1aac0bc06ebef3413dc2a82ed84b8c2d4dc1e36a7fd48c5e233c2db2"
+  },
+  "schema_version": 1,
+  "scope": "Two-link direct and known-lag plants; A/shared corrected head versus specified qualified MLP and generic NODE; no full competitor-suite claim",
+  "state": "prospectively_registered_design_checkpoint_freeze_pending",
+  "statistical_design": {
+    "bootstrap_seed_entropy": [
+      9102,
+      "look_index"
+    ],
+    "bounds": "Original seed-cluster Student-t and 20000 paired cluster-bootstrap rules, numerical envelope and influence diagnostics; at rare tails use t bound plus central95% bootstrap wholly on claimed side",
+    "constant_unbounded_contrast": "Unresolved variance diagnostic; deterministic identity requires a proof",
+    "episodes_per_seed": 20,
+    "family_size": 8,
+    "look_spending": "alpha_l=0.05/2**l, l starts at1 for this newly registered control design; original PTCO prediction ledger remains unchanged",
+    "multiplicity": "Eight contrasts, two directional tails each: alpha_l/(2*8). Claim lower or higher cost only when the corresponding bound and central bootstrap robustness support its sign. Original PTCO prediction ledger unchanged; no subset overall PTCO PASS.",
+    "n_initial_training_seeds": 5,
+    "percentage_floor": null,
+    "precision_continuation": "Retain every seed. Commit the next ascending independent seed block before outcomes if it can resolve a live sign or influential-cluster question; no seed cap. Episode doubling only under the original >70% within-seed uncertainty rule.",
+    "unit": "Independent training seed with paired episode batches"
+  },
+  "training_condition": "A"
+}

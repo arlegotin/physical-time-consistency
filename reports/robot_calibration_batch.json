@@ -1,0 +1,1179 @@
+{
+  "bank_audits": [
+    {
+      "actuator": "direct",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 0,
+      "maximum_oracle_cost_envelope": 4.687925318385572e-13,
+      "maximum_physics_cost_envelope": 2.3746232843715676e-10,
+      "maximum_q_disagreement_rad": 1.1163490598598003e-07,
+      "maximum_v_disagreement_rad_s": 1.0400438403834755e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261001T231040-e8291d65/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 7.04640760851305e-07,
+        "oracle_best_id": 290,
+        "physics_best_id": 290,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "0b1cc8dd69f6546769e35d6c5ee840f03ca4c482b1df81c11e8f594976b7d15c"
+    },
+    {
+      "actuator": "direct",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 1,
+      "maximum_oracle_cost_envelope": 4.2065630123958193e-13,
+      "maximum_physics_cost_envelope": 2.0484646591620284e-10,
+      "maximum_q_disagreement_rad": 1.045102263619313e-07,
+      "maximum_v_disagreement_rad_s": 1.071192190060799e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261001T231224-15657399/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.0149037983353537e-06,
+        "oracle_best_id": 463,
+        "physics_best_id": 463,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "26039a53ae01a8bb8b479213e1d3e504170132479183f97f09ea490376bba831"
+    },
+    {
+      "actuator": "direct",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 2,
+      "maximum_oracle_cost_envelope": 8.615437396497137e-13,
+      "maximum_physics_cost_envelope": 3.3315006423744263e-10,
+      "maximum_q_disagreement_rad": 1.3784825425577907e-07,
+      "maximum_v_disagreement_rad_s": 1.0960209095856044e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261001T231613-17830367/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.4801699919075872e-06,
+        "oracle_best_id": 475,
+        "physics_best_id": 475,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "7e45494023c3c83eebc34f22bb36fb19dc975dde54c4afb2ae7bbafdccb84969"
+    },
+    {
+      "actuator": "direct",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 3,
+      "maximum_oracle_cost_envelope": 9.520598106693968e-13,
+      "maximum_physics_cost_envelope": 3.758987174172616e-10,
+      "maximum_q_disagreement_rad": 9.33536516423139e-08,
+      "maximum_v_disagreement_rad_s": 1.1200327070248761e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261001T231958-0a000120/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 7.608565750771845e-07,
+        "oracle_best_id": 502,
+        "physics_best_id": 502,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "1da2993f2b5d48c0a674398e5120cbcf8039bcf1d4a0bff52854eb7df7f9873b"
+    },
+    {
+      "actuator": "direct",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 4,
+      "maximum_oracle_cost_envelope": 7.740834119427463e-13,
+      "maximum_physics_cost_envelope": 3.439098158164233e-10,
+      "maximum_q_disagreement_rad": 9.755605723249516e-08,
+      "maximum_v_disagreement_rad_s": 1.1022685795225584e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261001T232337-9d49612c/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.4858697063857562e-06,
+        "oracle_best_id": 136,
+        "physics_best_id": 136,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "d47b9a9530318f01d0add265c3ea38d9c6aebf73e3d7fbaa83cf13856382ff08"
+    },
+    {
+      "actuator": "direct",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 5,
+      "maximum_oracle_cost_envelope": 8.737323767243472e-13,
+      "maximum_physics_cost_envelope": 3.9094925980709206e-10,
+      "maximum_q_disagreement_rad": 9.248068466582993e-08,
+      "maximum_v_disagreement_rad_s": 1.217650688500882e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261001T232717-10bbd9b1/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 8.812512164446673e-07,
+        "oracle_best_id": 406,
+        "physics_best_id": 406,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "68d3b36b55bcb26e0af3228927c03640ecb974ee306d7299f14f4cb7a823f19b"
+    },
+    {
+      "actuator": "direct",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 6,
+      "maximum_oracle_cost_envelope": 7.546899590675512e-13,
+      "maximum_physics_cost_envelope": 3.1764964467492676e-10,
+      "maximum_q_disagreement_rad": 1.333433256034411e-07,
+      "maximum_v_disagreement_rad_s": 1.1146568201780838e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261001T233056-bddff151/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.3905989213469638e-06,
+        "oracle_best_id": 392,
+        "physics_best_id": 392,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "d4be057e01929a44b9881975137633a0b07df35518ceda4b593c107cb30ea34a"
+    },
+    {
+      "actuator": "direct",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 7,
+      "maximum_oracle_cost_envelope": 4.79951410321952e-13,
+      "maximum_physics_cost_envelope": 2.5911262224463957e-10,
+      "maximum_q_disagreement_rad": 9.730485794889887e-08,
+      "maximum_v_disagreement_rad_s": 1.16136418615298e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261001T233443-eb6e6df3/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 6.97464124677083e-07,
+        "oracle_best_id": 244,
+        "physics_best_id": 244,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "52efc8d69aac19741388ec3d5a1bbdd71305d00a7949dc7645f8f5adcf8078cc"
+    },
+    {
+      "actuator": "direct",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 8,
+      "maximum_oracle_cost_envelope": 4.019236496585554e-13,
+      "maximum_physics_cost_envelope": 2.0218717882319925e-10,
+      "maximum_q_disagreement_rad": 1.1379411291034813e-07,
+      "maximum_v_disagreement_rad_s": 1.2973755594281045e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261001T233832-69f1438a/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.3782241623516711e-06,
+        "oracle_best_id": 460,
+        "physics_best_id": 460,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "868e9599b41e78e293106427eefeb7527c40da443efe61cd1ac75921baddd4b8"
+    },
+    {
+      "actuator": "direct",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 9,
+      "maximum_oracle_cost_envelope": 6.265817962165647e-13,
+      "maximum_physics_cost_envelope": 3.0859179067305265e-10,
+      "maximum_q_disagreement_rad": 9.488433738713553e-08,
+      "maximum_v_disagreement_rad_s": 1.020173946875147e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261001T234219-5863934f/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.0451767256114408e-06,
+        "oracle_best_id": 423,
+        "physics_best_id": 423,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "256f62e4fcea5981931f2ad902d9951d3f6539185b9e5268a21a5761a00db311"
+    },
+    {
+      "actuator": "direct",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 10,
+      "maximum_oracle_cost_envelope": 7.112797857063346e-13,
+      "maximum_physics_cost_envelope": 3.5603416200129766e-10,
+      "maximum_q_disagreement_rad": 8.806858664556216e-08,
+      "maximum_v_disagreement_rad_s": 1.1854175991921068e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261001T234606-2b01ca90/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.0143798956363526e-06,
+        "oracle_best_id": 384,
+        "physics_best_id": 384,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "faf2cf226a6685a350c6501589ed981352a0ec075d9eb2a165ff45ab99dc041f"
+    },
+    {
+      "actuator": "direct",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 11,
+      "maximum_oracle_cost_envelope": 6.718985451888285e-13,
+      "maximum_physics_cost_envelope": 2.659441471542905e-10,
+      "maximum_q_disagreement_rad": 1.0198635569391712e-07,
+      "maximum_v_disagreement_rad_s": 1.0872668045891487e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261001T234950-8cfa9fd7/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.0401763494982674e-06,
+        "oracle_best_id": 452,
+        "physics_best_id": 452,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "0402066c8693afb4b4c5686c45c7331c40777878931f8d4840046d9caa3b83dd"
+    },
+    {
+      "actuator": "direct",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 12,
+      "maximum_oracle_cost_envelope": 3.5692022991455637e-13,
+      "maximum_physics_cost_envelope": 1.8829858246374602e-10,
+      "maximum_q_disagreement_rad": 1.3625755365676007e-07,
+      "maximum_v_disagreement_rad_s": 1.1607034777760816e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261001T235327-5a946d77/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.0896100750557025e-06,
+        "oracle_best_id": 446,
+        "physics_best_id": 446,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "4883a1c41dc5b23a49f179f299e23e461af2442fb3c952adbf9d70a36926474b"
+    },
+    {
+      "actuator": "direct",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 13,
+      "maximum_oracle_cost_envelope": 5.138822490723273e-13,
+      "maximum_physics_cost_envelope": 2.7157438961893427e-10,
+      "maximum_q_disagreement_rad": 1.0315607745781108e-07,
+      "maximum_v_disagreement_rad_s": 1.273457604256123e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261001T235634-d1be83b7/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.2981384935883966e-06,
+        "oracle_best_id": 483,
+        "physics_best_id": 483,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "7dc06fec2d1af5ed7fa3d5f32afbbe66f502c1299277afc4d5130601f21c142b"
+    },
+    {
+      "actuator": "direct",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 14,
+      "maximum_oracle_cost_envelope": 4.174772639039286e-13,
+      "maximum_physics_cost_envelope": 2.1351013189364799e-10,
+      "maximum_q_disagreement_rad": 1.1942221200822445e-07,
+      "maximum_v_disagreement_rad_s": 1.1556350512087477e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261001T235941-0b1bd004/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.2259016557436553e-06,
+        "oracle_best_id": 433,
+        "physics_best_id": 433,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "c810d1b502c2a4bbe73fc5315c3193b025502ab3b0722965e1a8fcc5b4eaf986"
+    },
+    {
+      "actuator": "direct",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 15,
+      "maximum_oracle_cost_envelope": 8.480008863039044e-13,
+      "maximum_physics_cost_envelope": 3.0650216952937334e-10,
+      "maximum_q_disagreement_rad": 7.799025697474704e-08,
+      "maximum_v_disagreement_rad_s": 1.0260498939373974e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261002T000248-3ff113a6/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 5.959424633772414e-07,
+        "oracle_best_id": 390,
+        "physics_best_id": 390,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "711cba204fde92e6439c5464524ba46e530af5db0111de5c60e688fd19803a40"
+    },
+    {
+      "actuator": "lagged",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 0,
+      "maximum_oracle_cost_envelope": 9.392771956377399e-13,
+      "maximum_physics_cost_envelope": 2.078251459800487e-10,
+      "maximum_q_disagreement_rad": 1.868413989081219e-07,
+      "maximum_v_disagreement_rad_s": 1.576029927452538e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261002T000450-e92449ae/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.156937613711051e-06,
+        "oracle_best_id": 290,
+        "physics_best_id": 290,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "8d9c97edd277cfd484e980157792b14872d0cfc61ce96f26460212a0ddf0085f"
+    },
+    {
+      "actuator": "lagged",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 1,
+      "maximum_oracle_cost_envelope": 8.574733380583436e-13,
+      "maximum_physics_cost_envelope": 2.939550195696098e-10,
+      "maximum_q_disagreement_rad": 1.8996075767203566e-07,
+      "maximum_v_disagreement_rad_s": 1.4831297541206823e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261002T000617-bc58c1d7/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.7960665603666826e-06,
+        "oracle_best_id": 393,
+        "physics_best_id": 393,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "5a0a2dbc8915cd69860384b5beed820ad509b191b699bd43f6dc4911dcb731e6"
+    },
+    {
+      "actuator": "lagged",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 2,
+      "maximum_oracle_cost_envelope": 2.8907565234495143e-12,
+      "maximum_physics_cost_envelope": 4.898395974728359e-10,
+      "maximum_q_disagreement_rad": 2.5358528477070763e-07,
+      "maximum_v_disagreement_rad_s": 2.2875650191878094e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261002T000926-45036998/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 2.722234260232881e-06,
+        "oracle_best_id": 474,
+        "physics_best_id": 474,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "2a756305be3f06a005d9dba9ebce0596bc8506bf3e46d1285fc9e10983c9e72c"
+    },
+    {
+      "actuator": "lagged",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 3,
+      "maximum_oracle_cost_envelope": 1.7590000368926892e-12,
+      "maximum_physics_cost_envelope": 6.610360774379668e-10,
+      "maximum_q_disagreement_rad": 1.885460814143869e-07,
+      "maximum_v_disagreement_rad_s": 1.6895765941882246e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261002T001236-89376a08/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 2.1993726146973813e-06,
+        "oracle_best_id": 502,
+        "physics_best_id": 502,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "5c5bad55db4a042697611ac58be52e4342927e3d6300fed0a4d8091176776154"
+    },
+    {
+      "actuator": "lagged",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 4,
+      "maximum_oracle_cost_envelope": 1.4795951367750044e-12,
+      "maximum_physics_cost_envelope": 7.121505021765822e-10,
+      "maximum_q_disagreement_rad": 1.9690521013693285e-07,
+      "maximum_v_disagreement_rad_s": 1.924579798640025e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261002T001545-8d474642/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 2.290701317519961e-06,
+        "oracle_best_id": 467,
+        "physics_best_id": 467,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "a392fbda395fcedc24fd00a4ce46725b6ed0abf77c7859d40e46e3f362e22fe8"
+    },
+    {
+      "actuator": "lagged",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 5,
+      "maximum_oracle_cost_envelope": 2.1446806546698414e-12,
+      "maximum_physics_cost_envelope": 4.6270066994888675e-10,
+      "maximum_q_disagreement_rad": 1.9714052126862391e-07,
+      "maximum_v_disagreement_rad_s": 1.8013938030136956e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261002T001855-48eb5b0a/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.5908789467999895e-06,
+        "oracle_best_id": 416,
+        "physics_best_id": 416,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "fda28510d94e85811ffd6907b545a9225b928efac9019c7830be9267d32f428c"
+    },
+    {
+      "actuator": "lagged",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 6,
+      "maximum_oracle_cost_envelope": 1.8314750628749117e-12,
+      "maximum_physics_cost_envelope": 2.8935833664971293e-10,
+      "maximum_q_disagreement_rad": 2.525781278572836e-07,
+      "maximum_v_disagreement_rad_s": 2.287508087839285e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261002T002204-7751807c/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.939349173696314e-06,
+        "oracle_best_id": 442,
+        "physics_best_id": 442,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "b9eeff67311813b16cd9aca962acf2dd52abfe53a7798e8447b799e638f5ce8a"
+    },
+    {
+      "actuator": "lagged",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 7,
+      "maximum_oracle_cost_envelope": 9.506655591608063e-13,
+      "maximum_physics_cost_envelope": 3.1963519384764977e-10,
+      "maximum_q_disagreement_rad": 1.5248096696396374e-07,
+      "maximum_v_disagreement_rad_s": 1.4943887531870814e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261002T002513-6f7392b7/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.0542139596836364e-06,
+        "oracle_best_id": 343,
+        "physics_best_id": 343,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "b2bfb59a7b2ff0907062fb44189e9a1d563d36214a20f282d302c9aad66ab5ec"
+    },
+    {
+      "actuator": "lagged",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 8,
+      "maximum_oracle_cost_envelope": 1.2768086071223059e-12,
+      "maximum_physics_cost_envelope": 2.1718702999471967e-10,
+      "maximum_q_disagreement_rad": 2.303599889730279e-07,
+      "maximum_v_disagreement_rad_s": 1.8393785006232122e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261002T002824-c71180cd/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.3880175915303994e-06,
+        "oracle_best_id": 410,
+        "physics_best_id": 410,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "7ec25edb5d7ee183039c00b46213f48abb2d0387b37b103edb05fabefce5f822"
+    },
+    {
+      "actuator": "lagged",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 9,
+      "maximum_oracle_cost_envelope": 1.6218918042916686e-12,
+      "maximum_physics_cost_envelope": 7.347190303574183e-10,
+      "maximum_q_disagreement_rad": 2.135172397776941e-07,
+      "maximum_v_disagreement_rad_s": 1.997166545031348e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261002T003136-1499e691/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.8674632755733e-06,
+        "oracle_best_id": 396,
+        "physics_best_id": 396,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "ee03fd0c639143be1f77e4cde673a370b286b8ceebcd52addd99d190f7951ab1"
+    },
+    {
+      "actuator": "lagged",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 10,
+      "maximum_oracle_cost_envelope": 9.43333095305894e-13,
+      "maximum_physics_cost_envelope": 2.6490714641043483e-10,
+      "maximum_q_disagreement_rad": 1.713218416021789e-07,
+      "maximum_v_disagreement_rad_s": 1.5007657605536906e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261002T003441-d26e5320/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.2088155152412128e-06,
+        "oracle_best_id": 456,
+        "physics_best_id": 456,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "91ce748378367a46cb8048cbb5f432363ddd2fc378392a05fc1e7becdfef47ce"
+    },
+    {
+      "actuator": "lagged",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 11,
+      "maximum_oracle_cost_envelope": 1.7499550510350666e-12,
+      "maximum_physics_cost_envelope": 9.036553230152658e-10,
+      "maximum_q_disagreement_rad": 2.1678512057698995e-07,
+      "maximum_v_disagreement_rad_s": 2.145783357221376e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261002T003746-55331f78/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.3754427299339511e-06,
+        "oracle_best_id": 452,
+        "physics_best_id": 452,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "07472e6349c2ec3fc1500141ea7ae5dc9c4f548caee5577e3702be88718b7930"
+    },
+    {
+      "actuator": "lagged",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 12,
+      "maximum_oracle_cost_envelope": 8.070775345378667e-13,
+      "maximum_physics_cost_envelope": 2.943896226987645e-10,
+      "maximum_q_disagreement_rad": 2.3496226353447724e-07,
+      "maximum_v_disagreement_rad_s": 2.1207825575686456e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261002T004047-cec09b50/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.1920209646021362e-06,
+        "oracle_best_id": 446,
+        "physics_best_id": 446,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "66438971f6dcdd2600f5a92e4044bb18db03dc4ef499b6d3c8812f7298263428"
+    },
+    {
+      "actuator": "lagged",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 13,
+      "maximum_oracle_cost_envelope": 1.5750901384432234e-12,
+      "maximum_physics_cost_envelope": 2.0983330193974963e-10,
+      "maximum_q_disagreement_rad": 2.083993452250965e-07,
+      "maximum_v_disagreement_rad_s": 1.7357877206691796e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261002T004350-1449c94d/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 2.100785367886715e-06,
+        "oracle_best_id": 483,
+        "physics_best_id": 483,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "9c37b8f6ef49ae2f044d02f47fa805f2275586ae81cb577e1b8379dcd24a1fae"
+    },
+    {
+      "actuator": "lagged",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 14,
+      "maximum_oracle_cost_envelope": 1.732749116353972e-12,
+      "maximum_physics_cost_envelope": 2.3181725577378068e-10,
+      "maximum_q_disagreement_rad": 2.2216929645990646e-07,
+      "maximum_v_disagreement_rad_s": 1.8936540886471676e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261002T004653-4bfdb2fa/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.7419541595842247e-06,
+        "oracle_best_id": 433,
+        "physics_best_id": 433,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "2d14eed510689967264d80e820f769e69f2201ebeecf6ac9cf4e19579d323adf"
+    },
+    {
+      "actuator": "lagged",
+      "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+      "episode_id": 15,
+      "maximum_oracle_cost_envelope": 1.7415357381562669e-12,
+      "maximum_physics_cost_envelope": 2.4243573242496883e-10,
+      "maximum_q_disagreement_rad": 1.9311265220256502e-07,
+      "maximum_v_disagreement_rad_s": 1.6319226641137163e-06,
+      "missing_cells": [],
+      "oracle_physics_steps": 3440640,
+      "path": "evidence/M40/20261002T004956-f7a7e451/manifest.json",
+      "ranking": {
+        "candidate_count": 512,
+        "maximum_absolute_cost_disagreement": 1.7183288978372957e-06,
+        "oracle_best_id": 433,
+        "physics_best_id": 433,
+        "qualified": true,
+        "resolved_inversions": 0,
+        "uncertain_inversions": 0
+      },
+      "scope": "Identical saved first-decision bank; no learned-controller performance claim",
+      "sha256": "2bba225cd193d6280d59423d6d41f8a92e8faf38df5046ce135e5300fe8de40a"
+    }
+  ],
+  "completed_episodes": 96,
+  "episode_manifests": [
+    {
+      "path": "evidence/M40/20261001T225554-138ae3b6/manifest.json",
+      "sha256": "ed12780f93b99a9b2caf713310f4b619b05695dd93b139f2f1732b720f0c5d10"
+    },
+    {
+      "path": "evidence/M40/20261001T225637-00d9fbcd/manifest.json",
+      "sha256": "3da2707ee68cc48ccaee7438f9fbbaf3efffed5e8d6cbfc58983817851192384"
+    },
+    {
+      "path": "evidence/M40/20261001T225803-5c931777/manifest.json",
+      "sha256": "2c3bd089ec88cf3f276f4b98c07b38fd88ac09564fe212bbad360f2a0bb43722"
+    },
+    {
+      "path": "evidence/M40/20261001T231104-6e2ebde1/manifest.json",
+      "sha256": "6b5f3ce50a1c2f5d06bb400c84cff5ec9a132789d119e4f4f2c4bfbd53da1b0c"
+    },
+    {
+      "path": "evidence/M40/20261001T231136-7a6309f9/manifest.json",
+      "sha256": "5ca6518f0b8b0c2eae02f292190f570b4c4394a10a242c04f661bb7a1e5f0b8a"
+    },
+    {
+      "path": "evidence/M40/20261001T231246-7580a0ff/manifest.json",
+      "sha256": "53bd2c650c975509c801636e36b91da5ffa77cca90caf491753d6e75dcc2a4ff"
+    },
+    {
+      "path": "evidence/M40/20261001T231450-3e9e2176/manifest.json",
+      "sha256": "9efe62c9c07eec98724818331b4073f353e7f861d47cc58969f7354be9ecba29"
+    },
+    {
+      "path": "evidence/M40/20261001T231524-6b53ffd2/manifest.json",
+      "sha256": "c5864da6a7b73e1313a4da39b286399c5e2b7720b920f7e3a394422b9f9eef61"
+    },
+    {
+      "path": "evidence/M40/20261001T231635-71a5cf0b/manifest.json",
+      "sha256": "d8c2e78cc2633c01ac8179e8ba9cdf3fbf4470f19c188f876781aa0f16ec8530"
+    },
+    {
+      "path": "evidence/M40/20261001T231840-595c304f/manifest.json",
+      "sha256": "d4271c61b6f749c525fc6515515cd051d46281153e8dea5fa3454664935ef603"
+    },
+    {
+      "path": "evidence/M40/20261001T231912-de9a9393/manifest.json",
+      "sha256": "02c35025304114228540867783bfeed70f32be27ab0ac1e5a8075734ed6354ab"
+    },
+    {
+      "path": "evidence/M40/20261001T232019-ddb5ee03/manifest.json",
+      "sha256": "1841f9317d9071d00c7bc8c1b033f1310d75ac91053a729798b394343db9f463"
+    },
+    {
+      "path": "evidence/M40/20261001T232220-5c0f79f9/manifest.json",
+      "sha256": "c4b566beae3c6fd30c8fd3e234a50eeabc253e82b5f1f5e9b995b4c821f5804b"
+    },
+    {
+      "path": "evidence/M40/20261001T232252-52218532/manifest.json",
+      "sha256": "d585c5ba1fe04b4d5011d351627cd35b3719fb0769a90c14d565ab18cb5a8096"
+    },
+    {
+      "path": "evidence/M40/20261001T232359-25828a66/manifest.json",
+      "sha256": "861d39c1c0373912ca45bb892c9f4317aee31388f342514f9e59396baa79e4cb"
+    },
+    {
+      "path": "evidence/M40/20261001T232559-26e67141/manifest.json",
+      "sha256": "d5f9f7192bcbc665020b18d93ebd9cf867db404f3e7704aca4832853cee6f09a"
+    },
+    {
+      "path": "evidence/M40/20261001T232631-97c5db94/manifest.json",
+      "sha256": "760e9bfa48a5872258442f08910bafc0799a115f1f167fcca08f42a51aa6fae3"
+    },
+    {
+      "path": "evidence/M40/20261001T232738-6f98c295/manifest.json",
+      "sha256": "e8c040cf7be98d9fd620e1e91ed9f17af3288b9833db3db4aae51b057e6325b3"
+    },
+    {
+      "path": "evidence/M40/20261001T232939-17e8d91d/manifest.json",
+      "sha256": "b75bc3a5c8ac6103c1a28aefbc3823dca0aaf7bb625044f7f666bd6f99a693cb"
+    },
+    {
+      "path": "evidence/M40/20261001T233011-d265c227/manifest.json",
+      "sha256": "226d33ee92527421066cf8480935114ff44ee8c8f5381bd20de376d0f1721bb9"
+    },
+    {
+      "path": "evidence/M40/20261001T233117-6cf9f941/manifest.json",
+      "sha256": "e09f389fcc314f1e72888389983eb0d13d91404b6cc4b4ae5981340468107f05"
+    },
+    {
+      "path": "evidence/M40/20261001T233319-fc3e420a/manifest.json",
+      "sha256": "352fe6fb47cb6044d21e91f58f65eb2eebbd174f7773bd4065def634c1a5073a"
+    },
+    {
+      "path": "evidence/M40/20261001T233353-9d0e9d11/manifest.json",
+      "sha256": "09712415ba81222777948c5e2d2b456deb82f6d657493c1efbdf81a82cc42d6d"
+    },
+    {
+      "path": "evidence/M40/20261001T233506-6840d5b2/manifest.json",
+      "sha256": "2fed9fadf659cc48b64cd7c7b6851da1c80357c2093b09ad441b2a89ba20883c"
+    },
+    {
+      "path": "evidence/M40/20261001T233712-a7e0e639/manifest.json",
+      "sha256": "a253edb3908e9f0297a2681664e893f271a554e124820ba434c98c7a70ae6838"
+    },
+    {
+      "path": "evidence/M40/20261001T233745-9b8545c9/manifest.json",
+      "sha256": "fb3ed14cd04c435ab67fb01e6cd453db43014213dcced3f2a5108c4e951eb27a"
+    },
+    {
+      "path": "evidence/M40/20261001T233855-8bb0e837/manifest.json",
+      "sha256": "3354326b1547361a89d001841108c7d02c4986c4945222380a1a7050c0a6831c"
+    },
+    {
+      "path": "evidence/M40/20261001T234059-2d6a3e87/manifest.json",
+      "sha256": "cee1917550c82bd823401761ffc82d682c6cc9b6f96add26b975dc0d60f4cd95"
+    },
+    {
+      "path": "evidence/M40/20261001T234132-5e7d4ba0/manifest.json",
+      "sha256": "bd19ad1c2d8809f551b56c01c75dc52f654e1568eb080c18a43ba09aeb1e07d2"
+    },
+    {
+      "path": "evidence/M40/20261001T234241-49dca0cf/manifest.json",
+      "sha256": "786de745d379132702b4c9f6e120d983f98bf49d27f43a788c7487ef2299e556"
+    },
+    {
+      "path": "evidence/M40/20261001T234444-4387e922/manifest.json",
+      "sha256": "683354bc3b61b5244c093eb1d1b0c7b6c2ff9e53fdd41281f8a801caf258aab0"
+    },
+    {
+      "path": "evidence/M40/20261001T234518-2167be08/manifest.json",
+      "sha256": "b46e83263ab708125243e52994d3d477e558a085deea12e255d2fbedd345a0ec"
+    },
+    {
+      "path": "evidence/M40/20261001T234628-e6f86bf0/manifest.json",
+      "sha256": "a98ac7f244a2a121334f5fcd05283c5d161cb2cd15db279cb24d786589a72091"
+    },
+    {
+      "path": "evidence/M40/20261001T234830-e9015b0e/manifest.json",
+      "sha256": "a55af87ee2a28caa338e52ab6ee42d6bc0a5701a8bee4324599b8bb95d49c2d1"
+    },
+    {
+      "path": "evidence/M40/20261001T234903-2c3a51af/manifest.json",
+      "sha256": "648b71b536b835c3edb95f7a239afbbeec635c8a71ca9e1d85c79fc2394e4fee"
+    },
+    {
+      "path": "evidence/M40/20261001T235012-3a398b9d/manifest.json",
+      "sha256": "c50834bce8e964a025e3becef897151ea419e8cf5803faf1e7b5a00441d5db27"
+    },
+    {
+      "path": "evidence/M40/20261001T235215-de3c3a10/manifest.json",
+      "sha256": "28b3c939302d45ed86762c910701e65dacf041c008c0743dd591024e86c2674f"
+    },
+    {
+      "path": "evidence/M40/20261001T235246-df598952/manifest.json",
+      "sha256": "df1fedeee00d0ff7e79f419981bf513e7e6b4b37b71adad1474c251b7da2e721"
+    },
+    {
+      "path": "evidence/M40/20261001T235346-0d69a1f8/manifest.json",
+      "sha256": "971d6e3b9a088cdb36de6a5b1f1a1bdd138141b7254e7284fcc8535141c12c3e"
+    },
+    {
+      "path": "evidence/M40/20261001T235528-cc9aca78/manifest.json",
+      "sha256": "76d5c427d013a319840abb2044eec516af22f629a34da2136219620f61884eec"
+    },
+    {
+      "path": "evidence/M40/20261001T235556-787c575d/manifest.json",
+      "sha256": "4deb23f8d98918e3cc9066704c8f50f40bb8f50d19ec69fef0d7dae1eba20c44"
+    },
+    {
+      "path": "evidence/M40/20261001T235652-3d890d77/manifest.json",
+      "sha256": "37dd07dde8c0edbf434580615fb804cf4ccd9c44b0ed16ab13a24292fa60e871"
+    },
+    {
+      "path": "evidence/M40/20261001T235835-d4245ee7/manifest.json",
+      "sha256": "1c4aa7427722f502618b2fca09f0f0d82bf7967b58d7d82ac2282b68a79e7e48"
+    },
+    {
+      "path": "evidence/M40/20261001T235902-9e702e32/manifest.json",
+      "sha256": "4b18536ca7d0dd83bec5b148ce8e61f5fee43a793565ce9886331a935c630e4e"
+    },
+    {
+      "path": "evidence/M40/20261001T235959-afb4189e/manifest.json",
+      "sha256": "2c0b138f177e56292e2d57373663827ec453eb6a0511d1d1ad0dbca6b34904ea"
+    },
+    {
+      "path": "evidence/M40/20261002T000141-a923586e/manifest.json",
+      "sha256": "da5f27ecda340eafc040deb4c797bbf9745bdfc829622db83eccabcd43a06049"
+    },
+    {
+      "path": "evidence/M40/20261002T000209-1ac697de/manifest.json",
+      "sha256": "1f19a91c0d174367330e24392831eacfbcf25fb7d1a9d7520de6593168c57b97"
+    },
+    {
+      "path": "evidence/M40/20261002T000306-c3b88179/manifest.json",
+      "sha256": "f31ab02b64dc1ea6944ed523796e2836f32574446b5c02230f04b995e93ec515"
+    },
+    {
+      "path": "evidence/M40/20261001T230013-99aa7e3e/manifest.json",
+      "sha256": "7f2827614fcbf6fdcb2a443a681f3470cb162172d4fcd4839a987378acab7821"
+    },
+    {
+      "path": "evidence/M40/20261001T230101-046ccfa0/manifest.json",
+      "sha256": "d74dd78450dd634915c5c07001905ad2d4f1339c6553ae486c11fc47ace23e23"
+    },
+    {
+      "path": "evidence/M40/20261001T230250-5659ba9f/manifest.json",
+      "sha256": "bc2eec8c053f8bab6ba1d55c006d34a8df204adbd35d2e98141550eb5d05e500"
+    },
+    {
+      "path": "evidence/M40/20261002T000510-6952aaf4/manifest.json",
+      "sha256": "3ab9e109efbbb73c37f1faad43a32b7d7d750838d0171cb60377ab0de9eb9705"
+    },
+    {
+      "path": "evidence/M40/20261002T000537-57db6d69/manifest.json",
+      "sha256": "1a3019a3b74bb663cdc0eb3fa887c3b913d23e3a8185b47568b94c2c0765f403"
+    },
+    {
+      "path": "evidence/M40/20261002T000636-fe47a828/manifest.json",
+      "sha256": "84c6eea887ab2e3f287700baf6beafaaf7024d814302e72c7fd74e7133150f3c"
+    },
+    {
+      "path": "evidence/M40/20261002T000819-530957d2/manifest.json",
+      "sha256": "1318691d135b3bd24d267bc97441532c3149697660e1c115796e6cc8a5a6130f"
+    },
+    {
+      "path": "evidence/M40/20261002T000847-87f56078/manifest.json",
+      "sha256": "77f57e5c6f9ca74087bd3e9b012409a43ed2dc055e693bb934c0297ef25f22c3"
+    },
+    {
+      "path": "evidence/M40/20261002T000945-05bba6d6/manifest.json",
+      "sha256": "0fe77ff03720bb2d3dd5537aada3be3418735fd7e9584295fc489786095499e7"
+    },
+    {
+      "path": "evidence/M40/20261002T001128-455d4734/manifest.json",
+      "sha256": "eaa05c4847a35a0c6a113817381272ccc8c1fbef8172a55602bc71931277c1e7"
+    },
+    {
+      "path": "evidence/M40/20261002T001156-a1391879/manifest.json",
+      "sha256": "76812743e100deba373eb2b9ae1a827b80117173ec0bf82355ed41efbe37f5f7"
+    },
+    {
+      "path": "evidence/M40/20261002T001254-046b0fcf/manifest.json",
+      "sha256": "bf74a78b69dcd6d16736d3297dcad5c80865270b5920ac78340fd7da0b3fb2c6"
+    },
+    {
+      "path": "evidence/M40/20261002T001438-933183e0/manifest.json",
+      "sha256": "584e9e81a01d90fb9e98520ded477a3e4326610dbe3548ef04860632d0376280"
+    },
+    {
+      "path": "evidence/M40/20261002T001506-b4410232/manifest.json",
+      "sha256": "3f1de34e255cd8477ca497c721218d3c87e5489e974b11d54cc6a52a0dd2f08c"
+    },
+    {
+      "path": "evidence/M40/20261002T001604-1014c3cd/manifest.json",
+      "sha256": "eb78e22b1e42539b9b5f279cb924c9501560ee49b060526f46280a556b8f85ec"
+    },
+    {
+      "path": "evidence/M40/20261002T001748-dc6e3770/manifest.json",
+      "sha256": "7581be44f5120da2a15526dd6ba95b30deb472e997c81c438462e51ff07d231d"
+    },
+    {
+      "path": "evidence/M40/20261002T001816-385d8b3a/manifest.json",
+      "sha256": "ed79c3da739757247c575d304fb3c2104023f3360820899e0000b933e0779ea1"
+    },
+    {
+      "path": "evidence/M40/20261002T001914-326b5c12/manifest.json",
+      "sha256": "311252386d98ef51d219e7ad521d018d856984052688f1b3917a49e5f20a42ee"
+    },
+    {
+      "path": "evidence/M40/20261002T002058-45260648/manifest.json",
+      "sha256": "cc49bd2636c17dac35c224078df6420cbe10d748ff24c19b5996a93fc0d42b77"
+    },
+    {
+      "path": "evidence/M40/20261002T002125-bd424e5a/manifest.json",
+      "sha256": "721a14a8709cb8eaa10e857a113fc8ebb208004341652d648f96159d96cbc959"
+    },
+    {
+      "path": "evidence/M40/20261002T002223-2ce93c78/manifest.json",
+      "sha256": "0532199889ee0860341227782c33f750e6c6be773897d7a2c87b3ceeb8464115"
+    },
+    {
+      "path": "evidence/M40/20261002T002406-5a79a979/manifest.json",
+      "sha256": "786cd390b71b72e3d3e11f79a73e61dffced5900029083186b30eff1c844c3fa"
+    },
+    {
+      "path": "evidence/M40/20261002T002434-52e5a612/manifest.json",
+      "sha256": "22bc9fba449c697838afa84bd4d65b85846bd5a0dd919cebbeffde435c1659ea"
+    },
+    {
+      "path": "evidence/M40/20261002T002532-de698449/manifest.json",
+      "sha256": "96b6bee6e6b47f8d6b3fd5055ac6cc36992a332437fb8d7d531f1116c165cfd4"
+    },
+    {
+      "path": "evidence/M40/20261002T002716-d06c3ea8/manifest.json",
+      "sha256": "3adfbe680cf8d25091fe3e9e92c1ee761043f3acc69c689a00388762aad8dbb9"
+    },
+    {
+      "path": "evidence/M40/20261002T002745-b2e604e3/manifest.json",
+      "sha256": "e701a37a1dfce2d39188b3abba4be211cb8b4b12553ec5ccb723712fc6f8f142"
+    },
+    {
+      "path": "evidence/M40/20261002T002843-39abf63c/manifest.json",
+      "sha256": "7e6821b0122245fc9f2cfd83efe415c70cebe16b4c4a4f73b70fc6689bb65e4a"
+    },
+    {
+      "path": "evidence/M40/20261002T003028-5338c3bc/manifest.json",
+      "sha256": "c0df9f8daf92d65c6a0ce8663a8c3a9a60c97ff31e591012ff09c89148d2bfc4"
+    },
+    {
+      "path": "evidence/M40/20261002T003056-2bbe11ac/manifest.json",
+      "sha256": "ca3147a0ef6c8b032a91ef507c01097a2865af06fa622667159ce060e80ade8e"
+    },
+    {
+      "path": "evidence/M40/20261002T003154-afae1cdc/manifest.json",
+      "sha256": "eb0fd5fb74e25137b730b76b5003b3502f9bd46d5585e098be1a0e0845750c60"
+    },
+    {
+      "path": "evidence/M40/20261002T003335-6234ca95/manifest.json",
+      "sha256": "42489d3d78fbfaf8ec66a4ce6336a107f6939a847ad0a64cc51bbed752e1021b"
+    },
+    {
+      "path": "evidence/M40/20261002T003402-d1f61b1d/manifest.json",
+      "sha256": "df65c0fea46999d8a92e93e0d57e034d8734030a7970272d826c2b8c54dbe1c2"
+    },
+    {
+      "path": "evidence/M40/20261002T003459-15d67ccc/manifest.json",
+      "sha256": "e7a0ff9bd86206e2e68618b9bca6270a874d2df5f721b5a95256b4bd2d5d073c"
+    },
+    {
+      "path": "evidence/M40/20261002T003640-fcfb4446/manifest.json",
+      "sha256": "bb2d05d017bf5c58a1574fd1db8d5488831709a0878106824200d17c8e590de3"
+    },
+    {
+      "path": "evidence/M40/20261002T003707-f7ce6caa/manifest.json",
+      "sha256": "672303c2a342025fdbc4b60d6d13aa929e52e84d396cd74ce7c663d991b7df72"
+    },
+    {
+      "path": "evidence/M40/20261002T003804-dd5f03f3/manifest.json",
+      "sha256": "c99cc91b39ff949db1221a7478ba301fe99fce56d25e59c1bbb062da31cf9014"
+    },
+    {
+      "path": "evidence/M40/20261002T003944-dc370745/manifest.json",
+      "sha256": "22bbb37d4e96f40122bfd30cae1f3af0ee15982ba59adc54ca5030e7e1a7f0ad"
+    },
+    {
+      "path": "evidence/M40/20261002T004010-027a774c/manifest.json",
+      "sha256": "1cf4cea82745a00a1eb6840fcef905164935f64ef9cc563ce90209802fc9e346"
+    },
+    {
+      "path": "evidence/M40/20261002T004106-40f98583/manifest.json",
+      "sha256": "bf5bd8cd268e5b3e575eff657d64c38e3462defdf3d1ba0f99364e9fbc9bf3bf"
+    },
+    {
+      "path": "evidence/M40/20261002T004245-42d7ecc2/manifest.json",
+      "sha256": "b1e3183d64b38bf27c1901539ca7c0e80697c8f1c60d38181e88579a3fe1d9a4"
+    },
+    {
+      "path": "evidence/M40/20261002T004312-e27df259/manifest.json",
+      "sha256": "46154f5b661203eb258897241c9ab7aa470f8e625bfcd87e75ea4862c0f6119c"
+    },
+    {
+      "path": "evidence/M40/20261002T004408-27a11e6c/manifest.json",
+      "sha256": "adfb64da02c2cb543ef9ed3f2376e1ea8a20942cc67ae76cb1eae382118866ba"
+    },
+    {
+      "path": "evidence/M40/20261002T004549-c1e870e3/manifest.json",
+      "sha256": "5245f35033732956ef0f829d94c18901ddbe302b8ddc7c3cd28833204cf177a8"
+    },
+    {
+      "path": "evidence/M40/20261002T004615-12722b18/manifest.json",
+      "sha256": "8e2c6155fe77be420bab27de70b1ca46758c155359e05667aed211f47fd11927"
+    },
+    {
+      "path": "evidence/M40/20261002T004712-d2d3a67d/manifest.json",
+      "sha256": "4ff7534f7aeb74de08aedaa98015c7309e500df5d198a516238addeea6539d66"
+    },
+    {
+      "path": "evidence/M40/20261002T004852-9b067df3/manifest.json",
+      "sha256": "e23118da3af1eebe80100221345b8fecd65b75260112a2a09bdbcac033c56f08"
+    },
+    {
+      "path": "evidence/M40/20261002T004918-a025f773/manifest.json",
+      "sha256": "e03de270f01b0247a4862ba11bcbd91ad52a40b9380460442a061ec1e52d0678"
+    },
+    {
+      "path": "evidence/M40/20261002T005014-1f4c27f9/manifest.json",
+      "sha256": "d07071711eb8d3cd0997ca3f32ff299b0bebba6fbf84865ce9df1995eab19c10"
+    }
+  ],
+  "expected_bank_audits": 32,
+  "expected_episodes": 96,
+  "headroom": {
+    "common_bank_ranking": "Separately required before freezing the planner",
+    "comparisons": [
+      {
+        "actuator": "direct",
+        "mean_reduction": 0.9563144671160544,
+        "model_id": "physics_fit",
+        "qualification_floor": 0.2,
+        "qualified": true,
+        "reference_mean_cost": 0.18930930000960572,
+        "zero_mean_cost": 4.333455208444458
+      },
+      {
+        "actuator": "direct",
+        "mean_reduction": 0.9563144671160544,
+        "model_id": "sim_oracle",
+        "qualification_floor": 0.2,
+        "qualified": true,
+        "reference_mean_cost": 0.18930930000960572,
+        "zero_mean_cost": 4.333455208444458
+      },
+      {
+        "actuator": "lagged",
+        "mean_reduction": 0.9503690270683178,
+        "model_id": "physics_fit",
+        "qualification_floor": 0.2,
+        "qualified": true,
+        "reference_mean_cost": 0.215073598150964,
+        "zero_mean_cost": 4.333455208444458
+      },
+      {
+        "actuator": "lagged",
+        "mean_reduction": 0.9503690270683178,
+        "model_id": "sim_oracle",
+        "qualification_floor": 0.2,
+        "qualified": true,
+        "reference_mean_cost": 0.215073598150964,
+        "zero_mean_cost": 4.333455208444458
+      }
+    ],
+    "episode_count": 96,
+    "qualified": true,
+    "scope": "Model-independent planner headroom; no learned-model conclusion"
+  },
+  "qualified": true,
+  "registry_sha256": "96484f022c366a7ae1715d3cfc293d65911a1e888e239d6cf4dbb75bca7ef749",
+  "schema_version": 1,
+  "scope": "Model-independent qualification only; learned control remains untested",
+  "state": "complete",
+  "updated_utc": "2026-10-02T00:51:53.844755Z"
+}

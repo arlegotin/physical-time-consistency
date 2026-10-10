@@ -1,0 +1,60 @@
+{
+  "completed_episodes": 1200,
+  "coverage": {
+    "episodes_per_cell": 20,
+    "manifest_phases": [
+      "confirmatory"
+    ],
+    "model_intervals": 2,
+    "models": 3,
+    "plants": 2,
+    "training_seeds": 5
+  },
+  "evidence": [
+    {
+      "path": "reports/control_confirmation_batch.json",
+      "sha256": "cc1fd7ec7f080986bee3c25f74a94fd7990a75d8e06cb46dc8a7fd6ac35e4ef9"
+    },
+    {
+      "path": "reports/control_confirmation_raw_audit.json",
+      "sha256": "e2bb9709c55a9ac151199c2267ff768b76ace534c9a6319d798191e4c6a615e9"
+    },
+    {
+      "path": "config/control_confirmation_cells.json",
+      "sha256": "ee8a0030be7e787ef1a29823b4b18eeb20908390245b6d4526184d6d9db3c202"
+    },
+    {
+      "path": "config/control_confirmation_design.json",
+      "sha256": "40b7c0fe901b5a8823a08748cae413b939d0897e5a58074037c283872cc8d826"
+    }
+  ],
+  "expected_episodes": 1200,
+  "limitations": [
+    "Coverage and raw reconstruction alone do not establish a control advantage.",
+    "No fine-time checkpoint reselection or new statistical look occurred in this completion verification.",
+    "This independently registered three-model subset does not cover all original PTCO claims."
+  ],
+  "protocol_id": "UTILITY-2026-10-02-control-v1",
+  "raw_audited_episodes": 1200,
+  "recorded_utc": "2026-10-04T02:10:29.412238Z",
+  "resource_scope": "The 1200 completed primary episode producers; training, failures, startup between jobs, and subsequent audits are excluded.",
+  "resources": {
+    "artifact_bytes_sum": 3013640720,
+    "cpu_sum_seconds": 65771.27323400002,
+    "earliest_started_utc": "2026-10-03T03:01:09.563286Z",
+    "episode_calendar_minus_timer_sum_seconds": 2753.0431198619044,
+    "episode_calendar_sum_seconds": 68692.174512,
+    "latest_ended_utc": "2026-10-04T01:57:34.076371Z",
+    "peak_rss_max_bytes": 415350784,
+    "wall_timer_sum_seconds": 65939.1313921381
+  },
+  "schema_version": 1,
+  "scientific_decision": "not_evaluated_pending_numerical_reference_solver_audits_and_registered_control_look",
+  "state": "primary_complete_raw_audited",
+  "verification": {
+    "all_episode_manifest_hashes_match": true,
+    "every_episode_has_40_real_anchors_and_observations": true,
+    "raw_audit_parent_hashes_match": true,
+    "unique_expected_cell_coverage": true
+  }
+}

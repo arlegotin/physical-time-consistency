@@ -1,0 +1,172 @@
+{
+  "actuator_interval_ns": 40000000,
+  "actuators": [
+    "direct",
+    "lagged"
+  ],
+  "additional_mechanistic_comparator": "node_structured",
+  "conventional_comparators": [
+    "mlp_dt",
+    "gru_dt",
+    "node_generic"
+  ],
+  "episode_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "episode_ns": 1600000000,
+  "episode_seed_root": 7101,
+  "fixed_data_attribution": {
+    "estimand": "D_low-D_correct, D_m=C_m(5ms)-C_m(40ms); report full structured contrast separately",
+    "loss_mode": "one_step",
+    "models": [
+      "power_correct",
+      "node_structured"
+    ],
+    "nominal_identity": "Same weights, candidate costs, selected actions and realized trajectories at 40 ms",
+    "power_modes": [
+      "low",
+      "direct",
+      "lagged"
+    ],
+    "training_condition": "F"
+  },
+  "future_confirmation": "Freeze independent paired training seeds/workloads/contrasts before any control confirmation; preserve historical PTCO look ledger",
+  "known_qualified_checkpoints": [
+    {
+      "path": "study/precision-look-2/study/precision-look-3/evidence/M30/20261001T093016-1bcf8aac/manifest.json",
+      "sha256": "a8ced6cd32276d7d7ef999b0efdac9643ff8cd0b9623246ff28a3ce83ade908d"
+    },
+    {
+      "path": "study/precision-look-2/study/precision-look-3/evidence/M30/20261001T105922-7ad80688/manifest.json",
+      "sha256": "be31e6f73f2847e9f5d15ac0264c12836b5b2cb8c7aa40d37e368bc723483f2a"
+    },
+    {
+      "path": "study/precision-look-2/study/precision-look-3/evidence/M30/20261001T110618-1b7d46ec/manifest.json",
+      "sha256": "353b7365329d252757956a6b967b2450fd5db9bab7c92a84dbfc0b121b3bfcd4"
+    },
+    {
+      "path": "study/precision-look-2/study/precision-look-3/evidence/M30/20261001T072754-e55a3ff3/manifest.json",
+      "sha256": "97afb0dbd5e0844694e1224ff970329152acd95e64319cfc1fe94890a05262ce"
+    },
+    {
+      "path": "study/precision-look-2/study/precision-look-3/evidence/M30/20261001T072910-f663b2c2/manifest.json",
+      "sha256": "a62f4d91c9d1fa9e8978d3dba88d04027ebd48eea21b748d023ef03ab7448e56"
+    },
+    {
+      "path": "study/precision-look-2/study/precision-look-3/evidence/M30/20261001T080747-638ba8e4/manifest.json",
+      "sha256": "13e6a0bf58246b3668c1353cd56acc1d4bc9279970c7594824ce59fb09cc415c"
+    },
+    {
+      "path": "study/precision-look-2/study/precision-look-3/evidence/M30/20261001T081024-6e5bbc30/manifest.json",
+      "sha256": "f196e57744a690dfed9016180405d41f3f7710da414f6e9a4e41053a31108028"
+    }
+  ],
+  "main_loss_mode": "shared",
+  "main_models": [
+    "mlp_dt",
+    "gru_dt",
+    "node_generic",
+    "power_correct",
+    "node_structured"
+  ],
+  "main_training_condition": "A",
+  "model_partitions_ns": [
+    [
+      40000000
+    ],
+    [
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ]
+  ],
+  "mpc_horizon_ns": 240000000,
+  "nominal_fit_context": "study/control-development",
+  "nominal_fit_engine": "poc.mechanism.train_cell: original 100-epoch blocks and nominal-only repair grid",
+  "nominal_fits_to_complete": [
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__gru_dt__seed9000",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "gru_dt",
+      "seed": 9000
+    },
+    {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__node_structured__seed9000",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_structured",
+      "seed": 9000
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__mlp_dt__seed9000",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "mlp_dt",
+      "seed": 9000
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__gru_dt__seed9000",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "gru_dt",
+      "seed": 9000
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__node_generic__seed9000",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_generic",
+      "seed": 9000
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__power_correct__seed9000",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "power_correct",
+      "seed": 9000
+    },
+    {
+      "actuator": "lagged",
+      "cell_id": "lagged__A__shared__node_structured__seed9000",
+      "condition": "A",
+      "loss_mode": "shared",
+      "model_id": "node_structured",
+      "seed": 9000
+    }
+  ],
+  "objective_revision": "config/revisions/owner-objective-2026-10-01.json",
+  "objective_revision_sha256": "da4216c94bc8afa9df0715db0a02f7b3e7fb8bdf06795348512a0194f1965791",
+  "observation_interval_ns": 40000000,
+  "phase": "exploratory",
+  "physics_step_ns": 250000,
+  "planner_budget_selection": "First model-independent qualified budget; commit selected settings before learned control",
+  "primary_scientific_question": "Does the corrected head lower realized 5ms cost against each qualified conventional comparator? Report nominal cost tradeoffs rather than impose an arbitrary allowance",
+  "recorded_utc": "2026-10-01T23:15:56.569242Z",
+  "replanning_interval_ns": 40000000,
+  "reporting": "All gains, losses, missing cells, fallback events and latency; development is not confirmatory evidence",
+  "schema_version": 1,
+  "selection_constraint": "Train/validation only; no control score or fine-time Jacobian may select a checkpoint",
+  "statistics": "Descriptive paired episode costs at one development training seed; no independent-training-seed confidence claim",
+  "training_seed": 9000
+}

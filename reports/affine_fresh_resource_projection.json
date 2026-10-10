@@ -1,0 +1,35 @@
+{
+  "expected_control_cpu_seconds": 14618.415432000005,
+  "expected_new_control_disk_bytes": 613075056.0,
+  "groups": {
+    "affine_flow:40000000": {
+      "mean_cpu_s": 29.690094999999975,
+      "mean_disk_bytes": 2555417.9,
+      "n_measured": 10
+    },
+    "affine_flow:5000000": {
+      "mean_cpu_s": 95.15631690000014,
+      "mean_disk_bytes": 2551640.8,
+      "n_measured": 10
+    },
+    "node_structured:40000000": {
+      "mean_cpu_s": 28.161514800000003,
+      "mean_disk_bytes": 2553287.0,
+      "n_measured": 10
+    },
+    "node_structured:5000000": {
+      "mean_cpu_s": 90.6323305,
+      "mean_disk_bytes": 2557571.9,
+      "n_measured": 10
+    }
+  },
+  "owner_time_ram_disk_caps": null,
+  "primary_episode_count": 200,
+  "primary_jobs_per_group": 50,
+  "protocol_id": "PTCO-AFF-0.2",
+  "recorded_utc": "2026-10-08T10:24:14.452041Z",
+  "replay_and_finer_episode_count": 40,
+  "replay_and_finer_jobs_per_group": 10,
+  "source": "complete development episode resource receipts",
+  "stage": "initial fresh controls"
+}

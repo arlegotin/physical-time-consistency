@@ -1,0 +1,588 @@
+{
+  "fits": [
+    {
+      "manifest_sha256": "7f284e79151122a137d12e624e8db9e6dd234436771d7104a0f8b3db8f61bd16",
+      "resources": {
+        "cpu_seconds": 247.15346499999998,
+        "disk_bytes": 894706,
+        "original_estimate": {
+          "disk_bytes": 8388608,
+          "limitations": "Representative gradient timing only; excludes validation, checkpoint I/O and any finer solver branch.",
+          "measurement_path": "reports/reference_profile/direct/measurement.json",
+          "measurement_sha256": "10752bc9131f67277a0a14291b33e40ded8aecee237a792157b99809959650ee",
+          "wall_seconds": 313.1509244441986
+        },
+        "peak_rss_bytes": 352681984,
+        "rss_convention": "macOS bytes",
+        "training_updates": 12800,
+        "wall_seconds": 247.686161
+      },
+      "run_id": "20261001T223844-5f87d589",
+      "summary": {
+        "actuator": "direct",
+        "condition": "A",
+        "data_hashes": {
+          "study/precision-look-2/study/precision-look-3/data/direct/A/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+          "study/precision-look-2/study/precision-look-3/data/direct/A/train/manifest.json": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+          "study/precision-look-2/study/precision-look-3/data/direct/A/validation/manifest.json": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c"
+        },
+        "missing_cells": [],
+        "model_hashes": {
+          "archive_sha256": "e71e8b1ef6d9d0fc220a0c6064bec98ed544c312bc347eca8f65f0d20f9b87f6",
+          "canonical_tensor_sha256": "746b3c1b5e55d414311972b283b113a633188f2ea88175e55dcb99ca57d54282"
+        },
+        "model_id": "physics_fit",
+        "resource_projection": {
+          "disk_bytes": 8388608,
+          "limitations": "Representative gradient timing only; excludes validation, checkpoint I/O and any finer solver branch.",
+          "measurement_path": "reports/reference_profile/direct/measurement.json",
+          "measurement_sha256": "10752bc9131f67277a0a14291b33e40ded8aecee237a792157b99809959650ee",
+          "wall_seconds": 313.1509244441986
+        },
+        "scope": "reference endpoint fit; robot MPC qualification not run",
+        "selection": {
+          "best_epoch": 20,
+          "best_validation_loss": 6.453571010922587e-11,
+          "epochs_completed": 100,
+          "evaluation_step_s": 0.00125,
+          "integration_step_s": 0.005,
+          "learning_rate": 0.01,
+          "optimizer": "Adam",
+          "optimizer_updates": 12800,
+          "physical_parameters": [
+            0.09494684636592865,
+            0.015751300379633904,
+            0.026250002905726433,
+            0.050000470131635666,
+            0.049999937415122986
+          ],
+          "selection": "nominal endpoint validation only",
+          "shuffle_seed": 8201,
+          "solver_audits_before_fit": [
+            {
+              "coarse_step_s": 0.005,
+              "fine_step_s": 0.0025,
+              "max_normalized_endpoint_difference": 0.00017542525893077254
+            }
+          ],
+          "solver_audits_selected_field": [
+            {
+              "coarse_step_s": 0.005,
+              "fine_step_s": 0.0025,
+              "max_normalized_endpoint_difference": 0.00014034021296538413
+            }
+          ],
+          "target_components": [
+            "q",
+            "v"
+          ],
+          "training_manifest_sha256": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+          "valid_target_exposures": 3276800,
+          "validation_manifest_sha256": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c"
+        },
+        "supersedes": [
+          "20261001T222638-4848dc2b"
+        ],
+        "supersession_reason": "Metadata envelope repaired; selected canonical tensors identical and original fit artifacts preserved",
+        "training_updates": 12800
+      },
+      "verification": "pass"
+    },
+    {
+      "manifest_sha256": "d23f3e3dbb14307cc5172a24a329c1929ff5beabcafcd3d471702779092016a2",
+      "resources": {
+        "cpu_seconds": 254.850055,
+        "disk_bytes": 897525,
+        "original_estimate": {
+          "disk_bytes": 8388608,
+          "limitations": "Representative gradient timing only; excludes validation, checkpoint I/O and any finer solver branch.",
+          "measurement_path": "reports/reference_profile/lagged/measurement.json",
+          "measurement_sha256": "908afa8929bd3c3ef54e601a42c332b9700cca98d5c303cb372df20fb109a2ea",
+          "wall_seconds": 355.56267499923706
+        },
+        "peak_rss_bytes": 350208000,
+        "rss_convention": "macOS bytes",
+        "training_updates": 12800,
+        "wall_seconds": 255.378101667
+      },
+      "run_id": "20261001T224342-c40a52cd",
+      "summary": {
+        "actuator": "lagged",
+        "condition": "A",
+        "data_hashes": {
+          "study/precision-look-2/study/precision-look-3/data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "study/precision-look-2/study/precision-look-3/data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "study/precision-look-2/study/precision-look-3/data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094"
+        },
+        "missing_cells": [],
+        "model_hashes": {
+          "archive_sha256": "94c0b72316d39164a82b517b4470f038c632645039e6cda059f0d32b0b87fd26",
+          "canonical_tensor_sha256": "0c5829c2e678b918313789119132ebd4789f9873ff29eba00c94062ae3927915"
+        },
+        "model_id": "physics_fit",
+        "resource_projection": {
+          "disk_bytes": 8388608,
+          "limitations": "Representative gradient timing only; excludes validation, checkpoint I/O and any finer solver branch.",
+          "measurement_path": "reports/reference_profile/lagged/measurement.json",
+          "measurement_sha256": "908afa8929bd3c3ef54e601a42c332b9700cca98d5c303cb372df20fb109a2ea",
+          "wall_seconds": 355.56267499923706
+        },
+        "scope": "reference endpoint fit; robot MPC qualification not run",
+        "selection": {
+          "best_epoch": 5,
+          "best_validation_loss": 2.2607125893525648e-10,
+          "epochs_completed": 100,
+          "evaluation_step_s": 0.00125,
+          "integration_step_s": 0.005,
+          "learning_rate": 0.01,
+          "optimizer": "Adam",
+          "optimizer_updates": 12800,
+          "physical_parameters": [
+            0.09494699537754059,
+            0.015751278027892113,
+            0.026250015944242477,
+            0.049999937415122986,
+            0.049999967217445374
+          ],
+          "selection": "nominal endpoint validation only",
+          "shuffle_seed": 8201,
+          "solver_audits_before_fit": [
+            {
+              "coarse_step_s": 0.005,
+              "fine_step_s": 0.0025,
+              "max_normalized_endpoint_difference": 0.00033600113238207996
+            }
+          ],
+          "solver_audits_selected_field": [
+            {
+              "coarse_step_s": 0.005,
+              "fine_step_s": 0.0025,
+              "max_normalized_endpoint_difference": 0.00040320135303772986
+            }
+          ],
+          "target_components": [
+            "q",
+            "v"
+          ],
+          "training_manifest_sha256": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "valid_target_exposures": 3276800,
+          "validation_manifest_sha256": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094"
+        },
+        "training_updates": 12800
+      },
+      "verification": "pass"
+    },
+    {
+      "manifest_sha256": "87c5d4e7bf5d3ea515a5fb798eb67f8eb979515f3f6ce1f3c0b43ed993770669",
+      "resources": {
+        "cpu_seconds": 0.678035,
+        "disk_bytes": 14705,
+        "original_estimate": {
+          "disk_bytes": 8388608,
+          "limitations": "Ridge solve runtime unmeasured; one least-squares fit and full nominal validation.",
+          "measurement_path": "reports/reference_profile/direct/measurement.json",
+          "measurement_sha256": "10752bc9131f67277a0a14291b33e40ded8aecee237a792157b99809959650ee",
+          "wall_seconds": null
+        },
+        "peak_rss_bytes": 262012928,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 0.708213208
+      },
+      "run_id": "20261001T224935-f9a38d52",
+      "summary": {
+        "actuator": "direct",
+        "condition": "A",
+        "data_hashes": {
+          "study/precision-look-2/study/precision-look-3/data/direct/A/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+          "study/precision-look-2/study/precision-look-3/data/direct/A/train/manifest.json": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+          "study/precision-look-2/study/precision-look-3/data/direct/A/validation/manifest.json": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c"
+        },
+        "missing_cells": [],
+        "model_hashes": {
+          "archive_sha256": "4c0de10c7e46a0fae879374f2bf89b783444f40fe2dcc16e9f8c8b950ab3f803",
+          "canonical_tensor_sha256": "6fa7ce00ccd6c435c872a99b5b46f91effba03b3549bdc02cf6d3e36b15e8c1e"
+        },
+        "model_id": "accel_ridge",
+        "resource_projection": {
+          "disk_bytes": 8388608,
+          "limitations": "Ridge solve runtime unmeasured; one least-squares fit and full nominal validation.",
+          "measurement_path": "reports/reference_profile/direct/measurement.json",
+          "measurement_sha256": "10752bc9131f67277a0a14291b33e40ded8aecee237a792157b99809959650ee",
+          "wall_seconds": null
+        },
+        "scope": "reference endpoint fit; robot MPC qualification not run",
+        "selection": {
+          "actuator": "direct",
+          "best_validation_loss": 0.1251724362373352,
+          "coefficients": [
+            [
+              0.04262955598106111,
+              -0.0381628189447674
+            ],
+            [
+              -0.02831773882509383,
+              0.03809946186000442
+            ],
+            [
+              -0.025069946606288765,
+              0.05726271183264197
+            ],
+            [
+              2.640887890936824,
+              -3.094763750079888
+            ],
+            [
+              0.0362464468045751,
+              -0.05689079253992425
+            ],
+            [
+              -0.6622490770984775,
+              0.23156803106173202
+            ],
+            [
+              0.14536817338604474,
+              -1.594840937739607
+            ],
+            [
+              8.926119640476374,
+              -3.1170758115519446
+            ],
+            [
+              -3.12830842628269,
+              30.601623313383556
+            ],
+            [
+              0.01073546572471996,
+              0.02196343390619694
+            ],
+            [
+              -0.009071951117082424,
+              0.00471862756089384
+            ],
+            [
+              -0.003430530269955854,
+              0.001272619344692393
+            ]
+          ],
+          "constant_regularized": false,
+          "evaluation_step_s": 0.00125,
+          "feature_mean": [
+            0.0,
+            0.007313531793370159,
+            0.010869727231796503,
+            -0.01682592122194875,
+            0.02875976416000164,
+            0.07424248034628328,
+            0.07871314701654637,
+            0.004278637483402157,
+            0.0025844218806919243,
+            3.152785890514413,
+            -1.4973285004146337,
+            14.525116328880046
+          ],
+          "feature_scale": [
+            1.0,
+            0.7078593849985152,
+            0.706231868689129,
+            0.7146445777871693,
+            0.6986937038358741,
+            1.774055789603711,
+            3.810370135481184,
+            1.1579039000816165,
+            1.1532635769911317,
+            4.923299223211643,
+            7.685939139791911,
+            21.67535927030384
+          ],
+          "lagged_effort": null,
+          "rank": 12,
+          "ridge": 1e-06,
+          "selection": "single prespecified ridge solve; no fine-time selection",
+          "singular_values": [
+            222.29300103226632,
+            203.50180195465637,
+            192.05514361921135,
+            182.66506690527652,
+            181.98061332922816,
+            181.06962490517887,
+            181.01933598375618,
+            179.85327004527912,
+            178.84526771322862,
+            159.37385349781886,
+            156.80091658913696,
+            138.3712383548427
+          ],
+          "standardized_coefficients": [
+            [
+              -0.011259384303450292,
+              0.05124785430758027
+            ],
+            [
+              -0.020044977189279493,
+              0.02696906164099712
+            ],
+            [
+              -0.017705195239696003,
+              0.04044075198377384
+            ],
+            [
+              1.8872962118017946,
+              -2.211656133526878
+            ],
+            [
+              0.02532516416877856,
+              -0.03974923855387799
+            ],
+            [
+              -1.1748668093862684,
+              0.4108146061921977
+            ],
+            [
+              0.5539065465196356,
+              -6.076934280005804
+            ],
+            [
+              10.33558874430271,
+              -3.6092742390460666
+            ],
+            [
+              -3.607764165626273,
+              35.29173756412793
+            ],
+            [
+              0.052853910063329,
+              0.10813255708943967
+            ],
+            [
+              -0.06972646416506274,
+              0.0362670842563748
+            ],
+            [
+              -0.07435797608894555,
+              0.027584481510546256
+            ]
+          ],
+          "target": "average acceleration from observed velocity endpoints",
+          "target_components": [
+            "q",
+            "v"
+          ],
+          "train_manifest_sha256": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+          "training_manifest_sha256": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+          "transition_count": 32768,
+          "validation_manifest_sha256": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c"
+        },
+        "training_updates": 0
+      },
+      "verification": "pass"
+    },
+    {
+      "manifest_sha256": "d615f5f5dbbf180674dac70e99272211cbe021b9f0c2c866a4313a7360248d72",
+      "resources": {
+        "cpu_seconds": 0.69637,
+        "disk_bytes": 14811,
+        "original_estimate": {
+          "disk_bytes": 8388608,
+          "limitations": "Ridge solve runtime unmeasured; one least-squares fit and full nominal validation.",
+          "measurement_path": "reports/reference_profile/lagged/measurement.json",
+          "measurement_sha256": "908afa8929bd3c3ef54e601a42c332b9700cca98d5c303cb372df20fb109a2ea",
+          "wall_seconds": null
+        },
+        "peak_rss_bytes": 258293760,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 0.708832917
+      },
+      "run_id": "20261001T225248-7a9ac033",
+      "summary": {
+        "actuator": "lagged",
+        "condition": "A",
+        "data_hashes": {
+          "study/precision-look-2/study/precision-look-3/data/lagged/A/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+          "study/precision-look-2/study/precision-look-3/data/lagged/A/train/manifest.json": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "study/precision-look-2/study/precision-look-3/data/lagged/A/validation/manifest.json": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094"
+        },
+        "missing_cells": [],
+        "model_hashes": {
+          "archive_sha256": "df2642f62e4584f1e01a03688ca68248ebb5bf19867dea01306b47635236ed1e",
+          "canonical_tensor_sha256": "e002bef3f7e52275907d6271b0e3744a1b2dc311b4d536475b85596f3451de39"
+        },
+        "model_id": "accel_ridge",
+        "resource_projection": {
+          "disk_bytes": 8388608,
+          "limitations": "Ridge solve runtime unmeasured; one least-squares fit and full nominal validation.",
+          "measurement_path": "reports/reference_profile/lagged/measurement.json",
+          "measurement_sha256": "908afa8929bd3c3ef54e601a42c332b9700cca98d5c303cb372df20fb109a2ea",
+          "wall_seconds": null
+        },
+        "scope": "reference endpoint fit; robot MPC qualification not run",
+        "selection": {
+          "actuator": "lagged",
+          "best_validation_loss": 0.2018880397081375,
+          "coefficients": [
+            [
+              -0.08780382008700326,
+              0.06718866799057169
+            ],
+            [
+              0.04462405844515119,
+              -0.1413066044584852
+            ],
+            [
+              0.058534131953796115,
+              0.030743427044749805
+            ],
+            [
+              2.480265423558813,
+              -3.0999268230832273
+            ],
+            [
+              -0.003731755785937218,
+              0.03499989179587962
+            ],
+            [
+              -0.5512544882124095,
+              0.20657950456051058
+            ],
+            [
+              0.14414827103176642,
+              -1.5609044905040546
+            ],
+            [
+              8.818357532951055,
+              -3.0698620413870867
+            ],
+            [
+              -3.124031263059768,
+              30.517889229543858
+            ],
+            [
+              0.0006708287253362005,
+              -0.014855978048334193
+            ],
+            [
+              0.005680733750915501,
+              0.0005518644224608666
+            ],
+            [
+              0.0033851638208863308,
+              0.0002214723771649097
+            ]
+          ],
+          "constant_regularized": false,
+          "evaluation_step_s": 0.00125,
+          "feature_mean": [
+            0.0,
+            0.016566815832166376,
+            -0.02145530689010058,
+            0.026856881499727262,
+            0.019690539961414354,
+            -0.05650268603828193,
+            0.028108413464161246,
+            -0.005116824350863724,
+            0.006231788495671646,
+            3.1184863797947115,
+            -1.2913344834241498,
+            13.212236542557461
+          ],
+          "feature_scale": [
+            1.0,
+            0.7079113027535233,
+            0.7057809843380931,
+            0.7187797769014346,
+            0.6944397906727868,
+            1.76501949741786,
+            3.6347553507285726,
+            0.5578625786278074,
+            0.5580432756249362,
+            4.865726638450887,
+            6.952533543928875,
+            19.81736936143226
+          ],
+          "lagged_effort": "exact interval average activation",
+          "rank": 12,
+          "ridge": 1e-06,
+          "selection": "single prespecified ridge solve; no fine-time selection",
+          "singular_values": [
+            219.5250517945741,
+            217.05726091438368,
+            197.64978234353896,
+            189.67488248146208,
+            183.70935084774123,
+            181.0193359837562,
+            180.40562003452425,
+            178.0547063466311,
+            163.75528781706123,
+            159.12526224244183,
+            143.19526213869966,
+            139.50118771271892
+          ],
+          "standardized_coefficients": [
+            [
+              -0.011691017182943594,
+              0.08785032610754204
+            ],
+            [
+              0.031589875348056344,
+              -0.10003254244988309
+            ],
+            [
+              0.04131227726772605,
+              0.02169812620156987
+            ],
+            [
+              1.7827646278019458,
+              -2.228164710306535
+            ],
+            [
+              -0.0025914797068282026,
+              0.024305317532300832
+            ],
+            [
+              -0.9729749197340066,
+              0.3646168533162229
+            ],
+            [
+              0.5239436994309855,
+              -5.673505948835869
+            ],
+            [
+              4.919431672594025,
+              -1.7125611544398252
+            ],
+            [
+              -1.7433446391925798,
+              17.030302870813614
+            ],
+            [
+              0.0032640691987064047,
+              -0.0722851281300213
+            ],
+            [
+              0.03949549195736892,
+              0.003836855908860111
+            ],
+            [
+              0.06708504178746173,
+              0.004388999901631451
+            ]
+          ],
+          "target": "average acceleration from observed velocity endpoints",
+          "target_components": [
+            "q",
+            "v"
+          ],
+          "train_manifest_sha256": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "training_manifest_sha256": "8f1734c24dd9a6d1625646519daa44f62fa593b024f19bf9bd259cf99b4917b6",
+          "transition_count": 32768,
+          "validation_manifest_sha256": "9fb01e39a1582ce4525ef22c86d821cfea8bea9f48d4d99ed6b8bdb93be41094"
+        },
+        "training_updates": 0
+      },
+      "verification": "pass"
+    }
+  ],
+  "schema_version": 1,
+  "scope": "Nominal endpoint reference fitting; robot MPC not yet qualified"
+}

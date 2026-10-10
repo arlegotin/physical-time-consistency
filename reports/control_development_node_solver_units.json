@@ -1,0 +1,41 @@
+{
+  "derivation": "Independent componentwise maximum absolute difference from saved endpoints",
+  "raw_solver_probes_sha256": "49e8826302f3c5d7631fca27dd0d6497a2f700371b78438bdf9a4b0544267548",
+  "scientific_decision": "not_evaluated",
+  "source_manifest": "evidence/M40/20261002T103645-6d6d8d35/manifest.json",
+  "source_manifest_sha256": "6364f3b225472f1ece4b9e066ec7e2a449b275a6b5cb1371c7119f89cd373517",
+  "summary": [
+    {
+      "coarse_substeps": 1,
+      "fine_substeps": 2,
+      "horizon_ns": 5000000,
+      "maximum_q_difference_rad": 1.836685525891113e-10,
+      "maximum_v_difference_rad_s": 3.7042546807697363e-09,
+      "n_probes": 200
+    },
+    {
+      "coarse_substeps": 2,
+      "fine_substeps": 4,
+      "horizon_ns": 5000000,
+      "maximum_q_difference_rad": 1.1526779530868225e-11,
+      "maximum_v_difference_rad_s": 2.3095969581277132e-10,
+      "n_probes": 200
+    },
+    {
+      "coarse_substeps": 1,
+      "fine_substeps": 2,
+      "horizon_ns": 40000000,
+      "maximum_q_difference_rad": 4.2751595539236575e-06,
+      "maximum_v_difference_rad_s": 0.00010218493771341208,
+      "n_probes": 200
+    },
+    {
+      "coarse_substeps": 2,
+      "fine_substeps": 4,
+      "horizon_ns": 40000000,
+      "maximum_q_difference_rad": 2.8639953575382293e-07,
+      "maximum_v_difference_rad_s": 6.22628754176624e-06,
+      "n_probes": 200
+    }
+  ]
+}

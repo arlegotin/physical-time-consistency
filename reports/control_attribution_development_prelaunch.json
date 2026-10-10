@@ -1,0 +1,78 @@
+{
+  "expected_cells": 160,
+  "new_cells": 144,
+  "numerical_predictor_sources_changed": false,
+  "recorded_utc": "2026-10-02T03:21:59.471266Z",
+  "registry_sha256": "e0d7b9caec1f558a3f2748a594e6b0770dc7dfd519c6aadf45d3e17945a14486",
+  "schema_version": 1,
+  "tests": {
+    "passed": 31,
+    "scope": "Attribution aggregation, nominal third-mode identity, 160-cell runner, interruption, prospective workload and historical reuse"
+  },
+  "verified_historical_runs": [
+    {
+      "manifest": "evidence/M40/20261002T021927-803ecd3e/manifest.json",
+      "manifest_sha256": "fa5a615c31193f2043ee5f0a55bc5c33e2f17202a7eadf962070cc9bf0c5f918"
+    },
+    {
+      "manifest": "evidence/M40/20261002T022004-4bde8d38/manifest.json",
+      "manifest_sha256": "609810d38c762242bcaf29d6ffb7b91a69ac0741d49947f42b9127396684e869"
+    },
+    {
+      "manifest": "evidence/M40/20261002T022133-abf50f61/manifest.json",
+      "manifest_sha256": "f1df5bd446806dff402fb3d1865a6afa8c57cf8caa5e38b28f6d4693a5d07dd8"
+    },
+    {
+      "manifest": "evidence/M40/20261002T022209-94a4766c/manifest.json",
+      "manifest_sha256": "15bd9fbbf3319d57958a1ec87c11c670bddb214969d4d9e8db4bc849e3788068"
+    },
+    {
+      "manifest": "evidence/M40/20261002T022339-cfdf17b0/manifest.json",
+      "manifest_sha256": "8b9269d15ab48a2646c10e30eddc8ffe2a6744dfac3750a9113ed5b00cbbedd7"
+    },
+    {
+      "manifest": "evidence/M40/20261002T022415-5c4e77b8/manifest.json",
+      "manifest_sha256": "89301b785f1412e21492bf692e3790eab534a79995e57402f000156ca4bef751"
+    },
+    {
+      "manifest": "evidence/M40/20261002T022545-bad60d62/manifest.json",
+      "manifest_sha256": "4f3274ab296e69c9550eca80d33f63b93888bba15d003514e5268bac68bd60ab"
+    },
+    {
+      "manifest": "evidence/M40/20261002T022623-17ce2d74/manifest.json",
+      "manifest_sha256": "03f9deb73b93ff32d0e4083eeff4859b3861958c91557ba9695827fb729c3518"
+    },
+    {
+      "manifest": "evidence/M40/20261002T022756-de4cbe78/manifest.json",
+      "manifest_sha256": "eb93c813caa8e09d1b3539917fbb92883d6d2299e89829e738ce8e9a149fb469"
+    },
+    {
+      "manifest": "evidence/M40/20261002T022832-e29768c3/manifest.json",
+      "manifest_sha256": "6dd6026d285fbf03eda6e357cfd313b7979d25a33b12ac52e7949d930c8805c6"
+    },
+    {
+      "manifest": "evidence/M40/20261002T023002-0c83d91b/manifest.json",
+      "manifest_sha256": "964328493be773f98d970f7c6546ff268ede498e2bf13c8bffc31d608a0e07f0"
+    },
+    {
+      "manifest": "evidence/M40/20261002T023039-659def7b/manifest.json",
+      "manifest_sha256": "42beb26e4af12e22004f447d2d4472de521871391769e7e80ab389705d41682e"
+    },
+    {
+      "manifest": "evidence/M40/20261002T023209-50daf52b/manifest.json",
+      "manifest_sha256": "9b2cf8eacbf033f1667dbd2707bd35f43e02403670c842812633f89fd9e4f8ed"
+    },
+    {
+      "manifest": "evidence/M40/20261002T023246-f2d4a0f2/manifest.json",
+      "manifest_sha256": "9d525e20dab32b106d7acabac306f3526616a0025c83f78bf9ca06a633779c40"
+    },
+    {
+      "manifest": "evidence/M40/20261002T023416-9c193797/manifest.json",
+      "manifest_sha256": "5b4f61ea3c09299742789e81a738247fc9988a2759dfff888114479a4a05ec12"
+    },
+    {
+      "manifest": "evidence/M40/20261002T023453-423934d5/manifest.json",
+      "manifest_sha256": "a67d9b9dd3c62cca7f07c788842c911942fddfb7707b1d2b4f810ed7943909ff"
+    }
+  ]
+}

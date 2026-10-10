@@ -1,0 +1,32 @@
+{
+  "actuator": "direct",
+  "actuator_interval_ns": 40000000,
+  "checkpoint_sha256": null,
+  "condition": "clean",
+  "episode_id": 4,
+  "manifest_sha256": null,
+  "model_id": "sim_oracle",
+  "model_manifest": null,
+  "model_partition_ns": [
+    40000000
+  ],
+  "phase": "calibration",
+  "physics_step_ns": 250000,
+  "planner_settings": {
+    "candidate_count": 128,
+    "elite_count": 16,
+    "initial_std": 1.0,
+    "iterations": 4,
+    "std_floor": 0.1
+  },
+  "power_mode": null,
+  "resource_projection": {
+    "disk_bytes": 3100202,
+    "measurement_manifest": "evidence/M40/20261001T225803-5c931777/manifest.json",
+    "measurement_manifest_sha256": "2c3bd089ec88cf3f276f4b98c07b38fd88ac09564fe212bbad360f2a0bb43722",
+    "reason": "Same fixed-budget episode; 25% throughput projection margin, not a scientific cap",
+    "wall_seconds": 150.76358698
+  },
+  "schema_version": 1,
+  "seed": 9000
+}

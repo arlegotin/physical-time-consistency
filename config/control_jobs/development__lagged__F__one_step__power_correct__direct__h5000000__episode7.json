@@ -1,0 +1,40 @@
+{
+  "actuator": "lagged",
+  "actuator_interval_ns": 40000000,
+  "checkpoint_sha256": "27ba72e714c0659ff18fd873e6aa739ffadd3457d568a668d541cd18e9540a38",
+  "condition": "clean",
+  "episode_id": 7,
+  "manifest_sha256": "13e6a0bf58246b3668c1353cd56acc1d4bc9279970c7594824ce59fb09cc415c",
+  "model_id": "power_correct",
+  "model_manifest": "study/precision-look-2/study/precision-look-3/evidence/M30/20261001T080747-638ba8e4/manifest.json",
+  "model_partition_ns": [
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000
+  ],
+  "phase": "exploratory",
+  "physics_step_ns": 250000,
+  "planner_settings": {
+    "candidate_count": 128,
+    "elite_count": 16,
+    "initial_std": 1.0,
+    "iterations": 4,
+    "std_floor": 0.1
+  },
+  "power_mode": "direct",
+  "resource_projection": {
+    "disk_bytes": 3227503.75,
+    "measurement_manifest": "evidence/M40/20261002T023039-659def7b/manifest.json",
+    "measurement_manifest_sha256": "42beb26e4af12e22004f447d2d4472de521871391769e7e80ab389705d41682e",
+    "projection_margin": 1.25,
+    "reason": "Measured same model, plant, power mode and clock; unchanged ten-task workload; estimate, not a cap",
+    "wall_seconds": 98.94948416749999
+  },
+  "schema_version": 1,
+  "seed": 9000
+}

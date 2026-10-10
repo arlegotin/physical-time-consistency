@@ -1,0 +1,34 @@
+{
+  "blocker": null,
+  "checks": [
+    {
+      "check_id": "source_closure",
+      "reason": "Verified against pinned scientific inputs and the complete report tables",
+      "scope": "report",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "claim_tables",
+      "reason": "Verified against pinned scientific inputs and the complete report tables",
+      "scope": "report",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "report_artifacts",
+      "reason": "Verified against pinned scientific inputs and the complete report tables",
+      "scope": "report",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "reproduction_contract",
+      "reason": "Verified against pinned scientific inputs and the complete report tables",
+      "scope": "report",
+      "status": "pass",
+      "tolerance": null
+    }
+  ],
+  "validity_status": "valid"
+}

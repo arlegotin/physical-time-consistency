@@ -1,0 +1,132 @@
+{
+  "alpha_spent": null,
+  "code_tree_sha256": "617110331503957b8a21be733d6addb4312cb97e8f59fe5515a3f14d769a2ebd",
+  "configuration_sha256": "60c3f3528717588f9ce3742407b58a4db64f8ce093c04f7ce00b617ba8d007ea",
+  "created_utc": "2026-09-30T18:56:54.963090Z",
+  "criterion_evaluations": [
+    {
+      "bounds": null,
+      "criterion_id": "K01.oracle.compiled_physics",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.oracle.activation",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.oracle.independent_rigidbody",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.oracle.finite_difference",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.oracle.physics_refinement",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.oracle.signal_resolution",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.oracle.slope_window",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.oracle.snapshot_replay",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.oracle.warnings",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.oracle.units",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.oracle.tests",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "status": "pass",
+      "threshold": null
+    }
+  ],
+  "decision_id": "0c4a9cbe158ea9294ff976bcba1f41c5945f8dee5922ac9f10ec743af09f97ec",
+  "evidence": [
+    {
+      "path": "evidence/M20/20260930T185313-3a271d15/manifest.json",
+      "producing_run_id": "20260930T185313-3a271d15",
+      "role": "manifest",
+      "sha256": "d71326fc6d403c888ccc299d3c6a480a77a9767ddde38857882470691e92b2de"
+    }
+  ],
+  "gate_id": "G20",
+  "look_index": null,
+  "milestone_id": "M20",
+  "outcome": "GO",
+  "permitted_next_actions": [
+    {
+      "branch": null,
+      "milestone_id": "M30",
+      "question": "Gate prerequisites passed"
+    }
+  ],
+  "phase": "calibration",
+  "protocol_version": "PTCO-1.0",
+  "schema_version": 1,
+  "terminal_verdict": null,
+  "validity_status": "valid"
+}

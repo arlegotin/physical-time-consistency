@@ -1,0 +1,32 @@
+{
+  "actuator": "direct",
+  "actuator_interval_ns": 40000000,
+  "checkpoint_sha256": null,
+  "condition": "clean",
+  "episode_id": 9,
+  "manifest_sha256": null,
+  "model_id": "zero_command",
+  "model_manifest": null,
+  "model_partition_ns": [
+    40000000
+  ],
+  "phase": "calibration",
+  "physics_step_ns": 250000,
+  "planner_settings": {
+    "candidate_count": 128,
+    "elite_count": 16,
+    "initial_std": 1.0,
+    "iterations": 4,
+    "std_floor": 0.1
+  },
+  "power_mode": null,
+  "resource_projection": {
+    "disk_bytes": 2817763,
+    "measurement_manifest": "evidence/M40/20261001T225554-138ae3b6/manifest.json",
+    "measurement_manifest_sha256": "ed12780f93b99a9b2caf713310f4b619b05695dd93b139f2f1732b720f0c5d10",
+    "reason": "Same fixed-budget episode; 25% throughput projection margin, not a scientific cap",
+    "wall_seconds": 39.46682416625
+  },
+  "schema_version": 1,
+  "seed": 9000
+}

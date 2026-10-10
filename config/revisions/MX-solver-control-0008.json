@@ -1,0 +1,122 @@
+{
+  "action_parameters": {
+    "parent_cells": [
+      "direct__A__shared__node_generic__seed0__h40000000__episode0",
+      "direct__A__shared__node_generic__seed0__h40000000__episode1",
+      "direct__A__shared__node_generic__seed0__h40000000__episode2",
+      "direct__A__shared__node_generic__seed0__h40000000__episode3",
+      "direct__A__shared__node_generic__seed0__h40000000__episode4",
+      "direct__A__shared__node_generic__seed1__h40000000__episode0",
+      "direct__A__shared__node_generic__seed1__h40000000__episode1",
+      "direct__A__shared__node_generic__seed1__h40000000__episode2",
+      "direct__A__shared__node_generic__seed1__h40000000__episode3",
+      "direct__A__shared__node_generic__seed1__h40000000__episode4",
+      "direct__A__shared__node_generic__seed2__h40000000__episode0",
+      "direct__A__shared__node_generic__seed2__h40000000__episode1",
+      "direct__A__shared__node_generic__seed2__h40000000__episode2",
+      "direct__A__shared__node_generic__seed2__h40000000__episode3",
+      "direct__A__shared__node_generic__seed2__h40000000__episode4",
+      "direct__A__shared__node_generic__seed3__h40000000__episode0",
+      "direct__A__shared__node_generic__seed3__h40000000__episode1",
+      "direct__A__shared__node_generic__seed3__h40000000__episode2",
+      "direct__A__shared__node_generic__seed3__h40000000__episode3",
+      "direct__A__shared__node_generic__seed3__h40000000__episode4",
+      "direct__A__shared__node_generic__seed4__h40000000__episode0",
+      "direct__A__shared__node_generic__seed4__h40000000__episode1",
+      "direct__A__shared__node_generic__seed4__h40000000__episode2",
+      "direct__A__shared__node_generic__seed4__h40000000__episode3",
+      "direct__A__shared__node_generic__seed4__h40000000__episode4",
+      "lagged__A__shared__node_generic__seed0__h40000000__episode0",
+      "lagged__A__shared__node_generic__seed0__h40000000__episode1",
+      "lagged__A__shared__node_generic__seed0__h40000000__episode2",
+      "lagged__A__shared__node_generic__seed0__h40000000__episode3",
+      "lagged__A__shared__node_generic__seed0__h40000000__episode4",
+      "lagged__A__shared__node_generic__seed1__h40000000__episode0",
+      "lagged__A__shared__node_generic__seed1__h40000000__episode1",
+      "lagged__A__shared__node_generic__seed1__h40000000__episode2",
+      "lagged__A__shared__node_generic__seed1__h40000000__episode3",
+      "lagged__A__shared__node_generic__seed1__h40000000__episode4",
+      "lagged__A__shared__node_generic__seed2__h40000000__episode0",
+      "lagged__A__shared__node_generic__seed2__h40000000__episode1",
+      "lagged__A__shared__node_generic__seed2__h40000000__episode2",
+      "lagged__A__shared__node_generic__seed2__h40000000__episode3",
+      "lagged__A__shared__node_generic__seed2__h40000000__episode4",
+      "lagged__A__shared__node_generic__seed3__h40000000__episode0",
+      "lagged__A__shared__node_generic__seed3__h40000000__episode1",
+      "lagged__A__shared__node_generic__seed3__h40000000__episode2",
+      "lagged__A__shared__node_generic__seed3__h40000000__episode3",
+      "lagged__A__shared__node_generic__seed3__h40000000__episode4",
+      "lagged__A__shared__node_generic__seed4__h40000000__episode0",
+      "lagged__A__shared__node_generic__seed4__h40000000__episode1",
+      "lagged__A__shared__node_generic__seed4__h40000000__episode2",
+      "lagged__A__shared__node_generic__seed4__h40000000__episode3",
+      "lagged__A__shared__node_generic__seed4__h40000000__episode4"
+    ],
+    "scientific_comparisons_unchanged": true,
+    "substeps": [
+      2,
+      4
+    ],
+    "validation_substeps": [
+      1,
+      2,
+      4
+    ]
+  },
+  "authority": "Owner authorized local current-branch execution without artificial caps and explicitly requested continuous work",
+  "authorization_reference": "config/authorization.json",
+  "branch": "solver",
+  "claim_ids": [
+    "C01",
+    "C04"
+  ],
+  "contract": {
+    "1": "Exact element 1 in docs/superpowers/specs/2026-10-05-control-solver-continuation.md, final twelve-part execution-contract paragraph",
+    "10": "Exact element 10 in docs/superpowers/specs/2026-10-05-control-solver-continuation.md, final twelve-part execution-contract paragraph",
+    "11": "Exact element 11 in docs/superpowers/specs/2026-10-05-control-solver-continuation.md, final twelve-part execution-contract paragraph",
+    "12": "Exact element 12 in docs/superpowers/specs/2026-10-05-control-solver-continuation.md, final twelve-part execution-contract paragraph",
+    "2": "Exact element 2 in docs/superpowers/specs/2026-10-05-control-solver-continuation.md, final twelve-part execution-contract paragraph",
+    "3": "Exact element 3 in docs/superpowers/specs/2026-10-05-control-solver-continuation.md, final twelve-part execution-contract paragraph",
+    "4": "Exact element 4 in docs/superpowers/specs/2026-10-05-control-solver-continuation.md, final twelve-part execution-contract paragraph",
+    "5": "Exact element 5 in docs/superpowers/specs/2026-10-05-control-solver-continuation.md, final twelve-part execution-contract paragraph",
+    "6": "Exact element 6 in docs/superpowers/specs/2026-10-05-control-solver-continuation.md, final twelve-part execution-contract paragraph",
+    "7": "Exact element 7 in docs/superpowers/specs/2026-10-05-control-solver-continuation.md, final twelve-part execution-contract paragraph",
+    "8": "Exact element 8 in docs/superpowers/specs/2026-10-05-control-solver-continuation.md, final twelve-part execution-contract paragraph",
+    "9": "Exact element 9 in docs/superpowers/specs/2026-10-05-control-solver-continuation.md, final twelve-part execution-contract paragraph"
+  },
+  "expected_artifacts": [
+    "config/control_solver_continuation_jobs.json",
+    "reports/control_solver_continuation_batch.json",
+    "reports/control_solver_continuation_result.json",
+    "reports/control_solver_validation.json"
+  ],
+  "input_evidence": [
+    {
+      "path": "reports/control_solver_continuation_2026-10-05/control_confirmation_numerical.json",
+      "role": "validated_actual_numerical_request",
+      "sha256": "164c699068b12ad217a61c1cdbd80334545f0bbec46917c2e90205c3afe98ee7"
+    }
+  ],
+  "live_explanations": [
+    "Saved candidate discrepancies have negligible realized control consequences",
+    "Solver resolution changes feedback decisions or the learned discrete endpoint fit"
+  ],
+  "new_information": "Same selected field and paired physical feedback episodes with two/four RK4 substeps plus nominal-only validation",
+  "parent_gate": "limited_utility_numerical_qualification",
+  "plan": "docs/superpowers/plans/2026-10-05-control-solver-continuation.md",
+  "progress_condition": "Independently checked closed-loop solver envelope or a specific next resolution/fit interpretation",
+  "protocol_id": "UTILITY-2026-10-02-control-v1",
+  "protocol_version": "PTCO-1.0",
+  "recorded_utc": "2026-10-04T22:52:37.053437Z",
+  "request_id": "MX-solver-control-0008",
+  "resource_projection": {
+    "basis": "Measured same nominal parent episodes; exact projection at prepare",
+    "n_new_control_episodes": 100,
+    "owner_imposed_caps": null
+  },
+  "return_milestone": "M70",
+  "schema_version": 1,
+  "spec": "docs/superpowers/specs/2026-10-05-control-solver-continuation.md",
+  "status": "ready",
+  "unresolved_question": "Does evaluation-only NODE solver resolution materially change realized closed-loop cost or the primary comparison?"
+}

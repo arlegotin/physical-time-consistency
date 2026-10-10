@@ -1,0 +1,27 @@
+{
+  "blocker": null,
+  "checks": [
+    {
+      "check_id": "control.episode",
+      "reason": "Complete raw physical episode, fixed clocks and hash closure verified",
+      "scope": "sim_oracle",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "control.clocks",
+      "reason": "Complete raw physical episode, fixed clocks and hash closure verified",
+      "scope": "sim_oracle",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "control.provenance",
+      "reason": "Complete raw physical episode, fixed clocks and hash closure verified",
+      "scope": "sim_oracle",
+      "status": "pass",
+      "tolerance": null
+    }
+  ],
+  "validity_status": "valid"
+}

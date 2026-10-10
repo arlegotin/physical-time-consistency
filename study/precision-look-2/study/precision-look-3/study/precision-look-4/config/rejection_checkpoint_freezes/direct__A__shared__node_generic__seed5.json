@@ -1,0 +1,57 @@
+{
+  "checkpoint_hashes": [
+    "4aa5d63cd492630dd5f222bf0a13c4e7785e4183629f5be574dd3259b44cbf56"
+  ],
+  "created_utc": "2026-10-01T13:34:43.269402Z",
+  "criteria_sha256": "4cba6f0d13e439a0bf02bd56a7647d2d406861461f403076454b5895ee72f700",
+  "generation_hashes": {
+    "poc/generate.py": "d3d28cf21ba4f6057e7c2ab631e767dd9516edca624f60edbdf51f2219dc45aa"
+  },
+  "phase": "confirmatory",
+  "protocol_version": "PTCO-1.0",
+  "source_hashes": {
+    "poc/__init__.py": "a2663e8d543cbef68f5ef143d68b63cc6fde80d0d59bb560d4f23347632dcd10",
+    "poc/__main__.py": "a88504c9e89058f1a521fc458d9c2b485a367851ccdfa72edd9cfd09efccf9de",
+    "poc/analytic.py": "b6fd1dfef962c2517f7b24f0ffb96a4ef0188ab5058adea638309e6895f313fc",
+    "poc/audit_jobs.py": "d0d34bd08391e7b827f636cd14c1557cce4eb3831040f7b0c2c5b90eaafd46ba",
+    "poc/clocks.py": "7a45fe841e36bfabc1e4ee66c8b329755943dbd7a9c46fb016aceb925d544ef9",
+    "poc/contracts.py": "3615336d4cf41840c8026ad74afe0be2f36929bec625b7f0b2aaff56c7e4b7e4",
+    "poc/criteria.py": "65c7517af0e54706e669ab6cf01457beb1a997fadc42f094b6c03dcf058cf7a8",
+    "poc/criterion_gates.py": "fe16052f33a030c55ffe1843337634d9df612106dcfb86a7e4da8ab34305f442",
+    "poc/dataset.py": "4aad69208f1e0a15397d9e3ed1acc4c3b4e4753c0e83f3789ce67451f8f8829e",
+    "poc/envs.py": "e4635069a335d0b37d378adea3267c703f1c44f445a7c535afdc89f5e32ce35e",
+    "poc/execution.py": "6084c93a126873b8fc9a74dd86fcb68444631788b9a7d148d7cd79d7904d80cb",
+    "poc/gates.py": "274a8ce125ccb050b16a16ed8c3384348a71a891bc8adf69e6de14d334177ae8",
+    "poc/generate.py": "d3d28cf21ba4f6057e7c2ab631e767dd9516edca624f60edbdf51f2219dc45aa",
+    "poc/history.py": "9f76f4bdd6776c01ecc8e53d77d5b4861c88f8d9e65b740353137416b457afdc",
+    "poc/io.py": "b7c169b0c7e296b7e11dfe42ae620ad33806de61b36b610db67d727bd7ac04cd",
+    "poc/mechanism.py": "175be27e7de28afe7d3a02dccd0b7ce48a581d862c4cc71a6c6d48703c81d193",
+    "poc/mechanism_run.py": "917cf714df6f282cfb72d2755d68d3aaf6aa4fdc168c3cc4cde57c641f03c4ab",
+    "poc/metrics.py": "15c084e1b547bf10099353f33e36d49f908d6837bcdffd1eb8cdba3f716e53dd",
+    "poc/milestones/__init__.py": "d7cc49e457f3a9cba474ece1c589de0d83243741952576e12bd8f45f8ed556ac",
+    "poc/milestones/m10.py": "d1fc44e782a61858e386c1f7a0f274f3b91d4ef8ac98e889781d479a570b0831",
+    "poc/milestones/m20.py": "a9c725389741e2ce1e99695abf664d153d0df95476313dcd4e3cd190a0ebd975",
+    "poc/milestones/m30.py": "82eb5786c9708b01510497224edfa3955aec2195e7e6a6d5f11211c49bb70cb8",
+    "poc/milestones/mr.py": "21e5026868d29004dca214d8bd44b92d21d452343f728081b082ac6fa84b0721",
+    "poc/model_sensitivity.py": "bbdd2cf7931d84a4aa91108d1faa973125494ee14007654f016c3ea1a2c5c346",
+    "poc/models/__init__.py": "9af7c30ff7b9a23124b59def8f80551784db5aa4d97cad299a137e3663cf675a",
+    "poc/models/common.py": "1fed6c0593bab9a85a9899da66eb994eb6f4909c5fb200208e61f14320f947a1",
+    "poc/models/factory.py": "848243017a8b726c91483a080e026c6708dcb380fa75b7c34649420dc6b00c83",
+    "poc/models/mlp.py": "0859bac1c9eb737b3accfca9ecca3c9370f1100e110ccf251b0b1688c6f01110",
+    "poc/models/ode.py": "c2a5a2ecbca37c99afbcda2261e9dd05b3913508e5f1690935d3cb263dfda0ff",
+    "poc/models/power.py": "4d10d4d39aa2d1b35f301b2f60fe0148e3cdb529dc05f1b7601eb7d4a7a7c1d7",
+    "poc/models/sequence.py": "9cadc432670b4fb4e4d6ca88fb642c6de159b954747da720454e8da3d28acd95",
+    "poc/oracle_rigidbody.py": "537e5d06400d8135b728f0111284ebb7ce13ee7b9361eaec93cb80ec40bd5f37",
+    "poc/prediction.py": "3da2b0f128488c814290a28682c6aba0758dccf153420e57a0b61d3e00919109",
+    "poc/probes.py": "c996e3ba06c148beba805f3bd73f06f64ca0774a7ed63fd0d6bc98203626c717",
+    "poc/research_jobs.py": "c045d7417fc2ecd18c9c24267ac3f09ced5e972869cd5e7ec0d0a3ecd155d27d",
+    "poc/sensitivity.py": "30d5bc24d15f5e0707a15d8a1b54deacfec1034bcb9e366f7b8562b283e1ee42",
+    "poc/statistics.py": "1ac10e81121c757bc846ca03ac324ad64ae2509e4b76b47754b9452f3d1e158e",
+    "poc/train.py": "4f3dca540505a8cb4489944f00f4486b2adbc7713e24733ee6e7b7e94396c8c3",
+    "poc/training_jobs.py": "6936a047ca67736c16c3bb17e5297ffbf1c57380f2c49df45c150d6649214ba4"
+  },
+  "statistical_family_size": 280,
+  "training_manifests": [
+    "evidence/M30/20261001T133002-2315a286/manifest.json"
+  ]
+}

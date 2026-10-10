@@ -1,0 +1,13 @@
+# Supported prediction benefit and the next useful test
+
+The correction has a supported positive result in the completed direct-torque experiment. Across forty independent training seeds, it reduces command-sensitivity prediction error against the qualified time-aware generic NODE by **49.4% on cold probes and 42.9% on warm probes at 5 ms**. The original predeclared strict-improvement contrasts pass in both cases. At 10 ms the estimated reductions are 17.3% and 7.9%; the cold improvement is supported and the warm improvement remains unresolved. The earlier twenty-seed findings remain preserved.
+
+These are errors in predicting how a new command changes position and velocity. They are not control costs. Both models used augmented 20–60 ms data and the shared one-plus-four-step training loss; the comparison is more informative than a win over a deliberately incorrect head. The full conventional-model suite and lagged-plant confirmation have not yet run.
+
+The 50% floor was a chosen research target. On 2026-10-01 the user withdrew fixed percentage floors as prerequisites for useful results and requested that the project focus on mechanistic wins and practical benefit. This change follows observed prediction results and is recorded in the [scope amendment](../docs/superpowers/specs/2026-10-01-mechanism-utility-amendment.md). The original PTCO-1.0 gate remains INCONCLUSIVE and is preserved; it is not evidence that the mechanism is useless.
+
+The forty-seed batch completed under its original rules. Its 1,440 raw-matrix summaries reconcile, and all eighty selected checkpoints reproduce their recorded nominal validation scores. No further seed expansion is planned solely for the withdrawn 50% floor.
+
+Control development is mixed. In the ten-task direct augmented/shared-loss comparison, the corrected head lowers fine-step cost by 28.8% versus the MLP but costs 0.9% more than the generic NODE. The full same-weight intervention lowers mean fine-step cost by 3.7% on direct torque and 0.5% with actuator lag, but the corrected fixed-data heads remain about 24% above the structured NODE. These control measurements use one training seed and establish no population confidence claim. The remaining qualified core comparisons and prospective multi-seed control test are the next useful work.
+
+[The forty-seed report](confirmation_look4.md), [original twenty-seed report](confirmation_look3.md), [direct control comparison](control_development_direct_result.md) and [fixed-weight intervention](control_attribution_development_result.md) retain measured effects, scope and provenance. The [amended work plan](../docs/superpowers/plans/2026-10-01-mechanism-utility-amendment.md) records the remaining work.

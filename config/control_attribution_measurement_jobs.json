@@ -1,0 +1,99 @@
+{
+  "cells_sha256": "db0b9f92aa40efa749448d5a79c72ab893618afae06237f1c1d4a6b134273b9a",
+  "design_sha256": "c5cb3a57f3f986d80468b788207788aa3cc881a980d90b4cc29e68706cc5fda7",
+  "jobs": [
+    {
+      "cell_id": "direct__F__one_step__power_correct__low__h40000000__episode0",
+      "path": "config/control_jobs/development__direct__F__one_step__power_correct__low__h40000000__episode0.json",
+      "sha256": "344fd8f02fd64c584fccd0188d2c08ecaff043ca0658e455a4fe7fbf50f9d11d"
+    },
+    {
+      "cell_id": "direct__F__one_step__power_correct__low__h5000000__episode0",
+      "path": "config/control_jobs/development__direct__F__one_step__power_correct__low__h5000000__episode0.json",
+      "sha256": "0dea12ea34989f52fbd5b60e9e5389dd135929384300bf3b287e93197de0308b"
+    },
+    {
+      "cell_id": "direct__F__one_step__power_correct__direct__h40000000__episode0",
+      "path": "config/control_jobs/development__direct__F__one_step__power_correct__direct__h40000000__episode0.json",
+      "sha256": "4c54ae2fb918d51a3033cefd1bd71d90656c161e257c27da219ef0228e04a54f"
+    },
+    {
+      "cell_id": "direct__F__one_step__power_correct__direct__h5000000__episode0",
+      "path": "config/control_jobs/development__direct__F__one_step__power_correct__direct__h5000000__episode0.json",
+      "sha256": "380b7d859ee1341ff67f7a71e29b03c938b1987254f5d7362722fa13d459a3df"
+    },
+    {
+      "cell_id": "direct__F__one_step__power_correct__lagged__h40000000__episode0",
+      "path": "config/control_jobs/development__direct__F__one_step__power_correct__lagged__h40000000__episode0.json",
+      "sha256": "4d44f5521f46668aabccf4c6af4ac32784c78314690660e93f1126a8eb8439de"
+    },
+    {
+      "cell_id": "direct__F__one_step__power_correct__lagged__h5000000__episode0",
+      "path": "config/control_jobs/development__direct__F__one_step__power_correct__lagged__h5000000__episode0.json",
+      "sha256": "ff076c31eafdd98d947e2b7adf53bb5e1dd41d3874e4acf2e5205fd3b6089639"
+    },
+    {
+      "cell_id": "direct__F__one_step__node_structured__default__h40000000__episode0",
+      "path": "config/control_jobs/development__direct__F__one_step__node_structured__default__h40000000__episode0.json",
+      "sha256": "f9b016ad979c615563584c5247311d24707b4bbeaff41deb3894a9f72da90607"
+    },
+    {
+      "cell_id": "direct__F__one_step__node_structured__default__h5000000__episode0",
+      "path": "config/control_jobs/development__direct__F__one_step__node_structured__default__h5000000__episode0.json",
+      "sha256": "0f8f5994502a44b4c17ff7cd720947580d748bf9054b2d959dbe9b3d201a7879"
+    },
+    {
+      "cell_id": "lagged__F__one_step__power_correct__low__h40000000__episode0",
+      "path": "config/control_jobs/development__lagged__F__one_step__power_correct__low__h40000000__episode0.json",
+      "sha256": "9f77ce0c0af1da58d15a18e534c2b699c634bc3cb6cd22499d7f09fcf233c13c"
+    },
+    {
+      "cell_id": "lagged__F__one_step__power_correct__low__h5000000__episode0",
+      "path": "config/control_jobs/development__lagged__F__one_step__power_correct__low__h5000000__episode0.json",
+      "sha256": "f38dba37fb3cbb2d0f94db32e65f0d51b04b03f2a9af26e5b70bf461f7cef395"
+    },
+    {
+      "cell_id": "lagged__F__one_step__power_correct__direct__h40000000__episode0",
+      "path": "config/control_jobs/development__lagged__F__one_step__power_correct__direct__h40000000__episode0.json",
+      "sha256": "493892edce0231ec91fbdb28cf76afad377480e09f149832e83549e4dd39140b"
+    },
+    {
+      "cell_id": "lagged__F__one_step__power_correct__direct__h5000000__episode0",
+      "path": "config/control_jobs/development__lagged__F__one_step__power_correct__direct__h5000000__episode0.json",
+      "sha256": "a5a1b9e2542f75f064ac9f0de4c0bcf170f49704a00b501572e718f749fda0d4"
+    },
+    {
+      "cell_id": "lagged__F__one_step__power_correct__lagged__h40000000__episode0",
+      "path": "config/control_jobs/development__lagged__F__one_step__power_correct__lagged__h40000000__episode0.json",
+      "sha256": "7db4039f0aaf600093a80364237099c4691b50281b84cda9a553747fc566e689"
+    },
+    {
+      "cell_id": "lagged__F__one_step__power_correct__lagged__h5000000__episode0",
+      "path": "config/control_jobs/development__lagged__F__one_step__power_correct__lagged__h5000000__episode0.json",
+      "sha256": "37820ad660f6b5611375dc5787ddb5c543474c87d52865ef35020bc97bc74446"
+    },
+    {
+      "cell_id": "lagged__F__one_step__node_structured__default__h40000000__episode0",
+      "path": "config/control_jobs/development__lagged__F__one_step__node_structured__default__h40000000__episode0.json",
+      "sha256": "736eb8380fe1271debffbb243b05aa73c9ac3127e97d45947e16de85cfb93ba7"
+    },
+    {
+      "cell_id": "lagged__F__one_step__node_structured__default__h5000000__episode0",
+      "path": "config/control_jobs/development__lagged__F__one_step__node_structured__default__h5000000__episode0.json",
+      "sha256": "32ae1f22522e90294d149233277aca65f96abc7faa6df67298c5a248d84efe55"
+    }
+  ],
+  "phase": "exploratory",
+  "recorded_utc": "2026-10-02T01:55:49.699769Z",
+  "resource_projection": {
+    "disk_bytes": 160000000,
+    "limitation": "Direct A/shared architecture proxies; includes no new timing measurement and sets no cap; qualification hashing/startup additional",
+    "measurement_report": "reports/control_representative_measurements.json",
+    "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+    "projection_margin": 1.25,
+    "reason": "Representative fixed-data measurements before full ten-task projection; no runtime ceiling",
+    "wall_seconds": 1060.62565249
+  },
+  "schema_version": 1,
+  "scope": "First fixed episode ID zero on both plants, all three shared-weight power modes and structured comparator, both internal partitions"
+}

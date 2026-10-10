@@ -1,0 +1,25 @@
+{
+  "measured_content_identical": true,
+  "original_audit_preserved": true,
+  "original_review": "reports/control_utility_review_2026-10-03.json",
+  "original_review_sha256": "b955faf274a5fd51df44e05e276401acb74e0a3c37c9d30048e32bf59c4291ca",
+  "previous_audit": {
+    "path": "reports/control_development_complete_audit.json",
+    "sha256": "75cbbc3bb94674bb14961ddb03e3e15927c24fef2301bbc3db7c18533e296ef0"
+  },
+  "recorded_utc": "2026-10-03T10:21:32.157692Z",
+  "regression_tests": {
+    "green_passed": 12,
+    "red_failed": 4
+  },
+  "replacement_audit": {
+    "path": "reports/control_development_complete_audit_v2.json",
+    "sha256": "042c5684a9541f61d0748f90727faf393c8e0925608c75bd821760f295a032af"
+  },
+  "resolved_finding": "Reject truncated uniform model partitions, incorrect success/fallback types or ranges, and unintended power overrides",
+  "schema_version": 1,
+  "scientific_verdict": null,
+  "scope": "Development report input-validation repair",
+  "statistical_look_reserved": false,
+  "verified_episodes": 200
+}

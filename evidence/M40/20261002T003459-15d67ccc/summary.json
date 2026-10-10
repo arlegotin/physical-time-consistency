@@ -1,0 +1,78 @@
+{
+  "actuator": "lagged",
+  "actuator_interval_ns": 40000000,
+  "candidate_count_per_decision": 512,
+  "checkpoint_hash": null,
+  "command_effort_integral": 1.1889567755980035,
+  "complete": true,
+  "condition": "clean",
+  "cost_components": {
+    "effort": 0.0011889567755980035,
+    "terminal": 0.0004065178254998126,
+    "total": 0.013183450210795058,
+    "tracking": 0.00445646963954174,
+    "velocity": 0.007131505970155501
+  },
+  "episode_id": 10,
+  "experiment_id": "E03",
+  "fallback_count": 0,
+  "final_window_sample_count": 801,
+  "initial_state": [
+    0.28733584147266356,
+    0.33259445730070514,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "missing_cells": [],
+  "model_hashes": {},
+  "model_id": "sim_oracle",
+  "model_partition_ns": [
+    40000000
+  ],
+  "oracle_physics_steps": 19660800,
+  "phase": "calibration",
+  "physics_step_ns": 250000,
+  "planner_latency_median_seconds": 2.492907292,
+  "planner_latency_p95_seconds": 2.50082633365,
+  "power_mode": null,
+  "q_rmse_rad": 0.04011843935822596,
+  "realized_cost": 0.013183450210795058,
+  "resource_projection": {
+    "disk_bytes": 3204295,
+    "measurement_manifest": "evidence/M40/20261001T230250-5659ba9f/manifest.json",
+    "measurement_manifest_sha256": "bc2eec8c053f8bab6ba1d55c006d34a8df204adbd35d2e98141550eb5d05e500",
+    "reason": "Same fixed-budget episode; 25% throughput projection margin, not a scientific cap",
+    "wall_seconds": 154.08020994875
+  },
+  "run_id": "20261002T003459-15d67ccc",
+  "seed": 9000,
+  "seed_namespaces": {
+    "cem": [
+      7101,
+      9000,
+      10,
+      2
+    ],
+    "disturbance": [
+      7101,
+      9000,
+      0,
+      4
+    ]
+  },
+  "success": true,
+  "target": [
+    0.38092974137627955,
+    0.4933873493854126
+  ],
+  "terminal_q_error_rad": 0.00901684895625753,
+  "velocity_rms_rad_s": 0.21204356554152337,
+  "work": {
+    "history_tokens_processed": 0,
+    "network_calls": 0,
+    "scalar_candidate_evaluations": 122880,
+    "vector_field_calls": 0
+  }
+}

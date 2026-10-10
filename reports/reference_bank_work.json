@@ -1,0 +1,1712 @@
+{
+  "batch_sha256": "370e98358fac5a93e55ae37fd45a125066366a395977a0ea5f36059fec6117fd",
+  "oracle_physics_steps_total": 110100480,
+  "recorded_utc": "2026-10-02T01:30:06.867734Z",
+  "rows": [
+    {
+      "actuator": "direct",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 0,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261001T231040-e8291d65/manifest.json",
+      "source_manifest_sha256": "0b1cc8dd69f6546769e35d6c5ee840f03ca4c482b1df81c11e8f594976b7d15c",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "direct",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 1,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261001T231224-15657399/manifest.json",
+      "source_manifest_sha256": "26039a53ae01a8bb8b479213e1d3e504170132479183f97f09ea490376bba831",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "direct",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 2,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261001T231613-17830367/manifest.json",
+      "source_manifest_sha256": "7e45494023c3c83eebc34f22bb36fb19dc975dde54c4afb2ae7bbafdccb84969",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "direct",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 3,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261001T231958-0a000120/manifest.json",
+      "source_manifest_sha256": "1da2993f2b5d48c0a674398e5120cbcf8039bcf1d4a0bff52854eb7df7f9873b",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "direct",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 4,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261001T232337-9d49612c/manifest.json",
+      "source_manifest_sha256": "d47b9a9530318f01d0add265c3ea38d9c6aebf73e3d7fbaa83cf13856382ff08",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "direct",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 5,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261001T232717-10bbd9b1/manifest.json",
+      "source_manifest_sha256": "68d3b36b55bcb26e0af3228927c03640ecb974ee306d7299f14f4cb7a823f19b",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "direct",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 6,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261001T233056-bddff151/manifest.json",
+      "source_manifest_sha256": "d4be057e01929a44b9881975137633a0b07df35518ceda4b593c107cb30ea34a",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "direct",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 7,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261001T233443-eb6e6df3/manifest.json",
+      "source_manifest_sha256": "52efc8d69aac19741388ec3d5a1bbdd71305d00a7949dc7645f8f5adcf8078cc",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "direct",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 8,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261001T233832-69f1438a/manifest.json",
+      "source_manifest_sha256": "868e9599b41e78e293106427eefeb7527c40da443efe61cd1ac75921baddd4b8",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "direct",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 9,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261001T234219-5863934f/manifest.json",
+      "source_manifest_sha256": "256f62e4fcea5981931f2ad902d9951d3f6539185b9e5268a21a5761a00db311",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "direct",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 10,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261001T234606-2b01ca90/manifest.json",
+      "source_manifest_sha256": "faf2cf226a6685a350c6501589ed981352a0ec075d9eb2a165ff45ab99dc041f",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "direct",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 11,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261001T234950-8cfa9fd7/manifest.json",
+      "source_manifest_sha256": "0402066c8693afb4b4c5686c45c7331c40777878931f8d4840046d9caa3b83dd",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "direct",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 12,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261001T235327-5a946d77/manifest.json",
+      "source_manifest_sha256": "4883a1c41dc5b23a49f179f299e23e461af2442fb3c952adbf9d70a36926474b",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "direct",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 13,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261001T235634-d1be83b7/manifest.json",
+      "source_manifest_sha256": "7dc06fec2d1af5ed7fa3d5f32afbbe66f502c1299277afc4d5130601f21c142b",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "direct",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 14,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261001T235941-0b1bd004/manifest.json",
+      "source_manifest_sha256": "c810d1b502c2a4bbe73fc5315c3193b025502ab3b0722965e1a8fcc5b4eaf986",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "direct",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 15,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261002T000248-3ff113a6/manifest.json",
+      "source_manifest_sha256": "711cba204fde92e6439c5464524ba46e530af5db0111de5c60e688fd19803a40",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "lagged",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 0,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261002T000450-e92449ae/manifest.json",
+      "source_manifest_sha256": "8d9c97edd277cfd484e980157792b14872d0cfc61ce96f26460212a0ddf0085f",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "lagged",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 1,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261002T000617-bc58c1d7/manifest.json",
+      "source_manifest_sha256": "5a0a2dbc8915cd69860384b5beed820ad509b191b699bd43f6dc4911dcb731e6",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "lagged",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 2,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261002T000926-45036998/manifest.json",
+      "source_manifest_sha256": "2a756305be3f06a005d9dba9ebce0596bc8506bf3e46d1285fc9e10983c9e72c",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "lagged",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 3,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261002T001236-89376a08/manifest.json",
+      "source_manifest_sha256": "5c5bad55db4a042697611ac58be52e4342927e3d6300fed0a4d8091176776154",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "lagged",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 4,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261002T001545-8d474642/manifest.json",
+      "source_manifest_sha256": "a392fbda395fcedc24fd00a4ce46725b6ed0abf77c7859d40e46e3f362e22fe8",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "lagged",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 5,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261002T001855-48eb5b0a/manifest.json",
+      "source_manifest_sha256": "fda28510d94e85811ffd6907b545a9225b928efac9019c7830be9267d32f428c",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "lagged",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 6,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261002T002204-7751807c/manifest.json",
+      "source_manifest_sha256": "b9eeff67311813b16cd9aca962acf2dd52abfe53a7798e8447b799e638f5ce8a",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "lagged",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 7,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261002T002513-6f7392b7/manifest.json",
+      "source_manifest_sha256": "b2bfb59a7b2ff0907062fb44189e9a1d563d36214a20f282d302c9aad66ab5ec",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "lagged",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 8,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261002T002824-c71180cd/manifest.json",
+      "source_manifest_sha256": "7ec25edb5d7ee183039c00b46213f48abb2d0387b37b103edb05fabefce5f822",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "lagged",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 9,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261002T003136-1499e691/manifest.json",
+      "source_manifest_sha256": "ee03fd0c639143be1f77e4cde673a370b286b8ceebcd52addd99d190f7951ab1",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "lagged",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 10,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261002T003441-d26e5320/manifest.json",
+      "source_manifest_sha256": "91ce748378367a46cb8048cbb5f432363ddd2fc378392a05fc1e7becdfef47ce",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "lagged",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 11,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261002T003746-55331f78/manifest.json",
+      "source_manifest_sha256": "07472e6349c2ec3fc1500141ea7ae5dc9c4f548caee5577e3702be88718b7930",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "lagged",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 12,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261002T004047-cec09b50/manifest.json",
+      "source_manifest_sha256": "66438971f6dcdd2600f5a92e4044bb18db03dc4ef499b6d3c8812f7298263428",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "lagged",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 13,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261002T004350-1449c94d/manifest.json",
+      "source_manifest_sha256": "9c37b8f6ef49ae2f044d02f47fa805f2275586ae81cb577e1b8379dcd24a1fae",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "lagged",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 14,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261002T004653-4bfdb2fa/manifest.json",
+      "source_manifest_sha256": "2d14eed510689967264d80e820f769e69f2201ebeecf6ac9cf4e19579d323adf",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    },
+    {
+      "actuator": "lagged",
+      "count_provenance": "Derived from complete successful bank coverage and fixed solver loops",
+      "episode_id": 15,
+      "limitation": "Does not count internal MuJoCo operations or turn simulator steps into neural NFE",
+      "oracle": [
+        {
+          "physics_step_ns": 250000,
+          "physics_steps": 491520,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 125000,
+          "physics_steps": 983040,
+          "scalar_transition_queries": 3072
+        },
+        {
+          "physics_step_ns": 62500,
+          "physics_steps": 1966080,
+          "scalar_transition_queries": 3072
+        }
+      ],
+      "oracle_physics_steps_total": 3440640,
+      "physics": [
+        {
+          "batched_vector_field_calls": 768,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 1250000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 393216
+        },
+        {
+          "batched_vector_field_calls": 1536,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 625000,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 786432
+        },
+        {
+          "batched_vector_field_calls": 3072,
+          "history_tokens_processed": 0,
+          "integration_step_ns": 312500,
+          "network_calls": 0,
+          "scalar_transition_queries": 3072,
+          "scalar_vector_field_evaluations": 1572864
+        }
+      ],
+      "source_manifest": "evidence/M40/20261002T004956-f7a7e451/manifest.json",
+      "source_manifest_sha256": "2bba225cd193d6280d59423d6d41f8a92e8faf38df5046ce135e5300fe8de40a",
+      "timing_provenance": "Use original resources.json; no new runtime or memory measurement"
+    }
+  ],
+  "schema_version": 1,
+  "scope": "Derived operation ledger only; original raw observations and timing remain immutable",
+  "source_hashes": {
+    "poc/models/common.py": "1fed6c0593bab9a85a9899da66eb994eb6f4909c5fb200208e61f14320f947a1",
+    "poc/mpc.py": "ca2db4101a4b924af537705540a2e09eda5bdc7cac72d9acb9bbbf9452a2b61f",
+    "poc/physics_fit.py": "95f5db85913f3ecc44f0236d3ad3f3ad27f644ebfc782a7c95bc79f9474998ad",
+    "poc/reference_bank.py": "49ba4cfc99321778a89d430831c3775d8b3f24a67f34f995abb2cdd30ef890c1",
+    "poc/reference_work.py": "5fa7a4cda3f19272c3db067d1d7887ff5091fa8c5c201ba0d8372b4571f7a44b"
+  }
+}

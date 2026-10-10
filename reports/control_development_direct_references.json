@@ -1,0 +1,163 @@
+{
+  "comparisons": [
+    {
+      "head_cost_ratio_vs_physics": 1.0011000664995382,
+      "head_mean_cost": 0.21067436675869972,
+      "head_reduction_vs_zero": 0.9559045078443076,
+      "model_step_ns": 40000000,
+      "reference_means": {
+        "physics_fit": 0.21044286561217293,
+        "sim_oracle": 0.21044286561217293,
+        "zero_command": 4.7776848938401795
+      }
+    },
+    {
+      "head_cost_ratio_vs_physics": 1.0166649362082059,
+      "head_mean_cost": 0.21394988254307185,
+      "head_reduction_vs_zero": 0.9552189214447953,
+      "model_step_ns": 5000000,
+      "reference_means": {
+        "physics_fit": 0.21044286561217293,
+        "sim_oracle": 0.21044286561217293,
+        "zero_command": 4.7776848938401795
+      }
+    }
+  ],
+  "development_audit_sha256": "0f5859f94525f2de5e73da0c7203fa1b706f5b84f788564b9ae3f4f938e1845b",
+  "development_sha256": "817b29fb1aac0bc06ebef3413dc2a82ed84b8c2d4dc1e36a7fd48c5e233c2db2",
+  "n_training_seeds": 1,
+  "recorded_utc": "2026-10-02T03:54:19.365647Z",
+  "reference_receipts": [
+    {
+      "path": "evidence/M40/20261001T225554-138ae3b6/manifest.json",
+      "sha256": "ed12780f93b99a9b2caf713310f4b619b05695dd93b139f2f1732b720f0c5d10"
+    },
+    {
+      "path": "evidence/M40/20261001T225637-00d9fbcd/manifest.json",
+      "sha256": "3da2707ee68cc48ccaee7438f9fbbaf3efffed5e8d6cbfc58983817851192384"
+    },
+    {
+      "path": "evidence/M40/20261001T225803-5c931777/manifest.json",
+      "sha256": "2c3bd089ec88cf3f276f4b98c07b38fd88ac09564fe212bbad360f2a0bb43722"
+    },
+    {
+      "path": "evidence/M40/20261001T231104-6e2ebde1/manifest.json",
+      "sha256": "6b5f3ce50a1c2f5d06bb400c84cff5ec9a132789d119e4f4f2c4bfbd53da1b0c"
+    },
+    {
+      "path": "evidence/M40/20261001T231136-7a6309f9/manifest.json",
+      "sha256": "5ca6518f0b8b0c2eae02f292190f570b4c4394a10a242c04f661bb7a1e5f0b8a"
+    },
+    {
+      "path": "evidence/M40/20261001T231246-7580a0ff/manifest.json",
+      "sha256": "53bd2c650c975509c801636e36b91da5ffa77cca90caf491753d6e75dcc2a4ff"
+    },
+    {
+      "path": "evidence/M40/20261001T231450-3e9e2176/manifest.json",
+      "sha256": "9efe62c9c07eec98724818331b4073f353e7f861d47cc58969f7354be9ecba29"
+    },
+    {
+      "path": "evidence/M40/20261001T231524-6b53ffd2/manifest.json",
+      "sha256": "c5864da6a7b73e1313a4da39b286399c5e2b7720b920f7e3a394422b9f9eef61"
+    },
+    {
+      "path": "evidence/M40/20261001T231635-71a5cf0b/manifest.json",
+      "sha256": "d8c2e78cc2633c01ac8179e8ba9cdf3fbf4470f19c188f876781aa0f16ec8530"
+    },
+    {
+      "path": "evidence/M40/20261001T231840-595c304f/manifest.json",
+      "sha256": "d4271c61b6f749c525fc6515515cd051d46281153e8dea5fa3454664935ef603"
+    },
+    {
+      "path": "evidence/M40/20261001T231912-de9a9393/manifest.json",
+      "sha256": "02c35025304114228540867783bfeed70f32be27ab0ac1e5a8075734ed6354ab"
+    },
+    {
+      "path": "evidence/M40/20261001T232019-ddb5ee03/manifest.json",
+      "sha256": "1841f9317d9071d00c7bc8c1b033f1310d75ac91053a729798b394343db9f463"
+    },
+    {
+      "path": "evidence/M40/20261001T232220-5c0f79f9/manifest.json",
+      "sha256": "c4b566beae3c6fd30c8fd3e234a50eeabc253e82b5f1f5e9b995b4c821f5804b"
+    },
+    {
+      "path": "evidence/M40/20261001T232252-52218532/manifest.json",
+      "sha256": "d585c5ba1fe04b4d5011d351627cd35b3719fb0769a90c14d565ab18cb5a8096"
+    },
+    {
+      "path": "evidence/M40/20261001T232359-25828a66/manifest.json",
+      "sha256": "861d39c1c0373912ca45bb892c9f4317aee31388f342514f9e59396baa79e4cb"
+    },
+    {
+      "path": "evidence/M40/20261001T232559-26e67141/manifest.json",
+      "sha256": "d5f9f7192bcbc665020b18d93ebd9cf867db404f3e7704aca4832853cee6f09a"
+    },
+    {
+      "path": "evidence/M40/20261001T232631-97c5db94/manifest.json",
+      "sha256": "760e9bfa48a5872258442f08910bafc0799a115f1f167fcca08f42a51aa6fae3"
+    },
+    {
+      "path": "evidence/M40/20261001T232738-6f98c295/manifest.json",
+      "sha256": "e8c040cf7be98d9fd620e1e91ed9f17af3288b9833db3db4aae51b057e6325b3"
+    },
+    {
+      "path": "evidence/M40/20261001T232939-17e8d91d/manifest.json",
+      "sha256": "b75bc3a5c8ac6103c1a28aefbc3823dca0aaf7bb625044f7f666bd6f99a693cb"
+    },
+    {
+      "path": "evidence/M40/20261001T233011-d265c227/manifest.json",
+      "sha256": "226d33ee92527421066cf8480935114ff44ee8c8f5381bd20de376d0f1721bb9"
+    },
+    {
+      "path": "evidence/M40/20261001T233117-6cf9f941/manifest.json",
+      "sha256": "e09f389fcc314f1e72888389983eb0d13d91404b6cc4b4ae5981340468107f05"
+    },
+    {
+      "path": "evidence/M40/20261001T233319-fc3e420a/manifest.json",
+      "sha256": "352fe6fb47cb6044d21e91f58f65eb2eebbd174f7773bd4065def634c1a5073a"
+    },
+    {
+      "path": "evidence/M40/20261001T233353-9d0e9d11/manifest.json",
+      "sha256": "09712415ba81222777948c5e2d2b456deb82f6d657493c1efbdf81a82cc42d6d"
+    },
+    {
+      "path": "evidence/M40/20261001T233506-6840d5b2/manifest.json",
+      "sha256": "2fed9fadf659cc48b64cd7c7b6851da1c80357c2093b09ad441b2a89ba20883c"
+    },
+    {
+      "path": "evidence/M40/20261001T233712-a7e0e639/manifest.json",
+      "sha256": "a253edb3908e9f0297a2681664e893f271a554e124820ba434c98c7a70ae6838"
+    },
+    {
+      "path": "evidence/M40/20261001T233745-9b8545c9/manifest.json",
+      "sha256": "fb3ed14cd04c435ab67fb01e6cd453db43014213dcced3f2a5108c4e951eb27a"
+    },
+    {
+      "path": "evidence/M40/20261001T233855-8bb0e837/manifest.json",
+      "sha256": "3354326b1547361a89d001841108c7d02c4986c4945222380a1a7050c0a6831c"
+    },
+    {
+      "path": "evidence/M40/20261001T234059-2d6a3e87/manifest.json",
+      "sha256": "cee1917550c82bd823401761ffc82d682c6cc9b6f96add26b975dc0d60f4cd95"
+    },
+    {
+      "path": "evidence/M40/20261001T234132-5e7d4ba0/manifest.json",
+      "sha256": "bd19ad1c2d8809f551b56c01c75dc52f654e1568eb080c18a43ba09aeb1e07d2"
+    },
+    {
+      "path": "evidence/M40/20261001T234241-49dca0cf/manifest.json",
+      "sha256": "786de745d379132702b4c9f6e120d983f98bf49d27f43a788c7487ef2299e556"
+    }
+  ],
+  "reference_successes": {
+    "physics_fit": 6,
+    "sim_oracle": 6,
+    "zero_command": 0
+  },
+  "schema_version": 1,
+  "scope": "Exact same task, initial state, target, hardware clocks and CEM seed streams; physics reference integrated independently of requested model partition; no population inference",
+  "script_sha256": "1123ca3dc1482f2660235a4b19199dec40af6fb2e149644c723c3e136afb9738",
+  "selection": "Supplementary reference context after development outcomes; all ten matching task IDs retained",
+  "statistical_status": "descriptive_only",
+  "task_count": 10
+}

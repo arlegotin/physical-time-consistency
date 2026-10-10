@@ -1,0 +1,142 @@
+{
+  "batch_sha256": "817b29fb1aac0bc06ebef3413dc2a82ed84b8c2d4dc1e36a7fd48c5e233c2db2",
+  "latency_source": "All saved real planning decisions, 400 per model/partition",
+  "recorded_utc": "2026-10-02T02:20:41.705532Z",
+  "rows": [
+    {
+      "artifact_disk_bytes": 24665291,
+      "max_observed_peak_rss_bytes": 393674752,
+      "mean_command_effort_integral": 1.3395288092287352,
+      "mean_q_rmse_rad": 0.17945812980522396,
+      "mean_terminal_q_error_rad": 0.016532804600051555,
+      "mean_velocity_rms_rad_s": 0.7130413948510659,
+      "model_id": "mlp_dt",
+      "model_step_ns": 40000000,
+      "n_episodes": 10,
+      "n_planning_decisions": 400,
+      "planner_latency_median_s": 0.6239655415,
+      "planner_latency_p95_s": 0.63482013305,
+      "producer_cpu_seconds": 258.521099,
+      "producer_wall_seconds": 259.108309959,
+      "work": {
+        "history_tokens_processed": 0,
+        "network_calls": 9600,
+        "scalar_candidate_evaluations": 1228800,
+        "vector_field_calls": 0
+      }
+    },
+    {
+      "artifact_disk_bytes": 24696881,
+      "max_observed_peak_rss_bytes": 394526720,
+      "mean_command_effort_integral": 1.3190283786274908,
+      "mean_q_rmse_rad": 0.20603606772269262,
+      "mean_terminal_q_error_rad": 0.09350806203386094,
+      "mean_velocity_rms_rad_s": 0.7778550834383717,
+      "model_id": "mlp_dt",
+      "model_step_ns": 5000000,
+      "n_episodes": 10,
+      "n_planning_decisions": 400,
+      "planner_latency_median_s": 1.9140342295,
+      "planner_latency_p95_s": 1.942399416,
+      "producer_cpu_seconds": 775.111473,
+      "producer_wall_seconds": 776.005269082,
+      "work": {
+        "history_tokens_processed": 0,
+        "network_calls": 76800,
+        "scalar_candidate_evaluations": 9830400,
+        "vector_field_calls": 0
+      }
+    },
+    {
+      "artifact_disk_bytes": 24673849,
+      "max_observed_peak_rss_bytes": 399425536,
+      "mean_command_effort_integral": 1.3555081062648136,
+      "mean_q_rmse_rad": 0.17998548347640508,
+      "mean_terminal_q_error_rad": 0.015877921022623077,
+      "mean_velocity_rms_rad_s": 0.7076613363867348,
+      "model_id": "node_generic",
+      "model_step_ns": 40000000,
+      "n_episodes": 10,
+      "n_planning_decisions": 400,
+      "planner_latency_median_s": 0.643149354,
+      "planner_latency_p95_s": 0.65181563095,
+      "producer_cpu_seconds": 266.436731,
+      "producer_wall_seconds": 266.627748918,
+      "work": {
+        "history_tokens_processed": 0,
+        "network_calls": 38400,
+        "scalar_candidate_evaluations": 1228800,
+        "vector_field_calls": 38400
+      }
+    },
+    {
+      "artifact_disk_bytes": 24676457,
+      "max_observed_peak_rss_bytes": 393478144,
+      "mean_command_effort_integral": 1.3555081062648136,
+      "mean_q_rmse_rad": 0.17998548347640508,
+      "mean_terminal_q_error_rad": 0.015877921022623066,
+      "mean_velocity_rms_rad_s": 0.7076613363867348,
+      "model_id": "node_generic",
+      "model_step_ns": 5000000,
+      "n_episodes": 10,
+      "n_planning_decisions": 400,
+      "planner_latency_median_s": 2.0422983125,
+      "planner_latency_p95_s": 2.0794912524,
+      "producer_cpu_seconds": 827.370936,
+      "producer_wall_seconds": 827.8524012089999,
+      "work": {
+        "history_tokens_processed": 0,
+        "network_calls": 307200,
+        "scalar_candidate_evaluations": 9830400,
+        "vector_field_calls": 307200
+      }
+    },
+    {
+      "artifact_disk_bytes": 24678881,
+      "max_observed_peak_rss_bytes": 393412608,
+      "mean_command_effort_integral": 1.3132288222215098,
+      "mean_q_rmse_rad": 0.18054227930472216,
+      "mean_terminal_q_error_rad": 0.009848369244000456,
+      "mean_velocity_rms_rad_s": 0.7075548300668575,
+      "model_id": "power_correct",
+      "model_step_ns": 40000000,
+      "n_episodes": 10,
+      "n_planning_decisions": 400,
+      "planner_latency_median_s": 0.631469292,
+      "planner_latency_p95_s": 0.6415940312499999,
+      "producer_cpu_seconds": 262.081801,
+      "producer_wall_seconds": 262.154007375,
+      "work": {
+        "history_tokens_processed": 0,
+        "network_calls": 19200,
+        "scalar_candidate_evaluations": 1228800,
+        "vector_field_calls": 0
+      }
+    },
+    {
+      "artifact_disk_bytes": 24680814,
+      "max_observed_peak_rss_bytes": 396853248,
+      "mean_command_effort_integral": 1.3173484001801188,
+      "mean_q_rmse_rad": 0.1783987037808698,
+      "mean_terminal_q_error_rad": 0.01640071241870197,
+      "mean_velocity_rms_rad_s": 0.7255950849622648,
+      "model_id": "power_correct",
+      "model_step_ns": 5000000,
+      "n_episodes": 10,
+      "n_planning_decisions": 400,
+      "planner_latency_median_s": 1.949026458,
+      "planner_latency_p95_s": 1.9753207694,
+      "producer_cpu_seconds": 789.188476,
+      "producer_wall_seconds": 789.2833900410001,
+      "work": {
+        "history_tokens_processed": 0,
+        "network_calls": 153600,
+        "scalar_candidate_evaluations": 9830400,
+        "vector_field_calls": 0
+      }
+    }
+  ],
+  "schema_version": 1,
+  "timing_interpretation": "Offline planning; wall delay is not injected as physical latency; no real-time deployment result",
+  "work_source": "Saved episode counters, including both head passes and all RK4 field stages"
+}

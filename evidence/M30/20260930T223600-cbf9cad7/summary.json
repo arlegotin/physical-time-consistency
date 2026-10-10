@@ -1,0 +1,7 @@
+{
+  "manifest_path": "data/lagged/A/development/manifest.json",
+  "manifest_sha256": "169340018a2cb6ca96c1d98796968c0c35593b7557305ae278dbcec55037252e",
+  "missing_cells": [],
+  "trajectory_count": 128,
+  "transition_count": 4096
+}

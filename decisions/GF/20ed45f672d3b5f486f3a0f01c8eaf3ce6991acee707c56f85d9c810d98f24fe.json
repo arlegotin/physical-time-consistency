@@ -1,0 +1,63 @@
+{
+  "alpha_spent": null,
+  "code_tree_sha256": "a75a1bfe78e46974c797cae69adc6dd439141175c57041060b2a32a1ae875ec7",
+  "configuration_sha256": "15c64b60332c1b604957b04e2380287859383993e77825dd38a06d2f06978467",
+  "created_utc": "2026-10-01T18:28:35.506643Z",
+  "criterion_evaluations": [
+    {
+      "bounds": null,
+      "criterion_id": "GF.source_closure",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "Verified against pinned scientific inputs and the complete report tables",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "GF.claim_tables",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "Verified against pinned scientific inputs and the complete report tables",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "GF.report_artifacts",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "Verified against pinned scientific inputs and the complete report tables",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "GF.reproduction_contract",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "Verified against pinned scientific inputs and the complete report tables",
+      "status": "pass",
+      "threshold": null
+    }
+  ],
+  "decision_id": "20ed45f672d3b5f486f3a0f01c8eaf3ce6991acee707c56f85d9c810d98f24fe",
+  "evidence": [
+    {
+      "path": "evidence/MF/20261001T181004-a859f6f3/manifest.json",
+      "producing_run_id": "20261001T181004-a859f6f3",
+      "role": "manifest",
+      "sha256": "b7997a9dfd38cec9bad23bb78724d0fa76e7c7b2fba86ae32087389a9df55ba2"
+    }
+  ],
+  "gate_id": "GF",
+  "look_index": null,
+  "milestone_id": "MF",
+  "outcome": "GO",
+  "permitted_next_actions": [],
+  "phase": "report",
+  "protocol_version": "PTCO-1.0",
+  "schema_version": 1,
+  "terminal_verdict": null,
+  "validity_status": "valid"
+}

@@ -1,0 +1,34 @@
+{
+  "blocker": null,
+  "checks": [
+    {
+      "check_id": "M30.data",
+      "reason": "Child train failed; preserved diagnostics: evidence/M30/20261001T063810-d70ee7d1/train-ad6dc6f2daaf292d7eb1816c7ae95ee342f5ff2d63a105b941d188eca65a4fa0.stderr.log",
+      "scope": "M30",
+      "status": "invalid",
+      "tolerance": null
+    },
+    {
+      "check_id": "M30.training",
+      "reason": "Child train failed; preserved diagnostics: evidence/M30/20261001T063810-d70ee7d1/train-ad6dc6f2daaf292d7eb1816c7ae95ee342f5ff2d63a105b941d188eca65a4fa0.stderr.log",
+      "scope": "M30",
+      "status": "invalid",
+      "tolerance": null
+    },
+    {
+      "check_id": "M30.nominal_freeze",
+      "reason": "Child train failed; preserved diagnostics: evidence/M30/20261001T063810-d70ee7d1/train-ad6dc6f2daaf292d7eb1816c7ae95ee342f5ff2d63a105b941d188eca65a4fa0.stderr.log",
+      "scope": "M30",
+      "status": "invalid",
+      "tolerance": null
+    },
+    {
+      "check_id": "M30.audit",
+      "reason": "Child train failed; preserved diagnostics: evidence/M30/20261001T063810-d70ee7d1/train-ad6dc6f2daaf292d7eb1816c7ae95ee342f5ff2d63a105b941d188eca65a4fa0.stderr.log",
+      "scope": "M30",
+      "status": "invalid",
+      "tolerance": null
+    }
+  ],
+  "validity_status": "invalid"
+}

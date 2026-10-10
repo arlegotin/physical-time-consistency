@@ -1,0 +1,7 @@
+{
+  "status": "failed",
+  "stage": "native_chrome_startup",
+  "exit_signal": "SIGABRT (6)",
+  "stderr": "empty",
+  "scope": "local artifact rendering only; completed scientific evidence unaffected"
+}

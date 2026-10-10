@@ -1,0 +1,86 @@
+{
+  "actuator": "direct",
+  "actuator_interval_ns": 40000000,
+  "candidate_count_per_decision": 512,
+  "checkpoint_hash": "d792daeddbf667f8515cd51e0eccaab22a88fffd026dcb3ea8a1a21022e0f146",
+  "command_effort_integral": 6.536609067228859,
+  "complete": true,
+  "condition": "clean",
+  "cost_components": {
+    "effort": 0.006536609067228859,
+    "terminal": 0.1367842891638668,
+    "total": 0.4905296156119771,
+    "tracking": 0.14392004907932923,
+    "velocity": 0.2032886683015522
+  },
+  "episode_id": 1,
+  "experiment_id": "E03",
+  "fallback_count": 0,
+  "final_window_sample_count": 801,
+  "initial_state": [
+    -0.02534101848435577,
+    0.382802738675005,
+    0.0,
+    0.0
+  ],
+  "missing_cells": [],
+  "model_hashes": {
+    "checkpoint_sha256": "d792daeddbf667f8515cd51e0eccaab22a88fffd026dcb3ea8a1a21022e0f146"
+  },
+  "model_id": "power_correct",
+  "model_partition_ns": [
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000
+  ],
+  "oracle_physics_steps": 0,
+  "phase": "exploratory",
+  "physics_step_ns": 250000,
+  "planner_latency_median_seconds": 1.943212417,
+  "planner_latency_p95_seconds": 1.9613464643,
+  "power_mode": "lagged",
+  "q_rmse_rad": 0.22070476557629587,
+  "realized_cost": 0.4905296156119771,
+  "resource_projection": {
+    "disk_bytes": 2964426.25,
+    "measurement_manifest": "evidence/M40/20261002T022415-5c4e77b8/manifest.json",
+    "measurement_manifest_sha256": "89301b785f1412e21492bf692e3790eab534a79995e57402f000156ca4bef751",
+    "projection_margin": 1.25,
+    "reason": "Measured same model, plant, power mode and clock; unchanged ten-task workload; estimate, not a cap",
+    "wall_seconds": 99.23648552125
+  },
+  "run_id": "20261002T045217-7e231354",
+  "seed": 9000,
+  "seed_namespaces": {
+    "cem": [
+      7101,
+      9000,
+      1,
+      2
+    ],
+    "disturbance": [
+      7101,
+      9000,
+      0,
+      4
+    ]
+  },
+  "success": false,
+  "target": [
+    -0.7956530846834318,
+    0.23218799511377952
+  ],
+  "terminal_q_error_rad": 0.16539908655362448,
+  "velocity_rms_rad_s": 0.9252431734223019,
+  "work": {
+    "history_tokens_processed": 0,
+    "network_calls": 15360,
+    "scalar_candidate_evaluations": 983040,
+    "vector_field_calls": 0
+  }
+}

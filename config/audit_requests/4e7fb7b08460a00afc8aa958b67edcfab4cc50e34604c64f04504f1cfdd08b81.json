@@ -1,0 +1,12 @@
+{
+  "actuator": "direct",
+  "cell_id": "direct__A__one_step__mlp_dt__seed9000",
+  "condition": "A",
+  "corpus_manifest": "data/direct/A/development/manifest.json",
+  "experiment_id": "E01",
+  "freeze_path": "config/exploratory_progress_freeze.json",
+  "loss_mode": "one_step",
+  "model_id": "mlp_dt",
+  "seed": 9000,
+  "training_manifest": "evidence/M30/20261001T073021-7751df63/manifest.json"
+}

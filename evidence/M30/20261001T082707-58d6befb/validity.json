@@ -1,0 +1,13 @@
+{
+  "blocker": null,
+  "checks": [
+    {
+      "check_id": "E01.coverage",
+      "reason": "Every cold/warm state, horizon and raw derivative branch retained; model failures explicit",
+      "scope": "E01",
+      "status": "pass",
+      "tolerance": null
+    }
+  ],
+  "validity_status": "valid"
+}

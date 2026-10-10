@@ -1,0 +1,90 @@
+{
+  "blocker": null,
+  "checks": [
+    {
+      "check_id": "authorization",
+      "reason": "Actual owner allocation recorded: {'ram_limit_gib': None, 'disk_limit_gib': None, 'cpu_time_limit_hours': None}",
+      "scope": "M00",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "python",
+      "reason": "3.11.5 | packaged by conda-forge | (main, Aug 27 2023, 03:33:12) [Clang 15.0.7 ]",
+      "scope": "M00",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "architecture",
+      "reason": "macOS-26.6.2-arm64-arm-64bit",
+      "scope": "M00",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "virtual_environment",
+      "reason": ".venv",
+      "scope": "M00",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "disk",
+      "reason": "12415115264 available bytes; suggested estimates are not resource caps",
+      "scope": "M00",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "packages",
+      "reason": "All exact pins installed and pip check passed",
+      "scope": "M00",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "determinism",
+      "reason": "CPU, independently seeded RNGs, one thread, deterministic algorithms",
+      "scope": "M00",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "nstep",
+      "reason": "Installed empty-world nstep=20 matches twenty individual steps",
+      "scope": "M00",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "torch_smoke",
+      "reason": "float32 backward, float64 autograd, AdamW update, safe checkpoint load, timers and hashing passed",
+      "scope": "M00",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "wheel_lock",
+      "reason": "25 complete resolved distributions, exact compatible wheels, SHA-256 hashes and license notices",
+      "scope": "M00",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "offline_install",
+      "reason": "Fresh temporary venv installed solely from locked wheelhouse; pip check passed",
+      "scope": "M00",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "validators",
+      "reason": "Protocol constants, milestone registry and strict serialization validate",
+      "scope": "M00",
+      "status": "pass",
+      "tolerance": null
+    }
+  ],
+  "validity_status": "valid"
+}

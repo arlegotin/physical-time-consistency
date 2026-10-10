@@ -1,0 +1,14 @@
+{
+  "cpu_seconds": 24.919224000000003,
+  "disk_bytes": 1108635,
+  "original_estimate": {
+    "additional_control_episodes": 0,
+    "additional_training_updates": 0,
+    "new_disk_bytes_estimate": 20971520,
+    "runtime_projection": "Measure first reference batch; no artificial runtime cap"
+  },
+  "peak_rss_bytes": 288358400,
+  "rss_convention": "macOS bytes",
+  "training_updates": 0,
+  "wall_seconds": 25.094726417
+}

@@ -1,0 +1,36 @@
+{
+  "active_forty_seed_context_changed": false,
+  "compatible_sources": [
+    {
+      "current_sha256": "d56ccfaca398e08edc934b24c8b3ba7c7424628ffd5af4c753e36ef2bc5d7368",
+      "path": "poc/train.py",
+      "prior_path": "config/revisions/training-recovery-originals/train.py",
+      "prior_sha256": "4f3dca540505a8cb4489944f00f4486b2adbc7713e24733ee6e7b7e94396c8c3"
+    },
+    {
+      "current_sha256": "319d96f140a8d352a24e792c5538cad8f22fb43539f6e95c493b626bad100396",
+      "path": "poc/planner_qualification.py",
+      "prior_path": "config/revisions/training-recovery-originals/planner_qualification.py",
+      "prior_sha256": "87d5b1c908ee32013a1388592c5b9b10f159b36db4587dae70fa356c0a8ea1f4"
+    }
+  ],
+  "copied_nominal_context_changed": true,
+  "evidence": {
+    "post_repair": "47 recovery/training/planner tests passed; read-only review found no further root recovery blocker",
+    "pre_repair_outcome": "Four failing minimal boundary tests; two reproduce interrupted attempt lookup, two require missing atomic selection support",
+    "tests": "tests/test_training_recovery_boundaries.py"
+  },
+  "legacy_checkpoint_requirement": "Independently recompute allowed nominal validation scores before restoring a legacy selection",
+  "numerical_algorithms_changed": false,
+  "reason": "Repair atomic validation selection and interrupted attempt ancestry; no optimizer, loss, model or control numerical changes",
+  "recorded_utc": "2026-10-02T02:50:30.470999Z",
+  "schema_version": 1,
+  "source_scope": [
+    "poc/train.py",
+    "poc/planner_qualification.py"
+  ],
+  "working_context_repair_receipt": {
+    "path": "reports/control_training_context_repair.json",
+    "sha256": "291bf0ec4622e5662f158ef6bdb0fd0b43b671e0d63524609dae3ca0d800d23f"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "independently_recomputed_statistics": 1536,
+  "maximum_absolute_reconciliation_discrepancy": 1.5265566588595902e-16,
+  "note": "Separate direct NumPy arithmetic over raw endpoints; no diagnostic decomposition or summary helper called.",
+  "protocol_id": "PTCO-DIAG-0.1",
+  "reference_checks": {
+    "direct": {
+      "all_rows_resolved": true,
+      "oracle_status_ok": true,
+      "sha256": "4c7ad2f436cbfff421ea5d2f1f9a203dd4e1fcff812761d6b4274c2898497cd2"
+    },
+    "lagged": {
+      "all_rows_resolved": true,
+      "oracle_status_ok": true,
+      "sha256": "9ee3ba7f8017ca1b6abc514958f1e1f714605eb04f16f118266e0800401d8fc0"
+    }
+  },
+  "signed_squared_identity_checked": true,
+  "source_manifest_sha256": "6a93b78d12ee56eedc96f11a456ee74e0460a38898a134ed8e340d31422cda61",
+  "status": "pass"
+}

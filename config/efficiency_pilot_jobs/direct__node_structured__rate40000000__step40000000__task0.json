@@ -1,0 +1,33 @@
+{
+  "actuator": "direct",
+  "actuator_interval_ns": 40000000,
+  "checkpoint_sha256": "1894730a7e0abc7df17816a1527e4f4be42c3d28b60f329c61127f1601055560",
+  "condition": "clean",
+  "episode_id": 0,
+  "freeze_sha256": "39bacb772bcc4af7e44879ea2d345c35e5247c7916f161c535c5a486c430d132",
+  "inference_variant": "original",
+  "manifest_sha256": "f9e75e513195ec43bbc184941b9540569e2e44f6f169c56c31a22506ac823270",
+  "model_id": "node_structured",
+  "model_manifest": "study/control-development/evidence/M30/20261002T144640-2021313a/manifest.json",
+  "model_partition_ns": [
+    40000000
+  ],
+  "phase": "exploratory",
+  "physics_step_ns": 250000,
+  "planner_settings": {
+    "candidate_count": 128,
+    "elite_count": 16,
+    "initial_std": 1.0,
+    "iterations": 4,
+    "std_floor": 0.1
+  },
+  "power_mode": null,
+  "protocol_id": "PTCO-EFF-0.1",
+  "resource_projection": {
+    "owner_imposed_caps": null,
+    "prior_artifact_bytes_per_episode": 2500000,
+    "reason": "Historical 2.5 MiB/episode; measure actual new rate/model before full batch"
+  },
+  "schema_version": 1,
+  "seed": 9000
+}

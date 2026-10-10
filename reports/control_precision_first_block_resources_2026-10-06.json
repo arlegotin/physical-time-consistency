@@ -1,0 +1,431 @@
+{
+  "actual_completed_resources": {
+    "artifact_bytes": 49081509,
+    "cpu_seconds": 1667.999338,
+    "fallback_count": 0,
+    "observed_queue_seconds": 2304.422379,
+    "peak_rss_bytes": 415023104,
+    "producer_wall_seconds": 1675.6186216719998
+  },
+  "actual_free_bytes": 5923581952,
+  "alpha_spent": 0,
+  "attempt_hashes": {
+    "reports/control_precision_episode_attempts/primary-0000-20261006T164641877458Z/attempt.json": "731e902c65bbc5492c4e70f95db61bfc7a63c9cfcbe255e061cc2538376a8674",
+    "reports/control_precision_episode_attempts/primary-0001-20261006T164839948455Z/attempt.json": "5599f1f5d1a0a7201b0e1acbd8107aaff14037400d4319fcd4d5706e314cbe95",
+    "reports/control_precision_episode_attempts/primary-0002-20261006T165037354640Z/attempt.json": "128337a98c9d40731067ef02f8a67c50f543e43d98b20b6b50d2b6eb145cd274",
+    "reports/control_precision_episode_attempts/primary-0003-20261006T165235733860Z/attempt.json": "407290f2ff50104d0c5230b386d9507fb4be3f170a3b527e538a5f2dc4688c4e",
+    "reports/control_precision_episode_attempts/primary-0004-20261006T165435341994Z/attempt.json": "146c2ffc7706765c08a94c56bf4c613363d7c19672f78ae62e39f00e2abcc124",
+    "reports/control_precision_episode_attempts/primary-0005-20261006T165633613911Z/attempt.json": "53c819acd0659c0dc8bd94c9bc00bcb5ca2a487f02910e213eef8a721431e1fb",
+    "reports/control_precision_episode_attempts/primary-0006-20261006T165832558237Z/attempt.json": "7867d0890d845a516f28d2bb0c41b3e45ef2ce46059411223f3c08656f555969",
+    "reports/control_precision_episode_attempts/primary-0007-20261006T170028538874Z/attempt.json": "3c29aaaec5dfd5f361103254cf434285d290b85be78f23d308bfeb46a04daf12",
+    "reports/control_precision_episode_attempts/primary-0008-20261006T170221534822Z/attempt.json": "45ea56edbd7ed1d09871aa84a95069e542bdc9e6b9bb35e125670a9089923433",
+    "reports/control_precision_episode_attempts/primary-0009-20261006T170411996402Z/attempt.json": "babb7c4185b4259e45a6d523afc0a5e27d9e63240f63375aa446aba864075f01",
+    "reports/control_precision_episode_attempts/primary-0010-20261006T170612041683Z/attempt.json": "2abbcfb1d7e1756c66b2568bd53823b44d88961967eabd7f55b131d6d191a67a",
+    "reports/control_precision_episode_attempts/primary-0011-20261006T170812917005Z/attempt.json": "ad5a578554a56d311fc9ca722e59c09575f2dfdf782e763f7f38c44ab0bc5889",
+    "reports/control_precision_episode_attempts/primary-0012-20261006T171012317946Z/attempt.json": "71ebca724cfefafd8fd2be9e0628f53df9e69faf218038dec3bfa85e03e15feb",
+    "reports/control_precision_episode_attempts/primary-0013-20261006T171210296381Z/attempt.json": "67e03ba201f5d7f0c174f6ddfda29cc89510855735df029ab4cd1a0613aa3cd3",
+    "reports/control_precision_episode_attempts/primary-0014-20261006T171408902801Z/attempt.json": "cdc0dc8944f94d67e147ecb3622aefd96e661aa87c16c52fcb755fc4bec983bb",
+    "reports/control_precision_episode_attempts/primary-0015-20261006T171605762933Z/attempt.json": "bd0b940d1f66c0ecef23d3ab8c4a741fafc6d9cf0158c06ee3039a7325b60589",
+    "reports/control_precision_episode_attempts/primary-0016-20261006T171759240381Z/attempt.json": "f3459ce20290e9cacace7bed15bcd193d0ec9571509fa6ac4ec3d62dd02bdee9",
+    "reports/control_precision_episode_attempts/primary-0017-20261006T171950777895Z/attempt.json": "09f7cb00edd2bf6528aa1a9a16948ff0c8e177f4f0931d31393fd4897d03842f",
+    "reports/control_precision_episode_attempts/primary-0018-20261006T172140887036Z/attempt.json": "af579941d063a049fca22d1bbe73e2467d4871e7e260afe6e141660c2ab22ee2",
+    "reports/control_precision_episode_attempts/primary-0019-20261006T172332201992Z/attempt.json": "5942852ea77239f577568fd3b4c8d29c5e1e7d77da5f825491f0441f54ce818c"
+  },
+  "completed_episodes": 20,
+  "observed_utc": "2026-10-06T17:26:52.405873Z",
+  "operational_only": true,
+  "projection": {
+    "limitation": "Throughput extrapolation from one model/plant/seed and the original four-cell workload; future cells, audits, finer physics, replay and concurrent activity can change runtime. This is not a ceiling or promised finish time.",
+    "mean_observed_startup_verification_gap_seconds": 31.440187866400017,
+    "primary_remaining_at_block_boundary": 380,
+    "remaining_primary_artifact_bytes": 954884696.7000035,
+    "remaining_primary_wall_seconds": 44604.210866116366,
+    "science_wall_scale_from_first_cell": 1.0598242462267178
+  },
+  "schema_version": 1,
+  "scientific_verdict": null,
+  "scope": "First twenty new direct-MLP seed-5 tasks; operational evidence only, no paired effect estimate or statistical look",
+  "state": "complete",
+  "verified": [
+    {
+      "cell_id": "direct__A__shared__mlp_dt__seed5__h5000000__episode0",
+      "fallback_count": 0,
+      "manifest": "evidence/M70/20261006T164656-84c180aa/manifest.json",
+      "manifest_sha256": "142bb156eb8339e17ad1bebae229ffb8eacce4ef6df9bc7aab5520c70d89c2cd",
+      "resources": {
+        "cpu_seconds": 85.194844,
+        "disk_bytes": 2460641,
+        "original_estimate": {
+          "artifact_bytes": 2512854.465,
+          "basis": "Measured same-size original paired fine-time cohort; actual jobs are recorded",
+          "cpu_seconds": 80.8860854425
+        },
+        "peak_rss_bytes": 398622720,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 85.674357458
+      }
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__seed5__h5000000__episode1",
+      "fallback_count": 0,
+      "manifest": "evidence/M70/20261006T164853-4fae556a/manifest.json",
+      "manifest_sha256": "f23629bf657a53a31ddbd8986f1182c4f6680add9744738eaaa31cffe68e7c26",
+      "resources": {
+        "cpu_seconds": 84.793584,
+        "disk_bytes": 2456584,
+        "original_estimate": {
+          "artifact_bytes": 2512854.465,
+          "basis": "Measured same-size original paired fine-time cohort; actual jobs are recorded",
+          "cpu_seconds": 80.8860854425
+        },
+        "peak_rss_bytes": 394215424,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 85.387066375
+      }
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__seed5__h5000000__episode2",
+      "fallback_count": 0,
+      "manifest": "evidence/M70/20261006T165051-15ad2889/manifest.json",
+      "manifest_sha256": "c4cd20a0ee3e44e2400dad689ec0ebe47d029f8725f23a38018b63e7ab369c54",
+      "resources": {
+        "cpu_seconds": 85.208856,
+        "disk_bytes": 2403393,
+        "original_estimate": {
+          "artifact_bytes": 2512854.465,
+          "basis": "Measured same-size original paired fine-time cohort; actual jobs are recorded",
+          "cpu_seconds": 80.8860854425
+        },
+        "peak_rss_bytes": 399179776,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 85.720580917
+      }
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__seed5__h5000000__episode3",
+      "fallback_count": 0,
+      "manifest": "evidence/M70/20261006T165252-a9bc1891/manifest.json",
+      "manifest_sha256": "08bb860b7c23ad8c1ca1245d452c52a2b0d0e85510082c42d452c53cefd3505f",
+      "resources": {
+        "cpu_seconds": 84.716633,
+        "disk_bytes": 2455283,
+        "original_estimate": {
+          "artifact_bytes": 2512854.465,
+          "basis": "Measured same-size original paired fine-time cohort; actual jobs are recorded",
+          "cpu_seconds": 80.8860854425
+        },
+        "peak_rss_bytes": 404914176,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 85.310037084
+      }
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__seed5__h5000000__episode4",
+      "fallback_count": 0,
+      "manifest": "evidence/M70/20261006T165449-2e7dda8c/manifest.json",
+      "manifest_sha256": "836d051060af7a4b6c6b188f97fc8412114874eeaf866ae787304ceccf6d48cd",
+      "resources": {
+        "cpu_seconds": 84.255669,
+        "disk_bytes": 2463963,
+        "original_estimate": {
+          "artifact_bytes": 2512854.465,
+          "basis": "Measured same-size original paired fine-time cohort; actual jobs are recorded",
+          "cpu_seconds": 80.8860854425
+        },
+        "peak_rss_bytes": 395657216,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 84.912429
+      }
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__seed5__h5000000__episode5",
+      "fallback_count": 0,
+      "manifest": "evidence/M70/20261006T165649-4a3f3fde/manifest.json",
+      "manifest_sha256": "0c28eca00498945f22c77fdd4dc95c8d5f4e687099b18c1ec4cf7de01b78ed82",
+      "resources": {
+        "cpu_seconds": 84.730366,
+        "disk_bytes": 2428673,
+        "original_estimate": {
+          "artifact_bytes": 2512854.465,
+          "basis": "Measured same-size original paired fine-time cohort; actual jobs are recorded",
+          "cpu_seconds": 80.8860854425
+        },
+        "peak_rss_bytes": 409468928,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 85.317410084
+      }
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__seed5__h5000000__episode6",
+      "fallback_count": 0,
+      "manifest": "evidence/M70/20261006T165846-2c751a41/manifest.json",
+      "manifest_sha256": "592119555c7dcb70b3a3ee3cd8d9568cf7fea4598eb79b68426bdfc749b0de27",
+      "resources": {
+        "cpu_seconds": 83.847341,
+        "disk_bytes": 2470354,
+        "original_estimate": {
+          "artifact_bytes": 2512854.465,
+          "basis": "Measured same-size original paired fine-time cohort; actual jobs are recorded",
+          "cpu_seconds": 80.8860854425
+        },
+        "peak_rss_bytes": 402128896,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 84.005093042
+      }
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__seed5__h5000000__episode7",
+      "fallback_count": 0,
+      "manifest": "evidence/M70/20261006T170042-ce15e6a7/manifest.json",
+      "manifest_sha256": "6e26f75565754c4af1bcbc8ff13778389455125e3a64cb87223430984fbc83d7",
+      "resources": {
+        "cpu_seconds": 81.807828,
+        "disk_bytes": 2451455,
+        "original_estimate": {
+          "artifact_bytes": 2512854.465,
+          "basis": "Measured same-size original paired fine-time cohort; actual jobs are recorded",
+          "cpu_seconds": 80.8860854425
+        },
+        "peak_rss_bytes": 405929984,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 81.866945584
+      }
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__seed5__h5000000__episode8",
+      "fallback_count": 0,
+      "manifest": "evidence/M70/20261006T170234-148c1af1/manifest.json",
+      "manifest_sha256": "e5b319e0dc0fdd4447be61cf98a95dc0264784950a014a076d09db9523a0c0bb",
+      "resources": {
+        "cpu_seconds": 80.250196,
+        "disk_bytes": 2466646,
+        "original_estimate": {
+          "artifact_bytes": 2512854.465,
+          "basis": "Measured same-size original paired fine-time cohort; actual jobs are recorded",
+          "cpu_seconds": 80.8860854425
+        },
+        "peak_rss_bytes": 398245888,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 80.457483084
+      }
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__seed5__h5000000__episode9",
+      "fallback_count": 0,
+      "manifest": "evidence/M70/20261006T170426-060a8bfd/manifest.json",
+      "manifest_sha256": "499a3ccd059c4816e1d346193bc0020c387caa0dc5e17ef6a108577be4ae6e65",
+      "resources": {
+        "cpu_seconds": 86.617847,
+        "disk_bytes": 2476404,
+        "original_estimate": {
+          "artifact_bytes": 2512854.465,
+          "basis": "Measured same-size original paired fine-time cohort; actual jobs are recorded",
+          "cpu_seconds": 80.8860854425
+        },
+        "peak_rss_bytes": 415023104,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 87.443783292
+      }
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__seed5__h5000000__episode10",
+      "fallback_count": 0,
+      "manifest": "evidence/M70/20261006T170627-18205f90/manifest.json",
+      "manifest_sha256": "da4a84d2d555ea84e8400b50b29c78167d6f64cf54bd4f1c1316b7eba6c2fa99",
+      "resources": {
+        "cpu_seconds": 85.228681,
+        "disk_bytes": 2465485,
+        "original_estimate": {
+          "artifact_bytes": 2512854.465,
+          "basis": "Measured same-size original paired fine-time cohort; actual jobs are recorded",
+          "cpu_seconds": 80.8860854425
+        },
+        "peak_rss_bytes": 401539072,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 86.1309015
+      }
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__seed5__h5000000__episode11",
+      "fallback_count": 0,
+      "manifest": "evidence/M70/20261006T170829-d49ff8da/manifest.json",
+      "manifest_sha256": "8932873e4461b420823c1c2b60085ff84447051e9d580ce38ea7dbbd3dff4a46",
+      "resources": {
+        "cpu_seconds": 84.94690600000001,
+        "disk_bytes": 2446915,
+        "original_estimate": {
+          "artifact_bytes": 2512854.465,
+          "basis": "Measured same-size original paired fine-time cohort; actual jobs are recorded",
+          "cpu_seconds": 80.8860854425
+        },
+        "peak_rss_bytes": 407306240,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 85.32934125
+      }
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__seed5__h5000000__episode12",
+      "fallback_count": 0,
+      "manifest": "evidence/M70/20261006T171026-13e14e0a/manifest.json",
+      "manifest_sha256": "eeadc548a38b1d9a96f4558f1f1d474a8762aea807048748afa706c58f4bc266",
+      "resources": {
+        "cpu_seconds": 85.34597500000001,
+        "disk_bytes": 2460787,
+        "original_estimate": {
+          "artifact_bytes": 2512854.465,
+          "basis": "Measured same-size original paired fine-time cohort; actual jobs are recorded",
+          "cpu_seconds": 80.8860854425
+        },
+        "peak_rss_bytes": 408567808,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 85.488248792
+      }
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__seed5__h5000000__episode13",
+      "fallback_count": 0,
+      "manifest": "evidence/M70/20261006T171224-618a810d/manifest.json",
+      "manifest_sha256": "1a488e691d9d739d124d4c3be662f2da67c5d9e2b1ad5aff96b08bf0b3762d54",
+      "resources": {
+        "cpu_seconds": 85.389828,
+        "disk_bytes": 2420451,
+        "original_estimate": {
+          "artifact_bytes": 2512854.465,
+          "basis": "Measured same-size original paired fine-time cohort; actual jobs are recorded",
+          "cpu_seconds": 80.8860854425
+        },
+        "peak_rss_bytes": 406274048,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 86.122884709
+      }
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__seed5__h5000000__episode14",
+      "fallback_count": 0,
+      "manifest": "evidence/M70/20261006T171423-060e91c3/manifest.json",
+      "manifest_sha256": "6d3f2f5907a7305d4fdab4633aa9c07ed6b30f59fa9f8cf534d84fd5ccc824f6",
+      "resources": {
+        "cpu_seconds": 84.343653,
+        "disk_bytes": 2474611,
+        "original_estimate": {
+          "artifact_bytes": 2512854.465,
+          "basis": "Measured same-size original paired fine-time cohort; actual jobs are recorded",
+          "cpu_seconds": 80.8860854425
+        },
+        "peak_rss_bytes": 408731648,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 84.711192334
+      }
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__seed5__h5000000__episode15",
+      "fallback_count": 0,
+      "manifest": "evidence/M70/20261006T171619-10be13f0/manifest.json",
+      "manifest_sha256": "101f37a211edbb0ebcc4b3ee0df91a6447a7d9e791c59147cca22c8e4b34c8d9",
+      "resources": {
+        "cpu_seconds": 82.075603,
+        "disk_bytes": 2471013,
+        "original_estimate": {
+          "artifact_bytes": 2512854.465,
+          "basis": "Measured same-size original paired fine-time cohort; actual jobs are recorded",
+          "cpu_seconds": 80.8860854425
+        },
+        "peak_rss_bytes": 409944064,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 82.206348
+      }
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__seed5__h5000000__episode16",
+      "fallback_count": 0,
+      "manifest": "evidence/M70/20261006T171813-26d6d71b/manifest.json",
+      "manifest_sha256": "eb1fab4132bdaf5f738945d0132c2cc79e118a29da982ead23c8cf3b0c8f039c",
+      "resources": {
+        "cpu_seconds": 80.36999300000001,
+        "disk_bytes": 2440464,
+        "original_estimate": {
+          "artifact_bytes": 2512854.465,
+          "basis": "Measured same-size original paired fine-time cohort; actual jobs are recorded",
+          "cpu_seconds": 80.8860854425
+        },
+        "peak_rss_bytes": 393084928,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 80.44385225
+      }
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__seed5__h5000000__episode17",
+      "fallback_count": 0,
+      "manifest": "evidence/M70/20261006T172004-a308d5e2/manifest.json",
+      "manifest_sha256": "03b4cce6e014991c8368a59dc453c32ab0fd3d566f3d1c6ac93b4a1d6d0f6084",
+      "resources": {
+        "cpu_seconds": 79.658361,
+        "disk_bytes": 2464892,
+        "original_estimate": {
+          "artifact_bytes": 2512854.465,
+          "basis": "Measured same-size original paired fine-time cohort; actual jobs are recorded",
+          "cpu_seconds": 80.8860854425
+        },
+        "peak_rss_bytes": 396656640,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 79.691845417
+      }
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__seed5__h5000000__episode18",
+      "fallback_count": 0,
+      "manifest": "evidence/M70/20261006T172155-bf37a020/manifest.json",
+      "manifest_sha256": "f42e2b8db433fea3528233e2f9326aff4ea5a49fecf71392e907cf94327825da",
+      "resources": {
+        "cpu_seconds": 79.668977,
+        "disk_bytes": 2434647,
+        "original_estimate": {
+          "artifact_bytes": 2512854.465,
+          "basis": "Measured same-size original paired fine-time cohort; actual jobs are recorded",
+          "cpu_seconds": 80.8860854425
+        },
+        "peak_rss_bytes": 397705216,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 79.755516542
+      }
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__seed5__h5000000__episode19",
+      "fallback_count": 0,
+      "manifest": "evidence/M70/20261006T172346-fb6c0aff/manifest.json",
+      "manifest_sha256": "75f5b383389a65cbeacddeb110174e5fd32537a39c8cb8ec16e1e44f0695b5f1",
+      "resources": {
+        "cpu_seconds": 79.548197,
+        "disk_bytes": 2468848,
+        "original_estimate": {
+          "artifact_bytes": 2512854.465,
+          "basis": "Measured same-size original paired fine-time cohort; actual jobs are recorded",
+          "cpu_seconds": 80.8860854425
+        },
+        "peak_rss_bytes": 396541952,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 79.643304958
+      }
+    }
+  ]
+}

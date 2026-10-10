@@ -1,0 +1,34 @@
+{
+  "actual_new_finer_episodes": 0,
+  "actual_new_primary_episodes": 0,
+  "focused_tests": {
+    "elapsed_seconds": 9.99,
+    "passed": 80,
+    "returncode": 0
+  },
+  "full_suite": {
+    "command": ".venv/bin/python -m pytest -q",
+    "elapsed_seconds": 108.74,
+    "passed": 869,
+    "returncode": 0
+  },
+  "new_control_outcomes_opened": false,
+  "original_replay_completed": 50,
+  "recorded_utc": "2026-10-06T04:13:20.370400Z",
+  "request_sha256": "2faa8eea8f660999b9ba6a5a82e5d4d8f315dd9df6b161dd2e88b13f4ea10e9d",
+  "schema_version": 1,
+  "source_sha256": "8d9b43e5581363ec3c284297410717b1142e94cebce16e1271cd12995de3cea8",
+  "status": "episode_runner_verified_not_scientific_execution",
+  "tested_scope": {
+    "affected_full_lagged_coordinates": 200,
+    "idempotent_resume": true,
+    "initial_finer_coordinates": 100,
+    "interrupted_attempts_retained": true,
+    "live_duplicate_lock_rejected": true,
+    "new_primary_coordinates": 400,
+    "producer_import_isolation": true,
+    "raw_cost_and_manifest_checked": true,
+    "real_mujoco_fixture": true
+  },
+  "tests_sha256": "fd045bf5b80d014f584e4c064307aa52440cda3fbbe76d9df8e537e533baa778"
+}

@@ -1,0 +1,17 @@
+{
+  "phase": "exploratory",
+  "protocol_version": "PTCO-1.0",
+  "purpose": "training",
+  "semantic_inputs": {
+    "actuator": "direct",
+    "cell_id": "direct__F__one_step__mlp_dt__seed9000",
+    "condition": "F",
+    "epochs": 100,
+    "learning_rate": 0.001,
+    "loss_mode": "one_step",
+    "model_id": "mlp_dt",
+    "seed": 9000,
+    "train_manifest": "data/direct/F/train/manifest.json",
+    "validation_manifest": "data/direct/F/validation/manifest.json"
+  }
+}

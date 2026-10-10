@@ -1,0 +1,17 @@
+<mujoco model="UnitMass-direct">
+  <compiler angle="radian" autolimits="false"/>
+  <option timestep="0.0005" gravity="0 0 0" integrator="RK4">
+    <flag contact="disable" autoreset="disable"/>
+  </option>
+  <worldbody>
+    <body name="unit_mass">
+      <inertial pos="0 0 0" mass="1" diaginertia="1 1 1"/>
+      <joint name="slide" type="slide" axis="1 0 0" limited="false"
+             armature="0" damping="0" frictionloss="0"/>
+    </body>
+  </worldbody>
+  <actuator>
+    <general name="command" joint="slide" gear="1" dyntype="none"
+             gaintype="fixed" gainprm="1" biastype="none" actearly="false"/>
+  </actuator>
+</mujoco>

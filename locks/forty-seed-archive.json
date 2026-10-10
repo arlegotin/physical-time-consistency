@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-02T08:25:49.880895Z",
+  "decision_sha256": "1fbfbbc3b09f41dab7dd00300e2eda6e99f3c8a150fbd0224bbab5714998d63a",
+  "files": 793548,
+  "initial_context_sha256": "708d2b3d9fa3433993e3dc1e6295d3a92309a0091c3d0f9d7c711d2cad98e0ef",
+  "schema_version": 1,
+  "snapshot_sha256": "927303b096a98fc027930f58aa2b6c960295f590607a53d3bf0a1041e2879c78",
+  "study_relative": "study/precision-look-2/study/precision-look-3/study/precision-look-4"
+}

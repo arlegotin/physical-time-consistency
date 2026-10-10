@@ -1,0 +1,82 @@
+[
+  {
+    "original_path": ".superpowers/sdd/2026-10-07-targeted-efficiency-pilot/progress.md",
+    "path": "reports/efficiency_pilot_release_evidence/progress.md",
+    "sha256": "52ddc62a8388ad5c6b7b3957b54789c3a5cb5c954679c26ce92b17ef805b0ec3"
+  },
+  {
+    "original_path": ".superpowers/sdd/2026-10-07-targeted-efficiency-pilot/review-de102c6..3906387.diff",
+    "path": "reports/efficiency_pilot_release_evidence/review-de102c6..3906387.diff",
+    "sha256": "876ff5faff0b631b8922ce6fc2f3b914352cddf0a7babee3c3830c2d0c3e037d"
+  },
+  {
+    "original_path": ".superpowers/sdd/2026-10-07-targeted-efficiency-pilot/review-fix-full-suite.log",
+    "path": "reports/efficiency_pilot_release_evidence/review-fix-full-suite.log",
+    "sha256": "236cffae6e96fcfacd3185f9ad0dbd7601bc41a223fd6b382a81206d8381e8dd"
+  },
+  {
+    "original_path": ".superpowers/sdd/2026-10-07-targeted-efficiency-pilot/task-3-tests.log",
+    "path": "reports/efficiency_pilot_release_evidence/task-3-tests.log",
+    "sha256": "bb5cd70dde7f3a5ab0f59eb02c39ec315711ce6e435546d7d1d30a8de060d877"
+  },
+  {
+    "original_path": ".superpowers/sdd/2026-10-07-targeted-efficiency-pilot/task1-red.log",
+    "path": "reports/efficiency_pilot_release_evidence/task1-red.log",
+    "sha256": "6fc3e81565ea6a098f2a2c59e0b3fd7e56fc69359598b2c670624387eb7a2ab7"
+  },
+  {
+    "original_path": ".superpowers/sdd/2026-10-07-targeted-efficiency-pilot/task2-red.log",
+    "path": "reports/efficiency_pilot_release_evidence/task2-red.log",
+    "sha256": "32e129689327a48585983ec2a51a963eef142edb31e6c9eb8e6c66cbc3d7d47e"
+  },
+  {
+    "original_path": ".superpowers/sdd/2026-10-07-targeted-efficiency-pilot/task3-red.log",
+    "path": "reports/efficiency_pilot_release_evidence/task3-red.log",
+    "sha256": "e2fcc94d5b20c5338d79db35d723e25225534cbd6a33b6bd1e670c86a6f2f5a0"
+  },
+  {
+    "original_path": ".superpowers/sdd/2026-10-07-targeted-efficiency-pilot/review-fix-green.log",
+    "path": "reports/efficiency_pilot_release_evidence/review-fix-green.log",
+    "sha256": "1c4c3a21e96345acf6ed717242c305c3b61614618ad7d0df5217fc9467e0d427"
+  },
+  {
+    "original_path": ".superpowers/sdd/2026-10-07-targeted-efficiency-pilot/check_local_artifacts.py",
+    "path": "reports/efficiency_pilot_release_evidence/check_local_artifacts.py",
+    "sha256": "88bf7b360a4769bd90beb481be1fb6365eb19c8f8f05934100db4b7f69162a1b"
+  },
+  {
+    "original_path": ".superpowers/sdd/2026-10-07-targeted-efficiency-pilot/first_interval_diagnostic.py",
+    "path": "reports/efficiency_pilot_release_evidence/first_interval_diagnostic.py",
+    "sha256": "cee34bebfcc267edfd5b4fdf7c0345d0613d3aa571247d4b301b147629537176"
+  },
+  {
+    "original_path": ".superpowers/sdd/2026-10-07-targeted-efficiency-pilot/post_completion_report.py",
+    "path": "reports/efficiency_pilot_release_evidence/post_completion_report.py",
+    "sha256": "dafd75cab455645500a9ee76e9a9b0cbdf39d4b783986ab899ccf6ed45ffc3eb"
+  },
+  {
+    "original_path": ".superpowers/sdd/2026-10-07-targeted-efficiency-pilot/browser_attempt_1.json",
+    "path": "reports/efficiency_pilot_release_evidence/browser_attempt_1.json",
+    "sha256": "730aa1cc1c0f8345af324fb9b8069e3562ca636f0deb22b33812bc9a6570993a"
+  },
+  {
+    "original_path": ".superpowers/sdd/2026-10-07-targeted-efficiency-pilot/browser_attempt_2.json",
+    "path": "reports/efficiency_pilot_release_evidence/browser_attempt_2.json",
+    "sha256": "9ac013e2b965f11b74af48bad6a962c9c646ce6ae99e0b3872c32242a4a1ed81"
+  },
+  {
+    "original_path": ".superpowers/sdd/2026-10-07-targeted-efficiency-pilot/browser_attempt_2_interpretation.json",
+    "path": "reports/efficiency_pilot_release_evidence/browser_attempt_2_interpretation.json",
+    "sha256": "e7e352e84a08e8b8509b7748c9cfc614638f081e9a8bdf8c401416f90b0d5d8d"
+  },
+  {
+    "original_path": ".superpowers/sdd/2026-10-07-targeted-efficiency-pilot/replay-browser.png",
+    "path": "reports/efficiency_pilot_release_evidence/replay-browser.png",
+    "sha256": "ae9b16d968f91b55b1381e9ee6af93f01b0adfbd50492e2934dce75e5fbd6ea3"
+  },
+  {
+    "original_path": ".superpowers/sdd/2026-10-07-targeted-efficiency-pilot/quality-compute-browser.png",
+    "path": "reports/efficiency_pilot_release_evidence/quality-compute-browser.png",
+    "sha256": "820b263eb2685fb0558943481f0c623b701ebbe35bca660e9bb1cdd8d62b6797"
+  }
+]

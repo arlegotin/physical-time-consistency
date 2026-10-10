@@ -1,0 +1,97 @@
+{
+  "blocker": null,
+  "checks": [
+    {
+      "check_id": "analytic",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "scope": "M10",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "decimal",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "scope": "M10",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "jacobians",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "scope": "M10",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "composition",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "scope": "M10",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "identity",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "scope": "M10",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "weight_hash",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "scope": "M10",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "fixed_activation",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "scope": "M10",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "units",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "scope": "M10",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "zero_time",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "scope": "M10",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "clocks",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "scope": "M10",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "mutations",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "scope": "M10",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "slide_fixtures",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "scope": "M10",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "tests",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "scope": "M10",
+      "status": "pass",
+      "tolerance": null
+    }
+  ],
+  "validity_status": "valid"
+}

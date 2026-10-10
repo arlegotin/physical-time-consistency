@@ -1,0 +1,24 @@
+{
+  "all_trajectory_command_and_cost_differences_zero": true,
+  "alpha_spent": 0,
+  "completed_episodes": 60,
+  "expected_episodes": 60,
+  "fresh_training": false,
+  "input_hashes": {
+    "config/control_replay_jobs.json": "a6c32c9ffccb2c4f3738372ffd06d9969c7ed64c1af0aa756adf0e99cb9bd172",
+    "reports/control_replay.json": "bdb18945b956b5b664379eaa4fd75b917342bc58bbe9bc2fd194a0e99b146b0c"
+  },
+  "new_independent_training_clusters": 0,
+  "observed_child_returncode": 0,
+  "observed_utc": "2026-10-06T04:27:21.934920Z",
+  "resources": {
+    "artifact_bytes": 150892091,
+    "cpu_seconds": 3199.082616,
+    "peak_rss_bytes": 395264000,
+    "producer_wall_seconds": 3200.639878372
+  },
+  "schema_version": 1,
+  "scientific_verdict": null,
+  "scope": "Fresh-process replay of selected weights; twelve fresh fits and their repeated policies are separate unfinished work",
+  "state": "complete"
+}

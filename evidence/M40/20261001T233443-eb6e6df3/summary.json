@@ -1,0 +1,21 @@
+{
+  "actuator": "direct",
+  "envelope_interpretation": "Empirical two-successive-refinement discrepancy and roundoff; not certified",
+  "episode_id": 7,
+  "maximum_oracle_cost_envelope": 4.79951410321952e-13,
+  "maximum_physics_cost_envelope": 2.5911262224463957e-10,
+  "maximum_q_disagreement_rad": 9.730485794889887e-08,
+  "maximum_v_disagreement_rad_s": 1.16136418615298e-06,
+  "missing_cells": [],
+  "oracle_physics_steps": 3440640,
+  "ranking": {
+    "candidate_count": 512,
+    "maximum_absolute_cost_disagreement": 6.97464124677083e-07,
+    "oracle_best_id": 244,
+    "physics_best_id": 244,
+    "qualified": true,
+    "resolved_inversions": 0,
+    "uncertain_inversions": 0
+  },
+  "scope": "Identical saved first-decision bank; no learned-controller performance claim"
+}

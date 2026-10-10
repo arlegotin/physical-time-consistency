@@ -1,0 +1,27 @@
+{
+  "blocker": null,
+  "checks": [
+    {
+      "check_id": "control.solver_inputs",
+      "reason": "Complete fixed input probes, unchanged canonical tensors and actual forward counts",
+      "scope": "Read-only solver diagnosis",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "control.solver_weights",
+      "reason": "Complete fixed input probes, unchanged canonical tensors and actual forward counts",
+      "scope": "Read-only solver diagnosis",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "control.solver_work",
+      "reason": "Complete fixed input probes, unchanged canonical tensors and actual forward counts",
+      "scope": "Read-only solver diagnosis",
+      "status": "pass",
+      "tolerance": null
+    }
+  ],
+  "validity_status": "valid"
+}

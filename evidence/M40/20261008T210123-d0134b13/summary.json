@@ -1,0 +1,72 @@
+{
+  "actuator": "lagged",
+  "actuator_interval_ns": 40000000,
+  "candidate_count_per_decision": 512,
+  "checkpoint_hash": "fb3d6f1bc93914dd3ac24abaf7fc0ff9edea4bb76ba5b0d1267062302a91d7d3",
+  "command_effort_integral": 2.9476749425544893,
+  "complete": true,
+  "condition": "clean",
+  "cost_components": {
+    "effort": 0.0029476749425544893,
+    "terminal": 0.00025350577531721506,
+    "total": 0.3371240031203493,
+    "tracking": 0.20628631654430984,
+    "velocity": 0.12763650585816777
+  },
+  "episode_id": 0,
+  "experiment_id": "E03",
+  "fallback_count": 0,
+  "final_window_sample_count": 1601,
+  "initial_state": [
+    -0.45510249445045414,
+    -0.1863467246127387,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "kind": "finer_physics",
+  "missing_cells": [],
+  "model_id": "affine_flow",
+  "model_partition_ns": [
+    40000000
+  ],
+  "neural_rows": 245760,
+  "phase": "replication",
+  "physics_step_ns": 125000,
+  "planner_latency_median_seconds": 0.6478742289999999,
+  "planner_latency_p95_seconds": 0.65914646935,
+  "power_mode": null,
+  "protocol_id": "PTCO-AFF-0.2",
+  "q_rmse_rad": 0.2653622100405423,
+  "realized_cost": 0.3371240031203493,
+  "run_id": "20261008T210123-d0134b13",
+  "seed": 2026100800,
+  "seed_namespaces": {
+    "cem": [
+      6101,
+      2026100800,
+      0,
+      2
+    ],
+    "disturbance": [
+      6101,
+      2026100800,
+      0,
+      4
+    ]
+  },
+  "success": true,
+  "target": [
+    0.4289989788751787,
+    -0.5972166634651612
+  ],
+  "terminal_q_error_rad": 0.007120474356631237,
+  "velocity_rms_rad_s": 0.8936287874981844,
+  "work": {
+    "history_tokens_processed": 0,
+    "network_calls": 1920,
+    "scalar_candidate_evaluations": 122880,
+    "vector_field_calls": 1920
+  }
+}

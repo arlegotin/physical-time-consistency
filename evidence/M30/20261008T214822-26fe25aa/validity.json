@@ -1,0 +1,13 @@
+{
+  "blocker": null,
+  "checks": [
+    {
+      "check_id": "fresh.nominal_fit",
+      "reason": "[Errno 28] No space left on device",
+      "scope": "M30",
+      "status": "invalid",
+      "tolerance": null
+    }
+  ],
+  "validity_status": "invalid"
+}

@@ -1,0 +1,10 @@
+{
+  "episode_id": 9,
+  "freeze_sha256": "6142c7dde99c66be3114a3f8cd581cf8e7aea3ad73478b23756c7330798715da",
+  "kind": "primary",
+  "model_id": "affine_flow",
+  "model_step_ns": 40000000,
+  "physics_step_ns": 250000,
+  "protocol_id": "PTCO-AFF-0.2",
+  "seed": 2026100800
+}

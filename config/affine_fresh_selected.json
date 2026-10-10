@@ -1,0 +1,97 @@
+{
+  "created_utc": "2026-10-08T10:47:55.963954Z",
+  "data": {
+    "train": {
+      "path": "evidence/M30/20261008T092517-64f53a85/manifest.json",
+      "sha256": "c8f672ebe39d78e036f7e7431e60272e8506ddda7027bf1e6660b785c4337c9b"
+    },
+    "validation": {
+      "path": "evidence/M30/20261008T092559-39aa5611/manifest.json",
+      "sha256": "c0d5b3bc36a48a9b5fecb299b3235b0a8ddadef5ecb2dddcaac7903fa70d6503"
+    }
+  },
+  "freeze_sha256": "2d8bee7b01d7a415592a60c7c9d6aa7ec8bc1288033f748d356b40c95dd55258",
+  "protocol_id": "PTCO-AFF-0.2",
+  "selections": {
+    "affine_flow:2026100800": {
+      "canonical_tensor_sha256": "e0ba23cb4261cce4a5ab388b09f744ba18bffc25d1d25f32746c92442860327e",
+      "checkpoint_sha256": "fb3d6f1bc93914dd3ac24abaf7fc0ff9edea4bb76ba5b0d1267062302a91d7d3",
+      "model_id": "affine_flow",
+      "path": "evidence/M30/20261008T092610-03a44692/manifest.json",
+      "seed": 2026100800,
+      "sha256": "1ff5e56383556baa28c3ad854c2c18a81ba265c512851d7398343b1ba97b89f7"
+    },
+    "affine_flow:2026100801": {
+      "canonical_tensor_sha256": "cfda317a976ed46f2991c8de62eabd11cd2e94462c1e051a168ac312e2585fae",
+      "checkpoint_sha256": "fc80c92833e0bf6dab2a685217691ad5fec36da6af2cb4106786d447ecc42dac",
+      "model_id": "affine_flow",
+      "path": "evidence/M30/20261008T093734-37a86809/manifest.json",
+      "seed": 2026100801,
+      "sha256": "befe53436928f9fdbfa6523396dca65c797a6acfcff0924eb36d80d4667592f2"
+    },
+    "affine_flow:2026100802": {
+      "canonical_tensor_sha256": "cd742d652e1e22398aa7a5567f5d2fb14d20f0e75482dcd9a2b823ce385a6da3",
+      "checkpoint_sha256": "07fac4f04fd9137eefd1361a26f9f82464965cabced02163996e3b088aa85bb7",
+      "model_id": "affine_flow",
+      "path": "evidence/M30/20261008T100609-dff2768e/manifest.json",
+      "seed": 2026100802,
+      "sha256": "10c07503fba8745504301f244af71ff11dcde2598cf3ce45bd04b76e29bb3e79"
+    },
+    "affine_flow:2026100803": {
+      "canonical_tensor_sha256": "c541bb8fe1d77feff882f91018dcf05693a6a53f38c3e741b243c2ed5385deb2",
+      "checkpoint_sha256": "38a221d1efd8cdd1e45fc4c9a7eb07696d4248bdff4d547aa48cc186fda67c37",
+      "model_id": "affine_flow",
+      "path": "evidence/M30/20261008T102208-8797a04d/manifest.json",
+      "seed": 2026100803,
+      "sha256": "e8f067cbac7d517f8605f243bc4a37d51fc496bc5af0254665e518a2f5dbb33e"
+    },
+    "affine_flow:2026100804": {
+      "canonical_tensor_sha256": "f63829200ab9335f50e3b791e4d43fdfaba556f7f0ed44dc1b213a0c69ce43f1",
+      "checkpoint_sha256": "8a050f4c13cea02e7b34f068a53e0b5cdd83ba3cbee7a068bc2feb2cc1223757",
+      "model_id": "affine_flow",
+      "path": "evidence/M30/20261008T103611-b18dd4b3/manifest.json",
+      "seed": 2026100804,
+      "sha256": "facaa7ef5edebc2db6d05167812dd61540c3baba88d1553d73391edab5c250f4"
+    },
+    "node_structured:2026100800": {
+      "canonical_tensor_sha256": "53f9ef705e743efcb4ba6a2572ad129bbb10abfbec6e67ad77b4c6f63ee337fb",
+      "checkpoint_sha256": "eeae01ad1dac368fc4aaae21cdcef2d665da27777b394a03781212b1128993bf",
+      "model_id": "node_structured",
+      "path": "evidence/M30/20261008T093418-3e215d68/manifest.json",
+      "seed": 2026100800,
+      "sha256": "c07ccfc51cdb7b454ce12a671db0d9fc8d1d8312077a14cc2542b814d0dffa42"
+    },
+    "node_structured:2026100801": {
+      "canonical_tensor_sha256": "1a87b27da3880f3ec6389dd0e200aa6926a67afed8162326059605b709287a3f",
+      "checkpoint_sha256": "b4db1bf9cccf6e238ad5e3d9db5b4f51d02b91d4d2ada4ab39cd7712752f61f2",
+      "model_id": "node_structured",
+      "path": "evidence/M30/20261008T094409-db1bcb10/manifest.json",
+      "seed": 2026100801,
+      "sha256": "af1daef23de462a1063ea01369b8e5e71cc029c399d62b9d8ea6b3ac61d7414e"
+    },
+    "node_structured:2026100802": {
+      "canonical_tensor_sha256": "f6bc5d7e31a2e5bfc53ebf5bb117f2beb8a4f4f4beb85ce35d703c013a16019c",
+      "checkpoint_sha256": "44f4f59a2ad9447b6f36d24b6134497c8bd85a6c9ced09c62364a66030c4f86e",
+      "model_id": "node_structured",
+      "path": "evidence/M30/20261008T100756-b02bcf79/manifest.json",
+      "seed": 2026100802,
+      "sha256": "3d70e633661ff90c8dc668e9f83c3e3592e095ecdaebc7b31b34fbf22d7000c8"
+    },
+    "node_structured:2026100803": {
+      "canonical_tensor_sha256": "8035f594ac19310898630c464be07065c4e1f1f3fe0ff8c007f38bfd5db7044e",
+      "checkpoint_sha256": "7bcdbd5323f7c47b2176559eed2629ab87fa1d6def122cead7110b7efbc3e0d2",
+      "model_id": "node_structured",
+      "path": "evidence/M30/20261008T102753-94cf2670/manifest.json",
+      "seed": 2026100803,
+      "sha256": "d411b2bd8d034e7433494e61a6afa04b7c5d4c66cf19727f1037dfa0a2becb06"
+    },
+    "node_structured:2026100804": {
+      "canonical_tensor_sha256": "123b3731976961bae4c2152058d2193c73ab9aa031e330e40996630f3993b095",
+      "checkpoint_sha256": "9f35cb80792bb6e9f87663fe231aac5db4cd0e767185c3337e0feed4ea18e336",
+      "model_id": "node_structured",
+      "path": "evidence/M30/20261008T103949-2ce43bd6/manifest.json",
+      "seed": 2026100804,
+      "sha256": "b7698f2a0bc1f36397f63a23c0a2c069940d87ea43330d71a2fef5d87d011ca7"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "manifest_path": "data/lagged/F/train/manifest.json",
+  "manifest_sha256": "f82b5280ec4b69870df62a5574ae7b1fd735147d30fca63e6929a5cafa0dd38e",
+  "missing_cells": [],
+  "trajectory_count": 1024,
+  "transition_count": 32768
+}

@@ -1,0 +1,64 @@
+{
+  "cell_id": "direct__A__one_step__gru_dt__seed9000",
+  "command_unit": "N m",
+  "coordinate_order": "q1,q2,v1,v2[,w1,w2]",
+  "horizons_ns": [
+    2500000,
+    5000000,
+    10000000,
+    20000000,
+    40000000,
+    80000000
+  ],
+  "jacobian_shape": [
+    2,
+    2
+  ],
+  "model_metadata": {
+    "actuator": "direct",
+    "cell_id": "direct__A__one_step__gru_dt__seed9000",
+    "condition": "A",
+    "continue_from": "evidence/M30/20261001T074112-da10f86c",
+    "data_hashes": {
+      "data/direct/A/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+      "data/direct/A/train/manifest.json": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+      "data/direct/A/train/trajectories.npz": "dfdd4453775e067920b9267b6f22dc748a931788bdfa009d2dd29029b383c59c",
+      "data/direct/A/validation/manifest.json": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c",
+      "data/direct/A/validation/trajectories.npz": "4056b58e4aa571bf2ff9c01b572f67170b223b619b14ac1ad69e60d912aa2429",
+      "evidence/M30/20261001T064826-26e3a41b/manifest.json": "b2349f474984e26e2293578151be03a5d09a203601458c41c492d8f0b08b0dea",
+      "evidence/M30/20261001T074112-da10f86c/manifest.json": "803a3311fcb011b2c2c94171cc1dc796d27fa9859447b6b75df7c6a453868b38",
+      "evidence/M30/20261001T074112-da10f86c/resume.complete.json": "96b1356bb832cd3b58375ed1e1d2433d176272bbd654e5f368d9acccc6205c7c",
+      "evidence/M30/20261001T074112-da10f86c/resume.pt": "7a48d944b848010076a799b1a404f615f7f4e5bd49b220f0e2ced47432bf542d",
+      "evidence/M30/20261001T074112-da10f86c/resume.rng.json": "ce88243c9392f1a85a5d0ea2933a537c4807f786489bf44b7737ba6b357a0a3e",
+      "evidence/M30/20261001T074112-da10f86c/validation_history.json": "d48cfc4f50ea685adb7bb705ce3ee399a6a106cb4b7c47b7e484d86e8f888102",
+      "evidence/M30/20261001T074112-da10f86c/weights.pt": "cccf9e0006740be5c2fc40d88fcfc1e5a454d5ec01500f2476c724c716a4fd20"
+    },
+    "epochs": 400,
+    "learning_rate": 0.001,
+    "loss_mode": "one_step",
+    "model_id": "gru_dt",
+    "normalization_sha256": "ebd4067c876eda6938747874e270b1f9deea796cfa195975a25927350257b51e",
+    "seed": 9000,
+    "train_manifest": "data/direct/A/train/manifest.json",
+    "validation_manifest": "data/direct/A/validation/manifest.json"
+  },
+  "normalization": {
+    "protocol_version": "PTCO-1.0",
+    "scale_q": [
+      0.013590892241995481,
+      0.03912336592175722
+    ],
+    "scale_v": [
+      0.5381867886239525,
+      1.5403919755607665
+    ],
+    "schema_version": 1,
+    "training_manifest": "data/direct/A/train/manifest.json",
+    "training_manifest_sha256": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+    "transition_count": 32768,
+    "velocity_input_rms": [
+      1.775608597217983,
+      3.8111830615807536
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "attempts": [
+    {
+      "diagnostic": "Exact analytic learning, gradients and masks already qualified; inspect nominal curves only",
+      "epochs": 100,
+      "learning_rate": 0.001,
+      "manifest": "evidence/M30/20261001T120036-cde0a3ab/manifest.json",
+      "nominal_learning": true,
+      "stabilized": false
+    },
+    {
+      "diagnostic": "Exact analytic learning, gradients and masks already qualified; inspect nominal curves only",
+      "epochs": 200,
+      "learning_rate": 0.001,
+      "manifest": "evidence/M30/20261001T120323-cf73bb5d/manifest.json",
+      "nominal_learning": true,
+      "stabilized": false
+    },
+    {
+      "diagnostic": "Exact analytic learning, gradients and masks already qualified; inspect nominal curves only",
+      "epochs": 300,
+      "learning_rate": 0.001,
+      "manifest": "evidence/M30/20261001T120624-1d70ea22/manifest.json",
+      "nominal_learning": true,
+      "stabilized": false
+    },
+    {
+      "diagnostic": "Exact analytic learning, gradients and masks already qualified; inspect nominal curves only",
+      "epochs": 400,
+      "learning_rate": 0.001,
+      "manifest": "evidence/M30/20261001T120938-f917d126/manifest.json",
+      "nominal_learning": true,
+      "stabilized": false
+    },
+    {
+      "diagnostic": "Exact analytic learning, gradients and masks already qualified; inspect nominal curves only",
+      "epochs": 500,
+      "learning_rate": 0.001,
+      "manifest": "evidence/M30/20261001T121256-8638d84f/manifest.json",
+      "nominal_learning": true,
+      "stabilized": false
+    },
+    {
+      "diagnostic": "Exact analytic learning, gradients and masks already qualified; inspect nominal curves only",
+      "epochs": 600,
+      "learning_rate": 0.001,
+      "manifest": "evidence/M30/20261001T121624-10167093/manifest.json",
+      "nominal_learning": true,
+      "stabilized": true
+    }
+  ],
+  "effective_batch": 256,
+  "maximum_exposure_offered": 600,
+  "selection": "nominal validation only"
+}

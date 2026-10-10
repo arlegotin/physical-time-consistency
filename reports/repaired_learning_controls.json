@@ -1,0 +1,295 @@
+{
+  "recorded_utc": "2026-10-02T02:59:04.568275Z",
+  "results": [
+    {
+      "cell": {
+        "actuator": "direct",
+        "cell_id": "direct__A__shared__gru_dt__seed9000",
+        "condition": "A",
+        "loss_mode": "shared",
+        "model_id": "gru_dt",
+        "seed": 9000
+      },
+      "manifest": "study/control-development/evidence/M30/20261002T025845-0384f94d/manifest.json",
+      "manifest_sha256": "af4da33bb2b290f7912b11fe5793281cad11f0b99b6771dea590a0ae0e1d726b",
+      "resources": {
+        "cpu_seconds": 1.3511,
+        "disk_bytes": 945765,
+        "original_estimate": null,
+        "peak_rss_bytes": 326680576,
+        "rss_convention": "macOS bytes",
+        "training_updates": 580,
+        "wall_seconds": 1.461579375
+      },
+      "summary": {
+        "actuator": "direct",
+        "missing_cells": [],
+        "model_hashes": {
+          "canonical_tensor_sha256": "cebb9580a7557040aad9dd20c91551fb3cc21be1cf290c60c2936da6236140fd"
+        },
+        "model_id": "gru_dt",
+        "robot_result": false,
+        "tiny_loss": 0.0009924876503646374,
+        "tiny_updates": 180,
+        "training_updates": 580,
+        "validation": {
+          "epoch": 100,
+          "four_count": 0,
+          "four_step": 0.0,
+          "objective": 0.00023371673887595534,
+          "one_count": 256,
+          "one_step": 0.00023371673887595534
+        }
+      }
+    },
+    {
+      "cell": {
+        "actuator": "direct",
+        "cell_id": "direct__A__shared__node_structured__seed9000",
+        "condition": "A",
+        "loss_mode": "shared",
+        "model_id": "node_structured",
+        "seed": 9000
+      },
+      "manifest": "study/control-development/evidence/M30/20261002T025848-aedf573e/manifest.json",
+      "manifest_sha256": "55f4021d489859d0b3615962b4c1de2636af4a8c562270e6f73e0125a6ea129f",
+      "resources": {
+        "cpu_seconds": 1.4353740000000001,
+        "disk_bytes": 888183,
+        "original_estimate": null,
+        "peak_rss_bytes": 335642624,
+        "rss_convention": "macOS bytes",
+        "training_updates": 472,
+        "wall_seconds": 1.438296042
+      },
+      "summary": {
+        "actuator": "direct",
+        "missing_cells": [],
+        "model_hashes": {
+          "canonical_tensor_sha256": "fd8800e9b95b1271360e98820b0b401094c6be1548b28c1ec1df94abfc351cf4"
+        },
+        "model_id": "node_structured",
+        "robot_result": false,
+        "tiny_loss": 0.0008478636736981571,
+        "tiny_updates": 72,
+        "training_updates": 472,
+        "validation": {
+          "epoch": 100,
+          "four_count": 0,
+          "four_step": 0.0,
+          "objective": 0.00047357313451357186,
+          "one_count": 256,
+          "one_step": 0.00047357313451357186
+        }
+      }
+    },
+    {
+      "cell": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__mlp_dt__seed9000",
+        "condition": "A",
+        "loss_mode": "shared",
+        "model_id": "mlp_dt",
+        "seed": 9000
+      },
+      "manifest": "study/control-development/evidence/M30/20261002T025851-1a2c433c/manifest.json",
+      "manifest_sha256": "05321005ce5cecb508c13801f0906b4844b04d49aec47a0c3dd8d86730cbd446",
+      "resources": {
+        "cpu_seconds": 0.839682,
+        "disk_bytes": 958495,
+        "original_estimate": null,
+        "peak_rss_bytes": 324337664,
+        "rss_convention": "macOS bytes",
+        "training_updates": 527,
+        "wall_seconds": 0.8423595
+      },
+      "summary": {
+        "actuator": "lagged",
+        "missing_cells": [],
+        "model_hashes": {
+          "canonical_tensor_sha256": "890ca200b2dff63488be149146593aadba434c7fc79c9cd8d9e0cbe0c188da1e"
+        },
+        "model_id": "mlp_dt",
+        "robot_result": false,
+        "tiny_loss": 0.0009898599237203598,
+        "tiny_updates": 127,
+        "training_updates": 527,
+        "validation": {
+          "epoch": 95,
+          "four_count": 0,
+          "four_step": 0.0,
+          "objective": 0.00041041916119866073,
+          "one_count": 256,
+          "one_step": 0.00041041916119866073
+        }
+      }
+    },
+    {
+      "cell": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__gru_dt__seed9000",
+        "condition": "A",
+        "loss_mode": "shared",
+        "model_id": "gru_dt",
+        "seed": 9000
+      },
+      "manifest": "study/control-development/evidence/M30/20261002T025853-b0096a13/manifest.json",
+      "manifest_sha256": "7d184d74a8a8b6275e22dc2795b25c2c055acc1b964df6aeaf5ea38be2c726d0",
+      "resources": {
+        "cpu_seconds": 1.4302720000000002,
+        "disk_bytes": 1014107,
+        "original_estimate": null,
+        "peak_rss_bytes": 326057984,
+        "rss_convention": "macOS bytes",
+        "training_updates": 656,
+        "wall_seconds": 1.434474459
+      },
+      "summary": {
+        "actuator": "lagged",
+        "missing_cells": [],
+        "model_hashes": {
+          "canonical_tensor_sha256": "e2fde1d2d7cba429676c1c7be7a90711c94dd7fa70f661b28595307445fbfb32"
+        },
+        "model_id": "gru_dt",
+        "robot_result": false,
+        "tiny_loss": 0.0009975063148885965,
+        "tiny_updates": 256,
+        "training_updates": 656,
+        "validation": {
+          "epoch": 100,
+          "four_count": 0,
+          "four_step": 0.0,
+          "objective": 0.00021330566960386932,
+          "one_count": 256,
+          "one_step": 0.00021330566960386932
+        }
+      }
+    },
+    {
+      "cell": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__node_generic__seed9000",
+        "condition": "A",
+        "loss_mode": "shared",
+        "model_id": "node_generic",
+        "seed": 9000
+      },
+      "manifest": "study/control-development/evidence/M30/20261002T025856-35bf022d/manifest.json",
+      "manifest_sha256": "b8c43b27c70916fb01d936b1cdfcf54d17568e6dbb55049022dc22bfe656d149",
+      "resources": {
+        "cpu_seconds": 1.5970139999999997,
+        "disk_bytes": 952903,
+        "original_estimate": null,
+        "peak_rss_bytes": 322650112,
+        "rss_convention": "macOS bytes",
+        "training_updates": 519,
+        "wall_seconds": 1.600202542
+      },
+      "summary": {
+        "actuator": "lagged",
+        "missing_cells": [],
+        "model_hashes": {
+          "canonical_tensor_sha256": "41f536af6ec0ed0b1c1969b4144e1eaf15933f7a51069a6d1061f3a0bb96eef3"
+        },
+        "model_id": "node_generic",
+        "robot_result": false,
+        "tiny_loss": 0.0009599500335752964,
+        "tiny_updates": 119,
+        "training_updates": 519,
+        "validation": {
+          "epoch": 100,
+          "four_count": 0,
+          "four_step": 0.0,
+          "objective": 0.00034109861007891595,
+          "one_count": 256,
+          "one_step": 0.00034109861007891595
+        }
+      }
+    },
+    {
+      "cell": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__power_correct__seed9000",
+        "condition": "A",
+        "loss_mode": "shared",
+        "model_id": "power_correct",
+        "seed": 9000
+      },
+      "manifest": "study/control-development/evidence/M30/20261002T025900-a77490a4/manifest.json",
+      "manifest_sha256": "28d7be21dc7166c78f93125fb6931d2d4d1daf88f80a96dd6b8b69de53cb2364",
+      "resources": {
+        "cpu_seconds": 1.0286669999999998,
+        "disk_bytes": 958450,
+        "original_estimate": null,
+        "peak_rss_bytes": 324616192,
+        "rss_convention": "macOS bytes",
+        "training_updates": 527,
+        "wall_seconds": 1.031025208
+      },
+      "summary": {
+        "actuator": "lagged",
+        "missing_cells": [],
+        "model_hashes": {
+          "canonical_tensor_sha256": "4ca8e00228a693bcaee6d4b7faf570602bb571128970c93e5f6727483db0b928"
+        },
+        "model_id": "power_correct",
+        "robot_result": false,
+        "tiny_loss": 0.0009894870454445481,
+        "tiny_updates": 127,
+        "training_updates": 527,
+        "validation": {
+          "epoch": 95,
+          "four_count": 0,
+          "four_step": 0.0,
+          "objective": 0.00041037608752958477,
+          "one_count": 256,
+          "one_step": 0.00041037608752958477
+        }
+      }
+    },
+    {
+      "cell": {
+        "actuator": "lagged",
+        "cell_id": "lagged__A__shared__node_structured__seed9000",
+        "condition": "A",
+        "loss_mode": "shared",
+        "model_id": "node_structured",
+        "seed": 9000
+      },
+      "manifest": "study/control-development/evidence/M30/20261002T025902-a8850e3b/manifest.json",
+      "manifest_sha256": "83f1069fe44aaacc36c6c551b6f15c05157d39ee0cc78ab962ea3c63127d7b98",
+      "resources": {
+        "cpu_seconds": 1.453962,
+        "disk_bytes": 930049,
+        "original_estimate": null,
+        "peak_rss_bytes": 325517312,
+        "rss_convention": "macOS bytes",
+        "training_updates": 482,
+        "wall_seconds": 1.457096042
+      },
+      "summary": {
+        "actuator": "lagged",
+        "missing_cells": [],
+        "model_hashes": {
+          "canonical_tensor_sha256": "5535ecabe00b7522f67726661e3b822029212d1090f0da65425d3730c1ecf617"
+        },
+        "model_id": "node_structured",
+        "robot_result": false,
+        "tiny_loss": 0.0009634697926230729,
+        "tiny_updates": 82,
+        "training_updates": 482,
+        "validation": {
+          "epoch": 100,
+          "four_count": 0,
+          "four_step": 0.0,
+          "objective": 0.00040261950925923884,
+          "one_count": 256,
+          "one_step": 0.00040261950925923884
+        }
+      }
+    }
+  ],
+  "robot_result": false,
+  "schema_version": 1,
+  "state": "complete"
+}

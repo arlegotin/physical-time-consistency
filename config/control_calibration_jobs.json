@@ -1,0 +1,690 @@
+{
+  "calibration_config_sha256": "d05cb94167f6154cf6ad6d79857e18e5851b9a1e1e0e86c492c564c711e7e8fe",
+  "existing_first_task_manifests": [
+    "evidence/M40/20261001T225554-138ae3b6/manifest.json",
+    "evidence/M40/20261001T225637-00d9fbcd/manifest.json",
+    "evidence/M40/20261001T225803-5c931777/manifest.json",
+    "evidence/M40/20261001T230013-99aa7e3e/manifest.json",
+    "evidence/M40/20261001T230101-046ccfa0/manifest.json",
+    "evidence/M40/20261001T230250-5659ba9f/manifest.json"
+  ],
+  "jobs": [
+    {
+      "actuator": "direct",
+      "episode_id": 0,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__direct__zero_command__episode0.json",
+      "sha256": "97cc9051e7b453195fe8c4135d43e6ff7fc5a704885129b41bb6c72b358265f8"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 0,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__direct__physics_fit__episode0.json",
+      "sha256": "cb73f34dfcc5827740c85815ae16c490500eaab4dbd187b664da94ac1d38292a"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 0,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__direct__sim_oracle__episode0.json",
+      "sha256": "ab2e6650ef4a15242b6110270e7c8c45c64f95da7567a2dff84df61621b782db"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 1,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__direct__zero_command__episode1.json",
+      "sha256": "8ee15cfcafe543781d3f9593b86eca1a7cb4c76f22814e00b3a0ef653e72bd1d"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 1,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__direct__physics_fit__episode1.json",
+      "sha256": "4de394c5700fb579d291569f53f9fa497cd7519acedfdb1501fae6b7a6aacf8d"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 1,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__direct__sim_oracle__episode1.json",
+      "sha256": "7c6d9c1d3d9fce9470ce902ddb362206c877fbea7877bad762247726749e3043"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 2,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__direct__zero_command__episode2.json",
+      "sha256": "09a854228262e99481a800d7443c4208a95195216750f5440e56af1f9d824e6f"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 2,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__direct__physics_fit__episode2.json",
+      "sha256": "aa795e37766dfde85e0a51a8464ca498f25fa078677c45916894b74f803cd38c"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 2,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__direct__sim_oracle__episode2.json",
+      "sha256": "c49934cf35c43a6659b21eb0f12c0762d2ffc29aaefc6eb3105f0aeb7d7b98fa"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 3,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__direct__zero_command__episode3.json",
+      "sha256": "bc8efe4c409be1d2b8258e6fa6e9f52afd724f7b46586755c801815f55566db4"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 3,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__direct__physics_fit__episode3.json",
+      "sha256": "a9063bbdc5059da3d8f646539a41580ac52803bd9e7d8d2d48f59c51a08b03d8"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 3,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__direct__sim_oracle__episode3.json",
+      "sha256": "686f683c7c8e93c1fac19a15cbacf5519ca6b27d45e5422a5c7fc2023413d7cb"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 4,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__direct__zero_command__episode4.json",
+      "sha256": "c47d3eaa7313507e7f4b3b6b1c7020e6b72c04d44c81a24ec6bd4a11affc3938"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 4,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__direct__physics_fit__episode4.json",
+      "sha256": "59ff2972734f6aefe99fe08bb6d7eb33384c72b14cdffdf680facca2b5e98a76"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 4,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__direct__sim_oracle__episode4.json",
+      "sha256": "46750bc0f3bdbee25c8a7b5da3fcc76cb33008ad48a5999cf1b97a44e7d52321"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 5,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__direct__zero_command__episode5.json",
+      "sha256": "4e3d15496f093ab0dd7a8df3aee560d32525257299c43e9486f5e771d233c299"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 5,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__direct__physics_fit__episode5.json",
+      "sha256": "da63396be43cd833684cf4aa288e8e0821641261e3a7cef79661b88cf97bac53"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 5,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__direct__sim_oracle__episode5.json",
+      "sha256": "6065b6bae055b2843ee2924a118ca76b90a066bf140a79e62ed314be902441b9"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 6,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__direct__zero_command__episode6.json",
+      "sha256": "a882322e5b72ed3f32a15e19ff18248df93614cbfb0df4875bce4547b9d8beec"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 6,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__direct__physics_fit__episode6.json",
+      "sha256": "0a293a8cfcebee25ce1e0334de3a809f586ea886895cf934feacb1e83db258e5"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 6,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__direct__sim_oracle__episode6.json",
+      "sha256": "fcfc53d550f53f5ade86dc578898c2bca045f362b14bc51f9e76d1434cf7293d"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 7,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__direct__zero_command__episode7.json",
+      "sha256": "0ba227cac5f2888abffefcff7ffaf9ef29e7d9db1a410dd12124f14309b17f70"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 7,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__direct__physics_fit__episode7.json",
+      "sha256": "b617b0ca3489f34cba49b2ae99af39eba15f23ddcf612aac180e314e55fda657"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 7,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__direct__sim_oracle__episode7.json",
+      "sha256": "591d4c57bafc7a51958f462fa44cbab4171bc8e7409e8a09781eb37aa87590fa"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 8,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__direct__zero_command__episode8.json",
+      "sha256": "4d8924953a5a60d7d087c57877d65ca107c0d3e6b25a7c285415e08673c3970a"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 8,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__direct__physics_fit__episode8.json",
+      "sha256": "dcb6fe3e41522aab748caa73de3ba88ef9b51e548c7b372835afa1aef5308a25"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 8,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__direct__sim_oracle__episode8.json",
+      "sha256": "ea26658599782e23b773db713d176ad14bd085b9c5f1e9e400b4e3c860100bf5"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 9,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__direct__zero_command__episode9.json",
+      "sha256": "5daa3f76ab3d5ecdb972def2da0e4333ac37f03e22d5bf990468a1f283d23280"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 9,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__direct__physics_fit__episode9.json",
+      "sha256": "bb972caa09a73d9a2256fcbaffeff36a0ef362ac98b14f1a7a9eb41b433e17bf"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 9,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__direct__sim_oracle__episode9.json",
+      "sha256": "b4398e81b9f6d183ed7eb3af49cc238b1567edd2de30102dd6fc99c97bca56e2"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 10,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__direct__zero_command__episode10.json",
+      "sha256": "d95c4068453d7b5791057acc4ccf6bbc0a275a3a33136c38cd5c0809487d8d23"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 10,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__direct__physics_fit__episode10.json",
+      "sha256": "a7424ed8cd5592fdfd3ad4bcef8cd3488a3c3a1c9de83607c7e745431a354aa7"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 10,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__direct__sim_oracle__episode10.json",
+      "sha256": "05b2123e367c17742e64d59846a93734705a2671d31ab97b19983d1a6628cd57"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 11,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__direct__zero_command__episode11.json",
+      "sha256": "1ba9471e0865ab7d259bef1f20498a6a6f44b7906dfaaa78ca38f54c29f815c1"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 11,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__direct__physics_fit__episode11.json",
+      "sha256": "6c5af8e7582b0d6ed2ea541c9647d9fba1d6af38cfe95289226a072d13163561"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 11,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__direct__sim_oracle__episode11.json",
+      "sha256": "ca85221884ddf8d0f0e2ce8075af2491b7b8c860cf22c4dc26afc7e6264f9d30"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 12,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__direct__zero_command__episode12.json",
+      "sha256": "cf7d0313d407241375a209909d819ba832cbe05df5749e290e875f82355559da"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 12,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__direct__physics_fit__episode12.json",
+      "sha256": "082c09f483f0b5b856bfcb9d61d3317f8b4baf7e62f70714cf655317345ff680"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 12,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__direct__sim_oracle__episode12.json",
+      "sha256": "6bc3e6139dcebb7195126dca6909ca59ba148aeb9b0f54c02c351e267dd26759"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 13,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__direct__zero_command__episode13.json",
+      "sha256": "909e33ce7d9e754777e91de5f969c827dd6757cf3dfe7d95a125ceb5a93d02d7"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 13,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__direct__physics_fit__episode13.json",
+      "sha256": "4a877e16f3cd997a9dfe43bdcd66cfe34a52655bbd4282a2e0f09a83551171bc"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 13,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__direct__sim_oracle__episode13.json",
+      "sha256": "ce0dface4f6399910c43bdede15b0492f66d640569c9d59db63d76b09aec1d18"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 14,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__direct__zero_command__episode14.json",
+      "sha256": "e637b3307dc0d6aa6dbd0e9e1afe8b08cc45bfb5ca47d062d82e74d7e615d1a1"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 14,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__direct__physics_fit__episode14.json",
+      "sha256": "cc23c2d445b52542886f549cf8c92eedef53222683593e295c13b88152390862"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 14,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__direct__sim_oracle__episode14.json",
+      "sha256": "c9d2827d49303089c46955b53c333e5a7d63ef3c2d7271f9228fb526050d1f95"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 15,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__direct__zero_command__episode15.json",
+      "sha256": "1b8f0f3adec831e7c3dd318770c2b3d27c6cec837c0b732605289b55211ed840"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 15,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__direct__physics_fit__episode15.json",
+      "sha256": "01bad4af301aab61904068560a8d9f83d6d12c2511320f9c91ad412f14198920"
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 15,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__direct__sim_oracle__episode15.json",
+      "sha256": "228f2b66329caafc8aafedccefd827f5430e3822ba3ef26b6118dec750f0612f"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 0,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__lagged__zero_command__episode0.json",
+      "sha256": "c71e1e7141739a6bc2fd20cb600fd74eaf36593beb3397c37dd198253cb5e0a2"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 0,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__lagged__physics_fit__episode0.json",
+      "sha256": "e0f024fc0261fe3767e0a80bc9ebad3470081cd4e45b837f70ae31bcae54f0b5"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 0,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__lagged__sim_oracle__episode0.json",
+      "sha256": "f37219341df622792d927b8218457279437fbff61ceb871fdcb8ed94590d3293"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 1,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__lagged__zero_command__episode1.json",
+      "sha256": "f16af80e85df42d15da015938ee3581837592db6bb73b34012e0c3dd952d12f0"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 1,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__lagged__physics_fit__episode1.json",
+      "sha256": "f53e428333259cb17efabbe44d1e434da42fd66e68f8a5aae977c09b87931cc2"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 1,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__lagged__sim_oracle__episode1.json",
+      "sha256": "ffd3851ecba67bcb793114bbc0f0ba118902727d85de3f3e4ad0a010b44b6976"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 2,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__lagged__zero_command__episode2.json",
+      "sha256": "9671e8c6bb11efaeb9256cb882f6e735647b69d076bb2a09cff32b1ca7cb661f"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 2,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__lagged__physics_fit__episode2.json",
+      "sha256": "1f72c39c9c8c44462d703517637e014750ca08d8316a6df197eff9ae48fcd1f9"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 2,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__lagged__sim_oracle__episode2.json",
+      "sha256": "670295852daa80b0ada4484330d435b12ceb49c3416422c796a3f0cf5e0bc84f"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 3,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__lagged__zero_command__episode3.json",
+      "sha256": "b0ed9c76c09093093bcfa72c211c3969ffbc864db5c740cef4a7688601ccf1ad"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 3,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__lagged__physics_fit__episode3.json",
+      "sha256": "06143326aa5c598bbe7313053bba44b95c236b2da3c727aaf4497c07a873062b"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 3,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__lagged__sim_oracle__episode3.json",
+      "sha256": "bf36904d086cb6607ce57a65a327dde4e7c644d5a8557529c2735d2ecad00e1d"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 4,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__lagged__zero_command__episode4.json",
+      "sha256": "4b22a447a9090f39db401dceb16c42874c44d96ccbf6f7094e84888b1fa16244"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 4,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__lagged__physics_fit__episode4.json",
+      "sha256": "41452247dce83b46d9451d34c59f5c006e7f8eb5c29fc4f26b9931d0af6f645b"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 4,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__lagged__sim_oracle__episode4.json",
+      "sha256": "1758843558f0af9d08d74b6ca93228382fc5667d0cb4db792b5115e857b49bdc"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 5,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__lagged__zero_command__episode5.json",
+      "sha256": "33ecb30232f067969a11eb735270e247ac53be673cd4a93e55fabb3372d73d74"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 5,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__lagged__physics_fit__episode5.json",
+      "sha256": "2472a2a4b0261449f2de56257bf0282a918a82c4d988a82bf402d1a25e15d759"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 5,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__lagged__sim_oracle__episode5.json",
+      "sha256": "c894bf61ec615fb8746889cc31c3dfcf7f6f478580bb206d725f913e2935ede8"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 6,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__lagged__zero_command__episode6.json",
+      "sha256": "66000854537a0ee4458578c212e7e4b9f84edfe8a52b8130d7ce47eb077942da"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 6,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__lagged__physics_fit__episode6.json",
+      "sha256": "2ece460d034065379ce3eb3065d62bddcd74590265adb73b82ed17157f52f9a6"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 6,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__lagged__sim_oracle__episode6.json",
+      "sha256": "c4c620187d291736e709005eb37f411f757a3417b55036938e204ce57a3c73f6"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 7,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__lagged__zero_command__episode7.json",
+      "sha256": "fd8bed5de74fc289117f8ffcbb4ca859bff57eddc2a2ca1170a89d5217590430"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 7,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__lagged__physics_fit__episode7.json",
+      "sha256": "202a7bee57b94fc9a62353fe00c62489e39622343555838b21abbc99e0630c8a"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 7,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__lagged__sim_oracle__episode7.json",
+      "sha256": "98ceee7c675583e1288c1d69f7da5830db1310a649725a9f9510d76f89807216"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 8,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__lagged__zero_command__episode8.json",
+      "sha256": "a96bcd9abf13e17eb97151602f3b0cac93d30dce17b598c7b95ac550cfd6dd63"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 8,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__lagged__physics_fit__episode8.json",
+      "sha256": "f880c098bf8c1519e1583d79011cd25a402329eea5e239a34146c2404524b2f3"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 8,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__lagged__sim_oracle__episode8.json",
+      "sha256": "e5303fc440e4eb76aca47d17512f043b75e83452836a18f44c1ff43da5ac1fcd"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 9,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__lagged__zero_command__episode9.json",
+      "sha256": "d01f42a44b1052be0f0d5de18ed09f050c82d682622f5d6a9fd817aceb9c5632"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 9,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__lagged__physics_fit__episode9.json",
+      "sha256": "c3a8c9dfc59064c1ff3143bc349d857bf8af7439f6acdf639c1fb5204e602a3c"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 9,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__lagged__sim_oracle__episode9.json",
+      "sha256": "a73e913452b18706702e925677535c6f7ca5bd13b640b1d0141c0e73c19ef25f"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 10,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__lagged__zero_command__episode10.json",
+      "sha256": "439033301f18f9b8ba9c969c204c96b4669aca14c84315b8b64882503e3d9511"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 10,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__lagged__physics_fit__episode10.json",
+      "sha256": "014f66f0f2a2936c88bdd4227ee2010a39c813ef1061d0a356b7829153d56e82"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 10,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__lagged__sim_oracle__episode10.json",
+      "sha256": "6d5727201e573099397702135e07a1c2bff05989efde8c5b1b36869e46731d7a"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 11,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__lagged__zero_command__episode11.json",
+      "sha256": "13c8f6d60f7cbcbe99dbed1e3a96d89e28349a3ef8d76d3a1da82f13211acf3d"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 11,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__lagged__physics_fit__episode11.json",
+      "sha256": "a309aa4023eef91393486bfa0fc443b29b74f7c51892ea2048a49bc379eddc6c"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 11,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__lagged__sim_oracle__episode11.json",
+      "sha256": "3287dae50d6a816c3229a6736fe56ed233c89f5cd02f5e5c3a4092baaa516efd"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 12,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__lagged__zero_command__episode12.json",
+      "sha256": "ca080aecdb15f14279cffcc01554fed60cb671a0df5338113f916d2326d207fe"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 12,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__lagged__physics_fit__episode12.json",
+      "sha256": "3b1bef7e85073e59089dd202f0ec6bb2525264dca18144d070f13c5cbf1ac5ae"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 12,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__lagged__sim_oracle__episode12.json",
+      "sha256": "a04a2c81664843733d496fd39da78f1eff0a498b59cec59b1b95df321d423c16"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 13,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__lagged__zero_command__episode13.json",
+      "sha256": "16d15889515e1a96d21200e4f5f64d8a83a0d6b59dced5335a8a79144d821d26"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 13,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__lagged__physics_fit__episode13.json",
+      "sha256": "7c717887482dfbfbf64b462a027300dd43050796e0cc5d6d400669d581bfd24a"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 13,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__lagged__sim_oracle__episode13.json",
+      "sha256": "431e2769ee88db830bb2ad5df9af75cd1db2ea967c9272dc0867fa818ce61dfa"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 14,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__lagged__zero_command__episode14.json",
+      "sha256": "2c8206add6cd6806ae0cc3f0507f322fc3f5cc6c770e867f41d6a2867e5341cd"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 14,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__lagged__physics_fit__episode14.json",
+      "sha256": "fdc9cf4af922a4899d76e1468e88f96d14b539ec0986eeb3f40fee3f9ad1f7a8"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 14,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__lagged__sim_oracle__episode14.json",
+      "sha256": "87bc42ab1205d8570fce3146cce39304a8cc18d3a4808b768926af0bc1ed74a1"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 15,
+      "model_id": "zero_command",
+      "request": "config/control_jobs/calibration__lagged__zero_command__episode15.json",
+      "sha256": "168d3eaa849148872ede8ad2361f07aa1dd03aab6971285a30f7dd139388e542"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 15,
+      "model_id": "physics_fit",
+      "request": "config/control_jobs/calibration__lagged__physics_fit__episode15.json",
+      "sha256": "379f1f32e94270ad52d11a6a62cdf3ba65141c5daac2b9b7bd36b08f078c4160"
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 15,
+      "model_id": "sim_oracle",
+      "request": "config/control_jobs/calibration__lagged__sim_oracle__episode15.json",
+      "sha256": "e119c8fbfeefd22388d1feb6df0616882cd217739d78bbc621b359d960c03043"
+    }
+  ],
+  "measurement_report_sha256": "3b5495ff608345ad126df94e6ca60f670169f23fd872791551b1121640d1333a",
+  "phase": "calibration",
+  "purpose": "Complete original fixed model-independent qualification before learned control outcomes",
+  "recorded_utc": "2026-10-01T23:06:22.762024Z",
+  "schema_version": 1
+}

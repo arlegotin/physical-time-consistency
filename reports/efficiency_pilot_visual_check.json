@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "browser": "Google Chrome for Testing 153.0.8010.12",
+  "replay_checks": {
+    "status": "pass",
+    "selections": 80,
+    "frames": 1200,
+    "clips": 400
+  },
+  "artifacts": [
+    {
+      "path": "reports/efficiency_pilot_demo.html",
+      "sha256": "64a20e5a7bceb2d4f2ff070b68f34ec281faa13d3955debf2f02f9e4f57f97de"
+    },
+    {
+      "path": "reports/efficiency_pilot_quality_compute.svg",
+      "sha256": "cae7032a3ddb28dd98e89d37d13561f22a16ff6bd4d4465afd28b25d68556cfe"
+    }
+  ],
+  "screenshots": [
+    {
+      "path": ".superpowers/sdd/2026-10-07-targeted-efficiency-pilot/replay-browser.png",
+      "sha256": "ae9b16d968f91b55b1381e9ee6af93f01b0adfbd50492e2934dce75e5fbd6ea3"
+    },
+    {
+      "path": ".superpowers/sdd/2026-10-07-targeted-efficiency-pilot/quality-compute-browser.png",
+      "sha256": "820b263eb2685fb0558943481f0c623b701ebbe35bca660e9bb1cdd8d62b6797"
+    }
+  ],
+  "script_sha256": "88bf7b360a4769bd90beb481be1fb6365eb19c8f8f05934100db4b7f69162a1b",
+  "limitation": "Local rendering and replay selections; no hosted deployment or user browser guarantee."
+}

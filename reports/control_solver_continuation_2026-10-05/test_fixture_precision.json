@@ -1,0 +1,19 @@
+{
+  "diagnosis": "Two/four-substep errors were at float32 roundoff; strict monotonic assertion was numerically unresolvable",
+  "final_suite": "829 passed in 101.84 seconds",
+  "original_decay_per_second": 4,
+  "original_objectives_by_substeps": {
+    "1": 3.5501829137606945e-14,
+    "2": 6.291613560230357e-16,
+    "4": 7.336036947930432e-16
+  },
+  "production_changed_for_fixture": false,
+  "recorded_utc": "2026-10-04T23:08:42.626835Z",
+  "replacement_decay_per_second": 20,
+  "resolved_objectives_by_substeps": {
+    "1": 3.728381692269522e-08,
+    "2": 7.410159465204291e-11,
+    "4": 2.0824427997430915e-13
+  },
+  "scope": "Analytic unit fixture only; no robot/protocol change"
+}

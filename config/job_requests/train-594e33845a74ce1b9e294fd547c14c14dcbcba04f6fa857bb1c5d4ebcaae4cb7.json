@@ -1,0 +1,17 @@
+{
+  "phase": "exploratory",
+  "protocol_version": "PTCO-1.0",
+  "purpose": "training",
+  "semantic_inputs": {
+    "actuator": "direct",
+    "cell_id": "direct__A__one_step__node_structured__seed9000",
+    "condition": "A",
+    "epochs": 100,
+    "learning_rate": 0.001,
+    "loss_mode": "one_step",
+    "model_id": "node_structured",
+    "seed": 9000,
+    "train_manifest": "data/direct/A/train/manifest.json",
+    "validation_manifest": "data/direct/A/validation/manifest.json"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "cell_id": "solver4__direct__A__shared__node_generic__seed1__h40000000__episode4",
+  "parent_cell_id": "direct__A__shared__node_generic__seed1__h40000000__episode4",
+  "parent_manifest": "evidence/M70/20261003T072014-c246f716/manifest.json",
+  "parent_manifest_sha256": "bac71eac98b0db7bc7b3f395344dca3c7b11afe360a91325e10f240357fa14fa",
+  "parent_request": "config/control_jobs/confirmatory__direct__A__shared__node_generic__seed1__h40000000__episode4.json",
+  "parent_request_sha256": "3efd2e6392e70892e5ab597a7d603c5fe008c6054cbf7d28f5125c9965b93f1d",
+  "request": {
+    "actuator": "direct",
+    "actuator_interval_ns": 40000000,
+    "checkpoint_sha256": "2612c9ffb0187cd0187105c0be6a33534ac9c3a2ddf7900153c44fd8542e3e0d",
+    "condition": "clean",
+    "episode_id": 4,
+    "manifest_sha256": "1a439b08889ddb98ed59733ed8a875dddd7dc4983747e1a633700d20784606b8",
+    "model_id": "node_generic",
+    "model_manifest": "study/precision-look-2/study/precision-look-3/study/precision-look-4/evidence/M30/20261001T113030-77ebef30/manifest.json",
+    "model_partition_ns": [
+      40000000
+    ],
+    "phase": "confirmatory",
+    "physics_step_ns": 250000,
+    "planner_settings": {
+      "candidate_count": 128,
+      "elite_count": 16,
+      "initial_std": 1.0,
+      "iterations": 4,
+      "std_floor": 0.1
+    },
+    "power_mode": null,
+    "resource_projection": {
+      "direct_measured_proxies": [
+        {
+          "mean_artifact_bytes": 2466529.1,
+          "mean_producer_wall_seconds": 25.9108309959,
+          "measured_episodes": 10,
+          "model_id": "mlp_dt",
+          "model_step_ns": 40000000
+        },
+        {
+          "mean_artifact_bytes": 2469688.1,
+          "mean_producer_wall_seconds": 77.6005269082,
+          "measured_episodes": 10,
+          "model_id": "mlp_dt",
+          "model_step_ns": 5000000
+        },
+        {
+          "mean_artifact_bytes": 2467384.9,
+          "mean_producer_wall_seconds": 26.6627748918,
+          "measured_episodes": 10,
+          "model_id": "node_generic",
+          "model_step_ns": 40000000
+        },
+        {
+          "mean_artifact_bytes": 2467645.7,
+          "mean_producer_wall_seconds": 82.78524012089999,
+          "measured_episodes": 10,
+          "model_id": "node_generic",
+          "model_step_ns": 5000000
+        },
+        {
+          "mean_artifact_bytes": 2467888.1,
+          "mean_producer_wall_seconds": 26.215400737500005,
+          "measured_episodes": 10,
+          "model_id": "power_correct",
+          "model_step_ns": 40000000
+        },
+        {
+          "mean_artifact_bytes": 2468081.4,
+          "mean_producer_wall_seconds": 78.92833900410001,
+          "measured_episodes": 10,
+          "model_id": "power_correct",
+          "model_step_ns": 5000000
+        }
+      ],
+      "estimated_artifact_bytes": 2961443460.0,
+      "estimated_producer_wall_seconds": 63620.62253168,
+      "limitation": "Direct development throughput proxy for both plants; excludes missing training, startup/hash closure, calibration/reference and refinement audits; estimates, not caps",
+      "owner_imposed_caps": null,
+      "primary_episode_count": 1200,
+      "source": "reports/control_development_direct.json",
+      "source_sha256": "817b29fb1aac0bc06ebef3413dc2a82ed84b8c2d4dc1e36a7fd48c5e233c2db2"
+    },
+    "schema_version": 1,
+    "seed": 1
+  },
+  "schema_version": 1,
+  "substeps": 4
+}

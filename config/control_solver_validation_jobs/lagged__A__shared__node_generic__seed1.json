@@ -1,0 +1,11 @@
+{
+  "actuator": "lagged",
+  "canonical_tensor_sha256": "c9e75b5aa36ad2f0f68e19a6f574fe1be6117501e3d616c37cf1ba5b6946dda3",
+  "cell_id": "lagged__A__shared__node_generic__seed1",
+  "checkpoint_sha256": "ca89a1d24cb6ad5daaa1fe268892c4f3355a24543db8dd9bf56f638d2131ca4d",
+  "manifest": "study/control-development/evidence/M30/20261003T020839-9147044b/manifest.json",
+  "manifest_sha256": "b9f0c4da405f2c295d714243a632af9ce12b3961c446adbe73a4afb94a150158",
+  "model_id": "node_generic",
+  "seed": 1,
+  "source_context": "study/control-development"
+}

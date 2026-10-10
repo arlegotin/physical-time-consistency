@@ -1,0 +1,55 @@
+{
+  "allocation_sha256": "e483d8c5539157d22e9cb9bf65d257ae38979c4fa5c1e728230e5e245f90463d",
+  "allowed_actions": [
+    "same nominal training",
+    "same probes",
+    "paired controls",
+    "replay and finer physics",
+    "last quadrature retraining"
+  ],
+  "contract_path": "docs/superpowers/plans/2026-10-09-compute-matched-node-precision.md",
+  "episodes_per_seed": 10,
+  "look": 2,
+  "mean_contrast": 0.002707178798045024,
+  "new_seeds": [
+    2026100811,
+    2026100812,
+    2026100813,
+    2026100814,
+    2026100815
+  ],
+  "planning_sd_margin": 1.25,
+  "precision_projection": {
+    "chosen_n": 16,
+    "conservative_alpha": 0.0015625,
+    "cost_width_target": 0.011168824125355428,
+    "justification": "Width already adequate; minimum five added clusters address influence instability",
+    "projected_n_for_width": 10
+  },
+  "prior_result_sha256": "8544c8d2ff437efb74ce7835fd7c3ad4fb0072522664ef21cd78e545e142e441",
+  "prior_seeds": [
+    2026100800,
+    2026100801,
+    2026100802,
+    2026100803,
+    2026100804,
+    2026100805,
+    2026100806,
+    2026100807,
+    2026100808,
+    2026100809,
+    2026100810
+  ],
+  "protocol_id": "PTCO-COMPUTE-0.1",
+  "reason": "Coarse AffineFlow versus coarse RK4 changes one-sided interpretation under seed omission; collect independent clusters",
+  "resource_projection": {
+    "cpu_hours": 3.1,
+    "disk_gib": 3.0,
+    "peak_ram_gib": 1.0
+  },
+  "schema_version": 1,
+  "status": "prospectively_registered",
+  "variance": 1.161590332956962e-05,
+  "within_episode_fraction": 0.6756924381326325,
+  "within_episode_variance": 7.84877804186986e-06
+}

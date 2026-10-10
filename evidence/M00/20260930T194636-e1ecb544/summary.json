@@ -1,0 +1,35 @@
+{
+  "blocker": {
+    "check_id": "packages",
+    "reason": "Command failed (exit 1): ['/workspace/physical-time-consistency/.venv/bin/python', '-m', 'pip', '--isolated', '--disable-pip-version-check', 'install', '--only-binary=:all:', '--index-url', 'https://pypi.org/simple', '-r', 'requirements.in']; full output in /workspace/physical-time-consistency/evidence/M00/20260930T194636-e1ecb544/stderr.log",
+    "required_prerequisite": "Resolve packages at the specified pins on an authorized CPU host; resume M00"
+  },
+  "measurements": {
+    "architecture": "arm64",
+    "available_disk_bytes_at_start": 13466304512,
+    "core_count": 14,
+    "cpu_description": "arm",
+    "executable": "/workspace/physical-time-consistency/.venv/bin/python",
+    "kernel": "25.6.0",
+    "os": "Darwin",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.11.5 | packaged by conda-forge | (main, Aug 27 2023, 03:33:12) [Clang 15.0.7 ]",
+    "thread_environment": {
+      "MKL_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "virtual_environment": true
+  },
+  "missing_cells": [
+    "packages",
+    "determinism",
+    "nstep",
+    "torch_smoke",
+    "wheel_lock",
+    "offline_install",
+    "validators"
+  ],
+  "scientific_experiments_run": false
+}

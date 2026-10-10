@@ -1,0 +1,45 @@
+{
+  "authority": "User authorized current-branch local execution without artificial caps",
+  "branch": "repair",
+  "changed_files": [
+    "poc/train.py",
+    "tests/test_training.py"
+  ],
+  "claim_ids": [
+    "C01"
+  ],
+  "contract": {
+    "1": "S12/MX element 1 and S13.4 repair; checkpoint storage only, identical corpus/seed/objective/optimizer; return M30, no scientific verdict",
+    "10": "S12/MX element 10 and S13.4 repair; checkpoint storage only, identical corpus/seed/objective/optimizer; return M30, no scientific verdict",
+    "11": "S12/MX element 11 and S13.4 repair; checkpoint storage only, identical corpus/seed/objective/optimizer; return M30, no scientific verdict",
+    "12": "S12/MX element 12 and S13.4 repair; checkpoint storage only, identical corpus/seed/objective/optimizer; return M30, no scientific verdict",
+    "2": "S12/MX element 2 and S13.4 repair; checkpoint storage only, identical corpus/seed/objective/optimizer; return M30, no scientific verdict",
+    "3": "S12/MX element 3 and S13.4 repair; checkpoint storage only, identical corpus/seed/objective/optimizer; return M30, no scientific verdict",
+    "4": "S12/MX element 4 and S13.4 repair; checkpoint storage only, identical corpus/seed/objective/optimizer; return M30, no scientific verdict",
+    "5": "S12/MX element 5 and S13.4 repair; checkpoint storage only, identical corpus/seed/objective/optimizer; return M30, no scientific verdict",
+    "6": "S12/MX element 6 and S13.4 repair; checkpoint storage only, identical corpus/seed/objective/optimizer; return M30, no scientific verdict",
+    "7": "S12/MX element 7 and S13.4 repair; checkpoint storage only, identical corpus/seed/objective/optimizer; return M30, no scientific verdict",
+    "8": "S12/MX element 8 and S13.4 repair; checkpoint storage only, identical corpus/seed/objective/optimizer; return M30, no scientific verdict",
+    "9": "S12/MX element 9 and S13.4 repair; checkpoint storage only, identical corpus/seed/objective/optimizer; return M30, no scientific verdict"
+  },
+  "counterexample": "2134 real updates consumed 3.12 seconds of model computation over about 203 seconds elapsed; the storage fixture failed with 4106 versus 18 archive storages.",
+  "counterexample_log": ".superpowers/sdd/2026-09-30-physical-time-consistency/task-14-checkpoint-red.log",
+  "invalidated_run_ids": [
+    "20260930T223329-67028ca2"
+  ],
+  "parent_gate": "G30",
+  "protocol_version": "PTCO-1.0",
+  "recorded_utc": "2026-09-30T22:49:08.221700Z",
+  "regression_tests": [
+    "tests/test_training.py"
+  ],
+  "request_id": "MX-checkpoint-0001",
+  "resource_projection": {
+    "basis": "Measured focused/full unit suite",
+    "owner_imposed_caps": null,
+    "wall_seconds": 13
+  },
+  "return_milestone": "M30",
+  "schema_version": 1,
+  "unresolved_question": "Does packed checkpoint serialization preserve exact optimizer continuation while eliminating thousands of per-window storages?"
+}

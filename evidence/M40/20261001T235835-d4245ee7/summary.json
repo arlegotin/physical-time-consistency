@@ -1,0 +1,76 @@
+{
+  "actuator": "direct",
+  "actuator_interval_ns": 40000000,
+  "candidate_count_per_decision": 512,
+  "checkpoint_hash": null,
+  "command_effort_integral": 0.0,
+  "complete": true,
+  "condition": "clean",
+  "cost_components": {
+    "effort": 0.0,
+    "terminal": 2.186282227436277,
+    "total": 2.885892540215886,
+    "tracking": 0.6996103127796088,
+    "velocity": 0.0
+  },
+  "episode_id": 14,
+  "experiment_id": "E03",
+  "fallback_count": 0,
+  "final_window_sample_count": 801,
+  "initial_state": [
+    0.1860253731756275,
+    0.12673503563565702,
+    0.0,
+    0.0
+  ],
+  "missing_cells": [],
+  "model_hashes": {},
+  "model_id": "zero_command",
+  "model_partition_ns": [
+    40000000
+  ],
+  "oracle_physics_steps": 0,
+  "phase": "calibration",
+  "physics_step_ns": 250000,
+  "planner_latency_median_seconds": 0.647977875,
+  "planner_latency_p95_seconds": 0.6599295389500001,
+  "power_mode": null,
+  "q_rmse_rad": 0.4675769698601801,
+  "realized_cost": 2.885892540215886,
+  "resource_projection": {
+    "disk_bytes": 2817763,
+    "measurement_manifest": "evidence/M40/20261001T225554-138ae3b6/manifest.json",
+    "measurement_manifest_sha256": "ed12780f93b99a9b2caf713310f4b619b05695dd93b139f2f1732b720f0c5d10",
+    "reason": "Same fixed-budget episode; 25% throughput projection margin, not a scientific cap",
+    "wall_seconds": 39.46682416625
+  },
+  "run_id": "20261001T235835-d4245ee7",
+  "seed": 9000,
+  "seed_namespaces": {
+    "cem": [
+      7101,
+      9000,
+      14,
+      2
+    ],
+    "disturbance": [
+      7101,
+      9000,
+      0,
+      4
+    ]
+  },
+  "success": false,
+  "target": [
+    -0.27601142139590973,
+    -0.34631722992208713
+  ],
+  "terminal_q_error_rad": 0.6612536922295825,
+  "velocity_rms_rad_s": 0.0,
+  "work": {
+    "history_tokens_processed": 0,
+    "network_calls": 0,
+    "scalar_candidate_evaluations": 122880,
+    "vector_field_calls": 0
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "protocol_id": "PTCO-EFF-0.1",
+  "scope": "Selected-fit training ancestry only; synthetic controls and unselected optimizer candidates are excluded. Historical resource measurements across runs, not a prospective training-speed benchmark.",
+  "freeze_sha256": "39bacb772bcc4af7e44879ea2d345c35e5247c7916f161c535c5a486c430d132",
+  "rows": [
+    {
+      "model": "direct:mlp_h",
+      "selected_epoch": 590,
+      "completed_epochs": 700,
+      "updates": 89600,
+      "ancestry": [
+        {
+          "manifest": "study/control-development/evidence/M30/20261007T114143-8cf0e3cb/manifest.json",
+          "manifest_sha256": "6f662735e8467d83e7e93112bf4c9f8ef283f8a2c68f5eac0503b814e6d23014",
+          "resources_sha256": "0b81a5ff39cc87048e311fcb45778f3c91e5cc51a11918c7bbee2477caaaac35",
+          "wall_seconds": 86.18512575,
+          "cpu_seconds": 84.908629
+        },
+        {
+          "manifest": "study/control-development/evidence/M30/20261007T114016-ce07430d/manifest.json",
+          "manifest_sha256": "e16ea73a8bc52b06cfd5a34c9df978813d3b41e6a9ff233cd9c935265b8de9da",
+          "resources_sha256": "cc713680873bd83041f2254827709efcb3390626052521e81296c0c5a515ce42",
+          "wall_seconds": 82.453013083,
+          "cpu_seconds": 81.05796500000001
+        },
+        {
+          "manifest": "study/control-development/evidence/M30/20261007T113853-41d28a53/manifest.json",
+          "manifest_sha256": "061b1e9deabb97013ace9dd1d3bd7e106fb0a4dc24ce10d159e6e53f6c63c067",
+          "resources_sha256": "0a48e6d9cc762e8fcc3621231735ca5baa27d74efac92445ad1c9bfb653cc517",
+          "wall_seconds": 78.013613917,
+          "cpu_seconds": 77.022788
+        },
+        {
+          "manifest": "study/control-development/evidence/M30/20261007T113737-d71fcc12/manifest.json",
+          "manifest_sha256": "5d0301eda5c526aabd631577f2e9da183ed9e4eb2ba4392bd8bfcf4d56ab2b35",
+          "resources_sha256": "cd00296a5f610ba30fed06a827371e9bc7fd5176289c29fea05e57a7f30564e7",
+          "wall_seconds": 71.786228875,
+          "cpu_seconds": 70.723967
+        },
+        {
+          "manifest": "study/control-development/evidence/M30/20261007T113630-acd29f81/manifest.json",
+          "manifest_sha256": "a3447ef73be22c675890a9b2fcff42f37d4ff55014c650942f22d134cffa1748",
+          "resources_sha256": "b9f6d51e00df7b6c3d94bdd21cae193abdda5b462cccaf70def762a1ed5fda20",
+          "wall_seconds": 62.49252125,
+          "cpu_seconds": 62.153273999999996
+        },
+        {
+          "manifest": "study/control-development/evidence/M30/20261007T113532-2943d6e0/manifest.json",
+          "manifest_sha256": "830eed70e05ae95b297bd7899de202ecf99e1e82a83d3291afabc07de3c7ba40",
+          "resources_sha256": "9e80349c6726b0665e415d6b83127c191829855a52e4212853ae91e6c6e246df",
+          "wall_seconds": 54.564107667,
+          "cpu_seconds": 54.092454
+        },
+        {
+          "manifest": "study/control-development/evidence/M30/20261007T113435-100a241d/manifest.json",
+          "manifest_sha256": "95e24c820e738b7542f58dc701a2efcf66de8f148cc0c9b3830823ab47ddeadc",
+          "resources_sha256": "4a9385ca57777c3407248ba0a6a6d553f8d138a58ce7ef5e28530f8b0a19f9a3",
+          "wall_seconds": 49.882318375,
+          "cpu_seconds": 49.67458
+        }
+      ],
+      "total_wall_seconds": 485.37692891700004,
+      "total_cpu_seconds": 479.633657,
+      "validation_one_step": 0.00016146678422046534
+    },
+    {
+      "model": "direct:node_generic",
+      "selected_epoch": 75,
+      "completed_epochs": 100,
+      "updates": 12800,
+      "ancestry": [
+        {
+          "manifest": "study/precision-look-2/study/precision-look-3/evidence/M30/20261001T105922-7ad80688/manifest.json",
+          "manifest_sha256": "be31e6f73f2847e9f5d15ac0264c12836b5b2cb8c7aa40d37e368bc723483f2a",
+          "resources_sha256": "0cbc2b23ecbe484483be93bbf56ad3422accee8ebc8949012a91c3383d7cd709",
+          "wall_seconds": 260.903840083,
+          "cpu_seconds": 237.803272
+        }
+      ],
+      "total_wall_seconds": 260.903840083,
+      "total_cpu_seconds": 237.803272,
+      "validation_one_step": 0.0004243471994413994
+    },
+    {
+      "model": "direct:node_structured",
+      "selected_epoch": 90,
+      "completed_epochs": 100,
+      "updates": 12800,
+      "ancestry": [
+        {
+          "manifest": "study/control-development/evidence/M30/20261002T144640-2021313a/manifest.json",
+          "manifest_sha256": "f9e75e513195ec43bbc184941b9540569e2e44f6f169c56c31a22506ac823270",
+          "resources_sha256": "b5b794977fe82671a78eaddee41cb3e94376244ac9a6d0b37bcb03e62f030720",
+          "wall_seconds": 150.68829575,
+          "cpu_seconds": 149.91190300000002
+        }
+      ],
+      "total_wall_seconds": 150.68829575,
+      "total_cpu_seconds": 149.91190300000002,
+      "validation_one_step": 0.0002476376016602444
+    },
+    {
+      "model": "direct:physics_fit",
+      "selected_epoch": 20,
+      "completed_epochs": 100,
+      "updates": 12800,
+      "ancestry": [
+        {
+          "manifest": "evidence/M40/20261001T223844-5f87d589/manifest.json",
+          "manifest_sha256": "7f284e79151122a137d12e624e8db9e6dd234436771d7104a0f8b3db8f61bd16",
+          "resources_sha256": "10693d9568d5f02a6b72fda41137c98461f2467b197163bb054829d2513d5c6e",
+          "wall_seconds": 247.686161,
+          "cpu_seconds": 247.15346499999998
+        }
+      ],
+      "total_wall_seconds": 247.686161,
+      "total_cpu_seconds": 247.15346499999998,
+      "validation_one_step": 6.453571010922587e-11
+    },
+    {
+      "model": "direct:power_correct",
+      "selected_epoch": 165,
+      "completed_epochs": 200,
+      "updates": 25600,
+      "ancestry": [
+        {
+          "manifest": "study/precision-look-2/study/precision-look-3/evidence/M30/20261001T110618-1b7d46ec/manifest.json",
+          "manifest_sha256": "353b7365329d252757956a6b967b2450fd5db9bab7c92a84dbfc0b121b3bfcd4",
+          "resources_sha256": "8fca46643e81448c1b5b5a198e52638ebc1745d185717b4f3eed87dbeaebb4cf",
+          "wall_seconds": 147.931825333,
+          "cpu_seconds": 137.50242
+        },
+        {
+          "manifest": "study/precision-look-2/study/precision-look-3/evidence/M30/20261001T110349-0c207413/manifest.json",
+          "manifest_sha256": "fed5f4d942e9c6c8c0fde6f2282b0a8b2f694adeecfad21f44303b696ead62d8",
+          "resources_sha256": "4c6a4fdce2a755db0597171b8f94af2baaa87c380d420f0007182761e7a637dd",
+          "wall_seconds": 143.073398083,
+          "cpu_seconds": 131.012583
+        }
+      ],
+      "total_wall_seconds": 291.00522341600004,
+      "total_cpu_seconds": 268.515003,
+      "validation_one_step": 0.00031579528922520694
+    },
+    {
+      "model": "lagged:mlp_h",
+      "selected_epoch": 400,
+      "completed_epochs": 400,
+      "updates": 51200,
+      "ancestry": [
+        {
+          "manifest": "study/control-development/evidence/M30/20261007T114623-36d1a44d/manifest.json",
+          "manifest_sha256": "0c29c62281270d176ab842c78aa658d371dcd0266a7e008626860cd7cec70df8",
+          "resources_sha256": "fc3cccd51acc0fd075f3b4b54bd92cec1fff690afc21d1857565dff0d168606e",
+          "wall_seconds": 71.745024625,
+          "cpu_seconds": 71.117033
+        },
+        {
+          "manifest": "study/control-development/evidence/M30/20261007T114513-9781b448/manifest.json",
+          "manifest_sha256": "1aaa37af8cc06d5b3a699b2a476461b7d4574cbb7ed46fddf4884e6bb43a38f8",
+          "resources_sha256": "baec587fcf8b18a714a05c5768cce4f1d9fc7caf8e75c846e2a4948c34e74457",
+          "wall_seconds": 65.2361485,
+          "cpu_seconds": 64.76336
+        },
+        {
+          "manifest": "study/control-development/evidence/M30/20261007T114412-7ab99f69/manifest.json",
+          "manifest_sha256": "84bf7ae12de338e69628c5df7e49ba8866ef7d778d23c3c50ea419c026f130cd",
+          "resources_sha256": "2bddb4a9fb314704ba87db4bbdea33e4956ee79fc73c233fcee0e21c7c9d72dc",
+          "wall_seconds": 55.875580834,
+          "cpu_seconds": 55.418911
+        },
+        {
+          "manifest": "study/control-development/evidence/M30/20261007T114317-4119929b/manifest.json",
+          "manifest_sha256": "9c837597790556b64de3dd4633134d96b74e5257f74d5eae526a84e08e93091b",
+          "resources_sha256": "1a4d35b8dbedc0cf6f2e1b1bafd40fc596fb9981e06d788c3c5bc686b0728621",
+          "wall_seconds": 50.910170875,
+          "cpu_seconds": 50.688299
+        }
+      ],
+      "total_wall_seconds": 243.766924834,
+      "total_cpu_seconds": 241.98760300000004,
+      "validation_one_step": 0.0006751605296813068
+    },
+    {
+      "model": "lagged:node_generic",
+      "selected_epoch": 400,
+      "completed_epochs": 500,
+      "updates": 64000,
+      "ancestry": [
+        {
+          "manifest": "study/control-development/evidence/M30/20261002T213916-a2d56caf/manifest.json",
+          "manifest_sha256": "1e381a68b4bd97820e30bef6a76f3e255737409c27c1fc9e6db4444e6d304b98",
+          "resources_sha256": "e8a509570e37ba27fe553a7b78243f86f6d2f3ee2eeaffe37d82ebf34d27d8e4",
+          "wall_seconds": 185.011896875,
+          "cpu_seconds": 184.532536
+        },
+        {
+          "manifest": "study/control-development/evidence/M30/20261002T213559-588f05e0/manifest.json",
+          "manifest_sha256": "d467822372c8e220a7a855a7014041c8b9478887ed8d297016331cf6cf98f00f",
+          "resources_sha256": "df50bee080c18d616ed25bf569ae7041c215b323ef8a58c0d409ec06a817d3d0",
+          "wall_seconds": 193.118737208,
+          "cpu_seconds": 192.290423
+        },
+        {
+          "manifest": "study/control-development/evidence/M30/20261002T213246-df7a04c2/manifest.json",
+          "manifest_sha256": "a5b9b3696b21ea08044b1ebc55ac9d67f42c080d12d795157fd9940927fe914d",
+          "resources_sha256": "3b54710fff99e11bb3b7c41f658c828a00eed1fa3f1ded218e799e873f213c96",
+          "wall_seconds": 188.689069083,
+          "cpu_seconds": 187.655456
+        },
+        {
+          "manifest": "study/control-development/evidence/M30/20261002T212942-242c213b/manifest.json",
+          "manifest_sha256": "487cdbdd6e4019355503ac121b5d88471e4a1b44a959f85687853c5e4ce96a74",
+          "resources_sha256": "632a992d994acba7709f3567695ed25c2700027764828181b195721f058c17f9",
+          "wall_seconds": 178.905700834,
+          "cpu_seconds": 178.213986
+        },
+        {
+          "manifest": "study/control-development/evidence/M30/20261002T212659-e8313d2a/manifest.json",
+          "manifest_sha256": "52260eef4e2dca9e770daa8f9ff42ff7b99bcdedf551519e6903bd88e587bee1",
+          "resources_sha256": "653b0ae59142379d565417303213f11eb399a80bfaa10e24eae3f5762402eb2f",
+          "wall_seconds": 158.671958875,
+          "cpu_seconds": 158.264711
+        }
+      ],
+      "total_wall_seconds": 904.3973628749999,
+      "total_cpu_seconds": 900.9571119999999,
+      "validation_one_step": 0.0002556027943683148
+    },
+    {
+      "model": "lagged:node_structured",
+      "selected_epoch": 200,
+      "completed_epochs": 200,
+      "updates": 25600,
+      "ancestry": [
+        {
+          "manifest": "study/control-development/evidence/M30/20261002T215102-a4c9fb6d/manifest.json",
+          "manifest_sha256": "851644586208dcb97ea11b16429832f4e246d301372159178682fa67062585a6",
+          "resources_sha256": "d9c61f94614ed0ccdd5cd72cdf81bd3bed41b794ea2a185675eff7073182d7ae",
+          "wall_seconds": 150.617102459,
+          "cpu_seconds": 150.33718
+        },
+        {
+          "manifest": "study/control-development/evidence/M30/20261002T214834-37ffd7a5/manifest.json",
+          "manifest_sha256": "b07962038adcd6e40f6a518acc8e17e13d252712795c1f6bebee39b8e08623dc",
+          "resources_sha256": "f95e038aab151ca5627f85344fc4657e854af461b50f0959a38bdde5a627506c",
+          "wall_seconds": 144.240564833,
+          "cpu_seconds": 144.037156
+        }
+      ],
+      "total_wall_seconds": 294.857667292,
+      "total_cpu_seconds": 294.37433599999997,
+      "validation_one_step": 0.0004545728347693512
+    },
+    {
+      "model": "lagged:physics_fit",
+      "selected_epoch": 5,
+      "completed_epochs": 100,
+      "updates": 12800,
+      "ancestry": [
+        {
+          "manifest": "evidence/M40/20261001T224342-c40a52cd/manifest.json",
+          "manifest_sha256": "d23f3e3dbb14307cc5172a24a329c1929ff5beabcafcd3d471702779092016a2",
+          "resources_sha256": "6b9df28b5a1adb0cb81d43ba5f7b4e726062758212b0e6584509d2fd709ffef4",
+          "wall_seconds": 255.378101667,
+          "cpu_seconds": 254.850055
+        }
+      ],
+      "total_wall_seconds": 255.378101667,
+      "total_cpu_seconds": 254.850055,
+      "validation_one_step": 2.2607125893525648e-10
+    },
+    {
+      "model": "lagged:power_correct",
+      "selected_epoch": 340,
+      "completed_epochs": 400,
+      "updates": 51200,
+      "ancestry": [
+        {
+          "manifest": "study/control-development/evidence/M30/20261002T214651-60f83515/manifest.json",
+          "manifest_sha256": "9a4c48e7855a376846214715845b6291c670e26e2ae7cf37e78ca8fe54eee16d",
+          "resources_sha256": "56acb68580980b11968812a63cfcf0c52edb6130f4688a407fb9f33380a23514",
+          "wall_seconds": 99.449098541,
+          "cpu_seconds": 99.025431
+        },
+        {
+          "manifest": "study/control-development/evidence/M30/20261002T214515-a225119f/manifest.json",
+          "manifest_sha256": "0c20ec9f5a277419772e32d789e5d0fe00c603a7bdec2bffd3229f8aac3475cf",
+          "resources_sha256": "06de81bc48e78b59c0022a27f7eb44205479b2d5c937da42fe68bed2fd95defd",
+          "wall_seconds": 91.329910375,
+          "cpu_seconds": 90.93620200000001
+        },
+        {
+          "manifest": "study/control-development/evidence/M30/20261002T214347-e09c4129/manifest.json",
+          "manifest_sha256": "36d2eae7914a59a4a61b0ae5320c5d668a5a17714a74ad79a849b7d46da4493c",
+          "resources_sha256": "9ee6b5c3a9bcb0d7b9af24aef5ff3b5fadbd0ebee14a06c28cf276c008d792ca",
+          "wall_seconds": 84.647849583,
+          "cpu_seconds": 84.350173
+        },
+        {
+          "manifest": "study/control-development/evidence/M30/20261002T214225-54bcf204/manifest.json",
+          "manifest_sha256": "ad092d05b723a66539b6ed1c737c3ecde11d9abddadf28a8eb8b5bfcac728e3a",
+          "resources_sha256": "79615194bf70b4caf605b6a10b30e808efa76a1cd38a00f94fca007e2a3759f9",
+          "wall_seconds": 77.7411855,
+          "cpu_seconds": 77.49078899999999
+        }
+      ],
+      "total_wall_seconds": 353.168043999,
+      "total_cpu_seconds": 351.802595,
+      "validation_one_step": 0.0005866901492481702
+    }
+  ]
+}

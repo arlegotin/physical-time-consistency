@@ -1,0 +1,60 @@
+{
+  "alpha_spent": null,
+  "code_tree_sha256": "a82385b2426a838e086ca6d072cd8ed050c34b7c4510b34666cad99fada1a6f4",
+  "configuration_sha256": "4b1b7ed74249caa30ac627449be852ca9231e3a9514b3a7f66283857cdfb9e92",
+  "created_utc": "2026-09-30T22:51:27.317914Z",
+  "criterion_evaluations": [
+    {
+      "bounds": null,
+      "criterion_id": "repair.counterexample",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Packed and legacy checkpoints preserve identical updates, targets and ragged permutations",
+      "status": "pass",
+      "threshold": 0.0
+    },
+    {
+      "bounds": null,
+      "criterion_id": "repair.resume",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Packed and legacy checkpoints preserve identical updates, targets and ragged permutations",
+      "status": "pass",
+      "threshold": 0.0
+    },
+    {
+      "bounds": null,
+      "criterion_id": "repair.regressions",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Packed and legacy checkpoints preserve identical updates, targets and ragged permutations",
+      "status": "pass",
+      "threshold": 0.0
+    }
+  ],
+  "decision_id": "5d64b0773ee79c57786ebd9902522eec6f746d2d70ede7168bf8714f52a0a861",
+  "evidence": [
+    {
+      "path": "evidence/MX/20260930T225124-82c64d6b/manifest.json",
+      "producing_run_id": "20260930T225124-82c64d6b",
+      "role": "manifest",
+      "sha256": "aea84256671e9d17f9a47c92fb923550757a811c19bdb48cace117d02d26044b"
+    }
+  ],
+  "gate_id": "GX",
+  "look_index": null,
+  "milestone_id": "MX",
+  "outcome": "GO",
+  "permitted_next_actions": [
+    {
+      "branch": null,
+      "milestone_id": "M30",
+      "question": "Resume the same fixed development design after checkpoint repair"
+    }
+  ],
+  "phase": "unit",
+  "protocol_version": "PTCO-1.0",
+  "schema_version": 1,
+  "terminal_verdict": null,
+  "validity_status": "valid"
+}

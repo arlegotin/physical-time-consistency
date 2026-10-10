@@ -1,0 +1,1790 @@
+{
+  "completed_episodes": 16,
+  "contrasts": [
+    {
+      "A": -0.021270098443437996,
+      "A_by_seed": [
+        -0.021270098443437996
+      ],
+      "A_minus_half_B_by_seed": [
+        -0.036126912693523805
+      ],
+      "B": 0.02971362850017161,
+      "B_by_seed": [
+        0.02971362850017161
+      ],
+      "D_correct_by_seed": [
+        0.05098372694360961
+      ],
+      "D_low_by_seed": [
+        0.02971362850017161
+      ],
+      "D_structured_by_seed": [
+        0.0
+      ],
+      "actuator": "direct",
+      "confidence_bounds": null,
+      "fraction_explained": null,
+      "fraction_status": "full_improvement_not_positively_resolved",
+      "identity_scope": "Cost-vector check; raw candidate/action/trajectory identity must also be verified",
+      "nominal_identity": {
+        "checkpoint_hash": "d792daeddbf667f8515cd51e0eccaab22a88fffd026dcb3ea8a1a21022e0f146",
+        "matched": true,
+        "scope": "Raw nominal shared-weight candidate/action/trajectory equality",
+        "tolerance": 1e-12
+      },
+      "scope": "Fixed-data intervention; no claim that ordinary baselines naturally implement the low-order law",
+      "statistical_status": "descriptive_only",
+      "structured_lower_bound": null
+    },
+    {
+      "A": 0.011505870582637322,
+      "A_by_seed": [
+        0.011505870582637322
+      ],
+      "A_minus_half_B_by_seed": [
+        0.002504186024374473
+      ],
+      "B": 0.018003369116525697,
+      "B_by_seed": [
+        0.018003369116525697
+      ],
+      "D_correct_by_seed": [
+        0.006497498533888368
+      ],
+      "D_low_by_seed": [
+        0.01800336911652569
+      ],
+      "D_structured_by_seed": [
+        -6.938893903907228e-18
+      ],
+      "actuator": "lagged",
+      "confidence_bounds": null,
+      "fraction_explained": null,
+      "fraction_status": "full_improvement_not_positively_resolved",
+      "identity_scope": "Cost-vector check; raw candidate/action/trajectory identity must also be verified",
+      "nominal_identity": {
+        "checkpoint_hash": "27ba72e714c0659ff18fd873e6aa739ffadd3457d568a668d541cd18e9540a38",
+        "matched": true,
+        "scope": "Raw nominal shared-weight candidate/action/trajectory equality",
+        "tolerance": 1e-12
+      },
+      "scope": "Fixed-data intervention; no claim that ordinary baselines naturally implement the low-order law",
+      "statistical_status": "descriptive_only",
+      "structured_lower_bound": null
+    }
+  ],
+  "episodes": [
+    {
+      "cell_id": "direct__F__one_step__power_correct__low__h40000000__episode0",
+      "manifest": "evidence/M40/20261002T021927-803ecd3e/manifest.json",
+      "manifest_sha256": "fa5a615c31193f2043ee5f0a55bc5c33e2f17202a7eadf962070cc9bf0c5f918",
+      "resources": {
+        "cpu_seconds": 25.908291,
+        "disk_bytes": 2479768,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 32.605998488750004
+        },
+        "peak_rss_bytes": 388956160,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 25.932543708
+      },
+      "summary": {
+        "actuator": "direct",
+        "actuator_interval_ns": 40000000,
+        "candidate_count_per_decision": 512,
+        "checkpoint_hash": "d792daeddbf667f8515cd51e0eccaab22a88fffd026dcb3ea8a1a21022e0f146",
+        "command_effort_integral": 0.9377109775874447,
+        "complete": true,
+        "condition": "clean",
+        "cost_components": {
+          "effort": 0.0009377109775874447,
+          "terminal": 0.0013342976494913705,
+          "total": 0.047838298497049576,
+          "tracking": 0.019967999305380728,
+          "velocity": 0.02559829056459003
+        },
+        "episode_id": 0,
+        "experiment_id": "E03",
+        "fallback_count": 0,
+        "final_window_sample_count": 801,
+        "initial_state": [
+          -0.24161971762995715,
+          0.2651327989860073,
+          0.0,
+          0.0
+        ],
+        "missing_cells": [],
+        "model_hashes": {
+          "checkpoint_sha256": "d792daeddbf667f8515cd51e0eccaab22a88fffd026dcb3ea8a1a21022e0f146"
+        },
+        "model_id": "power_correct",
+        "model_partition_ns": [
+          40000000
+        ],
+        "oracle_physics_steps": 0,
+        "phase": "exploratory",
+        "physics_step_ns": 250000,
+        "planner_latency_median_seconds": 0.6229292295,
+        "planner_latency_p95_seconds": 0.636641958,
+        "power_mode": "low",
+        "q_rmse_rad": 0.08400303320652015,
+        "realized_cost": 0.047838298497049576,
+        "resource_projection": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 32.605998488750004
+        },
+        "run_id": "20261002T021927-803ecd3e",
+        "seed": 9000,
+        "seed_namespaces": {
+          "cem": [
+            7101,
+            9000,
+            0,
+            2
+          ],
+          "disturbance": [
+            7101,
+            9000,
+            0,
+            4
+          ]
+        },
+        "success": false,
+        "target": [
+          0.06538058569235905,
+          0.45382630279733127
+        ],
+        "terminal_q_error_rad": 0.01633583575756913,
+        "velocity_rms_rad_s": 0.3679040804381084,
+        "work": {
+          "history_tokens_processed": 0,
+          "network_calls": 1920,
+          "scalar_candidate_evaluations": 122880,
+          "vector_field_calls": 0
+        }
+      }
+    },
+    {
+      "cell_id": "direct__F__one_step__power_correct__low__h5000000__episode0",
+      "manifest": "evidence/M40/20261002T022004-4bde8d38/manifest.json",
+      "manifest_sha256": "609810d38c762242bcaf29d6ffb7b91a69ac0741d49947f42b9127396684e869",
+      "resources": {
+        "cpu_seconds": 78.98537300000001,
+        "disk_bytes": 2468867,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 98.5012233325
+        },
+        "peak_rss_bytes": 389693440,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 78.9916215
+      },
+      "summary": {
+        "actuator": "direct",
+        "actuator_interval_ns": 40000000,
+        "candidate_count_per_decision": 512,
+        "checkpoint_hash": "d792daeddbf667f8515cd51e0eccaab22a88fffd026dcb3ea8a1a21022e0f146",
+        "command_effort_integral": 0.9123653968391464,
+        "complete": true,
+        "condition": "clean",
+        "cost_components": {
+          "effort": 0.0009123653968391464,
+          "terminal": 0.020013331937427502,
+          "total": 0.07755192699722119,
+          "tracking": 0.031119048780461015,
+          "velocity": 0.02550718088249353
+        },
+        "episode_id": 0,
+        "experiment_id": "E03",
+        "fallback_count": 0,
+        "final_window_sample_count": 801,
+        "initial_state": [
+          -0.24161971762995715,
+          0.2651327989860073,
+          0.0,
+          0.0
+        ],
+        "missing_cells": [],
+        "model_hashes": {
+          "checkpoint_sha256": "d792daeddbf667f8515cd51e0eccaab22a88fffd026dcb3ea8a1a21022e0f146"
+        },
+        "model_id": "power_correct",
+        "model_partition_ns": [
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000
+        ],
+        "oracle_physics_steps": 0,
+        "phase": "exploratory",
+        "physics_step_ns": 250000,
+        "planner_latency_median_seconds": 1.9504279585,
+        "planner_latency_p95_seconds": 1.9713391329999999,
+        "power_mode": "low",
+        "q_rmse_rad": 0.10253927951722253,
+        "realized_cost": 0.07755192699722119,
+        "resource_projection": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 98.5012233325
+        },
+        "run_id": "20261002T022004-4bde8d38",
+        "seed": 9000,
+        "seed_namespaces": {
+          "cem": [
+            7101,
+            9000,
+            0,
+            2
+          ],
+          "disturbance": [
+            7101,
+            9000,
+            0,
+            4
+          ]
+        },
+        "success": false,
+        "target": [
+          0.06538058569235905,
+          0.45382630279733127
+        ],
+        "terminal_q_error_rad": 0.06326662933557864,
+        "velocity_rms_rad_s": 0.3679831599760005,
+        "work": {
+          "history_tokens_processed": 0,
+          "network_calls": 15360,
+          "scalar_candidate_evaluations": 983040,
+          "vector_field_calls": 0
+        }
+      }
+    },
+    {
+      "cell_id": "direct__F__one_step__power_correct__direct__h40000000__episode0",
+      "manifest": "evidence/M40/20261002T022133-abf50f61/manifest.json",
+      "manifest_sha256": "f1df5bd446806dff402fb3d1865a6afa8c57cf8caa5e38b28f6d4693a5d07dd8",
+      "resources": {
+        "cpu_seconds": 26.010199999999998,
+        "disk_bytes": 2479789,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 32.605998488750004
+        },
+        "peak_rss_bytes": 391282688,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 26.013480833
+      },
+      "summary": {
+        "actuator": "direct",
+        "actuator_interval_ns": 40000000,
+        "candidate_count_per_decision": 512,
+        "checkpoint_hash": "d792daeddbf667f8515cd51e0eccaab22a88fffd026dcb3ea8a1a21022e0f146",
+        "command_effort_integral": 0.9377109775874447,
+        "complete": true,
+        "condition": "clean",
+        "cost_components": {
+          "effort": 0.0009377109775874447,
+          "terminal": 0.0013342976494913705,
+          "total": 0.047838298497049576,
+          "tracking": 0.019967999305380728,
+          "velocity": 0.02559829056459003
+        },
+        "episode_id": 0,
+        "experiment_id": "E03",
+        "fallback_count": 0,
+        "final_window_sample_count": 801,
+        "initial_state": [
+          -0.24161971762995715,
+          0.2651327989860073,
+          0.0,
+          0.0
+        ],
+        "missing_cells": [],
+        "model_hashes": {
+          "checkpoint_sha256": "d792daeddbf667f8515cd51e0eccaab22a88fffd026dcb3ea8a1a21022e0f146"
+        },
+        "model_id": "power_correct",
+        "model_partition_ns": [
+          40000000
+        ],
+        "oracle_physics_steps": 0,
+        "phase": "exploratory",
+        "physics_step_ns": 250000,
+        "planner_latency_median_seconds": 0.627527916,
+        "planner_latency_p95_seconds": 0.63206066875,
+        "power_mode": "direct",
+        "q_rmse_rad": 0.08400303320652015,
+        "realized_cost": 0.047838298497049576,
+        "resource_projection": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 32.605998488750004
+        },
+        "run_id": "20261002T022133-abf50f61",
+        "seed": 9000,
+        "seed_namespaces": {
+          "cem": [
+            7101,
+            9000,
+            0,
+            2
+          ],
+          "disturbance": [
+            7101,
+            9000,
+            0,
+            4
+          ]
+        },
+        "success": false,
+        "target": [
+          0.06538058569235905,
+          0.45382630279733127
+        ],
+        "terminal_q_error_rad": 0.01633583575756913,
+        "velocity_rms_rad_s": 0.3679040804381084,
+        "work": {
+          "history_tokens_processed": 0,
+          "network_calls": 1920,
+          "scalar_candidate_evaluations": 122880,
+          "vector_field_calls": 0
+        }
+      }
+    },
+    {
+      "cell_id": "direct__F__one_step__power_correct__direct__h5000000__episode0",
+      "manifest": "evidence/M40/20261002T022209-94a4766c/manifest.json",
+      "manifest_sha256": "15bd9fbbf3319d57958a1ec87c11c670bddb214969d4d9e8db4bc849e3788068",
+      "resources": {
+        "cpu_seconds": 79.014333,
+        "disk_bytes": 2469547,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 98.5012233325
+        },
+        "peak_rss_bytes": 395575296,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 79.018622167
+      },
+      "summary": {
+        "actuator": "direct",
+        "actuator_interval_ns": 40000000,
+        "candidate_count_per_decision": 512,
+        "checkpoint_hash": "d792daeddbf667f8515cd51e0eccaab22a88fffd026dcb3ea8a1a21022e0f146",
+        "command_effort_integral": 0.9256826924901274,
+        "complete": true,
+        "condition": "clean",
+        "cost_components": {
+          "effort": 0.0009256826924901274,
+          "terminal": 0.04035692785985043,
+          "total": 0.09882202544065918,
+          "tracking": 0.03273357856753638,
+          "velocity": 0.02480583632078225
+        },
+        "episode_id": 0,
+        "experiment_id": "E03",
+        "fallback_count": 0,
+        "final_window_sample_count": 801,
+        "initial_state": [
+          -0.24161971762995715,
+          0.2651327989860073,
+          0.0,
+          0.0
+        ],
+        "missing_cells": [],
+        "model_hashes": {
+          "checkpoint_sha256": "d792daeddbf667f8515cd51e0eccaab22a88fffd026dcb3ea8a1a21022e0f146"
+        },
+        "model_id": "power_correct",
+        "model_partition_ns": [
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000
+        ],
+        "oracle_physics_steps": 0,
+        "phase": "exploratory",
+        "physics_step_ns": 250000,
+        "planner_latency_median_seconds": 1.947305625,
+        "planner_latency_p95_seconds": 1.9691445476,
+        "power_mode": "direct",
+        "q_rmse_rad": 0.10484327235946869,
+        "realized_cost": 0.09882202544065918,
+        "resource_projection": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 98.5012233325
+        },
+        "run_id": "20261002T022209-94a4766c",
+        "seed": 9000,
+        "seed_namespaces": {
+          "cem": [
+            7101,
+            9000,
+            0,
+            2
+          ],
+          "disturbance": [
+            7101,
+            9000,
+            0,
+            4
+          ]
+        },
+        "success": false,
+        "target": [
+          0.06538058569235905,
+          0.45382630279733127
+        ],
+        "terminal_q_error_rad": 0.08984089031153958,
+        "velocity_rms_rad_s": 0.35792749399441737,
+        "work": {
+          "history_tokens_processed": 0,
+          "network_calls": 15360,
+          "scalar_candidate_evaluations": 983040,
+          "vector_field_calls": 0
+        }
+      }
+    },
+    {
+      "cell_id": "direct__F__one_step__power_correct__lagged__h40000000__episode0",
+      "manifest": "evidence/M40/20261002T022339-cfdf17b0/manifest.json",
+      "manifest_sha256": "8b9269d15ab48a2646c10e30eddc8ffe2a6744dfac3750a9113ed5b00cbbedd7",
+      "resources": {
+        "cpu_seconds": 25.990741,
+        "disk_bytes": 2479779,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 32.605998488750004
+        },
+        "peak_rss_bytes": 390086656,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 25.995666917
+      },
+      "summary": {
+        "actuator": "direct",
+        "actuator_interval_ns": 40000000,
+        "candidate_count_per_decision": 512,
+        "checkpoint_hash": "d792daeddbf667f8515cd51e0eccaab22a88fffd026dcb3ea8a1a21022e0f146",
+        "command_effort_integral": 0.9377109775874447,
+        "complete": true,
+        "condition": "clean",
+        "cost_components": {
+          "effort": 0.0009377109775874447,
+          "terminal": 0.0013342976494913705,
+          "total": 0.047838298497049576,
+          "tracking": 0.019967999305380728,
+          "velocity": 0.02559829056459003
+        },
+        "episode_id": 0,
+        "experiment_id": "E03",
+        "fallback_count": 0,
+        "final_window_sample_count": 801,
+        "initial_state": [
+          -0.24161971762995715,
+          0.2651327989860073,
+          0.0,
+          0.0
+        ],
+        "missing_cells": [],
+        "model_hashes": {
+          "checkpoint_sha256": "d792daeddbf667f8515cd51e0eccaab22a88fffd026dcb3ea8a1a21022e0f146"
+        },
+        "model_id": "power_correct",
+        "model_partition_ns": [
+          40000000
+        ],
+        "oracle_physics_steps": 0,
+        "phase": "exploratory",
+        "physics_step_ns": 250000,
+        "planner_latency_median_seconds": 0.626841,
+        "planner_latency_p95_seconds": 0.6314665104,
+        "power_mode": "lagged",
+        "q_rmse_rad": 0.08400303320652015,
+        "realized_cost": 0.047838298497049576,
+        "resource_projection": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 32.605998488750004
+        },
+        "run_id": "20261002T022339-cfdf17b0",
+        "seed": 9000,
+        "seed_namespaces": {
+          "cem": [
+            7101,
+            9000,
+            0,
+            2
+          ],
+          "disturbance": [
+            7101,
+            9000,
+            0,
+            4
+          ]
+        },
+        "success": false,
+        "target": [
+          0.06538058569235905,
+          0.45382630279733127
+        ],
+        "terminal_q_error_rad": 0.01633583575756913,
+        "velocity_rms_rad_s": 0.3679040804381084,
+        "work": {
+          "history_tokens_processed": 0,
+          "network_calls": 1920,
+          "scalar_candidate_evaluations": 122880,
+          "vector_field_calls": 0
+        }
+      }
+    },
+    {
+      "cell_id": "direct__F__one_step__power_correct__lagged__h5000000__episode0",
+      "manifest": "evidence/M40/20261002T022415-5c4e77b8/manifest.json",
+      "manifest_sha256": "89301b785f1412e21492bf692e3790eab534a79995e57402f000156ca4bef751",
+      "resources": {
+        "cpu_seconds": 79.36391800000001,
+        "disk_bytes": 2371541,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 98.5012233325
+        },
+        "peak_rss_bytes": 394444800,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 79.389188417
+      },
+      "summary": {
+        "actuator": "direct",
+        "actuator_interval_ns": 40000000,
+        "candidate_count_per_decision": 512,
+        "checkpoint_hash": "d792daeddbf667f8515cd51e0eccaab22a88fffd026dcb3ea8a1a21022e0f146",
+        "command_effort_integral": 6.130437980710691,
+        "complete": true,
+        "condition": "clean",
+        "cost_components": {
+          "effort": 0.006130437980710691,
+          "terminal": 0.2571667132963546,
+          "total": 0.4958385580638831,
+          "tracking": 0.06472474603198375,
+          "velocity": 0.1678166607548341
+        },
+        "episode_id": 0,
+        "experiment_id": "E03",
+        "fallback_count": 0,
+        "final_window_sample_count": 801,
+        "initial_state": [
+          -0.24161971762995715,
+          0.2651327989860073,
+          0.0,
+          0.0
+        ],
+        "missing_cells": [],
+        "model_hashes": {
+          "checkpoint_sha256": "d792daeddbf667f8515cd51e0eccaab22a88fffd026dcb3ea8a1a21022e0f146"
+        },
+        "model_id": "power_correct",
+        "model_partition_ns": [
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000
+        ],
+        "oracle_physics_steps": 0,
+        "phase": "exploratory",
+        "physics_step_ns": 250000,
+        "planner_latency_median_seconds": 1.955853021,
+        "planner_latency_p95_seconds": 2.0104541667,
+        "power_mode": "lagged",
+        "q_rmse_rad": 0.14408770019892939,
+        "realized_cost": 0.4958385580638831,
+        "resource_projection": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 98.5012233325
+        },
+        "run_id": "20261002T022415-5c4e77b8",
+        "seed": 9000,
+        "seed_namespaces": {
+          "cem": [
+            7101,
+            9000,
+            0,
+            2
+          ],
+          "disturbance": [
+            7101,
+            9000,
+            0,
+            4
+          ]
+        },
+        "success": false,
+        "target": [
+          0.06538058569235905,
+          0.45382630279733127
+        ],
+        "terminal_q_error_rad": 0.2267892031364609,
+        "velocity_rms_rad_s": 0.7660395597930294,
+        "work": {
+          "history_tokens_processed": 0,
+          "network_calls": 15360,
+          "scalar_candidate_evaluations": 983040,
+          "vector_field_calls": 0
+        }
+      }
+    },
+    {
+      "cell_id": "direct__F__one_step__node_structured__default__h40000000__episode0",
+      "manifest": "evidence/M40/20261002T022545-bad60d62/manifest.json",
+      "manifest_sha256": "4f3274ab296e69c9550eca80d33f63b93888bba15d003514e5268bac68bd60ab",
+      "resources": {
+        "cpu_seconds": 26.995866,
+        "disk_bytes": 2474596,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "node_generic",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 33.4064477075
+        },
+        "peak_rss_bytes": 401604608,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 27.005666834
+      },
+      "summary": {
+        "actuator": "direct",
+        "actuator_interval_ns": 40000000,
+        "candidate_count_per_decision": 512,
+        "checkpoint_hash": "7a66a66efd8df7af2602f281a788c9605f6246f6d4048588248a5055c7367d11",
+        "command_effort_integral": 0.7198024234287089,
+        "complete": true,
+        "condition": "clean",
+        "cost_components": {
+          "effort": 0.0007198024234287089,
+          "terminal": 0.0001011216200061708,
+          "total": 0.0376505509407598,
+          "tracking": 0.01996718721184784,
+          "velocity": 0.016862439685477085
+        },
+        "episode_id": 0,
+        "experiment_id": "E03",
+        "fallback_count": 0,
+        "final_window_sample_count": 801,
+        "initial_state": [
+          -0.24161971762995715,
+          0.2651327989860073,
+          0.0,
+          0.0
+        ],
+        "missing_cells": [],
+        "model_hashes": {
+          "checkpoint_sha256": "7a66a66efd8df7af2602f281a788c9605f6246f6d4048588248a5055c7367d11"
+        },
+        "model_id": "node_structured",
+        "model_partition_ns": [
+          40000000
+        ],
+        "oracle_physics_steps": 0,
+        "phase": "exploratory",
+        "physics_step_ns": 250000,
+        "planner_latency_median_seconds": 0.6522105835,
+        "planner_latency_p95_seconds": 0.6600330694000001,
+        "power_mode": null,
+        "q_rmse_rad": 0.08399960076823494,
+        "realized_cost": 0.0376505509407598,
+        "resource_projection": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "node_generic",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 33.4064477075
+        },
+        "run_id": "20261002T022545-bad60d62",
+        "seed": 9000,
+        "seed_namespaces": {
+          "cem": [
+            7101,
+            9000,
+            0,
+            2
+          ],
+          "disturbance": [
+            7101,
+            9000,
+            0,
+            4
+          ]
+        },
+        "success": true,
+        "target": [
+          0.06538058569235905,
+          0.45382630279733127
+        ],
+        "terminal_q_error_rad": 0.004497146206343993,
+        "velocity_rms_rad_s": 0.30964487460874746,
+        "work": {
+          "history_tokens_processed": 0,
+          "network_calls": 3840,
+          "scalar_candidate_evaluations": 122880,
+          "vector_field_calls": 3840
+        }
+      }
+    },
+    {
+      "cell_id": "direct__F__one_step__node_structured__default__h5000000__episode0",
+      "manifest": "evidence/M40/20261002T022623-17ce2d74/manifest.json",
+      "manifest_sha256": "03f9deb73b93ff32d0e4083eeff4859b3861958c91557ba9695827fb729c3518",
+      "resources": {
+        "cpu_seconds": 82.72788,
+        "disk_bytes": 2474898,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "node_generic",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 103.58471307375
+        },
+        "peak_rss_bytes": 390119424,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 82.733205416
+      },
+      "summary": {
+        "actuator": "direct",
+        "actuator_interval_ns": 40000000,
+        "candidate_count_per_decision": 512,
+        "checkpoint_hash": "7a66a66efd8df7af2602f281a788c9605f6246f6d4048588248a5055c7367d11",
+        "command_effort_integral": 0.7198024234287089,
+        "complete": true,
+        "condition": "clean",
+        "cost_components": {
+          "effort": 0.0007198024234287089,
+          "terminal": 0.0001011216200061708,
+          "total": 0.0376505509407598,
+          "tracking": 0.01996718721184784,
+          "velocity": 0.016862439685477085
+        },
+        "episode_id": 0,
+        "experiment_id": "E03",
+        "fallback_count": 0,
+        "final_window_sample_count": 801,
+        "initial_state": [
+          -0.24161971762995715,
+          0.2651327989860073,
+          0.0,
+          0.0
+        ],
+        "missing_cells": [],
+        "model_hashes": {
+          "checkpoint_sha256": "7a66a66efd8df7af2602f281a788c9605f6246f6d4048588248a5055c7367d11"
+        },
+        "model_id": "node_structured",
+        "model_partition_ns": [
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000
+        ],
+        "oracle_physics_steps": 0,
+        "phase": "exploratory",
+        "physics_step_ns": 250000,
+        "planner_latency_median_seconds": 2.040289229,
+        "planner_latency_p95_seconds": 2.0659749646,
+        "power_mode": null,
+        "q_rmse_rad": 0.08399960076823494,
+        "realized_cost": 0.0376505509407598,
+        "resource_projection": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "node_generic",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 103.58471307375
+        },
+        "run_id": "20261002T022623-17ce2d74",
+        "seed": 9000,
+        "seed_namespaces": {
+          "cem": [
+            7101,
+            9000,
+            0,
+            2
+          ],
+          "disturbance": [
+            7101,
+            9000,
+            0,
+            4
+          ]
+        },
+        "success": true,
+        "target": [
+          0.06538058569235905,
+          0.45382630279733127
+        ],
+        "terminal_q_error_rad": 0.004497146206343993,
+        "velocity_rms_rad_s": 0.30964487460874746,
+        "work": {
+          "history_tokens_processed": 0,
+          "network_calls": 30720,
+          "scalar_candidate_evaluations": 983040,
+          "vector_field_calls": 30720
+        }
+      }
+    },
+    {
+      "cell_id": "lagged__F__one_step__power_correct__low__h40000000__episode0",
+      "manifest": "evidence/M40/20261002T022756-de4cbe78/manifest.json",
+      "manifest_sha256": "eb93c813caa8e09d1b3539917fbb92883d6d2299e89829e738ce8e9a149fb469",
+      "resources": {
+        "cpu_seconds": 26.119627,
+        "disk_bytes": 2571276,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 32.605998488750004
+        },
+        "peak_rss_bytes": 391806976,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 26.129670375
+      },
+      "summary": {
+        "actuator": "lagged",
+        "actuator_interval_ns": 40000000,
+        "candidate_count_per_decision": 512,
+        "checkpoint_hash": "27ba72e714c0659ff18fd873e6aa739ffadd3457d568a668d541cd18e9540a38",
+        "command_effort_integral": 2.122198440934447,
+        "complete": true,
+        "condition": "clean",
+        "cost_components": {
+          "effort": 0.0021221984409344474,
+          "terminal": 0.0009099208188014615,
+          "total": 0.04499718920145896,
+          "tracking": 0.022930155136407823,
+          "velocity": 0.019034914805315228
+        },
+        "episode_id": 0,
+        "experiment_id": "E03",
+        "fallback_count": 0,
+        "final_window_sample_count": 801,
+        "initial_state": [
+          -0.24161971762995715,
+          0.2651327989860073,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "missing_cells": [],
+        "model_hashes": {
+          "checkpoint_sha256": "27ba72e714c0659ff18fd873e6aa739ffadd3457d568a668d541cd18e9540a38"
+        },
+        "model_id": "power_correct",
+        "model_partition_ns": [
+          40000000
+        ],
+        "oracle_physics_steps": 0,
+        "phase": "exploratory",
+        "physics_step_ns": 250000,
+        "planner_latency_median_seconds": 0.630725354,
+        "planner_latency_p95_seconds": 0.63347892225,
+        "power_mode": "low",
+        "q_rmse_rad": 0.0893289553874055,
+        "realized_cost": 0.04499718920145896,
+        "resource_projection": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 32.605998488750004
+        },
+        "run_id": "20261002T022756-de4cbe78",
+        "seed": 9000,
+        "seed_namespaces": {
+          "cem": [
+            7101,
+            9000,
+            0,
+            2
+          ],
+          "disturbance": [
+            7101,
+            9000,
+            0,
+            4
+          ]
+        },
+        "success": false,
+        "target": [
+          0.06538058569235905,
+          0.45382630279733127
+        ],
+        "terminal_q_error_rad": 0.01349015062037086,
+        "velocity_rms_rad_s": 0.34606293074375744,
+        "work": {
+          "history_tokens_processed": 0,
+          "network_calls": 1920,
+          "scalar_candidate_evaluations": 122880,
+          "vector_field_calls": 0
+        }
+      }
+    },
+    {
+      "cell_id": "lagged__F__one_step__power_correct__low__h5000000__episode0",
+      "manifest": "evidence/M40/20261002T022832-e29768c3/manifest.json",
+      "manifest_sha256": "6dd6026d285fbf03eda6e357cfd313b7979d25a33b12ac52e7949d930c8805c6",
+      "resources": {
+        "cpu_seconds": 79.34542400000001,
+        "disk_bytes": 2593002,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 98.5012233325
+        },
+        "peak_rss_bytes": 393560064,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 79.350716417
+      },
+      "summary": {
+        "actuator": "lagged",
+        "actuator_interval_ns": 40000000,
+        "candidate_count_per_decision": 512,
+        "checkpoint_hash": "27ba72e714c0659ff18fd873e6aa739ffadd3457d568a668d541cd18e9540a38",
+        "command_effort_integral": 0.9539086689872388,
+        "complete": true,
+        "condition": "clean",
+        "cost_components": {
+          "effort": 0.0009539086689872388,
+          "terminal": 0.015272170608596137,
+          "total": 0.06300055831798465,
+          "tracking": 0.027472340692071256,
+          "velocity": 0.019302138348330024
+        },
+        "episode_id": 0,
+        "experiment_id": "E03",
+        "fallback_count": 0,
+        "final_window_sample_count": 801,
+        "initial_state": [
+          -0.24161971762995715,
+          0.2651327989860073,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "missing_cells": [],
+        "model_hashes": {
+          "checkpoint_sha256": "27ba72e714c0659ff18fd873e6aa739ffadd3457d568a668d541cd18e9540a38"
+        },
+        "model_id": "power_correct",
+        "model_partition_ns": [
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000
+        ],
+        "oracle_physics_steps": 0,
+        "phase": "exploratory",
+        "physics_step_ns": 250000,
+        "planner_latency_median_seconds": 1.9588699995,
+        "planner_latency_p95_seconds": 1.9800304125000001,
+        "power_mode": "low",
+        "q_rmse_rad": 0.09685813577439237,
+        "realized_cost": 0.06300055831798465,
+        "resource_projection": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 98.5012233325
+        },
+        "run_id": "20261002T022832-e29768c3",
+        "seed": 9000,
+        "seed_namespaces": {
+          "cem": [
+            7101,
+            9000,
+            0,
+            2
+          ],
+          "disturbance": [
+            7101,
+            9000,
+            0,
+            4
+          ]
+        },
+        "success": false,
+        "target": [
+          0.06538058569235905,
+          0.45382630279733127
+        ],
+        "terminal_q_error_rad": 0.05526693515764401,
+        "velocity_rms_rad_s": 0.347584051789735,
+        "work": {
+          "history_tokens_processed": 0,
+          "network_calls": 15360,
+          "scalar_candidate_evaluations": 983040,
+          "vector_field_calls": 0
+        }
+      }
+    },
+    {
+      "cell_id": "lagged__F__one_step__power_correct__direct__h40000000__episode0",
+      "manifest": "evidence/M40/20261002T023002-0c83d91b/manifest.json",
+      "manifest_sha256": "964328493be773f98d970f7c6546ff268ede498e2bf13c8bffc31d608a0e07f0",
+      "resources": {
+        "cpu_seconds": 26.548112999999997,
+        "disk_bytes": 2571273,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 32.605998488750004
+        },
+        "peak_rss_bytes": 391430144,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 26.550626375
+      },
+      "summary": {
+        "actuator": "lagged",
+        "actuator_interval_ns": 40000000,
+        "candidate_count_per_decision": 512,
+        "checkpoint_hash": "27ba72e714c0659ff18fd873e6aa739ffadd3457d568a668d541cd18e9540a38",
+        "command_effort_integral": 2.122198440934447,
+        "complete": true,
+        "condition": "clean",
+        "cost_components": {
+          "effort": 0.0021221984409344474,
+          "terminal": 0.0009099208188014615,
+          "total": 0.04499718920145896,
+          "tracking": 0.022930155136407823,
+          "velocity": 0.019034914805315228
+        },
+        "episode_id": 0,
+        "experiment_id": "E03",
+        "fallback_count": 0,
+        "final_window_sample_count": 801,
+        "initial_state": [
+          -0.24161971762995715,
+          0.2651327989860073,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "missing_cells": [],
+        "model_hashes": {
+          "checkpoint_sha256": "27ba72e714c0659ff18fd873e6aa739ffadd3457d568a668d541cd18e9540a38"
+        },
+        "model_id": "power_correct",
+        "model_partition_ns": [
+          40000000
+        ],
+        "oracle_physics_steps": 0,
+        "phase": "exploratory",
+        "physics_step_ns": 250000,
+        "planner_latency_median_seconds": 0.639802896,
+        "planner_latency_p95_seconds": 0.6519506896,
+        "power_mode": "direct",
+        "q_rmse_rad": 0.0893289553874055,
+        "realized_cost": 0.04499718920145896,
+        "resource_projection": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 32.605998488750004
+        },
+        "run_id": "20261002T023002-0c83d91b",
+        "seed": 9000,
+        "seed_namespaces": {
+          "cem": [
+            7101,
+            9000,
+            0,
+            2
+          ],
+          "disturbance": [
+            7101,
+            9000,
+            0,
+            4
+          ]
+        },
+        "success": false,
+        "target": [
+          0.06538058569235905,
+          0.45382630279733127
+        ],
+        "terminal_q_error_rad": 0.01349015062037086,
+        "velocity_rms_rad_s": 0.34606293074375744,
+        "work": {
+          "history_tokens_processed": 0,
+          "network_calls": 1920,
+          "scalar_candidate_evaluations": 122880,
+          "vector_field_calls": 0
+        }
+      }
+    },
+    {
+      "cell_id": "lagged__F__one_step__power_correct__direct__h5000000__episode0",
+      "manifest": "evidence/M40/20261002T023039-659def7b/manifest.json",
+      "manifest_sha256": "42beb26e4af12e22004f447d2d4472de521871391769e7e80ab389705d41682e",
+      "resources": {
+        "cpu_seconds": 79.15259,
+        "disk_bytes": 2582003,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 98.5012233325
+        },
+        "peak_rss_bytes": 391135232,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 79.159587334
+      },
+      "summary": {
+        "actuator": "lagged",
+        "actuator_interval_ns": 40000000,
+        "candidate_count_per_decision": 512,
+        "checkpoint_hash": "27ba72e714c0659ff18fd873e6aa739ffadd3457d568a668d541cd18e9540a38",
+        "command_effort_integral": 1.2478710411911687,
+        "complete": true,
+        "condition": "clean",
+        "cost_components": {
+          "effort": 0.0012478710411911688,
+          "terminal": 0.016162265386558558,
+          "total": 0.06234662096809156,
+          "tracking": 0.027866773984996245,
+          "velocity": 0.017069710555345587
+        },
+        "episode_id": 0,
+        "experiment_id": "E03",
+        "fallback_count": 0,
+        "final_window_sample_count": 801,
+        "initial_state": [
+          -0.24161971762995715,
+          0.2651327989860073,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "missing_cells": [],
+        "model_hashes": {
+          "checkpoint_sha256": "27ba72e714c0659ff18fd873e6aa739ffadd3457d568a668d541cd18e9540a38"
+        },
+        "model_id": "power_correct",
+        "model_partition_ns": [
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000
+        ],
+        "oracle_physics_steps": 0,
+        "phase": "exploratory",
+        "physics_step_ns": 250000,
+        "planner_latency_median_seconds": 1.9525278745,
+        "planner_latency_p95_seconds": 1.97989593575,
+        "power_mode": "direct",
+        "q_rmse_rad": 0.09748585999686418,
+        "realized_cost": 0.06234662096809156,
+        "resource_projection": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 98.5012233325
+        },
+        "run_id": "20261002T023039-659def7b",
+        "seed": 9000,
+        "seed_namespaces": {
+          "cem": [
+            7101,
+            9000,
+            0,
+            2
+          ],
+          "disturbance": [
+            7101,
+            9000,
+            0,
+            4
+          ]
+        },
+        "success": false,
+        "target": [
+          0.06538058569235905,
+          0.45382630279733127
+        ],
+        "terminal_q_error_rad": 0.05685466627561639,
+        "velocity_rms_rad_s": 0.32715304977370396,
+        "work": {
+          "history_tokens_processed": 0,
+          "network_calls": 15360,
+          "scalar_candidate_evaluations": 983040,
+          "vector_field_calls": 0
+        }
+      }
+    },
+    {
+      "cell_id": "lagged__F__one_step__power_correct__lagged__h40000000__episode0",
+      "manifest": "evidence/M40/20261002T023209-50daf52b/manifest.json",
+      "manifest_sha256": "9b2cf8eacbf033f1667dbd2707bd35f43e02403670c842812633f89fd9e4f8ed",
+      "resources": {
+        "cpu_seconds": 26.382511,
+        "disk_bytes": 2571312,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 32.605998488750004
+        },
+        "peak_rss_bytes": 391577600,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 26.384729084
+      },
+      "summary": {
+        "actuator": "lagged",
+        "actuator_interval_ns": 40000000,
+        "candidate_count_per_decision": 512,
+        "checkpoint_hash": "27ba72e714c0659ff18fd873e6aa739ffadd3457d568a668d541cd18e9540a38",
+        "command_effort_integral": 2.122198440934447,
+        "complete": true,
+        "condition": "clean",
+        "cost_components": {
+          "effort": 0.0021221984409344474,
+          "terminal": 0.0009099208188014615,
+          "total": 0.04499718920145896,
+          "tracking": 0.022930155136407823,
+          "velocity": 0.019034914805315228
+        },
+        "episode_id": 0,
+        "experiment_id": "E03",
+        "fallback_count": 0,
+        "final_window_sample_count": 801,
+        "initial_state": [
+          -0.24161971762995715,
+          0.2651327989860073,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "missing_cells": [],
+        "model_hashes": {
+          "checkpoint_sha256": "27ba72e714c0659ff18fd873e6aa739ffadd3457d568a668d541cd18e9540a38"
+        },
+        "model_id": "power_correct",
+        "model_partition_ns": [
+          40000000
+        ],
+        "oracle_physics_steps": 0,
+        "phase": "exploratory",
+        "physics_step_ns": 250000,
+        "planner_latency_median_seconds": 0.6369726044999999,
+        "planner_latency_p95_seconds": 0.6395099975999999,
+        "power_mode": "lagged",
+        "q_rmse_rad": 0.0893289553874055,
+        "realized_cost": 0.04499718920145896,
+        "resource_projection": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 32.605998488750004
+        },
+        "run_id": "20261002T023209-50daf52b",
+        "seed": 9000,
+        "seed_namespaces": {
+          "cem": [
+            7101,
+            9000,
+            0,
+            2
+          ],
+          "disturbance": [
+            7101,
+            9000,
+            0,
+            4
+          ]
+        },
+        "success": false,
+        "target": [
+          0.06538058569235905,
+          0.45382630279733127
+        ],
+        "terminal_q_error_rad": 0.01349015062037086,
+        "velocity_rms_rad_s": 0.34606293074375744,
+        "work": {
+          "history_tokens_processed": 0,
+          "network_calls": 1920,
+          "scalar_candidate_evaluations": 122880,
+          "vector_field_calls": 0
+        }
+      }
+    },
+    {
+      "cell_id": "lagged__F__one_step__power_correct__lagged__h5000000__episode0",
+      "manifest": "evidence/M40/20261002T023246-f2d4a0f2/manifest.json",
+      "manifest_sha256": "9d525e20dab32b106d7acabac306f3526616a0025c83f78bf9ca06a633779c40",
+      "resources": {
+        "cpu_seconds": 79.92457499999999,
+        "disk_bytes": 2577723,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 98.5012233325
+        },
+        "peak_rss_bytes": 394051584,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 79.932060959
+      },
+      "summary": {
+        "actuator": "lagged",
+        "actuator_interval_ns": 40000000,
+        "candidate_count_per_decision": 512,
+        "checkpoint_hash": "27ba72e714c0659ff18fd873e6aa739ffadd3457d568a668d541cd18e9540a38",
+        "command_effort_integral": 1.7365508039035769,
+        "complete": true,
+        "condition": "clean",
+        "cost_components": {
+          "effort": 0.0017365508039035769,
+          "terminal": 0.006543855819034961,
+          "total": 0.05149468773534733,
+          "tracking": 0.026587247911630085,
+          "velocity": 0.016627033200778706
+        },
+        "episode_id": 0,
+        "experiment_id": "E03",
+        "fallback_count": 0,
+        "final_window_sample_count": 801,
+        "initial_state": [
+          -0.24161971762995715,
+          0.2651327989860073,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "missing_cells": [],
+        "model_hashes": {
+          "checkpoint_sha256": "27ba72e714c0659ff18fd873e6aa739ffadd3457d568a668d541cd18e9540a38"
+        },
+        "model_id": "power_correct",
+        "model_partition_ns": [
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000
+        ],
+        "oracle_physics_steps": 0,
+        "phase": "exploratory",
+        "physics_step_ns": 250000,
+        "planner_latency_median_seconds": 1.9674173124999998,
+        "planner_latency_p95_seconds": 1.9989566850999998,
+        "power_mode": "lagged",
+        "q_rmse_rad": 0.09547302160068302,
+        "realized_cost": 0.05149468773534733,
+        "resource_projection": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "power_correct",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 98.5012233325
+        },
+        "run_id": "20261002T023246-f2d4a0f2",
+        "seed": 9000,
+        "seed_namespaces": {
+          "cem": [
+            7101,
+            9000,
+            0,
+            2
+          ],
+          "disturbance": [
+            7101,
+            9000,
+            0,
+            4
+          ]
+        },
+        "success": true,
+        "target": [
+          0.06538058569235905,
+          0.45382630279733127
+        ],
+        "terminal_q_error_rad": 0.0361769424330884,
+        "velocity_rms_rad_s": 0.3231360348779197,
+        "work": {
+          "history_tokens_processed": 0,
+          "network_calls": 15360,
+          "scalar_candidate_evaluations": 983040,
+          "vector_field_calls": 0
+        }
+      }
+    },
+    {
+      "cell_id": "lagged__F__one_step__node_structured__default__h40000000__episode0",
+      "manifest": "evidence/M40/20261002T023416-9c193797/manifest.json",
+      "manifest_sha256": "5b4f61ea3c09299742789e81a738247fc9988a2759dfff888114479a4a05ec12",
+      "resources": {
+        "cpu_seconds": 26.726064,
+        "disk_bytes": 2568065,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "node_generic",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 33.4064477075
+        },
+        "peak_rss_bytes": 395149312,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 26.73414525
+      },
+      "summary": {
+        "actuator": "lagged",
+        "actuator_interval_ns": 40000000,
+        "candidate_count_per_decision": 512,
+        "checkpoint_hash": "9833266053a1db560e4c9bd9c0d92042954702c31ddfcd0c03392e6953a5e0a0",
+        "command_effort_integral": 2.1198417995697945,
+        "complete": true,
+        "condition": "clean",
+        "cost_components": {
+          "effort": 0.0021198417995697944,
+          "terminal": 0.0004573810220458583,
+          "total": 0.04412066810125723,
+          "tracking": 0.023132144983199866,
+          "velocity": 0.018411300296441706
+        },
+        "episode_id": 0,
+        "experiment_id": "E03",
+        "fallback_count": 0,
+        "final_window_sample_count": 801,
+        "initial_state": [
+          -0.24161971762995715,
+          0.2651327989860073,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "missing_cells": [],
+        "model_hashes": {
+          "checkpoint_sha256": "9833266053a1db560e4c9bd9c0d92042954702c31ddfcd0c03392e6953a5e0a0"
+        },
+        "model_id": "node_structured",
+        "model_partition_ns": [
+          40000000
+        ],
+        "oracle_physics_steps": 0,
+        "phase": "exploratory",
+        "physics_step_ns": 250000,
+        "planner_latency_median_seconds": 0.646047,
+        "planner_latency_p95_seconds": 0.6529257214499999,
+        "power_mode": null,
+        "q_rmse_rad": 0.08968532067787827,
+        "realized_cost": 0.04412066810125723,
+        "resource_projection": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "node_generic",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 33.4064477075
+        },
+        "run_id": "20261002T023416-9c193797",
+        "seed": 9000,
+        "seed_namespaces": {
+          "cem": [
+            7101,
+            9000,
+            0,
+            2
+          ],
+          "disturbance": [
+            7101,
+            9000,
+            0,
+            4
+          ]
+        },
+        "success": true,
+        "target": [
+          0.06538058569235905,
+          0.45382630279733127
+        ],
+        "terminal_q_error_rad": 0.009564319338519164,
+        "velocity_rms_rad_s": 0.34028570327781993,
+        "work": {
+          "history_tokens_processed": 0,
+          "network_calls": 3840,
+          "scalar_candidate_evaluations": 122880,
+          "vector_field_calls": 3840
+        }
+      }
+    },
+    {
+      "cell_id": "lagged__F__one_step__node_structured__default__h5000000__episode0",
+      "manifest": "evidence/M40/20261002T023453-423934d5/manifest.json",
+      "manifest_sha256": "a67d9b9dd3c62cca7f07c788842c911942fddfb7707b1d2b4f810ed7943909ff",
+      "resources": {
+        "cpu_seconds": 83.817769,
+        "disk_bytes": 2568427,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "node_generic",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 103.58471307375
+        },
+        "peak_rss_bytes": 395198464,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 83.916062292
+      },
+      "summary": {
+        "actuator": "lagged",
+        "actuator_interval_ns": 40000000,
+        "candidate_count_per_decision": 512,
+        "checkpoint_hash": "9833266053a1db560e4c9bd9c0d92042954702c31ddfcd0c03392e6953a5e0a0",
+        "command_effort_integral": 2.1198417995697945,
+        "complete": true,
+        "condition": "clean",
+        "cost_components": {
+          "effort": 0.0021198417995697944,
+          "terminal": 0.0004573810220458521,
+          "total": 0.04412066810125722,
+          "tracking": 0.023132144983199866,
+          "velocity": 0.018411300296441706
+        },
+        "episode_id": 0,
+        "experiment_id": "E03",
+        "fallback_count": 0,
+        "final_window_sample_count": 801,
+        "initial_state": [
+          -0.24161971762995715,
+          0.2651327989860073,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "missing_cells": [],
+        "model_hashes": {
+          "checkpoint_sha256": "9833266053a1db560e4c9bd9c0d92042954702c31ddfcd0c03392e6953a5e0a0"
+        },
+        "model_id": "node_structured",
+        "model_partition_ns": [
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000,
+          5000000
+        ],
+        "oracle_physics_steps": 0,
+        "phase": "exploratory",
+        "physics_step_ns": 250000,
+        "planner_latency_median_seconds": 2.0690192080000003,
+        "planner_latency_p95_seconds": 2.09038736815,
+        "power_mode": null,
+        "q_rmse_rad": 0.08968532067787827,
+        "realized_cost": 0.04412066810125722,
+        "resource_projection": {
+          "disk_bytes": 10000000,
+          "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+          "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+          "projection_margin": 1.25,
+          "proxy_model": "node_generic",
+          "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+          "wall_seconds": 103.58471307375
+        },
+        "run_id": "20261002T023453-423934d5",
+        "seed": 9000,
+        "seed_namespaces": {
+          "cem": [
+            7101,
+            9000,
+            0,
+            2
+          ],
+          "disturbance": [
+            7101,
+            9000,
+            0,
+            4
+          ]
+        },
+        "success": true,
+        "target": [
+          0.06538058569235905,
+          0.45382630279733127
+        ],
+        "terminal_q_error_rad": 0.0095643193385191,
+        "velocity_rms_rad_s": 0.34028570327781993,
+        "work": {
+          "history_tokens_processed": 0,
+          "network_calls": 30720,
+          "scalar_candidate_evaluations": 983040,
+          "vector_field_calls": 30720
+        }
+      }
+    }
+  ],
+  "expected_episodes": 16,
+  "registry_sha256": "2799e8f026de27a4a9287f30170a2e2e3e93903ed0672ce5c2898a792fced498",
+  "schema_version": 1,
+  "scope": "One fixed development task per actuator and one training seed; not confirmation",
+  "state": "complete",
+  "statistical_status": "descriptive_only",
+  "updated_utc": "2026-10-02T02:36:18.313545Z"
+}

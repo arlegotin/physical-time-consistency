@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema_version", "protocol_version", "role", "phase", "actuator", "condition", "trajectory_count", "transition_count", "arrays", "files", "generation_code_sha256", "xml_sha256", "compiled_physics_sha256", "physics_step_ns", "numerical", "parent_numerical_decision", "seeds", "warnings", "command_range", "state_range", "sealed", "allowed_readers"],
+  "properties": {
+    "schema_version": {"enum": [1]}, "protocol_version": {"enum": ["PTCO-1.0"]},
+    "role": {"enum": ["train", "validation", "confirmation", "development"]},
+    "phase": {"enum": ["unit", "exploratory", "confirmatory", "replication", "calibration"]},
+    "actuator": {"enum": ["direct", "lagged"]}, "condition": {"enum": ["F", "A"]},
+    "trajectory_count": {"type": "integer"}, "transition_count": {"type": "integer"},
+    "arrays": {"type": "object", "additionalProperties": false,
+      "required": ["state", "command", "duration_ns", "time_ns", "trajectory_id"],
+      "properties": {"state": {"type": "object"}, "command": {"type": "object"}, "duration_ns": {"type": "object"}, "time_ns": {"type": "object"}, "trajectory_id": {"type": "object"}}},
+    "files": {"type": "object", "additionalProperties": false, "required": ["trajectories.npz"],
+      "properties": {"trajectories.npz": {"type": "string", "pattern": "[0-9a-f]{64}"}}},
+    "generation_code_sha256": {"type": "string", "pattern": "[0-9a-f]{64}"},
+    "xml_sha256": {"type": "string", "pattern": "[0-9a-f]{64}"},
+    "compiled_physics_sha256": {"type": "string", "pattern": "[0-9a-f]{64}"},
+    "physics_step_ns": {"type": "integer"}, "numerical": {"type": "object"},
+    "parent_numerical_decision": {"anyOf": [{"type": "object"}, {"type": "null"}]},
+    "seeds": {"type": "object"}, "warnings": {"type": "array"},
+    "command_range": {"type": "array", "items": {"type": "number"}},
+    "state_range": {"type": "array", "items": {"type": "number"}},
+    "sealed": {"type": "boolean"}, "allowed_readers": {"type": "array", "items": {"type": "string"}}
+  }
+}

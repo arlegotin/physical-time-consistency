@@ -1,0 +1,40 @@
+{
+  "actuator": "direct",
+  "actuator_interval_ns": 40000000,
+  "checkpoint_sha256": "e71e8b1ef6d9d0fc220a0c6064bec98ed544c312bc347eca8f65f0d20f9b87f6",
+  "condition": "clean",
+  "episode_id": 8,
+  "freeze_sha256": "39bacb772bcc4af7e44879ea2d345c35e5247c7916f161c535c5a486c430d132",
+  "inference_variant": "original",
+  "manifest_sha256": "7f284e79151122a137d12e624e8db9e6dd234436771d7104a0f8b3db8f61bd16",
+  "model_id": "physics_fit",
+  "model_manifest": "evidence/M40/20261001T223844-5f87d589/manifest.json",
+  "model_partition_ns": [
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000
+  ],
+  "phase": "exploratory",
+  "physics_step_ns": 250000,
+  "planner_settings": {
+    "candidate_count": 128,
+    "elite_count": 16,
+    "initial_std": 1.0,
+    "iterations": 4,
+    "std_floor": 0.1
+  },
+  "power_mode": null,
+  "protocol_id": "PTCO-EFF-0.1",
+  "resource_projection": {
+    "owner_imposed_caps": null,
+    "prior_artifact_bytes_per_episode": 2500000,
+    "reason": "Historical 2.5 MiB/episode; measure actual new rate/model before full batch"
+  },
+  "schema_version": 1,
+  "seed": 9000
+}

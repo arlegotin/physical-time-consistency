@@ -1,0 +1,41 @@
+{
+  "limits": "Synthetic test outcomes exercise inference behavior; they are not robot-study findings",
+  "observed_utc": "2026-10-06T04:28:39.066057Z",
+  "schema_version": 1,
+  "scientific_execution": {
+    "new_precision_control_episodes": 0,
+    "new_precision_fit_jobs": 0,
+    "new_statistical_looks": 0
+  },
+  "source_hashes": {
+    "config/revisions/MX-control-precision-0001.json": "2faa8eea8f660999b9ba6a5a82e5d4d8f315dd9df6b161dd2e88b13f4ea10e9d",
+    "poc/control_precision.py": "7712966dc115e3ab13ac75a068de5fb8637ad18de8577b0f875257a5087add78",
+    "poc/control_precision_result.py": "d2fc5ebd23cb688594d27684ae0f92fd4b48b6ce8ab88866489ca224094fd7c9",
+    "tests/test_control_precision.py": "2b51e11921da073f39a05a5e9cb3446c8e928d0aeb3ca9e953d3f5209f83ab32",
+    "tests/test_control_precision_result.py": "c66bfedae56115333eb9990f20a24816486641bfbd57e3369bcdba483a8648e7"
+  },
+  "state": "implementation_verified_before_new_outcomes",
+  "task": 3,
+  "tdd": {
+    "green": true,
+    "initial_red": "14 missing-module failures; later missing qualifier/report failures",
+    "regressions": [
+      "Omitted consumer source did not invalidate a registry before the fix",
+      "A conflicting existing look caused a third spending entry before the fix",
+      "Cached comparisons were absent from Markdown before the fix"
+    ]
+  },
+  "verification": {
+    "diff_check_exit_code": 0,
+    "dry_run_exit_code": 0,
+    "focused_command": ".venv/bin/python -m pytest -q tests/test_control_precision.py tests/test_control_precision_result.py tests/test_statistics.py tests/test_control_utility.py tests/test_control_result.py",
+    "focused_exit_code": 0,
+    "focused_passed": 139,
+    "focused_seconds": 16.9,
+    "full_command": ".venv/bin/python -m pytest -q",
+    "full_exit_code": 0,
+    "full_passed": 894,
+    "full_seconds": 113.36,
+    "help_exit_code": 0
+  }
+}

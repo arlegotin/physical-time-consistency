@@ -1,0 +1,78 @@
+{
+  "actuator": "lagged",
+  "actuator_interval_ns": 40000000,
+  "candidate_count_per_decision": 512,
+  "checkpoint_hash": "94c0b72316d39164a82b517b4470f038c632645039e6cda059f0d32b0b87fd26",
+  "command_effort_integral": 2.12666458008712,
+  "complete": true,
+  "condition": "clean",
+  "cost_components": {
+    "effort": 0.00212666458008712,
+    "terminal": 0.0015401780841850434,
+    "total": 0.04498115664883245,
+    "tracking": 0.02337237115294987,
+    "velocity": 0.01794194283161041
+  },
+  "episode_id": 0,
+  "experiment_id": "E03",
+  "fallback_count": 0,
+  "final_window_sample_count": 801,
+  "initial_state": [
+    -0.24161971762995715,
+    0.2651327989860073,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "missing_cells": [],
+  "model_hashes": {
+    "checkpoint_sha256": "94c0b72316d39164a82b517b4470f038c632645039e6cda059f0d32b0b87fd26"
+  },
+  "model_id": "physics_fit",
+  "model_partition_ns": [
+    40000000
+  ],
+  "oracle_physics_steps": 0,
+  "phase": "calibration",
+  "physics_step_ns": 250000,
+  "planner_latency_median_seconds": 1.149901458,
+  "planner_latency_p95_seconds": 1.1689813107,
+  "power_mode": null,
+  "q_rmse_rad": 0.09009567089110086,
+  "realized_cost": 0.04498115664883245,
+  "resource_projection": {
+    "disk_bytes": 10000000,
+    "reason": "Initial representative robot episode; measure before remaining calibration jobs",
+    "wall_seconds": null
+  },
+  "run_id": "20261001T230101-046ccfa0",
+  "seed": 9000,
+  "seed_namespaces": {
+    "cem": [
+      7101,
+      9000,
+      0,
+      2
+    ],
+    "disturbance": [
+      7101,
+      9000,
+      0,
+      4
+    ]
+  },
+  "success": false,
+  "target": [
+    0.06538058569235905,
+    0.45382630279733127
+  ],
+  "terminal_q_error_rad": 0.017550943474269658,
+  "velocity_rms_rad_s": 0.3351064184175014,
+  "work": {
+    "history_tokens_processed": 0,
+    "network_calls": 0,
+    "scalar_candidate_evaluations": 122880,
+    "vector_field_calls": 122880
+  }
+}

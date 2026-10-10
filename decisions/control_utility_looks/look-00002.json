@@ -1,0 +1,21 @@
+{
+  "alpha": 0.0125,
+  "bootstrap_seed_entropy": [
+    9102,
+    2
+  ],
+  "created_utc": "2026-10-07T08:49:53.425153Z",
+  "cumulative_alpha": 0.0375,
+  "design_sha256": "13c21aefb546e42aee7aa6889aa1780446f7957a26e59b80f1f36606fde9650a",
+  "evidence_identity": {
+    "batch_sha256": "3a52e1cd9f8856b3553808dcf4670160d906b21734b160cca5b59c3d1539971a",
+    "numerical_sha256": "c4b78e097acc8e36675948c5c5071a1aa0bcd230b51712237a420e0077c31445",
+    "registry_sha256": "501d5b78a76a521000bac8c85db674325d1fd6548959cd55fc6fdfceb40beeb8"
+  },
+  "evidence_sha256": "9027ed868c7f8e7b8c02af151b30c485e68012e30196f7c34f5188039123f646",
+  "family_size": 8,
+  "look_index": 2,
+  "protocol_id": "UTILITY-2026-10-02-control-v1",
+  "schema_version": 1,
+  "tail_alpha": 0.00078125
+}

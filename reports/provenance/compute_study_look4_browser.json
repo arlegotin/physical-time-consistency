@@ -1,0 +1,64 @@
+{
+  "demo_sha256": "446efd179c25761e7047879c44b63b4aa307598bc554ab0f7c20afc02ef5a51a",
+  "result_sha256": "06b284cff2a27e7e305a41f7ab2a2d36d9da30d12a6a876a88025a0b0840109f",
+  "checked_utc": "2026-10-10T09:09:57.605163Z",
+  "look": 4,
+  "status": "pass",
+  "method": "Actual isolated browser page using temporary loopback HTTP preview",
+  "check": {
+    "clipCount": 4560,
+    "seeds": 38,
+    "tasks": 20,
+    "selectedSeed": "2026100837",
+    "selectedTask": "19",
+    "time": "1.60 s",
+    "cards": 6,
+    "stats": [
+      "Episode cost 0.13205 (lower is better). Planner median 0.2280 s; 224 candidates ×4. Joint error 0.0027 rad.",
+      "Episode cost 0.12967 (lower is better). Planner median 0.2105 s; 832 candidates ×4. Joint error 0.0062 rad.",
+      "Episode cost 0.13021 (lower is better). Planner median 0.2298 s; 272 candidates ×4. Joint error 0.0019 rad.",
+      "Episode cost 0.13202 (lower is better). Planner median 0.2087 s; 832 candidates ×4. Joint error 0.0034 rad.",
+      "Episode cost 0.12988 (lower is better). Planner median 0.2295 s; 128 candidates ×4. Joint error 0.0083 rad.",
+      "Episode cost 0.12942 (lower is better). Planner median 0.2106 s; 672 candidates ×4. Joint error 0.0038 rad."
+    ],
+    "painted": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "allFrames": true,
+    "lastPairTargets": [
+      [
+        -0.19890496327385665,
+        0.3882517202896789
+      ],
+      [
+        -0.19890496327385665,
+        0.3882517202896789
+      ],
+      [
+        -0.19890496327385665,
+        0.3882517202896789
+      ],
+      [
+        -0.19890496327385665,
+        0.3882517202896789
+      ],
+      [
+        -0.19890496327385665,
+        0.3882517202896789
+      ],
+      [
+        -0.19890496327385665,
+        0.3882517202896789
+      ]
+    ]
+  },
+  "owned_page_closed": true,
+  "owned_preview_server_exited": true,
+  "screenshot": "not_requested",
+  "limitations": "Browser interaction check; physical trajectory and cost closure validated separately from raw arrays."
+}

@@ -1,0 +1,1625 @@
+{
+  "rows": [
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0__solver_2",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T112616-4f51cf93/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.07418702518228198,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0__solver_2",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T112616-4f51cf93/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.03855117091330296,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0__solver_2",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T112616-4f51cf93/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.021368515335729935,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0__solver_2",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T112616-4f51cf93/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.013298180512912601,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0__solver_2",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T112616-4f51cf93/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.009704993351048862,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0__solver_2",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T112616-4f51cf93/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.008673433200525221,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0__solver_2",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T112616-4f51cf93/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.08400685712055922,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0__solver_2",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T112616-4f51cf93/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.043216603370300526,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0__solver_2",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T112616-4f51cf93/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.023445629630093813,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0__solver_2",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T112616-4f51cf93/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.014124088093523937,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0__solver_2",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T112616-4f51cf93/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.009896359875239931,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0__solver_2",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T112616-4f51cf93/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.00878089298177186,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T112146-b7dbfa37/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.07418702464325905,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T112146-b7dbfa37/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.038551228086689315,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T112146-b7dbfa37/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.021368337000618756,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T112146-b7dbfa37/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.013298302570626738,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T112146-b7dbfa37/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.009695794742787225,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T112146-b7dbfa37/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.008639311295048701,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T112146-b7dbfa37/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.08400685721200458,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T112146-b7dbfa37/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.04321659907728859,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T112146-b7dbfa37/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.02344575709813955,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T112146-b7dbfa37/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.014129787079513916,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T112146-b7dbfa37/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.009933126872256143,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed0",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T112146-b7dbfa37/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.00869350029071211,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed0",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T113013-29fca6e2/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.02463427045900528,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed0",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T113013-29fca6e2/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.023574010024419126,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed0",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T113013-29fca6e2/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.021035156690428707,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed0",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T113013-29fca6e2/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.017460104881928798,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed0",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T113013-29fca6e2/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.011781513155609585,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed0",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T113013-29fca6e2/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.016494375863680855,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed0",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T113013-29fca6e2/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.028698204654459727,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed0",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T113013-29fca6e2/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.0275095681893647,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed0",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T113013-29fca6e2/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.02482946307365847,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed0",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T113013-29fca6e2/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.019976113375112143,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed0",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T113013-29fca6e2/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.013142176424841685,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed0",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T113013-29fca6e2/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.017000361648973884,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1__solver_2",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T113338-562da4f1/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.09061330512708561,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1__solver_2",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T113338-562da4f1/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.046918028937514324,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1__solver_2",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T113338-562da4f1/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.02564601863228846,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1__solver_2",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T113338-562da4f1/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.01629051291823629,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1__solver_2",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T113338-562da4f1/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.012121618738114959,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1__solver_2",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T113338-562da4f1/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.011059076368220233,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1__solver_2",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T113338-562da4f1/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.09917705161762227,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1__solver_2",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T113338-562da4f1/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.05237828651329635,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1__solver_2",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T113338-562da4f1/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.029649598503514327,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1__solver_2",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T113338-562da4f1/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.018131751217323945,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1__solver_2",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T113338-562da4f1/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.013560773227482305,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1__solver_2",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T113338-562da4f1/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.011984659535933357,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T113313-494b9a21/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.09061330448511226,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T113313-494b9a21/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.04691801051544024,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T113313-494b9a21/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.02564594264727414,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T113313-494b9a21/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.016291389560977945,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T113313-494b9a21/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.012136298968363341,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T113313-494b9a21/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.010980193289289841,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T113313-494b9a21/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.09917705129562197,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T113313-494b9a21/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.052378300581562585,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T113313-494b9a21/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.02964937096026171,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T113313-494b9a21/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.018130262639721787,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T113313-494b9a21/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.013560433551983216,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed1",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T113313-494b9a21/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.01205495137056621,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed1",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T114347-6dd61034/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.022756781052144008,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed1",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T114347-6dd61034/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.021283893559477896,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed1",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T114347-6dd61034/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.01951983588824587,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed1",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T114347-6dd61034/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.01573290680518892,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed1",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T114347-6dd61034/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.010381493083813876,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed1",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T114347-6dd61034/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.014939647848381317,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed1",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T114347-6dd61034/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.02616433113167914,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed1",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T114347-6dd61034/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.02415190679030387,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed1",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T114347-6dd61034/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.021042830349215596,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed1",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T114347-6dd61034/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.016845870369933902,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed1",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T114347-6dd61034/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.01116073912096413,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed1",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T114347-6dd61034/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.01515863602685506,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2__solver_2",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T115121-9ace938c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.08003491948000163,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2__solver_2",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T115121-9ace938c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.042885798673618525,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2__solver_2",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T115121-9ace938c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.023586103608709753,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2__solver_2",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T115121-9ace938c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.014546961785532421,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2__solver_2",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T115121-9ace938c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.010075362990180073,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2__solver_2",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T115121-9ace938c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.00875157991487243,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2__solver_2",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T115121-9ace938c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.09430759799046595,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2__solver_2",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T115121-9ace938c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.04855101656423033,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2__solver_2",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T115121-9ace938c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.026084746852213615,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2__solver_2",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T115121-9ace938c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.015459851856957585,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2__solver_2",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T115121-9ace938c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.009871441949271625,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2__solver_2",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T115121-9ace938c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.00831898509013363,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T115047-5b79c56d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.08003491861341569,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T115047-5b79c56d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.04288580309241007,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T115047-5b79c56d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.023585933434608207,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T115047-5b79c56d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.014546187769570805,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T115047-5b79c56d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.010072057988360006,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T115047-5b79c56d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.008818467637380627,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T115047-5b79c56d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.09430761369340554,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T115047-5b79c56d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.048550961487140054,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T115047-5b79c56d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.026084863398328877,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T115047-5b79c56d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.015455784620973112,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T115047-5b79c56d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.00992255241270541,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed2",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T115047-5b79c56d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.008336630415784065,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed2",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T120018-01963873/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.021141464457444803,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed2",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T120018-01963873/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.020270216649728227,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed2",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T120018-01963873/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.01841309956302144,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed2",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T120018-01963873/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.014948648886797263,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed2",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T120018-01963873/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.010358180526807113,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed2",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T120018-01963873/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.014320751524919666,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed2",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T120018-01963873/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.022279036157055176,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed2",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T120018-01963873/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.021063040767240773,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed2",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T120018-01963873/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.018728954920797652,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed2",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T120018-01963873/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.01563230494458629,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed2",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T120018-01963873/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.010708147691671003,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed2",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T120018-01963873/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.015557963335432317,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3__solver_2",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T122011-df6f4d4c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.05940203883552233,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3__solver_2",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T122011-df6f4d4c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.031801901483363114,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3__solver_2",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T122011-df6f4d4c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.01859869817215373,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3__solver_2",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T122011-df6f4d4c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.012143994736729058,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3__solver_2",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T122011-df6f4d4c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.008658690206877652,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3__solver_2",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T122011-df6f4d4c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.007441903790417788,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3__solver_2",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T122011-df6f4d4c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.05784430703117463,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3__solver_2",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T122011-df6f4d4c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.030772940600584872,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3__solver_2",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T122011-df6f4d4c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.01731356798004874,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3__solver_2",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T122011-df6f4d4c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.010946901211081939,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3__solver_2",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T122011-df6f4d4c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.00822129271186,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3__solver_2",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T122011-df6f4d4c/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.007329586101326773,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T121945-fb070027/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.059402036326998975,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T121945-fb070027/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.03180190221558128,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T121945-fb070027/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.018598670316275184,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T121945-fb070027/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.012143757068493823,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T121945-fb070027/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.008656298574445755,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T121945-fb070027/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.00752240085733936,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T121945-fb070027/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.05784430944008595,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T121945-fb070027/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.030772981114262625,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T121945-fb070027/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.017313516942070672,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T121945-fb070027/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.010944969334147446,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T121945-fb070027/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.008196725488300128,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed3",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T121945-fb070027/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.00732017533284728,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed3",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T122549-99532ead/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.022038994209542043,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed3",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T122549-99532ead/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.020660482355205085,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed3",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T122549-99532ead/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.01866008135880541,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed3",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T122549-99532ead/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.01493526027868796,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed3",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T122549-99532ead/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.01159294742727874,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed3",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T122549-99532ead/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.016061239523235564,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed3",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T122549-99532ead/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.023837465904272284,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed3",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T122549-99532ead/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.022397076339273594,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed3",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T122549-99532ead/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.02000874602148045,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed3",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T122549-99532ead/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.016883286700952668,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed3",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T122549-99532ead/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.012516462724180461,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed3",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T122549-99532ead/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.01779411103061449,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4__solver_2",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T122916-dde7464b/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.10448353870322064,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4__solver_2",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T122916-dde7464b/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.05359023995847802,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4__solver_2",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T122916-dde7464b/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.03049950865466724,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4__solver_2",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T122916-dde7464b/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.01823106064961504,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4__solver_2",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T122916-dde7464b/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.012291722860354251,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4__solver_2",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T122916-dde7464b/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.010001940505328561,
+      "role": "solver",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4__solver_2",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T122916-dde7464b/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.10705330113741479,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4__solver_2",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T122916-dde7464b/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.05584422388750079,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4__solver_2",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T122916-dde7464b/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.030783955040767044,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4__solver_2",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T122916-dde7464b/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.018203479988112822,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4__solver_2",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T122916-dde7464b/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.012403961976713306,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4__solver_2",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T122916-dde7464b/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.010240413214091467,
+      "role": "solver",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T122850-e463c07d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.10448353922558812,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T122850-e463c07d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.053590235535371566,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T122850-e463c07d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.03049924628632205,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T122850-e463c07d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.018229690534577,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T122850-e463c07d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.012313650381676835,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T122850-e463c07d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.01017336648372795,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T122850-e463c07d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.10705330295670112,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T122850-e463c07d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.05584422120291711,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T122850-e463c07d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.030783882212948015,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T122850-e463c07d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.018204283559494785,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T122850-e463c07d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.012385852189510837,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__seed4",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T122850-e463c07d/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.01015997535186525,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed4",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T123458-48d73193/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.020623865110977344,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed4",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T123458-48d73193/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.019601886925679893,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed4",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T123458-48d73193/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.017886922713335543,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed4",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T123458-48d73193/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.014159411428521052,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed4",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T123458-48d73193/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.009797859318649025,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed4",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T123458-48d73193/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.015165436435410505,
+      "role": "E01",
+      "stratum": "cold"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed4",
+      "h_ns": 2500000,
+      "manifest": "evidence/M30/20261001T123458-48d73193/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.02374800151486635,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed4",
+      "h_ns": 5000000,
+      "manifest": "evidence/M30/20261001T123458-48d73193/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.02224740767883432,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed4",
+      "h_ns": 10000000,
+      "manifest": "evidence/M30/20261001T123458-48d73193/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.01972637389244735,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed4",
+      "h_ns": 20000000,
+      "manifest": "evidence/M30/20261001T123458-48d73193/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.01642508183022772,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed4",
+      "h_ns": 40000000,
+      "manifest": "evidence/M30/20261001T123458-48d73193/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.012443188149436252,
+      "role": "E01",
+      "stratum": "warm"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__seed4",
+      "h_ns": 80000000,
+      "manifest": "evidence/M30/20261001T123458-48d73193/manifest.json",
+      "n_probes": 256,
+      "primary_error": 0.017121179003597088,
+      "role": "E01",
+      "stratum": "warm"
+    }
+  ],
+  "status": "verified"
+}

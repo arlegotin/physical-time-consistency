@@ -1,0 +1,23 @@
+{
+  "audit_path": "reports/control_nominal_selection_audit.json",
+  "audit_sha256": "73bf9b38cb63d5d3b47f6520ce46a9d373d85a0eb9fef476d8d510ca81a9f04c",
+  "complete_checkpoint_score_recomputations": 30,
+  "exact_score_count_matches": 30,
+  "focused_test_log_sha256": "185a4cc817e8f80d43f01356d6188bb635b6d3f1d0b4323c77bb026ad04a5b5b",
+  "includes_import_or_parent_verification_time": false,
+  "observed_validation_cpu_seconds": 21.091523999999996,
+  "observed_validation_wall_seconds": 21.278719247784466,
+  "peak_child_rss_bytes": 238075904,
+  "recorded_utc": "2026-10-03T10:29:29.701442Z",
+  "reselection": false,
+  "schema_version": 1,
+  "scientific_look_reserved": false,
+  "scientific_verdict": null,
+  "sources": {
+    "reports/audit_control_nominal_selections.py": "e8fe4dc7ead5cb29dd4b43d586427c4745c99d72923b85936015988556095398",
+    "reports/audit_nominal_selections.py": "8034dbc098f898c465eda4d4f5b81c0f49db50b69b4917920460eae6e664a1ad",
+    "tests/test_control_nominal_selection_audit.py": "e9f0e5c362541674417beccc414f541fffcef191463bb271eefb484baafcc7a6"
+  },
+  "tested_focused_count": 51,
+  "training_updates": 0
+}

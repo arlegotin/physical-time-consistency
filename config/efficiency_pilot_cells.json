@@ -1,0 +1,4903 @@
+{
+  "freeze_sha256": "39bacb772bcc4af7e44879ea2d345c35e5247c7916f161c535c5a486c430d132",
+  "jobs": [
+    {
+      "cell_id": "direct__power_correct__rate40000000__step40000000__task0",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        40000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate40000000__step40000000__task0.json",
+      "sha256": "9e45d52dbffd09c91b57bb3d233c6aa7ad76de6eca693fb7ea8695527dd7b8a2"
+    },
+    {
+      "cell_id": "direct__power_correct__rate40000000__step40000000__task1",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        40000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate40000000__step40000000__task1.json",
+      "sha256": "12cd56543d53091a1f658faa9a861d91fb3e050b95c08dcbe396ab3a1d33cf75"
+    },
+    {
+      "cell_id": "direct__power_correct__rate40000000__step40000000__task2",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        40000000,
+        40000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate40000000__step40000000__task2.json",
+      "sha256": "206383e725f228eeebf98268cc9e683b8a3ac07ef66eb7d419c57245ae1fd05e"
+    },
+    {
+      "cell_id": "direct__power_correct__rate40000000__step40000000__task3",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        40000000,
+        40000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate40000000__step40000000__task3.json",
+      "sha256": "4a88d996735e8144edc1be58ff2a92c2232498be8b5132fd70d8c3069b5490d0"
+    },
+    {
+      "cell_id": "direct__power_correct__rate40000000__step40000000__task4",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        40000000,
+        40000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate40000000__step40000000__task4.json",
+      "sha256": "c34b670c1f04971888ca37663485f621255d28e80092207c59a01fb86ce19a44"
+    },
+    {
+      "cell_id": "direct__power_correct__rate40000000__step40000000__task5",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        40000000,
+        40000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate40000000__step40000000__task5.json",
+      "sha256": "3bf743ee7aa5a02c6f5df365b50503cc1a4b388e40738899f450c0869c25f9ed"
+    },
+    {
+      "cell_id": "direct__power_correct__rate40000000__step40000000__task6",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        40000000,
+        40000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate40000000__step40000000__task6.json",
+      "sha256": "733eebda5b4aff6bfc1863b6011db4e1190a2e6e14be309912c8c464576158aa"
+    },
+    {
+      "cell_id": "direct__power_correct__rate40000000__step40000000__task7",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        40000000,
+        40000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate40000000__step40000000__task7.json",
+      "sha256": "64fc811731ee5be6d827335c5253ac1a0b9ed0aec5ed434f0b4fefac9e486cc5"
+    },
+    {
+      "cell_id": "direct__power_correct__rate40000000__step40000000__task8",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        40000000,
+        40000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate40000000__step40000000__task8.json",
+      "sha256": "8c6cb7f157560ede5f246e07b2f8e91a355d1e07a8c502626ffc5f2c38c02dd4"
+    },
+    {
+      "cell_id": "direct__power_correct__rate40000000__step40000000__task9",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        40000000,
+        40000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate40000000__step40000000__task9.json",
+      "sha256": "34652d7ccaab8250a9a2b3317d236d8107145c206a66c0afd5b049279052f01a"
+    },
+    {
+      "cell_id": "direct__power_correct__rate40000000__step5000000__task0",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        40000000,
+        5000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate40000000__step5000000__task0.json",
+      "sha256": "c52ec6481d61ec38a35071c5de4cec9f1fe4808ed79239f2d80e30020e1eced7"
+    },
+    {
+      "cell_id": "direct__power_correct__rate40000000__step5000000__task1",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        40000000,
+        5000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate40000000__step5000000__task1.json",
+      "sha256": "a220af73e17f3a0d0d477d5954d24588bf68828e8738160d24cf9147414c989a"
+    },
+    {
+      "cell_id": "direct__power_correct__rate40000000__step5000000__task2",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        40000000,
+        5000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate40000000__step5000000__task2.json",
+      "sha256": "c488db45d317517df4154e8a1f8bc5dc8670c96bfdd4f1347f8f5025ede35e89"
+    },
+    {
+      "cell_id": "direct__power_correct__rate40000000__step5000000__task3",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        40000000,
+        5000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate40000000__step5000000__task3.json",
+      "sha256": "6d6e9030ecf631a00390a73d4461e2989b999f4923b1e6066397a31b17a18c53"
+    },
+    {
+      "cell_id": "direct__power_correct__rate40000000__step5000000__task4",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        40000000,
+        5000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate40000000__step5000000__task4.json",
+      "sha256": "f2b48dbf1032dc9889dbacd316a76f6100da420797863fbd91ed46ff5352297c"
+    },
+    {
+      "cell_id": "direct__power_correct__rate40000000__step5000000__task5",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        40000000,
+        5000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate40000000__step5000000__task5.json",
+      "sha256": "68df4bd68bf6c4e24d2b1ae530a1a53c4e6cb0300ecc7a34d0e1bd9109ca58ed"
+    },
+    {
+      "cell_id": "direct__power_correct__rate40000000__step5000000__task6",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        40000000,
+        5000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate40000000__step5000000__task6.json",
+      "sha256": "2aa41dd92c56e7ff73db1748456cd5eeffb900e1c9c73e192d71cf56a3658834"
+    },
+    {
+      "cell_id": "direct__power_correct__rate40000000__step5000000__task7",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        40000000,
+        5000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate40000000__step5000000__task7.json",
+      "sha256": "e0bb2ec8c84b91876056f892885b6c88ebadf190680067988cf3b2af8d8896d8"
+    },
+    {
+      "cell_id": "direct__power_correct__rate40000000__step5000000__task8",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        40000000,
+        5000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate40000000__step5000000__task8.json",
+      "sha256": "96ecf98b022d94bcf660765437380c950aac959cc9e8b5094bb9730dd9f0e7c3"
+    },
+    {
+      "cell_id": "direct__power_correct__rate40000000__step5000000__task9",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        40000000,
+        5000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate40000000__step5000000__task9.json",
+      "sha256": "ea6009f29d163e35cbaea148c7732d694124a1b12d84c1e8929b9ae9364381e1"
+    },
+    {
+      "cell_id": "direct__power_correct__rate10000000__step40000000__task0",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        10000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate10000000__step40000000__task0.json",
+      "sha256": "7835e0ff7c818178e96ae18e11d977b2f65abc50e0f3e32a976fdb2d48489772"
+    },
+    {
+      "cell_id": "direct__power_correct__rate10000000__step40000000__task1",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        10000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate10000000__step40000000__task1.json",
+      "sha256": "9edb80fe62a217243e9e95a14e5f674f133bd3fa92699ba87f852a357fccf763"
+    },
+    {
+      "cell_id": "direct__power_correct__rate10000000__step40000000__task2",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        10000000,
+        40000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate10000000__step40000000__task2.json",
+      "sha256": "f245f63adad4f490c5f0c126c2b30eead9512525c8e5ef9e371971dc27ef5f34"
+    },
+    {
+      "cell_id": "direct__power_correct__rate10000000__step40000000__task3",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        10000000,
+        40000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate10000000__step40000000__task3.json",
+      "sha256": "fd2978b7b96925b7a43cb2d348781bccec933262ee267580d2b797ddd483b609"
+    },
+    {
+      "cell_id": "direct__power_correct__rate10000000__step40000000__task4",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        10000000,
+        40000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate10000000__step40000000__task4.json",
+      "sha256": "8d8e491f2cfc3c09a8804903a1d78f917b05b5fa916035010b7d9763c74663d4"
+    },
+    {
+      "cell_id": "direct__power_correct__rate10000000__step40000000__task5",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        10000000,
+        40000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate10000000__step40000000__task5.json",
+      "sha256": "5caacaf653a9d6dcaecb5071cc1f80988b621167fb14e7401a322a69e8c46b7c"
+    },
+    {
+      "cell_id": "direct__power_correct__rate10000000__step40000000__task6",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        10000000,
+        40000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate10000000__step40000000__task6.json",
+      "sha256": "ada93104bcc3c87354ca8fb9c332fe2964ff85014849914b40820bc8aaeb8cf2"
+    },
+    {
+      "cell_id": "direct__power_correct__rate10000000__step40000000__task7",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        10000000,
+        40000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate10000000__step40000000__task7.json",
+      "sha256": "e5c1268f0be67cfec153e999e4bfbd3d5762509864a6dddb63b3ab9620e3f467"
+    },
+    {
+      "cell_id": "direct__power_correct__rate10000000__step40000000__task8",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        10000000,
+        40000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate10000000__step40000000__task8.json",
+      "sha256": "e41bd64581c58179ba61e32fdfe7f16a39906a96a357c63030008b8275c6f417"
+    },
+    {
+      "cell_id": "direct__power_correct__rate10000000__step40000000__task9",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        10000000,
+        40000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate10000000__step40000000__task9.json",
+      "sha256": "fd08c3d57b879d1ff8c59c77c031455709f95869674d2145f809a8c04d3f91bc"
+    },
+    {
+      "cell_id": "direct__power_correct__rate10000000__step5000000__task0",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        10000000,
+        5000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate10000000__step5000000__task0.json",
+      "sha256": "8c98c5f133456f4788d3636f4e78afba4cc09ef4fe48e85341acf47024a63709"
+    },
+    {
+      "cell_id": "direct__power_correct__rate10000000__step5000000__task1",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        10000000,
+        5000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate10000000__step5000000__task1.json",
+      "sha256": "da2a3d001e60f19119aaffdf1e4a7c4e2091f0e6c5c3494ad3a024f59d31e869"
+    },
+    {
+      "cell_id": "direct__power_correct__rate10000000__step5000000__task2",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        10000000,
+        5000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate10000000__step5000000__task2.json",
+      "sha256": "043f9d9e86ed5e8fa29d9c5c3dabcb2e7f632192dfe6f4bd7f98813b95f57d46"
+    },
+    {
+      "cell_id": "direct__power_correct__rate10000000__step5000000__task3",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        10000000,
+        5000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate10000000__step5000000__task3.json",
+      "sha256": "8bf70d50e51c298bf41fd1a260073acdef5eb2585e2ab70ab04b10efd7f473c6"
+    },
+    {
+      "cell_id": "direct__power_correct__rate10000000__step5000000__task4",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        10000000,
+        5000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate10000000__step5000000__task4.json",
+      "sha256": "a5c957fafd942a75f0f28a3e789b8c3b27e6bae993c681f42b8d7b7217881283"
+    },
+    {
+      "cell_id": "direct__power_correct__rate10000000__step5000000__task5",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        10000000,
+        5000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate10000000__step5000000__task5.json",
+      "sha256": "4b19c2e2aa9893d6dc4dc417d625c7630403c1426ec49913960a050c4a5bddf6"
+    },
+    {
+      "cell_id": "direct__power_correct__rate10000000__step5000000__task6",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        10000000,
+        5000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate10000000__step5000000__task6.json",
+      "sha256": "c3f9549188d7f2ebdaf5751652987c54e7b88910e4c8292ea3e2f57167be49ef"
+    },
+    {
+      "cell_id": "direct__power_correct__rate10000000__step5000000__task7",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        10000000,
+        5000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate10000000__step5000000__task7.json",
+      "sha256": "70b98459eecdfc7eddce557bb398d67dba1b2baef7fb4ce27ced4b04534c10ce"
+    },
+    {
+      "cell_id": "direct__power_correct__rate10000000__step5000000__task8",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        10000000,
+        5000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate10000000__step5000000__task8.json",
+      "sha256": "daadee36f1ae408838768f46f8a509e5284bb7ef2230839a92d290d0b1b55f65"
+    },
+    {
+      "cell_id": "direct__power_correct__rate10000000__step5000000__task9",
+      "coordinate": [
+        "direct",
+        "power_correct",
+        10000000,
+        5000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__power_correct__rate10000000__step5000000__task9.json",
+      "sha256": "54ea03848e7f01f877b0f69723ac969ab68a6c2d79d67d32a2341db733b11b96"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate40000000__step40000000__task0",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        40000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate40000000__step40000000__task0.json",
+      "sha256": "b6eb6813c04fe5ebc8bad66358b13480e8f5416deda67036e8c33dfc4b1255a2"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate40000000__step40000000__task1",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        40000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate40000000__step40000000__task1.json",
+      "sha256": "153d0e464ed4564265583210d975013e403da5853ed66fcafdc59bae1c95dec9"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate40000000__step40000000__task2",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        40000000,
+        40000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate40000000__step40000000__task2.json",
+      "sha256": "666a5922c208174d94d45264a4ddf384c897fd9aae500225fb18b3c581dc85bd"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate40000000__step40000000__task3",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        40000000,
+        40000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate40000000__step40000000__task3.json",
+      "sha256": "8933c2549c192bf37c73f3473714eb7ebfce8eea540f95b8a48363d36a1551b5"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate40000000__step40000000__task4",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        40000000,
+        40000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate40000000__step40000000__task4.json",
+      "sha256": "30f1b89e57c90dfc5f1e5599d0c375064090adea69d0988bfa34ebcc502c4821"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate40000000__step40000000__task5",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        40000000,
+        40000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate40000000__step40000000__task5.json",
+      "sha256": "b23407a2ad9a78f0d02bb396f6e9c37e0845b11c08ae0cd405258f2a10033f24"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate40000000__step40000000__task6",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        40000000,
+        40000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate40000000__step40000000__task6.json",
+      "sha256": "02e3a772ff63649f9cf35d957e4ffe40128e33c6a07aed299dd201e246f919db"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate40000000__step40000000__task7",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        40000000,
+        40000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate40000000__step40000000__task7.json",
+      "sha256": "2292b8431afdc754c16583e71fe89e784f591d7ecd50254adf88920340c62e0d"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate40000000__step40000000__task8",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        40000000,
+        40000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate40000000__step40000000__task8.json",
+      "sha256": "bfe5a1aa0cefb9bf8d46d151993bf50aa6363b8b88d1698532848c0a71c26ced"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate40000000__step40000000__task9",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        40000000,
+        40000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate40000000__step40000000__task9.json",
+      "sha256": "3a96529aea7c5ab54e0d678ba9a8569e745665ae5aa8942cad45b1f6b9f15e6f"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate40000000__step5000000__task0",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        40000000,
+        5000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate40000000__step5000000__task0.json",
+      "sha256": "0b6777148f7e137c62ae209e4c1f6925b5a8c1f5f24164215c91b00af0c0809e"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate40000000__step5000000__task1",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        40000000,
+        5000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate40000000__step5000000__task1.json",
+      "sha256": "d75a7d029cbc3ce761dc430bd9e3b321156f26c1194e9f372609897841314b47"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate40000000__step5000000__task2",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        40000000,
+        5000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate40000000__step5000000__task2.json",
+      "sha256": "0dcbf918886ec2df31e6781e8ef35f68b47e2000dfff9fa4b92049afad59ad07"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate40000000__step5000000__task3",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        40000000,
+        5000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate40000000__step5000000__task3.json",
+      "sha256": "3f9ea6682637a4ebff5479e56bc8e3c0f3d83fc8528da9b0b602f37b8b5c60f0"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate40000000__step5000000__task4",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        40000000,
+        5000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate40000000__step5000000__task4.json",
+      "sha256": "f4ce05886f8210c8da979259ba63e5c245594ec9fe3676efaa50b55ba3452678"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate40000000__step5000000__task5",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        40000000,
+        5000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate40000000__step5000000__task5.json",
+      "sha256": "beeff59f169604f381208a2707d920b8ef31acad36af7b0ad72c98fcfdd74cc1"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate40000000__step5000000__task6",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        40000000,
+        5000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate40000000__step5000000__task6.json",
+      "sha256": "3769e922a726866f131be2adbd0464f3448fce518f1302fb539fe6e20f0bec55"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate40000000__step5000000__task7",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        40000000,
+        5000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate40000000__step5000000__task7.json",
+      "sha256": "d7a7d810440f4f27f6e4fa9e9a8040c397c09dc6bfce08eff4bd22201e04f7c2"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate40000000__step5000000__task8",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        40000000,
+        5000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate40000000__step5000000__task8.json",
+      "sha256": "5d3823e89d2fa3d829df64a3a5546593fe783111929e9e958e4b92edfce6ba7a"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate40000000__step5000000__task9",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        40000000,
+        5000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate40000000__step5000000__task9.json",
+      "sha256": "7120b0c8de148b6779d236e9f5aed4a9a113631634b4cc01a5a8b60bd0cff635"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate10000000__step40000000__task0",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        10000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate10000000__step40000000__task0.json",
+      "sha256": "046969d0944a1129f6ab8f6d04dc201e1bbb12dbf5df026223ab72399f6b0353"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate10000000__step40000000__task1",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        10000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate10000000__step40000000__task1.json",
+      "sha256": "9393ff0b37526d3968253dae29e6bf5ef2490565b6d39e30e512472ffc0ceb1d"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate10000000__step40000000__task2",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        10000000,
+        40000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate10000000__step40000000__task2.json",
+      "sha256": "5e7e93664cd4d489024dce458166d2974664c4c5f90d986bc0d5bd62442856f9"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate10000000__step40000000__task3",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        10000000,
+        40000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate10000000__step40000000__task3.json",
+      "sha256": "58311f8102087f73f086432072c11943c7a8423641df88436f482509db0a9de7"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate10000000__step40000000__task4",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        10000000,
+        40000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate10000000__step40000000__task4.json",
+      "sha256": "3ddd71f43546b34db953476b95aefab41fb45d1ee09d5019128a0fb496bc34fd"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate10000000__step40000000__task5",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        10000000,
+        40000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate10000000__step40000000__task5.json",
+      "sha256": "e07d734531ec17bfba2593585368d2a3df28fab08c0eba50a95ed6c84c9e3518"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate10000000__step40000000__task6",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        10000000,
+        40000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate10000000__step40000000__task6.json",
+      "sha256": "6ef862f4dd4c1290c8f2c850ec00962daf185e0f3d38d59dd6859cbfd42a23e5"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate10000000__step40000000__task7",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        10000000,
+        40000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate10000000__step40000000__task7.json",
+      "sha256": "fbea86851adf67085a4d0dfec9f1b4e09db7dcc3795a7f172de73f9bb324c704"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate10000000__step40000000__task8",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        10000000,
+        40000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate10000000__step40000000__task8.json",
+      "sha256": "9359e1b579836c5c04cc3781e674aed6efe12c84f7770a27dd6093bb53a80393"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate10000000__step40000000__task9",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        10000000,
+        40000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate10000000__step40000000__task9.json",
+      "sha256": "03fa986d3658bd730e4c3102925325daa1b009403e4a1f68fb478614cd1381c6"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate10000000__step5000000__task0",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        10000000,
+        5000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate10000000__step5000000__task0.json",
+      "sha256": "aef5119a4f60e1309c4185bc1e2085de5b7acd973fdbe67734f4e8e89fe146dc"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate10000000__step5000000__task1",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        10000000,
+        5000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate10000000__step5000000__task1.json",
+      "sha256": "9684620dbb819d6435a7f1a3b45525377727102883ee6a44b73409d4b8e8f17a"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate10000000__step5000000__task2",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        10000000,
+        5000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate10000000__step5000000__task2.json",
+      "sha256": "abee30b7a57997f996d8dfac112247c46729caacd49bb657ac8b2fa760c5f985"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate10000000__step5000000__task3",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        10000000,
+        5000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate10000000__step5000000__task3.json",
+      "sha256": "269a2c276aaae043fbe5675fdc49cd7e4f335d402bf3070e4d8d0f4fe2aa163e"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate10000000__step5000000__task4",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        10000000,
+        5000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate10000000__step5000000__task4.json",
+      "sha256": "d7ef69f4cdfd3bc2ee06e737adc367ee64403e5c460d0c205a79b58681fc927f"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate10000000__step5000000__task5",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        10000000,
+        5000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate10000000__step5000000__task5.json",
+      "sha256": "aaa9ad65a573d7a015e4ca7abc1e6f8c4c5f4dd1555277e9833025196ce43787"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate10000000__step5000000__task6",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        10000000,
+        5000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate10000000__step5000000__task6.json",
+      "sha256": "c2d4c945a61a82446473c027e48f15bbb91f64c28d12e2d3ca79cb9fdf5f7602"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate10000000__step5000000__task7",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        10000000,
+        5000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate10000000__step5000000__task7.json",
+      "sha256": "405a9b15ee0dcb43f9b1e0fc6d08e9742ecf3089d56bea80b63dfeeef819f04a"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate10000000__step5000000__task8",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        10000000,
+        5000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate10000000__step5000000__task8.json",
+      "sha256": "a06390993f8084755b055ae42c74d4f58fa22a1cda8adac7880188983570b60d"
+    },
+    {
+      "cell_id": "direct__mlp_h__rate10000000__step5000000__task9",
+      "coordinate": [
+        "direct",
+        "mlp_h",
+        10000000,
+        5000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__mlp_h__rate10000000__step5000000__task9.json",
+      "sha256": "4b215d3294b830c9b4a33fe0ccfde9da860481b0329f06984df7e84596896636"
+    },
+    {
+      "cell_id": "direct__node_generic__rate40000000__step40000000__task0",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        40000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate40000000__step40000000__task0.json",
+      "sha256": "b106d8a74ea665d14cce7bc4d197c04355a5d10246a30d918008aacc41211c39"
+    },
+    {
+      "cell_id": "direct__node_generic__rate40000000__step40000000__task1",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        40000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate40000000__step40000000__task1.json",
+      "sha256": "7c2ecd0ce96fa599cc37259492aa9c56906f9d7c607c4752fbe7535624db1eb2"
+    },
+    {
+      "cell_id": "direct__node_generic__rate40000000__step40000000__task2",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        40000000,
+        40000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate40000000__step40000000__task2.json",
+      "sha256": "f28db6401c97ec0de005fbd104bb6dd3213887ec51e02f066cc02ba8e5a89b92"
+    },
+    {
+      "cell_id": "direct__node_generic__rate40000000__step40000000__task3",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        40000000,
+        40000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate40000000__step40000000__task3.json",
+      "sha256": "3ce239c01cec005f535bd6e055a99749723e82ab2c075196479dd372e6ed9453"
+    },
+    {
+      "cell_id": "direct__node_generic__rate40000000__step40000000__task4",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        40000000,
+        40000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate40000000__step40000000__task4.json",
+      "sha256": "0a15151e9729083d9c3fdd3800c0b1e7581c7996d4773f6fc248ffdacd042f65"
+    },
+    {
+      "cell_id": "direct__node_generic__rate40000000__step40000000__task5",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        40000000,
+        40000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate40000000__step40000000__task5.json",
+      "sha256": "5682e507301b2b06dc5f6b063dfb8890357210c5f67b9008baac8f62d43f88c7"
+    },
+    {
+      "cell_id": "direct__node_generic__rate40000000__step40000000__task6",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        40000000,
+        40000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate40000000__step40000000__task6.json",
+      "sha256": "70072dcc7aea67935300f8ff40799a2090843e4712b9baa6b1ef1ca817afd589"
+    },
+    {
+      "cell_id": "direct__node_generic__rate40000000__step40000000__task7",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        40000000,
+        40000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate40000000__step40000000__task7.json",
+      "sha256": "306dea0acd92f9909cf23bcd946f28deb698fd8c80834b7a9acbf21eec2e40dc"
+    },
+    {
+      "cell_id": "direct__node_generic__rate40000000__step40000000__task8",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        40000000,
+        40000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate40000000__step40000000__task8.json",
+      "sha256": "60a392f609c19f30437d7e1824ad1da93ad55069eb1c38974e23a4a8fd1a0412"
+    },
+    {
+      "cell_id": "direct__node_generic__rate40000000__step40000000__task9",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        40000000,
+        40000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate40000000__step40000000__task9.json",
+      "sha256": "309b7fe633cac7ea69903e4b8359185a3f01a84c208390aec49987600691c891"
+    },
+    {
+      "cell_id": "direct__node_generic__rate40000000__step5000000__task0",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        40000000,
+        5000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate40000000__step5000000__task0.json",
+      "sha256": "6e98f929340bf5d33f074c574cea5f501ff5f48ffcfef37e983fddbcdbbf333d"
+    },
+    {
+      "cell_id": "direct__node_generic__rate40000000__step5000000__task1",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        40000000,
+        5000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate40000000__step5000000__task1.json",
+      "sha256": "b51e8cc2775fc623136eb4eaf88905d0b10b4ef48c0ad087bbd9b0c71eebdf58"
+    },
+    {
+      "cell_id": "direct__node_generic__rate40000000__step5000000__task2",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        40000000,
+        5000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate40000000__step5000000__task2.json",
+      "sha256": "449b57584b9c4b72c1bd7e0c08fbd9754662d56e1985b805ef662692ebca510c"
+    },
+    {
+      "cell_id": "direct__node_generic__rate40000000__step5000000__task3",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        40000000,
+        5000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate40000000__step5000000__task3.json",
+      "sha256": "8980a041a4dda78548e4b758d12db593c996932bedcd2460e0971f9feba57f8f"
+    },
+    {
+      "cell_id": "direct__node_generic__rate40000000__step5000000__task4",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        40000000,
+        5000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate40000000__step5000000__task4.json",
+      "sha256": "a7b66ac9a96150687a58ff1990b97595d19bfc64409ca44ea8b5d5ff02ea4617"
+    },
+    {
+      "cell_id": "direct__node_generic__rate40000000__step5000000__task5",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        40000000,
+        5000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate40000000__step5000000__task5.json",
+      "sha256": "c574df815bf13d85b83f9d4d4cbddac1672e8366bedcce17f5f6cc68ad052ab8"
+    },
+    {
+      "cell_id": "direct__node_generic__rate40000000__step5000000__task6",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        40000000,
+        5000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate40000000__step5000000__task6.json",
+      "sha256": "09c26f9bddc9e88e7cf956f4db220e1567820e9727fd579719032ecf5785481c"
+    },
+    {
+      "cell_id": "direct__node_generic__rate40000000__step5000000__task7",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        40000000,
+        5000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate40000000__step5000000__task7.json",
+      "sha256": "cb65bb2ca2826d068cac3154ab7d5269d03283d1fbcf6e442f8879e97058c300"
+    },
+    {
+      "cell_id": "direct__node_generic__rate40000000__step5000000__task8",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        40000000,
+        5000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate40000000__step5000000__task8.json",
+      "sha256": "a5a54b491b531db4176add278d95340d36279e9c420aeb5507c7f8a89d15168b"
+    },
+    {
+      "cell_id": "direct__node_generic__rate40000000__step5000000__task9",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        40000000,
+        5000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate40000000__step5000000__task9.json",
+      "sha256": "e0df12262bb13e3e9b27860ec69bc8f5c9a2c1de823daa91db3d919689565d55"
+    },
+    {
+      "cell_id": "direct__node_generic__rate10000000__step40000000__task0",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        10000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate10000000__step40000000__task0.json",
+      "sha256": "4f0fc32f1d099be9459af603a0aa1899db04c9d95fa2e8a2211412e089e25847"
+    },
+    {
+      "cell_id": "direct__node_generic__rate10000000__step40000000__task1",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        10000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate10000000__step40000000__task1.json",
+      "sha256": "8d48a361ddc28cd034e37ca2a4957bf4eb5582c536a01360b8d6655d985b0518"
+    },
+    {
+      "cell_id": "direct__node_generic__rate10000000__step40000000__task2",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        10000000,
+        40000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate10000000__step40000000__task2.json",
+      "sha256": "43f407ed34b636246de97567cda740eb9260d6b81b7e78706913d38e0fb25d62"
+    },
+    {
+      "cell_id": "direct__node_generic__rate10000000__step40000000__task3",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        10000000,
+        40000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate10000000__step40000000__task3.json",
+      "sha256": "08ee6ba724202633df2153defc3e79e8fbff89d61500c146a7e5ee5a4be8ffd3"
+    },
+    {
+      "cell_id": "direct__node_generic__rate10000000__step40000000__task4",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        10000000,
+        40000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate10000000__step40000000__task4.json",
+      "sha256": "5ef471eee22311769ab7d431d2049f7b0fb69899f8b7f439a7e11b1fe4a414ed"
+    },
+    {
+      "cell_id": "direct__node_generic__rate10000000__step40000000__task5",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        10000000,
+        40000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate10000000__step40000000__task5.json",
+      "sha256": "ce70a9b2aa2c3ed2077be8e85c6430e0c2352b692ab8fc86c2a7c4fd9e0923ec"
+    },
+    {
+      "cell_id": "direct__node_generic__rate10000000__step40000000__task6",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        10000000,
+        40000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate10000000__step40000000__task6.json",
+      "sha256": "27cd071eb5f2e630b888c48ecee8fd8110bdce6a5daa20bf9e2526b1daea92e9"
+    },
+    {
+      "cell_id": "direct__node_generic__rate10000000__step40000000__task7",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        10000000,
+        40000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate10000000__step40000000__task7.json",
+      "sha256": "8f44c86ab3a3cf3b2ed30fa0d7e0b0b7ccc64da07187c1f9c6ae84caacb406d5"
+    },
+    {
+      "cell_id": "direct__node_generic__rate10000000__step40000000__task8",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        10000000,
+        40000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate10000000__step40000000__task8.json",
+      "sha256": "13399c3e23a375573c2a79be040e37a6030890d1d47a337feac3159d4601b552"
+    },
+    {
+      "cell_id": "direct__node_generic__rate10000000__step40000000__task9",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        10000000,
+        40000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate10000000__step40000000__task9.json",
+      "sha256": "9193ffcaacd3c305592bb084af6cb191e70fbde14cc06f4fea99f5b7a494f000"
+    },
+    {
+      "cell_id": "direct__node_generic__rate10000000__step5000000__task0",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        10000000,
+        5000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate10000000__step5000000__task0.json",
+      "sha256": "b72c2cdc83ca6c383ae9f90702e40f25305275a77a9d2de68c8ef26509d31b79"
+    },
+    {
+      "cell_id": "direct__node_generic__rate10000000__step5000000__task1",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        10000000,
+        5000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate10000000__step5000000__task1.json",
+      "sha256": "b3d7eb6b5052c730c66ecffd29ac1d721967d0d8f491c59948a0eb364c901575"
+    },
+    {
+      "cell_id": "direct__node_generic__rate10000000__step5000000__task2",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        10000000,
+        5000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate10000000__step5000000__task2.json",
+      "sha256": "c3c0d008c2a74ef3c0ac75057dd3def23bf1a81ff973416f2a9b575c546a9734"
+    },
+    {
+      "cell_id": "direct__node_generic__rate10000000__step5000000__task3",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        10000000,
+        5000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate10000000__step5000000__task3.json",
+      "sha256": "6127012c5b4a531f9dac14def3cbc8f2129f6ca5583c3d61290051042ff1ec6a"
+    },
+    {
+      "cell_id": "direct__node_generic__rate10000000__step5000000__task4",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        10000000,
+        5000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate10000000__step5000000__task4.json",
+      "sha256": "610d6bbac326fc7090ddba123d976abd7f0f037d840c36797087dfe5a180dfce"
+    },
+    {
+      "cell_id": "direct__node_generic__rate10000000__step5000000__task5",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        10000000,
+        5000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate10000000__step5000000__task5.json",
+      "sha256": "8abc04a1870da843da090fd29547a5c34b1dcc6b5495eb30b74f91c98c9cb5b0"
+    },
+    {
+      "cell_id": "direct__node_generic__rate10000000__step5000000__task6",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        10000000,
+        5000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate10000000__step5000000__task6.json",
+      "sha256": "ede4876b4cbba19ca6bae00db5e5fefd5f0be9da6d5d702102533f870e273971"
+    },
+    {
+      "cell_id": "direct__node_generic__rate10000000__step5000000__task7",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        10000000,
+        5000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate10000000__step5000000__task7.json",
+      "sha256": "4907eabbf0b790be759f8035888e9fe1f7f5bdb0f4d52e5de0013c08a2c959fe"
+    },
+    {
+      "cell_id": "direct__node_generic__rate10000000__step5000000__task8",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        10000000,
+        5000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate10000000__step5000000__task8.json",
+      "sha256": "779268991ad4be70b69a6c6725b3c47bedda9993334611e57743b10aa70559e9"
+    },
+    {
+      "cell_id": "direct__node_generic__rate10000000__step5000000__task9",
+      "coordinate": [
+        "direct",
+        "node_generic",
+        10000000,
+        5000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_generic__rate10000000__step5000000__task9.json",
+      "sha256": "f01f53340c5a4b183f113eeffae7a6d85c156aa5a18b90d402a44de9920ea3db"
+    },
+    {
+      "cell_id": "direct__node_structured__rate40000000__step40000000__task0",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        40000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate40000000__step40000000__task0.json",
+      "sha256": "2d140af0cfd5800969912199b07b4e86b38b241292208721fd92e50a958f77a2"
+    },
+    {
+      "cell_id": "direct__node_structured__rate40000000__step40000000__task1",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        40000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate40000000__step40000000__task1.json",
+      "sha256": "13de665ab4f6a8e1a9cabbfcfe7e44f791dea13bad1bc499f4afb6110c4f82ad"
+    },
+    {
+      "cell_id": "direct__node_structured__rate40000000__step40000000__task2",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        40000000,
+        40000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate40000000__step40000000__task2.json",
+      "sha256": "52bfc0427e4b5642ad11b15d469f2dbf341dd34c5bd348efae4654a2ab132c64"
+    },
+    {
+      "cell_id": "direct__node_structured__rate40000000__step40000000__task3",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        40000000,
+        40000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate40000000__step40000000__task3.json",
+      "sha256": "65e5610396d892ecda9d7ddf257f84b41c0d96e1d2b86007fba41510476e8d9e"
+    },
+    {
+      "cell_id": "direct__node_structured__rate40000000__step40000000__task4",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        40000000,
+        40000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate40000000__step40000000__task4.json",
+      "sha256": "ee007dff2c2568b340beeb04e56f83ebcab1410a69fb5080763fb970bf8f4730"
+    },
+    {
+      "cell_id": "direct__node_structured__rate40000000__step40000000__task5",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        40000000,
+        40000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate40000000__step40000000__task5.json",
+      "sha256": "5d974e76dcb8c1c9ec09be70b932c0163f6969b0b8cbf07948aeeae545f1486e"
+    },
+    {
+      "cell_id": "direct__node_structured__rate40000000__step40000000__task6",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        40000000,
+        40000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate40000000__step40000000__task6.json",
+      "sha256": "09c93cdf61f5eca79e24ed5689a5f8638586b69d865fb65988689c6bb2661ccf"
+    },
+    {
+      "cell_id": "direct__node_structured__rate40000000__step40000000__task7",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        40000000,
+        40000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate40000000__step40000000__task7.json",
+      "sha256": "bcc8f0dd0c10b91b440944841e998a60435288d16dc55e0a244a49f5d840d4b7"
+    },
+    {
+      "cell_id": "direct__node_structured__rate40000000__step40000000__task8",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        40000000,
+        40000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate40000000__step40000000__task8.json",
+      "sha256": "8a5e42a9980083f42c39e159198075a56e7e9f2db3b66df6dd79a365052fd04b"
+    },
+    {
+      "cell_id": "direct__node_structured__rate40000000__step40000000__task9",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        40000000,
+        40000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate40000000__step40000000__task9.json",
+      "sha256": "d95a60feba978b18a91566d80c05d624dfc9a6a8f6519500501328cc3b267d0f"
+    },
+    {
+      "cell_id": "direct__node_structured__rate40000000__step5000000__task0",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        40000000,
+        5000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate40000000__step5000000__task0.json",
+      "sha256": "f5e4cc29a20b3daf920e00159bc49180a020060d315b2dbb0aa2b920890cce0d"
+    },
+    {
+      "cell_id": "direct__node_structured__rate40000000__step5000000__task1",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        40000000,
+        5000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate40000000__step5000000__task1.json",
+      "sha256": "93ae324696b41053fdf9c5e6e3f1f5272e8b617d2e5b42740882594b874f28b6"
+    },
+    {
+      "cell_id": "direct__node_structured__rate40000000__step5000000__task2",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        40000000,
+        5000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate40000000__step5000000__task2.json",
+      "sha256": "56a831f6f7f39b65f03ed6215fd7af20b9d81053f100404e4665a3b132fd478f"
+    },
+    {
+      "cell_id": "direct__node_structured__rate40000000__step5000000__task3",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        40000000,
+        5000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate40000000__step5000000__task3.json",
+      "sha256": "65706fc9786b723ad856319ce1e99369967059f71bc9f6ae98de5ded4e53fc91"
+    },
+    {
+      "cell_id": "direct__node_structured__rate40000000__step5000000__task4",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        40000000,
+        5000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate40000000__step5000000__task4.json",
+      "sha256": "2680b180ec376cb337c13424c1f0d80a46f914787b46406b4a6f6be9e74be1da"
+    },
+    {
+      "cell_id": "direct__node_structured__rate40000000__step5000000__task5",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        40000000,
+        5000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate40000000__step5000000__task5.json",
+      "sha256": "17fde4660a64da624c7b37d61edb574f02199864a23c3cf04e6092b31f78f62b"
+    },
+    {
+      "cell_id": "direct__node_structured__rate40000000__step5000000__task6",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        40000000,
+        5000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate40000000__step5000000__task6.json",
+      "sha256": "ee7092d234d25dcf7591b730c5fb7ca382378cfe406b936a071de9ac95429517"
+    },
+    {
+      "cell_id": "direct__node_structured__rate40000000__step5000000__task7",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        40000000,
+        5000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate40000000__step5000000__task7.json",
+      "sha256": "83a74bb60ad20c26ecdd16985e1562d198e30d6f35a958faaa4f6be62c1f3b05"
+    },
+    {
+      "cell_id": "direct__node_structured__rate40000000__step5000000__task8",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        40000000,
+        5000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate40000000__step5000000__task8.json",
+      "sha256": "d95ad11916cf74b1ce47ebc9fe0fa1e00b2d3efda54e53714d3723bc246285f9"
+    },
+    {
+      "cell_id": "direct__node_structured__rate40000000__step5000000__task9",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        40000000,
+        5000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate40000000__step5000000__task9.json",
+      "sha256": "3d11dee0fb03c10e128130b891dba79f195a12668bd0dd28dc70642ff08f470c"
+    },
+    {
+      "cell_id": "direct__node_structured__rate10000000__step40000000__task0",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        10000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate10000000__step40000000__task0.json",
+      "sha256": "4d5d5aaa65aa2707c72deaea93143b1227c4b3b4bd13e17e692726c2790e45dc"
+    },
+    {
+      "cell_id": "direct__node_structured__rate10000000__step40000000__task1",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        10000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate10000000__step40000000__task1.json",
+      "sha256": "1b086026a9a6f99900541198b91f944ac13b7894adb73a97603c8845c100eb7b"
+    },
+    {
+      "cell_id": "direct__node_structured__rate10000000__step40000000__task2",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        10000000,
+        40000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate10000000__step40000000__task2.json",
+      "sha256": "fc2f12dcfc1a97d3002da3c687ed38007708e484e4ad002b94ebec60a7f46e8f"
+    },
+    {
+      "cell_id": "direct__node_structured__rate10000000__step40000000__task3",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        10000000,
+        40000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate10000000__step40000000__task3.json",
+      "sha256": "1c64e7eadaf4f45975e3a07f616c45c1a9977f1fac57eebf91d8915bef5af6b2"
+    },
+    {
+      "cell_id": "direct__node_structured__rate10000000__step40000000__task4",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        10000000,
+        40000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate10000000__step40000000__task4.json",
+      "sha256": "ef785d8db8c73978f79a39fcc739e786a0ae18542a15581602d03a2221545129"
+    },
+    {
+      "cell_id": "direct__node_structured__rate10000000__step40000000__task5",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        10000000,
+        40000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate10000000__step40000000__task5.json",
+      "sha256": "a8ed2804f02be41ea5a5c0c4ac357ec0db5dc55d632cea32ad366da5764e5b7e"
+    },
+    {
+      "cell_id": "direct__node_structured__rate10000000__step40000000__task6",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        10000000,
+        40000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate10000000__step40000000__task6.json",
+      "sha256": "43c4fefb25c33ba179fbca223df68a8fee3fc15673493f73b9452138a477092d"
+    },
+    {
+      "cell_id": "direct__node_structured__rate10000000__step40000000__task7",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        10000000,
+        40000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate10000000__step40000000__task7.json",
+      "sha256": "6b769581b1c66ba9b541ca32a5f457bf3b3a27a4b3ca5181931c359a7b623fa1"
+    },
+    {
+      "cell_id": "direct__node_structured__rate10000000__step40000000__task8",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        10000000,
+        40000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate10000000__step40000000__task8.json",
+      "sha256": "558f653126ced6ad13be6feaeedea696a169c933d741f35457cef647a2e7abf9"
+    },
+    {
+      "cell_id": "direct__node_structured__rate10000000__step40000000__task9",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        10000000,
+        40000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate10000000__step40000000__task9.json",
+      "sha256": "31d53c2747cf25580fd8c1e692031eb3899fb4c4abef9212eeec99ddcb73deb7"
+    },
+    {
+      "cell_id": "direct__node_structured__rate10000000__step5000000__task0",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        10000000,
+        5000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate10000000__step5000000__task0.json",
+      "sha256": "d69aa1c837a57e78855eec0698ee0d85fb94197c5500388b9aaee7deb2f1245b"
+    },
+    {
+      "cell_id": "direct__node_structured__rate10000000__step5000000__task1",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        10000000,
+        5000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate10000000__step5000000__task1.json",
+      "sha256": "08dfe6e81ba5a62c666b7ecfb44340fc54c487624d5252203c1ee7304bb50242"
+    },
+    {
+      "cell_id": "direct__node_structured__rate10000000__step5000000__task2",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        10000000,
+        5000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate10000000__step5000000__task2.json",
+      "sha256": "aac30c811ed0196e997510bd24e98b9a1f0076354071a781ebbf4b7fa680ca9b"
+    },
+    {
+      "cell_id": "direct__node_structured__rate10000000__step5000000__task3",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        10000000,
+        5000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate10000000__step5000000__task3.json",
+      "sha256": "e4451ebc33112bfdf0cf8771f1092af5ba98f91cb5c4a04eb1efd076532d1c5f"
+    },
+    {
+      "cell_id": "direct__node_structured__rate10000000__step5000000__task4",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        10000000,
+        5000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate10000000__step5000000__task4.json",
+      "sha256": "3d213a3468dccbc224eee42833e948fe4afe10d8ac01dca4d226a86302f55bfe"
+    },
+    {
+      "cell_id": "direct__node_structured__rate10000000__step5000000__task5",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        10000000,
+        5000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate10000000__step5000000__task5.json",
+      "sha256": "51f51ebdb511c2fceea9c892f9194d211b755a3de749740c639990837500b8de"
+    },
+    {
+      "cell_id": "direct__node_structured__rate10000000__step5000000__task6",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        10000000,
+        5000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate10000000__step5000000__task6.json",
+      "sha256": "361b96cb6aa1c4993871ffaf067eeec976a620fa5a6288ef3ce1f92efaf1f5ed"
+    },
+    {
+      "cell_id": "direct__node_structured__rate10000000__step5000000__task7",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        10000000,
+        5000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate10000000__step5000000__task7.json",
+      "sha256": "c6061eba80ceb1c7d6c3c71823f91afb32f7742d616377ae763dc52acb62622f"
+    },
+    {
+      "cell_id": "direct__node_structured__rate10000000__step5000000__task8",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        10000000,
+        5000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate10000000__step5000000__task8.json",
+      "sha256": "7b1ee29190ea341e94f4fa198cdbfe2a41cf545592a21d8b5bf11fa84f372461"
+    },
+    {
+      "cell_id": "direct__node_structured__rate10000000__step5000000__task9",
+      "coordinate": [
+        "direct",
+        "node_structured",
+        10000000,
+        5000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__node_structured__rate10000000__step5000000__task9.json",
+      "sha256": "296f68f69ee3e6c20b4380d40df89127e594b001a54d550d707c9bbc44dfa912"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate40000000__step40000000__task0",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        40000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate40000000__step40000000__task0.json",
+      "sha256": "a6963ae5e2f6eda09b9551ed6cfb22f2e3e62e246c63edf0953adac82a1c56fb"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate40000000__step40000000__task1",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        40000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate40000000__step40000000__task1.json",
+      "sha256": "4c7666a69ebc521702f1b48d7f4c0681070545edf60a086f2223152a453b378c"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate40000000__step40000000__task2",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        40000000,
+        40000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate40000000__step40000000__task2.json",
+      "sha256": "81253f40d5ab477b7574aba75988d622794641582e107fe80bb3dde443fa6552"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate40000000__step40000000__task3",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        40000000,
+        40000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate40000000__step40000000__task3.json",
+      "sha256": "8544f5b1a2af6110da7d1d3e03cb5f0186809e4e5cf90065d48cc516408a39d3"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate40000000__step40000000__task4",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        40000000,
+        40000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate40000000__step40000000__task4.json",
+      "sha256": "14abe42d0ecf9322d09861acc67024ff1cd93e91453c1743d2fd4c4722cbe386"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate40000000__step40000000__task5",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        40000000,
+        40000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate40000000__step40000000__task5.json",
+      "sha256": "3250929a5860787e8897f21cfc264817bd44a6b4a011ec6934a22b8a9b209e83"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate40000000__step40000000__task6",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        40000000,
+        40000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate40000000__step40000000__task6.json",
+      "sha256": "6c6a6e36cc1cfab9f5fe78c1529ac598d4c0af59eb4ad303d4fc46ec1004ad8f"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate40000000__step40000000__task7",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        40000000,
+        40000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate40000000__step40000000__task7.json",
+      "sha256": "be20df62a00e997bfc2bf5887d7479005e333268118370acad7c5c26aecf6418"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate40000000__step40000000__task8",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        40000000,
+        40000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate40000000__step40000000__task8.json",
+      "sha256": "572e0cc00bbc284794ffe7ce7e2d8d58493d715138eb4adda73afb75ae4ed13f"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate40000000__step40000000__task9",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        40000000,
+        40000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate40000000__step40000000__task9.json",
+      "sha256": "5b733a83ea9459485967d0ab59e5b8464f81ae54e11236f451b2a83409159ed6"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate40000000__step5000000__task0",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        40000000,
+        5000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate40000000__step5000000__task0.json",
+      "sha256": "3c26898dc03c113fe99a29886ea3f7a02e39895949ca590044c506dcf8209da2"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate40000000__step5000000__task1",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        40000000,
+        5000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate40000000__step5000000__task1.json",
+      "sha256": "a20c048bd2bdf83002459d253a343fc6c42413a31486fe4a68161b8175a2fcf8"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate40000000__step5000000__task2",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        40000000,
+        5000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate40000000__step5000000__task2.json",
+      "sha256": "c14bdfec4036bf2002d06066da3e0b5fd2a01e9cc69c38992f4a26a23059fba1"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate40000000__step5000000__task3",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        40000000,
+        5000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate40000000__step5000000__task3.json",
+      "sha256": "344531c8b0b89d5c91f6dcc8387a77a26005b7ba39b3cb64ad4c9604f87fb4fb"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate40000000__step5000000__task4",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        40000000,
+        5000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate40000000__step5000000__task4.json",
+      "sha256": "f927cafd4ae943e5664cedeac276fe7eab6ffefec1d11274ad03a542b49be50e"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate40000000__step5000000__task5",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        40000000,
+        5000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate40000000__step5000000__task5.json",
+      "sha256": "60c1512fbf9dbafc05306fa87f5d02e1381fa708807e7039b13c55237816a920"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate40000000__step5000000__task6",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        40000000,
+        5000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate40000000__step5000000__task6.json",
+      "sha256": "4c2b087557c7a5c4f86f6287a8178ad7f9f1e74bfe5a9fd0ac0b6abfae15245b"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate40000000__step5000000__task7",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        40000000,
+        5000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate40000000__step5000000__task7.json",
+      "sha256": "c8b63de76a5baca42a3f19c164ed2726651f143caf28e315d121995f56ffec01"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate40000000__step5000000__task8",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        40000000,
+        5000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate40000000__step5000000__task8.json",
+      "sha256": "63249e076e19777678976574f4ad99655c1129e7ba83a34ed8039dc1fa0819a7"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate40000000__step5000000__task9",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        40000000,
+        5000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate40000000__step5000000__task9.json",
+      "sha256": "ad72a41677bdea69a39601574d2dc625d05cc2b7b5ae0dc10f986880fc6888d7"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate10000000__step40000000__task0",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        10000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate10000000__step40000000__task0.json",
+      "sha256": "b5d50a06e7af90936917c3332783cb2c36902decacfe212e0fdeb8561f0395ec"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate10000000__step40000000__task1",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        10000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate10000000__step40000000__task1.json",
+      "sha256": "03f663f9853f763e124448d02d103557db6ee3d4f80d243c9df884c0d5cdabd6"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate10000000__step40000000__task2",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        10000000,
+        40000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate10000000__step40000000__task2.json",
+      "sha256": "800a2088faedfc9897bd16ba0e087e2426d252b1e63a60758172edd65d6c0e83"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate10000000__step40000000__task3",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        10000000,
+        40000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate10000000__step40000000__task3.json",
+      "sha256": "d303a8c81e881cbc327f694e8d29ffc2e55169bd396bd8f7e8bf18c214d7667e"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate10000000__step40000000__task4",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        10000000,
+        40000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate10000000__step40000000__task4.json",
+      "sha256": "cfc4a7b6b0319e15afc5ab72159c79ccd63c0111dfe7037873c314837d8ca2c2"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate10000000__step40000000__task5",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        10000000,
+        40000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate10000000__step40000000__task5.json",
+      "sha256": "1fb22de0a3f4c40331c6fda478610b8412f0690468721ce1ee29c4a11c8a408c"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate10000000__step40000000__task6",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        10000000,
+        40000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate10000000__step40000000__task6.json",
+      "sha256": "0ae6fc8d7bcd7e12b539eb91a5dce86e6ae62af2d792ea9cd665284bb9b9940b"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate10000000__step40000000__task7",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        10000000,
+        40000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate10000000__step40000000__task7.json",
+      "sha256": "8fa674d28652b361b41b4f5bedd0e86c9b9ffcc4eb5480ce52e7d8e393ada479"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate10000000__step40000000__task8",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        10000000,
+        40000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate10000000__step40000000__task8.json",
+      "sha256": "6cd4172bb8111545aaaf46a76d5933495275275af29fb4a2abae88a18e61ca81"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate10000000__step40000000__task9",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        10000000,
+        40000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate10000000__step40000000__task9.json",
+      "sha256": "d74b01302a37b8c2460c9de07fe33e34d03400aa5bbfa9f51652e0e1458a326d"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate10000000__step5000000__task0",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        10000000,
+        5000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate10000000__step5000000__task0.json",
+      "sha256": "4d12773c25173e1448674d3a067af5446d2007b34afb144edc73c53ac21cdafd"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate10000000__step5000000__task1",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        10000000,
+        5000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate10000000__step5000000__task1.json",
+      "sha256": "3411eeecbd8f54a33097b119fe338aa8de472135ae0c9b89ce4f7e08980ff02e"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate10000000__step5000000__task2",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        10000000,
+        5000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate10000000__step5000000__task2.json",
+      "sha256": "b9cba67e30723a4b38965a23678a88f21a68116e560aa7b8e42ae67887aed009"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate10000000__step5000000__task3",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        10000000,
+        5000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate10000000__step5000000__task3.json",
+      "sha256": "f170cd3ae06f5e6ff334c6648687377d2f0de139a8f3f6a4a475f116d42f61d8"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate10000000__step5000000__task4",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        10000000,
+        5000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate10000000__step5000000__task4.json",
+      "sha256": "ba656c16aa5f2a57e44324ddb06bd0ef81bfeed1d36923d8246a0c2499d43bb2"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate10000000__step5000000__task5",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        10000000,
+        5000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate10000000__step5000000__task5.json",
+      "sha256": "0fa81a00525dda0c4bf507d4e64d16282abe70ef537c010cd87a41569ceed657"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate10000000__step5000000__task6",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        10000000,
+        5000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate10000000__step5000000__task6.json",
+      "sha256": "e801f2769f707354a46081cf7f0d43b19810cc87a5373d6b8f7da44a6d3d1d90"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate10000000__step5000000__task7",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        10000000,
+        5000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate10000000__step5000000__task7.json",
+      "sha256": "0edd75ed0f7e37d3a144e48456920a08bdceb628fade5372a771d776e8aa892b"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate10000000__step5000000__task8",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        10000000,
+        5000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate10000000__step5000000__task8.json",
+      "sha256": "1247c1da1b5a52e3ad2c75e77bc932413a8a7381a2cd151f69be0d567f48cffc"
+    },
+    {
+      "cell_id": "direct__physics_fit__rate10000000__step5000000__task9",
+      "coordinate": [
+        "direct",
+        "physics_fit",
+        10000000,
+        5000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__physics_fit__rate10000000__step5000000__task9.json",
+      "sha256": "690464e85771a2a1ca3b2a9677c65c99d25e5cbf35b5f89a796d04e7a15ec2f0"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate40000000__step40000000__task0",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        40000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate40000000__step40000000__task0.json",
+      "sha256": "b497a70b741d168a3ea0311a0d6f9e53663502ebe3d5fe4bb0bc0373b77db3ad"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate40000000__step40000000__task1",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        40000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate40000000__step40000000__task1.json",
+      "sha256": "db9ee1ef319d192565cdc19f8babf4ec48a449428a5ad73508c2d8267279cd97"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate40000000__step40000000__task2",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        40000000,
+        40000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate40000000__step40000000__task2.json",
+      "sha256": "065f2f1848160264d35042db4a97cb8ff4e0ab9d2f5af8fabf5bde080efa9145"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate40000000__step40000000__task3",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        40000000,
+        40000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate40000000__step40000000__task3.json",
+      "sha256": "56bcca4c758b13db509a2b1f779c9b1329c4ae86a588149121720d9ec7c978fd"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate40000000__step40000000__task4",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        40000000,
+        40000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate40000000__step40000000__task4.json",
+      "sha256": "e14e14452816193978755316e2dfd705a6eea3b67d45f17854128c30bfec3813"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate40000000__step40000000__task5",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        40000000,
+        40000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate40000000__step40000000__task5.json",
+      "sha256": "091688daa0b4b30fff4edbaec13cfbaaa2fa633f0954004d72eb608ee385c54d"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate40000000__step40000000__task6",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        40000000,
+        40000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate40000000__step40000000__task6.json",
+      "sha256": "96886b674af3bbba8ee3d15e235a80be5496791a654327afcd5fdc5cbf67d850"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate40000000__step40000000__task7",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        40000000,
+        40000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate40000000__step40000000__task7.json",
+      "sha256": "61cf467a3059d3b37e5a6424bcbec74fc2fc1dba505ba582cfe23d6436b41b8d"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate40000000__step40000000__task8",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        40000000,
+        40000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate40000000__step40000000__task8.json",
+      "sha256": "1f6a7941c2eab32f9b04974853cb81102f0e143599433d6ee4c45fd1388fb5eb"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate40000000__step40000000__task9",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        40000000,
+        40000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate40000000__step40000000__task9.json",
+      "sha256": "5b9a0a0a02a5c46fcc2edc49fbae6248203dfbaff6f7fc99bc997163b505270c"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate40000000__step5000000__task0",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        40000000,
+        5000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate40000000__step5000000__task0.json",
+      "sha256": "5ef8448149ad2dfab80b8b2ff19f6af743d9ef5005120dc6741ef00efa8c3c8d"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate40000000__step5000000__task1",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        40000000,
+        5000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate40000000__step5000000__task1.json",
+      "sha256": "79a4d00e96fbab709113304e5717c6252a3924265cf499756cab0d2b4d5bbbe2"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate40000000__step5000000__task2",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        40000000,
+        5000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate40000000__step5000000__task2.json",
+      "sha256": "5cc37d82758667a8a42cf7a806904166841e2446b79fc353833ca0367c804fb9"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate40000000__step5000000__task3",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        40000000,
+        5000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate40000000__step5000000__task3.json",
+      "sha256": "fca2db94d7af264588888d5c3ad433b6429558018c760368f62320a4ba5305f6"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate40000000__step5000000__task4",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        40000000,
+        5000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate40000000__step5000000__task4.json",
+      "sha256": "8b0370dd732ce58247c20b3be1a332b9ccf3da394e1c374add48c2b82edd0ea8"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate40000000__step5000000__task5",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        40000000,
+        5000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate40000000__step5000000__task5.json",
+      "sha256": "412c20e3b2f2bd98e7e561039912444fb703495c899764586f461e7dbd9aded2"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate40000000__step5000000__task6",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        40000000,
+        5000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate40000000__step5000000__task6.json",
+      "sha256": "98594c3ec4bf217ab78d0f628df386e3ac3efb5408d608a0b63efff1b6b0c5ea"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate40000000__step5000000__task7",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        40000000,
+        5000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate40000000__step5000000__task7.json",
+      "sha256": "66d5e3296bbc990c9a8681f85f2f087071c1f60bf3bdee4e3ca38baad589ada7"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate40000000__step5000000__task8",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        40000000,
+        5000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate40000000__step5000000__task8.json",
+      "sha256": "b8f62dfc7486f705a686b569522e43d6789bbb2d66b58ec3a9780b85962d50a4"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate40000000__step5000000__task9",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        40000000,
+        5000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate40000000__step5000000__task9.json",
+      "sha256": "a5c7c4a1d67fa5cc2ea761853e2352a6d29108d3060199277763103adb9b0952"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate10000000__step40000000__task0",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        10000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate10000000__step40000000__task0.json",
+      "sha256": "2ae7f5482ff8a99de7da652892d81243d7276932dac2c20db310b6872f64a69a"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate10000000__step40000000__task1",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        10000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate10000000__step40000000__task1.json",
+      "sha256": "d1a955bb774bb5d37482ae32f31c29e059253c1d93d4d575c1763381194928d9"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate10000000__step40000000__task2",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        10000000,
+        40000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate10000000__step40000000__task2.json",
+      "sha256": "4c419dd531df5cf2d0b833c5788c26c6b839a8491ca1fb2ffcae81ed471fc6dd"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate10000000__step40000000__task3",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        10000000,
+        40000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate10000000__step40000000__task3.json",
+      "sha256": "85a485869d73b3c7beb82e67c1b2d4d8fa88389a677b36967917374746e98f12"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate10000000__step40000000__task4",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        10000000,
+        40000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate10000000__step40000000__task4.json",
+      "sha256": "682fcbc5174688f2ee2a3265b5333f1133fb9618e74498594cabdd7e733f7e4c"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate10000000__step40000000__task5",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        10000000,
+        40000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate10000000__step40000000__task5.json",
+      "sha256": "55f55c0e86fc986ab45b5d93058e27e8b877401e2dd3f02409523f20e6f449c9"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate10000000__step40000000__task6",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        10000000,
+        40000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate10000000__step40000000__task6.json",
+      "sha256": "520f0fb43e82e8d6d972b4cc275383c4b8b2e726ea0e741f563039cfde65c4f4"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate10000000__step40000000__task7",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        10000000,
+        40000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate10000000__step40000000__task7.json",
+      "sha256": "6eba04f1331e661f34fa69a3535ae81cf44cf86d8de087bd1fd7726530d1c857"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate10000000__step40000000__task8",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        10000000,
+        40000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate10000000__step40000000__task8.json",
+      "sha256": "c123c0a22ff2c27e924237d6ccfe2aff47c3718c3ab27c251094a179588a4129"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate10000000__step40000000__task9",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        10000000,
+        40000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate10000000__step40000000__task9.json",
+      "sha256": "21460603c485cc2dc9228b7af903288b7e2041c0f3f48a33f82a085d6a28d334"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate10000000__step5000000__task0",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        10000000,
+        5000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate10000000__step5000000__task0.json",
+      "sha256": "25e591d131b8b479c8a273266289bb0efea73c014643fa3322d7f1b0665c7a9d"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate10000000__step5000000__task1",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        10000000,
+        5000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate10000000__step5000000__task1.json",
+      "sha256": "9e5a7c1cdf5586cdcb0737e3c2d2f964642ed0e43d1b963345c0ddebbd906dc4"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate10000000__step5000000__task2",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        10000000,
+        5000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate10000000__step5000000__task2.json",
+      "sha256": "37990889d2c1be2c83c1667d807f9cb199e73e4291f90198f506e439af1ab16e"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate10000000__step5000000__task3",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        10000000,
+        5000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate10000000__step5000000__task3.json",
+      "sha256": "3afbf44dc296ed61441cf976094b1c95a6c1e344a33540cd7ec23d165d8c475d"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate10000000__step5000000__task4",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        10000000,
+        5000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate10000000__step5000000__task4.json",
+      "sha256": "a9d760b11f7ee7ac1dd7778b93d9028569fcaab76b765ad0d7808159802cd6e9"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate10000000__step5000000__task5",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        10000000,
+        5000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate10000000__step5000000__task5.json",
+      "sha256": "ad01a5bea964f890679c480f5f3a98c440b4a38dac217f0c35548dbf20231d9a"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate10000000__step5000000__task6",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        10000000,
+        5000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate10000000__step5000000__task6.json",
+      "sha256": "1aebb53c9d803cca2f29ad509484765d0e42564b4157e89f22d59251fd3b1d6b"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate10000000__step5000000__task7",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        10000000,
+        5000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate10000000__step5000000__task7.json",
+      "sha256": "ef3d0f5d0d4395481a21150588c4b10e4607f5525688eee60c21d4672ce5c84e"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate10000000__step5000000__task8",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        10000000,
+        5000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate10000000__step5000000__task8.json",
+      "sha256": "b5336d45777ff7d9d05d8bccce9790a641d75f2c3fa064af805bba4e4f8a5102"
+    },
+    {
+      "cell_id": "lagged__power_correct__rate10000000__step5000000__task9",
+      "coordinate": [
+        "lagged",
+        "power_correct",
+        10000000,
+        5000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__power_correct__rate10000000__step5000000__task9.json",
+      "sha256": "23bc840b1b3d28d1f1d4abb1fc9e8110d3c0d35a7296a17769df7d00b698c82d"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate40000000__step40000000__task0",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        40000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate40000000__step40000000__task0.json",
+      "sha256": "09a81090a5cdffb61995a505f229b919fad25b343c2b39834d48f2d77dba1924"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate40000000__step40000000__task1",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        40000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate40000000__step40000000__task1.json",
+      "sha256": "a340d16d030e275f3d258e1514556c6638eb7117305c9c67d1b817880f028e8f"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate40000000__step40000000__task2",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        40000000,
+        40000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate40000000__step40000000__task2.json",
+      "sha256": "fb1979742b7491fd3a05283bc200398b403028839530596f1a0f0b3fe78f2150"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate40000000__step40000000__task3",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        40000000,
+        40000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate40000000__step40000000__task3.json",
+      "sha256": "1d15f841a1d3f13cd9b41b5b645b670336b274d7b2e5d586be77906cf06c5bed"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate40000000__step40000000__task4",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        40000000,
+        40000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate40000000__step40000000__task4.json",
+      "sha256": "531575d95991f0174732588da7d699c08e174cb849f91b6263a146ff8ab30322"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate40000000__step40000000__task5",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        40000000,
+        40000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate40000000__step40000000__task5.json",
+      "sha256": "f670196404119db7a19fd521e2e87c0dba1f6d7877260be062a2b0eddbc29590"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate40000000__step40000000__task6",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        40000000,
+        40000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate40000000__step40000000__task6.json",
+      "sha256": "e53fff9989a8e877421d061dbcd0e0f935e5d015c8b8b12e5e308bd1a1a8d2b4"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate40000000__step40000000__task7",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        40000000,
+        40000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate40000000__step40000000__task7.json",
+      "sha256": "5b978b23c527f42a3755f15a2633b32015d4e48241caa7492bafcfdaa502de3a"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate40000000__step40000000__task8",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        40000000,
+        40000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate40000000__step40000000__task8.json",
+      "sha256": "bf79243065677ff50e618feefd5eed944f56e1575315f2c8316ab029d92a1d1f"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate40000000__step40000000__task9",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        40000000,
+        40000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate40000000__step40000000__task9.json",
+      "sha256": "d464766a3cd694992f0be6aa4010cd2f15c396f1c93b0b84e8771d214b60a63c"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate40000000__step5000000__task0",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        40000000,
+        5000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate40000000__step5000000__task0.json",
+      "sha256": "508689e4376c736e90ffa2e9c6b7c63df6c98d18a571aa740c17535609fc52cd"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate40000000__step5000000__task1",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        40000000,
+        5000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate40000000__step5000000__task1.json",
+      "sha256": "96a05069283352cc7fa654a3cdd29a82e3c77ff6a4671836c6aa8ab193d5d6fa"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate40000000__step5000000__task2",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        40000000,
+        5000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate40000000__step5000000__task2.json",
+      "sha256": "f7be7e07b755c46df98811463e6ad923741713693a8195673ce5950cbc1a913a"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate40000000__step5000000__task3",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        40000000,
+        5000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate40000000__step5000000__task3.json",
+      "sha256": "d5822297d07870e9092e6a36b40c4227c387a7e369e729c0d7dabe7d6d94eb23"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate40000000__step5000000__task4",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        40000000,
+        5000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate40000000__step5000000__task4.json",
+      "sha256": "2b78d5f0ee6fbff401b625ae487f966a54eb1dfe15bad4ccf9e724492eba7bf4"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate40000000__step5000000__task5",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        40000000,
+        5000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate40000000__step5000000__task5.json",
+      "sha256": "1d7268370d218e908a0792c2d23dd198c0698faca4bd6526cc90475965481c7c"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate40000000__step5000000__task6",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        40000000,
+        5000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate40000000__step5000000__task6.json",
+      "sha256": "c0b0000842e5afe9d347f0d7eb3f3ff87d7cc54e44d2b35f391e4357db0cf30d"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate40000000__step5000000__task7",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        40000000,
+        5000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate40000000__step5000000__task7.json",
+      "sha256": "8b423e4ee4fc2a331168b7df2e40920bb7271f4d3fc556664b9dda4828fc6695"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate40000000__step5000000__task8",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        40000000,
+        5000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate40000000__step5000000__task8.json",
+      "sha256": "a140586954744c34aa8d246dfc99fbb44a19059e7d04eff5db0396a2b06bef72"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate40000000__step5000000__task9",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        40000000,
+        5000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate40000000__step5000000__task9.json",
+      "sha256": "4a8df47c551042f80f141ab309ea9da7b228b6601ac302510745334e8530f1c7"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate10000000__step40000000__task0",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        10000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate10000000__step40000000__task0.json",
+      "sha256": "f11d860e43f359e6560b113f288baa04cf7a7810079c555f502fa3a63487b8db"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate10000000__step40000000__task1",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        10000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate10000000__step40000000__task1.json",
+      "sha256": "8e93a86c0d0003e27e479a2100cf66701a74a34decc2ac0f36db072450723ce8"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate10000000__step40000000__task2",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        10000000,
+        40000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate10000000__step40000000__task2.json",
+      "sha256": "0beea0761f1dd6ee48855a3fe634b313d0c571980b614770f212e4e3365018f3"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate10000000__step40000000__task3",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        10000000,
+        40000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate10000000__step40000000__task3.json",
+      "sha256": "5ba7c6bf33517ed76ff371427726adf26a7689b3c82d479895781a8ebfb0f828"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate10000000__step40000000__task4",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        10000000,
+        40000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate10000000__step40000000__task4.json",
+      "sha256": "deb9243ac201102358fa4f456dc8e47c994ea06bf1d877f97d710cc1810fb8a5"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate10000000__step40000000__task5",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        10000000,
+        40000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate10000000__step40000000__task5.json",
+      "sha256": "b86d1b01f0e1902cfe6db41ceb355632ff33874c9e707d8770a39b9c7e52d853"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate10000000__step40000000__task6",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        10000000,
+        40000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate10000000__step40000000__task6.json",
+      "sha256": "e5977ab650fd84a880884ff2f19f1440e3c7332668bad6e312e1bb940e90aa38"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate10000000__step40000000__task7",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        10000000,
+        40000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate10000000__step40000000__task7.json",
+      "sha256": "cf8be35308f11224ed0f628a7c8cd2dcf6e03707964d4702cc27135cabc43018"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate10000000__step40000000__task8",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        10000000,
+        40000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate10000000__step40000000__task8.json",
+      "sha256": "b537e6c45806f3907ced417b6932565a8ae178477dbfc0ceec89f0ad81ebb9d8"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate10000000__step40000000__task9",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        10000000,
+        40000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate10000000__step40000000__task9.json",
+      "sha256": "37c8f3c90f708c92d035b573b340d7b5facc6832d49403be2618637e47ef601f"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate10000000__step5000000__task0",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        10000000,
+        5000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate10000000__step5000000__task0.json",
+      "sha256": "49b5415abdd0a0209f9abd740813af3d778a47c6642add6f09d0f8b60b610581"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate10000000__step5000000__task1",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        10000000,
+        5000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate10000000__step5000000__task1.json",
+      "sha256": "09dc00d9f7f18a0b4ca77d6d7de2e81ced1589913d9400c5a69337db18da4ddb"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate10000000__step5000000__task2",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        10000000,
+        5000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate10000000__step5000000__task2.json",
+      "sha256": "e5fb2047a784b1d380263bfe6bb26689a3bc7d7a9f787fbb3bfa215172abd2d3"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate10000000__step5000000__task3",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        10000000,
+        5000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate10000000__step5000000__task3.json",
+      "sha256": "36e1a2105673936b9a5ebc908efb17ae3df51729bb631dde2a875d06a6bc7249"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate10000000__step5000000__task4",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        10000000,
+        5000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate10000000__step5000000__task4.json",
+      "sha256": "00789900fc05a435116f8f82e97cfa9abe24afbd36a213e2bf4b15a2320e59cb"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate10000000__step5000000__task5",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        10000000,
+        5000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate10000000__step5000000__task5.json",
+      "sha256": "ac38b02ef499f528028556d8111ba665625dc6762a78943f4ffe995b8dfbd568"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate10000000__step5000000__task6",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        10000000,
+        5000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate10000000__step5000000__task6.json",
+      "sha256": "4f3a42c26226bbd5e7e426715403d52bef60d3d843f9f1b33e1af18dbc398c6b"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate10000000__step5000000__task7",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        10000000,
+        5000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate10000000__step5000000__task7.json",
+      "sha256": "ba862df63a81518ef69967485d30146c1e6899b1ec860f0173b262ee40941d16"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate10000000__step5000000__task8",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        10000000,
+        5000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate10000000__step5000000__task8.json",
+      "sha256": "ae26e9e93694115d37075cd48cd03e0fdfe799cbe07014d4bbd4353a44ef7856"
+    },
+    {
+      "cell_id": "lagged__mlp_h__rate10000000__step5000000__task9",
+      "coordinate": [
+        "lagged",
+        "mlp_h",
+        10000000,
+        5000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__mlp_h__rate10000000__step5000000__task9.json",
+      "sha256": "7c5282837d745ad05b7686f7ab2ec576a27ed65c78d808bd46dac4cceeb3acd7"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate40000000__step40000000__task0",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        40000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate40000000__step40000000__task0.json",
+      "sha256": "eba92cdcb9929a1ca0474cb00f6b06a57f011f14f8c9d22f8797654d353251a1"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate40000000__step40000000__task1",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        40000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate40000000__step40000000__task1.json",
+      "sha256": "033d4951c29e1bc0b1ad9613087871ad90a85e1b97aa3d53be673039d38d4957"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate40000000__step40000000__task2",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        40000000,
+        40000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate40000000__step40000000__task2.json",
+      "sha256": "ff906c2e9b5fddb0b18e71ddffd05270b14a72e63d36f297b105c3c5c9ef418b"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate40000000__step40000000__task3",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        40000000,
+        40000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate40000000__step40000000__task3.json",
+      "sha256": "c1663f75ac52e9e343a5a74b8856c93fb24b52f757e862779653b2e40aec1c56"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate40000000__step40000000__task4",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        40000000,
+        40000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate40000000__step40000000__task4.json",
+      "sha256": "d7548229336130c9bdadd133b8ea76befdcd27309b3c99d783960fc4863d67d5"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate40000000__step40000000__task5",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        40000000,
+        40000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate40000000__step40000000__task5.json",
+      "sha256": "f1bfefdb8759318484f7db72547c23f819b81b31cfbd8847d00370993401dc44"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate40000000__step40000000__task6",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        40000000,
+        40000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate40000000__step40000000__task6.json",
+      "sha256": "25ea8cae93a9ef973a8c2ac0c2fec80e1f741fc7dad125478a794b53857df9c6"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate40000000__step40000000__task7",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        40000000,
+        40000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate40000000__step40000000__task7.json",
+      "sha256": "3c06ff1fa84c8323fdd6c3f1396b4687779cd3b3d46783a630e81b951146b21b"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate40000000__step40000000__task8",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        40000000,
+        40000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate40000000__step40000000__task8.json",
+      "sha256": "005b68d43ea6f4c1466d43171005f22d437ae4dfb1668a2cac5d8c276884a0b5"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate40000000__step40000000__task9",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        40000000,
+        40000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate40000000__step40000000__task9.json",
+      "sha256": "bbc1585c099e94335b2d7f7c6a077ad2a21f1cc362d8bfc24c7fc297a9fe78e2"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate40000000__step5000000__task0",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        40000000,
+        5000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate40000000__step5000000__task0.json",
+      "sha256": "c558137aae7fdec41fa72c14a58b66b7142d62e60927bf921409997d8a8ee73d"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate40000000__step5000000__task1",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        40000000,
+        5000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate40000000__step5000000__task1.json",
+      "sha256": "d058cfe580a5f93c8fce37446eb80aa340aa12f46c2b386f472c2bb5b45906b2"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate40000000__step5000000__task2",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        40000000,
+        5000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate40000000__step5000000__task2.json",
+      "sha256": "78d695b8c3e42304ab21cdad1dff5c66b7d51ad4a865173c568227a545445f86"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate40000000__step5000000__task3",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        40000000,
+        5000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate40000000__step5000000__task3.json",
+      "sha256": "cd1620d7c5810da61da83869ec7e8aeffc2dc38c68ec5fe2d39bf2bbd2406e63"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate40000000__step5000000__task4",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        40000000,
+        5000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate40000000__step5000000__task4.json",
+      "sha256": "ba9a8ab2d3cb8b2cc4326d6d3b787621ad6c551ef89b119cbed3f69b957dd641"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate40000000__step5000000__task5",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        40000000,
+        5000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate40000000__step5000000__task5.json",
+      "sha256": "c6ffc6a00b6a9665d6494605bebeb725b3c203d86ee226661d10677d4864f9d0"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate40000000__step5000000__task6",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        40000000,
+        5000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate40000000__step5000000__task6.json",
+      "sha256": "136deaa1dd2823752e40750feafa0b3d3f093d36400df040a427b722de0f65d2"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate40000000__step5000000__task7",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        40000000,
+        5000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate40000000__step5000000__task7.json",
+      "sha256": "5def5e8e21370c48bd60750a018d859a73f33ab611874c29c6f64498a1aa5f0f"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate40000000__step5000000__task8",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        40000000,
+        5000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate40000000__step5000000__task8.json",
+      "sha256": "f817b408b96c8e6dce1f4c4c7803073e6b3e68f31f26ca6ca21e9c8d8dae5d09"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate40000000__step5000000__task9",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        40000000,
+        5000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate40000000__step5000000__task9.json",
+      "sha256": "bf7b94cd1bf6109dd0dae74e98e9470d7eb694d38628d0aec06e1fab0c615602"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate10000000__step40000000__task0",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        10000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate10000000__step40000000__task0.json",
+      "sha256": "f68c8c4a59bcef10cefc6d39d03c21aa3097f8aff34443c43764d774323658b1"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate10000000__step40000000__task1",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        10000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate10000000__step40000000__task1.json",
+      "sha256": "0aaef96728357d64a2f2b8b76d55e11b8d9d3ef914a5c6c0875427b7c2ccbc17"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate10000000__step40000000__task2",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        10000000,
+        40000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate10000000__step40000000__task2.json",
+      "sha256": "02988af29d31323f8aac41c0904e3b54e3038259bf62e05ceefd850f43a98484"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate10000000__step40000000__task3",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        10000000,
+        40000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate10000000__step40000000__task3.json",
+      "sha256": "fc1a7e0f282aa45c3c0572ed0951278a7d3afc5084762f68f2ff9e4c2055f993"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate10000000__step40000000__task4",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        10000000,
+        40000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate10000000__step40000000__task4.json",
+      "sha256": "6942f180bed848e67e2753a84462a86eb1d75c37f0308c1d0bf4ec80d47c16c3"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate10000000__step40000000__task5",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        10000000,
+        40000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate10000000__step40000000__task5.json",
+      "sha256": "86050afd03502b45ff876a8436c92ac3df19b18d023c84704293bc5f322f1632"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate10000000__step40000000__task6",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        10000000,
+        40000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate10000000__step40000000__task6.json",
+      "sha256": "6244fd3bd808b4cd6acf0bd1787ef0fbff3f4cdc6d17a0d2bfa60af8dabc4bc8"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate10000000__step40000000__task7",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        10000000,
+        40000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate10000000__step40000000__task7.json",
+      "sha256": "d6aac79695940ced26b17e77e9efb523842b4c7015b628b51fb1ea6df9cf176c"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate10000000__step40000000__task8",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        10000000,
+        40000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate10000000__step40000000__task8.json",
+      "sha256": "d20c7524994a40b9fa3ac260d20537075a6bfe0b872f615013fcd9390ac97922"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate10000000__step40000000__task9",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        10000000,
+        40000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate10000000__step40000000__task9.json",
+      "sha256": "0d482beb88864d375d230c35693588feb73c960f4bafb0106ac8ee9fcc95bd34"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate10000000__step5000000__task0",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        10000000,
+        5000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate10000000__step5000000__task0.json",
+      "sha256": "9b508bd571d7854bf98043ca4a11a4fec8c1e4cda4f3252ecf7c209ad8cf48f1"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate10000000__step5000000__task1",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        10000000,
+        5000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate10000000__step5000000__task1.json",
+      "sha256": "a32d5e4861a81a854931766db321eb9faa5cf34f03aff26bedf9228c3a14ff3a"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate10000000__step5000000__task2",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        10000000,
+        5000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate10000000__step5000000__task2.json",
+      "sha256": "4f563bb3330d48bc787a7d23c2568c825a43e4bc85dc62f3fc7dcfe3d6647274"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate10000000__step5000000__task3",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        10000000,
+        5000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate10000000__step5000000__task3.json",
+      "sha256": "5040c467a5bad395c808f59da2c1effae7197fb2826b93fbf210d6a1a95cea18"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate10000000__step5000000__task4",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        10000000,
+        5000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate10000000__step5000000__task4.json",
+      "sha256": "5a38f92f9dcc3d49765dae7397b924e21515742532527cb0bb7c24f545dee199"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate10000000__step5000000__task5",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        10000000,
+        5000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate10000000__step5000000__task5.json",
+      "sha256": "c443d6bb3d67bb7460d62fb34628ac160b10b5fa807c18282cbdf2df115e7ab9"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate10000000__step5000000__task6",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        10000000,
+        5000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate10000000__step5000000__task6.json",
+      "sha256": "b7d42fca089d498c67a4a9ffc3c072ebf2fffac0842b0a8786f87f5044494410"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate10000000__step5000000__task7",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        10000000,
+        5000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate10000000__step5000000__task7.json",
+      "sha256": "1cba796b5906860d902adf22d0132c72d0e5a4ad339aa83019bc651127148d1d"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate10000000__step5000000__task8",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        10000000,
+        5000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate10000000__step5000000__task8.json",
+      "sha256": "bcd7427b8cd1c5548b89c6606f879ab69c0a1aff11f913fc64223f885420e0e3"
+    },
+    {
+      "cell_id": "lagged__node_generic__rate10000000__step5000000__task9",
+      "coordinate": [
+        "lagged",
+        "node_generic",
+        10000000,
+        5000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_generic__rate10000000__step5000000__task9.json",
+      "sha256": "a07d81e597df43f9516e9f049c2c5302b2e79bfe85fd5f69ee773a238128ecf7"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate40000000__step40000000__task0",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        40000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate40000000__step40000000__task0.json",
+      "sha256": "4ff172f44c28bb6f9cdf68117fe0280726478ab570e5cee29e82094c51541e38"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate40000000__step40000000__task1",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        40000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate40000000__step40000000__task1.json",
+      "sha256": "adc57e841175eda6f8589d14638e0b61556a9b4fbc30ac89cf93acff5b5c372d"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate40000000__step40000000__task2",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        40000000,
+        40000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate40000000__step40000000__task2.json",
+      "sha256": "f5e2ecd0f009ecc414fe9ca468b5db5c8a55373612e9c73211a309f4fa46ac4d"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate40000000__step40000000__task3",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        40000000,
+        40000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate40000000__step40000000__task3.json",
+      "sha256": "43061ec3f01b73d96fee91ae06e1c57bc9dd9b1f9546c1eee20cfa076bd37f24"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate40000000__step40000000__task4",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        40000000,
+        40000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate40000000__step40000000__task4.json",
+      "sha256": "1a3218e53f4cd6f6fb562885634ba44748e69f2322c3d35bf5cc69a1c0ac502c"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate40000000__step40000000__task5",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        40000000,
+        40000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate40000000__step40000000__task5.json",
+      "sha256": "a30e0bd94733edef74bfedcb3d49c7c3e84ec3b406d6097f0f825626630f1ca0"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate40000000__step40000000__task6",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        40000000,
+        40000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate40000000__step40000000__task6.json",
+      "sha256": "ef0e489c73923c00d9182cd732ef6301a9796e095708365102d187e244edd78b"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate40000000__step40000000__task7",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        40000000,
+        40000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate40000000__step40000000__task7.json",
+      "sha256": "e6e1599015c95bbdc8c6645eeec46319222d8f3c7a7432f1804adbcc2a5b1880"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate40000000__step40000000__task8",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        40000000,
+        40000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate40000000__step40000000__task8.json",
+      "sha256": "56a4f1ddf3edfda7c5693c6778ccd32001c6d481485e7b1cd0d6b2fe54343bd1"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate40000000__step40000000__task9",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        40000000,
+        40000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate40000000__step40000000__task9.json",
+      "sha256": "12e9797ff9a0262de83bc62707ae7533231f8761e34670ddfc6f8d104790989b"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate40000000__step5000000__task0",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        40000000,
+        5000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate40000000__step5000000__task0.json",
+      "sha256": "8beb15d259c5feb3b2786885ebfa49baac280115245a5a474306972314b5d24a"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate40000000__step5000000__task1",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        40000000,
+        5000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate40000000__step5000000__task1.json",
+      "sha256": "94c9513fe63a30807406e4bbb8f8a0cedf87390cc74d8168babb9d104d10ab80"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate40000000__step5000000__task2",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        40000000,
+        5000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate40000000__step5000000__task2.json",
+      "sha256": "2ba13bfa8aecd1b0de271463ccd95c99f9cb1a4fbbc394db2981ae0d8d8df909"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate40000000__step5000000__task3",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        40000000,
+        5000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate40000000__step5000000__task3.json",
+      "sha256": "495429bbd950f3dc2281f6cb7fd2ae576f81b89852d84885a2c3e2e425a51d0d"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate40000000__step5000000__task4",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        40000000,
+        5000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate40000000__step5000000__task4.json",
+      "sha256": "3aaee4f440359e6783d8c9dc363ed9b41a8d388ffa441c0dab7d6176076e82ef"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate40000000__step5000000__task5",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        40000000,
+        5000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate40000000__step5000000__task5.json",
+      "sha256": "487cdc61699c912428e7b86a46c7820b7a12b0fc40e563ed9059ab6fb658262d"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate40000000__step5000000__task6",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        40000000,
+        5000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate40000000__step5000000__task6.json",
+      "sha256": "e9cb5a0c106d044c3f9213f343566558a2eb83eb2e1c800c0daaabe346f9fe63"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate40000000__step5000000__task7",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        40000000,
+        5000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate40000000__step5000000__task7.json",
+      "sha256": "c1fd522782510e403835c7858a0e0617fb4385821a6e54172c84bedfd50088c9"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate40000000__step5000000__task8",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        40000000,
+        5000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate40000000__step5000000__task8.json",
+      "sha256": "dd1c34021f8f6f86a69cccc4a261d6bbcf083714d2cd5e7fbd1a4400cadd8674"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate40000000__step5000000__task9",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        40000000,
+        5000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate40000000__step5000000__task9.json",
+      "sha256": "22147128dc6af45d2c4365a73121bc10af5e0878f1c7102cd610a0d9998d3eac"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate10000000__step40000000__task0",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        10000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate10000000__step40000000__task0.json",
+      "sha256": "a539cc62454c69f4720c349f8f414b78d01fdaad6483107ccdfddd8aeee80ba8"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate10000000__step40000000__task1",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        10000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate10000000__step40000000__task1.json",
+      "sha256": "5b6b5b8eba43fc4add83787c19137891ba117b5e1dc544216f16bd1750ce4f33"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate10000000__step40000000__task2",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        10000000,
+        40000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate10000000__step40000000__task2.json",
+      "sha256": "b0ff6fff3f69299ee8f75c0112d7a5fcecaf610c287a6ddf106a73314094f401"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate10000000__step40000000__task3",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        10000000,
+        40000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate10000000__step40000000__task3.json",
+      "sha256": "68f754c54d593ad5268cdd3d252b45001d91b37773608774e7bdc9e0210fbbf7"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate10000000__step40000000__task4",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        10000000,
+        40000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate10000000__step40000000__task4.json",
+      "sha256": "27c79ec4655edfb4e585f905b31e6e883f5df8dd6d07b291df32c2a1443aeac5"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate10000000__step40000000__task5",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        10000000,
+        40000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate10000000__step40000000__task5.json",
+      "sha256": "14907c397395e81785c98fe4186c6198191827f2465a2dbf13ba9dcb0fcf3fbf"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate10000000__step40000000__task6",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        10000000,
+        40000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate10000000__step40000000__task6.json",
+      "sha256": "6cc3076f430c2c9805c7ca1d787383b9ff8a5edc4cf5e5b074d0032256e7ab6e"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate10000000__step40000000__task7",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        10000000,
+        40000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate10000000__step40000000__task7.json",
+      "sha256": "b551c610849522ec0d8b9754a64cba7c5471113edb9923ef968c4af811f11f77"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate10000000__step40000000__task8",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        10000000,
+        40000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate10000000__step40000000__task8.json",
+      "sha256": "4e87f2acf25581d209e70d88f8f23f44b7c4067abe9c3d545876e21fcdc58efa"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate10000000__step40000000__task9",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        10000000,
+        40000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate10000000__step40000000__task9.json",
+      "sha256": "693e734346929172e7863bbd9d988f492f87a46caf356e410a338e3022a6e70c"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate10000000__step5000000__task0",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        10000000,
+        5000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate10000000__step5000000__task0.json",
+      "sha256": "7f6d1b0a8c530421f2cf35d153e50b0bab40b321c84d699c9f170ff0684dbd32"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate10000000__step5000000__task1",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        10000000,
+        5000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate10000000__step5000000__task1.json",
+      "sha256": "fefee76de4dbd637bf459138992750f48fa1183b32f89b9f7718ee448abd5691"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate10000000__step5000000__task2",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        10000000,
+        5000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate10000000__step5000000__task2.json",
+      "sha256": "72a32840ab9b2abf9e25f24c375944dfcfd76934579b782d9656245678eb3bef"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate10000000__step5000000__task3",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        10000000,
+        5000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate10000000__step5000000__task3.json",
+      "sha256": "6dc178829c7f67d72bdba331a5e480cdef96518a5899d66ad7f8bd06c586308a"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate10000000__step5000000__task4",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        10000000,
+        5000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate10000000__step5000000__task4.json",
+      "sha256": "b658ca11704154b97a5c82c8761ffbae7e653f332fcbaced44f77c3b04ed0b6b"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate10000000__step5000000__task5",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        10000000,
+        5000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate10000000__step5000000__task5.json",
+      "sha256": "a57f9bb66b8c4b57887a578333ce4a48aa270248e815ac4c34b7b04cf5a4735b"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate10000000__step5000000__task6",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        10000000,
+        5000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate10000000__step5000000__task6.json",
+      "sha256": "f8a049a397518eb716ab25b61b40ea64e0711344acff36cd8d16661ba34b48ec"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate10000000__step5000000__task7",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        10000000,
+        5000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate10000000__step5000000__task7.json",
+      "sha256": "18e4bbe2380b1c382f9b01eb83335824d1004fde34d580bca952ec0c67a80ce3"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate10000000__step5000000__task8",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        10000000,
+        5000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate10000000__step5000000__task8.json",
+      "sha256": "9d7d4518603dee937a9f0ea02f5cea964c1f3f1a2872fe8690a371184c1cbedd"
+    },
+    {
+      "cell_id": "lagged__node_structured__rate10000000__step5000000__task9",
+      "coordinate": [
+        "lagged",
+        "node_structured",
+        10000000,
+        5000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__node_structured__rate10000000__step5000000__task9.json",
+      "sha256": "5631788ef8726d175a69a9211d2f12b933f7d530d67da1377b41a6941cb6a02c"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate40000000__step40000000__task0",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        40000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate40000000__step40000000__task0.json",
+      "sha256": "812e772692925e0b92d4a73e31440b1cd4c946d6d15a42b6a3b6596e022ac53b"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate40000000__step40000000__task1",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        40000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate40000000__step40000000__task1.json",
+      "sha256": "d29c05cedc403f6124d4aa052d7ef9af9f91be104d9d6fc7b9537df4bbf24611"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate40000000__step40000000__task2",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        40000000,
+        40000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate40000000__step40000000__task2.json",
+      "sha256": "32f2a192850b8a47a799b1c3f7f493514e524538b387606666940ce5bf287137"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate40000000__step40000000__task3",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        40000000,
+        40000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate40000000__step40000000__task3.json",
+      "sha256": "c7faa393bfa75a6297b02e469838b68e0961d49ab0851a09b959b1a64f8ca409"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate40000000__step40000000__task4",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        40000000,
+        40000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate40000000__step40000000__task4.json",
+      "sha256": "7553fe6df513c38c9c469df7f2491a69d371098bd98eaf904e9aa5b6c0c7e00b"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate40000000__step40000000__task5",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        40000000,
+        40000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate40000000__step40000000__task5.json",
+      "sha256": "9fb74683215b7e06bf8eaa7f16ba64523ac080b300db7361d74564a5d81b6c89"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate40000000__step40000000__task6",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        40000000,
+        40000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate40000000__step40000000__task6.json",
+      "sha256": "398e412c49b2ecb4915eda1da27ece9276310ef43db4eb8da8dfbc03f90a675b"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate40000000__step40000000__task7",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        40000000,
+        40000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate40000000__step40000000__task7.json",
+      "sha256": "261b7668d2696667dbffecf95d49343ef02926b983078ff41f342f3e6f9c5347"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate40000000__step40000000__task8",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        40000000,
+        40000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate40000000__step40000000__task8.json",
+      "sha256": "8413db25ddfe1987aee844ba11805562357238913cff579d9fb8528d96c0a4bb"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate40000000__step40000000__task9",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        40000000,
+        40000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate40000000__step40000000__task9.json",
+      "sha256": "a0a55a8539cc19cdf58f2334d7e715b2354f825fe50d5288ea5789353b0cbba0"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate40000000__step5000000__task0",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        40000000,
+        5000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate40000000__step5000000__task0.json",
+      "sha256": "bd7526ea27625e816ccdf058c8b597d2054d74b97d3f011f42f62de5607b2583"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate40000000__step5000000__task1",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        40000000,
+        5000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate40000000__step5000000__task1.json",
+      "sha256": "d3314227d8b2c4d8233935dab03ec6d3faca1b63ce67579d7d49f574c3e82c61"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate40000000__step5000000__task2",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        40000000,
+        5000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate40000000__step5000000__task2.json",
+      "sha256": "7735ae185af324f36defb885ad644c3b17676a2014d8a49669df8fbec93cc0f9"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate40000000__step5000000__task3",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        40000000,
+        5000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate40000000__step5000000__task3.json",
+      "sha256": "68620626e758636f61b73ce367b6be699adf9c6c194cd116253f1c7f5aa50b0e"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate40000000__step5000000__task4",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        40000000,
+        5000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate40000000__step5000000__task4.json",
+      "sha256": "af0d0527538cfb1d76a16dc6a9e1217468b7e6d233ed151ed0f2e22421b1ab44"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate40000000__step5000000__task5",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        40000000,
+        5000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate40000000__step5000000__task5.json",
+      "sha256": "95ef82fcaee3b70923229f1f552e258c55f5a8e6dbe3156ee41a593f4a1575ae"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate40000000__step5000000__task6",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        40000000,
+        5000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate40000000__step5000000__task6.json",
+      "sha256": "cc9f3cdaffd7229efbdbdcc9b3d864963277ed9dba4a2f581ef43dca2b3c51a8"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate40000000__step5000000__task7",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        40000000,
+        5000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate40000000__step5000000__task7.json",
+      "sha256": "8e45e0947c69bd369f1982266de6f7f4bd1fe3da7c52458e42893202d7a76138"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate40000000__step5000000__task8",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        40000000,
+        5000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate40000000__step5000000__task8.json",
+      "sha256": "bc6f68326a12f78347de9daadf9bb81169d94e03f9abf1ef295cb512894f846d"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate40000000__step5000000__task9",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        40000000,
+        5000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate40000000__step5000000__task9.json",
+      "sha256": "ee48c1bd7488aa024e06090b780ec125f8ddb8bbd29768ebf0a3a6c17f395052"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate10000000__step40000000__task0",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        10000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate10000000__step40000000__task0.json",
+      "sha256": "4c38b09b23c9da46bb20ccfaec6126b7c5601e13fe2e596b32cecf4531c74235"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate10000000__step40000000__task1",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        10000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate10000000__step40000000__task1.json",
+      "sha256": "e2409f3be81b801aae43402b3f3d72507f2275cd4a84e733b961b9000eb4ae07"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate10000000__step40000000__task2",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        10000000,
+        40000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate10000000__step40000000__task2.json",
+      "sha256": "5aac7a4780a809830e27d8c0b73b1fdd989174ede7a632959e670c1d3e5e9612"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate10000000__step40000000__task3",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        10000000,
+        40000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate10000000__step40000000__task3.json",
+      "sha256": "75a8eee9e18b482cf20b0bb1cafa9ce8051874579b993aff8643599b3bee1e4d"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate10000000__step40000000__task4",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        10000000,
+        40000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate10000000__step40000000__task4.json",
+      "sha256": "cae50c3f69fba533caf8cc30ff7722cbd39e5adcf3674ab184caf80f56887f23"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate10000000__step40000000__task5",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        10000000,
+        40000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate10000000__step40000000__task5.json",
+      "sha256": "0d3979c86a16c7b2c05d55e75daeda4893cb6a0f42d212ad7ee46d38211e58ab"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate10000000__step40000000__task6",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        10000000,
+        40000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate10000000__step40000000__task6.json",
+      "sha256": "d4809145f3f813364dec7415f7c45c3b0153d25f409a6ffc1e07bb050425b23f"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate10000000__step40000000__task7",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        10000000,
+        40000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate10000000__step40000000__task7.json",
+      "sha256": "92bd38f3ee69895e931886bbdac9b3097e8a705474ce0e7051a3f586f7373904"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate10000000__step40000000__task8",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        10000000,
+        40000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate10000000__step40000000__task8.json",
+      "sha256": "08642c2a8442cf2817964b3bc2842a97cbc8881a6a5aac4df77777c24165c30a"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate10000000__step40000000__task9",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        10000000,
+        40000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate10000000__step40000000__task9.json",
+      "sha256": "a9f6e45c06dd7d8fb632f86ce05cca056102443b0cd0fd5820c86455133b05ef"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate10000000__step5000000__task0",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        10000000,
+        5000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate10000000__step5000000__task0.json",
+      "sha256": "ab327c1d1657e7abe1ec0b133d8e0479002b5881d35a36e1bd855eb7ca08e196"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate10000000__step5000000__task1",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        10000000,
+        5000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate10000000__step5000000__task1.json",
+      "sha256": "58994fdd3833d1779714dd4d45af78ceffd13a9be778502acb7d68b3f03d59c6"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate10000000__step5000000__task2",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        10000000,
+        5000000,
+        2
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate10000000__step5000000__task2.json",
+      "sha256": "c93460e80c7bc0a6548d97df0b8a677ee09b3ae532e1e8095c24cbdf715831ff"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate10000000__step5000000__task3",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        10000000,
+        5000000,
+        3
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate10000000__step5000000__task3.json",
+      "sha256": "65949dafbb9a3ff842d434967433435504e12a31ceb068657a1f673f60268eb5"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate10000000__step5000000__task4",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        10000000,
+        5000000,
+        4
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate10000000__step5000000__task4.json",
+      "sha256": "0fc9dbdd2ca007b62a25bd889974aac033dbf39cae92f6481a34ccb80bca2c18"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate10000000__step5000000__task5",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        10000000,
+        5000000,
+        5
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate10000000__step5000000__task5.json",
+      "sha256": "773404cdd93c750f86fc9f290081192771061841e8a748d25b4f4dce3f8ef964"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate10000000__step5000000__task6",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        10000000,
+        5000000,
+        6
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate10000000__step5000000__task6.json",
+      "sha256": "4f7d47fd9baaa63b4b55e9a67b2214aa242fc65ed19b3df1661463a3d3699c37"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate10000000__step5000000__task7",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        10000000,
+        5000000,
+        7
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate10000000__step5000000__task7.json",
+      "sha256": "37a1c3de624f0569c949da98b42bec0e08de245422dd0ee83774a7a299a4c874"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate10000000__step5000000__task8",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        10000000,
+        5000000,
+        8
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate10000000__step5000000__task8.json",
+      "sha256": "a2d2a3414c421a4816f7ca098d358f428cfdbe92142f5ea3d47157cc6dc51fa4"
+    },
+    {
+      "cell_id": "lagged__physics_fit__rate10000000__step5000000__task9",
+      "coordinate": [
+        "lagged",
+        "physics_fit",
+        10000000,
+        5000000,
+        9
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__physics_fit__rate10000000__step5000000__task9.json",
+      "sha256": "81ce989882dec158744c941df80cea0df91f1d6d66fd4260fd0a506fec16c7e7"
+    },
+    {
+      "cell_id": "direct__sim_oracle__rate40000000__step40000000__task0",
+      "coordinate": [
+        "direct",
+        "sim_oracle",
+        40000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__sim_oracle__rate40000000__step40000000__task0.json",
+      "sha256": "10ac3ccb9fa2af6ed1185cd89b74dfb862e8769b423ec9b163dfab97530265a4"
+    },
+    {
+      "cell_id": "direct__sim_oracle__rate40000000__step40000000__task1",
+      "coordinate": [
+        "direct",
+        "sim_oracle",
+        40000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__sim_oracle__rate40000000__step40000000__task1.json",
+      "sha256": "05366d497b438bf3207dfab1e0eeee85536746b4e9e8ba547727afb27fe5fbf7"
+    },
+    {
+      "cell_id": "direct__sim_oracle__rate10000000__step40000000__task0",
+      "coordinate": [
+        "direct",
+        "sim_oracle",
+        10000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__sim_oracle__rate10000000__step40000000__task0.json",
+      "sha256": "3ff022da675ca9ea3027e1271f77dabf3d3fb12aabe5c4f80b4203a3f16c02aa"
+    },
+    {
+      "cell_id": "direct__sim_oracle__rate10000000__step40000000__task1",
+      "coordinate": [
+        "direct",
+        "sim_oracle",
+        10000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/direct__sim_oracle__rate10000000__step40000000__task1.json",
+      "sha256": "bc867658725ad26063d4aeb0d4add5a404de4adb7f5620955e3a9feedec122ab"
+    },
+    {
+      "cell_id": "lagged__sim_oracle__rate40000000__step40000000__task0",
+      "coordinate": [
+        "lagged",
+        "sim_oracle",
+        40000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__sim_oracle__rate40000000__step40000000__task0.json",
+      "sha256": "f80c1ef35819367f15e7aae36e0cf22a68208e70bdbe1d1ee3d1cae3f53b2db8"
+    },
+    {
+      "cell_id": "lagged__sim_oracle__rate40000000__step40000000__task1",
+      "coordinate": [
+        "lagged",
+        "sim_oracle",
+        40000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__sim_oracle__rate40000000__step40000000__task1.json",
+      "sha256": "008e77e9670d016491591c4cdf4164e984e4b4d9c8caa0e130986025f48afe8e"
+    },
+    {
+      "cell_id": "lagged__sim_oracle__rate10000000__step40000000__task0",
+      "coordinate": [
+        "lagged",
+        "sim_oracle",
+        10000000,
+        40000000,
+        0
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__sim_oracle__rate10000000__step40000000__task0.json",
+      "sha256": "743e31319f576c4863ce364e5b8514d73a3e0e7cf24e9cf26f42d4122e907ee8"
+    },
+    {
+      "cell_id": "lagged__sim_oracle__rate10000000__step40000000__task1",
+      "coordinate": [
+        "lagged",
+        "sim_oracle",
+        10000000,
+        40000000,
+        1
+      ],
+      "path": "config/efficiency_pilot_jobs/lagged__sim_oracle__rate10000000__step40000000__task1.json",
+      "sha256": "c8c64175ec1e0bf3e73cd38f35fc4e2c86acb99716c122d6abc09de1048f71b3"
+    }
+  ],
+  "protocol_id": "PTCO-EFF-0.1",
+  "schema_version": 1
+}

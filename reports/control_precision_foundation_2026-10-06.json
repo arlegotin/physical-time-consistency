@@ -1,0 +1,49 @@
+{
+  "compatibility": {
+    "all_unknown_variants_rejected": true,
+    "independent_selected_validation_required": true,
+    "nominal_calculations_ast_identical": true,
+    "scope": "Only two exact archived atomic-selection and interruption-recovery variants"
+  },
+  "focused_tests": {
+    "command": ".venv/bin/python -m pytest -q tests/test_control_precision.py tests/test_control_retraining.py tests/test_control_confirmation.py",
+    "passed": 70
+  },
+  "full_suite": {
+    "command": ".venv/bin/python -m pytest -q",
+    "elapsed_seconds": 104.82,
+    "passed": 858,
+    "returncode": 0
+  },
+  "inventory": {
+    "early_gates": [
+      "G00",
+      "G10",
+      "G20"
+    ],
+    "expected_new_fits": 15,
+    "expected_nominal_coordinates": 20,
+    "files": 156,
+    "independent_context_bytes": 163670081,
+    "new_fits_executed": 0,
+    "qualified_external_reuse": [
+      "direct__A__shared__power_correct__seed5",
+      "direct__A__shared__power_correct__seed6",
+      "direct__A__shared__power_correct__seed7",
+      "direct__A__shared__power_correct__seed8",
+      "direct__A__shared__power_correct__seed9"
+    ]
+  },
+  "new_control_outcomes_opened": false,
+  "recorded_utc": "2026-10-06T03:59:54.323960Z",
+  "reproduction": {
+    "replay_completed": 39,
+    "replay_expected": 60,
+    "state": "running"
+  },
+  "request_sha256": "2faa8eea8f660999b9ba6a5a82e5d4d8f315dd9df6b161dd2e88b13f4ea10e9d",
+  "schema_version": 1,
+  "source_sha256": "79aa4c64f8f75d6e83b2822e9c46faf93f251e2ce5e089b858c05ef6d11476d5",
+  "status": "request_and_nominal_foundation_verified_not_scientific_execution",
+  "tests_sha256": "6ae3db17c47626bdc76632a8b16592434db252183d2670644a73d9fa63b5119b"
+}

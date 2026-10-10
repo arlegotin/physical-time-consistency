@@ -1,0 +1,7 @@
+{
+  "actuator": "direct",
+  "checkpoint_sha256": "53fe92e7950c5f773b94a92c07108887b7498161e1e5622192ebc7df9df468a6",
+  "manifest_sha256": "2f8c35d16a0989cfc7b400fce2db63ae6654369b204475ea619cd49860e89499",
+  "model_manifest": "evidence/M30/20261008T070058-ec804b71/manifest.json",
+  "protocol_id": "PTCO-AFF-0.1"
+}

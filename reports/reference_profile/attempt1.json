@@ -1,0 +1,7 @@
+{
+  "command": ".venv/bin/python -m reports.reference_profile",
+  "optimizer_updates": 0,
+  "parameter_or_checkpoint_changes": false,
+  "reason": "Profile passed NumPy validation arrays to the Torch-only integrator audit before timing; corrected caller to use the same dtype conversion as optimize_endpoints.",
+  "status": "invalid_measurement"
+}

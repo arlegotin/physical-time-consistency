@@ -1,0 +1,7 @@
+{
+  "canonical_tensor_sha256": "b701eff98bbf1488a7eb734a55d4d72f2ce836a6fd9ed81dbe4d5dd0e884bd5a",
+  "checkpoint_sha256": "208119cc8f8485695d03c5ff651c441f5fbb04bfafe0a1b2832c2523b19dc497",
+  "last_validation_epoch": 100,
+  "schema_version": 1,
+  "selected_epoch": 90
+}

@@ -1,0 +1,12 @@
+{
+  "actuator": "direct",
+  "command_namespace": 9103,
+  "episode_ids": [0, 1, 2, 3, 4],
+  "horizons_ns": [5000000, 40000000],
+  "model_id": "node_generic",
+  "phase": "exploratory",
+  "schema_version": 1,
+  "seed": 9000,
+  "substeps": [1, 2, 4],
+  "scope": "Read-only same-field numerical diagnosis from completed direct development observations"
+}

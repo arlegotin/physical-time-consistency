@@ -1,0 +1,18 @@
+{
+  "phase": "exploratory",
+  "protocol_version": "PTCO-1.0",
+  "purpose": "training",
+  "semantic_inputs": {
+    "actuator": "direct",
+    "cell_id": "direct__A__one_step__gru_dt__seed9000",
+    "condition": "A",
+    "continue_from": "evidence/M30/20261001T074112-da10f86c",
+    "epochs": 400,
+    "learning_rate": 0.001,
+    "loss_mode": "one_step",
+    "model_id": "gru_dt",
+    "seed": 9000,
+    "train_manifest": "data/direct/A/train/manifest.json",
+    "validation_manifest": "data/direct/A/validation/manifest.json"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "batch_size": 256,
+  "epochs": 100,
+  "model_id": "physics_fit",
+  "normalization": "study/precision-look-2/study/precision-look-3/data/lagged/A/normalization.json",
+  "resource_projection": {
+    "disk_bytes": 8388608,
+    "limitations": "Representative gradient timing only; excludes validation, checkpoint I/O and any finer solver branch.",
+    "measurement_path": "reports/reference_profile/lagged/measurement.json",
+    "measurement_sha256": "908afa8929bd3c3ef54e601a42c332b9700cca98d5c303cb372df20fb109a2ea",
+    "wall_seconds": 355.56267499923706
+  },
+  "train_manifest": "study/precision-look-2/study/precision-look-3/data/lagged/A/train/manifest.json",
+  "validation_manifest": "study/precision-look-2/study/precision-look-3/data/lagged/A/validation/manifest.json"
+}

@@ -1,0 +1,111 @@
+{
+  "alpha_spent": 0.025,
+  "code_tree_sha256": "1779c7026ce363a5a71ae36340c4bdb24e3ea83c2767a22806dc6914f894a80b",
+  "configuration_sha256": "4188324208e17b574a03b8b094478e04787b33b12236dfdbbca255d0af5f2cd6",
+  "created_utc": "2026-10-01T12:47:35.585304Z",
+  "criterion_evaluations": [
+    {
+      "bounds": null,
+      "criterion_id": "K02.relative/actuator=direct/stratum=cold/h_ns=5000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": 0.00029662004164720325,
+      "operator": ">=",
+      "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+      "status": "unresolved",
+      "threshold": 0.5
+    },
+    {
+      "bounds": {
+        "lower": 0.010496351766374137,
+        "upper": 0.03284632420601875
+      },
+      "criterion_id": "K02.relative/actuator=direct/stratum=cold/h_ns=5000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": 0.021671337986196453,
+      "operator": ">",
+      "reason": "Point estimate and preregistered lower bound clear the boundary",
+      "status": "pass",
+      "threshold": 0.0
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": -0.0071332062742575615,
+      "operator": ">=",
+      "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+      "status": "unresolved",
+      "threshold": 0.5
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": 0.004836606694252273,
+      "operator": ">",
+      "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+      "status": "unresolved",
+      "threshold": 0.0
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K02.relative/actuator=direct/stratum=warm/h_ns=5000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": -0.0003974936066863541,
+      "operator": ">=",
+      "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+      "status": "unresolved",
+      "threshold": 0.5
+    },
+    {
+      "bounds": {
+        "lower": 0.009860616535708472,
+        "upper": 0.03549700894355301
+      },
+      "criterion_id": "K02.relative/actuator=direct/stratum=warm/h_ns=5000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": 0.022678812739630745,
+      "operator": ">",
+      "reason": "Point estimate and preregistered lower bound clear the boundary",
+      "status": "pass",
+      "threshold": 0.0
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": -0.008139534590345021,
+      "operator": ">=",
+      "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+      "status": "unresolved",
+      "threshold": 0.5
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": 0.004588204470829861,
+      "operator": ">",
+      "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+      "status": "unresolved",
+      "threshold": 0.0
+    }
+  ],
+  "decision_id": "0b79513e7f2cc7e8cc1eb8a416ba0e1330f54bab6e6f3d264977eb7eb5f1173d",
+  "evidence": [
+    {
+      "path": "evidence/MR/20261001T111511-ff500529/manifest.json",
+      "producing_run_id": "20261001T111511-ff500529",
+      "role": "manifest",
+      "sha256": "6bb044b4a32a12771fabc5e62a340f771411be342838951b21acf84e8247a18f"
+    }
+  ],
+  "gate_id": "GR",
+  "look_index": 1,
+  "milestone_id": "MR",
+  "outcome": "INCONCLUSIVE",
+  "permitted_next_actions": [
+    {
+      "branch": "precision",
+      "milestone_id": "MX",
+      "question": "Resolve the registered paired sensitivity comparison without changing its threshold"
+    }
+  ],
+  "phase": "confirmatory",
+  "protocol_version": "PTCO-1.0",
+  "schema_version": 1,
+  "terminal_verdict": null,
+  "validity_status": "valid"
+}

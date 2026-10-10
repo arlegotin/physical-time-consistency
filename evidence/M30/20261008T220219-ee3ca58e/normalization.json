@@ -1,0 +1,20 @@
+{
+  "protocol_id": "PTCO-AFF-0.2",
+  "scale_q": [
+    0.007026590872555971,
+    0.017671706154942513
+  ],
+  "scale_v": [
+    0.27893486618995667,
+    0.7044786214828491
+  ],
+  "training_receipt": {
+    "path": "evidence/M30/20261008T092517-64f53a85/manifest.json",
+    "sha256": "c8f672ebe39d78e036f7e7431e60272e8506ddda7027bf1e6660b785c4337c9b"
+  },
+  "transition_count": 32768,
+  "velocity_input_rms": [
+    1.78312349319458,
+    3.7051780223846436
+  ]
+}

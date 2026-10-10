@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-10-03T09:57:38.658142+00:00",
+  "scope": "Code-readiness review, not a scientific result or whole-study completion",
+  "reviewer": "/root/review_utility_pipeline",
+  "review_range": "c1fcce2..aeb62e4 plus listed repair files",
+  "sources": {
+    "poc/confirmation_solver.py": "3cffd825334764b0ce1d2f9c48200c65c31aa5209607bba754694a83c0f843b3",
+    "poc/control_audit_closure.py": "4930bfc1aabc29e0a76af7ecf8c61997e4317f781afcee952908ce90c4e68c57",
+    "poc/control_result.py": "9ebae14a7cd1c220fc30dab7167b08e127fc2aebff10c5ef8aab94dc7dee2066",
+    "poc/utility_followup.py": "e18530094271a2076cfd279d7558a152457931c6bc3890aa9ccb465437daa0e1",
+    "tests/test_confirmation_solver.py": "31fb54736b0812c1a16456e2fd819fe5b43a355270e45a5feeafefec3d2d65f3",
+    "tests/test_control_audit_closure.py": "ae28ab4400ffff01e0345c2f0176ee46792ed7546e6e29455ef7278a4d2c2f13",
+    "tests/test_control_result.py": "52313205d7741ccc0fcc975a31916a296cbdae43b2857f3c7f48a30a32fc29ad",
+    "tests/test_utility_followup.py": "ff4a2a9f0d087531e3246ad6c530a0f2b7ffbae9b01d054a481ad572e9e86c3b"
+  },
+  "findings": [
+    {
+      "id": "review.resume_identity",
+      "severity": "important",
+      "status": "resolved",
+      "verification": "Same full evidence preserves look/result hash across intervening subset readiness; missing/modified accepted numerical archives fail closed"
+    },
+    {
+      "id": "review.solver_effect",
+      "severity": "important",
+      "status": "resolved",
+      "verification": "Stable-winner large-cost and changed-elite examples require closed-loop diagnosis; any unresolved bank discrepancy propagates; all 1/2/4 resolution pairs retained"
+    },
+    {
+      "id": "review.remaining_storage",
+      "severity": "important",
+      "status": "resolved",
+      "verification": "Only remaining compatible episode artifacts projected; solver stage admitted separately; shortage diagnostics retained"
+    }
+  ],
+  "tests": {
+    "full_suite_count": 781,
+    "full_suite_seconds": 74.04,
+    "full_suite_log_sha256": "9966366d99da0c78e930125b7d5627d001fa54b4d3b72be0c62f2576f7fece0c",
+    "focused_count": 93,
+    "focused_seconds": 12.19,
+    "independent_reviewer_regressions": 3,
+    "independent_reviewer_seconds": 1.12
+  },
+  "frozen_primary_reverification": {
+    "command": ".venv/bin/python -m poc.control_confirmation --dry-run",
+    "status": "pass",
+    "output_sha256": "e4bae1d51a56af633ab0c2b7a81dc9467b8f489fd00f89375bca9aad2e288749"
+  },
+  "remaining_minor_findings": [
+    "Development aggregate helper accepts homogeneous but incomplete subpartition in a synthetic fixture; actual completed workload requests/raw clocks were audited",
+    "First full expansion conservatively projects 1200 artifacts despite possible reuse of 300 subset jobs"
+  ],
+  "declined_to_judge": [
+    "Scientific effectiveness of unfinished confirmation",
+    "Realized solver convergence pending registered numerical work",
+    "Completed fresh training/control reproduction",
+    "Original full-suite PTCO PASS"
+  ],
+  "scientific_verdict": null,
+  "control_look_count": 0,
+  "whole_study_complete": false
+}

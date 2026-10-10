@@ -1,0 +1,184 @@
+{
+  "argv": [
+    "/workspace/physical-time-consistency/.venv/bin/python",
+    "-m",
+    "poc.reference_bank",
+    "evidence/M40/20261001T235246-df598952/manifest.json"
+  ],
+  "code_revision": "d723ce631a344dcb01e144eb8c407c5c8d71a86e",
+  "code_tree_sha256": "9470e17fa85200175e6c0db121e2cc5c5678fa80ab6964d9ea4ef3b02e736ead",
+  "completion_status": "complete",
+  "configuration_sha256": "4880987b328ff9e7f2bd4c9d6708afccdc035f23774fca73ab928c376ee0e577",
+  "data_hashes": {},
+  "dirty": true,
+  "ended_utc": "2026-10-01T23:53:45.275858Z",
+  "environment_sha256": "6f62cf50712625ed40af8a3d527dfaa2c654835099e3eaa3647990ee8421dc77",
+  "expected_cells": [
+    "control.reference_bank"
+  ],
+  "job_inputs": {
+    "configuration_keys": {
+      "evidence/M40/20261001T235246-df598952/request.json": {
+        "actuator": "direct",
+        "actuator_interval_ns": 40000000,
+        "checkpoint_sha256": "e71e8b1ef6d9d0fc220a0c6064bec98ed544c312bc347eca8f65f0d20f9b87f6",
+        "condition": "clean",
+        "episode_id": 12,
+        "manifest_sha256": "7f284e79151122a137d12e624e8db9e6dd234436771d7104a0f8b3db8f61bd16",
+        "model_id": "physics_fit",
+        "model_manifest": "evidence/M40/20261001T223844-5f87d589/manifest.json",
+        "model_partition_ns": [
+          40000000
+        ],
+        "phase": "calibration",
+        "physics_step_ns": 250000,
+        "planner_settings": {
+          "candidate_count": 128,
+          "elite_count": 16,
+          "initial_std": 1.0,
+          "iterations": 4,
+          "std_floor": 0.1
+        },
+        "power_mode": null,
+        "resource_projection": {
+          "disk_bytes": 3100731,
+          "measurement_manifest": "evidence/M40/20261001T225637-00d9fbcd/manifest.json",
+          "measurement_manifest_sha256": "3da2707ee68cc48ccaee7438f9fbbaf3efffed5e8d6cbfc58983817851192384",
+          "reason": "Same fixed-budget episode; 25% throughput projection margin, not a scientific cap",
+          "wall_seconds": 56.833392968750005
+        },
+        "schema_version": 1,
+        "seed": 9000
+      }
+    },
+    "dependencies": {
+      "assets/two_link_direct.xml": "0feff217f418a99777338c84e25a2e2b61df60d89963cec7fe710d267455b581",
+      "evidence/M40/20261001T223844-5f87d589/manifest.json": "7f284e79151122a137d12e624e8db9e6dd234436771d7104a0f8b3db8f61bd16",
+      "evidence/M40/20261001T223844-5f87d589/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+      "evidence/M40/20261001T223844-5f87d589/weights.pt": "e71e8b1ef6d9d0fc220a0c6064bec98ed544c312bc347eca8f65f0d20f9b87f6",
+      "evidence/M40/20261001T235246-df598952/candidates.npz": "a87c2f099d96c40b7de765dd8c8163f37321888ef1e5040e8d814a5ea5c95e00",
+      "evidence/M40/20261001T235246-df598952/manifest.json": "df1fedeee00d0ff7e79f419981bf513e7e6b4b37b71adad1474c251b7da2e721",
+      "evidence/M40/20261001T235246-df598952/request.json": "082c09f483f0b5b856bfcb9d61d3317f8b4baf7e62f70714cf655317345ff680",
+      "evidence/M40/20261001T235246-df598952/summary.json": "7e8cfbfac6798a3da279756fec8ad9a26e29eef8ddef162534c5283d101d6b9d",
+      "poc/__init__.py": "a2663e8d543cbef68f5ef143d68b63cc6fde80d0d59bb560d4f23347632dcd10",
+      "poc/action_path.py": "5389db332d8ee89f21085cd5e8642ead126e845ba1d891f8422a4f509f9981b5",
+      "poc/analytic.py": "b6fd1dfef962c2517f7b24f0ffb96a4ef0188ab5058adea638309e6895f313fc",
+      "poc/clocks.py": "7a45fe841e36bfabc1e4ee66c8b329755943dbd7a9c46fb016aceb925d544ef9",
+      "poc/contracts.py": "3615336d4cf41840c8026ad74afe0be2f36929bec625b7f0b2aaff56c7e4b7e4",
+      "poc/control.py": "b802a2e8a84200fd1d9741ce6cb7d4f2c98e66405b84cfb26f3c8a98289df5f5",
+      "poc/control_artifacts.py": "a22bf364e52c63ec05b44bfe329e2bbf5c36e37a1b9399cf2158a720733f7d04",
+      "poc/control_episode.py": "970168a74caf3f1ba5baa039a2de60ae035576c770e2b3dd58a341117db207a3",
+      "poc/control_jobs.py": "4d5f23bb14c1515de4c5a8be33b5bd1e800cf620bb143c68c75690e23722cc56",
+      "poc/control_models.py": "359c9fa2d175ebae1b9a87140c32c7dca1b0a97446611bf56caf70ef690b4942",
+      "poc/envs.py": "e4635069a335d0b37d378adea3267c703f1c44f445a7c535afdc89f5e32ce35e",
+      "poc/execution.py": "7be39cb095560fd86df4109e1a88b4616174e1766edada9ea926718d192aa786",
+      "poc/gates.py": "a260b655bd8a7829237f00441be9d62a1bc3847d6d6570fecbd3b3a4042604b7",
+      "poc/history.py": "9f76f4bdd6776c01ecc8e53d77d5b4861c88f8d9e65b740353137416b457afdc",
+      "poc/io.py": "b7c169b0c7e296b7e11dfe42ae620ad33806de61b36b610db67d727bd7ac04cd",
+      "poc/models/__init__.py": "9af7c30ff7b9a23124b59def8f80551784db5aa4d97cad299a137e3663cf675a",
+      "poc/models/common.py": "1fed6c0593bab9a85a9899da66eb994eb6f4909c5fb200208e61f14320f947a1",
+      "poc/models/factory.py": "848243017a8b726c91483a080e026c6708dcb380fa75b7c34649420dc6b00c83",
+      "poc/models/mlp.py": "0859bac1c9eb737b3accfca9ecca3c9370f1100e110ccf251b0b1688c6f01110",
+      "poc/models/ode.py": "c2a5a2ecbca37c99afbcda2261e9dd05b3913508e5f1690935d3cb263dfda0ff",
+      "poc/models/power.py": "4d10d4d39aa2d1b35f301b2f60fe0148e3cdb529dc05f1b7601eb7d4a7a7c1d7",
+      "poc/models/sequence.py": "9cadc432670b4fb4e4d6ca88fb642c6de159b954747da720454e8da3d28acd95",
+      "poc/mpc.py": "ca2db4101a4b924af537705540a2e09eda5bdc7cac72d9acb9bbbf9452a2b61f",
+      "poc/physics_fit.py": "95f5db85913f3ecc44f0236d3ad3f3ad27f644ebfc782a7c95bc79f9474998ad",
+      "poc/reference_bank.py": "49ba4cfc99321778a89d430831c3775d8b3f24a67f34f995abb2cdd30ef890c1",
+      "poc/reference_jobs.py": "2bbc9115bbf3f4ea759be85c64973966db666cabe9766decba4000e081d92fe5",
+      "poc/robot_calibration.py": "51bd9bedd37d6424e4bf98aaea14648c66ec36444cfa9959cbb2b6bed0481245",
+      "poc/train.py": "4f3dca540505a8cb4489944f00f4486b2adbc7713e24733ee6e7b7e94396c8c3"
+    },
+    "environment_fingerprint": {
+      "architecture": "arm64",
+      "core_count": 14,
+      "deterministic_algorithms": true,
+      "kernel": "25.6.0",
+      "os": "Darwin",
+      "python": "3.11.5 | packaged by conda-forge | (main, Aug 27 2023, 03:33:12) [Clang 15.0.7 ]",
+      "torch_configuration": "PyTorch built with:\n  - GCC 4.2\n  - C++ Version: 201703\n  - clang 15.0.0\n  - OpenMP 201811\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: NO AVX\n  - Build settings: BLAS_INFO=accelerate, BUILD_TYPE=Release, COMMIT_SHA=a1cb3cc05d46d198467bebbb6e8fba50a325d4e7, CXX_COMPILER=/usr/bin/c++, CXX_FLAGS= -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOCUPTI -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_PYTORCH_QNNPACK -DAT_BUILD_ARM_VEC256_WITH_SLEEF -DUSE_XNNPACK -DUSE_PYTORCH_METAL_EXPORT -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -DUSE_COREML_DELEGATE -O2 -fPIC -DC10_NODEPRECATED -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=braced-scalar-init -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wvla-extension -Wsuggest-override -Wnewline-eof -Winconsistent-missing-override -Winconsistent-missing-destructor-override -Wno-pass-failed -Wno-error=old-style-cast -Wconstant-conversion -Qunused-arguments -faligned-new -fno-math-errno -fno-trapping-math -Werror=format -DUSE_MPS -Wno-missing-braces, LAPACK_INFO=accelerate, TORCH_VERSION=2.8.0, USE_CUDA=OFF, USE_CUDNN=OFF, USE_CUSPARSELT=OFF, USE_EIGEN_FOR_BLAS=ON, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=OFF, USE_MKLDNN=OFF, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n",
+      "torch_interop_threads": 1,
+      "torch_threads": 1,
+      "versions": {
+        "mujoco": "3.14.0",
+        "numpy": "2.2.6",
+        "pytest": "8.4.1",
+        "scipy": "1.15.3",
+        "torch": "2.8.0"
+      }
+    },
+    "milestone_id": "M40",
+    "phase": "calibration",
+    "protocol_version": "PTCO-1.0",
+    "wheel_hashes": {
+      "absl_py-2.5.0-py3-none-any.whl": "0f17b89f2a4eaaedc4f28c622998aa690564b3012a396a4ffad0821007fe03ba",
+      "etils-1.14.0-py3-none-any.whl": "b5df7341f54dbe1405a4450b2741207b4a8c279780402b45f87202b94dfc52b4",
+      "filelock-4.0.7-py3-none-any.whl": "a93c4d93269b339a6af4848342c7e940d0f9928ad95eff64764699e5f1bf8a6a",
+      "fsspec-2026.9.0-py3-none-any.whl": "8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f",
+      "glfw-2.10.2-py2.py3-none-macosx_11_0_arm64.whl": "c000b8a5e5fb4374b2c18d12347255ccb92001b9bcf80ef74c56072acbb98fe3",
+      "iniconfig-2.3.0-py3-none-any.whl": "f631c04d2c48c52b84d0d0549c99ff3859c98df65b3101406327ecc7d53fbf12",
+      "jinja2-3.1.6-py3-none-any.whl": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+      "markupsafe-3.0.3-cp311-cp311-macosx_11_0_arm64.whl": "4bd4cd07944443f5a265608cc6aab442e4f74dff8088b0dfc8238647b8f6ae9a",
+      "mpmath-1.3.0-py3-none-any.whl": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c",
+      "mujoco-3.14.0-cp311-cp311-macosx_11_0_arm64.whl": "ac43ebbfdf5522c556291cbc94a4d420ffed226f67e37a00dfcaf01525fa93bc",
+      "networkx-3.6.1-py3-none-any.whl": "d47fbf302e7d9cbbb9e2555a0d267983d2aa476bac30e90dfbe5669bd57f3762",
+      "numpy-2.2.6-cp311-cp311-macosx_14_0_arm64.whl": "3d70692235e759f260c3d837193090014aebdf026dfd167834bcba43e30c2a42",
+      "packaging-26.3-py3-none-any.whl": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "pip-23.2.1-py3-none-any.whl": "7ccf472345f20d35bdc9d1841ff5f313260c2c33fe417f48c30ac46cccabf5be",
+      "pluggy-1.6.0-py3-none-any.whl": "e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746",
+      "pygments-2.21.0-py3-none-any.whl": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+      "pyopengl-3.1.10-py3-none-any.whl": "794a943daced39300879e4e47bd94525280685f42dbb5a998d336cfff151d74f",
+      "pytest-8.4.1-py3-none-any.whl": "539c70ba6fcead8e78eebbf1115e8b589e7565830d7d006a8723f19ac8a0afb7",
+      "scipy-1.15.3-cp311-cp311-macosx_14_0_arm64.whl": "3b0334816afb8b91dab859281b1b9786934392aa3d527cd847e41bb6f45bee65",
+      "setuptools-65.5.0-py3-none-any.whl": "f62ea9da9ed6289bfe868cd6845968a2c854d1427f8548d52cae02a42b4f0356",
+      "sympy-1.14.0-py3-none-any.whl": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5",
+      "torch-2.8.0-cp311-none-macosx_11_0_arm64.whl": "5ae0524688fb6707c57a530c2325e13bb0090b745ba7b4a2cd6a3ce262572916",
+      "typing_extensions-4.16.0-py3-none-any.whl": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "websockets-17.1-cp311-cp311-macosx_11_0_arm64.whl": "020e271205f8ab3406d7a59cd00de6dec722315924411c421bd00642f18bad86",
+      "zipp-4.1.0-py3-none-any.whl": "25ad4e16390cd314347dd8f1de67a2ac538ae658ed4ab9db16029c07c188e97f"
+    }
+  },
+  "job_key": "b328711eda82bc947e13ce52d59e1da75975205736603d1b1001812c0afa7bb0",
+  "milestone_id": "M40",
+  "model_hashes": {},
+  "parent_decisions": [],
+  "phase": "calibration",
+  "produced_files": [
+    {
+      "path": "evidence/M40/20261001T235327-5a946d77/events.jsonl",
+      "sha256": "57fe1826a5e0c6dc2eb7a31b53e6fb56c0379a7e4520639103ad8f35d2a4cde5"
+    },
+    {
+      "path": "evidence/M40/20261001T235327-5a946d77/reference_bank.npz",
+      "sha256": "10ecc6d6a93539f2f05707182a11a02399cd186cf18ad561d596fdd5855326e9"
+    },
+    {
+      "path": "evidence/M40/20261001T235327-5a946d77/resources.json",
+      "sha256": "009392d6f18a8c5175e97e99a1b648efee2c4cc74ecb543dffe2b7af34ef0ebd"
+    },
+    {
+      "path": "evidence/M40/20261001T235327-5a946d77/source_episode.json",
+      "sha256": "a484821f1c0b0c8e0332967e5a97ba4e0928486b3611578102b6666916e6875d"
+    },
+    {
+      "path": "evidence/M40/20261001T235327-5a946d77/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/M40/20261001T235327-5a946d77/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/M40/20261001T235327-5a946d77/summary.json",
+      "sha256": "b0407931d2c29292f0d98ab5c7e387f68576fdbdf945c974daa99c8d1cde9238"
+    },
+    {
+      "path": "evidence/M40/20261001T235327-5a946d77/validity.json",
+      "sha256": "7b0321c068bcefa440396797be56bf91837cf93f3b794b3cea3cd06fce07f394"
+    }
+  ],
+  "protocol_version": "PTCO-1.0",
+  "run_id": "20261001T235327-5a946d77",
+  "schema_version": 1,
+  "started_utc": "2026-10-01T23:53:27.989812Z"
+}

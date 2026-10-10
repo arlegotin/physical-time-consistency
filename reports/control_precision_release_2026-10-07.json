@@ -1,0 +1,81 @@
+{
+  "branch": "main",
+  "cached_comparison_count": 6,
+  "corrected_reporting_findings": [
+    "Completed queue and original-look versus updated-look scope",
+    "Disclosure of fifteen new and five reused direct-head fits with prior prediction access"
+  ],
+  "declined_to_judge_rulings": [
+    "Retain inherited inference assumptions with explicit limitations",
+    "Do not claim external/physical-robot/untested robustness",
+    "Reproduction requires preserved local archive, not source-only clone",
+    "No certified APFS physical savings or crash durability"
+  ],
+  "deferred_minors": [
+    "Frozen renderer omits a resource table; actual values remain in JSON and consolidated report"
+  ],
+  "document_hashes": {
+    "README.md": "818b4e72b278bb4838ad52f643ad99fff2932d63e6e1d5d5283be1eaeccf2e9c",
+    "reports/control_precision_release_review_2026-10-07.md": "671438b7d4d139af6fc2d6e3aaae356d8fd0ec615f1102a1e3e8e2d01e25190d",
+    "reports/progress.md": "3b51339f0ac31b1fbea240876bcc4f4e26552a87ffc7604762bbf0001131de9e",
+    "reports/utility_results_2026-10-07.md": "44476b9de9ae748208e04e72a8f1398267f154a1e578472ccc06a45b27358766"
+  },
+  "existing_look_index": 2,
+  "final_suite": {
+    "actual_private_log": ".superpowers/sdd/2026-10-06-control-precision/final-reporting-tests.log",
+    "command": ".venv/bin/python -m pytest -q",
+    "elapsed_seconds": 142.36,
+    "exit_code": 0,
+    "log_path": "reports/control_precision_documentation_tests_2026-10-07.log",
+    "passed": 927,
+    "sha256": "cdf4602d6336986e462ab10be4de2504d508282396da845bceac28c6412ae5a8"
+  },
+  "fresh_reviewer": "/root/final_control_precision_review",
+  "full_ptco_pass": false,
+  "local_document_links_verified": 107,
+  "major_scientific_or_implementation_findings": 0,
+  "new_alpha_spent": 0,
+  "new_scientific_samples": 0,
+  "preservation": "All sealed evidence, original attempts and referenced private workspace retained; no push, merge or experiment deletion",
+  "recorded_utc": "2026-10-07T10:05:06.429284+00:00",
+  "review_model": "gpt-6-astra",
+  "review_reasoning": "high",
+  "reviewed_commit_range": {
+    "base": "165a67c",
+    "head": "dac3845"
+  },
+  "reviewer_reported_archive_check": {
+    "bytes": 3103968607,
+    "files": 19877
+  },
+  "schema_version": 1,
+  "scientific_hashes_unchanged": {
+    "config/control_precision_nominal_jobs.json": "c5e72dc0e148bd87ed73f13aa3b5b9a812b493fe69ef3e488faf21c3431f44af",
+    "poc/control_precision_result.py": "d2fc5ebd23cb688594d27684ae0f92fd4b48b6ce8ab88866489ca224094fd7c9",
+    "reports/control_precision_release_tests_2026-10-07.log": "090080f200df7de7241880f1fc726835f69c98ab114f82415b3646c0fc45bb5b",
+    "reports/control_precision_replay_completion_2026-10-07.json": "bae266464b21513815af8fee3ba585aeb73b1bf1db3b20610ec8ba552ab4697e",
+    "reports/control_precision_result.json": "b526ed0105b813925d02a1c845bdcc534cbc0e67742c258f6ae9ad9a6d93f6c5"
+  },
+  "scope": "Release verification for the completed registered control-precision continuation; reporting only",
+  "selection_disclosure_verified": {
+    "new_fits": 15,
+    "prior_prediction_outcomes_observed": true,
+    "reused_fits": 5,
+    "selection": "Unchanged nominal-only engine; entire eligible ascending direct-head cohort"
+  },
+  "status": "complete_verified_limited_utility_release",
+  "supported_criteria": [
+    {
+      "criterion_id": "utility_control/direct/mlp_dt/h5000000",
+      "n_training_seeds": 10,
+      "relative_reduction": 0.22582001596009493,
+      "status": "lower_cost"
+    },
+    {
+      "criterion_id": "utility_control/lagged/mlp_dt/h5000000",
+      "n_training_seeds": 10,
+      "relative_reduction": 0.26035112427300444,
+      "status": "lower_cost"
+    }
+  ]
+}

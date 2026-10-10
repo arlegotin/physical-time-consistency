@@ -1,0 +1,15 @@
+{
+  "cpu_seconds": 24.995383,
+  "disk_bytes": 2252226,
+  "original_estimate": {
+    "disk_bytes": 2821968,
+    "measurement_manifest": "evidence/M40/20261001T230013-99aa7e3e/manifest.json",
+    "measurement_manifest_sha256": "7f2827614fcbf6fdcb2a443a681f3470cb162172d4fcd4839a987378acab7821",
+    "reason": "Same fixed-budget episode; 25% throughput projection margin, not a scientific cap",
+    "wall_seconds": 41.41452109375
+  },
+  "peak_rss_bytes": 268894208,
+  "rss_convention": "macOS bytes",
+  "training_updates": 0,
+  "wall_seconds": 25.001875458
+}

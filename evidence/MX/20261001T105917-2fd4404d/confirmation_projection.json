@@ -1,0 +1,12 @@
+{
+  "E01_jobs": 15,
+  "audit_wall_seconds": null,
+  "cpu_time_ceiling_hours": null,
+  "measured_development_fit_wall_seconds": {
+    "node_generic": 260.903840083,
+    "power_correct": 291.00522341600004
+  },
+  "note": "Training estimate uses actual nominally qualified development exposure; new seeds may need further nominal blocks. Audit time remains measured separately. No artificial resource or scientific ceiling.",
+  "training_fits": 10,
+  "training_wall_seconds": 2759.545317495
+}

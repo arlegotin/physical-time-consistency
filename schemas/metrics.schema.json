@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema", "type": "object", "additionalProperties": false,
+  "required": ["run_id", "experiment_id", "phase", "model_id", "actuator", "condition", "loss_mode", "seed", "workload_id", "metric", "statistic", "value", "unit", "sample_count", "status", "evidence"],
+  "properties": {
+    "run_id": {"type": "string", "minLength": 1}, "experiment_id": {"type": "string", "minLength": 1},
+    "phase": {"enum": ["unit", "calibration", "exploratory", "confirmatory", "replication"]},
+    "model_id": {"type": "string", "minLength": 1}, "actuator": {"enum": ["direct", "lagged"]},
+    "condition": {"enum": ["F", "A", "not_applicable"]}, "loss_mode": {"enum": ["one_step", "shared", "not_applicable"]},
+    "seed": {"anyOf": [{"type": "integer"}, {"type": "null"}]}, "workload_id": {"type": "string", "minLength": 1},
+    "metric": {"type": "string", "minLength": 1}, "statistic": {"type": "string", "minLength": 1},
+    "value": {"anyOf": [{"type": "number"}, {"type": "null"}]}, "unit": {"type": "string", "minLength": 1},
+    "sample_count": {"type": "integer"},
+    "status": {"enum": ["ok", "unresolved", "missing", "model_failure", "invalid_reference", "invalid"]},
+    "evidence": {"type": "string", "minLength": 1}
+  }
+}

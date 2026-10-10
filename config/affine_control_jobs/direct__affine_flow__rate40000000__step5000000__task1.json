@@ -1,0 +1,28 @@
+{
+  "actuator": "direct",
+  "actuator_interval_ns": 40000000,
+  "cell_id": "direct__affine_flow__rate40000000__step5000000__task1",
+  "episode_id": 1,
+  "freeze_sha256": "16034f64fe18e9fc1465c9c2c06c600f4ab201647883b5f07df66f2f1a9f5aaf",
+  "model_id": "affine_flow",
+  "model_partition_ns": [
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000
+  ],
+  "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step5000000__task1.json",
+  "protocol_id": "PTCO-AFF-0.1",
+  "seed": 9000,
+  "selected": {
+    "actuator": "direct",
+    "checkpoint_sha256": "53fe92e7950c5f773b94a92c07108887b7498161e1e5622192ebc7df9df468a6",
+    "manifest_sha256": "2f8c35d16a0989cfc7b400fce2db63ae6654369b204475ea619cd49860e89499",
+    "model_manifest": "evidence/M30/20261008T070058-ec804b71/manifest.json",
+    "protocol_id": "PTCO-AFF-0.1"
+  }
+}

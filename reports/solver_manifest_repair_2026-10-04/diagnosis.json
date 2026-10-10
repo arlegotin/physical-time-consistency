@@ -1,0 +1,24 @@
+{
+  "changed_source": "poc/confirmation_solver.py",
+  "changed_source_sha256": "f496fdb06d759f64f8af8c214828fc2c4ddb44d921d0a0e90b481254395e4f50",
+  "failed_test_before_fix": "RED: real producer followed by verify_run raises FileNotFoundError for parent_cell_id, reproducing the actual pipeline traceback.",
+  "fix": "Removed only the scalar parent_cell_id from configuration_keys; the parent remains identified by hashed manifest/request dependencies and summary.cell_id.",
+  "focused_test_result": "51 passed in 7.19s",
+  "full_test_log": "reports/solver_manifest_repair_2026-10-04/full-tests.log",
+  "full_test_log_sha256": "2b44c8b3aed11d917a5e62bd6566c43cd219f09a28ac70b675daf8b620c5849c",
+  "full_test_result": "797 passed in 74.47s",
+  "original_attempt_count": 100,
+  "preservation": "Original solver source, registry, receipt and failure logs archived byte-for-byte; completed run directories remain unchanged. New solver jobs will have new semantic hashes.",
+  "recorded_utc": "2026-10-04T21:55:10.781208+00:00",
+  "regression_test": "tests/test_confirmation_solver.py::test_solver_producer_manifest_passes_real_dependency_verification",
+  "replacement_solver_audit_state": "pending",
+  "root_cause": "Solver producer placed scalar parent_cell_id in configuration_keys, whose contract maps JSON paths to dictionaries of relevant keys.",
+  "schema_version": 1,
+  "scientific_decision": "not_evaluated",
+  "statistical_look_reserved": false,
+  "unaffected_completed_science": {
+    "finer_physics_episodes": 300,
+    "physical_reference_episodes": 450,
+    "primary_control_episodes": 1200
+  }
+}

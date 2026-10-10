@@ -1,0 +1,38 @@
+{
+  "actuator": "direct",
+  "actuator_interval_ns": 40000000,
+  "checkpoint_sha256": "a9ea3c87410b1aaa59a1b72dfa11c4a94f834e7dfd7fd2ccd9ef6d84646c440a",
+  "condition": "clean",
+  "episode_id": 1,
+  "manifest_sha256": "be31e6f73f2847e9f5d15ac0264c12836b5b2cb8c7aa40d37e368bc723483f2a",
+  "model_id": "node_generic",
+  "model_manifest": "study/precision-look-2/study/precision-look-3/evidence/M30/20261001T105922-7ad80688/manifest.json",
+  "model_partition_ns": [
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000
+  ],
+  "phase": "exploratory",
+  "physics_step_ns": 250000,
+  "planner_settings": {
+    "candidate_count": 128,
+    "elite_count": 16,
+    "initial_std": 1.0,
+    "iterations": 4,
+    "std_floor": 0.1
+  },
+  "power_mode": null,
+  "resource_projection": {
+    "basis": "Same model/partition representative episode producer time and disk, with 25% planning margin; estimate only, no artificial cap",
+    "disk_bytes": 3090905.0,
+    "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+    "wall_seconds": 103.58471307375
+  },
+  "schema_version": 1,
+  "seed": 9000
+}

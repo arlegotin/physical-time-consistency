@@ -1,0 +1,141 @@
+{
+  "alpha_spent": null,
+  "code_tree_sha256": "b17a3dc3245f6d0e241fc90de9ffa7a8c818f09cc52ac61ceda0fec9fd6260cf",
+  "configuration_sha256": "7034f3e8f7a567225de9a111e5226fa34b5271e44e44f72be2f01bf1a3920f1f",
+  "created_utc": "2026-09-30T17:46:43.986537Z",
+  "criterion_evaluations": [
+    {
+      "bounds": null,
+      "criterion_id": "G00.authorization",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "Actual owner allocation recorded: {'ram_limit_gib': None, 'disk_limit_gib': None, 'cpu_time_limit_hours': None}",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.python",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "3.11.5 | packaged by conda-forge | (main, Aug 27 2023, 03:33:12) [Clang 15.0.7 ]",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.architecture",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "macOS-26.6.2-arm64-arm-64bit",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.virtual_environment",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": ".venv",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.disk",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "13466304512 available bytes; suggested estimates are not resource caps",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.packages",
+      "estimate": null,
+      "operator": "qualification",
+      "reason": "Command failed (exit 1): ['/workspace/physical-time-consistency/.venv/bin/python', '-m', 'pip', '--isolated', '--disable-pip-version-check', 'install', '--only-binary=:all:', '--index-url', 'https://pypi.org/simple', '-r', 'requirements.in']; full output in /workspace/physical-time-consistency/evidence/M00/20260930T194636-e1ecb544/stderr.log",
+      "status": "unresolved",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.determinism",
+      "estimate": null,
+      "operator": "qualification",
+      "reason": "Not run",
+      "status": "unresolved",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.nstep",
+      "estimate": null,
+      "operator": "qualification",
+      "reason": "Not run",
+      "status": "unresolved",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.torch_smoke",
+      "estimate": null,
+      "operator": "qualification",
+      "reason": "Not run",
+      "status": "unresolved",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.wheel_lock",
+      "estimate": null,
+      "operator": "qualification",
+      "reason": "Not run",
+      "status": "unresolved",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.offline_install",
+      "estimate": null,
+      "operator": "qualification",
+      "reason": "Not run",
+      "status": "unresolved",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.validators",
+      "estimate": null,
+      "operator": "qualification",
+      "reason": "Not run",
+      "status": "unresolved",
+      "threshold": null
+    }
+  ],
+  "decision_id": "aa10725d97f2a89726639d4ebcc4619b5eab6738052778eb78cc4e6dd4727e2f",
+  "evidence": [
+    {
+      "path": "evidence/M00/20260930T194636-e1ecb544/manifest.json",
+      "producing_run_id": "20260930T194636-e1ecb544",
+      "role": "manifest",
+      "sha256": "eccf882d2b7b991898a63e7b2b3aae66ecfe4dc4ff57e3c2f4470700980ab317"
+    }
+  ],
+  "gate_id": "G00",
+  "look_index": null,
+  "milestone_id": "M00",
+  "outcome": "BLOCKED",
+  "permitted_next_actions": [
+    {
+      "branch": null,
+      "milestone_id": "MF",
+      "question": "Report exact external prerequisite"
+    }
+  ],
+  "phase": "preflight",
+  "protocol_version": "PTCO-1.0",
+  "schema_version": 1,
+  "terminal_verdict": null,
+  "validity_status": "blocked"
+}

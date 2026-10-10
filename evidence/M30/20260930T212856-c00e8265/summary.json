@@ -1,0 +1,20 @@
+{
+  "actuator": "direct",
+  "missing_cells": [],
+  "model_hashes": {
+    "canonical_tensor_sha256": "fd8800e9b95b1271360e98820b0b401094c6be1548b28c1ec1df94abfc351cf4"
+  },
+  "model_id": "node_structured",
+  "robot_result": false,
+  "tiny_loss": 0.0008478636736981571,
+  "tiny_updates": 72,
+  "training_updates": 472,
+  "validation": {
+    "epoch": 100,
+    "four_count": 0,
+    "four_step": 0.0,
+    "objective": 0.00047357313451357186,
+    "one_count": 256,
+    "one_step": 0.00047357313451357186
+  }
+}

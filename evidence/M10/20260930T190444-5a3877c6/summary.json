@@ -1,0 +1,33 @@
+{
+  "measurements": {
+    "analytic_max_abs_error": 4.440892098500626e-16,
+    "composition_max_abs_error": 8.881784197001252e-16,
+    "decimal_max_relative_error": 2.377638111342625e-15,
+    "exact_cases_per_actuator": 1000,
+    "identity_max_abs_error": 0.0,
+    "jacobian_max_relative_error": 8.837275269447189e-18,
+    "mutation_count": 10,
+    "shared_checkpoint_hashes": [
+      [
+        "3498c8ac2ea08afb9dd00bf19efb071d87fb04de9d0c829f760e1e3ec08e3733",
+        "3498c8ac2ea08afb9dd00bf19efb071d87fb04de9d0c829f760e1e3ec08e3733",
+        "3498c8ac2ea08afb9dd00bf19efb071d87fb04de9d0c829f760e1e3ec08e3733"
+      ],
+      [
+        "4e7ee069f7bef2949261c202db1a749b08a3281f4887369f631054ad33906677",
+        "4e7ee069f7bef2949261c202db1a749b08a3281f4887369f631054ad33906677",
+        "4e7ee069f7bef2949261c202db1a749b08a3281f4887369f631054ad33906677"
+      ]
+    ],
+    "slide_accepted_max_abs_error": 5.3512749786932545e-14,
+    "slide_accepted_step_s": 0.000125,
+    "slide_step_max_abs_errors": [
+      7.524869616304386e-12,
+      4.696243394164412e-13,
+      5.3512749786932545e-14
+    ]
+  },
+  "missing_cells": [],
+  "phase": "unit",
+  "robot_experiments_run": false
+}

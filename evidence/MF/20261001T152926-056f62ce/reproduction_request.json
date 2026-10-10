@@ -1,0 +1,10 @@
+{
+  "decision_id": "0b79513e7f2cc7e8cc1eb8a416ba0e1330f54bab6e6f3d264977eb7eb5f1173d",
+  "execution_behavior": "Default verifies and reaggregates. Explicit execution resumes frozen jobs; complete compatible jobs remain cached. No fresh-training replication is claimed.",
+  "gate_id": "GR",
+  "lock_sha256": "1a54549c11c2066b09d75676f068aebc8f51db91e3bbd0ff4ee22988a3f36a16",
+  "outcome": "INCONCLUSIVE",
+  "protocol_version": "PTCO-1.0",
+  "snapshot_sha256": "50aef9170641ac5b4cb9a2c49ab423ea2824dbc926909f00f0102c78d2227cea",
+  "study_relative": "study/first-confirmation"
+}

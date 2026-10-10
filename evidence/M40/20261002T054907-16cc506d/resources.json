@@ -1,0 +1,16 @@
+{
+  "cpu_seconds": 26.050882,
+  "disk_bytes": 2572277,
+  "original_estimate": {
+    "disk_bytes": 3214091.25,
+    "measurement_manifest": "evidence/M40/20261002T023002-0c83d91b/manifest.json",
+    "measurement_manifest_sha256": "964328493be773f98d970f7c6546ff268ede498e2bf13c8bffc31d608a0e07f0",
+    "projection_margin": 1.25,
+    "reason": "Measured same model, plant, power mode and clock; unchanged ten-task workload; estimate, not a cap",
+    "wall_seconds": 33.18828296875
+  },
+  "peak_rss_bytes": 391282688,
+  "rss_convention": "macOS bytes",
+  "training_updates": 0,
+  "wall_seconds": 26.059676291
+}

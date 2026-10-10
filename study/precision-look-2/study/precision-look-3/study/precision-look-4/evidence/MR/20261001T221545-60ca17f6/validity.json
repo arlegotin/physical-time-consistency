@@ -1,0 +1,27 @@
+{
+  "blocker": null,
+  "checks": [
+    {
+      "check_id": "MR.freeze",
+      "reason": "Complete frozen subset, independent paired seeds, original K=280, numerical and precision rules",
+      "scope": "negative-only-direct-NODE",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "MR.coverage",
+      "reason": "Complete frozen subset, independent paired seeds, original K=280, numerical and precision rules",
+      "scope": "negative-only-direct-NODE",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "MR.statistics",
+      "reason": "Complete frozen subset, independent paired seeds, original K=280, numerical and precision rules",
+      "scope": "negative-only-direct-NODE",
+      "status": "pass",
+      "tolerance": null
+    }
+  ],
+  "validity_status": "valid"
+}

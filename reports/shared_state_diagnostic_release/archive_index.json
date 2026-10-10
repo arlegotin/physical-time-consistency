@@ -1,0 +1,90 @@
+{
+  "files": [
+    {
+      "archived_path": "reports/shared_state_diagnostic_release/manifest.json",
+      "sha256": "6a93b78d12ee56eedc96f11a456ee74e0460a38898a134ed8e340d31422cda61",
+      "source_path": "evidence/M40/20261007T230617-ff6297b2/manifest.json"
+    },
+    {
+      "archived_path": "reports/shared_state_diagnostic_release/COMPLETED",
+      "sha256": "16a99265bf51a7dd806271ddaf74d4dbc90a99a7660060b18ad84cb0f9691b6b",
+      "source_path": "evidence/M40/20261007T230617-ff6297b2/COMPLETED"
+    },
+    {
+      "archived_path": "reports/shared_state_diagnostic_release/resources.json",
+      "sha256": "86dd829cd25898c2c137a90492c5eb8f2d47b34dc0e575e49322070cb27db2d4",
+      "source_path": "evidence/M40/20261007T230617-ff6297b2/resources.json"
+    },
+    {
+      "archived_path": "reports/shared_state_diagnostic_release/validity.json",
+      "sha256": "52f8f8cd1fb8551e3d7d49ed71c1c6bdd9f7eff07a4608d9d3622253f234c633",
+      "source_path": "evidence/M40/20261007T230617-ff6297b2/validity.json"
+    },
+    {
+      "archived_path": "reports/shared_state_diagnostic_release/measurement.log",
+      "sha256": "ce7219400d57dcf4af87ce976ca179c3cb25ea63d9241adfb3951fbc47aba5aa",
+      "source_path": ".superpowers/sdd/2026-10-08-shared-state-diagnostic/measurement.log"
+    },
+    {
+      "archived_path": "reports/shared_state_diagnostic_release/task-3-final-suite.log",
+      "sha256": "b5be94849a4983813224f7452e29c8e8bf4073de8313f1b94ace5e49c7bee4f3",
+      "source_path": ".superpowers/sdd/2026-10-08-shared-state-diagnostic/task-3-final-suite.log"
+    },
+    {
+      "archived_path": "reports/shared_state_diagnostic_release/progress.md",
+      "sha256": "174c3ea7f23b2d29fc7b279215f2a29abfdbda9c483844166e8d5381cbe0699c",
+      "source_path": ".superpowers/sdd/2026-10-08-shared-state-diagnostic/progress.md"
+    },
+    {
+      "archived_path": "reports/shared_state_diagnostic_release/review-69744dd..7691048.diff",
+      "sha256": "27fe1fe8f2ba38aa77b69b98e2889a8d1b792c95018faf99537aac9c92b65c56",
+      "source_path": ".superpowers/sdd/2026-10-08-shared-state-diagnostic/review-69744dd..7691048.diff"
+    },
+    {
+      "archived_path": "reports/shared_state_diagnostic_release/plan-path",
+      "sha256": "f33f206817082abd3d8e071e3ffe94e2df21e251e556ac17145157a31ab59912",
+      "source_path": ".superpowers/sdd/2026-10-08-shared-state-diagnostic/plan-path"
+    },
+    {
+      "archived_path": "reports/shared_state_diagnostic_release/task-1-brief.md",
+      "sha256": "dcc57161584cc4f8645190c340288a1845ed4375170ab3814edd990c1fe771c2",
+      "source_path": ".superpowers/sdd/2026-10-08-shared-state-diagnostic/task-1-brief.md"
+    },
+    {
+      "archived_path": "reports/shared_state_diagnostic_release/task-1-suite.log",
+      "sha256": "6ef9d346ab415d00560010102ab19f9285d66544c3e54189e76ee537d1ef28da",
+      "source_path": ".superpowers/sdd/2026-10-08-shared-state-diagnostic/task-1-suite.log"
+    },
+    {
+      "archived_path": "reports/shared_state_diagnostic_release/task-1-tests.log",
+      "sha256": "7abac67c3cceb2084525d7ddb489e8f7971a0c333e0a75d67d8c7219a6e9627b",
+      "source_path": ".superpowers/sdd/2026-10-08-shared-state-diagnostic/task-1-tests.log"
+    },
+    {
+      "archived_path": "reports/shared_state_diagnostic_release/task-2-brief.md",
+      "sha256": "11b2c5c83daf446c18dedc94de67ed01521f59798cc5987d1b4ca77ecda454ad",
+      "source_path": ".superpowers/sdd/2026-10-08-shared-state-diagnostic/task-2-brief.md"
+    },
+    {
+      "archived_path": "reports/shared_state_diagnostic_release/task-2-suite.log",
+      "sha256": "6b916a385dd2c1d9fb451a5208734e9717ea03dc7f1d99b40941abdeb703bd41",
+      "source_path": ".superpowers/sdd/2026-10-08-shared-state-diagnostic/task-2-suite.log"
+    },
+    {
+      "archived_path": "reports/shared_state_diagnostic_release/task-2-tests.log",
+      "sha256": "478d38eb52494067e3bcd9a4bb323f7a33c8407927ff7ca238cefb97ac44fcbc",
+      "source_path": ".superpowers/sdd/2026-10-08-shared-state-diagnostic/task-2-tests.log"
+    },
+    {
+      "archived_path": "reports/shared_state_diagnostic_release/task-3-brief.md",
+      "sha256": "c254033142af970d635c751de68dfc432c732c50d074e2ac7e9a427747cf5a15",
+      "source_path": ".superpowers/sdd/2026-10-08-shared-state-diagnostic/task-3-brief.md"
+    },
+    {
+      "archived_path": "reports/shared_state_diagnostic_release/task-3-tests.log",
+      "sha256": "a9bce42b621c18c23376e09edca1b6c8d6c2a7bd76248924407a6b01ae96087a",
+      "source_path": ".superpowers/sdd/2026-10-08-shared-state-diagnostic/task-3-tests.log"
+    }
+  ],
+  "protocol_id": "PTCO-DIAG-0.1"
+}

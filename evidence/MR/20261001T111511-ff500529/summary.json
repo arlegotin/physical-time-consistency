@@ -1,0 +1,1672 @@
+{
+  "complete_core_coverage": false,
+  "contrast_summaries": {
+    "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct": {
+      "baseline": [
+        0.021368337000618756,
+        0.02564594264727414,
+        0.023585933434608207,
+        0.018598670316275184,
+        0.03049924628632205
+      ],
+      "method": [
+        0.021035156690428707,
+        0.01951983588824587,
+        0.01841309956302144,
+        0.01866008135880541,
+        0.017886922713335543
+      ],
+      "numerical_envelope": {
+        "lower": 1.7239303026772568e-08,
+        "upper": 1.7239303025037844e-08
+      },
+      "ratio_numerical_envelope": {
+        "lower": 8.747801452102522e-07,
+        "upper": 8.747792369367957e-07
+      },
+      "seed_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "validity": "valid",
+      "values": [
+        -0.010350988190119328,
+        -0.006696864564608799,
+        -0.006620132845717337,
+        -0.009360746200667819,
+        -0.002637299570174518
+      ]
+    },
+    "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct": {
+      "baseline": [
+        0.021368337000618756,
+        0.02564594264727414,
+        0.023585933434608207,
+        0.018598670316275184,
+        0.03049924628632205
+      ],
+      "method": [
+        0.021035156690428707,
+        0.01951983588824587,
+        0.01841309956302144,
+        0.01866008135880541,
+        0.017886922713335543
+      ],
+      "numerical_envelope": {
+        "lower": 2.345241037066126e-08,
+        "upper": 2.345241037066126e-08
+      },
+      "ratio_numerical_envelope": {
+        "lower": 8.747801452102522e-07,
+        "upper": 8.747792369367957e-07
+      },
+      "seed_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "validity": "valid",
+      "values": [
+        0.0003331803101900496,
+        0.00612610675902827,
+        0.005172833871586766,
+        -6.141104253022667e-05,
+        0.012612323572986507
+      ]
+    },
+    "K02.relative/actuator=direct/stratum=cold/h_ns=5000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct": {
+      "baseline": [
+        0.038551228086689315,
+        0.04691801051544024,
+        0.04288580309241007,
+        0.03180190221558129,
+        0.05359023553537157
+      ],
+      "method": [
+        0.023574010024419126,
+        0.0212838935594779,
+        0.020270216649728227,
+        0.020660482355205085,
+        0.019601886925679893
+      ],
+      "numerical_envelope": {
+        "lower": 8.32277789603042e-08,
+        "upper": 8.322777891311973e-08
+      },
+      "ratio_numerical_envelope": {
+        "lower": 1.9391669362489594e-06,
+        "upper": 1.9391626258635775e-06
+      },
+      "seed_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "validity": "valid",
+      "values": [
+        -0.004298395981074468,
+        0.0021751116982422214,
+        0.0011726848964768097,
+        -0.0047595312474144405,
+        0.007193230842005894
+      ]
+    },
+    "K02.relative/actuator=direct/stratum=cold/h_ns=5000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct": {
+      "baseline": [
+        0.038551228086689315,
+        0.04691801051544024,
+        0.04288580309241007,
+        0.03180190221558129,
+        0.05359023553537157
+      ],
+      "method": [
+        0.023574010024419126,
+        0.0212838935594779,
+        0.020270216649728227,
+        0.020660482355205085,
+        0.019601886925679893
+      ],
+      "numerical_envelope": {
+        "lower": 1.069775107831461e-07,
+        "upper": 1.0697751076094165e-07
+      },
+      "ratio_numerical_envelope": {
+        "lower": 1.9391669362489594e-06,
+        "upper": 1.9391626258635775e-06
+      },
+      "seed_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "validity": "valid",
+      "values": [
+        0.01497721806227019,
+        0.025634116955962342,
+        0.022615586442681846,
+        0.011141419860376204,
+        0.03398834860969168
+      ]
+    },
+    "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct": {
+      "baseline": [
+        0.02344575709813955,
+        0.02964937096026171,
+        0.026084863398328877,
+        0.017313516942070672,
+        0.030783882212948015
+      ],
+      "method": [
+        0.02482946307365847,
+        0.0210428303492156,
+        0.018728954920797652,
+        0.02000874602148045,
+        0.01972637389244735
+      ],
+      "numerical_envelope": {
+        "lower": 2.0211685769488952e-08,
+        "upper": 2.021168577018284e-08
+      },
+      "ratio_numerical_envelope": {
+        "lower": 9.918981956902329e-07,
+        "upper": 9.918969685607237e-07
+      },
+      "seed_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "validity": "valid",
+      "values": [
+        -0.013106584524588696,
+        -0.0062181448690847435,
+        -0.005686523221633214,
+        -0.011351987550445114,
+        -0.004334432785973343
+      ]
+    },
+    "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct": {
+      "baseline": [
+        0.02344575709813955,
+        0.02964937096026171,
+        0.026084863398328877,
+        0.017313516942070672,
+        0.030783882212948015
+      ],
+      "method": [
+        0.02482946307365847,
+        0.0210428303492156,
+        0.018728954920797652,
+        0.02000874602148045,
+        0.01972637389244735
+      ],
+      "numerical_envelope": {
+        "lower": 2.8088857636360264e-08,
+        "upper": 2.8088857638441934e-08
+      },
+      "ratio_numerical_envelope": {
+        "lower": 9.918981956902329e-07,
+        "upper": 9.918969685607237e-07
+      },
+      "seed_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "validity": "valid",
+      "values": [
+        -0.0013837059755189215,
+        0.008606540611046112,
+        0.007355908477531224,
+        -0.0026952290794097777,
+        0.011057508320500665
+      ]
+    },
+    "K02.relative/actuator=direct/stratum=warm/h_ns=5000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct": {
+      "baseline": [
+        0.04321659907728859,
+        0.052378300581562585,
+        0.048550961487140054,
+        0.030772981114262632,
+        0.05584422120291712
+      ],
+      "method": [
+        0.0275095681893647,
+        0.024151906790303875,
+        0.021063040767240773,
+        0.022397076339273594,
+        0.02224740767883432
+      ],
+      "numerical_envelope": {
+        "lower": 6.428614448515668e-08,
+        "upper": 6.428614445289083e-08
+      },
+      "ratio_numerical_envelope": {
+        "lower": 1.400639434545603e-06,
+        "upper": 1.4006369181140954e-06
+      },
+      "seed_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "validity": "valid",
+      "values": [
+        -0.005901268650720406,
+        0.0020372435004774175,
+        0.0032124399763292545,
+        -0.007010585782142278,
+        0.005674702922624241
+      ]
+    },
+    "K02.relative/actuator=direct/stratum=warm/h_ns=5000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct": {
+      "baseline": [
+        0.04321659907728859,
+        0.052378300581562585,
+        0.048550961487140054,
+        0.030772981114262632,
+        0.05584422120291712
+      ],
+      "method": [
+        0.0275095681893647,
+        0.024151906790303875,
+        0.021063040767240773,
+        0.022397076339273594,
+        0.02224740767883432
+      ],
+      "numerical_envelope": {
+        "lower": 8.500968623342819e-08,
+        "upper": 8.500968622024429e-08
+      },
+      "ratio_numerical_envelope": {
+        "lower": 1.400639434545603e-06,
+        "upper": 1.4006369181140954e-06
+      },
+      "seed_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "validity": "valid",
+      "values": [
+        0.015707030887923887,
+        0.02822639379125871,
+        0.02748792071989928,
+        0.008375904774989038,
+        0.0335968135240828
+      ]
+    }
+  },
+  "criterion_evaluations": [
+    {
+      "alpha_spent": 0.025,
+      "bounds": null,
+      "criterion_id": "K02.relative/actuator=direct/stratum=cold/h_ns=5000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": 0.00029662004164720325,
+      "look_index": 1,
+      "operator": ">=",
+      "pass_bounds": {
+        "alpha": 0.025,
+        "bootstrap_indices_sha256": "7233803ca3d22cf8263076a5bb81163dcb8514efff8160e27fb0fc22017f3c39",
+        "central_bootstrap": [
+          -0.0033886339121002016,
+          0.003981873995394608
+        ],
+        "influence": {
+          "leave_one_out": [
+            {
+              "bounds": [
+                -0.006357872665671695,
+                0.009248620760326938
+              ],
+              "interpretation": 0,
+              "mean": 0.0014453740473276211,
+              "omitted_seed_index": 0
+            },
+            {
+              "bounds": [
+                -0.009086096321354244,
+                0.008740090576351143
+              ],
+              "interpretation": 0,
+              "mean": -0.00017300287250155127,
+              "omitted_seed_index": 1
+            },
+            {
+              "bounds": [
+                -0.008997435243999225,
+                0.00915264289987883
+              ],
+              "interpretation": 0,
+              "mean": 7.760382793980166e-05,
+              "omitted_seed_index": 2
+            },
+            {
+              "bounds": [
+                -0.005935701583891095,
+                0.009057017311716323
+              ],
+              "interpretation": 0,
+              "mean": 0.0015606578639126142,
+              "omitted_seed_index": 3
+            },
+            {
+              "bounds": [
+                -0.0071709628243635925,
+                0.004315897507478654
+              ],
+              "interpretation": 0,
+              "mean": -0.0014275326584424694,
+              "omitted_seed_index": 4
+            }
+          ],
+          "leave_one_out_changed": false,
+          "max_centered_share": 0.35729412710203834,
+          "unstable": false
+        },
+        "lower": -0.005866242615498538,
+        "mean": 0.00029662004164720325,
+        "n": 5,
+        "numerical_envelope": {
+          "lower": 8.32277789603042e-08,
+          "upper": 8.322777891311973e-08
+        },
+        "quantile_method": "linear",
+        "rule": "t_bootstrap",
+        "sd": 0.004963322958773121,
+        "status": "ok",
+        "upper": 0.006459482698792898
+      },
+      "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+      "rejection_bounds": {
+        "alpha": 8.928571428571429e-05,
+        "bootstrap_indices_sha256": "7233803ca3d22cf8263076a5bb81163dcb8514efff8160e27fb0fc22017f3c39",
+        "central_bootstrap": [
+          -0.0033886339121002016,
+          0.003981873995394608
+        ],
+        "influence": {
+          "leave_one_out": [
+            {
+              "bounds": [
+                -0.05510341171658908,
+                0.05799415981124432
+              ],
+              "interpretation": 0,
+              "mean": 0.0014453740473276211,
+              "omitted_seed_index": 0
+            },
+            {
+              "bounds": [
+                -0.06476465689431954,
+                0.06441865114931644
+              ],
+              "interpretation": 0,
+              "mean": -0.00017300287250155127,
+              "omitted_seed_index": 1
+            },
+            {
+              "bounds": [
+                -0.0656876422488439,
+                0.06584284990472349
+              ],
+              "interpretation": 0,
+              "mean": 7.760382793980166e-05,
+              "omitted_seed_index": 2
+            },
+            {
+              "bounds": [
+                -0.052764168713334926,
+                0.055885484441160156
+              ],
+              "interpretation": 0,
+              "mean": 0.0015606578639126142,
+              "omitted_seed_index": 3
+            },
+            {
+              "bounds": [
+                -0.0430491824598818,
+                0.04019411714299686
+              ],
+              "interpretation": 0,
+              "mean": -0.0014275326584424694,
+              "omitted_seed_index": 4
+            }
+          ],
+          "leave_one_out_changed": false,
+          "max_centered_share": 0.35729412710203834,
+          "unstable": false
+        },
+        "lower": -0.02948127294096323,
+        "mean": 0.00029662004164720325,
+        "n": 5,
+        "numerical_envelope": {
+          "lower": 8.32277789603042e-08,
+          "upper": 8.322777891311973e-08
+        },
+        "quantile_method": "linear",
+        "rule": "t_rare_tail_with_central_bootstrap",
+        "sd": 0.004963322958773121,
+        "status": "ok",
+        "upper": 0.03007451302425759
+      },
+      "status": "unresolved",
+      "threshold": 0.5
+    },
+    {
+      "alpha_spent": 0.025,
+      "bounds": [
+        0.010496351766374137,
+        0.03284632420601875
+      ],
+      "criterion_id": "K02.relative/actuator=direct/stratum=cold/h_ns=5000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": 0.021671337986196453,
+      "look_index": 1,
+      "operator": ">",
+      "pass_bounds": {
+        "alpha": 0.025,
+        "bootstrap_indices_sha256": "7233803ca3d22cf8263076a5bb81163dcb8514efff8160e27fb0fc22017f3c39",
+        "central_bootstrap": [
+          0.014970572457594925,
+          0.028515276169461513
+        ],
+        "influence": {
+          "leave_one_out": [
+            {
+              "bounds": [
+                0.008305765185217124,
+                0.03838397074913891
+              ],
+              "interpretation": 1,
+              "mean": 0.023344867967178017,
+              "omitted_seed_index": 0
+            },
+            {
+              "bounds": [
+                0.004653071732739832,
+                0.036708214754770124
+              ],
+              "interpretation": 1,
+              "mean": 0.02068064324375498,
+              "omitted_seed_index": 1
+            },
+            {
+              "bounds": [
+                0.00492740906797081,
+                0.037943142676179396
+              ],
+              "interpretation": 1,
+              "mean": 0.021435275872075103,
+              "omitted_seed_index": 2
+            },
+            {
+              "bounds": [
+                0.011794893249920696,
+                0.03681274178538234
+              ],
+              "interpretation": 1,
+              "mean": 0.024303817517651517,
+              "omitted_seed_index": 3
+            },
+            {
+              "bounds": [
+                0.007943229251199016,
+                0.029240941409446275
+              ],
+              "interpretation": 1,
+              "mean": 0.018592085330322645,
+              "omitted_seed_index": 4
+            }
+          ],
+          "leave_one_out_changed": false,
+          "max_centered_share": 0.3575529323588698,
+          "unstable": false
+        },
+        "lower": 0.010496351766374137,
+        "mean": 0.021671337986196453,
+        "n": 5,
+        "numerical_envelope": {
+          "lower": 1.069775107831461e-07,
+          "upper": 1.0697751076094165e-07
+        },
+        "quantile_method": "linear",
+        "rule": "t_bootstrap",
+        "sd": 0.008999922087197096,
+        "status": "ok",
+        "upper": 0.03284632420601875
+      },
+      "reason": "Point estimate and preregistered lower bound clear the boundary",
+      "rejection_bounds": {
+        "alpha": 8.928571428571429e-05,
+        "bootstrap_indices_sha256": "7233803ca3d22cf8263076a5bb81163dcb8514efff8160e27fb0fc22017f3c39",
+        "central_bootstrap": [
+          0.014970572457594925,
+          0.028515276169461513
+        ],
+        "influence": {
+          "leave_one_out": [
+            {
+              "bounds": [
+                -0.08564092122770792,
+                0.13233065716206394
+              ],
+              "interpretation": 0,
+              "mean": 0.023344867967178017,
+              "omitted_seed_index": 0
+            },
+            {
+              "bounds": [
+                -0.09546840868643605,
+                0.136829695173946
+              ],
+              "interpretation": 0,
+              "mean": 0.02068064324375498,
+              "omitted_seed_index": 1
+            },
+            {
+              "bounds": [
+                -0.0981943933743761,
+                0.14106494511852632
+              ],
+              "interpretation": 0,
+              "mean": 0.021435275872075103,
+              "omitted_seed_index": 2
+            },
+            {
+              "bounds": [
+                -0.06634620350175063,
+                0.11495383853705365
+              ],
+              "interpretation": 0,
+              "mean": 0.024303817517651517,
+              "omitted_seed_index": 3
+            },
+            {
+              "bounds": [
+                -0.058578341697952806,
+                0.09576251235859809
+              ],
+              "interpretation": 0,
+              "mean": 0.018592085330322645,
+              "omitted_seed_index": 4
+            }
+          ],
+          "leave_one_out_changed": false,
+          "max_centered_share": 0.3575529323588698,
+          "unstable": false
+        },
+        "lower": -0.03232444284669994,
+        "mean": 0.021671337986196453,
+        "n": 5,
+        "numerical_envelope": {
+          "lower": 1.069775107831461e-07,
+          "upper": 1.0697751076094165e-07
+        },
+        "quantile_method": "linear",
+        "rule": "t_rare_tail_with_central_bootstrap",
+        "sd": 0.008999922087197096,
+        "status": "ok",
+        "upper": 0.07566711881909283
+      },
+      "status": "pass",
+      "threshold": 0.0
+    },
+    {
+      "alpha_spent": 0.025,
+      "bounds": null,
+      "criterion_id": "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": -0.0071332062742575615,
+      "look_index": 1,
+      "operator": ">=",
+      "pass_bounds": {
+        "alpha": 0.025,
+        "bootstrap_indices_sha256": "7233803ca3d22cf8263076a5bb81163dcb8514efff8160e27fb0fc22017f3c39",
+        "central_bootstrap": [
+          -0.009224066669236619,
+          -0.004778555551381742
+        ],
+        "influence": {
+          "leave_one_out": [
+            {
+              "bounds": [
+                -0.010738508758301893,
+                -0.001919012832282345
+              ],
+              "interpretation": -1,
+              "mean": -0.006328760795292119,
+              "omitted_seed_index": 0
+            },
+            {
+              "bounds": [
+                -0.012734884060355733,
+                -0.0017496993429837676
+              ],
+              "interpretation": -1,
+              "mean": -0.007242291701669751,
+              "omitted_seed_index": 1
+            },
+            {
+              "bounds": [
+                -0.012747066128090935,
+                -0.001775883134694299
+              ],
+              "interpretation": -1,
+              "mean": -0.0072614746313926165,
+              "omitted_seed_index": 2
+            },
+            {
+              "bounds": [
+                -0.011589764593644924,
+                -0.0015628779916650685
+              ],
+              "interpretation": -1,
+              "mean": -0.006576321292654996,
+              "omitted_seed_index": 3
+            },
+            {
+              "bounds": [
+                -0.011264608563817132,
+                -0.00524975733673951
+              ],
+              "interpretation": -1,
+              "mean": -0.008257182950278321,
+              "omitted_seed_index": 4
+            }
+          ],
+          "leave_one_out_changed": false,
+          "max_centered_share": 0.41282286284543596,
+          "unstable": false
+        },
+        "lower": -0.010857329170438567,
+        "mean": -0.0071332062742575615,
+        "n": 5,
+        "numerical_envelope": {
+          "lower": 1.7239303026772568e-08,
+          "upper": 1.7239303025037844e-08
+        },
+        "quantile_method": "linear",
+        "rule": "t_bootstrap",
+        "sd": 0.002999286169418939,
+        "status": "ok",
+        "upper": -0.0034090833780765577
+      },
+      "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+      "rejection_bounds": {
+        "alpha": 8.928571428571429e-05,
+        "bootstrap_indices_sha256": "7233803ca3d22cf8263076a5bb81163dcb8514efff8160e27fb0fc22017f3c39",
+        "central_bootstrap": [
+          -0.009224066669236619,
+          -0.004778555551381742
+        ],
+        "influence": {
+          "leave_one_out": [
+            {
+              "bounds": [
+                -0.03828544523764003,
+                0.025627923647055788
+              ],
+              "interpretation": 0,
+              "mean": -0.006328760795292119,
+              "omitted_seed_index": 0
+            },
+            {
+              "bounds": [
+                -0.047046163090541306,
+                0.03256157968720181
+              ],
+              "interpretation": 0,
+              "mean": -0.007242291701669751,
+              "omitted_seed_index": 1
+            },
+            {
+              "bounds": [
+                -0.047014611978491064,
+                0.03249166271570583
+              ],
+              "interpretation": 0,
+              "mean": -0.0072614746313926165,
+              "omitted_seed_index": 2
+            },
+            {
+              "bounds": [
+                -0.04290788193585973,
+                0.02975523935054974
+              ],
+              "interpretation": 0,
+              "mean": -0.006576321292654996,
+              "omitted_seed_index": 3
+            },
+            {
+              "bounds": [
+                -0.030051478706378275,
+                0.013537112805821634
+              ],
+              "interpretation": 0,
+              "mean": -0.008257182950278321,
+              "omitted_seed_index": 4
+            }
+          ],
+          "leave_one_out_changed": false,
+          "max_centered_share": 0.41282286284543596,
+          "unstable": false
+        },
+        "lower": -0.025127654602391327,
+        "mean": -0.0071332062742575615,
+        "n": 5,
+        "numerical_envelope": {
+          "lower": 1.7239303026772568e-08,
+          "upper": 1.7239303025037844e-08
+        },
+        "quantile_method": "linear",
+        "rule": "t_rare_tail_with_central_bootstrap",
+        "sd": 0.002999286169418939,
+        "status": "ok",
+        "upper": 0.010861242053876204
+      },
+      "status": "unresolved",
+      "threshold": 0.5
+    },
+    {
+      "alpha_spent": 0.025,
+      "bounds": null,
+      "criterion_id": "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": 0.004836606694252273,
+      "look_index": 1,
+      "operator": ">",
+      "pass_bounds": {
+        "alpha": 0.025,
+        "bootstrap_indices_sha256": "7233803ca3d22cf8263076a5bb81163dcb8514efff8160e27fb0fc22017f3c39",
+        "central_bootstrap": [
+          0.0011432744813812824,
+          0.008780333287091513
+        ],
+        "influence": {
+          "leave_one_out": [
+            {
+              "bounds": [
+                -0.002313834780384675,
+                0.014238761360920334
+              ],
+              "interpretation": 0,
+              "mean": 0.005962463290267829,
+              "omitted_seed_index": 0
+            },
+            {
+              "bounds": [
+                -0.004874009466677094,
+                0.013902472822793641
+              ],
+              "interpretation": 0,
+              "mean": 0.004514231678058274,
+              "omitted_seed_index": 1
+            },
+            {
+              "bounds": [
+                -0.004722367759589506,
+                0.014227467559426806
+              ],
+              "interpretation": 0,
+              "mean": 0.00475254989991865,
+              "omitted_seed_index": 2
+            },
+            {
+              "bounds": [
+                -0.0019752661557744045,
+                0.014097488412670202
+              ],
+              "interpretation": 0,
+              "mean": 0.006061111128447898,
+              "omitted_seed_index": 3
+            },
+            {
+              "bounds": [
+                -0.0022167631806270655,
+                0.008002118129764495
+              ],
+              "interpretation": 0,
+              "mean": 0.002892677474568715,
+              "omitted_seed_index": 4
+            }
+          ],
+          "leave_one_out_changed": false,
+          "max_centered_share": 0.4135384297766577,
+          "unstable": false
+        },
+        "lower": -0.0015706032839856402,
+        "mean": 0.004836606694252273,
+        "n": 5,
+        "numerical_envelope": {
+          "lower": 2.345241037066126e-08,
+          "upper": 2.345241037066126e-08
+        },
+        "quantile_method": "linear",
+        "rule": "t_bootstrap",
+        "sd": 0.005160161311833473,
+        "status": "ok",
+        "upper": 0.011243816672490187
+      },
+      "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+      "rejection_bounds": {
+        "alpha": 8.928571428571429e-05,
+        "bootstrap_indices_sha256": "7233803ca3d22cf8263076a5bb81163dcb8514efff8160e27fb0fc22017f3c39",
+        "central_bootstrap": [
+          0.0011432744813812824,
+          0.008780333287091513
+        ],
+        "influence": {
+          "leave_one_out": [
+            {
+              "bounds": [
+                -0.05401444423669614,
+                0.0659393708172318
+              ],
+              "interpretation": 0,
+              "mean": 0.005962463290267829,
+              "omitted_seed_index": 0
+            },
+            {
+              "bounds": [
+                -0.06352073590911544,
+                0.07254919926523198
+              ],
+              "interpretation": 0,
+              "mean": 0.004514231678058274,
+              "omitted_seed_index": 1
+            },
+            {
+              "bounds": [
+                -0.06391054747027014,
+                0.07341564727010744
+              ],
+              "interpretation": 0,
+              "mean": 0.00475254989991865,
+              "omitted_seed_index": 2
+            },
+            {
+              "bounds": [
+                -0.05217713175658563,
+                0.06429935401348143
+              ],
+              "interpretation": 0,
+              "mean": 0.006061111128447898,
+              "omitted_seed_index": 3
+            },
+            {
+              "bounds": [
+                -0.03413455947063559,
+                0.039919914419773016
+              ],
+              "interpretation": 0,
+              "mean": 0.002892677474568715,
+              "omitted_seed_index": 4
+            }
+          ],
+          "leave_one_out_changed": false,
+          "max_centered_share": 0.4135384297766577,
+          "unstable": false
+        },
+        "lower": -0.026122172237975076,
+        "mean": 0.004836606694252273,
+        "n": 5,
+        "numerical_envelope": {
+          "lower": 2.345241037066126e-08,
+          "upper": 2.345241037066126e-08
+        },
+        "quantile_method": "linear",
+        "rule": "t_rare_tail_with_central_bootstrap",
+        "sd": 0.005160161311833473,
+        "status": "ok",
+        "upper": 0.03579538562647962
+      },
+      "status": "unresolved",
+      "threshold": 0.0
+    },
+    {
+      "alpha_spent": 0.025,
+      "bounds": null,
+      "criterion_id": "K02.relative/actuator=direct/stratum=warm/h_ns=5000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": -0.0003974936066863541,
+      "look_index": 1,
+      "operator": ">=",
+      "pass_bounds": {
+        "alpha": 0.025,
+        "bootstrap_indices_sha256": "7233803ca3d22cf8263076a5bb81163dcb8514efff8160e27fb0fc22017f3c39",
+        "central_bootstrap": [
+          -0.00475729307304959,
+          0.003962305859676882
+        ],
+        "influence": {
+          "leave_one_out": [
+            {
+              "bounds": [
+                -0.007832925083401818,
+                0.009789825392046134
+              ],
+              "interpretation": 0,
+              "mean": 0.0009784501543221589,
+              "omitted_seed_index": 0
+            },
+            {
+              "bounds": [
+                -0.011171994925248485,
+                0.00915963915829389
+              ],
+              "interpretation": 0,
+              "mean": -0.001006177883477297,
+              "omitted_seed_index": 1
+            },
+            {
+              "bounds": [
+                -0.01109025200113289,
+                0.00849029799625238
+              ],
+              "interpretation": 0,
+              "mean": -0.0012999770024402562,
+              "omitted_seed_index": 2
+            },
+            {
+              "bounds": [
+                -0.006710377431598475,
+                0.009221936305953728
+              ],
+              "interpretation": 0,
+              "mean": 0.0012557794371776268,
+              "omitted_seed_index": 3
+            },
+            {
+              "bounds": [
+                -0.010323778300901379,
+                0.006492692822873372
+              ],
+              "interpretation": 0,
+              "mean": -0.0019155427390140029,
+              "omitted_seed_index": 4
+            }
+          ],
+          "leave_one_out_changed": false,
+          "max_centered_share": 0.2728878700931363,
+          "unstable": false
+        },
+        "lower": -0.007472201092387013,
+        "mean": -0.0003974936066863541,
+        "n": 5,
+        "numerical_envelope": {
+          "lower": 6.428614448515668e-08,
+          "upper": 6.428614445289083e-08
+        },
+        "quantile_method": "linear",
+        "rule": "t_bootstrap",
+        "sd": 0.005697711466057319,
+        "status": "ok",
+        "upper": 0.006677213879014272
+      },
+      "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+      "rejection_bounds": {
+        "alpha": 8.928571428571429e-05,
+        "bootstrap_indices_sha256": "7233803ca3d22cf8263076a5bb81163dcb8514efff8160e27fb0fc22017f3c39",
+        "central_bootstrap": [
+          -0.00475729307304959,
+          0.003962305859676882
+        ],
+        "influence": {
+          "leave_one_out": [
+            {
+              "bounds": [
+                -0.06287606950010176,
+                0.06483296980874607
+              ],
+              "interpretation": 0,
+              "mean": 0.0009784501543221589,
+              "omitted_seed_index": 0
+            },
+            {
+              "bounds": [
+                -0.07467610415309449,
+                0.07266374838613988
+              ],
+              "interpretation": 0,
+              "mean": -0.001006177883477297,
+              "omitted_seed_index": 1
+            },
+            {
+              "bounds": [
+                -0.07224841472755003,
+                0.06964846072266953
+              ],
+              "interpretation": 0,
+              "mean": -0.0012999770024402562,
+              "omitted_seed_index": 2
+            },
+            {
+              "bounds": [
+                -0.05647358818408839,
+                0.05898514705844364
+              ],
+              "interpretation": 0,
+              "mean": 0.0012557794371776268,
+              "omitted_seed_index": 3
+            },
+            {
+              "bounds": [
+                -0.06284857855468635,
+                0.05901749307665835
+              ],
+              "interpretation": 0,
+              "mean": -0.0019155427390140029,
+              "omitted_seed_index": 4
+            }
+          ],
+          "leave_one_out_changed": false,
+          "max_centered_share": 0.2728878700931363,
+          "unstable": false
+        },
+        "lower": -0.03458138382627689,
+        "mean": -0.0003974936066863541,
+        "n": 5,
+        "numerical_envelope": {
+          "lower": 6.428614448515668e-08,
+          "upper": 6.428614445289083e-08
+        },
+        "quantile_method": "linear",
+        "rule": "t_rare_tail_with_central_bootstrap",
+        "sd": 0.005697711466057319,
+        "status": "ok",
+        "upper": 0.033786396612904154
+      },
+      "status": "unresolved",
+      "threshold": 0.5
+    },
+    {
+      "alpha_spent": 0.025,
+      "bounds": [
+        0.009860616535708472,
+        0.03549700894355301
+      ],
+      "criterion_id": "K02.relative/actuator=direct/stratum=warm/h_ns=5000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": 0.022678812739630745,
+      "look_index": 1,
+      "operator": ">",
+      "pass_bounds": {
+        "alpha": 0.025,
+        "bootstrap_indices_sha256": "7233803ca3d22cf8263076a5bb81163dcb8514efff8160e27fb0fc22017f3c39",
+        "central_bootstrap": [
+          0.014240805665336916,
+          0.03022686707011646
+        ],
+        "influence": {
+          "leave_one_out": [
+            {
+              "bounds": [
+                0.006857468844319661,
+                0.041986047560795256
+              ],
+              "interpretation": 1,
+              "mean": 0.02442175820255746,
+              "omitted_seed_index": 0
+            },
+            {
+              "bounds": [
+                0.00320007024849258,
+                0.03938376470495492
+              ],
+              "interpretation": 1,
+              "mean": 0.02129191747672375,
+              "omitted_seed_index": 1
+            },
+            {
+              "bounds": [
+                0.0031630518795923296,
+                0.03979001960953489
+              ],
+              "interpretation": 1,
+              "mean": 0.02147653574456361,
+              "omitted_seed_index": 2
+            },
+            {
+              "bounds": [
+                0.0142562400716195,
+                0.038252839389962844
+              ],
+              "interpretation": 1,
+              "mean": 0.02625453973079117,
+              "omitted_seed_index": 3
+            },
+            {
+              "bounds": [
+                0.004651447073418292,
+                0.03524717801361717
+              ],
+              "interpretation": 1,
+              "mean": 0.019949312543517728,
+              "omitted_seed_index": 4
+            }
+          ],
+          "leave_one_out_changed": false,
+          "max_centered_share": 0.3361484488871518,
+          "unstable": false
+        },
+        "lower": 0.009860616535708472,
+        "mean": 0.022678812739630745,
+        "n": 5,
+        "numerical_envelope": {
+          "lower": 8.500968623342819e-08,
+          "upper": 8.500968622024429e-08
+        },
+        "quantile_method": "linear",
+        "rule": "t_bootstrap",
+        "sd": 0.010323333214765957,
+        "status": "ok",
+        "upper": 0.03549700894355301
+      },
+      "reason": "Point estimate and preregistered lower bound clear the boundary",
+      "rejection_bounds": {
+        "alpha": 8.928571428571429e-05,
+        "bootstrap_indices_sha256": "7233803ca3d22cf8263076a5bb81163dcb8514efff8160e27fb0fc22017f3c39",
+        "central_bootstrap": [
+          0.014240805665336916,
+          0.03022686707011646
+        ],
+        "influence": {
+          "leave_one_out": [
+            {
+              "bounds": [
+                -0.10286362345272304,
+                0.15170713985783796
+              ],
+              "interpretation": 0,
+              "mean": 0.02442175820255746,
+              "omitted_seed_index": 0
+            },
+            {
+              "bounds": [
+                -0.10981658525438094,
+                0.15240042020782846
+              ],
+              "interpretation": 0,
+              "mean": 0.02129191747672375,
+              "omitted_seed_index": 1
+            },
+            {
+              "bounds": [
+                -0.11123812954290015,
+                0.15419120103202738
+              ],
+              "interpretation": 0,
+              "mean": 0.02147653574456361,
+              "omitted_seed_index": 2
+            },
+            {
+              "bounds": [
+                -0.06069507264369495,
+                0.11320415210527729
+              ],
+              "interpretation": 0,
+              "mean": 0.02625453973079117,
+              "omitted_seed_index": 3
+            },
+            {
+              "bounds": [
+                -0.09091168531174097,
+                0.13081031039877644
+              ],
+              "interpretation": 0,
+              "mean": 0.019949312543517728,
+              "omitted_seed_index": 4
+            }
+          ],
+          "leave_one_out_changed": false,
+          "max_centered_share": 0.3361484488871518,
+          "unstable": false
+        },
+        "lower": -0.03925684548550891,
+        "mean": 0.022678812739630745,
+        "n": 5,
+        "numerical_envelope": {
+          "lower": 8.500968623342819e-08,
+          "upper": 8.500968622024429e-08
+        },
+        "quantile_method": "linear",
+        "rule": "t_rare_tail_with_central_bootstrap",
+        "sd": 0.010323333214765957,
+        "status": "ok",
+        "upper": 0.08461447096477039
+      },
+      "status": "pass",
+      "threshold": 0.0
+    },
+    {
+      "alpha_spent": 0.025,
+      "bounds": null,
+      "criterion_id": "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": -0.008139534590345021,
+      "look_index": 1,
+      "operator": ">=",
+      "pass_bounds": {
+        "alpha": 0.025,
+        "bootstrap_indices_sha256": "7233803ca3d22cf8263076a5bb81163dcb8514efff8160e27fb0fc22017f3c39",
+        "central_bootstrap": [
+          -0.011027057803830473,
+          -0.005252011376859571
+        ],
+        "influence": {
+          "leave_one_out": [
+            {
+              "bounds": [
+                -0.011788444268138057,
+                -0.002007099945430151
+              ],
+              "interpretation": -1,
+              "mean": -0.006897772106784104,
+              "omitted_seed_index": 0
+            },
+            {
+              "bounds": [
+                -0.015406069074390853,
+                -0.001833694966929333
+              ],
+              "interpretation": -1,
+              "mean": -0.008619882020660092,
+              "omitted_seed_index": 1
+            },
+            {
+              "bounds": [
+                -0.015355734734287115,
+                -0.0021498401307588327
+              ],
+              "interpretation": -1,
+              "mean": -0.008752787432522974,
+              "omitted_seed_index": 2
+            },
+            {
+              "bounds": [
+                -0.013586197132890979,
+                -0.0010866455677490203
+              ],
+              "interpretation": -1,
+              "mean": -0.00733642135032,
+              "omitted_seed_index": 3
+            },
+            {
+              "bounds": [
+                -0.014979105633753554,
+                -0.003202514449122328
+              ],
+              "interpretation": -1,
+              "mean": -0.009090810041437941,
+              "omitted_seed_index": 4
+            }
+          ],
+          "leave_one_out_changed": false,
+          "max_centered_share": 0.3036278609106218,
+          "unstable": false
+        },
+        "lower": -0.012915494037708867,
+        "mean": -0.008139534590345021,
+        "n": 5,
+        "numerical_envelope": {
+          "lower": 2.0211685769488952e-08,
+          "upper": 2.021168577018284e-08
+        },
+        "quantile_method": "linear",
+        "rule": "t_bootstrap",
+        "sd": 0.0038464022816052587,
+        "status": "ok",
+        "upper": -0.003363575142981176
+      },
+      "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+      "rejection_bounds": {
+        "alpha": 8.928571428571429e-05,
+        "bootstrap_indices_sha256": "7233803ca3d22cf8263076a5bb81163dcb8514efff8160e27fb0fc22017f3c39",
+        "central_bootstrap": [
+          -0.011027057803830473,
+          -0.005252011376859571
+        ],
+        "influence": {
+          "leave_one_out": [
+            {
+              "bounds": [
+                -0.042339631433522575,
+                0.028544087219954363
+              ],
+              "interpretation": 0,
+              "mean": -0.006897772106784104,
+              "omitted_seed_index": 0
+            },
+            {
+              "bounds": [
+                -0.05779821149933736,
+                0.04055844745801717
+              ],
+              "interpretation": 0,
+              "mean": -0.008619882020660092,
+              "omitted_seed_index": 1
+            },
+            {
+              "bounds": [
+                -0.05660320996957661,
+                0.03909763510453066
+              ],
+              "interpretation": 0,
+              "mean": -0.008752787432522974,
+              "omitted_seed_index": 2
+            },
+            {
+              "bounds": [
+                -0.05262747067884737,
+                0.037954627978207374
+              ],
+              "interpretation": 0,
+              "mean": -0.00733642135032,
+              "omitted_seed_index": 3
+            },
+            {
+              "bounds": [
+                -0.05176227465241463,
+                0.03358065456953875
+              ],
+              "interpretation": 0,
+              "mean": -0.009090810041437941,
+              "omitted_seed_index": 4
+            }
+          ],
+          "leave_one_out_changed": false,
+          "max_centered_share": 0.3036278609106218,
+          "unstable": false
+        },
+        "lower": -0.031216319367539443,
+        "mean": -0.008139534590345021,
+        "n": 5,
+        "numerical_envelope": {
+          "lower": 2.0211685769488952e-08,
+          "upper": 2.021168577018284e-08
+        },
+        "quantile_method": "linear",
+        "rule": "t_rare_tail_with_central_bootstrap",
+        "sd": 0.0038464022816052587,
+        "status": "ok",
+        "upper": 0.014937250186849401
+      },
+      "status": "unresolved",
+      "threshold": 0.5
+    },
+    {
+      "alpha_spent": 0.025,
+      "bounds": null,
+      "criterion_id": "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": 0.004588204470829861,
+      "look_index": 1,
+      "operator": ">",
+      "pass_bounds": {
+        "alpha": 0.025,
+        "bootstrap_indices_sha256": "7233803ca3d22cf8263076a5bb81163dcb8514efff8160e27fb0fc22017f3c39",
+        "central_bootstrap": [
+          -0.00016039232646523487,
+          0.009336801268124955
+        ],
+        "influence": {
+          "leave_one_out": [
+            {
+              "bounds": [
+                -0.003545020053969444,
+                0.015707384218803556
+              ],
+              "interpretation": 0,
+              "mean": 0.006081182082417056,
+              "omitted_seed_index": 0
+            },
+            {
+              "bounds": [
+                -0.007058456537817605,
+                0.0142256974093692
+              ],
+              "interpretation": 0,
+              "mean": 0.0035836204357757974,
+              "omitted_seed_index": 1
+            },
+            {
+              "bounds": [
+                -0.007158466529064325,
+                0.014951023467373363
+              ],
+              "interpretation": 0,
+              "mean": 0.0038962784691545195,
+              "omitted_seed_index": 2
+            },
+            {
+              "bounds": [
+                -0.0022120150345941387,
+                0.01503014075137368
+              ],
+              "interpretation": 0,
+              "mean": 0.00640906285838977,
+              "omitted_seed_index": 3
+            },
+            {
+              "bounds": [
+                -0.006310030000844201,
+                0.01225178701766852
+              ],
+              "interpretation": 0,
+              "mean": 0.0029708785084121593,
+              "omitted_seed_index": 4
+            }
+          ],
+          "leave_one_out_changed": false,
+          "max_centered_share": 0.27473574250936844,
+          "unstable": false
+        },
+        "lower": -0.0031254262805580513,
+        "mean": 0.004588204470829861,
+        "n": 5,
+        "numerical_envelope": {
+          "lower": 2.8088857636360264e-08,
+          "upper": 2.8088857638441934e-08
+        },
+        "quantile_method": "linear",
+        "rule": "t_bootstrap",
+        "sd": 0.006212310797195566,
+        "status": "ok",
+        "upper": 0.012301835222217776
+      },
+      "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+      "rejection_bounds": {
+        "alpha": 8.928571428571429e-05,
+        "bootstrap_indices_sha256": "7233803ca3d22cf8263076a5bb81163dcb8514efff8160e27fb0fc22017f3c39",
+        "central_bootstrap": [
+          -0.00016039232646523487,
+          0.009336801268124955
+        ],
+        "influence": {
+          "leave_one_out": [
+            {
+              "bounds": [
+                -0.06367824785126075,
+                0.07584061201609485
+              ],
+              "interpretation": 0,
+              "mean": 0.006081182082417056,
+              "omitted_seed_index": 0
+            },
+            {
+              "bounds": [
+                -0.07353767958160287,
+                0.08070492045315447
+              ],
+              "interpretation": 0,
+              "mean": 0.0035836204357757974,
+              "omitted_seed_index": 1
+            },
+            {
+              "bounds": [
+                -0.07621555569054313,
+                0.08400811262885217
+              ],
+              "interpretation": 0,
+              "mean": 0.0038962784691545195,
+              "omitted_seed_index": 2
+            },
+            {
+              "bounds": [
+                -0.056066404694397845,
+                0.06888453041117738
+              ],
+              "interpretation": 0,
+              "mean": 0.00640906285838977,
+              "omitted_seed_index": 3
+            },
+            {
+              "bounds": [
+                -0.06428626794450627,
+                0.07022802496133058
+              ],
+              "interpretation": 0,
+              "mean": 0.0029708785084121593,
+              "omitted_seed_index": 4
+            }
+          ],
+          "leave_one_out_changed": false,
+          "max_centered_share": 0.27473574250936844,
+          "unstable": false
+        },
+        "lower": -0.03268302490663026,
+        "mean": 0.004588204470829861,
+        "n": 5,
+        "numerical_envelope": {
+          "lower": 2.8088857636360264e-08,
+          "upper": 2.8088857638441934e-08
+        },
+        "quantile_method": "linear",
+        "rule": "t_rare_tail_with_central_bootstrap",
+        "sd": 0.006212310797195566,
+        "status": "ok",
+        "upper": 0.04185943384828998
+      },
+      "status": "unresolved",
+      "threshold": 0.0
+    }
+  ],
+  "full_suite_claimed": false,
+  "look": {
+    "alpha": 0.025,
+    "bootstrap_seed_entropy": [
+      9101,
+      1
+    ],
+    "created_utc": "2026-10-01T12:35:12.076606Z",
+    "cumulative_alpha": 0.025,
+    "evidence_identity": {
+      "criteria": "4cba6f0d13e439a0bf02bd56a7647d2d406861461f403076454b5895ee72f700",
+      "rejection_freeze": "967a681f7e542a0a6c69acb452e71632fe2b8716ce3bc8c510a9c41d2783c33f",
+      "run_hashes": [
+        "0bd174f26fa7343934a0a3ca9c168a4f1dac58c7d10106fb3ac917dd8a750ce3",
+        "23fbee3793f72727ca2ee36853b4a65958cea61c90e9c7a95e8fd92b70e35b39",
+        "e9f49baa4dc36c9d5f81ddab97770524a50166ac0c521c88b15b49dab75c8607",
+        "c44fc41c1c9cb2239b80abc79589dc35687da61601e92a452b5946859d8408ee",
+        "904b1c11b372ae85042880099fdbce026a8c8fda763eebc8755bd24b038f08c1",
+        "575c2df3e159f73473cd97249e0d4f7e2aaa8846b18e36e60b39fa0782bf0bec",
+        "1a439b08889ddb98ed59733ed8a875dddd7dc4983747e1a633700d20784606b8",
+        "114fde66d6340ed096fcbca41cde5328a50f2b24adf135f1049a81ff54ca0197",
+        "9a0af090b6121fd3d1067e6c38d235af5511371820c7fe55b1df7801aaae7ca1",
+        "aa89d311fec77f21531d456fdf06c7c95262b671a12268792a3e05048a4b3bb3",
+        "39a98a49ba45095cd5ca2609c107ed25b744a2789c8fc53cfa056b424ced0b40",
+        "b6f7a97b868eaf67e52485fe380a4a14eac039d179a322e8553d8ae708551bcc",
+        "c1545c0e5e8163ac99fd4dbb6a806e2461873a1d2c9c37fd1ec8df791a288ac3",
+        "90fbdbd18c12f3b3e98222d25351734d6dbe2c4d86df2b81d5b9df8154e59305",
+        "cb7df714f9223e1129050afd9583bdc0de81f900cef957921829fa19871879f4",
+        "a814f954be1c2a00faeec74740f94058d4b1190e3dac58997e0e645d003e4f8b",
+        "a1d5ab345a12d436b94635dcc88e244492bb818d731bdd2333624ad0be4e5d60",
+        "5b5ba14d3035b3ec488f379b69147cbddc92ccde00a5ec3350de057165a02763",
+        "4dfcf369a7d1a5acb2966bdccbcc3ede2aae9c536650c218d1816aabb5d62ace",
+        "e1b5362bf695b513d86c3229c2e438a8f8df9fba85362c4128164aed4edb2c3c",
+        "47f136ea0c4868b90486da7c572c0bd1025815ba69f47b83f8f80ed342629746",
+        "5f939c23175e8eaee8c21991cf152beb02531d23099bf83e0018a29b02551294",
+        "aaa10279db1893706a639605fe67686f3c6b8fb1fb6c1349704aa3f660548b56",
+        "909b5d0e47c566a8a71e6c8063f228fb098768dc4ce88270a641ddd8e8f47e81",
+        "c38d0717aa53b379168fd4090ce114dbd3e635c797587b9a50d35d33fb9726c4",
+        "c8905d92683b1a8fdf8a5adcd9340471c07cf22ac4ab2864e58211fd5e26d116"
+      ],
+      "scope": {
+        "actuator": "direct",
+        "competitor": "node_generic",
+        "condition": "A",
+        "criterion_ids": [
+          "K02.relative/actuator=direct/stratum=cold/h_ns=5000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+          "K02.relative/actuator=direct/stratum=cold/h_ns=5000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+          "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+          "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+          "K02.relative/actuator=direct/stratum=warm/h_ns=5000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+          "K02.relative/actuator=direct/stratum=warm/h_ns=5000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+          "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+          "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct"
+        ],
+        "loss_mode": "shared",
+        "negative_only": true,
+        "positive_return_milestone": "M30",
+        "protocol_version": "PTCO-1.0",
+        "readiness_decision_id": "ea035b5f554e877eb4a9eff2d2419b4f324214bdbd6ada73479a7e01c6e44c8c",
+        "seed_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "statistical_family_size": 280
+      },
+      "scope_sha256": "9f8ac850f31bef567f56d73eb8a48d76763fb3e17ab12f3cc0e82f13e97e213c"
+    },
+    "evidence_sha256": "895c357acb3294580fc225ff3b98239b0e20dbcd930f5d022034524e2f584d64",
+    "family_size": 280,
+    "look_index": 1,
+    "protocol_version": "PTCO-1.0",
+    "rejection_alpha": 8.928571428571429e-05,
+    "schema_version": 1
+  },
+  "missing_cells": [],
+  "negative_only": true,
+  "scope": {
+    "actuator": "direct",
+    "competitor": "node_generic",
+    "condition": "A",
+    "criterion_ids": [
+      "K02.relative/actuator=direct/stratum=cold/h_ns=5000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+      "K02.relative/actuator=direct/stratum=cold/h_ns=5000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+      "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+      "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+      "K02.relative/actuator=direct/stratum=warm/h_ns=5000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+      "K02.relative/actuator=direct/stratum=warm/h_ns=5000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+      "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+      "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct"
+    ],
+    "loss_mode": "shared",
+    "negative_only": true,
+    "positive_return_milestone": "M30",
+    "protocol_version": "PTCO-1.0",
+    "readiness_decision_id": "ea035b5f554e877eb4a9eff2d2419b4f324214bdbd6ada73479a7e01c6e44c8c",
+    "seed_ids": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "statistical_family_size": 280
+  }
+}

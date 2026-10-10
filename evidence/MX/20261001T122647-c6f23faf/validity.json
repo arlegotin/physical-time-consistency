@@ -1,0 +1,27 @@
+{
+  "blocker": null,
+  "checks": [
+    {
+      "check_id": "repair.counterexample",
+      "reason": "Cached/uncached one-step and shared-loss optimizer evolution is exact; immutable NumPy payloads cannot be mutated; Torch histories remain independent and differentiable",
+      "scope": "history_cache",
+      "status": "pass",
+      "tolerance": 0
+    },
+    {
+      "check_id": "repair.resume",
+      "reason": "Cached/uncached one-step and shared-loss optimizer evolution is exact; immutable NumPy payloads cannot be mutated; Torch histories remain independent and differentiable",
+      "scope": "history_cache",
+      "status": "pass",
+      "tolerance": 0
+    },
+    {
+      "check_id": "repair.regressions",
+      "reason": "Cached/uncached one-step and shared-loss optimizer evolution is exact; immutable NumPy payloads cannot be mutated; Torch histories remain independent and differentiable",
+      "scope": "history_cache",
+      "status": "pass",
+      "tolerance": 0
+    }
+  ],
+  "validity_status": "valid"
+}

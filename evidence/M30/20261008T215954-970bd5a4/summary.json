@@ -1,0 +1,53 @@
+{
+  "actuator": "lagged",
+  "data_hashes": {
+    "train": {
+      "path": "evidence/M30/20261008T092517-64f53a85/manifest.json",
+      "sha256": "c8f672ebe39d78e036f7e7431e60272e8506ddda7027bf1e6660b785c4337c9b"
+    },
+    "validation": {
+      "path": "evidence/M30/20261008T092559-39aa5611/manifest.json",
+      "sha256": "c0d5b3bc36a48a9b5fecb299b3235b0a8ddadef5ecb2dddcaac7903fa70d6503"
+    }
+  },
+  "missing_cells": [],
+  "model_hashes": {
+    "canonical_tensor_sha256": "e0ba23cb4261cce4a5ab388b09f744ba18bffc25d1d25f32746c92442860327e"
+  },
+  "model_id": "affine_flow",
+  "parameter_count": 18182,
+  "phase": "confirmatory",
+  "protocol_id": "PTCO-AFF-0.2",
+  "qualification": {
+    "canonical_tensor_sha256": "e0ba23cb4261cce4a5ab388b09f744ba18bffc25d1d25f32746c92442860327e",
+    "constant_velocity_error": 1.027497410774231,
+    "convergence": {
+      "relative_improvement": -0.14592952314275673,
+      "stabilized": true
+    },
+    "epochs": 400,
+    "nominal_learning": true,
+    "qualified": true,
+    "selected": {
+      "epoch": 305,
+      "four_count": 7424,
+      "four_step": 0.00759799905464551,
+      "objective": 0.0028351624615456316,
+      "one_count": 8192,
+      "one_step": 0.0009356626978842542
+    },
+    "updates": 51200,
+    "valid_target_count": 13107200
+  },
+  "seed": 2026100800,
+  "training_updates": 51200,
+  "validation": {
+    "epoch": 305,
+    "four_count": 7424,
+    "four_step": 0.00759799905464551,
+    "objective": 0.0028351624615456316,
+    "one_count": 8192,
+    "one_step": 0.0009356626978842542
+  },
+  "work_context": "study/affine-fresh/a6cea61124d77958139cd5594f8552ff7a3cf9aee45bb0a335724a7cca70ec38"
+}

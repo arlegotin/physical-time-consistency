@@ -1,0 +1,1779 @@
+{
+  "alpha_spent": 0,
+  "baseline_selections": {
+    "direct:mlp_h": {
+      "checkpoint_sha256": "dd825176db7ad48efa33ce0c2707d678e657eec065faee9200392f7101df0d48",
+      "manifest_sha256": "6f662735e8467d83e7e93112bf4c9f8ef283f8a2c68f5eac0503b814e6d23014",
+      "model_manifest": "study/control-development/evidence/M30/20261007T114143-8cf0e3cb/manifest.json"
+    },
+    "direct:node_generic": {
+      "checkpoint_sha256": "a9ea3c87410b1aaa59a1b72dfa11c4a94f834e7dfd7fd2ccd9ef6d84646c440a",
+      "manifest_sha256": "be31e6f73f2847e9f5d15ac0264c12836b5b2cb8c7aa40d37e368bc723483f2a",
+      "model_manifest": "study/precision-look-2/study/precision-look-3/evidence/M30/20261001T105922-7ad80688/manifest.json"
+    },
+    "direct:node_structured": {
+      "checkpoint_sha256": "1894730a7e0abc7df17816a1527e4f4be42c3d28b60f329c61127f1601055560",
+      "manifest_sha256": "f9e75e513195ec43bbc184941b9540569e2e44f6f169c56c31a22506ac823270",
+      "model_manifest": "study/control-development/evidence/M30/20261002T144640-2021313a/manifest.json"
+    },
+    "direct:power_correct": {
+      "checkpoint_sha256": "3dab1c7ce6082394439d0b61a697b3d4b570292d2067689817323a4d89d3fb7e",
+      "manifest_sha256": "353b7365329d252757956a6b967b2450fd5db9bab7c92a84dbfc0b121b3bfcd4",
+      "model_manifest": "study/precision-look-2/study/precision-look-3/evidence/M30/20261001T110618-1b7d46ec/manifest.json"
+    },
+    "lagged:mlp_h": {
+      "checkpoint_sha256": "c07a6badf888cddd574a22cc81b362cc1e4a8c99dd3862299ce9b2fb537cead4",
+      "manifest_sha256": "0c29c62281270d176ab842c78aa658d371dcd0266a7e008626860cd7cec70df8",
+      "model_manifest": "study/control-development/evidence/M30/20261007T114623-36d1a44d/manifest.json"
+    },
+    "lagged:node_generic": {
+      "checkpoint_sha256": "126486e8374cbb5643ae0fd464916d20b28d48de84cb9a3aeacef3b9b21144b9",
+      "manifest_sha256": "1e381a68b4bd97820e30bef6a76f3e255737409c27c1fc9e6db4444e6d304b98",
+      "model_manifest": "study/control-development/evidence/M30/20261002T213916-a2d56caf/manifest.json"
+    },
+    "lagged:node_structured": {
+      "checkpoint_sha256": "878f31a1114c14f7a6481675dfc28b48d4d76df0d881916245d5b4f4ffb05fd3",
+      "manifest_sha256": "851644586208dcb97ea11b16429832f4e246d301372159178682fa67062585a6",
+      "model_manifest": "study/control-development/evidence/M30/20261002T215102-a4c9fb6d/manifest.json"
+    },
+    "lagged:power_correct": {
+      "checkpoint_sha256": "c5d7b88900305ab71c749dba27321a58660b820727767c9f7232c9ae043facc1",
+      "manifest_sha256": "9a4c48e7855a376846214715845b6291c670e26e2ae7cf37e78ca8fe54eee16d",
+      "model_manifest": "study/control-development/evidence/M30/20261002T214651-60f83515/manifest.json"
+    }
+  },
+  "coordinates": {
+    "direct": {
+      "horizons_ns": [
+        5000000,
+        10000000,
+        40000000
+      ],
+      "probe_ids": [
+        "development-cold-0",
+        "development-cold-1",
+        "development-cold-2",
+        "development-cold-3",
+        "development-cold-4",
+        "development-cold-5",
+        "development-cold-6",
+        "development-cold-7",
+        "development-cold-8",
+        "development-cold-9",
+        "development-cold-10",
+        "development-cold-11",
+        "development-cold-12",
+        "development-cold-13",
+        "development-cold-14",
+        "development-cold-15",
+        "development-cold-16",
+        "development-cold-17",
+        "development-cold-18",
+        "development-cold-19",
+        "development-cold-20",
+        "development-cold-21",
+        "development-cold-22",
+        "development-cold-23",
+        "development-cold-24",
+        "development-cold-25",
+        "development-cold-26",
+        "development-cold-27",
+        "development-cold-28",
+        "development-cold-29",
+        "development-cold-30",
+        "development-cold-31",
+        "development-cold-32",
+        "development-cold-33",
+        "development-cold-34",
+        "development-cold-35",
+        "development-cold-36",
+        "development-cold-37",
+        "development-cold-38",
+        "development-cold-39",
+        "development-cold-40",
+        "development-cold-41",
+        "development-cold-42",
+        "development-cold-43",
+        "development-cold-44",
+        "development-cold-45",
+        "development-cold-46",
+        "development-cold-47",
+        "development-cold-48",
+        "development-cold-49",
+        "development-cold-50",
+        "development-cold-51",
+        "development-cold-52",
+        "development-cold-53",
+        "development-cold-54",
+        "development-cold-55",
+        "development-cold-56",
+        "development-cold-57",
+        "development-cold-58",
+        "development-cold-59",
+        "development-cold-60",
+        "development-cold-61",
+        "development-cold-62",
+        "development-cold-63",
+        "development-warm-0",
+        "development-warm-1",
+        "development-warm-2",
+        "development-warm-3",
+        "development-warm-4",
+        "development-warm-5",
+        "development-warm-6",
+        "development-warm-7",
+        "development-warm-8",
+        "development-warm-9",
+        "development-warm-10",
+        "development-warm-11",
+        "development-warm-12",
+        "development-warm-13",
+        "development-warm-14",
+        "development-warm-15",
+        "development-warm-16",
+        "development-warm-17",
+        "development-warm-18",
+        "development-warm-19",
+        "development-warm-20",
+        "development-warm-21",
+        "development-warm-22",
+        "development-warm-23",
+        "development-warm-24",
+        "development-warm-25",
+        "development-warm-26",
+        "development-warm-27",
+        "development-warm-28",
+        "development-warm-29",
+        "development-warm-30",
+        "development-warm-31",
+        "development-warm-32",
+        "development-warm-33",
+        "development-warm-34",
+        "development-warm-35",
+        "development-warm-36",
+        "development-warm-37",
+        "development-warm-38",
+        "development-warm-39",
+        "development-warm-40",
+        "development-warm-41",
+        "development-warm-42",
+        "development-warm-43",
+        "development-warm-44",
+        "development-warm-45",
+        "development-warm-46",
+        "development-warm-47",
+        "development-warm-48",
+        "development-warm-49",
+        "development-warm-50",
+        "development-warm-51",
+        "development-warm-52",
+        "development-warm-53",
+        "development-warm-54",
+        "development-warm-55",
+        "development-warm-56",
+        "development-warm-57",
+        "development-warm-58",
+        "development-warm-59",
+        "development-warm-60",
+        "development-warm-61",
+        "development-warm-62",
+        "development-warm-63"
+      ],
+      "strata": [
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm"
+      ]
+    },
+    "lagged": {
+      "horizons_ns": [
+        5000000,
+        10000000,
+        40000000
+      ],
+      "probe_ids": [
+        "development-cold-0",
+        "development-cold-1",
+        "development-cold-2",
+        "development-cold-3",
+        "development-cold-4",
+        "development-cold-5",
+        "development-cold-6",
+        "development-cold-7",
+        "development-cold-8",
+        "development-cold-9",
+        "development-cold-10",
+        "development-cold-11",
+        "development-cold-12",
+        "development-cold-13",
+        "development-cold-14",
+        "development-cold-15",
+        "development-cold-16",
+        "development-cold-17",
+        "development-cold-18",
+        "development-cold-19",
+        "development-cold-20",
+        "development-cold-21",
+        "development-cold-22",
+        "development-cold-23",
+        "development-cold-24",
+        "development-cold-25",
+        "development-cold-26",
+        "development-cold-27",
+        "development-cold-28",
+        "development-cold-29",
+        "development-cold-30",
+        "development-cold-31",
+        "development-cold-32",
+        "development-cold-33",
+        "development-cold-34",
+        "development-cold-35",
+        "development-cold-36",
+        "development-cold-37",
+        "development-cold-38",
+        "development-cold-39",
+        "development-cold-40",
+        "development-cold-41",
+        "development-cold-42",
+        "development-cold-43",
+        "development-cold-44",
+        "development-cold-45",
+        "development-cold-46",
+        "development-cold-47",
+        "development-cold-48",
+        "development-cold-49",
+        "development-cold-50",
+        "development-cold-51",
+        "development-cold-52",
+        "development-cold-53",
+        "development-cold-54",
+        "development-cold-55",
+        "development-cold-56",
+        "development-cold-57",
+        "development-cold-58",
+        "development-cold-59",
+        "development-cold-60",
+        "development-cold-61",
+        "development-cold-62",
+        "development-cold-63",
+        "development-warm-0",
+        "development-warm-1",
+        "development-warm-2",
+        "development-warm-3",
+        "development-warm-4",
+        "development-warm-5",
+        "development-warm-6",
+        "development-warm-7",
+        "development-warm-8",
+        "development-warm-9",
+        "development-warm-10",
+        "development-warm-11",
+        "development-warm-12",
+        "development-warm-13",
+        "development-warm-14",
+        "development-warm-15",
+        "development-warm-16",
+        "development-warm-17",
+        "development-warm-18",
+        "development-warm-19",
+        "development-warm-20",
+        "development-warm-21",
+        "development-warm-22",
+        "development-warm-23",
+        "development-warm-24",
+        "development-warm-25",
+        "development-warm-26",
+        "development-warm-27",
+        "development-warm-28",
+        "development-warm-29",
+        "development-warm-30",
+        "development-warm-31",
+        "development-warm-32",
+        "development-warm-33",
+        "development-warm-34",
+        "development-warm-35",
+        "development-warm-36",
+        "development-warm-37",
+        "development-warm-38",
+        "development-warm-39",
+        "development-warm-40",
+        "development-warm-41",
+        "development-warm-42",
+        "development-warm-43",
+        "development-warm-44",
+        "development-warm-45",
+        "development-warm-46",
+        "development-warm-47",
+        "development-warm-48",
+        "development-warm-49",
+        "development-warm-50",
+        "development-warm-51",
+        "development-warm-52",
+        "development-warm-53",
+        "development-warm-54",
+        "development-warm-55",
+        "development-warm-56",
+        "development-warm-57",
+        "development-warm-58",
+        "development-warm-59",
+        "development-warm-60",
+        "development-warm-61",
+        "development-warm-62",
+        "development-warm-63"
+      ],
+      "strata": [
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "cold",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm",
+        "warm"
+      ]
+    }
+  },
+  "created_utc": "2026-10-08T07:11:44.031806Z",
+  "diagnostic_manifest": "evidence/M40/20261007T230617-ff6297b2/manifest.json",
+  "expected_candidate_episodes": 80,
+  "expected_new_prediction_rows": 768,
+  "input_hashes": {
+    "config/affine_refinement_freeze.json": "a986772367943e39b2781f0fcb3feeb60b48e25e2dfe6c3dfab6e71b83878666",
+    "config/efficiency_pilot_cells.json": "73199edef88c06c305255f4343e0efd64273b46413e0b731e83967d060160e63",
+    "config/efficiency_pilot_freeze.json": "39bacb772bcc4af7e44879ea2d345c35e5247c7916f161c535c5a486c430d132",
+    "config/numerical.json": "35f71d6b4e0770efd3f2ffc3b189fbbd78c0b06062984ebaa39d6af408ef21b5",
+    "config/planner.json": "fef27c3be89d011c9774b3be6f9947202ca9d28c24007af58d3d892dbdbaebc5",
+    "config/shared_state_diagnostic_freeze.json": "eb0b5582fd17bdb960c49c04286d81f56d2fa9e8e8d4679a6c73783f6d0970e7",
+    "evidence/M30/20261008T070058-ec804b71/manifest.json": "2f8c35d16a0989cfc7b400fce2db63ae6654369b204475ea619cd49860e89499",
+    "evidence/M30/20261008T070058-ec804b71/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+    "evidence/M30/20261008T070058-ec804b71/weights.pt": "53fe92e7950c5f773b94a92c07108887b7498161e1e5622192ebc7df9df468a6",
+    "evidence/M30/20261008T070230-d76da3f5/manifest.json": "e36ad8f7425fb564a0e3d39b91fae1a7f228bff6bd320cc5fc51a87d3a8e99a3",
+    "evidence/M30/20261008T070230-d76da3f5/normalization.json": "4ea5058b0f9da4fdcfcfe9bee3df7a1f8bf83a84ffb104fc094efe65de72a9b2",
+    "evidence/M30/20261008T070230-d76da3f5/weights.pt": "7efa7ace55944ac3aa2577db7a1e17e786a014146c4a01f57380d91a87f9a36d",
+    "evidence/M40/20261007T230617-ff6297b2/direct_measurements.npz": "0f048df38ec7814c16bdb41451e0d800adb53d95c8c21a59faf2a952aab37a3b",
+    "evidence/M40/20261007T230617-ff6297b2/direct_references.npz": "4c7ad2f436cbfff421ea5d2f1f9a203dd4e1fcff812761d6b4274c2898497cd2",
+    "evidence/M40/20261007T230617-ff6297b2/lagged_measurements.npz": "43d15e6a9b4f7a8240c8eb4a6e806fed6035671924f4e43418e672f36041d5f0",
+    "evidence/M40/20261007T230617-ff6297b2/lagged_references.npz": "9ee3ba7f8017ca1b6abc514958f1e1f714605eb04f16f118266e0800401d8fc0",
+    "evidence/M40/20261007T230617-ff6297b2/manifest.json": "6a93b78d12ee56eedc96f11a456ee74e0460a38898a134ed8e340d31422cda61",
+    "reports/affine_refinement_direct_selection.json": "a8a94eccf68b9b5e5c1d153bffa5c5509af4a9f95d1b5c32f517291fa85f4521",
+    "reports/affine_refinement_lagged_selection.json": "a24b223ecbd69416bc3332832aa5f1963aeb1ec9035e6184fbd5831fa393b263",
+    "reports/efficiency_pilot_batch.json": "c57a90305f8ac7c80f8aa6501dc5b8edf7f9012e58a2f7a563afddd0b1b2190c",
+    "reports/efficiency_pilot_result.json": "5bb346689b1c9be04452ac12ba8bb5f660da9a8c3be767a3d9eba173fd7af9e3",
+    "reports/shared_state_diagnostic_result.json": "4c9711503fe48644cf494efe94a2c541301baa41b849b52143cedd27d5f872f8",
+    "reports/shared_state_diagnostic_run.json": "bc3ce650905d6885f9c57a14101f64e9a1b55dd7f3ae119867874bbdb6f77e5c"
+  },
+  "jobs": [
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "direct__affine_flow__rate40000000__step40000000__task0",
+      "episode_id": 0,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step40000000__task0.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "direct__affine_flow__rate40000000__step40000000__task1",
+      "episode_id": 1,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step40000000__task1.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "direct__affine_flow__rate40000000__step40000000__task2",
+      "episode_id": 2,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step40000000__task2.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "direct__affine_flow__rate40000000__step40000000__task3",
+      "episode_id": 3,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step40000000__task3.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "direct__affine_flow__rate40000000__step40000000__task4",
+      "episode_id": 4,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step40000000__task4.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "direct__affine_flow__rate40000000__step40000000__task5",
+      "episode_id": 5,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step40000000__task5.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "direct__affine_flow__rate40000000__step40000000__task6",
+      "episode_id": 6,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step40000000__task6.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "direct__affine_flow__rate40000000__step40000000__task7",
+      "episode_id": 7,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step40000000__task7.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "direct__affine_flow__rate40000000__step40000000__task8",
+      "episode_id": 8,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step40000000__task8.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "direct__affine_flow__rate40000000__step40000000__task9",
+      "episode_id": 9,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step40000000__task9.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "direct__affine_flow__rate40000000__step5000000__task0",
+      "episode_id": 0,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step5000000__task0.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "direct__affine_flow__rate40000000__step5000000__task1",
+      "episode_id": 1,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step5000000__task1.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "direct__affine_flow__rate40000000__step5000000__task2",
+      "episode_id": 2,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step5000000__task2.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "direct__affine_flow__rate40000000__step5000000__task3",
+      "episode_id": 3,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step5000000__task3.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "direct__affine_flow__rate40000000__step5000000__task4",
+      "episode_id": 4,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step5000000__task4.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "direct__affine_flow__rate40000000__step5000000__task5",
+      "episode_id": 5,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step5000000__task5.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "direct__affine_flow__rate40000000__step5000000__task6",
+      "episode_id": 6,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step5000000__task6.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "direct__affine_flow__rate40000000__step5000000__task7",
+      "episode_id": 7,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step5000000__task7.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "direct__affine_flow__rate40000000__step5000000__task8",
+      "episode_id": 8,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step5000000__task8.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "direct__affine_flow__rate40000000__step5000000__task9",
+      "episode_id": 9,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate40000000__step5000000__task9.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "direct__affine_flow__rate10000000__step40000000__task0",
+      "episode_id": 0,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate10000000__step40000000__task0.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "direct__affine_flow__rate10000000__step40000000__task1",
+      "episode_id": 1,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate10000000__step40000000__task1.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "direct__affine_flow__rate10000000__step40000000__task2",
+      "episode_id": 2,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate10000000__step40000000__task2.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "direct__affine_flow__rate10000000__step40000000__task3",
+      "episode_id": 3,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate10000000__step40000000__task3.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "direct__affine_flow__rate10000000__step40000000__task4",
+      "episode_id": 4,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate10000000__step40000000__task4.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "direct__affine_flow__rate10000000__step40000000__task5",
+      "episode_id": 5,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate10000000__step40000000__task5.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "direct__affine_flow__rate10000000__step40000000__task6",
+      "episode_id": 6,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate10000000__step40000000__task6.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "direct__affine_flow__rate10000000__step40000000__task7",
+      "episode_id": 7,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate10000000__step40000000__task7.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "direct__affine_flow__rate10000000__step40000000__task8",
+      "episode_id": 8,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate10000000__step40000000__task8.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "direct__affine_flow__rate10000000__step40000000__task9",
+      "episode_id": 9,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate10000000__step40000000__task9.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "direct__affine_flow__rate10000000__step5000000__task0",
+      "episode_id": 0,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate10000000__step5000000__task0.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "direct__affine_flow__rate10000000__step5000000__task1",
+      "episode_id": 1,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate10000000__step5000000__task1.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "direct__affine_flow__rate10000000__step5000000__task2",
+      "episode_id": 2,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate10000000__step5000000__task2.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "direct__affine_flow__rate10000000__step5000000__task3",
+      "episode_id": 3,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate10000000__step5000000__task3.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "direct__affine_flow__rate10000000__step5000000__task4",
+      "episode_id": 4,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate10000000__step5000000__task4.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "direct__affine_flow__rate10000000__step5000000__task5",
+      "episode_id": 5,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate10000000__step5000000__task5.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "direct__affine_flow__rate10000000__step5000000__task6",
+      "episode_id": 6,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate10000000__step5000000__task6.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "direct__affine_flow__rate10000000__step5000000__task7",
+      "episode_id": 7,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate10000000__step5000000__task7.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "direct__affine_flow__rate10000000__step5000000__task8",
+      "episode_id": 8,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate10000000__step5000000__task8.json"
+    },
+    {
+      "actuator": "direct",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "direct__affine_flow__rate10000000__step5000000__task9",
+      "episode_id": 9,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/direct__affine_flow__rate10000000__step5000000__task9.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "lagged__affine_flow__rate40000000__step40000000__task0",
+      "episode_id": 0,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step40000000__task0.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "lagged__affine_flow__rate40000000__step40000000__task1",
+      "episode_id": 1,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step40000000__task1.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "lagged__affine_flow__rate40000000__step40000000__task2",
+      "episode_id": 2,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step40000000__task2.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "lagged__affine_flow__rate40000000__step40000000__task3",
+      "episode_id": 3,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step40000000__task3.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "lagged__affine_flow__rate40000000__step40000000__task4",
+      "episode_id": 4,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step40000000__task4.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "lagged__affine_flow__rate40000000__step40000000__task5",
+      "episode_id": 5,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step40000000__task5.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "lagged__affine_flow__rate40000000__step40000000__task6",
+      "episode_id": 6,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step40000000__task6.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "lagged__affine_flow__rate40000000__step40000000__task7",
+      "episode_id": 7,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step40000000__task7.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "lagged__affine_flow__rate40000000__step40000000__task8",
+      "episode_id": 8,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step40000000__task8.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "lagged__affine_flow__rate40000000__step40000000__task9",
+      "episode_id": 9,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step40000000__task9.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "lagged__affine_flow__rate40000000__step5000000__task0",
+      "episode_id": 0,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step5000000__task0.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "lagged__affine_flow__rate40000000__step5000000__task1",
+      "episode_id": 1,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step5000000__task1.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "lagged__affine_flow__rate40000000__step5000000__task2",
+      "episode_id": 2,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step5000000__task2.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "lagged__affine_flow__rate40000000__step5000000__task3",
+      "episode_id": 3,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step5000000__task3.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "lagged__affine_flow__rate40000000__step5000000__task4",
+      "episode_id": 4,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step5000000__task4.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "lagged__affine_flow__rate40000000__step5000000__task5",
+      "episode_id": 5,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step5000000__task5.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "lagged__affine_flow__rate40000000__step5000000__task6",
+      "episode_id": 6,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step5000000__task6.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "lagged__affine_flow__rate40000000__step5000000__task7",
+      "episode_id": 7,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step5000000__task7.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "lagged__affine_flow__rate40000000__step5000000__task8",
+      "episode_id": 8,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step5000000__task8.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 40000000,
+      "cell_id": "lagged__affine_flow__rate40000000__step5000000__task9",
+      "episode_id": 9,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step5000000__task9.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "lagged__affine_flow__rate10000000__step40000000__task0",
+      "episode_id": 0,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate10000000__step40000000__task0.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "lagged__affine_flow__rate10000000__step40000000__task1",
+      "episode_id": 1,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate10000000__step40000000__task1.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "lagged__affine_flow__rate10000000__step40000000__task2",
+      "episode_id": 2,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate10000000__step40000000__task2.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "lagged__affine_flow__rate10000000__step40000000__task3",
+      "episode_id": 3,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate10000000__step40000000__task3.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "lagged__affine_flow__rate10000000__step40000000__task4",
+      "episode_id": 4,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate10000000__step40000000__task4.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "lagged__affine_flow__rate10000000__step40000000__task5",
+      "episode_id": 5,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate10000000__step40000000__task5.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "lagged__affine_flow__rate10000000__step40000000__task6",
+      "episode_id": 6,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate10000000__step40000000__task6.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "lagged__affine_flow__rate10000000__step40000000__task7",
+      "episode_id": 7,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate10000000__step40000000__task7.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "lagged__affine_flow__rate10000000__step40000000__task8",
+      "episode_id": 8,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate10000000__step40000000__task8.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "lagged__affine_flow__rate10000000__step40000000__task9",
+      "episode_id": 9,
+      "model_partition_ns": [
+        40000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate10000000__step40000000__task9.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "lagged__affine_flow__rate10000000__step5000000__task0",
+      "episode_id": 0,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate10000000__step5000000__task0.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "lagged__affine_flow__rate10000000__step5000000__task1",
+      "episode_id": 1,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate10000000__step5000000__task1.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "lagged__affine_flow__rate10000000__step5000000__task2",
+      "episode_id": 2,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate10000000__step5000000__task2.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "lagged__affine_flow__rate10000000__step5000000__task3",
+      "episode_id": 3,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate10000000__step5000000__task3.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "lagged__affine_flow__rate10000000__step5000000__task4",
+      "episode_id": 4,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate10000000__step5000000__task4.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "lagged__affine_flow__rate10000000__step5000000__task5",
+      "episode_id": 5,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate10000000__step5000000__task5.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "lagged__affine_flow__rate10000000__step5000000__task6",
+      "episode_id": 6,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate10000000__step5000000__task6.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "lagged__affine_flow__rate10000000__step5000000__task7",
+      "episode_id": 7,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate10000000__step5000000__task7.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "lagged__affine_flow__rate10000000__step5000000__task8",
+      "episode_id": 8,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate10000000__step5000000__task8.json"
+    },
+    {
+      "actuator": "lagged",
+      "actuator_interval_ns": 10000000,
+      "cell_id": "lagged__affine_flow__rate10000000__step5000000__task9",
+      "episode_id": 9,
+      "model_partition_ns": [
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000,
+        5000000
+      ],
+      "path": "config/affine_control_jobs/lagged__affine_flow__rate10000000__step5000000__task9.json"
+    }
+  ],
+  "models": [
+    "affine_flow",
+    "power_correct",
+    "mlp_h",
+    "node_generic",
+    "node_structured",
+    "physics_fit"
+  ],
+  "nominal_freeze_sha256": "a986772367943e39b2781f0fcb3feeb60b48e25e2dfe6c3dfab6e71b83878666",
+  "phase": "exploratory",
+  "physics_step_ns": 250000,
+  "planner_settings": {
+    "candidate_count": 128,
+    "elite_count": 16,
+    "initial_std": 1.0,
+    "iterations": 4,
+    "std_floor": 0.1
+  },
+  "protocol_id": "PTCO-AFF-0.1",
+  "schema_version": 1,
+  "seed": 9000,
+  "selections": {
+    "direct": {
+      "actuator": "direct",
+      "checkpoint_sha256": "53fe92e7950c5f773b94a92c07108887b7498161e1e5622192ebc7df9df468a6",
+      "manifest_sha256": "2f8c35d16a0989cfc7b400fce2db63ae6654369b204475ea619cd49860e89499",
+      "model_manifest": "evidence/M30/20261008T070058-ec804b71/manifest.json",
+      "protocol_id": "PTCO-AFF-0.1"
+    },
+    "lagged": {
+      "actuator": "lagged",
+      "checkpoint_sha256": "7efa7ace55944ac3aa2577db7a1e17e786a014146c4a01f57380d91a87f9a36d",
+      "manifest_sha256": "e36ad8f7425fb564a0e3d39b91fae1a7f228bff6bd320cc5fc51a87d3a8e99a3",
+      "model_manifest": "evidence/M30/20261008T070230-d76da3f5/manifest.json",
+      "protocol_id": "PTCO-AFF-0.1"
+    }
+  },
+  "source_hashes": {
+    "poc/__init__.py": "a2663e8d543cbef68f5ef143d68b63cc6fde80d0d59bb560d4f23347632dcd10",
+    "poc/__main__.py": "0f27902c62b9843290556f97636abe8c9df75f58e233d5349b2c09c522f15542",
+    "poc/action_path.py": "5389db332d8ee89f21085cd5e8642ead126e845ba1d891f8422a4f509f9981b5",
+    "poc/affine_experiment.py": "05bee8686e229e8229975ba3882f0eef5fecae379b864f9d48af5e76a0b3bc1a",
+    "poc/affine_flow.py": "de46ee95fde952a34505b0bed95b95edee979ce134dbc10336bc130c88bda086",
+    "poc/affine_measurement.py": "4d7a6cb3bdf0fb8a0203cda43a9f82d5bf0901d26888fcef1178ca9dccbecd83",
+    "poc/analytic.py": "b6fd1dfef962c2517f7b24f0ffb96a4ef0188ab5058adea638309e6895f313fc",
+    "poc/calibration_batch.py": "f5723d548acc0d0b0a525d9c9bc109ccafdbc321f974409ca7eaef7513ab8604",
+    "poc/clocks.py": "7a45fe841e36bfabc1e4ee66c8b329755943dbd7a9c46fb016aceb925d544ef9",
+    "poc/contracts.py": "3615336d4cf41840c8026ad74afe0be2f36929bec625b7f0b2aaff56c7e4b7e4",
+    "poc/control.py": "b802a2e8a84200fd1d9741ce6cb7d4f2c98e66405b84cfb26f3c8a98289df5f5",
+    "poc/control_artifacts.py": "a22bf364e52c63ec05b44bfe329e2bbf5c36e37a1b9399cf2158a720733f7d04",
+    "poc/control_episode.py": "970168a74caf3f1ba5baa039a2de60ae035576c770e2b3dd58a341117db207a3",
+    "poc/control_jobs.py": "acbc3d196301c7128a26aab0585f40e0f55e7d536792741cf746c942366aca4f",
+    "poc/control_models.py": "50432a27298ef52e598d05e019fcf84e7d63a849dd9a62cc3a2bb7cb2e42ad31",
+    "poc/control_profile.py": "71ec8800bf7c67cce88ca3fa1be8a20e344591dedc57a41b35ddb4afa0e9cd65",
+    "poc/dataset.py": "7b19abd94a475eef557667244656e3e19be2f9860e279c75f0ef5d7c7a7ff597",
+    "poc/efficiency_episode.py": "571334db75f3e43779183156db2cd119e9db34d040ab20c446b8ff6000cbeb7e",
+    "poc/efficiency_pilot.py": "fbc10952735fe97f725c7175d0018ae133ead2736deb4bc1affb76722331655b",
+    "poc/efficiency_result.py": "c9cdf1470f06dfda28fe07a7e71fa145fdb956c6fc31c8b0da983e32f8dbe641",
+    "poc/efficient_power.py": "c1656339d2bbc492e005fa04ac50467c5148967ccb2f98f666e502ef233edeb8",
+    "poc/envs.py": "e4635069a335d0b37d378adea3267c703f1c44f445a7c535afdc89f5e32ce35e",
+    "poc/execution.py": "7be39cb095560fd86df4109e1a88b4616174e1766edada9ea926718d192aa786",
+    "poc/gates.py": "a260b655bd8a7829237f00441be9d62a1bc3847d6d6570fecbd3b3a4042604b7",
+    "poc/history.py": "9f76f4bdd6776c01ecc8e53d77d5b4861c88f8d9e65b740353137416b457afdc",
+    "poc/io.py": "b7c169b0c7e296b7e11dfe42ae620ad33806de61b36b610db67d727bd7ac04cd",
+    "poc/milestones/__init__.py": "d7cc49e457f3a9cba474ece1c589de0d83243741952576e12bd8f45f8ed556ac",
+    "poc/milestones/m10.py": "d1fc44e782a61858e386c1f7a0f274f3b91d4ef8ac98e889781d479a570b0831",
+    "poc/milestones/m20.py": "a9c725389741e2ce1e99695abf664d153d0df95476313dcd4e3cd190a0ebd975",
+    "poc/models/__init__.py": "9af7c30ff7b9a23124b59def8f80551784db5aa4d97cad299a137e3663cf675a",
+    "poc/models/common.py": "1fed6c0593bab9a85a9899da66eb994eb6f4909c5fb200208e61f14320f947a1",
+    "poc/models/factory.py": "848243017a8b726c91483a080e026c6708dcb380fa75b7c34649420dc6b00c83",
+    "poc/models/mlp.py": "0859bac1c9eb737b3accfca9ecca3c9370f1100e110ccf251b0b1688c6f01110",
+    "poc/models/ode.py": "c2a5a2ecbca37c99afbcda2261e9dd05b3913508e5f1690935d3cb263dfda0ff",
+    "poc/models/power.py": "4d10d4d39aa2d1b35f301b2f60fe0148e3cdb529dc05f1b7601eb7d4a7a7c1d7",
+    "poc/models/sequence.py": "9cadc432670b4fb4e4d6ca88fb642c6de159b954747da720454e8da3d28acd95",
+    "poc/mpc.py": "ca2db4101a4b924af537705540a2e09eda5bdc7cac72d9acb9bbbf9452a2b61f",
+    "poc/mpc_calibration.py": "ede702834d517747db8f3f1493d39997990cc876b349f710af0c1a636bea40b8",
+    "poc/oracle_rigidbody.py": "537e5d06400d8135b728f0111284ebb7ce13ee7b9361eaec93cb80ec40bd5f37",
+    "poc/physics_fit.py": "95f5db85913f3ecc44f0236d3ad3f3ad27f644ebfc782a7c95bc79f9474998ad",
+    "poc/planner_qualification.py": "319d96f140a8d352a24e792c5538cad8f22fb43539f6e95c493b626bad100396",
+    "poc/reference_jobs.py": "2bbc9115bbf3f4ea759be85c64973966db666cabe9766decba4000e081d92fe5",
+    "poc/research_jobs.py": "c045d7417fc2ecd18c9c24267ac3f09ced5e972869cd5e7ec0d0a3ecd155d27d",
+    "poc/robot_calibration.py": "51bd9bedd37d6424e4bf98aaea14648c66ec36444cfa9959cbb2b6bed0481245",
+    "poc/sensitivity.py": "30d5bc24d15f5e0707a15d8a1b54deacfec1034bcb9e366f7b8562b283e1ee42",
+    "poc/shared_state_diagnostic.py": "affc7a5f1bd356a77e772553a7d220d169b378c503025b41376e9c7cadc91edc",
+    "poc/train.py": "d56ccfaca398e08edc934b24c8b3ba7c7424628ffd5af4c753e36ef2bc5d7368",
+    "poc/training_jobs.py": "97ec7fc02811efa99a370fa4dda667efbe2d58bdee8acd1e5a6db08b74bb3a4c"
+  }
+}

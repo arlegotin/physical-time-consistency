@@ -1,0 +1,11 @@
+{
+  "criteria_count": 294,
+  "scientific_evidence": {
+    "complete_runs": 377,
+    "criteria_status": "declared",
+    "statistical_family_size": 280,
+    "status": "valid"
+  },
+  "status": "valid",
+  "verdict": "NONTERMINAL"
+}

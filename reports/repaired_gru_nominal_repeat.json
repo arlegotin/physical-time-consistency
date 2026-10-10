@@ -1,0 +1,15 @@
+{
+  "convergence_records_identical": true,
+  "fresh_manifest": "study/control-development/evidence/M30/20261002T031601-56d11669/manifest.json",
+  "fresh_manifest_sha256": "c2f69c55dea3fcfe66d3211d4cf53175ffe679d975d0f5d0fda4e2b4f6757696",
+  "fresh_tensor_hash": "b701eff98bbf1488a7eb734a55d4d72f2ce836a6fd9ed81dbe4d5dd0e884bd5a",
+  "max_parameter_difference": 0.0,
+  "prior_manifest": "study/control-development/evidence/M30/20261001T093235-cc737350/manifest.json",
+  "prior_manifest_sha256": "816d4d9d071dc0b627362c6837c4f4771fa2f9906449f20e25c39becba7d9fa2",
+  "prior_tensor_hash": "b701eff98bbf1488a7eb734a55d4d72f2ce836a6fd9ed81dbe4d5dd0e884bd5a",
+  "qualified": false,
+  "recorded_utc": "2026-10-02T04:09:35.343004Z",
+  "schema_version": 1,
+  "scope": "Same-seed 100-epoch direct A/shared GRU selection before and after recovery repair; nominal fit only; not C06 multi-seed replication",
+  "validation_records_identical": true
+}

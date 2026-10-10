@@ -1,0 +1,20 @@
+{
+  "actuator": "lagged",
+  "missing_cells": [],
+  "model_hashes": {
+    "canonical_tensor_sha256": "890ca200b2dff63488be149146593aadba434c7fc79c9cd8d9e0cbe0c188da1e"
+  },
+  "model_id": "mlp_dt",
+  "robot_result": false,
+  "tiny_loss": 0.0009898599237203598,
+  "tiny_updates": 127,
+  "training_updates": 527,
+  "validation": {
+    "epoch": 95,
+    "four_count": 0,
+    "four_step": 0.0,
+    "objective": 0.00041041916119866073,
+    "one_count": 256,
+    "one_step": 0.00041041916119866073
+  }
+}

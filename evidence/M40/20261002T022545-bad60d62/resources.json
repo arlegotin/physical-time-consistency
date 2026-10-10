@@ -1,0 +1,17 @@
+{
+  "cpu_seconds": 26.995866,
+  "disk_bytes": 2474596,
+  "original_estimate": {
+    "disk_bytes": 10000000,
+    "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+    "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+    "projection_margin": 1.25,
+    "proxy_model": "node_generic",
+    "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+    "wall_seconds": 33.4064477075
+  },
+  "peak_rss_bytes": 401604608,
+  "rss_convention": "macOS bytes",
+  "training_updates": 0,
+  "wall_seconds": 27.005666834
+}

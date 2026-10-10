@@ -1,0 +1,109 @@
+{
+  "alpha": 0.0125,
+  "branch": "precision",
+  "configurations": [
+    [
+      "affine_flow",
+      5000000
+    ],
+    [
+      "node_structured",
+      5000000
+    ],
+    [
+      "node_structured",
+      40000000
+    ],
+    [
+      "affine_flow",
+      40000000
+    ]
+  ],
+  "created_utc": "2026-10-08T10:58:44.235509Z",
+  "episodes_per_seed": 10,
+  "live_explanations": [
+    "positive gain generalizes across training seeds",
+    "gain is small or unstable across seeds"
+  ],
+  "look_index": 2,
+  "minimum_improvement_floor": null,
+  "new_information": "Six independent paired nominal fits, using identical frozen train/validation data and recipe",
+  "new_seeds": [
+    2026100805,
+    2026100806,
+    2026100807,
+    2026100808,
+    2026100809,
+    2026100810
+  ],
+  "old_seeds": [
+    2026100800,
+    2026100801,
+    2026100802,
+    2026100803,
+    2026100804
+  ],
+  "original_evaluation_freeze_sha256": "6142c7dde99c66be3114a3f8cd581cf8e7aea3ad73478b23756c7330798715da",
+  "parent_look": {
+    "path": "evidence/affine-fresh-looks/look-001.json",
+    "sha256": "16fb5f258b8782843f1527b9ed400832700b93474aab41b3f1101ac3d2846e0d"
+  },
+  "parent_result": {
+    "path": "reports/affine_fresh_result.json",
+    "sha256": "104b6c0a283ae71a1f7477826ae602f03bd4e2da78c0b748e6cf9e629fe39fb8"
+  },
+  "planning": [
+    {
+      "alpha": 0.0125,
+      "component": "q",
+      "current_seeds": 5,
+      "desired_half_width": 1.9860133454709763e-06,
+      "look_index": 2,
+      "new_seed_ids": [
+        2026100805,
+        2026100806,
+        2026100807,
+        2026100808,
+        2026100809
+      ],
+      "planning_sd": 1.8941185584489503e-06,
+      "predicted_half_width": 1.6082486805794867e-06,
+      "reason": "additional independent training-seed clusters",
+      "total_seeds": 10
+    },
+    {
+      "alpha": 0.0125,
+      "component": "v",
+      "current_seeds": 5,
+      "desired_half_width": 0.0006645819884278004,
+      "look_index": 2,
+      "new_seed_ids": [
+        2026100805,
+        2026100806,
+        2026100807,
+        2026100808,
+        2026100809,
+        2026100810
+      ],
+      "planning_sd": 0.0007857090628550594,
+      "predicted_half_width": 0.0006239398985197458,
+      "reason": "additional independent training-seed clusters",
+      "total_seeds": 11
+    }
+  ],
+  "preserve_previous_observations": true,
+  "protocol_id": "PTCO-AFF-0.2",
+  "request_id": "affine-precision-001",
+  "resource_projection": {
+    "additional_fits_artifact_gib": 0.18,
+    "control_and_replay_artifact_gib": 1.2561339999999999,
+    "control_and_replay_cpu_hours": 8.933474,
+    "free_disk_gib": 0.87,
+    "owner_informed": true
+  },
+  "return_stage": "independent prediction and four-configuration control comparison",
+  "selection": "nominal validation only",
+  "stopping_rule": "Resolved stable primary signs; otherwise bounded widths under frozen design or a new justified precision request. Control reporting precision unchanged.",
+  "total_seeds": 11,
+  "unresolved_question": "Are positive q/v improvements stable across independent model training seeds?"
+}

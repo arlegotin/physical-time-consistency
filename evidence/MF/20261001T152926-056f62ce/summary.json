@@ -1,0 +1,18 @@
+{
+  "missing_cells": [],
+  "report_status": "NONTERMINAL",
+  "source_decision": "study/first-confirmation/decisions/GR/0b79513e7f2cc7e8cc1eb8a416ba0e1330f54bab6e6f3d264977eb7eb5f1173d.json",
+  "source_decision_sha256": "52c39be772c2375e91e0871c44192bb6186f288613c779538caa1e13dd61ee6b",
+  "terminal_verdict": null,
+  "validation": {
+    "criteria_count": 294,
+    "scientific_evidence": {
+      "complete_runs": 259,
+      "criteria_status": "declared",
+      "statistical_family_size": 280,
+      "status": "valid"
+    },
+    "status": "valid",
+    "verdict": "NONTERMINAL"
+  }
+}

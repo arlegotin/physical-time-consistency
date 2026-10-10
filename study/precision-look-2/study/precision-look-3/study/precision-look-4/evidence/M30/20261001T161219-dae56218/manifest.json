@@ -1,0 +1,360 @@
+{
+  "argv": [
+    "/workspace/physical-time-consistency/.venv/bin/python",
+    "/workspace/physical-time-consistency/study/precision-look-2/study/precision-look-3/poc/research_jobs.py",
+    "train",
+    "/workspace/physical-time-consistency/study/precision-look-2/study/precision-look-3/config/job_requests/train-6c6d34a0a8b14060eb65c3e053419cd2977708045753a5666a91a705b8077928.json",
+    "--root",
+    "/workspace/physical-time-consistency/study/precision-look-2/study/precision-look-3",
+    "--resume"
+  ],
+  "code_revision": "658b392b78c4ad8bd6577eb5343ab4e0c2c028eb",
+  "code_tree_sha256": "794a3b3bbcc37a4fd53695e706212916d1f86d1f4681abc7d7dead0944226dfb",
+  "completion_status": "complete",
+  "configuration_sha256": "95231e3dac70e2c5ca66930ef160cfbae2ed49e64acbc6a16a654e578d8d3b89",
+  "data_hashes": {
+    "data/direct/A/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+    "data/direct/A/train/manifest.json": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+    "data/direct/A/train/trajectories.npz": "dfdd4453775e067920b9267b6f22dc748a931788bdfa009d2dd29029b383c59c",
+    "data/direct/A/validation/manifest.json": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c",
+    "data/direct/A/validation/trajectories.npz": "4056b58e4aa571bf2ff9c01b572f67170b223b619b14ac1ad69e60d912aa2429",
+    "evidence/M30/20261001T064833-031a2f99/manifest.json": "dbcf8641ce23401b97f63c8df71e67c1db494915cc275193f1f546aa4ebd7b2a"
+  },
+  "dirty": true,
+  "ended_utc": "2026-10-01T16:14:11.662433Z",
+  "environment_sha256": "6f62cf50712625ed40af8a3d527dfaa2c654835099e3eaa3647990ee8421dc77",
+  "expected_cells": [
+    "accounting",
+    "checkpoint",
+    "selection"
+  ],
+  "job_inputs": {
+    "cell_id": "direct__A__shared__power_correct__seed14",
+    "dependencies": {
+      "data/direct/A/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+      "data/direct/A/train/manifest.json": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+      "data/direct/A/train/trajectories.npz": "dfdd4453775e067920b9267b6f22dc748a931788bdfa009d2dd29029b383c59c",
+      "data/direct/A/validation/manifest.json": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c",
+      "data/direct/A/validation/trajectories.npz": "4056b58e4aa571bf2ff9c01b572f67170b223b619b14ac1ad69e60d912aa2429",
+      "decisions/G20/457ec28f87e58c9f1032bb9b9840d5b5b76c6083b2cc13d67a6158d6ff8250d4.json": "51f7e34f8e90ec87dcce69fd3564af630f92fa1bbd87643874354f93d22a723e",
+      "evidence/M30/20261001T064833-031a2f99/manifest.json": "dbcf8641ce23401b97f63c8df71e67c1db494915cc275193f1f546aa4ebd7b2a",
+      "poc/__init__.py": "a2663e8d543cbef68f5ef143d68b63cc6fde80d0d59bb560d4f23347632dcd10",
+      "poc/__main__.py": "a88504c9e89058f1a521fc458d9c2b485a367851ccdfa72edd9cfd09efccf9de",
+      "poc/analytic.py": "b6fd1dfef962c2517f7b24f0ffb96a4ef0188ab5058adea638309e6895f313fc",
+      "poc/clocks.py": "7a45fe841e36bfabc1e4ee66c8b329755943dbd7a9c46fb016aceb925d544ef9",
+      "poc/contracts.py": "3615336d4cf41840c8026ad74afe0be2f36929bec625b7f0b2aaff56c7e4b7e4",
+      "poc/dataset.py": "4aad69208f1e0a15397d9e3ed1acc4c3b4e4753c0e83f3789ce67451f8f8829e",
+      "poc/envs.py": "e4635069a335d0b37d378adea3267c703f1c44f445a7c535afdc89f5e32ce35e",
+      "poc/execution.py": "6084c93a126873b8fc9a74dd86fcb68444631788b9a7d148d7cd79d7904d80cb",
+      "poc/gates.py": "274a8ce125ccb050b16a16ed8c3384348a71a891bc8adf69e6de14d334177ae8",
+      "poc/history.py": "9f76f4bdd6776c01ecc8e53d77d5b4861c88f8d9e65b740353137416b457afdc",
+      "poc/io.py": "b7c169b0c7e296b7e11dfe42ae620ad33806de61b36b610db67d727bd7ac04cd",
+      "poc/milestones/__init__.py": "d7cc49e457f3a9cba474ece1c589de0d83243741952576e12bd8f45f8ed556ac",
+      "poc/milestones/m10.py": "d1fc44e782a61858e386c1f7a0f274f3b91d4ef8ac98e889781d479a570b0831",
+      "poc/milestones/m20.py": "a9c725389741e2ce1e99695abf664d153d0df95476313dcd4e3cd190a0ebd975",
+      "poc/models/__init__.py": "9af7c30ff7b9a23124b59def8f80551784db5aa4d97cad299a137e3663cf675a",
+      "poc/models/common.py": "1fed6c0593bab9a85a9899da66eb994eb6f4909c5fb200208e61f14320f947a1",
+      "poc/models/factory.py": "848243017a8b726c91483a080e026c6708dcb380fa75b7c34649420dc6b00c83",
+      "poc/models/mlp.py": "0859bac1c9eb737b3accfca9ecca3c9370f1100e110ccf251b0b1688c6f01110",
+      "poc/models/ode.py": "c2a5a2ecbca37c99afbcda2261e9dd05b3913508e5f1690935d3cb263dfda0ff",
+      "poc/models/power.py": "4d10d4d39aa2d1b35f301b2f60fe0148e3cdb529dc05f1b7601eb7d4a7a7c1d7",
+      "poc/models/sequence.py": "9cadc432670b4fb4e4d6ca88fb642c6de159b954747da720454e8da3d28acd95",
+      "poc/oracle_rigidbody.py": "537e5d06400d8135b728f0111284ebb7ce13ee7b9361eaec93cb80ec40bd5f37",
+      "poc/research_jobs.py": "c045d7417fc2ecd18c9c24267ac3f09ced5e972869cd5e7ec0d0a3ecd155d27d",
+      "poc/sensitivity.py": "30d5bc24d15f5e0707a15d8a1b54deacfec1034bcb9e366f7b8562b283e1ee42",
+      "poc/train.py": "4f3dca540505a8cb4489944f00f4486b2adbc7713e24733ee6e7b7e94396c8c3",
+      "poc/training_jobs.py": "6936a047ca67736c16c3bb17e5297ffbf1c57380f2c49df45c150d6649214ba4"
+    },
+    "environment_fingerprint": {
+      "architecture": "arm64",
+      "core_count": 14,
+      "deterministic_algorithms": true,
+      "kernel": "25.6.0",
+      "os": "Darwin",
+      "python": "3.11.5 | packaged by conda-forge | (main, Aug 27 2023, 03:33:12) [Clang 15.0.7 ]",
+      "torch_configuration": "PyTorch built with:\n  - GCC 4.2\n  - C++ Version: 201703\n  - clang 15.0.0\n  - OpenMP 201811\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: NO AVX\n  - Build settings: BLAS_INFO=accelerate, BUILD_TYPE=Release, COMMIT_SHA=a1cb3cc05d46d198467bebbb6e8fba50a325d4e7, CXX_COMPILER=/usr/bin/c++, CXX_FLAGS= -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOCUPTI -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_PYTORCH_QNNPACK -DAT_BUILD_ARM_VEC256_WITH_SLEEF -DUSE_XNNPACK -DUSE_PYTORCH_METAL_EXPORT -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -DUSE_COREML_DELEGATE -O2 -fPIC -DC10_NODEPRECATED -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=braced-scalar-init -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wvla-extension -Wsuggest-override -Wnewline-eof -Winconsistent-missing-override -Winconsistent-missing-destructor-override -Wno-pass-failed -Wno-error=old-style-cast -Wconstant-conversion -Qunused-arguments -faligned-new -fno-math-errno -fno-trapping-math -Werror=format -DUSE_MPS -Wno-missing-braces, LAPACK_INFO=accelerate, TORCH_VERSION=2.8.0, USE_CUDA=OFF, USE_CUDNN=OFF, USE_CUSPARSELT=OFF, USE_EIGEN_FOR_BLAS=ON, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=OFF, USE_MKLDNN=OFF, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n",
+      "torch_interop_threads": 1,
+      "torch_threads": 1,
+      "versions": {
+        "mujoco": "3.14.0",
+        "numpy": "2.2.6",
+        "pytest": "8.4.1",
+        "scipy": "1.15.3",
+        "torch": "2.8.0"
+      }
+    },
+    "milestone_id": "M30",
+    "parameters": {
+      "actuator": "direct",
+      "cell_id": "direct__A__shared__power_correct__seed14",
+      "condition": "A",
+      "data_hashes": {
+        "data/direct/A/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+        "data/direct/A/train/manifest.json": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+        "data/direct/A/train/trajectories.npz": "dfdd4453775e067920b9267b6f22dc748a931788bdfa009d2dd29029b383c59c",
+        "data/direct/A/validation/manifest.json": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c",
+        "data/direct/A/validation/trajectories.npz": "4056b58e4aa571bf2ff9c01b572f67170b223b619b14ac1ad69e60d912aa2429",
+        "evidence/M30/20261001T064833-031a2f99/manifest.json": "dbcf8641ce23401b97f63c8df71e67c1db494915cc275193f1f546aa4ebd7b2a"
+      },
+      "epochs": 100,
+      "learning_rate": 0.001,
+      "loss_mode": "shared",
+      "model_id": "power_correct",
+      "normalization_sha256": "ebd4067c876eda6938747874e270b1f9deea796cfa195975a25927350257b51e",
+      "seed": 14,
+      "train_manifest": "data/direct/A/train/manifest.json",
+      "validation_manifest": "data/direct/A/validation/manifest.json"
+    },
+    "phase": "confirmatory",
+    "protocol_version": "PTCO-1.0",
+    "wheel_hashes": {
+      "absl_py-2.5.0-py3-none-any.whl": "0f17b89f2a4eaaedc4f28c622998aa690564b3012a396a4ffad0821007fe03ba",
+      "etils-1.14.0-py3-none-any.whl": "b5df7341f54dbe1405a4450b2741207b4a8c279780402b45f87202b94dfc52b4",
+      "filelock-4.0.7-py3-none-any.whl": "a93c4d93269b339a6af4848342c7e940d0f9928ad95eff64764699e5f1bf8a6a",
+      "fsspec-2026.9.0-py3-none-any.whl": "8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f",
+      "glfw-2.10.2-py2.py3-none-macosx_11_0_arm64.whl": "c000b8a5e5fb4374b2c18d12347255ccb92001b9bcf80ef74c56072acbb98fe3",
+      "iniconfig-2.3.0-py3-none-any.whl": "f631c04d2c48c52b84d0d0549c99ff3859c98df65b3101406327ecc7d53fbf12",
+      "jinja2-3.1.6-py3-none-any.whl": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+      "markupsafe-3.0.3-cp311-cp311-macosx_11_0_arm64.whl": "4bd4cd07944443f5a265608cc6aab442e4f74dff8088b0dfc8238647b8f6ae9a",
+      "mpmath-1.3.0-py3-none-any.whl": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c",
+      "mujoco-3.14.0-cp311-cp311-macosx_11_0_arm64.whl": "ac43ebbfdf5522c556291cbc94a4d420ffed226f67e37a00dfcaf01525fa93bc",
+      "networkx-3.6.1-py3-none-any.whl": "d47fbf302e7d9cbbb9e2555a0d267983d2aa476bac30e90dfbe5669bd57f3762",
+      "numpy-2.2.6-cp311-cp311-macosx_14_0_arm64.whl": "3d70692235e759f260c3d837193090014aebdf026dfd167834bcba43e30c2a42",
+      "packaging-26.3-py3-none-any.whl": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "pip-23.2.1-py3-none-any.whl": "7ccf472345f20d35bdc9d1841ff5f313260c2c33fe417f48c30ac46cccabf5be",
+      "pluggy-1.6.0-py3-none-any.whl": "e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746",
+      "pygments-2.21.0-py3-none-any.whl": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+      "pyopengl-3.1.10-py3-none-any.whl": "794a943daced39300879e4e47bd94525280685f42dbb5a998d336cfff151d74f",
+      "pytest-8.4.1-py3-none-any.whl": "539c70ba6fcead8e78eebbf1115e8b589e7565830d7d006a8723f19ac8a0afb7",
+      "scipy-1.15.3-cp311-cp311-macosx_14_0_arm64.whl": "3b0334816afb8b91dab859281b1b9786934392aa3d527cd847e41bb6f45bee65",
+      "setuptools-65.5.0-py3-none-any.whl": "f62ea9da9ed6289bfe868cd6845968a2c854d1427f8548d52cae02a42b4f0356",
+      "sympy-1.14.0-py3-none-any.whl": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5",
+      "torch-2.8.0-cp311-none-macosx_11_0_arm64.whl": "5ae0524688fb6707c57a530c2325e13bb0090b745ba7b4a2cd6a3ce262572916",
+      "typing_extensions-4.16.0-py3-none-any.whl": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "websockets-17.1-cp311-cp311-macosx_11_0_arm64.whl": "020e271205f8ab3406d7a59cd00de6dec722315924411c421bd00642f18bad86",
+      "zipp-4.1.0-py3-none-any.whl": "25ad4e16390cd314347dd8f1de67a2ac538ae658ed4ab9db16029c07c188e97f"
+    }
+  },
+  "job_key": "8fd070b091a4643d79f95c1b7f6f28cb4e04b869fa8ee0cd4a07a991818f9d7a",
+  "milestone_id": "M30",
+  "model_hashes": {
+    "canonical_tensor_sha256": "aabac93238f87425aa5f326ffa05ff48d00e8d0342fa7e7c7cec19ef858fa584"
+  },
+  "parent_decisions": [
+    {
+      "alpha_spent": null,
+      "code_tree_sha256": "8be104ba6ce923c59b9bc717c07dda71a24afeda827077fe4f9057671c2f3020",
+      "configuration_sha256": "60c3f3528717588f9ce3742407b58a4db64f8ce093c04f7ce00b617ba8d007ea",
+      "created_utc": "2026-09-30T22:31:05.883317Z",
+      "criterion_evaluations": [
+        {
+          "bounds": null,
+          "criterion_id": "K01.oracle.compiled_physics",
+          "estimate": 1.0,
+          "operator": "deterministic",
+          "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+          "status": "pass",
+          "threshold": null
+        },
+        {
+          "bounds": null,
+          "criterion_id": "K01.oracle.activation",
+          "estimate": 1.0,
+          "operator": "deterministic",
+          "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+          "status": "pass",
+          "threshold": null
+        },
+        {
+          "bounds": null,
+          "criterion_id": "K01.oracle.independent_rigidbody",
+          "estimate": 1.0,
+          "operator": "deterministic",
+          "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+          "status": "pass",
+          "threshold": null
+        },
+        {
+          "bounds": null,
+          "criterion_id": "K01.oracle.finite_difference",
+          "estimate": 1.0,
+          "operator": "deterministic",
+          "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+          "status": "pass",
+          "threshold": null
+        },
+        {
+          "bounds": null,
+          "criterion_id": "K01.oracle.physics_refinement",
+          "estimate": 1.0,
+          "operator": "deterministic",
+          "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+          "status": "pass",
+          "threshold": null
+        },
+        {
+          "bounds": null,
+          "criterion_id": "K01.oracle.signal_resolution",
+          "estimate": 1.0,
+          "operator": "deterministic",
+          "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+          "status": "pass",
+          "threshold": null
+        },
+        {
+          "bounds": null,
+          "criterion_id": "K01.oracle.slope_window",
+          "estimate": 1.0,
+          "operator": "deterministic",
+          "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+          "status": "pass",
+          "threshold": null
+        },
+        {
+          "bounds": null,
+          "criterion_id": "K01.oracle.snapshot_replay",
+          "estimate": 1.0,
+          "operator": "deterministic",
+          "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+          "status": "pass",
+          "threshold": null
+        },
+        {
+          "bounds": null,
+          "criterion_id": "K01.oracle.warnings",
+          "estimate": 1.0,
+          "operator": "deterministic",
+          "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+          "status": "pass",
+          "threshold": null
+        },
+        {
+          "bounds": null,
+          "criterion_id": "K01.oracle.units",
+          "estimate": 1.0,
+          "operator": "deterministic",
+          "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+          "status": "pass",
+          "threshold": null
+        },
+        {
+          "bounds": null,
+          "criterion_id": "K01.oracle.tests",
+          "estimate": 1.0,
+          "operator": "deterministic",
+          "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+          "status": "pass",
+          "threshold": null
+        }
+      ],
+      "decision_id": "457ec28f87e58c9f1032bb9b9840d5b5b76c6083b2cc13d67a6158d6ff8250d4",
+      "evidence": [
+        {
+          "path": "evidence/M20/20260930T222653-8e969581/manifest.json",
+          "producing_run_id": "20260930T222653-8e969581",
+          "role": "manifest",
+          "sha256": "57d1476511cda8776792f164858a5c788424539ad3dc4403457547adbb3cafb8"
+        }
+      ],
+      "gate_id": "G20",
+      "look_index": null,
+      "milestone_id": "M20",
+      "outcome": "GO",
+      "permitted_next_actions": [
+        {
+          "branch": null,
+          "milestone_id": "M30",
+          "question": "Gate prerequisites passed"
+        }
+      ],
+      "phase": "calibration",
+      "protocol_version": "PTCO-1.0",
+      "schema_version": 1,
+      "terminal_verdict": null,
+      "validity_status": "valid"
+    }
+  ],
+  "phase": "confirmatory",
+  "produced_files": [
+    {
+      "path": "evidence/M30/20261001T161219-dae56218/events.jsonl",
+      "sha256": "f947bb431149e9758edc8a845c9fdb5679517b9cea0da7222ba127ccb164ac9a"
+    },
+    {
+      "path": "evidence/M30/20261001T161219-dae56218/normalization.json",
+      "sha256": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da"
+    },
+    {
+      "path": "evidence/M30/20261001T161219-dae56218/request.json",
+      "sha256": "9f4069da7fe6b9d5fc4ea3c26b045f698bd289dc8799f2f5e6834c57ddfb6c14"
+    },
+    {
+      "path": "evidence/M30/20261001T161219-dae56218/resources.json",
+      "sha256": "76d16a4a00c96e220abc064861a0b2facd0a82c6d2db9edb298acf61ed9a84d4"
+    },
+    {
+      "path": "evidence/M30/20261001T161219-dae56218/resume.complete.json",
+      "sha256": "f6d4162071b85e3abf68b2f07aa93631eb93b9d9f3f2debf273cd0611521f286"
+    },
+    {
+      "path": "evidence/M30/20261001T161219-dae56218/resume.prev.complete.json",
+      "sha256": "93f1332f298cf4e64045bd1bd9be442f61aa6cd7e2057696b6bee104dd193115"
+    },
+    {
+      "path": "evidence/M30/20261001T161219-dae56218/resume.prev.pt",
+      "sha256": "9f9809f8ce5e3171f394abef24ade0cdb08bb011a73978acfa1a6afd19f614bb"
+    },
+    {
+      "path": "evidence/M30/20261001T161219-dae56218/resume.prev.rng.json",
+      "sha256": "9d5f2f556b1b91b5dbed78a9da3a011e84904e3ff7121adf90933418e9ae5176"
+    },
+    {
+      "path": "evidence/M30/20261001T161219-dae56218/resume.pt",
+      "sha256": "2743e6c4c9c82361e7141d095e430c9b37fbac7959404a64563794904f094254"
+    },
+    {
+      "path": "evidence/M30/20261001T161219-dae56218/resume.rng.json",
+      "sha256": "eebb660d6bebb9cc401ac7f88d35399755a74d22a9c8b71fa96d77e9dc0b850f"
+    },
+    {
+      "path": "evidence/M30/20261001T161219-dae56218/selection.json",
+      "sha256": "219020b8fb6d092e17673e792ec0d0dece2294869c1d42496442544a5fae2514"
+    },
+    {
+      "path": "evidence/M30/20261001T161219-dae56218/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/M30/20261001T161219-dae56218/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/M30/20261001T161219-dae56218/summary.json",
+      "sha256": "6c2ed48c98649a4cd4479449f46bb352ee30f42ad5f0803a95fa92171ebe5d9d"
+    },
+    {
+      "path": "evidence/M30/20261001T161219-dae56218/training.csv",
+      "sha256": "958e37c054b4194889e46641562517cd9c44f98fbf7c7ed35bb9b8d6c45fae74"
+    },
+    {
+      "path": "evidence/M30/20261001T161219-dae56218/validation.csv",
+      "sha256": "191baf128499c2492736b4590591d676d9f23bbd90314bfd9582416d90910b34"
+    },
+    {
+      "path": "evidence/M30/20261001T161219-dae56218/validation_history.json",
+      "sha256": "ef9186fdf33c03bc0d2b62255f236a24518a5ca11217cf84921ee3939eedaf37"
+    },
+    {
+      "path": "evidence/M30/20261001T161219-dae56218/validity.json",
+      "sha256": "276c39501f822c4722c948d5487187a7069a3df1c69b2c11ee47f16ef01126e2"
+    },
+    {
+      "path": "evidence/M30/20261001T161219-dae56218/weights.pt",
+      "sha256": "5a99eee213266478b046a57f516f4ee4a2375a61413cdbe5bebaa8c5a47729b0"
+    }
+  ],
+  "protocol_version": "PTCO-1.0",
+  "run_id": "20261001T161219-dae56218",
+  "schema_version": 1,
+  "started_utc": "2026-10-01T16:12:19.697783Z"
+}

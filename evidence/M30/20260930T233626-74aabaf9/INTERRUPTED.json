@@ -1,0 +1,7 @@
+{
+  "checkpoint_sha256": "03833cf7e4186838334e809d2ee62dfb5f0d7cc55181f6462477cdc34915c002",
+  "last_completed_update": 18560,
+  "reason": "Prior process no longer exists; session ID no longer available. Cause unknown. Last committed optimizer boundary retained.",
+  "status": "interrupted",
+  "utc_recorded": "2026-10-01T06:38:08.308891Z"
+}

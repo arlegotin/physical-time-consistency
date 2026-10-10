@@ -1,0 +1,83 @@
+{
+  "blocker": null,
+  "checks": [
+    {
+      "check_id": "compiled_physics",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "scope": "M20",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "activation",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "scope": "M20",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "independent_rigidbody",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "scope": "M20",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "finite_difference",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "scope": "M20",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "physics_refinement",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "scope": "M20",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "signal_resolution",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "scope": "M20",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "slope_window",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "scope": "M20",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "snapshot_replay",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "scope": "M20",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "warnings",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "scope": "M20",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "units",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "scope": "M20",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "tests",
+      "reason": "Compiled physics, independent equations, complete finite-difference/refinement arrays and reference-only window passed",
+      "scope": "M20",
+      "status": "pass",
+      "tolerance": null
+    }
+  ],
+  "validity_status": "valid"
+}

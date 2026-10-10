@@ -1,0 +1,89 @@
+{
+  "action_parameters": {
+    "actuators": [
+      "direct",
+      "lagged"
+    ],
+    "horizons_ns": [
+      5000000,
+      10000000,
+      40000000
+    ],
+    "models": [
+      "power_correct",
+      "mlp_h",
+      "node_generic",
+      "node_structured"
+    ],
+    "n_probes_per_stratum": 64,
+    "new_control_episodes": 0,
+    "new_training_updates": 0,
+    "training_seed": 9000
+  },
+  "alpha_spent": 0,
+  "authority": "Owner requested continuation, results and meaningful current-branch commits on 2026-10-08.",
+  "authorization_reference": "config/authorization.json",
+  "branch": "shared-state-diagnostic",
+  "claim_ids": [
+    "C02",
+    "C03"
+  ],
+  "contract": {
+    "1": "Element 1 in docs/superpowers/specs/2026-10-08-shared-state-diagnostic.md, Twelve-part extension contract",
+    "10": "Element 10 in docs/superpowers/specs/2026-10-08-shared-state-diagnostic.md, Twelve-part extension contract",
+    "11": "Element 11 in docs/superpowers/specs/2026-10-08-shared-state-diagnostic.md, Twelve-part extension contract",
+    "12": "Element 12 in docs/superpowers/specs/2026-10-08-shared-state-diagnostic.md, Twelve-part extension contract",
+    "2": "Element 2 in docs/superpowers/specs/2026-10-08-shared-state-diagnostic.md, Twelve-part extension contract",
+    "3": "Element 3 in docs/superpowers/specs/2026-10-08-shared-state-diagnostic.md, Twelve-part extension contract",
+    "4": "Element 4 in docs/superpowers/specs/2026-10-08-shared-state-diagnostic.md, Twelve-part extension contract",
+    "5": "Element 5 in docs/superpowers/specs/2026-10-08-shared-state-diagnostic.md, Twelve-part extension contract",
+    "6": "Element 6 in docs/superpowers/specs/2026-10-08-shared-state-diagnostic.md, Twelve-part extension contract",
+    "7": "Element 7 in docs/superpowers/specs/2026-10-08-shared-state-diagnostic.md, Twelve-part extension contract",
+    "8": "Element 8 in docs/superpowers/specs/2026-10-08-shared-state-diagnostic.md, Twelve-part extension contract",
+    "9": "Element 9 in docs/superpowers/specs/2026-10-08-shared-state-diagnostic.md, Twelve-part extension contract"
+  },
+  "expected_artifacts": [
+    "config/shared_state_diagnostic_freeze.json",
+    "reports/shared_state_diagnostic_result.json",
+    "reports/shared_state_diagnostic_result.md",
+    "reports/shared_state_diagnostic_verification.json"
+  ],
+  "input_evidence": [
+    {
+      "path": "reports/efficiency_pilot_completion.json",
+      "sha256": "4573583f3303fe0e261112f46e08b29632b9f66080a313bd5c022786044d90d4"
+    },
+    {
+      "path": "reports/efficiency_pilot_findings.md",
+      "sha256": "7002406aee03c832354aeef5ba4276c3428461f1f345c1343aa7e38c3524f833"
+    },
+    {
+      "path": "reports/efficiency_pilot_first_interval_diagnostic.json",
+      "sha256": "6a39880f1e883a2c554b3551b0eb006ac26869f7553d3f4b400d8e75ffdb0829"
+    }
+  ],
+  "live_explanations": [
+    "drift limitation",
+    "command-response limitation",
+    "composition limitation",
+    "mixed or unresolved errors"
+  ],
+  "new_information": "Same physical states and commands separate components that different closed-loop policies confound.",
+  "parent_gate": "completed-targeted-efficiency-pilot",
+  "phase": "exploratory",
+  "progress_condition": "Complete resolved component/composition measurements identify one justified minimal next scientific action.",
+  "protocol_id": "PTCO-DIAG-0.1",
+  "protocol_version": "PTCO-1.0",
+  "recorded_utc": "2026-10-07T22:55:25.681687Z",
+  "request_id": "MX-shared-state-0001",
+  "resource_projection": {
+    "new_disk_bytes_estimate": 20971520,
+    "owner_imposed_caps": null,
+    "runtime": "Measure first batch and actual complete run; no training/MPC batch"
+  },
+  "return_milestone": "M40",
+  "schema_version": 1,
+  "statistical_look": null,
+  "status": "ready",
+  "unresolved_question": "Is the head limited by zero-new-command motion, command response or held-command composition on the same states?"
+}

@@ -1,0 +1,13 @@
+{
+  "blocker": null,
+  "checks": [
+    {
+      "check_id": "fresh.nominal_fit",
+      "reason": "Independent initialization, complete exposure and nominal-only qualified selection",
+      "scope": "node_structured:2026100810",
+      "status": "pass",
+      "tolerance": null
+    }
+  ],
+  "validity_status": "valid"
+}

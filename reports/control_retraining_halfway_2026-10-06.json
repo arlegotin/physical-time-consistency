@@ -1,0 +1,3621 @@
+{
+  "alpha_spent": 0,
+  "completed_direct_episodes": 240,
+  "coverage": {
+    "mlp_dt": 80,
+    "node_generic": 80,
+    "power_correct": 80
+  },
+  "episodes": [
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h40000000__episode0",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T053350-00310fb5/manifest.json",
+      "manifest_sha256": "7f653963cd2da72671b51c29568784bb939cebf0289da436ccb8824e8d9bb7d7"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h40000000__episode1",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T053430-e0b1a54a/manifest.json",
+      "manifest_sha256": "b18412ca0a0f605ce5e40a3337f11eb21a84cbf71228df1842a8194cd252e97c"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h40000000__episode2",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T053510-3f50484c/manifest.json",
+      "manifest_sha256": "098929a41355e89cfdbbf837be69d6f13f23621a4280ba34f59f5151b3503231"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h40000000__episode3",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T053550-969bf7e0/manifest.json",
+      "manifest_sha256": "37c781642452a24f7e9456b20ff49786759ccb39c2c0bd4ee6fe3bc215f6d4fe"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h40000000__episode4",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T053629-1ddbbbf5/manifest.json",
+      "manifest_sha256": "1b42aa43613b8ede41190b516eaad48f41ca7b3b92ed3e980a4e904f8117bd0b"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h40000000__episode5",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T053709-6af23cbc/manifest.json",
+      "manifest_sha256": "e39ae83ccaee6657d2e9ebdb6ad57222312fc22d5b14c67a80275c2ca2e2ec92"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h40000000__episode6",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T053749-7af0fdda/manifest.json",
+      "manifest_sha256": "73425bc972688bd237cc8e80c890f2d2e65bbe8c409df7e3594346b9af4a2376"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h40000000__episode7",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T053830-be7d61b4/manifest.json",
+      "manifest_sha256": "7d3810a3b7ca59945dcf6789bae5f9f207ff69c00b3f65e25057348f958b5b7f"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h40000000__episode8",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T053909-806a6023/manifest.json",
+      "manifest_sha256": "3e102bb158fd1c3197782514a258299a24c9ffa4e03403a1d7bc46d61a55c273"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h40000000__episode9",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T053949-c8b5e863/manifest.json",
+      "manifest_sha256": "a73afbebb8085ca1ee7b16931d02b4eef20ef66c4e098d1342ac515081706c1e"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h40000000__episode10",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T054029-1bc6dbdf/manifest.json",
+      "manifest_sha256": "ea1fedf1650aa7845767235fbda64391c90d1137f6826692acccd5e770298a3f"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h40000000__episode11",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T054109-7ca36962/manifest.json",
+      "manifest_sha256": "025399c86c1a76c717ed564891ee00d81d9835e3adcd583f5634cd6aaec08325"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h40000000__episode12",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T054149-7c3cb231/manifest.json",
+      "manifest_sha256": "9c8a700bbbd0af20195d0e49584e4fa70b3019a5394a1d1055f9abc3250bbf97"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h40000000__episode13",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T054229-82f7ef70/manifest.json",
+      "manifest_sha256": "762defb5225154af3c8c186d3c164e95561bc91f809a6f2c672ac660d35d8212"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h40000000__episode14",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T054309-6a7691de/manifest.json",
+      "manifest_sha256": "bd642a493385986459e0cde81f92437414d9afed89e5ef4cb15611917061333f"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h40000000__episode15",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T054348-25f2cf56/manifest.json",
+      "manifest_sha256": "e6230eb676aa1f09a9cb9cba5f1d08679ebff182fc5176c2bcb897bbc9c65459"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h40000000__episode16",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T054428-313a4cbf/manifest.json",
+      "manifest_sha256": "517a6d48a29158384d8aec518235716807e4d2f134c4114041272c11ce29660e"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h40000000__episode17",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T054508-e9296f49/manifest.json",
+      "manifest_sha256": "d84ffcafdc23e879a4b82be0cd64a6474d695669fddab553cc549a771aad1f33"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h40000000__episode18",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T054548-6978426e/manifest.json",
+      "manifest_sha256": "f65c57d61ade5730438a82c1bdd15fbff0b332d06e4f9322f1840970635296e6"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h40000000__episode19",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T054627-48b194c2/manifest.json",
+      "manifest_sha256": "99da6fdeba0c02d48b89c707f6808bdef02050b6b53e07982490f2720a656b2b"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h5000000__episode0",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T054707-0093ed8e/manifest.json",
+      "manifest_sha256": "4c86871cef2f60b0b70f71e70c6abb4653f34c5d683f19db3cce9d7d46bf2ac8"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h5000000__episode1",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T054838-8f494c10/manifest.json",
+      "manifest_sha256": "59853dcec05131849e5ab463ded647707007efea360221589d36fe06dea4db1e"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h5000000__episode2",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T055010-03b5deb6/manifest.json",
+      "manifest_sha256": "d383df17bffeb19f4da9af7fafd454ecb31c5d1aa49fcd8c3ba06428ee0f98e4"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h5000000__episode3",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T055142-5975c533/manifest.json",
+      "manifest_sha256": "f32b50fd5d459495719c0c14598a21c6235e89ab7d0361835400915f0d8ad449"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h5000000__episode4",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T055313-eba59b5e/manifest.json",
+      "manifest_sha256": "81f9b330d2cf3fd6498cd8c44b2b1a9009ec0d13b326225a6ebc64f3c688e8eb"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h5000000__episode5",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T055444-331fe355/manifest.json",
+      "manifest_sha256": "3b2d970a50be60d8722db49533a5f5fc9a40c7ee03fd9b72a7f97abdc07b7755"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h5000000__episode6",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T055615-2849ec5c/manifest.json",
+      "manifest_sha256": "49fef844e0aef46921a8956be73b2fcd2679effca625ce657c7382f3eeaad92a"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h5000000__episode7",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T055746-b183d120/manifest.json",
+      "manifest_sha256": "5ec8ee77720dfcf96b86e348faea18dfb0b0095324029cba2862aaa32d7d1f26"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h5000000__episode8",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T055917-cf0594a7/manifest.json",
+      "manifest_sha256": "4ee8e797a6bbd333ed18ea1a8c4c1787e44b5adf93e51ce90549d4f0348f8d77"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h5000000__episode9",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T060048-7cd22955/manifest.json",
+      "manifest_sha256": "f6751b5c92413ac91ccff89d5b090fc37a4ab6f7d86904ee5790cb9c15d80094"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h5000000__episode10",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T060220-d204bf5b/manifest.json",
+      "manifest_sha256": "7c322bdb401241aedf595a3afe2c69031a074694439472e9d63f7d7b88302362"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h5000000__episode11",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T060351-550c61f2/manifest.json",
+      "manifest_sha256": "27184e51996afcf05cb1d39e46d23178815dcd2ca7c4263f00e58177671a12a4"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h5000000__episode12",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T060522-8084e52f/manifest.json",
+      "manifest_sha256": "abf99a241800c567b9391d6603a5c767e775c8facdb6964f6e36f27dc94fa0c0"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h5000000__episode13",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T060653-5dc6e8d0/manifest.json",
+      "manifest_sha256": "f78be485f4c18eda11204438e333266eb59d6337b8046829e9508dff73bdb9a5"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h5000000__episode14",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T060824-1b660cf3/manifest.json",
+      "manifest_sha256": "12bc1ef43303d97639b096fd7b133c84dafb9ee26662ef6ec40494e05acb9e34"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h5000000__episode15",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T060955-13168bc2/manifest.json",
+      "manifest_sha256": "6c77190407a551708b7cb764d7e0cdb2568e763a9bafcbf4dadd6bfdf178848c"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h5000000__episode16",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T061127-51d08926/manifest.json",
+      "manifest_sha256": "acdac35501188c9ee7d144f9aa57be17661afe1524ea7eed1cdd148e21df93bc"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h5000000__episode17",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T061258-02d9a55e/manifest.json",
+      "manifest_sha256": "cbff2d9d0f4ae006a8c2189898dc5cdb22b225edbdc6619ab970cdfe2d0e37d9"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h5000000__episode18",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T061429-b7bb8ef6/manifest.json",
+      "manifest_sha256": "0c94622509cd5d3991a5927918d76fa4daa245f4f1db7fceb9cde768a82dc2c4"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed0__h5000000__episode19",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T061600-168958c4/manifest.json",
+      "manifest_sha256": "a22391b94b4cb9715da983f622866b229a37dbeb4e9c0c2a48aa34ee42e45afc"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h40000000__episode0",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T061731-3b34284d/manifest.json",
+      "manifest_sha256": "92fbfa818d629e32705683554b6af016250e01689e056260c86dd134e6f140ee"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h40000000__episode1",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T061811-9b525dc4/manifest.json",
+      "manifest_sha256": "c81c9331755562a446063bedd5dfa0459ec048d9afe359f8982317e6c366726c"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h40000000__episode2",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T061851-2b4b94e4/manifest.json",
+      "manifest_sha256": "bc4e4e30c7c886d53f80e39a3cfb4eec60c701d1a4d808962d2c57877c5007d7"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h40000000__episode3",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T061931-7784dd53/manifest.json",
+      "manifest_sha256": "a594eb661f9418076d86345a205d7bc5e15799f6ec09056498223587def50c09"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h40000000__episode4",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T062010-ebfeaba0/manifest.json",
+      "manifest_sha256": "ce0dae0819b6253c3b4ba347032a251701480e3a4b1f8efb6219d06607e14571"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h40000000__episode5",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T062050-c42ae1e6/manifest.json",
+      "manifest_sha256": "6db21dc2661b6b4e77f7aa5872d099f23f58a3acb2fa941cb1023b134602aa9f"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h40000000__episode6",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T062130-c889a8e4/manifest.json",
+      "manifest_sha256": "ce2e1cfa59d92d0ec4e3654a6030cbd54aeb711db2792bb80620065fcac64452"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h40000000__episode7",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T062210-a920dee2/manifest.json",
+      "manifest_sha256": "7826a32e158dba20380a763f170629324972a39e8a72e738eaad766d6ea2adcf"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h40000000__episode8",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T062250-95da2ab8/manifest.json",
+      "manifest_sha256": "04303a3c86ec8489c81e3c57221697a51e5f55dc33ad5f89b18e016f01681c7b"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h40000000__episode9",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T062330-8982fd8b/manifest.json",
+      "manifest_sha256": "db43fe3e7c1428f17d4a30bb95bd89ab68013aa83211cbe4c99117aa8f20973c"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h40000000__episode10",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T062410-389a8350/manifest.json",
+      "manifest_sha256": "dccf75d1014714445a7d9b52e662878aedd251fc7925ebebe5d15154a236539b"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h40000000__episode11",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T062449-ec25b137/manifest.json",
+      "manifest_sha256": "98129eb08693bf3b392ea1034a3a5636e85b1abe660d389583ac5665175b77b2"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h40000000__episode12",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T062529-8a63b147/manifest.json",
+      "manifest_sha256": "682d09568b540bad2ceb9df885590560d97f49e6b42ef58bee5362d865dc34be"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h40000000__episode13",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T062609-32e6411a/manifest.json",
+      "manifest_sha256": "f9e83b3569b722125c2ad184fe4409919764b34e484b292caae8283bca1c3698"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h40000000__episode14",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T062649-42faf042/manifest.json",
+      "manifest_sha256": "2d098c53b79ae90cd28479e9851b92fd8eb262293079190396472239c5938771"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h40000000__episode15",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T062729-899a52f4/manifest.json",
+      "manifest_sha256": "c8e19485600646bdd42edca483ac482af96e338ddd087ce591a2d96750f16099"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h40000000__episode16",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T062809-bac987e3/manifest.json",
+      "manifest_sha256": "97ac1f7a137b7f3c37309993f8ef76e17847b5911a1a30d4baeb0d304f86b8af"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h40000000__episode17",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T062849-254e4792/manifest.json",
+      "manifest_sha256": "1014ad2dc5251f19d86f0d1d8dc13817fcb4c3b871260261dbe15b6d5b43fbbc"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h40000000__episode18",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T062929-0cb275b3/manifest.json",
+      "manifest_sha256": "9c856c49aeaa95cfd35098c162e003f394fc152c2cc5255441a34bc25cb2f420"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h40000000__episode19",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T063009-c04b0f8a/manifest.json",
+      "manifest_sha256": "930cb1a7219c1808ea0232ad0bb2285b4467be49d03d6599f891c347844ea78a"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h5000000__episode0",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T063049-44d0e8a3/manifest.json",
+      "manifest_sha256": "16c2f582811b2c5807a408d2c1fd5143a7edeb4c1221b12ae320f0f64201b0a7"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h5000000__episode1",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T063221-166f4389/manifest.json",
+      "manifest_sha256": "caa05219b97db3fccb9608931124e5773b17106c93f537595333945ba0c80a8f"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h5000000__episode2",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T063354-2f188f75/manifest.json",
+      "manifest_sha256": "d9e97f1ddf400d7b2ef7ca80491c9ec3bbc7d5bc0dc29a41aed6cf33251392b9"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h5000000__episode3",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T063525-94d475f8/manifest.json",
+      "manifest_sha256": "29e997230e4f0e63e790dfe3c74d643db3d63a9491efa557ca1a6b610d80fb7a"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h5000000__episode4",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T063656-8c9d95ab/manifest.json",
+      "manifest_sha256": "4b53e2b05a9a5efa149ba6e520022239ed7d6da82376f8002f9376f921b415ae"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h5000000__episode5",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T063827-2f0ee2e1/manifest.json",
+      "manifest_sha256": "a5aafb6d77fb756ac680585a1cb088de358eb5b36475f2329304936f5b5d2636"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h5000000__episode6",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T063959-79dd6401/manifest.json",
+      "manifest_sha256": "d77b8ebc147e3179863c77d4ff17cea135749af3db1c2cd812a20dd9905ada5e"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h5000000__episode7",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T064130-be51af69/manifest.json",
+      "manifest_sha256": "912a78b12581c61689e972cdfe83c0deff9ef050a9a52c1e55d86e73a6fcc3d7"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h5000000__episode8",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T064301-6a5fadf8/manifest.json",
+      "manifest_sha256": "c858d40571d7eebfa0a1537ecc5fd852344b35a77bf811068859aa69c388d3e8"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h5000000__episode9",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T064432-b3ec393a/manifest.json",
+      "manifest_sha256": "e372906c4cba92877b4c8fe12cb45a0c5fe5a3e5109586e01e8cb730e107c76d"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h5000000__episode10",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T064604-8a1a85ad/manifest.json",
+      "manifest_sha256": "4b196da9125fa46272c81fe141e2c44bbd19bb7343d2ddc3ed134cbf4bb244bf"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h5000000__episode11",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T064735-24c5e2a9/manifest.json",
+      "manifest_sha256": "c1396eeeeea15efa5a17c5c58cf07e38519345f241b0a07806019dff850d916a"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h5000000__episode12",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T064906-b472d95a/manifest.json",
+      "manifest_sha256": "8579a74ea2a48fd5c294584f95a67c90b94b4cc3a6f1bcf647fa56104d600bdd"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h5000000__episode13",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T065037-3d406971/manifest.json",
+      "manifest_sha256": "e7a8d6a60adb7d782a7b1524c63a8df9826c129f750b2d339a1b16901c3eebec"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h5000000__episode14",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T065208-d481d068/manifest.json",
+      "manifest_sha256": "806c1b63db0e4e78d481a1f590016011ed68a066f739f5803f622a226b84a08b"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h5000000__episode15",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T065339-e4f26b01/manifest.json",
+      "manifest_sha256": "a857e0c56786254cde6604c263ca0647c7549165cfa0ee59c403a3afd28028b5"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h5000000__episode16",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T065510-bf5c586b/manifest.json",
+      "manifest_sha256": "656e4fa6e5acae541b73a3c2cb6bab9d9274d1140bbb02af8e94ef8ca5bdb177"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h5000000__episode17",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T065641-f7947fea/manifest.json",
+      "manifest_sha256": "9d5f313d237057fd8ee3061c3b0b0932f1e766bd55b2eb2c4bba94a62cddb23b"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h5000000__episode18",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T065812-779e2278/manifest.json",
+      "manifest_sha256": "3594666e24522e17b848635b4d27aabeb7686c62ceee117700f6129871a9a600"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__mlp_dt__seed4__h5000000__episode19",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T065943-6d4e5eeb/manifest.json",
+      "manifest_sha256": "2ace818337de371b2a591318ebe5bb44c2f7261c7ccbde89dd2677302b0c018e"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h40000000__episode0",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T070114-16679c37/manifest.json",
+      "manifest_sha256": "cae94fc2b485708eab42909c4db8463690a66e865f0607fcb3ca1a4f17d69707"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h40000000__episode1",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T070155-6f1cc677/manifest.json",
+      "manifest_sha256": "a3b97e30fec7c11b3fa7bf74cb9b1cfbca1afdd3f04bcd1c054637b96925d31d"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h40000000__episode2",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T070235-ff9840c7/manifest.json",
+      "manifest_sha256": "7f88ebc9761c6ad2d71316dadcdb3ee7214f7ed022f330fbb3936b7743f0c7c2"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h40000000__episode3",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T070315-4732f407/manifest.json",
+      "manifest_sha256": "579dc16ac831487cf282379dd5d67ac00929a647c9ce137c6665919fc6eed1d6"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h40000000__episode4",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T070356-1349c14b/manifest.json",
+      "manifest_sha256": "84bbc44233b9a1d97eb0f1499c65cce0a77eb7774fd7b63ed5ccbea9562bd7c6"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h40000000__episode5",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T070436-10013e71/manifest.json",
+      "manifest_sha256": "b0821e13df946ee58219ee76a5fd6aa24fdb88595fe7ba59201dcff0d494395c"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h40000000__episode6",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T070517-bc218ced/manifest.json",
+      "manifest_sha256": "9856fc00a8a97c927860297ed00c1c551ec3a905f4a008525f2a720dac8d19ac"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h40000000__episode7",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T070557-3882d19a/manifest.json",
+      "manifest_sha256": "b9e19c1402f09c6fbba717cbc0d0ffc4616b0afe556d31fe73acb87308b1b768"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h40000000__episode8",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T070638-42c91d20/manifest.json",
+      "manifest_sha256": "4be99ec0089c7a61b3010629e20570264721aacdac811fd6dfe1988a4e996d62"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h40000000__episode9",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T070718-6e2dec0e/manifest.json",
+      "manifest_sha256": "6b319fa17342c62f5fc20763c49ff42f5d79df0a6fe3767cc4869cf1b92b19a9"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h40000000__episode10",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T070758-ac6c83df/manifest.json",
+      "manifest_sha256": "b5f3b538e9412dc9250365ee39419509030c695f943ae27e47292f6c8b4e313e"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h40000000__episode11",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T070839-f3dc167b/manifest.json",
+      "manifest_sha256": "4c26d2cbbac9819405c99e89e67c3ec353fcfbf2c8ea7605f94c0b471ece83ea"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h40000000__episode12",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T070920-dc8fefff/manifest.json",
+      "manifest_sha256": "e5a0bdcd4d91959be86de1a0ac903d77a3388c46188c72ee37b4c9ab3558fff4"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h40000000__episode13",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T071000-3af1fd0b/manifest.json",
+      "manifest_sha256": "a7262d2f22dc6423761c88d0539dde646f188281b7609948910a295b95f35414"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h40000000__episode14",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T071041-0fb02e5b/manifest.json",
+      "manifest_sha256": "92fa84585e239e9c8e81965101dc4bf17b30cab8f4fc23c1fefc4d426c91787d"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h40000000__episode15",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T071122-e4e89f59/manifest.json",
+      "manifest_sha256": "63cbbfb834ed10df115c1028ddce0cb131253cffd1e540aaf69c90e0a1098385"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h40000000__episode16",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T071202-9de69cd0/manifest.json",
+      "manifest_sha256": "9f919a55a741d370691cc049b1c6a61761e320f375b1956852577a4e773c374a"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h40000000__episode17",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T071243-3b185903/manifest.json",
+      "manifest_sha256": "53a38df8347a72abc2ece070fab79f6427b760a6da2b17dfb607f49f4edff7cb"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h40000000__episode18",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T071323-c7df3fc9/manifest.json",
+      "manifest_sha256": "28c635815f6f89856a67b514af7219e2bd1f0f177e6c3dfd01caeee107515791"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h40000000__episode19",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T071404-7c5342dc/manifest.json",
+      "manifest_sha256": "e2fecb7db8c4697b40d9f0eeeba8100563130d743df68f11d45ae1167b920a7f"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h5000000__episode0",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T071445-89bf1468/manifest.json",
+      "manifest_sha256": "7e8e0f7c6664797bc1a533ab53762a2a50bcb048f607bfdf01304bb1eb21545e"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h5000000__episode1",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T071621-87ee494b/manifest.json",
+      "manifest_sha256": "82bb106b3f7aefdb436ce6f3fcdf135b99813887db10012272995b90a6956a40"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h5000000__episode2",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T071758-b8a204b1/manifest.json",
+      "manifest_sha256": "a03930ae97e6505caac3f4934a3c7104b46da5362069271c394a40cefc16c780"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h5000000__episode3",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T071934-e4ec6ad4/manifest.json",
+      "manifest_sha256": "9b7211d2eebf685344f9e6d2d125e2ffa730e83421961bb8b7361ede39106bce"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h5000000__episode4",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T072111-65cc2624/manifest.json",
+      "manifest_sha256": "e32b76c841bff43ec1dc84f85b4576d784a85df053d7844c777a3643d76fb229"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h5000000__episode5",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T072248-2e98b5fc/manifest.json",
+      "manifest_sha256": "676dc7c913fd156e5853da519ff6f67c898c2d6d8414f0d4345236a3f4352346"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h5000000__episode6",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T072424-4e98dad2/manifest.json",
+      "manifest_sha256": "b22be6a366bda95ed89407bfc7865853aed8b81c343f5c517135b1ae4b057a28"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h5000000__episode7",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T072601-07757e30/manifest.json",
+      "manifest_sha256": "7d9e043f80346c380b68b9180f2af88421e46709e03b95769c76b1c1aa3ba8d1"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h5000000__episode8",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T072738-d6fe5c84/manifest.json",
+      "manifest_sha256": "fac34726cc6b0a1c5d51ed4d37fab74078d9c93e994c3012c66d77e21ee5523a"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h5000000__episode9",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T072914-188b5252/manifest.json",
+      "manifest_sha256": "b595d2c9846879d8a1f311bb0473aa753a20e6c6fbde094e8426e3e8811ae4f5"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h5000000__episode10",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T073051-710939f1/manifest.json",
+      "manifest_sha256": "3d7b4212940c80beee7f7e0adb304f7344b7583ccf30dc48a162dcab9509f715"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h5000000__episode11",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T073228-63a92b28/manifest.json",
+      "manifest_sha256": "6da9445b87de5a4f85f5b935c7aadfe5e7223c74ff098b9fc4ca0060d45d2901"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h5000000__episode12",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T073405-0ae70b49/manifest.json",
+      "manifest_sha256": "7de6c28a70ff50451ee67755a0a86cca1feb02fd804e5f19e07544561023d5fe"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h5000000__episode13",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T073542-4fd8c018/manifest.json",
+      "manifest_sha256": "b194341bb433a4609d1ed89bbe6c2bbf09941a821b2e53c7e7f8dbe7ef964c1f"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h5000000__episode14",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T073727-eb46384e/manifest.json",
+      "manifest_sha256": "5891dcccb3e8482819c41968c4f0fab7265135bd84b1169212b8a8c217b40542"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h5000000__episode15",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T073914-b238a1ea/manifest.json",
+      "manifest_sha256": "b1162f718fe13c2e7e1b937b168eae32292dea6aae31fa8e1b10215e73f833b8"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h5000000__episode16",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T074059-2eccece2/manifest.json",
+      "manifest_sha256": "808014a33417d58a7b37a253f66604b2fd082de6720f7c3782f27d534c0c2ddd"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h5000000__episode17",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T074241-70dfba33/manifest.json",
+      "manifest_sha256": "118198b7b04ebc0d4a4bab8afb8f0e87091fadadca0ee0dcf465ada27b8fa371"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h5000000__episode18",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T074427-2362694a/manifest.json",
+      "manifest_sha256": "fb41da7b3d81245529a9ea0f230121dd3cd289fd5ea182009c5b42daf20388ee"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed0__h5000000__episode19",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T074608-1a8ab4e0/manifest.json",
+      "manifest_sha256": "0b1a0c8eb7bec7ac4444cc0af5a6e6d759ac06472e436f97b783891262b4cccd"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h40000000__episode0",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T074754-658fdc43/manifest.json",
+      "manifest_sha256": "a5b28369b610ea3b7ab8a1bfd7dcc2d9336f9da765dc8e7e062f60fc12e09c03"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h40000000__episode1",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T074839-49fa6a62/manifest.json",
+      "manifest_sha256": "c4a6e4c0151801dbe21afdb9a7f63b7e77ab06a3c2d06df8b632ca308cb28b2f"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h40000000__episode2",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T074922-02b65dd5/manifest.json",
+      "manifest_sha256": "1c4bbde86ebbbf1beeaeee221b614636419143b77d0276a33e12ac0ac6a44ba4"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h40000000__episode3",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T075006-df0cd8b5/manifest.json",
+      "manifest_sha256": "6ccdfbfb8c1031a42647e6116adf574b52556888e97f57a3ea535b1c989a911c"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h40000000__episode4",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T075050-d8eb5f6d/manifest.json",
+      "manifest_sha256": "ef13a867e6cc7aefbf4c92e50cdba29ee22a6fe1f6a7d5f095729bfd498cdd30"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h40000000__episode5",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T075132-b4e929f0/manifest.json",
+      "manifest_sha256": "bc790b3837e5f213996e8eae629ffecfc524addb2515967f9774eb1a01f76098"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h40000000__episode6",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T075213-e7028ecf/manifest.json",
+      "manifest_sha256": "b911547da5ebcef4d3489e3f354b9a626a3ffc66f89e0e12ffb77946a357d666"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h40000000__episode7",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T075255-7f2438aa/manifest.json",
+      "manifest_sha256": "6bb795503580c99f42230630d4db139e96b430fd7f6146201889eefd0f5e02f1"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h40000000__episode8",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T075336-95429ae0/manifest.json",
+      "manifest_sha256": "a4fde866d716ae4f8a72349a4df514f5eba1fba0ac2a65981600d81eb979d2b1"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h40000000__episode9",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T075417-425dff26/manifest.json",
+      "manifest_sha256": "06510268ac2926cdac6650cb0fede9fdec82a8f8b49bd1fd27f5b87ad0bcdfda"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h40000000__episode10",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T075500-cdb7847c/manifest.json",
+      "manifest_sha256": "93a90288a10cf9d15f624b41c54438f78896c46004b58e1da794ab90eb1648fb"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h40000000__episode11",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T075544-f74e36b8/manifest.json",
+      "manifest_sha256": "a4fe0aa61599b2e321383caccf8f55f85a632aee346c5c5e2487ba849d71b921"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h40000000__episode12",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T075627-f8e939a9/manifest.json",
+      "manifest_sha256": "b26e10b7c0a35c134263cb38198b3f5d849b33a8c8df096c859ff5de050bf987"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h40000000__episode13",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T075711-7759ec4c/manifest.json",
+      "manifest_sha256": "fe86af4f59049c5bdc42d163d0ffece502f078a15fffc62d9876f75f2084b677"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h40000000__episode14",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T075754-e241496e/manifest.json",
+      "manifest_sha256": "c687fa0259a66e87f04972c0bdf3cbe30c06a727bb51a333929820f8faad1beb"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h40000000__episode15",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T075837-453d96e0/manifest.json",
+      "manifest_sha256": "e6207f6542c413215ba1b7d718930c5da0e473c53fbc93fb0d18824f775a61ed"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h40000000__episode16",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T075921-3dcf8b81/manifest.json",
+      "manifest_sha256": "adcd5caf885233cc9c002c6dd2dbb3c7cb84c4df80ef4e2e381c66e828f4aa8b"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h40000000__episode17",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T080005-85ecb725/manifest.json",
+      "manifest_sha256": "9e8800d44806a00f0e6ffca613f898143d3e5e7255798b8eb8f7e50bd0fe359e"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h40000000__episode18",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T080049-fd34874a/manifest.json",
+      "manifest_sha256": "d575ddcf895f8ad89477daa9c003f1421e424926c65521d42790b40fa116ee5a"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h40000000__episode19",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T080133-1f020427/manifest.json",
+      "manifest_sha256": "4bd4429342160870aadf259917a84e65a7497e1a0798429da67b749f2ae61ad8"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h5000000__episode0",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T080217-06cb217d/manifest.json",
+      "manifest_sha256": "450400628c04a9c74720e6b4815fda5b69dff8c488ff1045b7d9480c689557c2"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h5000000__episode1",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T080359-12c751ef/manifest.json",
+      "manifest_sha256": "8c271d8d0174de76a7723d5a594901d0d1b21e4ee35e8dd56e2148cb2c81996c"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h5000000__episode2",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T080546-2fc2582a/manifest.json",
+      "manifest_sha256": "b967ae2ba73a4b95d18ae13a57eb394e5efd2b4119b496d75c25ceeab4dfc9a8"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h5000000__episode3",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T080727-85c50eed/manifest.json",
+      "manifest_sha256": "8045d034d6314416eb40de814d546b4223b9db3495e7ff705f472ac955221202"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h5000000__episode4",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T080909-520fabdb/manifest.json",
+      "manifest_sha256": "848077fd50277c78b8b1a63319dfa42fab4ffc13f9a9bed8facc2966ed51ecd4"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h5000000__episode5",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T081052-0cc455f1/manifest.json",
+      "manifest_sha256": "15388dd7732c3f4a5355ad06f85806d08bd56dd5a6b41850e98b13573d394c13"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h5000000__episode6",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T081236-3b58c121/manifest.json",
+      "manifest_sha256": "61428771b1e34e1090240d6a8fb128b18ae40fa8610efb0277a2a692b1a221ad"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h5000000__episode7",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T081418-3edfb7c5/manifest.json",
+      "manifest_sha256": "fe99f25422abf2c22a177eb95fa9246f182c8c352e7f094526c1503b4984806e"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h5000000__episode8",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T081603-a272b83f/manifest.json",
+      "manifest_sha256": "cbefac199b07bcbfaa829327e634f782d01b1371be5a499f207efa06afeae953"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h5000000__episode9",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T081745-6f731fd2/manifest.json",
+      "manifest_sha256": "b7c0aea2ba92820b9d474e99442dda055dc5f5d74cae516b798b2db8832ce429"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h5000000__episode10",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T081926-83d5eadf/manifest.json",
+      "manifest_sha256": "89c56cbac8a15cda3d774edc9542c3ba15d3932cfe006cd9efd7aa3b3ef7af69"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h5000000__episode11",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T082111-68cfb18d/manifest.json",
+      "manifest_sha256": "f8393e54e6086fed171dae1882ed77ec47d3b483dfd4c1d08d567e0f8690621c"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h5000000__episode12",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T082254-b760f8af/manifest.json",
+      "manifest_sha256": "d3cf7f8d143468ec641cc38eafc48ca7fec2660fa43847329e67b4c0fabc489c"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h5000000__episode13",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T082435-0f27aa62/manifest.json",
+      "manifest_sha256": "542dd8d5d106130dfa2879a6a19863a6da98a64f1ec2e4b44e02dce4c1aba214"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h5000000__episode14",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T082614-56ae2c9d/manifest.json",
+      "manifest_sha256": "a303b11364db811ce11bebe06c1f60a198de2a634c8090be3e4ff2f3af0dde30"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h5000000__episode15",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T082754-e4420e2b/manifest.json",
+      "manifest_sha256": "2a6ffac8d4cef5fe5a3948d14b32956b507cd4a8875239f50fd2aeda15fdb31a"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h5000000__episode16",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T082933-54ad4fda/manifest.json",
+      "manifest_sha256": "bcb300d59e18b6ae2d7dccf958df4ef1ee97ce083f7234e3886d6628be550d30"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h5000000__episode17",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T083113-687ca409/manifest.json",
+      "manifest_sha256": "1bb39fbf05b318b33b29f76f8f9aaf55fd389643e5450842ac0b5e42c535c4db"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h5000000__episode18",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T083254-b54d7a54/manifest.json",
+      "manifest_sha256": "82e81d4409d7cbbeda52fab0d84605bf2766eccaf5ac79d11bbb1d2b4d6dd53d"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__node_generic__seed4__h5000000__episode19",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T083434-204e6f6a/manifest.json",
+      "manifest_sha256": "ded5c9c940d5a39cae5acf84fafb270f026621b0204ca38702c6678c0eefe013"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h40000000__episode0",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T083615-61809802/manifest.json",
+      "manifest_sha256": "4ad05879b94f94372e8a45a9dc14c6eb03c3cbbff2e7d07e451f8f4891f2cfd3"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h40000000__episode1",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T083657-8a526e16/manifest.json",
+      "manifest_sha256": "421fecea70e8818fc50896038aa427f4e766c4e18b00e2ab9dcaccd21458c47d"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h40000000__episode2",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T083740-418c01f2/manifest.json",
+      "manifest_sha256": "04a055302c50c5a7a38464368a907cacf78e0c3c973bc2ac242b973fb099f88b"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h40000000__episode3",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T083823-0cbab2e3/manifest.json",
+      "manifest_sha256": "cf93c2e1df315beac00e2b0e9a3f4b7769ab593a552ac636e5de5432780b3e3e"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h40000000__episode4",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T083905-b883aea2/manifest.json",
+      "manifest_sha256": "5286a2e329089f680ada3850ee0c1fbb39a2b8d86fd998cd75900ccf7aa7fbed"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h40000000__episode5",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T083948-8e8fb8eb/manifest.json",
+      "manifest_sha256": "3c1adb5d09394dbeaabd55fd80bfb600ca6b4023e6b104089db96f2ccbdadb2a"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h40000000__episode6",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T084031-b8403e40/manifest.json",
+      "manifest_sha256": "19b9daec904945a5108d7cce57f83c6026f493c9b6eba2c9225bcd23f315345a"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h40000000__episode7",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T084114-3c6912e0/manifest.json",
+      "manifest_sha256": "02bc292825eeae15db1196fd2ae8eb809d0b8b9c96b7a451c589f7ec26a16fe6"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h40000000__episode8",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T084157-42a106ff/manifest.json",
+      "manifest_sha256": "87cf4e302bb6839f12b531eba99d1daa8579cd308f4890d07ae0610a8341c0cb"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h40000000__episode9",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T084240-58f50b0f/manifest.json",
+      "manifest_sha256": "d6c2b4375f9f2c6c89e182ccccd93bbbacba4e2e04369a9f57503ae8f5686344"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h40000000__episode10",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T084323-5ce1d141/manifest.json",
+      "manifest_sha256": "f390c8ae9e9d3596dad6dc64f03bbdc6ba623817c21b4d6b427a3ea51ad8e8d7"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h40000000__episode11",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T084406-66bb5f42/manifest.json",
+      "manifest_sha256": "3bbbc51f2b46e267e0783e6d0341442beab3ae9892cb1a79f702d7e04ed74e40"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h40000000__episode12",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T084449-977899be/manifest.json",
+      "manifest_sha256": "a6ab8dac6d4427c981aaacaa32231cf403618f44bf2f0349744f5259f199e473"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h40000000__episode13",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T084532-5d2b4c1b/manifest.json",
+      "manifest_sha256": "2eff10478296a0df4da2c300abc8b901615bf8eb9f3f9c07fbb2d20c2b3b60a9"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h40000000__episode14",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T084616-3db1ead0/manifest.json",
+      "manifest_sha256": "958cceeb60bb3f35727e2de4f70fa14cd728aa3d670b2184f879944655a41ff3"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h40000000__episode15",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T084659-4e89f604/manifest.json",
+      "manifest_sha256": "6124211dc4692f97a00b3551b89e5317cc89a1854dfa0698bf9c19af64000036"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h40000000__episode16",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T084742-71b1e162/manifest.json",
+      "manifest_sha256": "acf46719a855dd924259ff7b461781b5d91b388a43e14fa55a32e681bfee912e"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h40000000__episode17",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T084825-69cb21e5/manifest.json",
+      "manifest_sha256": "e961a86ad6f36df788bec84915866048fd1a0044cf3d6ee4cc89f86463a2ba21"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h40000000__episode18",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T084908-f2aecd82/manifest.json",
+      "manifest_sha256": "0825b7a18bf011bd7ff1571a53ce50b6794b2bd00723de80d263bacf94f9e2f9"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h40000000__episode19",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T084952-355ba63b/manifest.json",
+      "manifest_sha256": "21eeeb45236b8afad2ac609a7144c83c0760d93b8fbd15696612f067a32eaf4f"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h5000000__episode0",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T085035-33458510/manifest.json",
+      "manifest_sha256": "670fcf83ee71565893df696fc733827466cb4d662f6c0d62dec3a57a22732ffa"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h5000000__episode1",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T085217-f671e98d/manifest.json",
+      "manifest_sha256": "f9a619d39836bf40eb5cc764f8b8a8d1fa31424953546d620394c99a8716fc98"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h5000000__episode2",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T085354-a4727f57/manifest.json",
+      "manifest_sha256": "d29a521ccc7f7f37e18ee085cba1cebcd86ec5482638776d05f73cf1ce29dff2"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h5000000__episode3",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T085533-f74385fe/manifest.json",
+      "manifest_sha256": "34ad100751968763028c730bacb488b858551f08239b2237cddcbc81e4839c4c"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h5000000__episode4",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T085711-46b36cc0/manifest.json",
+      "manifest_sha256": "d718e8d3b35f23788d59b542a68b4f64c74559af8a3a3a7001ebc5d1aa3b5f82"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h5000000__episode5",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T085857-18c5a251/manifest.json",
+      "manifest_sha256": "ec3da0afffcd9af76674d17992ce6457cbb60b9c1ff9e63c798edb7239f0ceb4"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h5000000__episode6",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T090054-c3c4eb96/manifest.json",
+      "manifest_sha256": "96d6bda36358b77de9e9f7d9287d2865b44e10875069b5e64f85bc5b55d55fca"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h5000000__episode7",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T090245-5c699a45/manifest.json",
+      "manifest_sha256": "8f1cecbb5f8d4201d9e484590957cb65495ec4d34d161f805c87f525d199552b"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h5000000__episode8",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T090437-13f65ad0/manifest.json",
+      "manifest_sha256": "9cb33d65d5debb63aef51c64cc0e2ca3454ce839de9cf3d6ea4c703021ce300b"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h5000000__episode9",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T090634-e3d887f2/manifest.json",
+      "manifest_sha256": "00a46f0d667a0c873aa21c0939d4adda81a25eaad05d597ede41ed07dfb837fd"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h5000000__episode10",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T090829-a8f58dd2/manifest.json",
+      "manifest_sha256": "1ab19bbacdaac214bdef49d9e1d39287c7496cab242b08cc95e3114ab8c1891e"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h5000000__episode11",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T091021-1b2dd8ba/manifest.json",
+      "manifest_sha256": "cbc8eb4c350f43418f9ecc3b878ba7f597d45ed2f0eb0bb3107fbd9b720e125e"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h5000000__episode12",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T091205-6c6fa823/manifest.json",
+      "manifest_sha256": "8908557e6d291b7968392ece9e6686a4284326e4457c3b46d70d17cbb28dabcb"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h5000000__episode13",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T091352-a9a0feff/manifest.json",
+      "manifest_sha256": "374f63f82c0e14b8b74070a5c813d9b79d6a4c86892243bc7c78e719975aeb6b"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h5000000__episode14",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T091540-5b7645ff/manifest.json",
+      "manifest_sha256": "29517baff7e55cfae8d9f4c94a93a3cec6b1bee7d9f3a0d4c421310721f11bbb"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h5000000__episode15",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T091736-b187902a/manifest.json",
+      "manifest_sha256": "472174e56e54fbb93d3ae6e13c78b4288fa413ea9b5948ef20c52bae253c0641"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h5000000__episode16",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T091930-06452ad3/manifest.json",
+      "manifest_sha256": "694443cb7d8913d2f6a42b1a37d6d050dbe5b53d137dc46789ca64c0ff1dbaab"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h5000000__episode17",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T092124-c324e9c7/manifest.json",
+      "manifest_sha256": "ac81c53dde69cfe9ba75fca5e4fb346c2f558c9dd0d5a5532c36201a9f252a3c"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h5000000__episode18",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T092317-706b8a4a/manifest.json",
+      "manifest_sha256": "90ef749845c346bc03f4f9199b26d81292799ae93a24abd51389b16e13163352"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed0__h5000000__episode19",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T092510-32aa62bb/manifest.json",
+      "manifest_sha256": "890e76af23768553287177dff2c1d9c3b27f51950179ba9c7128aff1920c3bd9"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h40000000__episode0",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T092704-1256d790/manifest.json",
+      "manifest_sha256": "23623355de16eaf311a03a21a0d764946990e083fe163bd3cebd1fb11d1489be"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h40000000__episode1",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T092756-74d7b440/manifest.json",
+      "manifest_sha256": "bbc99788b1c83fbd99d763fdf6c65c00e859367a69dc6873f33c5647ff10fa3f"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h40000000__episode2",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T092845-35621d6e/manifest.json",
+      "manifest_sha256": "4d157d2e000642e11048f67b9fa1231cdf98b8912a8c3010e1a1f5fc95a9e4e4"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h40000000__episode3",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T092934-3477330e/manifest.json",
+      "manifest_sha256": "8e87682eaa0506a2ccb7dd3a1dbdbc4a831e9e2e15be89cd984d3e4c13f1842e"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h40000000__episode4",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T093021-7cea78c6/manifest.json",
+      "manifest_sha256": "a06b3498c1ad12ff5b00623b4a6b2612c76582cb2a38dd6f703bf875180828bd"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h40000000__episode5",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T093108-dfb01a1d/manifest.json",
+      "manifest_sha256": "08651fa56ec66c4f78a5c53324b53194943c138e527192c8461f34e945dc3e46"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h40000000__episode6",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T093155-b79d3e8a/manifest.json",
+      "manifest_sha256": "4695eb54e54171381817b2875b1f7d39be7fe6950db268d85e836efea2ae9a0e"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h40000000__episode7",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T093243-05f96b6e/manifest.json",
+      "manifest_sha256": "e9c2c54fa5d0733d0190889eaae8160b3758d1dbf11c4a50f580b3963f6e0a80"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h40000000__episode8",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T093331-7439d51f/manifest.json",
+      "manifest_sha256": "ec44c54c041909f5e4cc73fd511b6767c78dec13746f1eb61f42015d543c33cf"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h40000000__episode9",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T093418-60b863b8/manifest.json",
+      "manifest_sha256": "ceba6662a8804619038eea866a72b2416b827719539754333570b360e0d2d95c"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h40000000__episode10",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T093505-6d2fad03/manifest.json",
+      "manifest_sha256": "4c75ab642c8c687baeb6fba923d37d87ed263fd824bace51cb8bcc2bc9cbc130"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h40000000__episode11",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T093552-53b081ab/manifest.json",
+      "manifest_sha256": "06d6b1c2bc452c86779e721502931581370f8c17871da721286a981e86008fd6"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h40000000__episode12",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T093638-aba10d73/manifest.json",
+      "manifest_sha256": "ddef5052a340b6223f621d8e22541b45cd09c35f1186af13500e060fd976e4a8"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h40000000__episode13",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T093726-9e5b447d/manifest.json",
+      "manifest_sha256": "d6f856d04b018393ce2b518ed5d0784e7e7722edb0899e1be32e89036ebd85cf"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h40000000__episode14",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T093816-784c04bf/manifest.json",
+      "manifest_sha256": "aea876d29f61ef71b35adf0da495f3adbfdb37ca53f08f9bf9e46c99ec8133cb"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h40000000__episode15",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T093904-77f870bf/manifest.json",
+      "manifest_sha256": "d65c56e5a5fe7d4cdd2f4620e39a2f063514a00c34e6c279928cd1c23996c16f"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h40000000__episode16",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T093952-e9ca6f4d/manifest.json",
+      "manifest_sha256": "4aef79051fe30064e20043e9044f9a4fd27b626697c27dee6eaa5c79fe01f5d4"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h40000000__episode17",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T094040-c719312c/manifest.json",
+      "manifest_sha256": "e14632b141dc1dbb6f3f7249c3d4d94052d2ef84a5cd0b130f97aae29946cd7a"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h40000000__episode18",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T094128-64461cac/manifest.json",
+      "manifest_sha256": "dfee0d1f65b570b4038dea6623080a8dc536210970e4e132965721ce761a6035"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h40000000__episode19",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T094217-7caf7a6b/manifest.json",
+      "manifest_sha256": "4d032538a10375f2191a450a130760cbab5c7c1341ff6601931c596dbbeb8e30"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h5000000__episode0",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T094305-fff5eab5/manifest.json",
+      "manifest_sha256": "ea5400e46130eee9cc2223c88515524434be29c6a965f1ae39d569ee374b0cb5"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h5000000__episode1",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T094454-85bdee4a/manifest.json",
+      "manifest_sha256": "f24f888e28f7b4b7eb64df19e6765c4eabed32f8d4d6ec66b3c80a564b54a590"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h5000000__episode2",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T094642-e4f151ac/manifest.json",
+      "manifest_sha256": "6eff627472067af326ada62bb4f947e6a13918ee0365a51714d7c721bd3f9eef"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h5000000__episode3",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T094830-b9da8d4c/manifest.json",
+      "manifest_sha256": "2cd490389bf9f2e7216c0f6289490b6e466317af032e4b82c05e9cc7161f526f"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h5000000__episode4",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T095019-dc22d641/manifest.json",
+      "manifest_sha256": "b0a67d4c7d5e05165f28ea41bf17f346717c817a799ae54cb71f94b2865d1f65"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h5000000__episode5",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T095206-0ccc12f6/manifest.json",
+      "manifest_sha256": "59a8ab0323d13b0a9ad31faad1c34c7ee64cf66710da6acdbfca5939e97d14d2"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h5000000__episode6",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T095356-d634e287/manifest.json",
+      "manifest_sha256": "d03ff0abe726618d7e9ff5bb0e1e18555ade43f320f5d1bb116c11bcdb61bffa"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h5000000__episode7",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T095544-c2b4cae8/manifest.json",
+      "manifest_sha256": "c7f34508b1bfc407e33695cf2f4c4da0e0f4300d3ae3beb974376cdc30e18a7a"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h5000000__episode8",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T095733-a574c5b1/manifest.json",
+      "manifest_sha256": "950162bdce31892ee11b4e5ec2f50e0bc7b5899aa353b60479ff13b3c74abdf5"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h5000000__episode9",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T095925-a7e1ac34/manifest.json",
+      "manifest_sha256": "cb0b3189111523bf6a829d39f34b8da777e4f21a71638457f50c3533555bb0bc"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h5000000__episode10",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T100117-5176884a/manifest.json",
+      "manifest_sha256": "675a25391ddb7cb850177076dd30fa8acdbb47a05f3db9b8ba63641a59fe287d"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h5000000__episode11",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T100306-8fc95fd9/manifest.json",
+      "manifest_sha256": "42ffc412f3179a76007b5e2597fb5d7894d46962a0e95625109176dd6caf303f"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h5000000__episode12",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T100454-3635646d/manifest.json",
+      "manifest_sha256": "297f3784e2d31b0951332d766a4aaa4ec7bc27f37324597330909cb323bdb857"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h5000000__episode13",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T100642-4d13716a/manifest.json",
+      "manifest_sha256": "579a731f8ce0db8190a57053a4068856483d55a92ac97009cf75774b47b0bf98"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h5000000__episode14",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T100829-e03f2912/manifest.json",
+      "manifest_sha256": "d569a72ff43608d3a25a441e0940adb50b492f83fed743b89d4f641af8f71327"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h5000000__episode15",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T101016-d6d4afea/manifest.json",
+      "manifest_sha256": "141ae48880b6c0c1f08d26115738c9214e433964bf2b2ddb3706b70cfb404308"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h5000000__episode16",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T101204-32be0fc3/manifest.json",
+      "manifest_sha256": "379a38499db33310646ad35b6845652034cc0aaa6998778d5ed462cad68b0773"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h5000000__episode17",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T101354-aefa09fc/manifest.json",
+      "manifest_sha256": "aed5c98be491110c476af185600990a90db7085832925e26cd178b63b9dfb895"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h5000000__episode18",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T101545-b2c4819a/manifest.json",
+      "manifest_sha256": "69f08ca9904a8f04140e977789bb20a4a1a1e4fcb43266006ac428157c0d133f"
+    },
+    {
+      "cell_id": "fresh_training_control__direct__A__shared__power_correct__seed4__h5000000__episode19",
+      "comparison": {
+        "absolute_cost_difference": 0.0,
+        "decision_failure_classifications_unchanged": true,
+        "diagnosis_required": false,
+        "new_independent_training_clusters": 0,
+        "relative_cost_difference": 0.0,
+        "scope": "Fresh-weight control reproduction of existing paired tasks; criterion stability checked separately",
+        "status": "pass",
+        "success_and_fallback_unchanged": true
+      },
+      "manifest": "evidence/M70/20261006T101736-e86c027d/manifest.json",
+      "manifest_sha256": "5105193b8cd6a56411de4c41fe0df845b0a29233b85942917c7a30d0d800f541"
+    }
+  ],
+  "expected_direct_episodes": 240,
+  "max_absolute_cost_difference": 0.0,
+  "new_independent_training_clusters": 0,
+  "observed_utc": "2026-10-06T10:23:52.070684Z",
+  "operational_audit": true,
+  "remaining_original_scope": "240 lagged episodes and final criterion stability aggregation",
+  "schema_version": 1,
+  "scientific_verdict": null,
+  "success_fallback_and_decision_failure_classifications_unchanged": true,
+  "verified_raw_costs_and_manifest_hashes": true
+}

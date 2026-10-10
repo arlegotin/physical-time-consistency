@@ -1,0 +1,13 @@
+{
+  "initial_context_sha256": "708d2b3d9fa3433993e3dc1e6295d3a92309a0091c3d0f9d7c711d2cad98e0ef",
+  "log": ".superpowers/sdd/2026-09-30-physical-time-consistency/task-14-precision-look4.log",
+  "prospective_commit": "8337849",
+  "protocol_version": "PTCO-1.0",
+  "recorded_utc": "2026-10-01T18:00:11.129908Z",
+  "request_path": "config/revisions/MX-precision-0007.json",
+  "request_sha256": "2bc218c4c0681f8e587ae8c865c6d9ae38c333314db4d4e795d289a67e20988c",
+  "resume_command": ".venv/bin/python -m poc.subset_precision config/revisions/MX-precision-0007.json --root study/precision-look-2/study/precision-look-3 --resume",
+  "run_status": "running",
+  "schema_version": 1,
+  "working_context": "study/precision-look-2/study/precision-look-3/study/precision-look-4"
+}

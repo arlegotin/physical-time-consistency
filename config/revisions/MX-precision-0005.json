@@ -1,0 +1,90 @@
+{
+  "action_parameters": {
+    "alpha": 0.0125,
+    "new_seed_ids": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "next_look": 2,
+    "primary_precision_criterion": "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+    "seed_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "authorization_reference": "config/authorization.json",
+  "branch": "precision",
+  "claim_ids": [
+    "C02"
+  ],
+  "contract": {
+    "1": "S12/MX and S13.4 precision: discriminate C02 under unchanged PTCO-1.0, no success from a subset.",
+    "10": "Measured prior paired training wall time projects the next equal-size block; larger total precision may require many more seeds. Authorized localCPU only, no artificial caps.",
+    "11": "Preserve every attempt/checkpoint; resume only identical jobs. Wire-format repair changes serialized bounds only. Diagnose defects, never change scientific floors.",
+    "12": "Complete new paired clusters and look2 evaluated against originalK280, with honest continued uncertainty or supported scope-specific decision.",
+    "2": "Exact valid unresolved GR decision, five paired seeds, no supported mandatory rejection; all prerequisite code/data unchanged.",
+    "3": "Pin a working continuation context using identical source and immutable binary links; preserve original context and append seeds5–9.",
+    "4": "Precommit this request before new outcomes; same train/validation selection, confirmation probes, models, losses, thresholds and originalK280. Retain all old samples and spending.",
+    "5": "python -m poc.subset_precision config/revisions/MX-precision-0005.json --resume; explicit registered entry while original engine remains pinned.",
+    "6": "Raw and summary artifacts match MR; original frozen context and look1 remain independently recoverable.",
+    "7": "Verify unchanged parent hashes and paired full coverage; reaggregate raw matrices; qualified nominal fits; same-field solver audits; no bad seed removal.",
+    "8": "Original criterion evaluator and conservative Fieller/bootstrap/influence rules. NO-GO only for valid precise mandatory failure; subset support returnsM30; overlap stays nonterminal.",
+    "9": "ReturnMR gate. Rejection toMF; support tounfinishedM30; unresolved to a new named prospective precision/solver/optimizer request; exact external prerequisite toBLOCKED."
+  },
+  "expected_artifacts": [
+    "INITIAL_CONTEXT.json",
+    "config/precision_parent.json",
+    "appended raw training and E01 receipts",
+    "new look ledger entry",
+    "precision_decision.json"
+  ],
+  "input_evidence": [
+    {
+      "path": "evidence/MR/20261001T111511-ff500529/manifest.json",
+      "producing_run_id": "20261001T111511-ff500529",
+      "role": "manifest",
+      "sha256": "6bb044b4a32a12771fabc5e62a340f771411be342838951b21acf84e8247a18f"
+    }
+  ],
+  "live_explanations": [
+    "the original effect clears all required floors",
+    "the10ms gain is materially below its required floor"
+  ],
+  "new_information": "Five additional independent paired training-seed clusters; old clusters, fixed corpus and alpha ledger retained.",
+  "parent_decision_id": "0b79513e7f2cc7e8cc1eb8a416ba0e1330f54bab6e6f3d264977eb7eb5f1173d",
+  "parent_gate": "GR",
+  "prior_manifest": "evidence/MR/20261001T111511-ff500529/manifest.json",
+  "prior_manifest_sha256": "6bb044b4a32a12771fabc5e62a340f771411be342838951b21acf84e8247a18f",
+  "progress_condition": "Additional independent clusters reduce or diagnose the unresolved paired contrast and ratio uncertainty.",
+  "protocol_version": "PTCO-1.0",
+  "recorded_utc": "2026-10-01T13:04:49.542981Z",
+  "request_id": "MX-precision-0005",
+  "resource_projection": {
+    "additional_audit_time": "Measured separately; prior references retained",
+    "conservative_cold10ms_total_seed_projection_for_Fieller_width_0_20": 94,
+    "explanation": "Predeclared5-to10 doubling; further blocks need a new prospective request. No arbitrary total seed or runtime ceiling.",
+    "measured_prior_training_wall_seconds": 3974.3451022919994,
+    "new_E01_jobs": 15,
+    "new_training_fits": 10,
+    "owner_imposed_caps": null,
+    "projected_new_training_wall_seconds": 3974.3451022919994,
+    "projection_not_result": true
+  },
+  "return_milestone": "MR",
+  "schema_version": 1,
+  "statistical_family_size": 280,
+  "status": "ready",
+  "unresolved_question": "Resolve the unchanged 50 percent superiority boundary and paired percentage precision, especially at10ms.",
+  "working_context": "study/precision-look-2"
+}

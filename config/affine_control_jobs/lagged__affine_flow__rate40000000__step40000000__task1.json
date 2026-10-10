@@ -1,0 +1,21 @@
+{
+  "actuator": "lagged",
+  "actuator_interval_ns": 40000000,
+  "cell_id": "lagged__affine_flow__rate40000000__step40000000__task1",
+  "episode_id": 1,
+  "freeze_sha256": "16034f64fe18e9fc1465c9c2c06c600f4ab201647883b5f07df66f2f1a9f5aaf",
+  "model_id": "affine_flow",
+  "model_partition_ns": [
+    40000000
+  ],
+  "path": "config/affine_control_jobs/lagged__affine_flow__rate40000000__step40000000__task1.json",
+  "protocol_id": "PTCO-AFF-0.1",
+  "seed": 9000,
+  "selected": {
+    "actuator": "lagged",
+    "checkpoint_sha256": "7efa7ace55944ac3aa2577db7a1e17e786a014146c4a01f57380d91a87f9a36d",
+    "manifest_sha256": "e36ad8f7425fb564a0e3d39b91fae1a7f228bff6bd320cc5fc51a87d3a8e99a3",
+    "model_manifest": "evidence/M30/20261008T070230-d76da3f5/manifest.json",
+    "protocol_id": "PTCO-AFF-0.1"
+  }
+}

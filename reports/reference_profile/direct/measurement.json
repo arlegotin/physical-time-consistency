@@ -1,0 +1,40 @@
+{
+  "actuator": "direct",
+  "batch_cpu_seconds": [
+    0.023495000000000044,
+    0.024564999999999948,
+    0.021700000000000053
+  ],
+  "batch_wall_seconds": [
+    0.024464915972203016,
+    0.024712624959647655,
+    0.02169904112815857
+  ],
+  "disk_projection_basis": "12800 update rows plus twenty validation rows, five parameters, optimizer states and manifests; estimate pending complete run.",
+  "input_hashes": {
+    "study/precision-look-2/study/precision-look-3/data/direct/A/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+    "study/precision-look-2/study/precision-look-3/data/direct/A/train/manifest.json": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+    "study/precision-look-2/study/precision-look-3/data/direct/A/validation/manifest.json": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c"
+  },
+  "integration_step_s": 0.005,
+  "optimizer_updates_executed": 0,
+  "parameter_hash_before_and_after": "9790f0a6278c4f1d88ec5350684100426750f6de14a125965c499db5c82ca96b",
+  "peak_rss_bytes": 264634368,
+  "phase": "calibration",
+  "projected_disk_bytes": 8388608,
+  "projected_updates": 12800,
+  "projected_wall_seconds": 313.1509244441986,
+  "projection_limitations": "Representative gradient timing only; excludes validation, checkpoint I/O and any finer solver branch.",
+  "recorded_utc": "2026-10-01T21:40:20.218339Z",
+  "schema_version": 1,
+  "solver_audits": [
+    {
+      "coarse_step_s": 0.005,
+      "fine_step_s": 0.0025,
+      "max_normalized_endpoint_difference": 0.00017542525893077254
+    }
+  ],
+  "source_script_sha256": "1675116188712383e155e01da739a8e5544c724401bef22f059e0ab9dcfac376",
+  "training_gradients_measured": 4,
+  "warmup_gradients": 1
+}

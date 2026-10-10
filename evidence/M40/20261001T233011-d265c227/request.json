@@ -1,0 +1,32 @@
+{
+  "actuator": "direct",
+  "actuator_interval_ns": 40000000,
+  "checkpoint_sha256": "e71e8b1ef6d9d0fc220a0c6064bec98ed544c312bc347eca8f65f0d20f9b87f6",
+  "condition": "clean",
+  "episode_id": 6,
+  "manifest_sha256": "7f284e79151122a137d12e624e8db9e6dd234436771d7104a0f8b3db8f61bd16",
+  "model_id": "physics_fit",
+  "model_manifest": "evidence/M40/20261001T223844-5f87d589/manifest.json",
+  "model_partition_ns": [
+    40000000
+  ],
+  "phase": "calibration",
+  "physics_step_ns": 250000,
+  "planner_settings": {
+    "candidate_count": 128,
+    "elite_count": 16,
+    "initial_std": 1.0,
+    "iterations": 4,
+    "std_floor": 0.1
+  },
+  "power_mode": null,
+  "resource_projection": {
+    "disk_bytes": 3100731,
+    "measurement_manifest": "evidence/M40/20261001T225637-00d9fbcd/manifest.json",
+    "measurement_manifest_sha256": "3da2707ee68cc48ccaee7438f9fbbaf3efffed5e8d6cbfc58983817851192384",
+    "reason": "Same fixed-budget episode; 25% throughput projection margin, not a scientific cap",
+    "wall_seconds": 56.833392968750005
+  },
+  "schema_version": 1,
+  "seed": 9000
+}

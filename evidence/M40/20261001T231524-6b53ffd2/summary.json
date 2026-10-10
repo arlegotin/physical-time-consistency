@@ -1,0 +1,78 @@
+{
+  "actuator": "direct",
+  "actuator_interval_ns": 40000000,
+  "candidate_count_per_decision": 512,
+  "checkpoint_hash": "e71e8b1ef6d9d0fc220a0c6064bec98ed544c312bc347eca8f65f0d20f9b87f6",
+  "command_effort_integral": 1.5090268933701776,
+  "complete": true,
+  "condition": "clean",
+  "cost_components": {
+    "effort": 0.0015090268933701776,
+    "terminal": 0.001448311073604654,
+    "total": 0.31180238783001796,
+    "tracking": 0.1558184450500291,
+    "velocity": 0.15302660481301403
+  },
+  "episode_id": 2,
+  "experiment_id": "E03",
+  "fallback_count": 0,
+  "final_window_sample_count": 801,
+  "initial_state": [
+    -0.14023606302473102,
+    -0.2582780981459283,
+    0.0,
+    0.0
+  ],
+  "missing_cells": [],
+  "model_hashes": {
+    "checkpoint_sha256": "e71e8b1ef6d9d0fc220a0c6064bec98ed544c312bc347eca8f65f0d20f9b87f6"
+  },
+  "model_id": "physics_fit",
+  "model_partition_ns": [
+    40000000
+  ],
+  "oracle_physics_steps": 0,
+  "phase": "calibration",
+  "physics_step_ns": 250000,
+  "planner_latency_median_seconds": 1.167952792,
+  "planner_latency_p95_seconds": 1.1855939066,
+  "power_mode": null,
+  "q_rmse_rad": 0.23638677640848405,
+  "realized_cost": 0.31180238783001796,
+  "resource_projection": {
+    "disk_bytes": 3100731,
+    "measurement_manifest": "evidence/M40/20261001T225637-00d9fbcd/manifest.json",
+    "measurement_manifest_sha256": "3da2707ee68cc48ccaee7438f9fbbaf3efffed5e8d6cbfc58983817851192384",
+    "reason": "Same fixed-budget episode; 25% throughput projection margin, not a scientific cap",
+    "wall_seconds": 56.833392968750005
+  },
+  "run_id": "20261001T231524-6b53ffd2",
+  "seed": 9000,
+  "seed_namespaces": {
+    "cem": [
+      7101,
+      9000,
+      2,
+      2
+    ],
+    "disturbance": [
+      7101,
+      9000,
+      0,
+      4
+    ]
+  },
+  "success": true,
+  "target": [
+    0.23738411632285628,
+    0.7422356857589614
+  ],
+  "terminal_q_error_rad": 0.017019465758975245,
+  "velocity_rms_rad_s": 0.9554835795485624,
+  "work": {
+    "history_tokens_processed": 0,
+    "network_calls": 0,
+    "scalar_candidate_evaluations": 122880,
+    "vector_field_calls": 122880
+  }
+}

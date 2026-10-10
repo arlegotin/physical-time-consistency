@@ -1,0 +1,272 @@
+{
+  "actuator": "direct",
+  "episodes": [
+    {
+      "episode_id": 0,
+      "fallback_count": 0,
+      "manifest": "evidence/M40/20261002T215403-017e1a48/manifest.json",
+      "manifest_sha256": "2b0d919965785f9e5aa07eb04f164246c4827ea8d004c6773d1e001195175f8b",
+      "n_observations": 40,
+      "n_real_anchors": 40,
+      "raw_cost": 0.03878640788660636,
+      "resources": {
+        "cpu_seconds": 36.871626,
+        "disk_bytes": 2478436,
+        "original_estimate": {
+          "expected_episodes": 140,
+          "note": "Direct measured episode proxy; GRU/lagged latency unmeasured until representative jobs",
+          "owner_imposed_caps": null,
+          "source": "reports/control_development_direct_resources.json",
+          "source_sha256": "b8f55d35b10016f3a689001e0a0bc4a5bd72400c5b1244e7eacbc4d3dd3001e5"
+        },
+        "peak_rss_bytes": 409190400,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 37.138636584
+      },
+      "success": true
+    },
+    {
+      "episode_id": 1,
+      "fallback_count": 0,
+      "manifest": "evidence/M40/20261002T215451-d633dfeb/manifest.json",
+      "manifest_sha256": "0cf087bf74e8c566d31d717acaf05b0170b91ceb8bdb17b74fe8f419178ad221",
+      "n_observations": 40,
+      "n_real_anchors": 40,
+      "raw_cost": 0.19981571125453626,
+      "resources": {
+        "cpu_seconds": 36.667802,
+        "disk_bytes": 2448535,
+        "original_estimate": {
+          "expected_episodes": 140,
+          "note": "Direct measured episode proxy; GRU/lagged latency unmeasured until representative jobs",
+          "owner_imposed_caps": null,
+          "source": "reports/control_development_direct_resources.json",
+          "source_sha256": "b8f55d35b10016f3a689001e0a0bc4a5bd72400c5b1244e7eacbc4d3dd3001e5"
+        },
+        "peak_rss_bytes": 412942336,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 36.963920958
+      },
+      "success": false
+    },
+    {
+      "episode_id": 2,
+      "fallback_count": 0,
+      "manifest": "evidence/M40/20261002T215540-13c602ec/manifest.json",
+      "manifest_sha256": "41fbb8c95d528da35523df3f04e205ab81655595712af5d0fd788e973ffa4a6b",
+      "n_observations": 40,
+      "n_real_anchors": 40,
+      "raw_cost": 0.3041132991083522,
+      "resources": {
+        "cpu_seconds": 36.960567,
+        "disk_bytes": 2456894,
+        "original_estimate": {
+          "expected_episodes": 140,
+          "note": "Direct measured episode proxy; GRU/lagged latency unmeasured until representative jobs",
+          "owner_imposed_caps": null,
+          "source": "reports/control_development_direct_resources.json",
+          "source_sha256": "b8f55d35b10016f3a689001e0a0bc4a5bd72400c5b1244e7eacbc4d3dd3001e5"
+        },
+        "peak_rss_bytes": 411566080,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 37.229969041
+      },
+      "success": true
+    },
+    {
+      "episode_id": 3,
+      "fallback_count": 0,
+      "manifest": "evidence/M40/20261002T215629-2cf2180c/manifest.json",
+      "manifest_sha256": "35373adaf20fa9244b880c2069f90d2f25ef3a046dc9094173fbc29b51b70bea",
+      "n_observations": 40,
+      "n_real_anchors": 40,
+      "raw_cost": 0.4587531732974251,
+      "resources": {
+        "cpu_seconds": 37.923139,
+        "disk_bytes": 2452088,
+        "original_estimate": {
+          "expected_episodes": 140,
+          "note": "Direct measured episode proxy; GRU/lagged latency unmeasured until representative jobs",
+          "owner_imposed_caps": null,
+          "source": "reports/control_development_direct_resources.json",
+          "source_sha256": "b8f55d35b10016f3a689001e0a0bc4a5bd72400c5b1244e7eacbc4d3dd3001e5"
+        },
+        "peak_rss_bytes": 414269440,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 37.972273292
+      },
+      "success": false
+    },
+    {
+      "episode_id": 4,
+      "fallback_count": 0,
+      "manifest": "evidence/M40/20261002T215719-b0a431ee/manifest.json",
+      "manifest_sha256": "4fa38170337d47c78b007dcebc136704e863ed6aa8355ff8b2ee7ef5d2ed04a9",
+      "n_observations": 40,
+      "n_real_anchors": 40,
+      "raw_cost": 0.18429363745609112,
+      "resources": {
+        "cpu_seconds": 37.058567999999994,
+        "disk_bytes": 2478417,
+        "original_estimate": {
+          "expected_episodes": 140,
+          "note": "Direct measured episode proxy; GRU/lagged latency unmeasured until representative jobs",
+          "owner_imposed_caps": null,
+          "source": "reports/control_development_direct_resources.json",
+          "source_sha256": "b8f55d35b10016f3a689001e0a0bc4a5bd72400c5b1244e7eacbc4d3dd3001e5"
+        },
+        "peak_rss_bytes": 409092096,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 37.068596125
+      },
+      "success": false
+    },
+    {
+      "episode_id": 5,
+      "fallback_count": 0,
+      "manifest": "evidence/M40/20261002T215807-4e864178/manifest.json",
+      "manifest_sha256": "fb9c1c5664d8df76222ae62dd712cc215ab67722c71bb4cd71d277d368b74746",
+      "n_observations": 40,
+      "n_real_anchors": 40,
+      "raw_cost": 0.18198712613422058,
+      "resources": {
+        "cpu_seconds": 36.866455,
+        "disk_bytes": 2472828,
+        "original_estimate": {
+          "expected_episodes": 140,
+          "note": "Direct measured episode proxy; GRU/lagged latency unmeasured until representative jobs",
+          "owner_imposed_caps": null,
+          "source": "reports/control_development_direct_resources.json",
+          "source_sha256": "b8f55d35b10016f3a689001e0a0bc4a5bd72400c5b1244e7eacbc4d3dd3001e5"
+        },
+        "peak_rss_bytes": 409812992,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 36.944403
+      },
+      "success": false
+    },
+    {
+      "episode_id": 6,
+      "fallback_count": 0,
+      "manifest": "evidence/M40/20261002T215856-fb26b62f/manifest.json",
+      "manifest_sha256": "dc71c6758bfa1ec930076a564d8eba9b4410879628955ca555fff3d2e0556e50",
+      "n_observations": 40,
+      "n_real_anchors": 40,
+      "raw_cost": 0.43292358224543226,
+      "resources": {
+        "cpu_seconds": 36.711939,
+        "disk_bytes": 2446500,
+        "original_estimate": {
+          "expected_episodes": 140,
+          "note": "Direct measured episode proxy; GRU/lagged latency unmeasured until representative jobs",
+          "owner_imposed_caps": null,
+          "source": "reports/control_development_direct_resources.json",
+          "source_sha256": "b8f55d35b10016f3a689001e0a0bc4a5bd72400c5b1244e7eacbc4d3dd3001e5"
+        },
+        "peak_rss_bytes": 411910144,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 36.721115167
+      },
+      "success": false
+    },
+    {
+      "episode_id": 7,
+      "fallback_count": 0,
+      "manifest": "evidence/M40/20261002T215944-c2aff59b/manifest.json",
+      "manifest_sha256": "69c81f5a4f8ce8a966e22db7daf24cc8dce1c1cc277a65be674fd48bc3a6efc5",
+      "n_observations": 40,
+      "n_real_anchors": 40,
+      "raw_cost": 0.007701984823692757,
+      "resources": {
+        "cpu_seconds": 37.632632,
+        "disk_bytes": 2481128,
+        "original_estimate": {
+          "expected_episodes": 140,
+          "note": "Direct measured episode proxy; GRU/lagged latency unmeasured until representative jobs",
+          "owner_imposed_caps": null,
+          "source": "reports/control_development_direct_resources.json",
+          "source_sha256": "b8f55d35b10016f3a689001e0a0bc4a5bd72400c5b1244e7eacbc4d3dd3001e5"
+        },
+        "peak_rss_bytes": 410779648,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 37.905987666
+      },
+      "success": true
+    },
+    {
+      "episode_id": 8,
+      "fallback_count": 0,
+      "manifest": "evidence/M40/20261002T220033-c40dc5f8/manifest.json",
+      "manifest_sha256": "15da6f842a8d2e896c430649a0c51852466d121d71252b727314e4096a9fba6c",
+      "n_observations": 40,
+      "n_real_anchors": 40,
+      "raw_cost": 0.17255694164023294,
+      "resources": {
+        "cpu_seconds": 36.596375,
+        "disk_bytes": 2458333,
+        "original_estimate": {
+          "expected_episodes": 140,
+          "note": "Direct measured episode proxy; GRU/lagged latency unmeasured until representative jobs",
+          "owner_imposed_caps": null,
+          "source": "reports/control_development_direct_resources.json",
+          "source_sha256": "b8f55d35b10016f3a689001e0a0bc4a5bd72400c5b1244e7eacbc4d3dd3001e5"
+        },
+        "peak_rss_bytes": 407650304,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 36.620893959
+      },
+      "success": false
+    },
+    {
+      "episode_id": 9,
+      "fallback_count": 0,
+      "manifest": "evidence/M40/20261002T220121-52c6d14a/manifest.json",
+      "manifest_sha256": "e0d52b1fb098cd5d6b8a0ca9d761269796cfab787e6da5e22db0fb97b05585fb",
+      "n_observations": 40,
+      "n_real_anchors": 40,
+      "raw_cost": 0.12409990916545295,
+      "resources": {
+        "cpu_seconds": 36.900164,
+        "disk_bytes": 2484855,
+        "original_estimate": {
+          "expected_episodes": 140,
+          "note": "Direct measured episode proxy; GRU/lagged latency unmeasured until representative jobs",
+          "owner_imposed_caps": null,
+          "source": "reports/control_development_direct_resources.json",
+          "source_sha256": "b8f55d35b10016f3a689001e0a0bc4a5bd72400c5b1244e7eacbc4d3dd3001e5"
+        },
+        "peak_rss_bytes": 406650880,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 37.018711625
+      },
+      "success": false
+    }
+  ],
+  "evaluator_sha256": "75c2f019ec914aed8acf1293a9c0f7733a818cfe5106f61b4418bfb40237d94d",
+  "fallbacks": 0,
+  "group_complete": true,
+  "mean_cost": 0.21050317730120427,
+  "model_id": "gru_dt",
+  "model_step_ns": 40000000,
+  "n_episodes": 10,
+  "n_training_seeds": 1,
+  "phase": "exploratory",
+  "recorded_utc": "2026-10-02T22:04:09.734683Z",
+  "registry_sha256": "9717a328b3ff0e25fc0a1158ec9e5d1c8b825c2c1b9b1d95e2b1fa048c0e911c",
+  "schema_version": 1,
+  "scientific_decision": "not_evaluated",
+  "scope": "Complete direct GRU nominal ten-task development group; no finer-clock comparison or population inference",
+  "statistical_look_reserved": false,
+  "successes": 3,
+  "training_seed": 9000
+}

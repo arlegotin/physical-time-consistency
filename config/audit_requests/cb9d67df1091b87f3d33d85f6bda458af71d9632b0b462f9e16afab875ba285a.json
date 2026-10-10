@@ -1,0 +1,12 @@
+{
+  "actuator": "direct",
+  "cell_id": "direct__A__shared__power_correct__seed3",
+  "condition": "A",
+  "corpus_manifest": "data/direct/A/confirmation/manifest.json",
+  "experiment_id": "E01",
+  "freeze_path": "config/rejection_checkpoint_freezes/direct__A__shared__power_correct__seed3.json",
+  "loss_mode": "shared",
+  "model_id": "power_correct",
+  "seed": 3,
+  "training_manifest": "evidence/M30/20261001T122402-3bcf0fff/manifest.json"
+}

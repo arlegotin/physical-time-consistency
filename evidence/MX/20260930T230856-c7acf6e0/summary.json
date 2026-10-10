@@ -1,0 +1,14 @@
+{
+  "changed_training_recipe": false,
+  "missing_cells": [],
+  "original_attempts_preserved": [
+    "20260930T223329-67028ca2",
+    "20260930T225408-51cdc02e",
+    "20260930T225337-83f13edc",
+    "20260930T224909-92e3c81f",
+    "20260930T225124-82c64d6b"
+  ],
+  "request_id": "MX-checkpoint-0002",
+  "return_milestone": "M30",
+  "scientific_result": null
+}

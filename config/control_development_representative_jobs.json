@@ -1,0 +1,42 @@
+{
+  "cells_sha256": "db0b9f92aa40efa749448d5a79c72ab893618afae06237f1c1d4a6b134273b9a",
+  "design_sha256": "c5cb3a57f3f986d80468b788207788aa3cc881a980d90b4cc29e68706cc5fda7",
+  "jobs": [
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h40000000__episode0",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h40000000__episode0.json",
+      "sha256": "bb257425a5ae4a41dc2941e363587b70a5392812d700aa1950ca0879bedface0"
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h5000000__episode0",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h5000000__episode0.json",
+      "sha256": "d387a44f583117c58b9077dc355203507c17b2ce7afa50af19b6a3e895f81e9f"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h40000000__episode0",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h40000000__episode0.json",
+      "sha256": "5b6303c3a7242e24dbf577c3824b42b7f49f453f8e6a95e05e3a08201d30973e"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h5000000__episode0",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h5000000__episode0.json",
+      "sha256": "4221f6b50a1e03a97c3177ab8566f0cca3cd0c2584a1166178906c3eda431b57"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h40000000__episode0",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h40000000__episode0.json",
+      "sha256": "0499d520a23f8fa2764ceff7d0afe42b848cf771f7c05efba2f75f5e77f41861"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h5000000__episode0",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h5000000__episode0.json",
+      "sha256": "8e6197327ae00ba6fafdf6866763e58c0e89470cb96d6615300b3e492bff8c1d"
+    }
+  ],
+  "launch_prerequisite": "Independent robot planner qualification and committed frozen common budget",
+  "outcome_selection": "None; all six prospective cells retained",
+  "phase": "exploratory",
+  "recorded_utc": "2026-10-02T00:12:47.068256Z",
+  "resource_policy": "Serial local CPU; initial measurement jobs only, remaining resource projection from observed throughput",
+  "schema_version": 1
+}

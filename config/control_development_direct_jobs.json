@@ -1,0 +1,319 @@
+{
+  "cells_sha256": "db0b9f92aa40efa749448d5a79c72ab893618afae06237f1c1d4a6b134273b9a",
+  "design_sha256": "c5cb3a57f3f986d80468b788207788aa3cc881a980d90b4cc29e68706cc5fda7",
+  "existing_episode_count": 6,
+  "expected_episode_count": 60,
+  "jobs": [
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h40000000__episode0",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h40000000__episode0.json",
+      "sha256": "bb257425a5ae4a41dc2941e363587b70a5392812d700aa1950ca0879bedface0"
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h40000000__episode1",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h40000000__episode1.json",
+      "sha256": "6dc8a6c20446bb56b2b73368ad5a07e3a94ddc88292dfece058671eb172d5db4"
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h40000000__episode2",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h40000000__episode2.json",
+      "sha256": "742605a39ad1ae48beab7ad183ad422a471909a620f7727089c801179b4d86ed"
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h40000000__episode3",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h40000000__episode3.json",
+      "sha256": "4a51e5ce12ce518a26431e8d350795089aa9cfd32d50828a603883d03f2ed369"
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h40000000__episode4",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h40000000__episode4.json",
+      "sha256": "249a390e21a2e0e1bc1b9f7a9bcc65fb8b8db16e5183600b35b83997d6004d58"
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h40000000__episode5",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h40000000__episode5.json",
+      "sha256": "912acc07f8565b1866658b21a4aa24eaad6c66f0c137e9765930c05deedc8873"
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h40000000__episode6",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h40000000__episode6.json",
+      "sha256": "7fe5603e24de2a8ea2f603392c45d9b4974f04d5bab899ec5aff6c641f5504c8"
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h40000000__episode7",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h40000000__episode7.json",
+      "sha256": "35ae3f3cd9764b7d48c64a31c145f78a35123a614f9e761f3675a6dc99d94ed4"
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h40000000__episode8",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h40000000__episode8.json",
+      "sha256": "fc221d8bf54f62b9d88b8099da0c8f5d55bb6be08a70bd72a30a09a49a4f6149"
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h40000000__episode9",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h40000000__episode9.json",
+      "sha256": "a296946c920ab2f70be0cb47815c6f934b84ed803fbbb992838bcddbb881ffd0"
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h5000000__episode0",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h5000000__episode0.json",
+      "sha256": "d387a44f583117c58b9077dc355203507c17b2ce7afa50af19b6a3e895f81e9f"
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h5000000__episode1",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h5000000__episode1.json",
+      "sha256": "e38fdf434adc413dbcb75562f57155126811cda7ab9ed52183058103bf0cde44"
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h5000000__episode2",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h5000000__episode2.json",
+      "sha256": "317d350746c32d2332e0b087a99893fdf16bfe89bdcd8608e2dd97c43105c5e1"
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h5000000__episode3",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h5000000__episode3.json",
+      "sha256": "0545caed9ef3bf30848ca1af1f175f6d79ad09c72e991c1e9849fd2528719e3a"
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h5000000__episode4",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h5000000__episode4.json",
+      "sha256": "990342e17ce56b25f50daaa8ae324ace8473363900e640b64763ee1a9ca046f7"
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h5000000__episode5",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h5000000__episode5.json",
+      "sha256": "cbb93f7d9ccae4b60c44868d8e261118c817564b3c5791d8a6f3026ad480163d"
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h5000000__episode6",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h5000000__episode6.json",
+      "sha256": "f113448307d200973b184bca8302e90a630272e81dff038375229ff600500d4a"
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h5000000__episode7",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h5000000__episode7.json",
+      "sha256": "a5c227301798ffe5b7dd0774e9d29ac851b89cc8693e3b7e6a8022d40e09b722"
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h5000000__episode8",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h5000000__episode8.json",
+      "sha256": "6cf0e3a14e1a316dcec327373923a122cf4f467875d2510782a5db41add47b24"
+    },
+    {
+      "cell_id": "direct__A__shared__mlp_dt__default__h5000000__episode9",
+      "path": "config/control_jobs/development__direct__A__shared__mlp_dt__default__h5000000__episode9.json",
+      "sha256": "2c804f0aee9623c2432282ea01761ab16e039e48eb7089c66490c9bb37c7945c"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h40000000__episode0",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h40000000__episode0.json",
+      "sha256": "5b6303c3a7242e24dbf577c3824b42b7f49f453f8e6a95e05e3a08201d30973e"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h40000000__episode1",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h40000000__episode1.json",
+      "sha256": "5388d321ae7f4131d03febf0f3e1e1373f0abe7bc5fa71ae250ad7332586df70"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h40000000__episode2",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h40000000__episode2.json",
+      "sha256": "09078b1984b16aad3cf0d11ce4982765d6677fe3fb55a076083bbd7828371a24"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h40000000__episode3",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h40000000__episode3.json",
+      "sha256": "272b4d63056e74bc844219324811a0a433b69086b6e0e92002615195e08bc5f5"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h40000000__episode4",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h40000000__episode4.json",
+      "sha256": "8cc38bdf9b118b99a8df99818b0bf334b052dda88c65766eb6b4897a6b3ae192"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h40000000__episode5",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h40000000__episode5.json",
+      "sha256": "286718c762420fe1a28f7dba46a423c3686c7cd47523e54779a2303c1178fc10"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h40000000__episode6",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h40000000__episode6.json",
+      "sha256": "3ccfc08e1b68f8203765dc23404b43ddefce58449bd35b4ac930f44292bcde07"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h40000000__episode7",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h40000000__episode7.json",
+      "sha256": "e9908c272b0d354fbb44ad049b7f91347c5328305b921bb47e65c5c9610d62e7"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h40000000__episode8",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h40000000__episode8.json",
+      "sha256": "5b044b10f7b92f3239ae06d7c0adf517359d56d6919131cd7a6299ea832e5c71"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h40000000__episode9",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h40000000__episode9.json",
+      "sha256": "42867132942ed545e89110ac1b0b0e8a3012cd77a1841d334cef8643d3d5a88c"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h5000000__episode0",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h5000000__episode0.json",
+      "sha256": "4221f6b50a1e03a97c3177ab8566f0cca3cd0c2584a1166178906c3eda431b57"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h5000000__episode1",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h5000000__episode1.json",
+      "sha256": "2694354b6da70599749f4368afe3ce71fe1cb0e40af56ce935eec997c4a9a1bc"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h5000000__episode2",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h5000000__episode2.json",
+      "sha256": "0af06ab7d27eb4933075d35d987112b07fe13b673646d9a28d9f591daa55e197"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h5000000__episode3",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h5000000__episode3.json",
+      "sha256": "cf3238a4596fa03136bec84ba80ce94e0dc9dbea0a440a0c3a173afa44973202"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h5000000__episode4",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h5000000__episode4.json",
+      "sha256": "6b2cb6dac9c1332c2c3a5ad50369889088f23bea9d7895dbf8fd34131a747d1c"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h5000000__episode5",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h5000000__episode5.json",
+      "sha256": "8aff6946680b923826c945a4f160d5d5ec0d5db5146a9f1c6f1923c514385702"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h5000000__episode6",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h5000000__episode6.json",
+      "sha256": "e27e0b42205002abf246dbbad4a3ec73e6d5798bb19c21cd7891e806abfa04cc"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h5000000__episode7",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h5000000__episode7.json",
+      "sha256": "fac7a3f20b13cb1e34e7e4849dc3235ed34d99e4c8278a9660bf912356394882"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h5000000__episode8",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h5000000__episode8.json",
+      "sha256": "14ed1ce4e7af7ecb90bad25ec72486d0105c002973dc90f0a0923b4db58dc5f5"
+    },
+    {
+      "cell_id": "direct__A__shared__node_generic__default__h5000000__episode9",
+      "path": "config/control_jobs/development__direct__A__shared__node_generic__default__h5000000__episode9.json",
+      "sha256": "b73304610174ea4a75dee2d31f494fa33f315ef2111ef59b5a2173254fb29b4a"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h40000000__episode0",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h40000000__episode0.json",
+      "sha256": "0499d520a23f8fa2764ceff7d0afe42b848cf771f7c05efba2f75f5e77f41861"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h40000000__episode1",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h40000000__episode1.json",
+      "sha256": "b1a7c43d537a3e8473f2f9ecf112ba460f983669fc5dec22a6ab5a36e6507d73"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h40000000__episode2",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h40000000__episode2.json",
+      "sha256": "f057b491c0b83c9538ac9c56ec14132a52dc974aa107a48c6f90926d16c9e208"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h40000000__episode3",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h40000000__episode3.json",
+      "sha256": "c7b7465003e5cf33555aa66a5c867edadc76e5c08e34828a26bb633cfe92c4e8"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h40000000__episode4",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h40000000__episode4.json",
+      "sha256": "829e7acb857379d2e0c32b96feed0adffdcf46117b7dd3d754708152ef8935bb"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h40000000__episode5",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h40000000__episode5.json",
+      "sha256": "e15bd4f944f536aac58d7ad1ca906dab0acf9f49aa002a1c8fb809506361209f"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h40000000__episode6",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h40000000__episode6.json",
+      "sha256": "51ab4c46938a6e055e3d62ec8f1ffef5f751d62f5ceb93140caa7de813590aee"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h40000000__episode7",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h40000000__episode7.json",
+      "sha256": "cfe82c681bf5fec546abf6c068491692b265f4e4519e5b07459ea58dbab8ca97"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h40000000__episode8",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h40000000__episode8.json",
+      "sha256": "2b43e8f8ff3952c3f087e488a6331d6bde7d591b1eda3d4a9c1b2641b9533781"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h40000000__episode9",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h40000000__episode9.json",
+      "sha256": "3f7e1976515572d5123a1bf431a4e9b6f3f0aada85092d212e618b925b369153"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h5000000__episode0",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h5000000__episode0.json",
+      "sha256": "8e6197327ae00ba6fafdf6866763e58c0e89470cb96d6615300b3e492bff8c1d"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h5000000__episode1",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h5000000__episode1.json",
+      "sha256": "eda35f15289a1d9e4a8e2f1e880f76e333f0d4334b60ad3b824e02c1cdc2b234"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h5000000__episode2",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h5000000__episode2.json",
+      "sha256": "bd2ece62861d0090a8195f993fcd236409e3f7ce391c0a1d46d94d891dfed48f"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h5000000__episode3",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h5000000__episode3.json",
+      "sha256": "6d6d850685c2f23e59036eb56a3ecb0cb6579e6806266dc1e49893d2b9284a42"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h5000000__episode4",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h5000000__episode4.json",
+      "sha256": "5bb311057998df55ad1c0c2aa9a45a566ce208ddec8eefa67d471e1473574214"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h5000000__episode5",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h5000000__episode5.json",
+      "sha256": "af0d0ac8c460f56da2fe380bce36fc5aaae41ca3f480d1a8e461a50b09f4d8fe"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h5000000__episode6",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h5000000__episode6.json",
+      "sha256": "d8727b37876870ec959b26f61807cafc024c75746f0fb13b3807f8c1731b7082"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h5000000__episode7",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h5000000__episode7.json",
+      "sha256": "c2a6ed8f611c3b7d02549d5f41e0dc5dfacefb9b8919f452e33eba80bbab154c"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h5000000__episode8",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h5000000__episode8.json",
+      "sha256": "11bad6c27e55b4ba70e094b778f93ba4cb48075cbf5484e25e25345ba5c6670f"
+    },
+    {
+      "cell_id": "direct__A__shared__power_correct__default__h5000000__episode9",
+      "path": "config/control_jobs/development__direct__A__shared__power_correct__default__h5000000__episode9.json",
+      "sha256": "3779e88886def1dd39264596a304e9c5a31442d7e606321f13a8ba6e7aa8c1ca"
+    }
+  ],
+  "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+  "phase": "exploratory",
+  "recorded_utc": "2026-10-02T01:14:09.752808Z",
+  "remaining_resource_projection": {
+    "disk_bytes": 166900646.25,
+    "producer_wall_seconds": 3570.130155453754,
+    "qualification_hashing_startup_overhead": "Additional to producer time; not a runtime cap"
+  },
+  "schema_version": 1,
+  "selection": "Original fixed ten-task direct core workload; all gains/losses retained, all three comparators and both partitions",
+  "statistics": "Descriptive one-training-seed development; no confirmatory inference"
+}

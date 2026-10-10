@@ -1,0 +1,392 @@
+{
+  "argv": [
+    "python",
+    "-m",
+    "poc",
+    "run",
+    "M30"
+  ],
+  "code_revision": "c5b33a515ed25f49313a9288098493d94caa3c45",
+  "code_tree_sha256": "7ecf71dc8cf8c8056c883f4ec50c728af987b32f0d12e82fed207cade23d4619",
+  "completion_status": "complete",
+  "configuration_sha256": "c00eb8ff01e620a79a807b83bc25a293967caa432d7386970950c86807de777c",
+  "data_hashes": {
+    "train": {
+      "path": "evidence/M30/20261008T092517-64f53a85/manifest.json",
+      "sha256": "c8f672ebe39d78e036f7e7431e60272e8506ddda7027bf1e6660b785c4337c9b"
+    },
+    "validation": {
+      "path": "evidence/M30/20261008T092559-39aa5611/manifest.json",
+      "sha256": "c0d5b3bc36a48a9b5fecb299b3235b0a8ddadef5ecb2dddcaac7903fa70d6503"
+    }
+  },
+  "dirty": true,
+  "ended_utc": "2026-10-08T22:02:18.460835Z",
+  "environment_sha256": "6f62cf50712625ed40af8a3d527dfaa2c654835099e3eaa3647990ee8421dc77",
+  "expected_cells": [
+    "fresh.nominal_fit"
+  ],
+  "job_inputs": {
+    "configuration_keys": {
+      "config/affine_fresh_requests/fit-6238dbec1d16b59ca2361487fc556d0dd3916b3aaa8b419fd610a8db5f141722.json": {
+        "actuator": "lagged",
+        "data": {
+          "train": {
+            "path": "evidence/M30/20261008T092517-64f53a85/manifest.json",
+            "sha256": "c8f672ebe39d78e036f7e7431e60272e8506ddda7027bf1e6660b785c4337c9b"
+          },
+          "validation": {
+            "path": "evidence/M30/20261008T092559-39aa5611/manifest.json",
+            "sha256": "c0d5b3bc36a48a9b5fecb299b3235b0a8ddadef5ecb2dddcaac7903fa70d6503"
+          }
+        },
+        "freeze": {
+          "actuator": "lagged",
+          "configuration_path_repair": {
+            "original_freeze_path": "reports/provenance/fresh-configuration-path-repair/original-freeze.json",
+            "original_freeze_sha256": "51f1c6233c5524fca4ab4bb64a99b1463c95cce2a0c12a3ae8f0bdc3531c3e1e",
+            "reason": "Real immutable configuration file paths required by verify_run; no training or fine evaluation had begun",
+            "recorded_utc": "2026-10-08T09:16:21.789305Z"
+          },
+          "control_configurations": [
+            [
+              "affine_flow",
+              5000000
+            ],
+            [
+              "node_structured",
+              5000000
+            ],
+            [
+              "node_structured",
+              40000000
+            ]
+          ],
+          "control_physics_step_ns": 250000,
+          "counts": {
+            "confirmation": 256,
+            "train": 1024,
+            "validation": 256
+          },
+          "created_utc": "2026-10-08T07:59:38.753131Z",
+          "epoch_block": 100,
+          "inference_scope": "Fresh model seeds and tasks; fixed version-specific train/probe corpus; one known-lag robot",
+          "initial_alpha": 0.025,
+          "initial_episodes_per_seed": 10,
+          "initial_seeds": [
+            2026100800,
+            2026100801,
+            2026100802,
+            2026100803,
+            2026100804
+          ],
+          "input_hashes": {
+            "assets/two_link_lagged.xml": "e4741d6c43f64af014fcb16371d3469e466885b80333e3a218be629ab80ace3f",
+            "config/authorization.json": "c8935eb56837a5dc3430ea6c1ef7a0bf61f2a206c6a5b767ed13b15c38a52f78",
+            "config/numerical.json": "35f71d6b4e0770efd3f2ffc3b189fbbd78c0b06062984ebaa39d6af408ef21b5",
+            "config/planner.json": "fef27c3be89d011c9774b3be6f9947202ca9d28c24007af58d3d892dbdbaebc5",
+            "docs/superpowers/specs/2026-10-08-affine-independent-confirmation.md": "cbab8fd214f273d8a6d5e5d0ee4aba04ef48610d2a848155e4f57c38fad4e4ab",
+            "evidence/M30/20261008T070230-d76da3f5/learning_controls.json": "836871a2b3d7235dbaeecf61900385ec00f37e836647a304fd629f3d032bfcf6",
+            "evidence/M30/20261008T070230-d76da3f5/manifest.json": "e36ad8f7425fb564a0e3d39b91fae1a7f228bff6bd320cc5fc51a87d3a8e99a3",
+            "locks/environment.json": "fe4c606657c8cef0768fb4687af1ac382240825e0d0e101738f6c5580a2f9dd3",
+            "locks/wheels.json": "7db829bc323883817ebbf34270f4f9d9aa377a5ab09b215278ea77c4f5f63fed",
+            "reports/affine_prediction_measurement.json": "eb2cfaf6635ab27a4257d908340f5119a1b33244477ea2f1736c23bf287b1c17",
+            "reports/affine_prediction_result.json": "6efdeefafba57a53df1991c78991ac88cd9a02d618b9f7e406a947f7903b6e22",
+            "study/control-development/evidence/M30/20261002T025902-a8850e3b/manifest.json": "83f1069fe44aaacc36c6c551b6f15c05157d39ee0cc78ab962ea3c63127d7b98",
+            "study/control-development/evidence/M30/20261002T025902-a8850e3b/summary.json": "16b33cc23e750731d0e54963d5e56f552b541da3f5394e40fe7cf91db3da0912"
+          },
+          "learning_controls": {
+            "evidence/M30/20261008T070230-d76da3f5/learning_controls.json": "836871a2b3d7235dbaeecf61900385ec00f37e836647a304fd629f3d032bfcf6",
+            "evidence/M30/20261008T070230-d76da3f5/manifest.json": "e36ad8f7425fb564a0e3d39b91fae1a7f228bff6bd320cc5fc51a87d3a8e99a3",
+            "study/control-development/evidence/M30/20261002T025902-a8850e3b/manifest.json": "83f1069fe44aaacc36c6c551b6f15c05157d39ee0cc78ab962ea3c63127d7b98",
+            "study/control-development/evidence/M30/20261002T025902-a8850e3b/summary.json": "16b33cc23e750731d0e54963d5e56f552b541da3f5394e40fe7cf91db3da0912"
+          },
+          "learning_rates": [
+            0.001,
+            0.0003
+          ],
+          "loss_mode": "shared",
+          "models": [
+            "affine_flow",
+            "node_structured"
+          ],
+          "namespace": [
+            20261008,
+            2
+          ],
+          "physics_step_ns": 125000,
+          "planner_settings": {
+            "candidate_count": 128,
+            "elite_count": 16,
+            "initial_std": 1.0,
+            "iterations": 4,
+            "std_floor": 0.1
+          },
+          "primary_statistics": [
+            "q_error_5ms",
+            "v_error_5ms",
+            "batch128_latency_5ms"
+          ],
+          "protocol_id": "PTCO-AFF-0.2",
+          "source_hashes": {
+            "poc/__init__.py": "a2663e8d543cbef68f5ef143d68b63cc6fde80d0d59bb560d4f23347632dcd10",
+            "poc/__main__.py": "0f27902c62b9843290556f97636abe8c9df75f58e233d5349b2c09c522f15542",
+            "poc/action_path.py": "5389db332d8ee89f21085cd5e8642ead126e845ba1d891f8422a4f509f9981b5",
+            "poc/affine_experiment.py": "05bee8686e229e8229975ba3882f0eef5fecae379b864f9d48af5e76a0b3bc1a",
+            "poc/affine_flow.py": "de46ee95fde952a34505b0bed95b95edee979ce134dbc10336bc130c88bda086",
+            "poc/affine_fresh.py": "384f1704cb20b7d423a5e5d65ca3f81eac044b4b33ad6988585f195710c78819",
+            "poc/affine_measurement.py": "4d7a6cb3bdf0fb8a0203cda43a9f82d5bf0901d26888fcef1178ca9dccbecd83",
+            "poc/analytic.py": "b6fd1dfef962c2517f7b24f0ffb96a4ef0188ab5058adea638309e6895f313fc",
+            "poc/calibration_batch.py": "f5723d548acc0d0b0a525d9c9bc109ccafdbc321f974409ca7eaef7513ab8604",
+            "poc/clocks.py": "7a45fe841e36bfabc1e4ee66c8b329755943dbd7a9c46fb016aceb925d544ef9",
+            "poc/contracts.py": "3615336d4cf41840c8026ad74afe0be2f36929bec625b7f0b2aaff56c7e4b7e4",
+            "poc/control.py": "b802a2e8a84200fd1d9741ce6cb7d4f2c98e66405b84cfb26f3c8a98289df5f5",
+            "poc/control_artifacts.py": "a22bf364e52c63ec05b44bfe329e2bbf5c36e37a1b9399cf2158a720733f7d04",
+            "poc/control_episode.py": "970168a74caf3f1ba5baa039a2de60ae035576c770e2b3dd58a341117db207a3",
+            "poc/control_jobs.py": "acbc3d196301c7128a26aab0585f40e0f55e7d536792741cf746c942366aca4f",
+            "poc/control_models.py": "50432a27298ef52e598d05e019fcf84e7d63a849dd9a62cc3a2bb7cb2e42ad31",
+            "poc/control_profile.py": "71ec8800bf7c67cce88ca3fa1be8a20e344591dedc57a41b35ddb4afa0e9cd65",
+            "poc/dataset.py": "7b19abd94a475eef557667244656e3e19be2f9860e279c75f0ef5d7c7a7ff597",
+            "poc/efficiency_episode.py": "571334db75f3e43779183156db2cd119e9db34d040ab20c446b8ff6000cbeb7e",
+            "poc/efficiency_pilot.py": "fbc10952735fe97f725c7175d0018ae133ead2736deb4bc1affb76722331655b",
+            "poc/efficiency_result.py": "c9cdf1470f06dfda28fe07a7e71fa145fdb956c6fc31c8b0da983e32f8dbe641",
+            "poc/efficient_power.py": "c1656339d2bbc492e005fa04ac50467c5148967ccb2f98f666e502ef233edeb8",
+            "poc/envs.py": "e4635069a335d0b37d378adea3267c703f1c44f445a7c535afdc89f5e32ce35e",
+            "poc/execution.py": "7be39cb095560fd86df4109e1a88b4616174e1766edada9ea926718d192aa786",
+            "poc/gates.py": "a260b655bd8a7829237f00441be9d62a1bc3847d6d6570fecbd3b3a4042604b7",
+            "poc/history.py": "9f76f4bdd6776c01ecc8e53d77d5b4861c88f8d9e65b740353137416b457afdc",
+            "poc/io.py": "b7c169b0c7e296b7e11dfe42ae620ad33806de61b36b610db67d727bd7ac04cd",
+            "poc/milestones/__init__.py": "d7cc49e457f3a9cba474ece1c589de0d83243741952576e12bd8f45f8ed556ac",
+            "poc/milestones/m10.py": "d1fc44e782a61858e386c1f7a0f274f3b91d4ef8ac98e889781d479a570b0831",
+            "poc/milestones/m20.py": "a9c725389741e2ce1e99695abf664d153d0df95476313dcd4e3cd190a0ebd975",
+            "poc/models/__init__.py": "9af7c30ff7b9a23124b59def8f80551784db5aa4d97cad299a137e3663cf675a",
+            "poc/models/common.py": "1fed6c0593bab9a85a9899da66eb994eb6f4909c5fb200208e61f14320f947a1",
+            "poc/models/factory.py": "848243017a8b726c91483a080e026c6708dcb380fa75b7c34649420dc6b00c83",
+            "poc/models/mlp.py": "0859bac1c9eb737b3accfca9ecca3c9370f1100e110ccf251b0b1688c6f01110",
+            "poc/models/ode.py": "c2a5a2ecbca37c99afbcda2261e9dd05b3913508e5f1690935d3cb263dfda0ff",
+            "poc/models/power.py": "4d10d4d39aa2d1b35f301b2f60fe0148e3cdb529dc05f1b7601eb7d4a7a7c1d7",
+            "poc/models/sequence.py": "9cadc432670b4fb4e4d6ca88fb642c6de159b954747da720454e8da3d28acd95",
+            "poc/mpc.py": "ca2db4101a4b924af537705540a2e09eda5bdc7cac72d9acb9bbbf9452a2b61f",
+            "poc/mpc_calibration.py": "ede702834d517747db8f3f1493d39997990cc876b349f710af0c1a636bea40b8",
+            "poc/oracle_rigidbody.py": "537e5d06400d8135b728f0111284ebb7ce13ee7b9361eaec93cb80ec40bd5f37",
+            "poc/physics_fit.py": "95f5db85913f3ecc44f0236d3ad3f3ad27f644ebfc782a7c95bc79f9474998ad",
+            "poc/planner_qualification.py": "319d96f140a8d352a24e792c5538cad8f22fb43539f6e95c493b626bad100396",
+            "poc/reference_jobs.py": "2bbc9115bbf3f4ea759be85c64973966db666cabe9766decba4000e081d92fe5",
+            "poc/research_jobs.py": "c045d7417fc2ecd18c9c24267ac3f09ced5e972869cd5e7ec0d0a3ecd155d27d",
+            "poc/robot_calibration.py": "51bd9bedd37d6424e4bf98aaea14648c66ec36444cfa9959cbb2b6bed0481245",
+            "poc/sensitivity.py": "30d5bc24d15f5e0707a15d8a1b54deacfec1034bcb9e366f7b8562b283e1ee42",
+            "poc/shared_state_diagnostic.py": "affc7a5f1bd356a77e772553a7d220d169b378c503025b41376e9c7cadc91edc",
+            "poc/train.py": "d56ccfaca398e08edc934b24c8b3ba7c7424628ffd5af4c753e36ef2bc5d7368",
+            "poc/training_jobs.py": "97ec7fc02811efa99a370fa4dda667efbe2d58bdee8acd1e5a6db08b74bb3a4c"
+          },
+          "work_context": "study/affine-fresh"
+        },
+        "loss_mode": "shared",
+        "model_id": "node_structured",
+        "replica_id": "fresh_process_1",
+        "seed": 2026100800
+      }
+    },
+    "dependencies": {
+      "assets/two_link_lagged.xml": "e4741d6c43f64af014fcb16371d3469e466885b80333e3a218be629ab80ace3f",
+      "config/affine_fresh_freeze.json": "2d8bee7b01d7a415592a60c7c9d6aa7ec8bc1288033f748d356b40c95dd55258",
+      "config/affine_fresh_requests/fit-6238dbec1d16b59ca2361487fc556d0dd3916b3aaa8b419fd610a8db5f141722.json": "57856ec7e11dfd37bcb972e0131969751be738224c8b49051b043b66696afec8",
+      "config/authorization.json": "c8935eb56837a5dc3430ea6c1ef7a0bf61f2a206c6a5b767ed13b15c38a52f78",
+      "config/numerical.json": "35f71d6b4e0770efd3f2ffc3b189fbbd78c0b06062984ebaa39d6af408ef21b5",
+      "config/planner.json": "fef27c3be89d011c9774b3be6f9947202ca9d28c24007af58d3d892dbdbaebc5",
+      "docs/superpowers/specs/2026-10-08-affine-independent-confirmation.md": "cbab8fd214f273d8a6d5e5d0ee4aba04ef48610d2a848155e4f57c38fad4e4ab",
+      "evidence/M30/20261008T070230-d76da3f5/learning_controls.json": "836871a2b3d7235dbaeecf61900385ec00f37e836647a304fd629f3d032bfcf6",
+      "evidence/M30/20261008T070230-d76da3f5/manifest.json": "e36ad8f7425fb564a0e3d39b91fae1a7f228bff6bd320cc5fc51a87d3a8e99a3",
+      "evidence/M30/20261008T092517-64f53a85/corpus.json": "c999475830cfd8e97b654cd39b920381c1af4a38cb69f216dad384e0ac81c588",
+      "evidence/M30/20261008T092517-64f53a85/manifest.json": "c8f672ebe39d78e036f7e7431e60272e8506ddda7027bf1e6660b785c4337c9b",
+      "evidence/M30/20261008T092517-64f53a85/trajectories.npz": "e2bfe323942f726f2eebe00f0068bb780c0d876d7c17a51a0b995f03a8317db4",
+      "evidence/M30/20261008T092559-39aa5611/corpus.json": "3a522d07023b3937d121eec42d6c50c1d4a50280750781fe8a6b89b3d71c78eb",
+      "evidence/M30/20261008T092559-39aa5611/manifest.json": "c0d5b3bc36a48a9b5fecb299b3235b0a8ddadef5ecb2dddcaac7903fa70d6503",
+      "evidence/M30/20261008T092559-39aa5611/trajectories.npz": "d3f5326cd3cc2b17b2d0c2dcf7743b681a1192555ae3d124b5000edaa96386dc",
+      "locks/environment.json": "fe4c606657c8cef0768fb4687af1ac382240825e0d0e101738f6c5580a2f9dd3",
+      "locks/wheels.json": "7db829bc323883817ebbf34270f4f9d9aa377a5ab09b215278ea77c4f5f63fed",
+      "poc/__init__.py": "a2663e8d543cbef68f5ef143d68b63cc6fde80d0d59bb560d4f23347632dcd10",
+      "poc/__main__.py": "0f27902c62b9843290556f97636abe8c9df75f58e233d5349b2c09c522f15542",
+      "poc/action_path.py": "5389db332d8ee89f21085cd5e8642ead126e845ba1d891f8422a4f509f9981b5",
+      "poc/affine_experiment.py": "05bee8686e229e8229975ba3882f0eef5fecae379b864f9d48af5e76a0b3bc1a",
+      "poc/affine_flow.py": "de46ee95fde952a34505b0bed95b95edee979ce134dbc10336bc130c88bda086",
+      "poc/affine_fresh.py": "384f1704cb20b7d423a5e5d65ca3f81eac044b4b33ad6988585f195710c78819",
+      "poc/affine_measurement.py": "4d7a6cb3bdf0fb8a0203cda43a9f82d5bf0901d26888fcef1178ca9dccbecd83",
+      "poc/analytic.py": "b6fd1dfef962c2517f7b24f0ffb96a4ef0188ab5058adea638309e6895f313fc",
+      "poc/calibration_batch.py": "f5723d548acc0d0b0a525d9c9bc109ccafdbc321f974409ca7eaef7513ab8604",
+      "poc/clocks.py": "7a45fe841e36bfabc1e4ee66c8b329755943dbd7a9c46fb016aceb925d544ef9",
+      "poc/contracts.py": "3615336d4cf41840c8026ad74afe0be2f36929bec625b7f0b2aaff56c7e4b7e4",
+      "poc/control.py": "b802a2e8a84200fd1d9741ce6cb7d4f2c98e66405b84cfb26f3c8a98289df5f5",
+      "poc/control_artifacts.py": "a22bf364e52c63ec05b44bfe329e2bbf5c36e37a1b9399cf2158a720733f7d04",
+      "poc/control_episode.py": "970168a74caf3f1ba5baa039a2de60ae035576c770e2b3dd58a341117db207a3",
+      "poc/control_jobs.py": "acbc3d196301c7128a26aab0585f40e0f55e7d536792741cf746c942366aca4f",
+      "poc/control_models.py": "50432a27298ef52e598d05e019fcf84e7d63a849dd9a62cc3a2bb7cb2e42ad31",
+      "poc/control_profile.py": "71ec8800bf7c67cce88ca3fa1be8a20e344591dedc57a41b35ddb4afa0e9cd65",
+      "poc/dataset.py": "7b19abd94a475eef557667244656e3e19be2f9860e279c75f0ef5d7c7a7ff597",
+      "poc/efficiency_episode.py": "571334db75f3e43779183156db2cd119e9db34d040ab20c446b8ff6000cbeb7e",
+      "poc/efficiency_pilot.py": "fbc10952735fe97f725c7175d0018ae133ead2736deb4bc1affb76722331655b",
+      "poc/efficiency_result.py": "c9cdf1470f06dfda28fe07a7e71fa145fdb956c6fc31c8b0da983e32f8dbe641",
+      "poc/efficient_power.py": "c1656339d2bbc492e005fa04ac50467c5148967ccb2f98f666e502ef233edeb8",
+      "poc/envs.py": "e4635069a335d0b37d378adea3267c703f1c44f445a7c535afdc89f5e32ce35e",
+      "poc/execution.py": "7be39cb095560fd86df4109e1a88b4616174e1766edada9ea926718d192aa786",
+      "poc/gates.py": "a260b655bd8a7829237f00441be9d62a1bc3847d6d6570fecbd3b3a4042604b7",
+      "poc/history.py": "9f76f4bdd6776c01ecc8e53d77d5b4861c88f8d9e65b740353137416b457afdc",
+      "poc/io.py": "b7c169b0c7e296b7e11dfe42ae620ad33806de61b36b610db67d727bd7ac04cd",
+      "poc/milestones/__init__.py": "d7cc49e457f3a9cba474ece1c589de0d83243741952576e12bd8f45f8ed556ac",
+      "poc/milestones/m10.py": "d1fc44e782a61858e386c1f7a0f274f3b91d4ef8ac98e889781d479a570b0831",
+      "poc/milestones/m20.py": "a9c725389741e2ce1e99695abf664d153d0df95476313dcd4e3cd190a0ebd975",
+      "poc/models/__init__.py": "9af7c30ff7b9a23124b59def8f80551784db5aa4d97cad299a137e3663cf675a",
+      "poc/models/common.py": "1fed6c0593bab9a85a9899da66eb994eb6f4909c5fb200208e61f14320f947a1",
+      "poc/models/factory.py": "848243017a8b726c91483a080e026c6708dcb380fa75b7c34649420dc6b00c83",
+      "poc/models/mlp.py": "0859bac1c9eb737b3accfca9ecca3c9370f1100e110ccf251b0b1688c6f01110",
+      "poc/models/ode.py": "c2a5a2ecbca37c99afbcda2261e9dd05b3913508e5f1690935d3cb263dfda0ff",
+      "poc/models/power.py": "4d10d4d39aa2d1b35f301b2f60fe0148e3cdb529dc05f1b7601eb7d4a7a7c1d7",
+      "poc/models/sequence.py": "9cadc432670b4fb4e4d6ca88fb642c6de159b954747da720454e8da3d28acd95",
+      "poc/mpc.py": "ca2db4101a4b924af537705540a2e09eda5bdc7cac72d9acb9bbbf9452a2b61f",
+      "poc/mpc_calibration.py": "ede702834d517747db8f3f1493d39997990cc876b349f710af0c1a636bea40b8",
+      "poc/oracle_rigidbody.py": "537e5d06400d8135b728f0111284ebb7ce13ee7b9361eaec93cb80ec40bd5f37",
+      "poc/physics_fit.py": "95f5db85913f3ecc44f0236d3ad3f3ad27f644ebfc782a7c95bc79f9474998ad",
+      "poc/planner_qualification.py": "319d96f140a8d352a24e792c5538cad8f22fb43539f6e95c493b626bad100396",
+      "poc/reference_jobs.py": "2bbc9115bbf3f4ea759be85c64973966db666cabe9766decba4000e081d92fe5",
+      "poc/research_jobs.py": "c045d7417fc2ecd18c9c24267ac3f09ced5e972869cd5e7ec0d0a3ecd155d27d",
+      "poc/robot_calibration.py": "51bd9bedd37d6424e4bf98aaea14648c66ec36444cfa9959cbb2b6bed0481245",
+      "poc/sensitivity.py": "30d5bc24d15f5e0707a15d8a1b54deacfec1034bcb9e366f7b8562b283e1ee42",
+      "poc/shared_state_diagnostic.py": "affc7a5f1bd356a77e772553a7d220d169b378c503025b41376e9c7cadc91edc",
+      "poc/train.py": "d56ccfaca398e08edc934b24c8b3ba7c7424628ffd5af4c753e36ef2bc5d7368",
+      "poc/training_jobs.py": "97ec7fc02811efa99a370fa4dda667efbe2d58bdee8acd1e5a6db08b74bb3a4c",
+      "reports/affine_prediction_measurement.json": "eb2cfaf6635ab27a4257d908340f5119a1b33244477ea2f1736c23bf287b1c17",
+      "reports/affine_prediction_result.json": "6efdeefafba57a53df1991c78991ac88cd9a02d618b9f7e406a947f7903b6e22",
+      "study/control-development/evidence/M30/20261002T025902-a8850e3b/manifest.json": "83f1069fe44aaacc36c6c551b6f15c05157d39ee0cc78ab962ea3c63127d7b98",
+      "study/control-development/evidence/M30/20261002T025902-a8850e3b/summary.json": "16b33cc23e750731d0e54963d5e56f552b541da3f5394e40fe7cf91db3da0912"
+    },
+    "environment_fingerprint": {
+      "architecture": "arm64",
+      "core_count": 14,
+      "deterministic_algorithms": true,
+      "kernel": "25.6.0",
+      "os": "Darwin",
+      "python": "3.11.5 | packaged by conda-forge | (main, Aug 27 2023, 03:33:12) [Clang 15.0.7 ]",
+      "torch_configuration": "PyTorch built with:\n  - GCC 4.2\n  - C++ Version: 201703\n  - clang 15.0.0\n  - OpenMP 201811\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: NO AVX\n  - Build settings: BLAS_INFO=accelerate, BUILD_TYPE=Release, COMMIT_SHA=a1cb3cc05d46d198467bebbb6e8fba50a325d4e7, CXX_COMPILER=/usr/bin/c++, CXX_FLAGS= -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOCUPTI -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_PYTORCH_QNNPACK -DAT_BUILD_ARM_VEC256_WITH_SLEEF -DUSE_XNNPACK -DUSE_PYTORCH_METAL_EXPORT -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -DUSE_COREML_DELEGATE -O2 -fPIC -DC10_NODEPRECATED -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=braced-scalar-init -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wvla-extension -Wsuggest-override -Wnewline-eof -Winconsistent-missing-override -Winconsistent-missing-destructor-override -Wno-pass-failed -Wno-error=old-style-cast -Wconstant-conversion -Qunused-arguments -faligned-new -fno-math-errno -fno-trapping-math -Werror=format -DUSE_MPS -Wno-missing-braces, LAPACK_INFO=accelerate, TORCH_VERSION=2.8.0, USE_CUDA=OFF, USE_CUDNN=OFF, USE_CUSPARSELT=OFF, USE_EIGEN_FOR_BLAS=ON, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=OFF, USE_MKLDNN=OFF, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n",
+      "torch_interop_threads": 1,
+      "torch_threads": 1,
+      "versions": {
+        "mujoco": "3.14.0",
+        "numpy": "2.2.6",
+        "pytest": "8.4.1",
+        "scipy": "1.15.3",
+        "torch": "2.8.0"
+      }
+    },
+    "milestone_id": "M30",
+    "phase": "confirmatory",
+    "protocol_version": "PTCO-1.0",
+    "wheel_hashes": {
+      "absl_py-2.5.0-py3-none-any.whl": "0f17b89f2a4eaaedc4f28c622998aa690564b3012a396a4ffad0821007fe03ba",
+      "etils-1.14.0-py3-none-any.whl": "b5df7341f54dbe1405a4450b2741207b4a8c279780402b45f87202b94dfc52b4",
+      "filelock-4.0.7-py3-none-any.whl": "a93c4d93269b339a6af4848342c7e940d0f9928ad95eff64764699e5f1bf8a6a",
+      "fsspec-2026.9.0-py3-none-any.whl": "8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f",
+      "glfw-2.10.2-py2.py3-none-macosx_11_0_arm64.whl": "c000b8a5e5fb4374b2c18d12347255ccb92001b9bcf80ef74c56072acbb98fe3",
+      "iniconfig-2.3.0-py3-none-any.whl": "f631c04d2c48c52b84d0d0549c99ff3859c98df65b3101406327ecc7d53fbf12",
+      "jinja2-3.1.6-py3-none-any.whl": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+      "markupsafe-3.0.3-cp311-cp311-macosx_11_0_arm64.whl": "4bd4cd07944443f5a265608cc6aab442e4f74dff8088b0dfc8238647b8f6ae9a",
+      "mpmath-1.3.0-py3-none-any.whl": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c",
+      "mujoco-3.14.0-cp311-cp311-macosx_11_0_arm64.whl": "ac43ebbfdf5522c556291cbc94a4d420ffed226f67e37a00dfcaf01525fa93bc",
+      "networkx-3.6.1-py3-none-any.whl": "d47fbf302e7d9cbbb9e2555a0d267983d2aa476bac30e90dfbe5669bd57f3762",
+      "numpy-2.2.6-cp311-cp311-macosx_14_0_arm64.whl": "3d70692235e759f260c3d837193090014aebdf026dfd167834bcba43e30c2a42",
+      "packaging-26.3-py3-none-any.whl": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "pip-23.2.1-py3-none-any.whl": "7ccf472345f20d35bdc9d1841ff5f313260c2c33fe417f48c30ac46cccabf5be",
+      "pluggy-1.6.0-py3-none-any.whl": "e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746",
+      "pygments-2.21.0-py3-none-any.whl": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+      "pyopengl-3.1.10-py3-none-any.whl": "794a943daced39300879e4e47bd94525280685f42dbb5a998d336cfff151d74f",
+      "pytest-8.4.1-py3-none-any.whl": "539c70ba6fcead8e78eebbf1115e8b589e7565830d7d006a8723f19ac8a0afb7",
+      "scipy-1.15.3-cp311-cp311-macosx_14_0_arm64.whl": "3b0334816afb8b91dab859281b1b9786934392aa3d527cd847e41bb6f45bee65",
+      "setuptools-65.5.0-py3-none-any.whl": "f62ea9da9ed6289bfe868cd6845968a2c854d1427f8548d52cae02a42b4f0356",
+      "sympy-1.14.0-py3-none-any.whl": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5",
+      "torch-2.8.0-cp311-none-macosx_11_0_arm64.whl": "5ae0524688fb6707c57a530c2325e13bb0090b745ba7b4a2cd6a3ce262572916",
+      "typing_extensions-4.16.0-py3-none-any.whl": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "websockets-17.1-cp311-cp311-macosx_11_0_arm64.whl": "020e271205f8ab3406d7a59cd00de6dec722315924411c421bd00642f18bad86",
+      "zipp-4.1.0-py3-none-any.whl": "25ad4e16390cd314347dd8f1de67a2ac538ae658ed4ab9db16029c07c188e97f"
+    }
+  },
+  "job_key": "c76d1d433a6d4d5039c79f1ac8b20cd47e65fc226428e8cfced811ddafd42fbb",
+  "milestone_id": "M30",
+  "model_hashes": {
+    "canonical_tensor_sha256": "53f9ef705e743efcb4ba6a2572ad129bbb10abfbec6e67ad77b4c6f63ee337fb"
+  },
+  "parent_decisions": [],
+  "phase": "confirmatory",
+  "produced_files": [
+    {
+      "path": "evidence/M30/20261008T215957-af10f7ca/events.jsonl",
+      "sha256": "1f5998dd6fa0643a68c1b24018c7e52a25dd7fa9e4639e248459feb669ddf61f"
+    },
+    {
+      "path": "evidence/M30/20261008T215957-af10f7ca/normalization.json",
+      "sha256": "56b8832d2858e17b2a512ccd9a20ec786ca598b7986c20eb5abcce6068d9e441"
+    },
+    {
+      "path": "evidence/M30/20261008T215957-af10f7ca/request.json",
+      "sha256": "57856ec7e11dfd37bcb972e0131969751be738224c8b49051b043b66696afec8"
+    },
+    {
+      "path": "evidence/M30/20261008T215957-af10f7ca/resources.json",
+      "sha256": "e9be9591d1f5a941b8ee315e8f90c56f37284504be02f6773f91208d7cb9b551"
+    },
+    {
+      "path": "evidence/M30/20261008T215957-af10f7ca/resume.complete.json",
+      "sha256": "07323b407ada880581865cd3c7a72af3e608af1bf4135ddb537b3e3c1efdbb37"
+    },
+    {
+      "path": "evidence/M30/20261008T215957-af10f7ca/resume.pt",
+      "sha256": "cb22fa19d59a3deb02f03d2302b7cf8a3ee652a5d49ae7bfb87473b649f35e50"
+    },
+    {
+      "path": "evidence/M30/20261008T215957-af10f7ca/resume.rng.json",
+      "sha256": "d5748f637d4013cb599c25db24e8f641093003dd11d6371286f00dcf594f62f7"
+    },
+    {
+      "path": "evidence/M30/20261008T215957-af10f7ca/selection.complete.json",
+      "sha256": "16b515f8f1844f43d559fe3c308bd5dbb1ecf37f2bd093ee1f7f1679830f0a80"
+    },
+    {
+      "path": "evidence/M30/20261008T215957-af10f7ca/selection.json",
+      "sha256": "d6eb3d80b195f35fa8a69b58811431dd37facfd88f5b95830d444558c07b29d1"
+    },
+    {
+      "path": "evidence/M30/20261008T215957-af10f7ca/selection.pt",
+      "sha256": "5b26dfd1358b9f6bd3153fec0449ea0d8dee1a6f64f470da0f36bda7704cd3a2"
+    },
+    {
+      "path": "evidence/M30/20261008T215957-af10f7ca/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/M30/20261008T215957-af10f7ca/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/M30/20261008T215957-af10f7ca/summary.json",
+      "sha256": "33a4cddab36d403e2aacce8acc8c0fa96c7359e0989b4ec19b5a3d8405b352ad"
+    },
+    {
+      "path": "evidence/M30/20261008T215957-af10f7ca/training.csv",
+      "sha256": "6a64064934adc0ea8e19e6fe39922c5bfc647b3c2403ab21063683e154c7bc18"
+    },
+    {
+      "path": "evidence/M30/20261008T215957-af10f7ca/validation.csv",
+      "sha256": "db195023cbc79f012f67fc9092d1758664977c1c3bc0e1728278bc8e8e9a45c2"
+    },
+    {
+      "path": "evidence/M30/20261008T215957-af10f7ca/validity.json",
+      "sha256": "5eaa5b39c8b7dbcb9d71569064ee6941d1e960dbba8d169fd30c8306ac85703b"
+    },
+    {
+      "path": "evidence/M30/20261008T215957-af10f7ca/weights.pt",
+      "sha256": "eeae01ad1dac368fc4aaae21cdcef2d665da27777b394a03781212b1128993bf"
+    }
+  ],
+  "protocol_version": "PTCO-1.0",
+  "run_id": "20261008T215957-af10f7ca",
+  "schema_version": 1,
+  "started_utc": "2026-10-08T21:59:57.045590Z"
+}

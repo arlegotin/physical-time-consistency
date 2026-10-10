@@ -1,0 +1,7 @@
+{
+  "actuator": "lagged",
+  "checkpoint_sha256": "53fe92e7950c5f773b94a92c07108887b7498161e1e5622192ebc7df9df468a6",
+  "manifest_sha256": "4f8473b3b3123bf39583d83635511d3b5dda1816d3841098ba7f837acb96c134",
+  "model_manifest": "evidence/M30/20261008T065455-569aff09/manifest.json",
+  "protocol_id": "PTCO-AFF-0.1"
+}

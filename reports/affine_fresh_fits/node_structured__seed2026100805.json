@@ -1,0 +1,8 @@
+{
+  "canonical_tensor_sha256": "b85ca320455b09ce9988c21b58be4c8f4c69b49ed1619ec8833001cc79ac9e58",
+  "checkpoint_sha256": "083c373a53999546be334b53cbd752d99e0e412b9d3abc6c721fcd170980b923",
+  "model_id": "node_structured",
+  "path": "evidence/M30/20261008T110214-1a6e1110/manifest.json",
+  "seed": 2026100805,
+  "sha256": "44068669ea92889571ce4e55ffa103c3f4fe2862c7c012fa0c5d5eb7a0ee9ec8"
+}

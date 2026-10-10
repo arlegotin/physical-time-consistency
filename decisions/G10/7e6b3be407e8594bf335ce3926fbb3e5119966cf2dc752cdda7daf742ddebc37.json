@@ -1,0 +1,150 @@
+{
+  "alpha_spent": null,
+  "code_tree_sha256": "30457a69000efd98d134842fbe695d6643aed0486856dc502b46b94b96c70f55",
+  "configuration_sha256": "60c3f3528717588f9ce3742407b58a4db64f8ce093c04f7ce00b617ba8d007ea",
+  "created_utc": "2026-09-30T20:51:15.527674Z",
+  "criterion_evaluations": [
+    {
+      "bounds": null,
+      "criterion_id": "K01.oracle.analytic",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.oracle.decimal",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.oracle.jacobians",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.oracle.composition",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.identity.identity",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.identity.weight_hash",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.oracle.fixed_activation",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.oracle.units",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.oracle.zero_time",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.clocks.clocks",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.mutations.mutations",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.oracle.slide_fixtures",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K01.oracle.tests",
+      "estimate": 1.0,
+      "operator": "deterministic",
+      "reason": "Independent exact arrays, same-weight audits, mutation fixtures and focused tests passed",
+      "status": "pass",
+      "threshold": null
+    }
+  ],
+  "decision_id": "7e6b3be407e8594bf335ce3926fbb3e5119966cf2dc752cdda7daf742ddebc37",
+  "evidence": [
+    {
+      "path": "evidence/M10/20260930T205104-6fd1f92c/manifest.json",
+      "producing_run_id": "20260930T205104-6fd1f92c",
+      "role": "manifest",
+      "sha256": "5568dcdbe7eaf921e9961ca613e3a4dc28610ba4a00bdb99f713b5dd5e41d39f"
+    }
+  ],
+  "gate_id": "G10",
+  "look_index": null,
+  "milestone_id": "M10",
+  "outcome": "GO",
+  "permitted_next_actions": [
+    {
+      "branch": null,
+      "milestone_id": "M20",
+      "question": "Gate prerequisites passed"
+    }
+  ],
+  "phase": "unit",
+  "protocol_version": "PTCO-1.0",
+  "schema_version": 1,
+  "terminal_verdict": null,
+  "validity_status": "valid"
+}

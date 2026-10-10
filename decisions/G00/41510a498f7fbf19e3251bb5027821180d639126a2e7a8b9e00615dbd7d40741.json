@@ -1,0 +1,141 @@
+{
+  "alpha_spent": null,
+  "code_tree_sha256": "c7c2d5855aab9500e165d4bedd01891ece5079c5265b6bfc3fbf0895979ba969",
+  "configuration_sha256": "7034f3e8f7a567225de9a111e5226fa34b5271e44e44f72be2f01bf1a3920f1f",
+  "created_utc": "2026-09-30T19:02:07.462057Z",
+  "criterion_evaluations": [
+    {
+      "bounds": null,
+      "criterion_id": "G00.authorization",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "Actual owner allocation recorded: {'ram_limit_gib': None, 'disk_limit_gib': None, 'cpu_time_limit_hours': None}",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.python",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "3.11.5 | packaged by conda-forge | (main, Aug 27 2023, 03:33:12) [Clang 15.0.7 ]",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.architecture",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "macOS-26.6.2-arm64-arm-64bit",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.virtual_environment",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": ".venv",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.disk",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "12415115264 available bytes; suggested estimates are not resource caps",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.packages",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "All exact pins installed and pip check passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.determinism",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "CPU, independently seeded RNGs, one thread, deterministic algorithms",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.nstep",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "Installed empty-world nstep=20 matches twenty individual steps",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.torch_smoke",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "float32 backward, float64 autograd, AdamW update, safe checkpoint load, timers and hashing passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.wheel_lock",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "25 complete resolved distributions, exact compatible wheels, SHA-256 hashes and license notices",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.offline_install",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "Fresh temporary venv installed solely from locked wheelhouse; pip check passed",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "G00.validators",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "Protocol constants, milestone registry and strict serialization validate",
+      "status": "pass",
+      "threshold": null
+    }
+  ],
+  "decision_id": "41510a498f7fbf19e3251bb5027821180d639126a2e7a8b9e00615dbd7d40741",
+  "evidence": [
+    {
+      "path": "evidence/M00/20260930T190137-6f196955/manifest.json",
+      "producing_run_id": "20260930T190137-6f196955",
+      "role": "manifest",
+      "sha256": "3e2936de893610a2a17b16dbd4de59bcad6c878f31868842d6c207031d3f74d6"
+    }
+  ],
+  "gate_id": "G00",
+  "look_index": null,
+  "milestone_id": "M00",
+  "outcome": "GO",
+  "permitted_next_actions": [
+    {
+      "branch": null,
+      "milestone_id": "M10",
+      "question": "Gate prerequisites passed"
+    }
+  ],
+  "phase": "preflight",
+  "protocol_version": "PTCO-1.0",
+  "schema_version": 1,
+  "terminal_verdict": null,
+  "validity_status": "valid"
+}

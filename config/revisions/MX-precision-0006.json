@@ -1,0 +1,172 @@
+{
+  "action_parameters": {
+    "alpha": 0.00625,
+    "new_seed_ids": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "next_look": 3,
+    "primary_precision_criterion": "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+    "seed_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "authorization_reference": "config/authorization.json",
+  "branch": "precision",
+  "claim_ids": [
+    "C02"
+  ],
+  "contract": {
+    "1": "S12/MX and S13.4 precision: discriminate C02 under unchanged PTCO-1.0, no success from a subset.",
+    "10": "Measured prior paired training wall time projects the next equal-size block; larger total precision may require many more seeds. Authorized localCPU only, no artificial caps.",
+    "11": "Preserve every attempt/checkpoint; resume only identical jobs. Wire-format repair changes serialized bounds only. Diagnose defects, never change scientific floors.",
+    "12": "Complete ten additional paired clusters and look3 under K280; preserve all attempts, original outcomes and untested control claims.",
+    "2": "Exact valid unresolved look2 GR decision, ten paired seeds, no supported mandatory rejection; all scientific code/data unchanged.",
+    "3": "Create a new working context with identical scientific source and immutable binary links; retain prior scope receipts and append seeds10–19.",
+    "4": "Precommit this request before new outcomes. Retain all ten old clusters and looks1–2; same data, models, loss, nominal selection, thresholds and K280.",
+    "5": "python -m poc.subset_precision config/revisions/MX-precision-0006.json --root study/precision-look-2 --resume",
+    "6": "Raw and summary artifacts match MR; original frozen context and look1 remain independently recoverable.",
+    "7": "Verify unchanged parent hashes and paired full coverage; reaggregate raw matrices; qualified nominal fits; same-field solver audits; no bad seed removal.",
+    "8": "Original criterion evaluator and conservative Fieller/bootstrap/influence rules. NO-GO only for valid precise mandatory failure; subset support returnsM30; overlap stays nonterminal.",
+    "9": "ReturnMR gate. Rejection toMF; support tounfinishedM30; unresolved to a new named prospective precision/solver/optimizer request; exact external prerequisite toBLOCKED."
+  },
+  "expected_artifacts": [
+    "INITIAL_CONTEXT.json",
+    "config/precision_parent.json",
+    "appended raw training and E01 receipts",
+    "new look ledger entry",
+    "precision_decision.json"
+  ],
+  "input_evidence": [
+    {
+      "path": "evidence/MR/20261001T131253-6ca97449/manifest.json",
+      "producing_run_id": "20261001T131253-6ca97449",
+      "role": "manifest",
+      "sha256": "42799ca235806746990026a3c312598afa97f8994fe2d71cc34121561496c9be"
+    }
+  ],
+  "live_explanations": [
+    "the original effect clears all required floors",
+    "the10ms gain is materially below its required floor"
+  ],
+  "new_information": "Ten new independent paired training-seed clusters. The 10ms negative contrast needs stable leave-one-seed-out inference and narrower paired ratio uncertainty.",
+  "parent_decision_id": "49915e9ab668e618661e58fdf0f73ae72e0e707c260655b7fed71d7e993d3911",
+  "parent_gate": "GR",
+  "prior_manifest": "evidence/MR/20261001T131253-6ca97449/manifest.json",
+  "prior_manifest_sha256": "42799ca235806746990026a3c312598afa97f8994fe2d71cc34121561496c9be",
+  "progress_condition": "Additional independent clusters reduce or diagnose the unresolved paired contrast and ratio uncertainty.",
+  "protocol_version": "PTCO-1.0",
+  "recorded_utc": "2026-10-01T15:04:13.114191Z",
+  "request_id": "MX-precision-0006",
+  "resource_projection": {
+    "additional_audit_time": "Project from actual per-run audit resources; old references and ten prior audits retained.",
+    "explanation": "Prespecified10-to20 doubling. Further independent samples need a new prospective request; no arbitrary seed or runtime cap.",
+    "measured_recent_training_attempts": 25,
+    "measured_recent_training_wall_seconds": 4822.940761788,
+    "new_E01_jobs": 30,
+    "new_selected_training_fits": 20,
+    "owner_imposed_caps": null,
+    "precision_projections": [
+      {
+        "criterion_id": "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+        "current_Fieller": {
+          "alpha": 4.464285714285714e-05,
+          "assumption": "approximately joint-normal seed means",
+          "estimate": 0.19093195524757522,
+          "lower": -0.478988194380754,
+          "quadratic": [
+            0.0004697720919770702,
+            -0.0009372338198707053,
+            0.000358575822114389
+          ],
+          "status": "ok",
+          "upper": 0.483906247458987,
+          "width": 0.962894441839741
+        },
+        "current_leave_one_seed_out_unstable": true,
+        "current_point_reduction": 0.19093195524757522,
+        "planning_covariance": [
+          [
+            3.1719753111780254e-05,
+            -4.3752188438672795e-06
+          ],
+          [
+            -4.3752188438672795e-06,
+            2.735022905809713e-06
+          ]
+        ],
+        "planning_method": "Fieller formula with future look3 family tail; marginal sd=1.25*max(current,pilot), current paired correlation; prediction only",
+        "projected_total_clusters_for_width_0_20": 110,
+        "projected_width_at_20": 0.6356068503811467
+      },
+      {
+        "criterion_id": "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+        "current_Fieller": {
+          "alpha": 4.464285714285714e-05,
+          "assumption": "approximately joint-normal seed means",
+          "estimate": 0.13728278539582695,
+          "lower": -0.782574549279366,
+          "quadratic": [
+            0.00047806058067918425,
+            -0.001088572273638817,
+            0.00042138991134786045
+          ],
+          "status": "ok",
+          "upper": 0.5055152860103224,
+          "width": 1.2880898352896883
+        },
+        "current_leave_one_seed_out_unstable": true,
+        "current_point_reduction": 0.13728278539582695,
+        "planning_covariance": [
+          [
+            4.5588774832240955e-05,
+            -7.684318571339718e-06
+          ],
+          [
+            -7.684318571339718e-06,
+            8.726911764438739e-06
+          ]
+        ],
+        "planning_method": "Fieller formula with future look3 family tail; marginal sd=1.25*max(current,pilot), current paired correlation; prediction only",
+        "projected_total_clusters_for_width_0_20": 179,
+        "projected_width_at_20": 0.852716772581122
+      }
+    ],
+    "projected_training_wall_seconds": 9645.881523576,
+    "projection_not_result": true
+  },
+  "return_milestone": "MR",
+  "schema_version": 1,
+  "source_context": "study/precision-look-2",
+  "statistical_family_size": 280,
+  "status": "ready",
+  "unresolved_question": "Resolve the unchanged 50 percent superiority boundary and paired percentage precision, especially at10ms.",
+  "working_context": "study/precision-look-3"
+}

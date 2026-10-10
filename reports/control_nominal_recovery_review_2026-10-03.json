@@ -1,0 +1,31 @@
+{
+  "current_source_sha256": "4c3691173ab31a5e8a78599c8cd5d1d9666d6cd20bec53763cc94dee28243293",
+  "measured_scores_unchanged": true,
+  "original_audit": {
+    "path": "reports/control_nominal_selection_audit.json",
+    "sha256": "73bf9b38cb63d5d3b47f6520ce46a9d373d85a0eb9fef476d8d510ca81a9f04c"
+  },
+  "preserved_prior_verification_sha256": "8cc661c33459f6282be2d0c4ef493978097827e7d30d8277d43a05acad1f87fe",
+  "rechecked_checkpoints": 30,
+  "recorded_utc": "2026-10-03T10:44:22.882694Z",
+  "regression": "Two-call SIGTERM-after-result-write fixture retries the same first cell, retaining its incomplete files; committed missing/edited caches remain errors",
+  "repeat_audit_sha256_unchanged": true,
+  "replacement_audit": {
+    "path": "reports/control_nominal_selection_audit_v2.json",
+    "sha256": "f501605d1362dd539d2bb62297283ca10230435aa78293ed86ed40712ff179d6"
+  },
+  "review_status": "No remaining material defect found in the repair",
+  "reviewer": "/root/review_control_foundation",
+  "schema_version": 1,
+  "scientific_verdict": null,
+  "scope": "Selected-score audit interruption recovery; no utility verdict",
+  "statistical_look_reserved": false,
+  "test_source_sha256": "5d618541c1eeeb1b7ca7c1db4b3b2ed2238b9b14fa26ea84fa81d89c0069d6af",
+  "tests": {
+    "full_suite_log_sha256": "7d64344b94b0c1500b7864c0edc8f1ad6422a21ead02f050af12ca56d3f1f434",
+    "full_suite_passed": 796,
+    "full_suite_seconds": 71.1,
+    "independent_reviewer_passed": 19
+  },
+  "training_updates": 0
+}

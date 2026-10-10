@@ -1,0 +1,13 @@
+{
+  "blocker": null,
+  "checks": [
+    {
+      "check_id": "fresh.control",
+      "reason": "Complete physical episode, fixed hardware clocks and paired task/CEM stream",
+      "scope": "node_structured:40000000:2026100805:0",
+      "status": "pass",
+      "tolerance": null
+    }
+  ],
+  "validity_status": "valid"
+}

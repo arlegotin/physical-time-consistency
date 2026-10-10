@@ -1,0 +1,10 @@
+{
+  "archive_file_count": 140724,
+  "original_decision_id": "0b79513e7f2cc7e8cc1eb8a416ba0e1330f54bab6e6f3d264977eb7eb5f1173d",
+  "protocol_version": "PTCO-1.0",
+  "schema_version": 1,
+  "scientific_status": "valid INCONCLUSIVE, five paired seeds",
+  "snapshot_sha256": "50aef9170641ac5b4cb9a2c49ab423ea2824dbc926909f00f0102c78d2227cea",
+  "source_tree_note": "Source pinned before reporting-interface edits; binaries remain local with manifest hashes.",
+  "study_relative": "study/first-confirmation"
+}

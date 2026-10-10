@@ -1,0 +1,27 @@
+{
+  "blocker": null,
+  "checks": [
+    {
+      "check_id": "accounting",
+      "reason": "Finite supervised fit, complete exposure and nominal checkpoint selection",
+      "scope": "direct__A__shared__node_generic__seed2",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "checkpoint",
+      "reason": "Finite supervised fit, complete exposure and nominal checkpoint selection",
+      "scope": "direct__A__shared__node_generic__seed2",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "selection",
+      "reason": "Finite supervised fit, complete exposure and nominal checkpoint selection",
+      "scope": "direct__A__shared__node_generic__seed2",
+      "status": "pass",
+      "tolerance": null
+    }
+  ],
+  "validity_status": "valid"
+}

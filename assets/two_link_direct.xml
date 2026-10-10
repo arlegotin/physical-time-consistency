@@ -1,0 +1,29 @@
+<mujoco model="TwoLinkTorque-direct">
+  <compiler angle="radian" autolimits="false"/>
+  <option timestep="0.0005" gravity="0 0 0" integrator="RK4">
+    <flag contact="disable" autoreset="disable"/>
+  </option>
+  <default>
+    <joint type="hinge" axis="0 0 1" limited="false"
+           armature="0.02" damping="0.05" frictionloss="0"/>
+    <geom type="capsule" size="0.025" contype="0" conaffinity="0"/>
+  </default>
+  <worldbody>
+    <body name="link1" pos="0 0 0">
+      <joint name="j1"/>
+      <geom name="g1" fromto="0 0 0 0.30 0 0" mass="1.0"/>
+      <body name="link2" pos="0.30 0 0">
+        <joint name="j2"/>
+        <geom name="g2" fromto="0 0 0 0.25 0 0" mass="0.7"/>
+      </body>
+    </body>
+  </worldbody>
+  <actuator>
+    <general name="a1" joint="j1" gear="1" dyntype="none"
+             gaintype="fixed" gainprm="1" biastype="none"
+             ctrllimited="true" ctrlrange="-2 2" actearly="false"/>
+    <general name="a2" joint="j2" gear="1" dyntype="none"
+             gaintype="fixed" gainprm="1" biastype="none"
+             ctrllimited="true" ctrlrange="-2 2" actearly="false"/>
+  </actuator>
+</mujoco>

@@ -1,0 +1,42 @@
+{
+  "actuator": "lagged",
+  "condition": "A",
+  "freeze": null,
+  "numerical": {
+    "fd_epsilon_nm": 0.02,
+    "fd_sweep_nm": [
+      0.01,
+      0.02,
+      0.04
+    ],
+    "independent_oracle": {
+      "atol": 1e-13,
+      "max_step_s": 0.00025,
+      "method": "DOP853",
+      "rtol": 1e-11
+    },
+    "label_budget": {
+      "q_rad": 1e-07,
+      "v_rad_s": 1e-06
+    },
+    "parent_gate": "G20",
+    "physics_step_ns": 250000,
+    "physics_step_s": 0.00025,
+    "protocol_version": "PTCO-1.0",
+    "qualification_run_id": "20260930T222653-8e969581",
+    "qualified_level": 0,
+    "schema_version": 1,
+    "slope_window_ns": [
+      2500000,
+      5000000,
+      10000000
+    ],
+    "slope_window_s": [
+      0.0025,
+      0.005,
+      0.01
+    ]
+  },
+  "role": "train",
+  "trajectory_count": 1024
+}

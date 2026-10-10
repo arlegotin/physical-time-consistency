@@ -1,0 +1,2 @@
+run_id,experiment_id,phase,model_id,actuator,seed,episode_id,condition,realized_cost,q_rmse_rad,terminal_q_error_rad,velocity_rms_rad_s,success,fallback_count
+20261002T013555-4a0fb0ec,E03,exploratory,mlp_dt,direct,9000,9,clean,0.197105137367771,0.18417099028978728,0.0892568939175916,0.5818175804229039,False,0

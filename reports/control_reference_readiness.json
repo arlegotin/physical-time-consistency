@@ -1,0 +1,26 @@
+{
+  "check": "Frozen planner evidence and exact nominal reference tensors loaded successfully",
+  "new_control_outcomes": false,
+  "qualification_files_checked": 2226,
+  "qualification_sha256": "1090b13058afdd768bae764a7893227647704483c4c2afe10c3db131da0da5a5",
+  "recorded_utc": "2026-10-02T10:26:53.011708Z",
+  "scientific_decision": "not_evaluated",
+  "selected": [
+    {
+      "actuator": "direct",
+      "checkpoint_sha256": "e71e8b1ef6d9d0fc220a0c6064bec98ed544c312bc347eca8f65f0d20f9b87f6",
+      "manifest": "evidence/M40/20261001T223844-5f87d589/manifest.json",
+      "manifest_sha256": "7f284e79151122a137d12e624e8db9e6dd234436771d7104a0f8b3db8f61bd16",
+      "model_id": "physics_fit"
+    },
+    {
+      "actuator": "lagged",
+      "checkpoint_sha256": "94c0b72316d39164a82b517b4470f038c632645039e6cda059f0d32b0b87fd26",
+      "manifest": "evidence/M40/20261001T224342-c40a52cd/manifest.json",
+      "manifest_sha256": "d23f3e3dbb14307cc5172a24a329c1929ff5beabcafcd3d471702779092016a2",
+      "model_id": "physics_fit"
+    }
+  ],
+  "state": "verified_for_prospective_reuse",
+  "verifier_sha256": "48b72b92b83c734a658d5e304261a0603433c91a80f0ff9059c8de0e455adf36"
+}

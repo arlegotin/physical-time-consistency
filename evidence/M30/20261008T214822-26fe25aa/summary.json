@@ -1,0 +1,7 @@
+{
+  "failure": "[Errno 28] No space left on device",
+  "measurements": {},
+  "missing_cells": [
+    "fresh.nominal_fit"
+  ]
+}

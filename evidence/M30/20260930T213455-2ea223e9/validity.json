@@ -1,0 +1,20 @@
+{
+  "blocker": null,
+  "checks": [
+    {
+      "check_id": "tiny_fit",
+      "reason": "Exact analytic data learned with declared optimizer and nominal selection",
+      "scope": "mlp_dt/lagged",
+      "status": "pass",
+      "tolerance": 0.001
+    },
+    {
+      "check_id": "analytic_validation",
+      "reason": "Exact analytic data learned with declared optimizer and nominal selection",
+      "scope": "mlp_dt/lagged",
+      "status": "pass",
+      "tolerance": 0.05
+    }
+  ],
+  "validity_status": "valid"
+}

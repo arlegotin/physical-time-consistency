@@ -1,0 +1,77 @@
+{
+  "manifest": "evidence/M40/20261002T103645-6d6d8d35/manifest.json",
+  "manifest_sha256": "6364f3b225472f1ece4b9e066ec7e2a449b275a6b5cb1371c7119f89cd373517",
+  "resources": {
+    "cpu_seconds": 6.6444019999999995,
+    "disk_bytes": 1552633,
+    "original_estimate": null,
+    "peak_rss_bytes": 292192256,
+    "rss_convention": "macOS bytes",
+    "training_updates": 0,
+    "wall_seconds": 6.70643275
+  },
+  "summary": {
+    "actuator": "direct",
+    "limitation": "Local field/command sensitivity only; no refined closed-loop controller or confirmation",
+    "missing_cells": [],
+    "model_id": "node_generic",
+    "n_probes": 400,
+    "n_training_seeds": 1,
+    "phase": "exploratory",
+    "scientific_decision": "not_evaluated",
+    "scope": "Direct augmented/shared development NODE; one training seed, read-only field audit",
+    "seed": 9000,
+    "substeps": [
+      1,
+      2,
+      4
+    ],
+    "summary": [
+      {
+        "coarse_substeps": 1,
+        "fine_substeps": 2,
+        "horizon_ns": 5000000,
+        "maximum_relative_q_jacobian_difference": 4.0324488089661325e-07,
+        "maximum_relative_v_jacobian_difference": 2.5455630232824463e-08,
+        "maximum_state_difference": 3.7042546807697363e-09,
+        "n_probes": 200,
+        "n_unresolved_q_norms": 0,
+        "n_unresolved_v_norms": 0
+      },
+      {
+        "coarse_substeps": 2,
+        "fine_substeps": 4,
+        "horizon_ns": 5000000,
+        "maximum_relative_q_jacobian_difference": 2.5273048082950598e-08,
+        "maximum_relative_v_jacobian_difference": 1.5876959055592848e-09,
+        "maximum_state_difference": 2.3095969581277132e-10,
+        "n_probes": 200,
+        "n_unresolved_q_norms": 0,
+        "n_unresolved_v_norms": 0
+      },
+      {
+        "coarse_substeps": 1,
+        "fine_substeps": 2,
+        "horizon_ns": 40000000,
+        "maximum_relative_q_jacobian_difference": 0.0001952799490221413,
+        "maximum_relative_v_jacobian_difference": 9.249931028835883e-05,
+        "maximum_state_difference": 0.00010218493771341208,
+        "n_probes": 200,
+        "n_unresolved_q_norms": 0,
+        "n_unresolved_v_norms": 0
+      },
+      {
+        "coarse_substeps": 2,
+        "fine_substeps": 4,
+        "horizon_ns": 40000000,
+        "maximum_relative_q_jacobian_difference": 1.2337773817705235e-05,
+        "maximum_relative_v_jacobian_difference": 5.669568132960062e-06,
+        "maximum_state_difference": 6.22628754176624e-06,
+        "n_probes": 200,
+        "n_unresolved_q_norms": 0,
+        "n_unresolved_v_norms": 0
+      }
+    ],
+    "total_forward_vector_field_calls": 22400
+  }
+}

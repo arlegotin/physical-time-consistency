@@ -1,0 +1,1464 @@
+{
+  "commands": [
+    {
+      "argv": [
+        "validate",
+        "--scope",
+        "protocol"
+      ],
+      "result": {
+        "criteria_status": "declared",
+        "statistical_family_size": 280,
+        "status": "valid"
+      },
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "status",
+        "--verify"
+      ],
+      "result": {
+        "permitted_next_actions": [
+          {
+            "branch": "precision",
+            "milestone_id": "MX",
+            "question": "Resolve the registered paired sensitivity comparison without changing its threshold"
+          }
+        ],
+        "problems": [],
+        "runs": [
+          {
+            "milestone_id": "M00",
+            "run_id": "20260930T181648-d86a5692",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M00",
+            "run_id": "20260930T190137-6f196955",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M00",
+            "run_id": "20260930T194636-e1ecb544",
+            "status": "blocked"
+          },
+          {
+            "milestone_id": "M00",
+            "run_id": "20260930T194717-7ea70d3f",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M00",
+            "run_id": "20260930T204957-cab0a86f",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M00",
+            "run_id": "20260930T222207-42209eda",
+            "status": "failed"
+          },
+          {
+            "milestone_id": "M00",
+            "run_id": "20260930T222408-e303660f",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M10",
+            "run_id": "20260930T182013-4a16ae71",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M10",
+            "run_id": "20260930T190444-5a3877c6",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M10",
+            "run_id": "20260930T205104-6fd1f92c",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M10",
+            "run_id": "20260930T222609-77cf2287",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M20",
+            "run_id": "20260930T185313-3a271d15",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M20",
+            "run_id": "20260930T190531-c0ea1667",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M20",
+            "run_id": "20260930T205124-c177b13d",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M20",
+            "run_id": "20260930T222653-8e969581",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T212844-ac9f138e",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T212846-915203e5",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T212848-fcf4ebf5",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T212850-dc069787",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T212852-23b42ca0",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T212854-7a8506b2",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T212856-c00e8265",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T212858-a64bc676",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T212859-e5b52c61",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T212901-4e28d862",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T212903-33ea32b5",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T212905-69b6a830",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T212907-12cb3bf4",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T212909-0e372996",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213252-7c9f8271",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213254-5b8a021d",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213256-d2b49c0c",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213258-90fc44a7",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213301-be873bd7",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213302-77b84d67",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213304-41b9003a",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213306-d9b2c5ea",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213308-ada0d41a",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213309-38cab2a4",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213312-a362a065",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213314-f2d8b786",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213316-6ab97ef8",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213318-5c24469e",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213441-447b951d",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213443-59ec229e",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213444-33c7cb13",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213447-c2190332",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213449-f46e3a1a",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213450-9b30382e",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213453-f232999c",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213455-2ea223e9",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213456-502d544a",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213458-6125e4e7",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213500-aa46b29d",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213502-ecffc13a",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213504-2339da04",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T213506-e1e55e12",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223203-a29de306",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223205-c8ed0196",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223206-395fd55c",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223208-b5db80f8",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223210-4bb4d5d6",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223212-0cc00c8f",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223214-ca081753",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223216-3ce157c4",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223217-474ca530",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223219-6226162a",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223221-f06aba05",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223223-9230dde9",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223225-62ce2f9b",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223227-8b38ee52",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223329-67028ca2",
+            "status": "failed"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223331-e1de7948",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223356-23d477ba",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223404-8cf5f641",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223409-3aa0b093",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223434-9b66d4b3",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223442-6f257e48",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223447-6f94b661",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223513-60b81dc2",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223521-ea0d44c7",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223526-80882e22",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223552-5d0ac895",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T223600-cbf9cad7",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T225008-b35fe63e",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T225010-d6400df1",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T225011-dfe91eb8",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T225013-36712c1e",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T225015-e9abf525",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T225017-509c5d83",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T225019-5ae0014b",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T225021-5c3b8715",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T225022-2eb61e69",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T225024-b3011d65",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T225026-dabce871",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T225028-bc52e00c",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T225030-34cda4f5",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T225032-3837b0b4",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T225337-83f13edc",
+            "status": "failed"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T225408-51cdc02e",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T230934-77ebee13",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T230935-ad7107b2",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T230937-01035e5e",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T230939-5d02f443",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T230941-7620656a",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T230943-e54d61a6",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T230945-1a27d0e3",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T230947-9a348c3b",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T230948-3ef3e33a",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T230949-730a3de0",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T230952-a4b0ceb2",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T230954-ca42c60a",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T230956-456730ce",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T230958-29b6b56b",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T231151-6508b02e",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T231212-bfd82e88",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20260930T231240-d8f775e3",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T063810-d70ee7d1",
+            "status": "failed"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T064820-4bba16f3",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T064823-6457fbea",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T064826-26e3a41b",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T064830-2c034705",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T064833-031a2f99",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T064837-48e53d9c",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T064840-7136fb00",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T064844-c9304f37",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T064847-81c423f7",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T064850-a5a5a33c",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T064854-016fee29",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T064858-f92af099",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T064901-761a262d",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T064905-05ad2b99",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T071404-e4c67888",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T071426-1aa22fc1",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T071456-26b2068f",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T072019-fb1375e3",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T072554-b28a24e3",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T072638-38128ae4",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T072727-cf6ec90b",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T072754-e55a3ff3",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T072828-b68b9263",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T072910-f663b2c2",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T072959-d1a4d941",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T073021-7751df63",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T073050-773b298f",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T073557-cb81c59e",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T074112-da10f86c",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T074633-e7625103",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T075228-f7978a59",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T075322-a9f72756",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T075422-cba3147a",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T075457-9218c4fa",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T075538-12310e06",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T075623-eb49d587",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T075714-401516ba",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T075813-bd1958cc",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T075920-690334ed",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T080004-11732ed2",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T080028-44e6c944",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T080058-f3522931",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T080629-c56984ef",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T080718-bee722eb",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T080747-638ba8e4",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T080828-5e678b55",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T080925-fe1b1052",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T081024-6e5bbc30",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T081134-05d66f14",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T081158-197cd8e2",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T081233-f20b1e6c",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T081317-bf06586b",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T081404-7753dbfb",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T081502-2fe73531",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T081602-0a4ed093",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T082347-e1f2c0c0",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T082600-d4ce8ed0",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T082612-0b04e9ad",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T082626-ed156418",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T082642-744accb8",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T082707-58d6befb",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T082725-844fde51",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T082846-da1e0c2b",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T083552-6a760a6e",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T084359-600f0cba",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T085156-7ff16ef7",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T085941-f836e5f2",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T090729-906613a8",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T090841-142c7ac8",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T091000-5fdef16d",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T091122-fc45bb3c",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T091243-3c0d246c",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T091313-32f3ed8b",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T091353-e4e2ffb7",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T091442-6fc4c636",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T091545-a0262fc9",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T091704-e7ecac1f",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T091829-99bbcaa3",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T092003-3213c780",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T092057-9417fda7",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T092229-e30f78dd",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T092412-64518a39",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T092601-884ff7d0",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T092806-cd097922",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T093016-1bcf8aac",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T093235-cc737350",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T105922-7ad80688",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T110349-0c207413",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T110618-1b7d46ec",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T111514-e9ebc8c4",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T111527-1e17566e",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T111842-f679c6ad",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T112146-b7dbfa37",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T112616-4f51cf93",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T112657-22e6a5b3",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T112832-58efd77c",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T113013-29fca6e2",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T113030-77ebef30",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T113313-494b9a21",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T113338-562da4f1",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T113422-21bae72d",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T113601-1c9bdad6",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T113747-64619bdb",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T113944-82fae504",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T114143-a2333d40",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T114347-6dd61034",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T114409-8f5789b9",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T114717-6fe3e36e",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T115047-5b79c56d",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T115121-9ace938c",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T115220-1e3c909c",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T115415-821250be",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T115613-44395f24",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T115813-921ab0a1",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T120018-01963873",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T120036-cde0a3ab",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T120323-cf73bb5d",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T120624-1d70ea22",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T120938-f917d126",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T121256-8638d84f",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T121624-10167093",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T121945-fb070027",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T122011-df6f4d4c",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T122050-3af7ba0b",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T122221-2f15c662",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T122402-3bcf0fff",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T122549-99532ead",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T122606-99fc22f8",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T122850-e463c07d",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T122916-dde7464b",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T122956-3ec4c612",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T123129-0de64dd8",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T123311-3f91df44",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "M30",
+            "run_id": "20261001T123458-48d73193",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "MR",
+            "run_id": "20261001T111511-ff500529",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "MX",
+            "run_id": "20260930T224909-92e3c81f",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "MX",
+            "run_id": "20260930T225124-82c64d6b",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "MX",
+            "run_id": "20260930T230856-c7acf6e0",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "MX",
+            "run_id": "20261001T064956-84c45d3b",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "MX",
+            "run_id": "20261001T105917-2fd4404d",
+            "status": "complete"
+          },
+          {
+            "milestone_id": "MX",
+            "run_id": "20261001T122647-c6f23faf",
+            "status": "complete"
+          }
+        ]
+      },
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "decide",
+        "GR"
+      ],
+      "result": {
+        "alpha_spent": 0.025,
+        "code_tree_sha256": "1779c7026ce363a5a71ae36340c4bdb24e3ea83c2767a22806dc6914f894a80b",
+        "configuration_sha256": "4188324208e17b574a03b8b094478e04787b33b12236dfdbbca255d0af5f2cd6",
+        "created_utc": "2026-10-01T12:47:35.585304Z",
+        "criterion_evaluations": [
+          {
+            "bounds": null,
+            "criterion_id": "K02.relative/actuator=direct/stratum=cold/h_ns=5000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+            "estimate": 0.00029662004164720325,
+            "operator": ">=",
+            "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+            "status": "unresolved",
+            "threshold": 0.5
+          },
+          {
+            "bounds": {
+              "lower": 0.010496351766374137,
+              "upper": 0.03284632420601875
+            },
+            "criterion_id": "K02.relative/actuator=direct/stratum=cold/h_ns=5000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+            "estimate": 0.021671337986196453,
+            "operator": ">",
+            "reason": "Point estimate and preregistered lower bound clear the boundary",
+            "status": "pass",
+            "threshold": 0.0
+          },
+          {
+            "bounds": null,
+            "criterion_id": "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+            "estimate": -0.0071332062742575615,
+            "operator": ">=",
+            "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+            "status": "unresolved",
+            "threshold": 0.5
+          },
+          {
+            "bounds": null,
+            "criterion_id": "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+            "estimate": 0.004836606694252273,
+            "operator": ">",
+            "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+            "status": "unresolved",
+            "threshold": 0.0
+          },
+          {
+            "bounds": null,
+            "criterion_id": "K02.relative/actuator=direct/stratum=warm/h_ns=5000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+            "estimate": -0.0003974936066863541,
+            "operator": ">=",
+            "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+            "status": "unresolved",
+            "threshold": 0.5
+          },
+          {
+            "bounds": {
+              "lower": 0.009860616535708472,
+              "upper": 0.03549700894355301
+            },
+            "criterion_id": "K02.relative/actuator=direct/stratum=warm/h_ns=5000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+            "estimate": 0.022678812739630745,
+            "operator": ">",
+            "reason": "Point estimate and preregistered lower bound clear the boundary",
+            "status": "pass",
+            "threshold": 0.0
+          },
+          {
+            "bounds": null,
+            "criterion_id": "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+            "estimate": -0.008139534590345021,
+            "operator": ">=",
+            "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+            "status": "unresolved",
+            "threshold": 0.5
+          },
+          {
+            "bounds": null,
+            "criterion_id": "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+            "estimate": 0.004588204470829861,
+            "operator": ">",
+            "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+            "status": "unresolved",
+            "threshold": 0.0
+          }
+        ],
+        "decision_id": "0b79513e7f2cc7e8cc1eb8a416ba0e1330f54bab6e6f3d264977eb7eb5f1173d",
+        "evidence": [
+          {
+            "path": "evidence/MR/20261001T111511-ff500529/manifest.json",
+            "producing_run_id": "20261001T111511-ff500529",
+            "role": "manifest",
+            "sha256": "6bb044b4a32a12771fabc5e62a340f771411be342838951b21acf84e8247a18f"
+          }
+        ],
+        "gate_id": "GR",
+        "look_index": 1,
+        "milestone_id": "MR",
+        "outcome": "INCONCLUSIVE",
+        "permitted_next_actions": [
+          {
+            "branch": "precision",
+            "milestone_id": "MX",
+            "question": "Resolve the registered paired sensitivity comparison without changing its threshold"
+          }
+        ],
+        "phase": "confirmatory",
+        "protocol_version": "PTCO-1.0",
+        "schema_version": 1,
+        "terminal_verdict": null,
+        "validity_status": "valid"
+      },
+      "returncode": 1,
+      "stderr": ""
+    }
+  ],
+  "decision_id": "0b79513e7f2cc7e8cc1eb8a416ba0e1330f54bab6e6f3d264977eb7eb5f1173d",
+  "executable": "/workspace/physical-time-consistency/.reproduction-venv/bin/python",
+  "fresh_training": false,
+  "python": "3.11.5 | packaged by conda-forge | (main, Aug 27 2023, 03:33:12) [Clang 15.0.7 ]",
+  "status": "verified",
+  "versions": {
+    "mujoco": "3.14.0",
+    "numpy": "2.2.6",
+    "pytest": "8.4.1",
+    "scipy": "1.15.3",
+    "torch": "2.8.0"
+  }
+}

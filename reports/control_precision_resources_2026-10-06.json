@@ -1,0 +1,251 @@
+{
+  "actual_free_bytes": 6138822656,
+  "finer_projection": {
+    "artifact_bytes": 277171210,
+    "basis": "Same two-plant/two-model first-five cohort of the complete original 125 us reruns; new seeds have different physical paths",
+    "cpu_seconds": 8167.062409,
+    "expected_new_episodes": 100,
+    "producer_wall_seconds": 8176.656478712
+  },
+  "fit_proxies": [
+    {
+      "actuator": "direct",
+      "artifact_bytes": 436650785,
+      "blocks": 5,
+      "chain": [
+        {
+          "epochs": 500,
+          "manifest": "study/control-development/evidence/M30/20261003T011641-ae5518ed/manifest.json",
+          "manifest_sha256": "669f31aa68f6fd4876e73c8d3814e9f6755d39267cf4c04417225e7fa326d2fe",
+          "resources": {
+            "cpu_seconds": 69.227152,
+            "disk_bytes": 28031243,
+            "original_estimate": null,
+            "peak_rss_bytes": 1089060864,
+            "rss_convention": "macOS bytes",
+            "training_updates": 64000,
+            "wall_seconds": 69.6355205
+          },
+          "resources_sha256": "ca453d6e5dfa4f008fea23e27ab1d2f807b0905a4d35aaaa0673ba305c535dd5"
+        },
+        {
+          "epochs": 400,
+          "manifest": "study/control-development/evidence/M30/20261003T011531-575c33fe/manifest.json",
+          "manifest_sha256": "23e4eb27247b8b530810ebbe7389cdf819f6577145f2cffab4310f64af3f3d8f",
+          "resources": {
+            "cpu_seconds": 65.772302,
+            "disk_bytes": 22735413,
+            "original_estimate": null,
+            "peak_rss_bytes": 818528256,
+            "rss_convention": "macOS bytes",
+            "training_updates": 51200,
+            "wall_seconds": 66.05909175
+          },
+          "resources_sha256": "abfc5d97d3ad5b669d7c9f7ae33c40df80e686d72547fe199b9d588d4f4e176d"
+        },
+        {
+          "epochs": 300,
+          "manifest": "study/control-development/evidence/M30/20261003T011429-51d28986/manifest.json",
+          "manifest_sha256": "87228c393132a3714a6189f1d132898dc6feed6154ebb4bd2370bf2698673981",
+          "resources": {
+            "cpu_seconds": 58.389022999999995,
+            "disk_bytes": 17443406,
+            "original_estimate": null,
+            "peak_rss_bytes": 700678144,
+            "rss_convention": "macOS bytes",
+            "training_updates": 38400,
+            "wall_seconds": 58.601584291
+          },
+          "resources_sha256": "f9d1b15982af7356c0b47784955901ab24d895ab4067f9fcca58e581c5c40180"
+        },
+        {
+          "epochs": 200,
+          "manifest": "study/control-development/evidence/M30/20261003T011332-1b4e72ac/manifest.json",
+          "manifest_sha256": "1556b897c0f02c493fdc06a43a71b6d5f6ecdf3da4bc94db280e000f9ba274ae",
+          "resources": {
+            "cpu_seconds": 52.92796800000001,
+            "disk_bytes": 12182126,
+            "original_estimate": null,
+            "peak_rss_bytes": 547995648,
+            "rss_convention": "macOS bytes",
+            "training_updates": 25600,
+            "wall_seconds": 53.213075917
+          },
+          "resources_sha256": "6cd8329108015efa3fc1979baf4d61605c2194382cba16fdef1f97d8da0388fc"
+        },
+        {
+          "epochs": 100,
+          "manifest": "study/control-development/evidence/M30/20261003T011242-1b95ba10/manifest.json",
+          "manifest_sha256": "801a550ccf0a3cfc870e02de0b8d047855ecd472d66fb46db177f5608f170bb6",
+          "resources": {
+            "cpu_seconds": 46.396904,
+            "disk_bytes": 6937969,
+            "original_estimate": null,
+            "peak_rss_bytes": 440680448,
+            "rss_convention": "macOS bytes",
+            "training_updates": 12800,
+            "wall_seconds": 46.533672625
+          },
+          "resources_sha256": "35b09e5a1984e39e803e32dfed91a38865c2666bc86a89b9c2cc0a7d45d6a3d7"
+        }
+      ],
+      "cpu_seconds": 1463.566745,
+      "model_id": "mlp_dt",
+      "producer_wall_seconds": 1470.214725415,
+      "projected_fits": 5,
+      "source_seed": 0
+    },
+    {
+      "actuator": "lagged",
+      "artifact_bytes": 295290265,
+      "blocks": 4,
+      "chain": [
+        {
+          "epochs": 400,
+          "manifest": "study/control-development/evidence/M30/20261003T013554-219cd85b/manifest.json",
+          "manifest_sha256": "0ac5617384fb36c18721d1659cfc8c4c475b39813c4f3b26272fd27789a53de9",
+          "resources": {
+            "cpu_seconds": 66.46841599999999,
+            "disk_bytes": 22633584,
+            "original_estimate": null,
+            "peak_rss_bytes": 794296320,
+            "rss_convention": "macOS bytes",
+            "training_updates": 51200,
+            "wall_seconds": 67.175383458
+          },
+          "resources_sha256": "e5235c31719eb790711092df00173a4fefeb89aa79aa84c06fed1483a11db155"
+        },
+        {
+          "epochs": 300,
+          "manifest": "study/control-development/evidence/M30/20261003T013449-f2601c72/manifest.json",
+          "manifest_sha256": "313730141c6a15469a453b6a0b9dfd6dae7db8b192a181a1a1972d0bd842d303",
+          "resources": {
+            "cpu_seconds": 60.39163,
+            "disk_bytes": 17369856,
+            "original_estimate": null,
+            "peak_rss_bytes": 635977728,
+            "rss_convention": "macOS bytes",
+            "training_updates": 38400,
+            "wall_seconds": 61.009182625
+          },
+          "resources_sha256": "ebb82411e7380ea682e0e7e56114276ecfff7a3e175a0cb1d798fd4ca0827136"
+        },
+        {
+          "epochs": 200,
+          "manifest": "study/control-development/evidence/M30/20261003T013350-4e691335/manifest.json",
+          "manifest_sha256": "584c16a482e55f01fda5c3b6d1921d3acd8a54681396fe2b3953e84598037c9b",
+          "resources": {
+            "cpu_seconds": 54.445145,
+            "disk_bytes": 12136605,
+            "original_estimate": null,
+            "peak_rss_bytes": 571441152,
+            "rss_convention": "macOS bytes",
+            "training_updates": 25600,
+            "wall_seconds": 54.574831041
+          },
+          "resources_sha256": "f0313a578d160b29a0f642defaed44ea9cce47c892f117ae6500649b06339975"
+        },
+        {
+          "epochs": 100,
+          "manifest": "study/control-development/evidence/M30/20261003T013259-c639b5dc/manifest.json",
+          "manifest_sha256": "9ae723a6539e399bf8b50943028acefed5bedabde8cf9cbe1063f975aa5ec838",
+          "resources": {
+            "cpu_seconds": 48.11031,
+            "disk_bytes": 6918008,
+            "original_estimate": null,
+            "peak_rss_bytes": 445825024,
+            "rss_convention": "macOS bytes",
+            "training_updates": 12800,
+            "wall_seconds": 48.181878959
+          },
+          "resources_sha256": "ca36d2c9140e696df76085fa9da733a75f1c687863519b00297c42f1a07beba8"
+        }
+      ],
+      "cpu_seconds": 1147.077505,
+      "model_id": "mlp_dt",
+      "producer_wall_seconds": 1154.706380415,
+      "projected_fits": 5,
+      "source_seed": 0
+    },
+    {
+      "actuator": "lagged",
+      "artifact_bytes": 182293480,
+      "blocks": 3,
+      "chain": [
+        {
+          "epochs": 300,
+          "manifest": "study/control-development/evidence/M30/20261003T024112-be210441/manifest.json",
+          "manifest_sha256": "7948d09868f57a4009dcbff722e157b6a15a2ea85aabb752bfb9e1e5dcd9a987",
+          "resources": {
+            "cpu_seconds": 88.343461,
+            "disk_bytes": 17385197,
+            "original_estimate": null,
+            "peak_rss_bytes": 670941184,
+            "rss_convention": "macOS bytes",
+            "training_updates": 38400,
+            "wall_seconds": 88.735429333
+          },
+          "resources_sha256": "f453460932869941ff5baa56179127281ebe76bb47314eda383b878e57ff2e25"
+        },
+        {
+          "epochs": 200,
+          "manifest": "study/control-development/evidence/M30/20261003T023946-9edfb800/manifest.json",
+          "manifest_sha256": "8c02c94fa703dc45e7222b53882900ec22e4d5d7f95cb16eaea57c8bfef80f03",
+          "resources": {
+            "cpu_seconds": 82.229442,
+            "disk_bytes": 12147416,
+            "original_estimate": null,
+            "peak_rss_bytes": 594444288,
+            "rss_convention": "macOS bytes",
+            "training_updates": 25600,
+            "wall_seconds": 82.890512208
+          },
+          "resources_sha256": "bba1832fbf6bd661b6abf46e515015bf51643f6652d6bf245aef0d34966d9589"
+        },
+        {
+          "epochs": 100,
+          "manifest": "study/control-development/evidence/M30/20261003T023826-d1b8fb89/manifest.json",
+          "manifest_sha256": "7118391dbdf8a43483f67c24023e54a1feadf16c3e7946a6da1ae6abe2aa59c1",
+          "resources": {
+            "cpu_seconds": 75.548733,
+            "disk_bytes": 6926083,
+            "original_estimate": null,
+            "peak_rss_bytes": 457424896,
+            "rss_convention": "macOS bytes",
+            "training_updates": 12800,
+            "wall_seconds": 75.780609666
+          },
+          "resources_sha256": "cbcf227dca965c539b378f1fd657a475b259a7a0115678be60fb2e064f6d008e"
+        }
+      ],
+      "cpu_seconds": 1230.6081800000002,
+      "model_id": "power_correct",
+      "producer_wall_seconds": 1237.0327560350001,
+      "projected_fits": 5,
+      "source_seed": 0
+    }
+  ],
+  "input_hashes": {
+    "config/control_confirmation_cells.json": "ee8a0030be7e787ef1a29823b4b18eeb20908390245b6d4526184d6d9db3c202",
+    "reports/control_refinement_full_batch.json": "e64c59ca06eab0492d8f1c20bf7cba336620c495896ad273341a900681f9c8d8"
+  },
+  "limitations": [
+    "Seed-0 nominal continuation chains are measured proxies, not optimization caps or a promise of matching convergence",
+    "Plumbing controls, source copying/hash checks, failed/partial attempts and later reproduction are separate",
+    "Additional full/further refinement is priced only if the measured qualification requires it",
+    "The initial reproduction remains the only scientific queue; free disk must be checked again before new dispatch"
+  ],
+  "new_outcomes_opened": false,
+  "observed_utc": "2026-10-06T04:29:53.010487Z",
+  "owner_imposed_caps": null,
+  "primary_projection": {
+    "owner_imposed_caps": null,
+    "primary_artifact_bytes": 1005141786,
+    "primary_cpu_seconds": 32354.434177,
+    "source": "Same count of completed initial two-model fine-time episodes; additional training and numerical/audit cost must be priced in the final registered contract."
+  },
+  "projected_new_fit_artifact_bytes": 914234530,
+  "projected_new_fit_cpu_seconds": 3841.2524300000005,
+  "schema_version": 1,
+  "status": "projection_before_dispatch"
+}

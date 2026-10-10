@@ -1,0 +1,12 @@
+{
+  "cpu_seconds": 3.597817,
+  "disk_bytes": 19218,
+  "original_estimate": {
+    "basis": "Full 207-test suite 14.15 seconds; focused tests 2.46 seconds",
+    "owner_imposed_caps": null,
+    "wall_seconds": 15
+  },
+  "peak_rss_bytes": 341442560,
+  "rss_convention": "macOS bytes",
+  "wall_seconds": 3.630717833992094
+}

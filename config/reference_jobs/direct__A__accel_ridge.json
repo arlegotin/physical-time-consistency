@@ -1,0 +1,15 @@
+{
+  "batch_size": 256,
+  "epochs": 100,
+  "model_id": "accel_ridge",
+  "normalization": "study/precision-look-2/study/precision-look-3/data/direct/A/normalization.json",
+  "resource_projection": {
+    "disk_bytes": 8388608,
+    "limitations": "Ridge solve runtime unmeasured; one least-squares fit and full nominal validation.",
+    "measurement_path": "reports/reference_profile/direct/measurement.json",
+    "measurement_sha256": "10752bc9131f67277a0a14291b33e40ded8aecee237a792157b99809959650ee",
+    "wall_seconds": null
+  },
+  "train_manifest": "study/precision-look-2/study/precision-look-3/data/direct/A/train/manifest.json",
+  "validation_manifest": "study/precision-look-2/study/precision-look-3/data/direct/A/validation/manifest.json"
+}

@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "diagnostic": "Exact analytic learning, gradients and masks already qualified; inspect nominal curves only",
+      "epochs": 100,
+      "learning_rate": 0.001,
+      "manifest": "evidence/M30/20261001T114409-8f5789b9/manifest.json",
+      "nominal_learning": true,
+      "stabilized": false
+    },
+    {
+      "diagnostic": "Exact analytic learning, gradients and masks already qualified; inspect nominal curves only",
+      "epochs": 200,
+      "learning_rate": 0.001,
+      "manifest": "evidence/M30/20261001T114717-6fe3e36e/manifest.json",
+      "nominal_learning": true,
+      "stabilized": true
+    }
+  ],
+  "effective_batch": 256,
+  "maximum_exposure_offered": 200,
+  "selection": "nominal validation only"
+}

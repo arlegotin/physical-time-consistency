@@ -1,0 +1,158 @@
+{
+  "actuator": "lagged",
+  "data": {
+    "train": {
+      "path": "evidence/M30/20261008T092517-64f53a85/manifest.json",
+      "sha256": "c8f672ebe39d78e036f7e7431e60272e8506ddda7027bf1e6660b785c4337c9b"
+    },
+    "validation": {
+      "path": "evidence/M30/20261008T092559-39aa5611/manifest.json",
+      "sha256": "c0d5b3bc36a48a9b5fecb299b3235b0a8ddadef5ecb2dddcaac7903fa70d6503"
+    }
+  },
+  "freeze": {
+    "actuator": "lagged",
+    "configuration_path_repair": {
+      "original_freeze_path": "reports/provenance/fresh-configuration-path-repair/original-freeze.json",
+      "original_freeze_sha256": "51f1c6233c5524fca4ab4bb64a99b1463c95cce2a0c12a3ae8f0bdc3531c3e1e",
+      "reason": "Real immutable configuration file paths required by verify_run; no training or fine evaluation had begun",
+      "recorded_utc": "2026-10-08T09:16:21.789305Z"
+    },
+    "control_configurations": [
+      [
+        "affine_flow",
+        5000000
+      ],
+      [
+        "node_structured",
+        5000000
+      ],
+      [
+        "node_structured",
+        40000000
+      ]
+    ],
+    "control_physics_step_ns": 250000,
+    "counts": {
+      "confirmation": 256,
+      "train": 1024,
+      "validation": 256
+    },
+    "created_utc": "2026-10-08T07:59:38.753131Z",
+    "epoch_block": 100,
+    "inference_scope": "Fresh model seeds and tasks; fixed version-specific train/probe corpus; one known-lag robot",
+    "initial_alpha": 0.025,
+    "initial_episodes_per_seed": 10,
+    "initial_seeds": [
+      2026100800,
+      2026100801,
+      2026100802,
+      2026100803,
+      2026100804
+    ],
+    "input_hashes": {
+      "assets/two_link_lagged.xml": "e4741d6c43f64af014fcb16371d3469e466885b80333e3a218be629ab80ace3f",
+      "config/authorization.json": "c8935eb56837a5dc3430ea6c1ef7a0bf61f2a206c6a5b767ed13b15c38a52f78",
+      "config/numerical.json": "35f71d6b4e0770efd3f2ffc3b189fbbd78c0b06062984ebaa39d6af408ef21b5",
+      "config/planner.json": "fef27c3be89d011c9774b3be6f9947202ca9d28c24007af58d3d892dbdbaebc5",
+      "docs/superpowers/specs/2026-10-08-affine-independent-confirmation.md": "cbab8fd214f273d8a6d5e5d0ee4aba04ef48610d2a848155e4f57c38fad4e4ab",
+      "evidence/M30/20261008T070230-d76da3f5/learning_controls.json": "836871a2b3d7235dbaeecf61900385ec00f37e836647a304fd629f3d032bfcf6",
+      "evidence/M30/20261008T070230-d76da3f5/manifest.json": "e36ad8f7425fb564a0e3d39b91fae1a7f228bff6bd320cc5fc51a87d3a8e99a3",
+      "locks/environment.json": "fe4c606657c8cef0768fb4687af1ac382240825e0d0e101738f6c5580a2f9dd3",
+      "locks/wheels.json": "7db829bc323883817ebbf34270f4f9d9aa377a5ab09b215278ea77c4f5f63fed",
+      "reports/affine_prediction_measurement.json": "eb2cfaf6635ab27a4257d908340f5119a1b33244477ea2f1736c23bf287b1c17",
+      "reports/affine_prediction_result.json": "6efdeefafba57a53df1991c78991ac88cd9a02d618b9f7e406a947f7903b6e22",
+      "study/control-development/evidence/M30/20261002T025902-a8850e3b/manifest.json": "83f1069fe44aaacc36c6c551b6f15c05157d39ee0cc78ab962ea3c63127d7b98",
+      "study/control-development/evidence/M30/20261002T025902-a8850e3b/summary.json": "16b33cc23e750731d0e54963d5e56f552b541da3f5394e40fe7cf91db3da0912"
+    },
+    "learning_controls": {
+      "evidence/M30/20261008T070230-d76da3f5/learning_controls.json": "836871a2b3d7235dbaeecf61900385ec00f37e836647a304fd629f3d032bfcf6",
+      "evidence/M30/20261008T070230-d76da3f5/manifest.json": "e36ad8f7425fb564a0e3d39b91fae1a7f228bff6bd320cc5fc51a87d3a8e99a3",
+      "study/control-development/evidence/M30/20261002T025902-a8850e3b/manifest.json": "83f1069fe44aaacc36c6c551b6f15c05157d39ee0cc78ab962ea3c63127d7b98",
+      "study/control-development/evidence/M30/20261002T025902-a8850e3b/summary.json": "16b33cc23e750731d0e54963d5e56f552b541da3f5394e40fe7cf91db3da0912"
+    },
+    "learning_rates": [
+      0.001,
+      0.0003
+    ],
+    "loss_mode": "shared",
+    "models": [
+      "affine_flow",
+      "node_structured"
+    ],
+    "namespace": [
+      20261008,
+      2
+    ],
+    "physics_step_ns": 125000,
+    "planner_settings": {
+      "candidate_count": 128,
+      "elite_count": 16,
+      "initial_std": 1.0,
+      "iterations": 4,
+      "std_floor": 0.1
+    },
+    "primary_statistics": [
+      "q_error_5ms",
+      "v_error_5ms",
+      "batch128_latency_5ms"
+    ],
+    "protocol_id": "PTCO-AFF-0.2",
+    "source_hashes": {
+      "poc/__init__.py": "a2663e8d543cbef68f5ef143d68b63cc6fde80d0d59bb560d4f23347632dcd10",
+      "poc/__main__.py": "0f27902c62b9843290556f97636abe8c9df75f58e233d5349b2c09c522f15542",
+      "poc/action_path.py": "5389db332d8ee89f21085cd5e8642ead126e845ba1d891f8422a4f509f9981b5",
+      "poc/affine_experiment.py": "05bee8686e229e8229975ba3882f0eef5fecae379b864f9d48af5e76a0b3bc1a",
+      "poc/affine_flow.py": "de46ee95fde952a34505b0bed95b95edee979ce134dbc10336bc130c88bda086",
+      "poc/affine_fresh.py": "384f1704cb20b7d423a5e5d65ca3f81eac044b4b33ad6988585f195710c78819",
+      "poc/affine_measurement.py": "4d7a6cb3bdf0fb8a0203cda43a9f82d5bf0901d26888fcef1178ca9dccbecd83",
+      "poc/analytic.py": "b6fd1dfef962c2517f7b24f0ffb96a4ef0188ab5058adea638309e6895f313fc",
+      "poc/calibration_batch.py": "f5723d548acc0d0b0a525d9c9bc109ccafdbc321f974409ca7eaef7513ab8604",
+      "poc/clocks.py": "7a45fe841e36bfabc1e4ee66c8b329755943dbd7a9c46fb016aceb925d544ef9",
+      "poc/contracts.py": "3615336d4cf41840c8026ad74afe0be2f36929bec625b7f0b2aaff56c7e4b7e4",
+      "poc/control.py": "b802a2e8a84200fd1d9741ce6cb7d4f2c98e66405b84cfb26f3c8a98289df5f5",
+      "poc/control_artifacts.py": "a22bf364e52c63ec05b44bfe329e2bbf5c36e37a1b9399cf2158a720733f7d04",
+      "poc/control_episode.py": "970168a74caf3f1ba5baa039a2de60ae035576c770e2b3dd58a341117db207a3",
+      "poc/control_jobs.py": "acbc3d196301c7128a26aab0585f40e0f55e7d536792741cf746c942366aca4f",
+      "poc/control_models.py": "50432a27298ef52e598d05e019fcf84e7d63a849dd9a62cc3a2bb7cb2e42ad31",
+      "poc/control_profile.py": "71ec8800bf7c67cce88ca3fa1be8a20e344591dedc57a41b35ddb4afa0e9cd65",
+      "poc/dataset.py": "7b19abd94a475eef557667244656e3e19be2f9860e279c75f0ef5d7c7a7ff597",
+      "poc/efficiency_episode.py": "571334db75f3e43779183156db2cd119e9db34d040ab20c446b8ff6000cbeb7e",
+      "poc/efficiency_pilot.py": "fbc10952735fe97f725c7175d0018ae133ead2736deb4bc1affb76722331655b",
+      "poc/efficiency_result.py": "c9cdf1470f06dfda28fe07a7e71fa145fdb956c6fc31c8b0da983e32f8dbe641",
+      "poc/efficient_power.py": "c1656339d2bbc492e005fa04ac50467c5148967ccb2f98f666e502ef233edeb8",
+      "poc/envs.py": "e4635069a335d0b37d378adea3267c703f1c44f445a7c535afdc89f5e32ce35e",
+      "poc/execution.py": "7be39cb095560fd86df4109e1a88b4616174e1766edada9ea926718d192aa786",
+      "poc/gates.py": "a260b655bd8a7829237f00441be9d62a1bc3847d6d6570fecbd3b3a4042604b7",
+      "poc/history.py": "9f76f4bdd6776c01ecc8e53d77d5b4861c88f8d9e65b740353137416b457afdc",
+      "poc/io.py": "b7c169b0c7e296b7e11dfe42ae620ad33806de61b36b610db67d727bd7ac04cd",
+      "poc/milestones/__init__.py": "d7cc49e457f3a9cba474ece1c589de0d83243741952576e12bd8f45f8ed556ac",
+      "poc/milestones/m10.py": "d1fc44e782a61858e386c1f7a0f274f3b91d4ef8ac98e889781d479a570b0831",
+      "poc/milestones/m20.py": "a9c725389741e2ce1e99695abf664d153d0df95476313dcd4e3cd190a0ebd975",
+      "poc/models/__init__.py": "9af7c30ff7b9a23124b59def8f80551784db5aa4d97cad299a137e3663cf675a",
+      "poc/models/common.py": "1fed6c0593bab9a85a9899da66eb994eb6f4909c5fb200208e61f14320f947a1",
+      "poc/models/factory.py": "848243017a8b726c91483a080e026c6708dcb380fa75b7c34649420dc6b00c83",
+      "poc/models/mlp.py": "0859bac1c9eb737b3accfca9ecca3c9370f1100e110ccf251b0b1688c6f01110",
+      "poc/models/ode.py": "c2a5a2ecbca37c99afbcda2261e9dd05b3913508e5f1690935d3cb263dfda0ff",
+      "poc/models/power.py": "4d10d4d39aa2d1b35f301b2f60fe0148e3cdb529dc05f1b7601eb7d4a7a7c1d7",
+      "poc/models/sequence.py": "9cadc432670b4fb4e4d6ca88fb642c6de159b954747da720454e8da3d28acd95",
+      "poc/mpc.py": "ca2db4101a4b924af537705540a2e09eda5bdc7cac72d9acb9bbbf9452a2b61f",
+      "poc/mpc_calibration.py": "ede702834d517747db8f3f1493d39997990cc876b349f710af0c1a636bea40b8",
+      "poc/oracle_rigidbody.py": "537e5d06400d8135b728f0111284ebb7ce13ee7b9361eaec93cb80ec40bd5f37",
+      "poc/physics_fit.py": "95f5db85913f3ecc44f0236d3ad3f3ad27f644ebfc782a7c95bc79f9474998ad",
+      "poc/planner_qualification.py": "319d96f140a8d352a24e792c5538cad8f22fb43539f6e95c493b626bad100396",
+      "poc/reference_jobs.py": "2bbc9115bbf3f4ea759be85c64973966db666cabe9766decba4000e081d92fe5",
+      "poc/research_jobs.py": "c045d7417fc2ecd18c9c24267ac3f09ced5e972869cd5e7ec0d0a3ecd155d27d",
+      "poc/robot_calibration.py": "51bd9bedd37d6424e4bf98aaea14648c66ec36444cfa9959cbb2b6bed0481245",
+      "poc/sensitivity.py": "30d5bc24d15f5e0707a15d8a1b54deacfec1034bcb9e366f7b8562b283e1ee42",
+      "poc/shared_state_diagnostic.py": "affc7a5f1bd356a77e772553a7d220d169b378c503025b41376e9c7cadc91edc",
+      "poc/train.py": "d56ccfaca398e08edc934b24c8b3ba7c7424628ffd5af4c753e36ef2bc5d7368",
+      "poc/training_jobs.py": "97ec7fc02811efa99a370fa4dda667efbe2d58bdee8acd1e5a6db08b74bb3a4c"
+    },
+    "work_context": "study/affine-fresh"
+  },
+  "loss_mode": "shared",
+  "model_id": "affine_flow",
+  "replica_id": null,
+  "seed": 2026100809
+}

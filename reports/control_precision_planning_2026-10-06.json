@@ -1,0 +1,97 @@
+{
+  "directional_tail_alpha": 0.00078125,
+  "evidence": [
+    {
+      "path": "reports/control_confirmation_batch.json",
+      "sha256": "cc1fd7ec7f080986bee3c25f74a94fd7990a75d8e06cb46dc8a7fd6ac35e4ef9"
+    },
+    {
+      "path": "reports/control_confirmation_result.json",
+      "sha256": "345c2a96a4b1b2055f814efc535f19605f76bf2247d9d8ee5c8f1357872afbb4"
+    },
+    {
+      "path": "config/control_confirmation_design.json",
+      "sha256": "40b7c0fe901b5a8823a08748cae413b939d0897e5a58074037c283872cc8d826"
+    }
+  ],
+  "interpretation": "Sample-size planning uses observed paired variability with a 1.25 standard-deviation margin. It is not a promised positive outcome, a new statistical look, or authorization to bypass reproduction/checkpoint/numerical qualification.",
+  "look_alpha": 0.0125,
+  "new_outcomes_opened": false,
+  "preserve_all_prior_seeds_and_looks": true,
+  "projection": {
+    "owner_imposed_caps": null,
+    "primary_artifact_bytes": 1005141786,
+    "primary_cpu_seconds": 32354.434177,
+    "source": "Same count of completed initial two-model fine-time episodes; additional training and numerical/audit cost must be priced in the final registered contract."
+  },
+  "proposed_new_seed_ids": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "proposed_next_look": 2,
+  "proposed_primary_new_episodes": 400,
+  "proposed_total_seed_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "protocol_id": "UTILITY-2026-10-02-control-v1",
+  "question": "Is the fine-time head-minus-MLP control advantage positively resolved on each actuator chain?",
+  "recorded_utc": "2026-10-06T03:23:18.148645Z",
+  "rows": [
+    {
+      "actuator": "direct",
+      "bootstrap_resamples": 20000,
+      "criterion_id": "utility_control/direct/mlp_dt/h5000000",
+      "episode_doubling_eligible": false,
+      "minimum_projected_total_seeds": 10,
+      "observed_mean_difference": 0.05526643313159687,
+      "observed_seed_sd": 0.025756660848055588,
+      "projected_lower_bound_at_ten": 0.009791892461110438,
+      "sd_planning_margin": 1.25,
+      "within_bootstrap_entropy": [
+        9102,
+        1,
+        70,
+        0
+      ],
+      "within_episode_bootstrap_variance": 2.9601434516827758e-05,
+      "within_episode_mean_variance": 0.00014829525967565376,
+      "within_uncertainty_share": 0.22353634727249605
+    },
+    {
+      "actuator": "lagged",
+      "bootstrap_resamples": 20000,
+      "criterion_id": "utility_control/lagged/mlp_dt/h5000000",
+      "episode_doubling_eligible": false,
+      "minimum_projected_total_seeds": 10,
+      "observed_mean_difference": 0.07165488271222745,
+      "observed_seed_sd": 0.029203237534589286,
+      "projected_lower_bound_at_ten": 0.02009525622140422,
+      "sd_planning_margin": 1.25,
+      "within_bootstrap_entropy": [
+        9102,
+        1,
+        70,
+        1
+      ],
+      "within_episode_bootstrap_variance": 2.4565550999449673e-05,
+      "within_episode_mean_variance": 0.00012441303797974075,
+      "within_uncertainty_share": 0.14588273375339642
+    }
+  ],
+  "schema_version": 1,
+  "scope": "Only the two existing MLP 5 ms contrasts; no new result for the six untouched comparisons or full-suite superiority.",
+  "statistical_family_size": 8,
+  "status": "planning_only_not_executable_request"
+}

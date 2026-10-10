@@ -1,0 +1,40 @@
+{
+  "actuator": "lagged",
+  "actuator_interval_ns": 10000000,
+  "checkpoint_sha256": "c5d7b88900305ab71c749dba27321a58660b820727767c9f7232c9ae043facc1",
+  "condition": "clean",
+  "episode_id": 9,
+  "freeze_sha256": "39bacb772bcc4af7e44879ea2d345c35e5247c7916f161c535c5a486c430d132",
+  "inference_variant": "efficient",
+  "manifest_sha256": "9a4c48e7855a376846214715845b6291c670e26e2ae7cf37e78ca8fe54eee16d",
+  "model_id": "power_correct",
+  "model_manifest": "study/control-development/evidence/M30/20261002T214651-60f83515/manifest.json",
+  "model_partition_ns": [
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000
+  ],
+  "phase": "exploratory",
+  "physics_step_ns": 250000,
+  "planner_settings": {
+    "candidate_count": 128,
+    "elite_count": 16,
+    "initial_std": 1.0,
+    "iterations": 4,
+    "std_floor": 0.1
+  },
+  "power_mode": null,
+  "protocol_id": "PTCO-EFF-0.1",
+  "resource_projection": {
+    "owner_imposed_caps": null,
+    "prior_artifact_bytes_per_episode": 2500000,
+    "reason": "Historical 2.5 MiB/episode; measure actual new rate/model before full batch"
+  },
+  "schema_version": 1,
+  "seed": 9000
+}

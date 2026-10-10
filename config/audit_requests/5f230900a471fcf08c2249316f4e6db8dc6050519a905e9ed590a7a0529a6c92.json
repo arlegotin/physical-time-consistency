@@ -1,0 +1,13 @@
+{
+  "actuator": "direct",
+  "cell_id": "direct__A__shared__node_generic__seed3",
+  "condition": "A",
+  "corpus_manifest": "data/direct/A/confirmation/manifest.json",
+  "experiment_id": "E01",
+  "freeze_path": "config/rejection_checkpoint_freezes/direct__A__shared__node_generic__seed3.json",
+  "loss_mode": "shared",
+  "model_id": "node_generic",
+  "seed": 3,
+  "solver_substeps": 2,
+  "training_manifest": "evidence/M30/20261001T121624-10167093/manifest.json"
+}

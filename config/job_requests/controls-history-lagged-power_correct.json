@@ -1,0 +1,4 @@
+{
+  "actuator": "lagged",
+  "model_id": "power_correct"
+}

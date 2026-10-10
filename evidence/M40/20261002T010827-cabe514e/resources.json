@@ -1,0 +1,13 @@
+{
+  "cpu_seconds": 26.075809,
+  "disk_bytes": 2481152,
+  "original_estimate": {
+    "disk_bytes": 10000000,
+    "reason": "Initial representative learned-control episode; measure actual model/planner throughput before remaining development jobs",
+    "wall_seconds": null
+  },
+  "peak_rss_bytes": 390479872,
+  "rss_convention": "macOS bytes",
+  "training_updates": 0,
+  "wall_seconds": 26.084798791
+}

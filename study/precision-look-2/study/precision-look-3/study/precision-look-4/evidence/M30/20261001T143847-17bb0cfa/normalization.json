@@ -1,0 +1,19 @@
+{
+  "protocol_version": "PTCO-1.0",
+  "scale_q": [
+    0.013590892241995481,
+    0.03912336592175722
+  ],
+  "scale_v": [
+    0.5381867886239525,
+    1.5403919755607665
+  ],
+  "schema_version": 1,
+  "training_manifest": "data/direct/A/train/manifest.json",
+  "training_manifest_sha256": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+  "transition_count": 32768,
+  "velocity_input_rms": [
+    1.775608597217983,
+    3.8111830615807536
+  ]
+}

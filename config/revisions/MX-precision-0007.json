@@ -1,0 +1,262 @@
+{
+  "action_parameters": {
+    "alpha": 0.003125,
+    "new_seed_ids": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "next_look": 4,
+    "seed_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  "authorization_reference": "config/authorization.json",
+  "branch": "precision",
+  "claim_ids": [
+    "C02"
+  ],
+  "contract": {
+    "1": "S12/MX and S13.4 precision: discriminate C02 under unchanged PTCO-1.0; no subset success.",
+    "10": "Measured prior-block training projects the next block; CPU only, serial model/seed jobs, no artificial resource caps.",
+    "11": "Resume only matching jobs; preserve original results and all attempts. Diagnose validity defects instead of altering scientific floors.",
+    "12": "Complete 20 new paired clusters and look4; preserve untested control claims and the original alpha ledger.",
+    "2": "Exact valid unresolved look3 GR decision, 20 paired seeds, no supported mandatory rejection.",
+    "3": "Copy the identical scientific source and immutable binaries; preserve prior receipts and append seeds20–39.",
+    "4": "Commit this request before new outcomes; retain all 20 old clusters and every prior statistical look. Data, models, losses, nominal selection and thresholds stay fixed.",
+    "5": "python -m poc.subset_precision config/revisions/MX-precision-0007.json --root study/precision-look-2/study/precision-look-3 --resume",
+    "6": "MR raw/summary artifacts, initial context, exact parent hashes and an appended look ledger entry.",
+    "7": "Full paired coverage, raw-matrix reaggregation, qualified nominal fits, same-field solver checks; retain every bad seed and failed attempt.",
+    "8": "Original conservative t/bootstrap, Fieller, numerical-envelope and influence criteria; no change to the 50% floor or K280.",
+    "9": "Valid precise rejection -> MF; subset support -> unfinished M30; unresolved -> a newly justified named request; exact external prerequisite -> BLOCKED."
+  },
+  "expected_artifacts": [
+    "INITIAL_CONTEXT.json",
+    "config/precision_parent.json",
+    "appended training/E01 receipts",
+    "appended statistical look",
+    "precision_decision.json"
+  ],
+  "input_evidence": [
+    {
+      "path": "evidence/MR/20261001T151524-81d1f3fa/manifest.json",
+      "producing_run_id": "20261001T151524-81d1f3fa",
+      "role": "manifest",
+      "sha256": "6a634a90196fc60d171d1d7ae13ec6011cffa146540e8533abe8c419021a64b4"
+    }
+  ],
+  "live_explanations": [
+    "the correction clears the required improvement floor",
+    "its improvement is materially below that floor"
+  ],
+  "new_information": "20 independent paired training-seed clusters under the unchanged design.",
+  "parent_decision_id": "37974156e9d94923ca9bc39b002121bb3219c745993c990fbec796fad2ffdb49",
+  "parent_gate": "GR",
+  "prior_manifest": "evidence/MR/20261001T151524-81d1f3fa/manifest.json",
+  "prior_manifest_sha256": "6a634a90196fc60d171d1d7ae13ec6011cffa146540e8533abe8c419021a64b4",
+  "progress_condition": "New independent clusters reduce or diagnose the unresolved contrast, ratio precision or seed influence.",
+  "protocol_version": "PTCO-1.0",
+  "recorded_utc": "2026-10-01T17:47:57.773381Z",
+  "request_id": "MX-precision-0007",
+  "resource_projection": {
+    "additional_audit_time": "Project from the measured audit jobs; reuse compatible prior references.",
+    "measured_new_training_attempts": 48,
+    "measured_new_training_wall_seconds": 7283.879253247,
+    "measured_peak_rss_bytes": 1121452032,
+    "measured_training_run_ids": [
+      "20261001T172235-21d6ed48",
+      "20261001T174220-2c95d10d",
+      "20261001T153154-c44cd156",
+      "20261001T170912-e1a27019",
+      "20261001T171823-ae66d33e",
+      "20261001T170409-2dc3e56f",
+      "20261001T160711-9e6050f4",
+      "20261001T152131-a0fbf8f2",
+      "20261001T161756-311490d1",
+      "20261001T155038-4e6b4fcb",
+      "20261001T152450-24180b5f",
+      "20261001T164815-3f75c3a4",
+      "20261001T164232-cd856be3",
+      "20261001T173238-ab23886e",
+      "20261001T155926-333d1819",
+      "20261001T165251-53f0f028",
+      "20261001T165626-3fe56757",
+      "20261001T171120-d679ebfe",
+      "20261001T163202-9f05903b",
+      "20261001T161219-dae56218",
+      "20261001T162134-f44374ad",
+      "20261001T171329-7171568a",
+      "20261001T162510-9426ab5d",
+      "20261001T155204-53ecefbe",
+      "20261001T173802-40171e8e",
+      "20261001T172816-f93e8216",
+      "20261001T153509-b86b28cf",
+      "20261001T171541-bb4fcb9d",
+      "20261001T172420-19dd6555",
+      "20261001T172615-5491d78c",
+      "20261001T160341-26834eb0",
+      "20261001T154411-4fcee407",
+      "20261001T161440-dd998002",
+      "20261001T154646-29f1a0b1",
+      "20261001T152952-9e0184e8",
+      "20261001T160105-65cbf9f2",
+      "20261001T163011-5d18e51f",
+      "20261001T170206-80948189",
+      "20261001T173507-983572fc",
+      "20261001T163439-79c41c41",
+      "20261001T170633-2a74ebd4",
+      "20261001T155400-7035f851",
+      "20261001T173023-e6ac5652",
+      "20261001T154017-d0751c1c",
+      "20261001T154204-fabb1854",
+      "20261001T163827-243752b4",
+      "20261001T165014-b32b651e",
+      "20261001T155758-f78a73d8"
+    ],
+    "new_E01_jobs": 60,
+    "new_selected_training_fits": 40,
+    "owner_imposed_caps": null,
+    "precision_projections": [
+      {
+        "criterion_id": "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+        "current_Fieller": {
+          "alpha": 2.232142857142857e-05,
+          "assumption": "approximately joint-normal seed means",
+          "central_ratio_bootstrap": [
+            0.088092177889195,
+            0.23729593077795103
+          ],
+          "estimate": 0.1661540823563863,
+          "lower": -0.09794553230891734,
+          "quadratic": [
+            0.0005737140548486652,
+            -0.000999363527667655,
+            0.000405643612939717
+          ],
+          "status": "ok",
+          "upper": 0.3560263319299709,
+          "width": 0.45397186423888825
+        },
+        "current_leave_one_seed_out_unstable": false,
+        "current_point_reduction": 0.1661540823563863,
+        "current_rejection_bound_upper": -0.004257736876490809,
+        "planning_covariance": [
+          [
+            2.6922735592259357e-05,
+            -3.1234340997646867e-06
+          ],
+          [
+            -3.1234340997646867e-06,
+            8.701220542742765e-06
+          ]
+        ],
+        "planning_method": "Future look4 Fieller family tail; marginal sd=1.25*max(current20,prior10), current paired correlation; prediction only",
+        "projected_total_clusters_for_width_0_20": 118,
+        "projected_width_at_40": 0.38228896130542855
+      },
+      {
+        "criterion_id": "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+        "current_Fieller": {
+          "alpha": 2.232142857142857e-05,
+          "assumption": "approximately joint-normal seed means",
+          "central_ratio_bootstrap": [
+            -0.019671012634213926,
+            0.18007329480170362
+          ],
+          "estimate": 0.08641355530252381,
+          "lower": -0.26910419868709357,
+          "quadratic": [
+            0.000595549396309786,
+            -0.0011484735424079572,
+            0.0004983259454803112
+          ],
+          "status": "ok",
+          "upper": 0.3406771873846972,
+          "width": 0.6097813860717908
+        },
+        "current_leave_one_seed_out_unstable": false,
+        "current_point_reduction": 0.08641355530252381,
+        "current_rejection_bound_upper": -0.0048567509972464,
+        "planning_covariance": [
+          [
+            3.67781925292767e-05,
+            -6.003784709195977e-06
+          ],
+          [
+            -6.003784709195977e-06,
+            2.1679238311109345e-05
+          ]
+        ],
+        "planning_method": "Future look4 Fieller family tail; marginal sd=1.25*max(current20,prior10), current paired correlation; prediction only",
+        "projected_total_clusters_for_width_0_20": 209,
+        "projected_width_at_40": 0.5244201346562626
+      }
+    ],
+    "projected_new_training_wall_seconds": 14567.758506494,
+    "projection_not_result": true,
+    "sample_rule": "Prespecified seed doubling; further continuation requires a new prospective request."
+  },
+  "return_milestone": "MR",
+  "schema_version": 1,
+  "source_context": "study/precision-look-2/study/precision-look-3",
+  "statistical_family_size": 280,
+  "status": "prospective",
+  "unresolved_question": "Which side of the frozen paired sensitivity improvement boundary is supported?",
+  "working_context": "study/precision-look-4"
+}

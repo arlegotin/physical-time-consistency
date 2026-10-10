@@ -1,0 +1,312 @@
+{
+  "contrasts": [
+    {
+      "actuator": "direct",
+      "baseline": "mlp_dt",
+      "baseline_mean_cost": 0.2429272205396365,
+      "head_mean_cost": 0.24461163134052893,
+      "head_relative_cost_reduction": -0.006933808393932539,
+      "model_step_ns": 40000000,
+      "status": "descriptive_only_pending_qualification",
+      "uncertainty_bounds": null
+    },
+    {
+      "actuator": "direct",
+      "baseline": "node_generic",
+      "baseline_mean_cost": 0.24292480046400527,
+      "head_mean_cost": 0.24461163134052893,
+      "head_relative_cost_reduction": -0.00694383971213175,
+      "model_step_ns": 40000000,
+      "status": "descriptive_only_pending_qualification",
+      "uncertainty_bounds": null
+    },
+    {
+      "actuator": "direct",
+      "baseline": "mlp_dt",
+      "baseline_mean_cost": 0.3006098666535568,
+      "head_mean_cost": 0.24534343352196,
+      "head_relative_cost_reduction": 0.1838477018297261,
+      "model_step_ns": 5000000,
+      "status": "descriptive_only_pending_qualification",
+      "uncertainty_bounds": null
+    },
+    {
+      "actuator": "direct",
+      "baseline": "node_generic",
+      "baseline_mean_cost": 0.24290631227556478,
+      "head_mean_cost": 0.24534343352196,
+      "head_relative_cost_reduction": -0.010033173792661332,
+      "model_step_ns": 5000000,
+      "status": "descriptive_only_pending_qualification",
+      "uncertainty_bounds": null
+    },
+    {
+      "actuator": "lagged",
+      "baseline": "mlp_dt",
+      "baseline_mean_cost": 0.27952128747046906,
+      "head_mean_cost": 0.27836758792766814,
+      "head_relative_cost_reduction": 0.004127412095305316,
+      "model_step_ns": 40000000,
+      "status": "descriptive_only_pending_qualification",
+      "uncertainty_bounds": null
+    },
+    {
+      "actuator": "lagged",
+      "baseline": "node_generic",
+      "baseline_mean_cost": 0.27904597525627917,
+      "head_mean_cost": 0.27836758792766814,
+      "head_relative_cost_reduction": 0.0024310951913496526,
+      "model_step_ns": 40000000,
+      "status": "descriptive_only_pending_qualification",
+      "uncertainty_bounds": null
+    },
+    {
+      "actuator": "lagged",
+      "baseline": "mlp_dt",
+      "baseline_mean_cost": 0.3502228154740276,
+      "head_mean_cost": 0.2785679327618002,
+      "head_relative_cost_reduction": 0.20459798604280632,
+      "model_step_ns": 5000000,
+      "status": "descriptive_only_pending_qualification",
+      "uncertainty_bounds": null
+    },
+    {
+      "actuator": "lagged",
+      "baseline": "node_generic",
+      "baseline_mean_cost": 0.27893265129041944,
+      "head_mean_cost": 0.2785679327618002,
+      "head_relative_cost_reduction": 0.0013075505034350066,
+      "model_step_ns": 5000000,
+      "status": "descriptive_only_pending_qualification",
+      "uncertainty_bounds": null
+    }
+  ],
+  "episodes_per_cell_seed": 20,
+  "estimator": "Mean over five equally sized paired seed batches; raw physical episode costs independently reconciled with stored seed means.",
+  "evidence": [
+    {
+      "path": "reports/control_confirmation_raw_audit.json",
+      "sha256": "e2bb9709c55a9ac151199c2267ff768b76ace534c9a6319d798191e4c6a615e9"
+    },
+    {
+      "path": "reports/control_confirmation_batch.json",
+      "sha256": "cc1fd7ec7f080986bee3c25f74a94fd7990a75d8e06cb46dc8a7fd6ac35e4ef9"
+    },
+    {
+      "path": "reports/control_primary_completion_2026-10-04.json",
+      "sha256": "1d70c8e95c6903bd208e2cf501fc7aeee6c9f1837c098c8f4c7e12ea3168e94b"
+    },
+    {
+      "path": "reports/control_finer_subset_review_2026-10-04.json",
+      "sha256": "2c5870f99a4a3f8c282633b9ba54e05df10780abc9843623c11b024c331e4f41"
+    }
+  ],
+  "limitations": [
+    "Point estimates do not establish population improvement or noninferiority.",
+    "Physical-reference, NODE solver and fresh-process reproduction checks are pending.",
+    "This design covers the MLP and generic NODE, not all seven original competitors or practical-rate/noise/disturbance claims.",
+    "No checkpoint, objective, scientific threshold or statistical-look allocation changed."
+  ],
+  "n_episodes": 1200,
+  "n_training_seeds": 5,
+  "protocol_id": "UTILITY-2026-10-02-control-v1",
+  "recorded_utc": "2026-10-04T08:02:13.417202Z",
+  "rows": [
+    {
+      "actuator": "direct",
+      "cost_by_seed": [
+        0.2054191553898705,
+        0.22388565828521304,
+        0.2938277298264596,
+        0.1939862620990654,
+        0.2975172970975739
+      ],
+      "fallback_count": 0,
+      "mean_realized_cost": 0.2429272205396365,
+      "model_id": "mlp_dt",
+      "model_step_ns": 40000000,
+      "n_episodes": 100,
+      "success_count": 27
+    },
+    {
+      "actuator": "direct",
+      "cost_by_seed": [
+        0.2711165060470254,
+        0.24765477388963344,
+        0.359808745817556,
+        0.23540446601106818,
+        0.3890648415025012
+      ],
+      "fallback_count": 0,
+      "mean_realized_cost": 0.3006098666535568,
+      "model_id": "mlp_dt",
+      "model_step_ns": 5000000,
+      "n_episodes": 100,
+      "success_count": 12
+    },
+    {
+      "actuator": "direct",
+      "cost_by_seed": [
+        0.2050921736770186,
+        0.22412486449265248,
+        0.29498385172296515,
+        0.19199499749227217,
+        0.298428114935118
+      ],
+      "fallback_count": 0,
+      "mean_realized_cost": 0.24292480046400527,
+      "model_id": "node_generic",
+      "model_step_ns": 40000000,
+      "n_episodes": 100,
+      "success_count": 26
+    },
+    {
+      "actuator": "direct",
+      "cost_by_seed": [
+        0.2050921736770186,
+        0.22412834021259878,
+        0.2945730379320118,
+        0.19230989462107675,
+        0.298428114935118
+      ],
+      "fallback_count": 0,
+      "mean_realized_cost": 0.24290631227556478,
+      "model_id": "node_generic",
+      "model_step_ns": 5000000,
+      "n_episodes": 100,
+      "success_count": 26
+    },
+    {
+      "actuator": "direct",
+      "cost_by_seed": [
+        0.20510659803443523,
+        0.22637978061011904,
+        0.29355169980121076,
+        0.193922317537306,
+        0.3040977607195735
+      ],
+      "fallback_count": 0,
+      "mean_realized_cost": 0.24461163134052893,
+      "model_id": "power_correct",
+      "model_step_ns": 40000000,
+      "n_episodes": 100,
+      "success_count": 12
+    },
+    {
+      "actuator": "direct",
+      "cost_by_seed": [
+        0.20950658939154204,
+        0.22595490090553993,
+        0.2927804088685802,
+        0.19719456263709007,
+        0.3012807058070478
+      ],
+      "fallback_count": 0,
+      "mean_realized_cost": 0.24534343352196,
+      "model_id": "power_correct",
+      "model_step_ns": 5000000,
+      "n_episodes": 100,
+      "success_count": 25
+    },
+    {
+      "actuator": "lagged",
+      "cost_by_seed": [
+        0.23788098276396158,
+        0.25654511738436575,
+        0.3382653892097751,
+        0.2187018061283267,
+        0.34621314186591606
+      ],
+      "fallback_count": 0,
+      "mean_realized_cost": 0.27952128747046906,
+      "model_id": "mlp_dt",
+      "model_step_ns": 40000000,
+      "n_episodes": 100,
+      "success_count": 52
+    },
+    {
+      "actuator": "lagged",
+      "cost_by_seed": [
+        0.29593594946044555,
+        0.3772862737637139,
+        0.38501223146526187,
+        0.2809600757875176,
+        0.4119195468931995
+      ],
+      "fallback_count": 0,
+      "mean_realized_cost": 0.3502228154740276,
+      "model_id": "mlp_dt",
+      "model_step_ns": 5000000,
+      "n_episodes": 100,
+      "success_count": 12
+    },
+    {
+      "actuator": "lagged",
+      "cost_by_seed": [
+        0.2378140554380736,
+        0.25498552847480715,
+        0.3397776080371978,
+        0.21891597411262298,
+        0.34373671021869423
+      ],
+      "fallback_count": 0,
+      "mean_realized_cost": 0.27904597525627917,
+      "model_id": "node_generic",
+      "model_step_ns": 40000000,
+      "n_episodes": 100,
+      "success_count": 55
+    },
+    {
+      "actuator": "lagged",
+      "cost_by_seed": [
+        0.23787871999778548,
+        0.2552105206158096,
+        0.3391958992149576,
+        0.21859544775331058,
+        0.343782668870234
+      ],
+      "fallback_count": 0,
+      "mean_realized_cost": 0.27893265129041944,
+      "model_id": "node_generic",
+      "model_step_ns": 5000000,
+      "n_episodes": 100,
+      "success_count": 62
+    },
+    {
+      "actuator": "lagged",
+      "cost_by_seed": [
+        0.23487383109511314,
+        0.2540140007460195,
+        0.34149645995212285,
+        0.21663291032734086,
+        0.3448207375177442
+      ],
+      "fallback_count": 0,
+      "mean_realized_cost": 0.27836758792766814,
+      "model_id": "power_correct",
+      "model_step_ns": 40000000,
+      "n_episodes": 100,
+      "success_count": 60
+    },
+    {
+      "actuator": "lagged",
+      "cost_by_seed": [
+        0.23395096818925923,
+        0.25533546385235695,
+        0.33873769804468473,
+        0.220653053971606,
+        0.3441624797510941
+      ],
+      "fallback_count": 0,
+      "mean_realized_cost": 0.2785679327618002,
+      "model_id": "power_correct",
+      "model_step_ns": 5000000,
+      "n_episodes": 100,
+      "success_count": 51
+    }
+  ],
+  "schema_version": 1,
+  "scientific_decision": "not_evaluated",
+  "state": "complete_primary_descriptive_summary",
+  "statistical_look_reserved": false
+}

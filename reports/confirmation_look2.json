@@ -1,0 +1,273 @@
+{
+  "alpha_spent": 0.0125,
+  "control": "not_run",
+  "created_utc": "2026-10-01T15:22:43.170746Z",
+  "criterion_evaluations": [
+    {
+      "bounds": null,
+      "criterion_id": "K02.relative/actuator=direct/stratum=cold/h_ns=5000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": 4.998225258561091e-05,
+      "operator": ">=",
+      "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+      "status": "unresolved",
+      "threshold": 0.5
+    },
+    {
+      "bounds": {
+        "lower": 0.014606138677436544,
+        "upper": 0.028359315606729163
+      },
+      "criterion_id": "K02.relative/actuator=direct/stratum=cold/h_ns=5000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": 0.02148272714208286,
+      "operator": ">",
+      "reason": "Point estimate and preregistered lower bound clear the boundary",
+      "status": "pass",
+      "threshold": 0.0
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": -0.007327698204067765,
+      "operator": ">=",
+      "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+      "status": "unresolved",
+      "threshold": 0.5
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": 0.004526808155425872,
+      "operator": ">",
+      "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+      "status": "unresolved",
+      "threshold": 0.0
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K02.relative/actuator=direct/stratum=warm/h_ns=5000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": -0.001520964418335459,
+      "operator": ">=",
+      "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+      "status": "unresolved",
+      "threshold": 0.5
+    },
+    {
+      "bounds": {
+        "lower": 0.012178910686132971,
+        "upper": 0.02947321721627145
+      },
+      "criterion_id": "K02.relative/actuator=direct/stratum=warm/h_ns=5000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": 0.02082606395120221,
+      "operator": ">",
+      "reason": "Point estimate and preregistered lower bound clear the boundary",
+      "status": "pass",
+      "threshold": 0.0
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": -0.008915837534005842,
+      "operator": ">=",
+      "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+      "status": "unresolved",
+      "threshold": 0.5
+    },
+    {
+      "bounds": null,
+      "criterion_id": "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+      "estimate": 0.0033745048801742212,
+      "operator": ">",
+      "reason": "Unresolved boundary, precision, bootstrap robustness or seed influence",
+      "status": "unresolved",
+      "threshold": 0.0
+    }
+  ],
+  "decision_id": "49915e9ab668e618661e58fdf0f73ae72e0e707c260655b7fed71d7e993d3911",
+  "decision_path": "study/precision-look-2/decisions/GR/49915e9ab668e618661e58fdf0f73ae72e0e707c260655b7fed71d7e993d3911.json",
+  "decision_sha256": "3f92eae4e735caa65449f5e34769943e8b48e68cf6fb9e395ff0a62bc7a24155",
+  "gate_outcome": "INCONCLUSIVE",
+  "independent_primary_rows": 360,
+  "look_index": 2,
+  "paired_results": [
+    {
+      "baseline_by_seed": [
+        0.038551228086689315,
+        0.04691801051544024,
+        0.04288580309241007,
+        0.03180190221558128,
+        0.053590235535371566,
+        0.032884543953798986,
+        0.05195734849606738,
+        0.04850292024604963,
+        0.04227847594421197,
+        0.03928442970432451
+      ],
+      "baseline_mean": 0.0428654897789945,
+      "h_ns": 5000000,
+      "method_by_seed": [
+        0.023574010024419126,
+        0.021283893559477896,
+        0.020270216649728227,
+        0.020660482355205085,
+        0.019601886925679893,
+        0.02246047382786863,
+        0.020592153830278487,
+        0.022588445129559105,
+        0.019917486815808474,
+        0.02287857725109145
+      ],
+      "method_mean": 0.021382762636911634,
+      "n_probes_per_seed": 256,
+      "relative_reduction": 0.5011660254634512,
+      "seed_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "stratum": "cold"
+    },
+    {
+      "baseline_by_seed": [
+        0.021368337000618756,
+        0.02564594264727414,
+        0.023585933434608207,
+        0.018598670316275184,
+        0.03049924628632205,
+        0.018025937458376214,
+        0.02887141543698183,
+        0.02654476382972438,
+        0.022524136382019683,
+        0.02142574439767228
+      ],
+      "baseline_mean": 0.023709012718987274,
+      "h_ns": 10000000,
+      "method_by_seed": [
+        0.021035156690428707,
+        0.01951983588824587,
+        0.01841309956302144,
+        0.01866008135880541,
+        0.017886922713335543,
+        0.02033646404592837,
+        0.017645487516136697,
+        0.020080353710024812,
+        0.017516589021595603,
+        0.020728055128091557
+      ],
+      "method_mean": 0.019182204563561404,
+      "n_probes_per_seed": 256,
+      "relative_reduction": 0.19093195524757522,
+      "seed_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "stratum": "cold"
+    },
+    {
+      "baseline_by_seed": [
+        0.04321659907728859,
+        0.052378300581562585,
+        0.048550961487140054,
+        0.030772981114262625,
+        0.05584422120291711,
+        0.03198209837947366,
+        0.054417758662624716,
+        0.047050495671043156,
+        0.04634514791406799,
+        0.036382003300372875
+      ],
+      "baseline_mean": 0.04469405673907534,
+      "h_ns": 5000000,
+      "method_by_seed": [
+        0.0275095681893647,
+        0.02415190679030387,
+        0.021063040767240773,
+        0.022397076339273594,
+        0.02224740767883432,
+        0.025512153481283127,
+        0.022618231931364342,
+        0.025280994881134406,
+        0.020585628004520663,
+        0.027313919815411473
+      ],
+      "method_mean": 0.023867992787873125,
+      "n_probes_per_seed": 256,
+      "relative_reduction": 0.46596942570653477,
+      "seed_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "stratum": "warm"
+    },
+    {
+      "baseline_by_seed": [
+        0.02344575709813955,
+        0.02964937096026171,
+        0.026084863398328877,
+        0.017313516942070672,
+        0.030783882212948015,
+        0.01785733891161033,
+        0.029561889056643267,
+        0.02575093131707104,
+        0.0251991415196818,
+        0.02016015686684603
+      ],
+      "baseline_mean": 0.02458068482836013,
+      "h_ns": 10000000,
+      "method_by_seed": [
+        0.02482946307365847,
+        0.021042830349215596,
+        0.018728954920797652,
+        0.02000874602148045,
+        0.01972637389244735,
+        0.02271200599494859,
+        0.019691210297135546,
+        0.023106187430354697,
+        0.018241188240860375,
+        0.02397483926096034
+      ],
+      "method_mean": 0.021206179948185907,
+      "n_probes_per_seed": 256,
+      "relative_reduction": 0.13728278539582695,
+      "seed_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "stratum": "warm"
+    }
+  ],
+  "phase": "confirmatory",
+  "protocol_version": "PTCO-1.0",
+  "scope": "direct torque, augmented data, shared one-plus-four-step loss, power_correct versus node_generic, seeds 0–9, 256 cold and 256 warm probes",
+  "status": "NONTERMINAL"
+}

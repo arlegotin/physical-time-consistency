@@ -1,0 +1,314 @@
+{
+  "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct": {
+    "baseline": [
+      0.021368337000618756,
+      0.02564594264727414,
+      0.023585933434608207,
+      0.018598670316275184,
+      0.03049924628632205
+    ],
+    "method": [
+      0.021035156690428707,
+      0.01951983588824587,
+      0.01841309956302144,
+      0.01866008135880541,
+      0.017886922713335543
+    ],
+    "numerical_envelope": {
+      "lower": 1.7239303026772568e-08,
+      "upper": 1.7239303025037844e-08
+    },
+    "ratio_numerical_envelope": {
+      "lower": 8.747801452102522e-07,
+      "upper": 8.747792369367957e-07
+    },
+    "seed_ids": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "validity": "valid",
+    "values": [
+      -0.010350988190119328,
+      -0.006696864564608799,
+      -0.006620132845717337,
+      -0.009360746200667819,
+      -0.002637299570174518
+    ]
+  },
+  "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct": {
+    "baseline": [
+      0.021368337000618756,
+      0.02564594264727414,
+      0.023585933434608207,
+      0.018598670316275184,
+      0.03049924628632205
+    ],
+    "method": [
+      0.021035156690428707,
+      0.01951983588824587,
+      0.01841309956302144,
+      0.01866008135880541,
+      0.017886922713335543
+    ],
+    "numerical_envelope": {
+      "lower": 2.345241037066126e-08,
+      "upper": 2.345241037066126e-08
+    },
+    "ratio_numerical_envelope": {
+      "lower": 8.747801452102522e-07,
+      "upper": 8.747792369367957e-07
+    },
+    "seed_ids": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "validity": "valid",
+    "values": [
+      0.0003331803101900496,
+      0.00612610675902827,
+      0.005172833871586766,
+      -6.141104253022667e-05,
+      0.012612323572986507
+    ]
+  },
+  "K02.relative/actuator=direct/stratum=cold/h_ns=5000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct": {
+    "baseline": [
+      0.038551228086689315,
+      0.04691801051544024,
+      0.04288580309241007,
+      0.03180190221558129,
+      0.05359023553537157
+    ],
+    "method": [
+      0.023574010024419126,
+      0.0212838935594779,
+      0.020270216649728227,
+      0.020660482355205085,
+      0.019601886925679893
+    ],
+    "numerical_envelope": {
+      "lower": 8.32277789603042e-08,
+      "upper": 8.322777891311973e-08
+    },
+    "ratio_numerical_envelope": {
+      "lower": 1.9391669362489594e-06,
+      "upper": 1.9391626258635775e-06
+    },
+    "seed_ids": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "validity": "valid",
+    "values": [
+      -0.004298395981074468,
+      0.0021751116982422214,
+      0.0011726848964768097,
+      -0.0047595312474144405,
+      0.007193230842005894
+    ]
+  },
+  "K02.relative/actuator=direct/stratum=cold/h_ns=5000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct": {
+    "baseline": [
+      0.038551228086689315,
+      0.04691801051544024,
+      0.04288580309241007,
+      0.03180190221558129,
+      0.05359023553537157
+    ],
+    "method": [
+      0.023574010024419126,
+      0.0212838935594779,
+      0.020270216649728227,
+      0.020660482355205085,
+      0.019601886925679893
+    ],
+    "numerical_envelope": {
+      "lower": 1.069775107831461e-07,
+      "upper": 1.0697751076094165e-07
+    },
+    "ratio_numerical_envelope": {
+      "lower": 1.9391669362489594e-06,
+      "upper": 1.9391626258635775e-06
+    },
+    "seed_ids": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "validity": "valid",
+    "values": [
+      0.01497721806227019,
+      0.025634116955962342,
+      0.022615586442681846,
+      0.011141419860376204,
+      0.03398834860969168
+    ]
+  },
+  "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct": {
+    "baseline": [
+      0.02344575709813955,
+      0.02964937096026171,
+      0.026084863398328877,
+      0.017313516942070672,
+      0.030783882212948015
+    ],
+    "method": [
+      0.02482946307365847,
+      0.0210428303492156,
+      0.018728954920797652,
+      0.02000874602148045,
+      0.01972637389244735
+    ],
+    "numerical_envelope": {
+      "lower": 2.0211685769488952e-08,
+      "upper": 2.021168577018284e-08
+    },
+    "ratio_numerical_envelope": {
+      "lower": 9.918981956902329e-07,
+      "upper": 9.918969685607237e-07
+    },
+    "seed_ids": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "validity": "valid",
+    "values": [
+      -0.013106584524588696,
+      -0.0062181448690847435,
+      -0.005686523221633214,
+      -0.011351987550445114,
+      -0.004334432785973343
+    ]
+  },
+  "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct": {
+    "baseline": [
+      0.02344575709813955,
+      0.02964937096026171,
+      0.026084863398328877,
+      0.017313516942070672,
+      0.030783882212948015
+    ],
+    "method": [
+      0.02482946307365847,
+      0.0210428303492156,
+      0.018728954920797652,
+      0.02000874602148045,
+      0.01972637389244735
+    ],
+    "numerical_envelope": {
+      "lower": 2.8088857636360264e-08,
+      "upper": 2.8088857638441934e-08
+    },
+    "ratio_numerical_envelope": {
+      "lower": 9.918981956902329e-07,
+      "upper": 9.918969685607237e-07
+    },
+    "seed_ids": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "validity": "valid",
+    "values": [
+      -0.0013837059755189215,
+      0.008606540611046112,
+      0.007355908477531224,
+      -0.0026952290794097777,
+      0.011057508320500665
+    ]
+  },
+  "K02.relative/actuator=direct/stratum=warm/h_ns=5000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct": {
+    "baseline": [
+      0.04321659907728859,
+      0.052378300581562585,
+      0.048550961487140054,
+      0.030772981114262632,
+      0.05584422120291712
+    ],
+    "method": [
+      0.0275095681893647,
+      0.024151906790303875,
+      0.021063040767240773,
+      0.022397076339273594,
+      0.02224740767883432
+    ],
+    "numerical_envelope": {
+      "lower": 6.428614448515668e-08,
+      "upper": 6.428614445289083e-08
+    },
+    "ratio_numerical_envelope": {
+      "lower": 1.400639434545603e-06,
+      "upper": 1.4006369181140954e-06
+    },
+    "seed_ids": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "validity": "valid",
+    "values": [
+      -0.005901268650720406,
+      0.0020372435004774175,
+      0.0032124399763292545,
+      -0.007010585782142278,
+      0.005674702922624241
+    ]
+  },
+  "K02.relative/actuator=direct/stratum=warm/h_ns=5000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct": {
+    "baseline": [
+      0.04321659907728859,
+      0.052378300581562585,
+      0.048550961487140054,
+      0.030772981114262632,
+      0.05584422120291712
+    ],
+    "method": [
+      0.0275095681893647,
+      0.024151906790303875,
+      0.021063040767240773,
+      0.022397076339273594,
+      0.02224740767883432
+    ],
+    "numerical_envelope": {
+      "lower": 8.500968623342819e-08,
+      "upper": 8.500968622024429e-08
+    },
+    "ratio_numerical_envelope": {
+      "lower": 1.400639434545603e-06,
+      "upper": 1.4006369181140954e-06
+    },
+    "seed_ids": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "validity": "valid",
+    "values": [
+      0.015707030887923887,
+      0.02822639379125871,
+      0.02748792071989928,
+      0.008375904774989038,
+      0.0335968135240828
+    ]
+  }
+}

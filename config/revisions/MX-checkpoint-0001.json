@@ -1,0 +1,75 @@
+{
+  "action_parameters": {
+    "checkpoint_format_version": 2,
+    "scientific_recipe_changed": false
+  },
+  "authority": "User authorized current-branch local execution without artificial caps",
+  "authorization_reference": "config/authorization.json",
+  "branch": "repair",
+  "changed_files": [
+    "poc/train.py",
+    "tests/test_training.py"
+  ],
+  "claim_ids": [
+    "C01"
+  ],
+  "contract": {
+    "1": "Purpose C01: remove demonstrated checkpoint overhead while preserving training semantics; S12/MX and S13.4 repair.",
+    "10": "Resources: prior focused tests approximately 2 seconds and full suite 13 seconds; authorized existing CPU, no paid services or owner-imposed caps.",
+    "11": "Recovery: preserve interrupted checkpoints and logs; never aggregate incomplete costs or relabel a changed job as the same resumption; rerun identical seed under the new storage implementation.",
+    "12": "Completion: GX cites exact regression evidence and invalidation lineage; all analytic learning controls requalify before robot training restarts.",
+    "2": "Entry: recorded interrupted M30 attempt, failing storage fixture, current G20 numerical qualification.",
+    "3": "Implementation: pack windows and offsets in train.py; preserve legacy loading; tests/test_training.py verifies continuation.",
+    "4": "Protocol: run the complete focused training suite, including optimizer, gradients, RNG, ragged windows, interruptions and exact tensor hashes. Restart the original development seed from initialization; no fine-time outcomes inspected.",
+    "5": "Commands: python -m poc run MX; python -m pytest -q tests/test_training.py; return python -m poc run M30 --resume.",
+    "6": "Artifacts: explicit request, original counterexample log, regression diagnostics, resources, manifest and invalidated-attempt IDs.",
+    "7": "Validity: unchanged corpus, initialization, objective, optimizer, data order, gradients and thresholds; exact packed/legacy resumed tensor equality.",
+    "8": "Rules: GO only with passing regression evidence; failures remain INVALID; a real external missing prerequisite is BLOCKED; no scientific verdict.",
+    "9": "Next: GO returns M30 under the same protocol; INVALID repairs the named storage defect; external BLOCKED goes MF."
+  },
+  "counterexample": "2134 real updates consumed 3.12 seconds of model computation over about 203 seconds elapsed; the storage fixture failed with 4106 versus 18 archive storages.",
+  "counterexample_log": ".superpowers/sdd/2026-09-30-physical-time-consistency/task-14-checkpoint-red.log",
+  "expected_artifacts": [
+    "request.json",
+    "counterexample.log",
+    "stdout.log",
+    "stderr.log",
+    "validity.json",
+    "summary.json",
+    "resources.json",
+    "manifest.json",
+    "COMPLETED"
+  ],
+  "input_evidence": [
+    {
+      "path": "evidence/M30/20260930T223329-67028ca2/manifest.json",
+      "role": "interrupted_producer",
+      "sha256": "284e7976e420338e926223480332926e74448031f6c7067eed621a8d2213d41d"
+    }
+  ],
+  "invalidated_run_ids": [
+    "20260930T223329-67028ca2"
+  ],
+  "live_explanations": [
+    "packing preserves every optimizer update",
+    "storage refactor changes continuation"
+  ],
+  "new_information": "Exact tensor and target-count equality after packed and legacy checkpoint restoration",
+  "parent_gate": "G30",
+  "progress_condition": "Window tensor storages remain constant and resumed optimizer updates match exactly",
+  "protocol_version": "PTCO-1.0",
+  "recorded_utc": "2026-09-30T22:49:08.221700Z",
+  "regression_tests": [
+    "tests/test_training.py"
+  ],
+  "request_id": "MX-checkpoint-0001",
+  "resource_projection": {
+    "basis": "Measured focused/full unit suite",
+    "owner_imposed_caps": null,
+    "wall_seconds": 13
+  },
+  "return_milestone": "M30",
+  "schema_version": 1,
+  "status": "ready",
+  "unresolved_question": "Does packed checkpoint serialization preserve exact optimizer continuation while eliminating thousands of per-window storages?"
+}

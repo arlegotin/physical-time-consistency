@@ -1,0 +1,76 @@
+{
+  "actuator": "direct",
+  "actuator_interval_ns": 40000000,
+  "candidate_count_per_decision": 512,
+  "checkpoint_hash": "42e9fcec639ae371d156532a10f682d77e387817da792f5476569e952ea0e3f1",
+  "command_effort_integral": 1.0075582912728267,
+  "complete": true,
+  "condition": "clean",
+  "cost_components": {
+    "effort": 0.0010075582912728268,
+    "terminal": 0.006163404963958675,
+    "total": 0.0536096169772431,
+    "tracking": 0.020846665964466125,
+    "velocity": 0.025591987757545467
+  },
+  "episode_id": 0,
+  "experiment_id": "E03",
+  "fallback_count": 0,
+  "final_window_sample_count": 801,
+  "initial_state": [
+    -0.24161971762995715,
+    0.2651327989860073,
+    0.0,
+    0.0
+  ],
+  "missing_cells": [],
+  "model_hashes": {
+    "checkpoint_sha256": "42e9fcec639ae371d156532a10f682d77e387817da792f5476569e952ea0e3f1"
+  },
+  "model_id": "mlp_dt",
+  "model_partition_ns": [
+    40000000
+  ],
+  "oracle_physics_steps": 0,
+  "phase": "exploratory",
+  "physics_step_ns": 250000,
+  "planner_latency_median_seconds": 0.607753208,
+  "planner_latency_p95_seconds": 0.6155588478999999,
+  "power_mode": null,
+  "q_rmse_rad": 0.0855862810834427,
+  "realized_cost": 0.0536096169772431,
+  "resource_projection": {
+    "disk_bytes": 10000000,
+    "reason": "Initial representative learned-control episode; measure actual model/planner throughput before remaining development jobs",
+    "wall_seconds": null
+  },
+  "run_id": "20261002T010413-96a83dd0",
+  "seed": 9000,
+  "seed_namespaces": {
+    "cem": [
+      7101,
+      9000,
+      0,
+      2
+    ],
+    "disturbance": [
+      7101,
+      9000,
+      0,
+      4
+    ]
+  },
+  "success": false,
+  "target": [
+    0.06538058569235905,
+    0.45382630279733127
+  ],
+  "terminal_q_error_rad": 0.03510955700079019,
+  "velocity_rms_rad_s": 0.36668954272254184,
+  "work": {
+    "history_tokens_processed": 0,
+    "network_calls": 960,
+    "scalar_candidate_evaluations": 122880,
+    "vector_field_calls": 0
+  }
+}

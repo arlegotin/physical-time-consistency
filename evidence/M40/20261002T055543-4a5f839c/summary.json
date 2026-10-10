@@ -1,0 +1,88 @@
+{
+  "actuator": "lagged",
+  "actuator_interval_ns": 40000000,
+  "candidate_count_per_decision": 512,
+  "checkpoint_hash": "27ba72e714c0659ff18fd873e6aa739ffadd3457d568a668d541cd18e9540a38",
+  "command_effort_integral": 2.1658871113102527,
+  "complete": true,
+  "condition": "clean",
+  "cost_components": {
+    "effort": 0.0021658871113102527,
+    "terminal": 0.10576290307804309,
+    "total": 0.36386811918999906,
+    "tracking": 0.12300580100494152,
+    "velocity": 0.13293352799570418
+  },
+  "episode_id": 5,
+  "experiment_id": "E03",
+  "fallback_count": 0,
+  "final_window_sample_count": 801,
+  "initial_state": [
+    -0.4116957664921066,
+    -0.2755419341773374,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "missing_cells": [],
+  "model_hashes": {
+    "checkpoint_sha256": "27ba72e714c0659ff18fd873e6aa739ffadd3457d568a668d541cd18e9540a38"
+  },
+  "model_id": "power_correct",
+  "model_partition_ns": [
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000,
+    5000000
+  ],
+  "oracle_physics_steps": 0,
+  "phase": "exploratory",
+  "physics_step_ns": 250000,
+  "planner_latency_median_seconds": 1.951516375,
+  "planner_latency_p95_seconds": 1.9703482104,
+  "power_mode": "direct",
+  "q_rmse_rad": 0.20643307758768836,
+  "realized_cost": 0.36386811918999906,
+  "resource_projection": {
+    "disk_bytes": 3227503.75,
+    "measurement_manifest": "evidence/M40/20261002T023039-659def7b/manifest.json",
+    "measurement_manifest_sha256": "42beb26e4af12e22004f447d2d4472de521871391769e7e80ab389705d41682e",
+    "projection_margin": 1.25,
+    "reason": "Measured same model, plant, power mode and clock; unchanged ten-task workload; estimate, not a cap",
+    "wall_seconds": 98.94948416749999
+  },
+  "run_id": "20261002T055543-4a5f839c",
+  "seed": 9000,
+  "seed_namespaces": {
+    "cem": [
+      7101,
+      9000,
+      5,
+      2
+    ],
+    "disturbance": [
+      7101,
+      9000,
+      0,
+      4
+    ]
+  },
+  "success": false,
+  "target": [
+    0.14506337831147764,
+    -0.8884625522931109
+  ],
+  "terminal_q_error_rad": 0.1454392677910908,
+  "velocity_rms_rad_s": 0.9115353063547698,
+  "work": {
+    "history_tokens_processed": 0,
+    "network_calls": 15360,
+    "scalar_candidate_evaluations": 983040,
+    "vector_field_calls": 0
+  }
+}

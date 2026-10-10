@@ -1,0 +1,6 @@
+{
+  "classification": "duplicate_read_only_export_cancelled",
+  "reason": "Existing completed480-clip export and valid receipt reused; no scientific experiment interrupted",
+  "pipeline_log": ".superpowers/sdd/2026-10-08-affine-flow-refinement/fresh-nominal-pipeline.log",
+  "preserved_replay_sha256": "03b892ab4d9a073fcef9a97075fb47abdbb9138ac62869fe1423c8bdb09bf57a"
+}

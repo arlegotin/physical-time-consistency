@@ -1,0 +1,64 @@
+{
+  "cell_id": "direct__A__shared__node_generic__seed3__solver_2",
+  "command_unit": "N m",
+  "coordinate_order": "q1,q2,v1,v2[,w1,w2]",
+  "horizons_ns": [
+    2500000,
+    5000000,
+    10000000,
+    20000000,
+    40000000,
+    80000000
+  ],
+  "jacobian_shape": [
+    2,
+    2
+  ],
+  "model_metadata": {
+    "actuator": "direct",
+    "cell_id": "direct__A__shared__node_generic__seed3",
+    "condition": "A",
+    "continue_from": "evidence/M30/20261001T121256-8638d84f",
+    "data_hashes": {
+      "data/direct/A/normalization.json": "98fd9bc038ffe85698a333134f0e0335c3b95e992bbed2c08a3e6d07f7f564da",
+      "data/direct/A/train/manifest.json": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+      "data/direct/A/train/trajectories.npz": "dfdd4453775e067920b9267b6f22dc748a931788bdfa009d2dd29029b383c59c",
+      "data/direct/A/validation/manifest.json": "406692aaaa86e2392a923894d9e425f792bb44095f5f57b1cce85df1a8e8971c",
+      "data/direct/A/validation/trajectories.npz": "4056b58e4aa571bf2ff9c01b572f67170b223b619b14ac1ad69e60d912aa2429",
+      "evidence/M30/20261001T064837-48e53d9c/manifest.json": "18e5769acb1f5bb0b842ad20ab3fb4a6735da5160f59d853790a2a60018cc88c",
+      "evidence/M30/20261001T121256-8638d84f/manifest.json": "91175fbe865e5ae532147212024299cf612ad9bdef482ca082f345c45f56a89e",
+      "evidence/M30/20261001T121256-8638d84f/resume.complete.json": "dcb8b62c5c708a14028522a0cbac1c21d7362163009967681332bf318ac6cc95",
+      "evidence/M30/20261001T121256-8638d84f/resume.pt": "5cf4efd3bfa340c80997ae488d3217d22bccf60c605990bb34e8e6de94475266",
+      "evidence/M30/20261001T121256-8638d84f/resume.rng.json": "336881fc34c116b0781b03159a9302a98d586d50b75970a9c2ab9ab173c585e7",
+      "evidence/M30/20261001T121256-8638d84f/validation_history.json": "14efb23cdf781621bd5c4c958e081e68e3afccfd9aafdb2ff3b4fc04ac0a7bbd",
+      "evidence/M30/20261001T121256-8638d84f/weights.pt": "19e5a71708798ee6615b798095449dd09aeb80426ce2c8b8fd215741a64ebef5"
+    },
+    "epochs": 600,
+    "learning_rate": 0.001,
+    "loss_mode": "shared",
+    "model_id": "node_generic",
+    "normalization_sha256": "ebd4067c876eda6938747874e270b1f9deea796cfa195975a25927350257b51e",
+    "seed": 3,
+    "train_manifest": "data/direct/A/train/manifest.json",
+    "validation_manifest": "data/direct/A/validation/manifest.json"
+  },
+  "normalization": {
+    "protocol_version": "PTCO-1.0",
+    "scale_q": [
+      0.013590892241995481,
+      0.03912336592175722
+    ],
+    "scale_v": [
+      0.5381867886239525,
+      1.5403919755607665
+    ],
+    "schema_version": 1,
+    "training_manifest": "data/direct/A/train/manifest.json",
+    "training_manifest_sha256": "e02d955836f3ad9246631f763c288c3667b912d56f8ae7f39cf2b9f783d798ca",
+    "transition_count": 32768,
+    "velocity_input_rms": [
+      1.775608597217983,
+      3.8111830615807536
+    ]
+  }
+}

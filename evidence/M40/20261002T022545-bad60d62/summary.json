@@ -1,0 +1,80 @@
+{
+  "actuator": "direct",
+  "actuator_interval_ns": 40000000,
+  "candidate_count_per_decision": 512,
+  "checkpoint_hash": "7a66a66efd8df7af2602f281a788c9605f6246f6d4048588248a5055c7367d11",
+  "command_effort_integral": 0.7198024234287089,
+  "complete": true,
+  "condition": "clean",
+  "cost_components": {
+    "effort": 0.0007198024234287089,
+    "terminal": 0.0001011216200061708,
+    "total": 0.0376505509407598,
+    "tracking": 0.01996718721184784,
+    "velocity": 0.016862439685477085
+  },
+  "episode_id": 0,
+  "experiment_id": "E03",
+  "fallback_count": 0,
+  "final_window_sample_count": 801,
+  "initial_state": [
+    -0.24161971762995715,
+    0.2651327989860073,
+    0.0,
+    0.0
+  ],
+  "missing_cells": [],
+  "model_hashes": {
+    "checkpoint_sha256": "7a66a66efd8df7af2602f281a788c9605f6246f6d4048588248a5055c7367d11"
+  },
+  "model_id": "node_structured",
+  "model_partition_ns": [
+    40000000
+  ],
+  "oracle_physics_steps": 0,
+  "phase": "exploratory",
+  "physics_step_ns": 250000,
+  "planner_latency_median_seconds": 0.6522105835,
+  "planner_latency_p95_seconds": 0.6600330694000001,
+  "power_mode": null,
+  "q_rmse_rad": 0.08399960076823494,
+  "realized_cost": 0.0376505509407598,
+  "resource_projection": {
+    "disk_bytes": 10000000,
+    "limitation": "Architecture proxy from direct A/shared episode; fixed-data weights and lagged features may change throughput; qualification hashing/startup additional",
+    "measurement_report_sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411",
+    "projection_margin": 1.25,
+    "proxy_model": "node_generic",
+    "reason": "First fixed intervention task per actuator; measured A/shared control provides a provisional estimate; measure each fixed-data model before full ten-task batch",
+    "wall_seconds": 33.4064477075
+  },
+  "run_id": "20261002T022545-bad60d62",
+  "seed": 9000,
+  "seed_namespaces": {
+    "cem": [
+      7101,
+      9000,
+      0,
+      2
+    ],
+    "disturbance": [
+      7101,
+      9000,
+      0,
+      4
+    ]
+  },
+  "success": true,
+  "target": [
+    0.06538058569235905,
+    0.45382630279733127
+  ],
+  "terminal_q_error_rad": 0.004497146206343993,
+  "velocity_rms_rad_s": 0.30964487460874746,
+  "work": {
+    "history_tokens_processed": 0,
+    "network_calls": 3840,
+    "scalar_candidate_evaluations": 122880,
+    "vector_field_calls": 3840
+  }
+}

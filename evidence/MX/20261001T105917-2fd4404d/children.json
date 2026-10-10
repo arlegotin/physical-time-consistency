@@ -1,0 +1,14 @@
+{
+  "records": [
+    {
+      "path": "evidence/M30/20261001T105922-7ad80688/manifest.json",
+      "role": "training",
+      "sha256": "be31e6f73f2847e9f5d15ac0264c12836b5b2cb8c7aa40d37e368bc723483f2a"
+    },
+    {
+      "path": "evidence/M30/20261001T110618-1b7d46ec/manifest.json",
+      "role": "training",
+      "sha256": "353b7365329d252757956a6b967b2450fd5db9bab7c92a84dbfc0b121b3bfcd4"
+    }
+  ]
+}

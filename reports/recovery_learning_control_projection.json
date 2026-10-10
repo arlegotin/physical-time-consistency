@@ -1,0 +1,706 @@
+{
+  "cells": [
+    "learning_control__direct__gru_dt",
+    "learning_control__direct__node_structured",
+    "learning_control__lagged__gru_dt",
+    "learning_control__lagged__mlp_dt",
+    "learning_control__lagged__node_generic",
+    "learning_control__lagged__node_structured",
+    "learning_control__lagged__power_correct"
+  ],
+  "disk_bytes": 10509032.5,
+  "interpretation": "Maximum measured prior attempt per cell plus planning margin; estimates, not caps",
+  "measurements": [
+    {
+      "cell_id": "learning_control__direct__gru_dt",
+      "manifest": "study/control-development/evidence/M30/20260930T213444-33c7cb13/manifest.json",
+      "manifest_sha256": "6b9c9b2a0bde054b6a8c5000c83bdd73d7f846f6c2c220602eadc3adf5525c60",
+      "resources": {
+        "cpu_seconds": 1.4240819999999994,
+        "disk_bytes": 1199266,
+        "original_estimate": null,
+        "peak_rss_bytes": 366034944,
+        "rss_convention": "macOS bytes",
+        "training_updates": 580,
+        "wall_seconds": 1.4267215
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__mlp_dt",
+      "manifest": "study/control-development/evidence/M30/20260930T213306-d9b2c5ea/manifest.json",
+      "manifest_sha256": "2cf5619bff63dd8ee4aa1805020e8d7d6017b61796e4498821086146069164ec",
+      "resources": {
+        "cpu_seconds": 0.711847999999998,
+        "disk_bytes": 1208761,
+        "original_estimate": null,
+        "peak_rss_bytes": 378847232,
+        "rss_convention": "macOS bytes",
+        "training_updates": 527,
+        "wall_seconds": 0.715468
+      }
+    },
+    {
+      "cell_id": "learning_control__direct__node_structured",
+      "manifest": "study/control-development/evidence/M30/20260930T213304-41b9003a/manifest.json",
+      "manifest_sha256": "8b87d3fb0662c1182240434174c4d4c90408d1af9f8d75eb65a4a9ab888ef1d2",
+      "resources": {
+        "cpu_seconds": 1.3576899999999998,
+        "disk_bytes": 1138487,
+        "original_estimate": null,
+        "peak_rss_bytes": 377929728,
+        "rss_convention": "macOS bytes",
+        "training_updates": 472,
+        "wall_seconds": 1.3608935
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__mlp_dt",
+      "manifest": "study/control-development/evidence/M30/20260930T230947-9a348c3b/manifest.json",
+      "manifest_sha256": "0119c978bc2478f7c652ffb4f4ee9a8ea022c4967075df21386fabe354f1c7ee",
+      "resources": {
+        "cpu_seconds": 0.6677660000000003,
+        "disk_bytes": 958476,
+        "original_estimate": null,
+        "peak_rss_bytes": 366690304,
+        "rss_convention": "macOS bytes",
+        "training_updates": 527,
+        "wall_seconds": 0.674483
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__mlp_dt",
+      "manifest": "study/control-development/evidence/M30/20260930T225021-5c3b8715/manifest.json",
+      "manifest_sha256": "f5ee9e942cc529d8e29aa5f4b18ece1b722e6361d20ea1bf7a67091605ca3e70",
+      "resources": {
+        "cpu_seconds": 0.6415860000000002,
+        "disk_bytes": 958453,
+        "original_estimate": null,
+        "peak_rss_bytes": 371392512,
+        "rss_convention": "macOS bytes",
+        "training_updates": 527,
+        "wall_seconds": 0.642401083
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__power_correct",
+      "manifest": "study/control-development/evidence/M30/20260930T230954-ca42c60a/manifest.json",
+      "manifest_sha256": "92e9b9d1725f595594598dea0dac2f2801c7954fa500773783ae5c50f5130e7e",
+      "resources": {
+        "cpu_seconds": 0.8466270000000016,
+        "disk_bytes": 958420,
+        "original_estimate": null,
+        "peak_rss_bytes": 373358592,
+        "rss_convention": "macOS bytes",
+        "training_updates": 527,
+        "wall_seconds": 0.847295417
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__node_generic",
+      "manifest": "study/control-development/evidence/M30/20260930T230956-456730ce/manifest.json",
+      "manifest_sha256": "123534edb6f70b1e468fe5f7d425c6a530d71f45ad72cb59d0d6ada43789c777",
+      "resources": {
+        "cpu_seconds": 1.4998159999999991,
+        "disk_bytes": 952860,
+        "original_estimate": null,
+        "peak_rss_bytes": 374554624,
+        "rss_convention": "macOS bytes",
+        "training_updates": 519,
+        "wall_seconds": 1.500146334
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__power_correct",
+      "manifest": "study/control-development/evidence/M30/20260930T213502-ecffc13a/manifest.json",
+      "manifest_sha256": "bad29f622f36a90014b95e2e7dc4992b965a25d39d55f06cfc47296ecb493165",
+      "resources": {
+        "cpu_seconds": 0.9394619999999989,
+        "disk_bytes": 1208841,
+        "original_estimate": null,
+        "peak_rss_bytes": 381353984,
+        "rss_convention": "macOS bytes",
+        "training_updates": 527,
+        "wall_seconds": 0.948717667
+      }
+    },
+    {
+      "cell_id": "learning_control__direct__gru_dt",
+      "manifest": "study/control-development/evidence/M30/20260930T223206-395fd55c/manifest.json",
+      "manifest_sha256": "07dfe0900f82e20b70ac01a82cfed77535bc6ef65b11065951135e9dd82d5bd9",
+      "resources": {
+        "cpu_seconds": 1.3431899999999999,
+        "disk_bytes": 1199330,
+        "original_estimate": null,
+        "peak_rss_bytes": 358825984,
+        "rss_convention": "macOS bytes",
+        "training_updates": 580,
+        "wall_seconds": 1.344255834
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__node_generic",
+      "manifest": "study/control-development/evidence/M30/20260930T225030-34cda4f5/manifest.json",
+      "manifest_sha256": "1b1f0b438fc82c67efe7b2f83fe9894304c4d9cb6f65c4d12e3f507dcbdf05e7",
+      "resources": {
+        "cpu_seconds": 1.4773640000000015,
+        "disk_bytes": 952908,
+        "original_estimate": null,
+        "peak_rss_bytes": 373440512,
+        "rss_convention": "macOS bytes",
+        "training_updates": 519,
+        "wall_seconds": 1.478350125
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__node_generic",
+      "manifest": "study/control-development/evidence/M30/20260930T213316-6ab97ef8/manifest.json",
+      "manifest_sha256": "900694f49839b10e39ce8d8880afa1d07328b36c1dfe340acdf98c8ee874b111",
+      "resources": {
+        "cpu_seconds": 1.617331,
+        "disk_bytes": 1203301,
+        "original_estimate": null,
+        "peak_rss_bytes": 383483904,
+        "rss_convention": "macOS bytes",
+        "training_updates": 519,
+        "wall_seconds": 1.621597125
+      }
+    },
+    {
+      "cell_id": "learning_control__direct__gru_dt",
+      "manifest": "study/control-development/evidence/M30/20260930T213256-d2b49c0c/manifest.json",
+      "manifest_sha256": "ebceb9351e17c9ed45c6c727feec4d6729db307b037a6d3976a9ada839fabfec",
+      "resources": {
+        "cpu_seconds": 1.4933069999999997,
+        "disk_bytes": 1199263,
+        "original_estimate": null,
+        "peak_rss_bytes": 368427008,
+        "rss_convention": "macOS bytes",
+        "training_updates": 580,
+        "wall_seconds": 1.503267458
+      }
+    },
+    {
+      "cell_id": "learning_control__direct__node_structured",
+      "manifest": "study/control-development/evidence/M30/20260930T213453-f232999c/manifest.json",
+      "manifest_sha256": "900b28659ce5becc3981423dbc019e2b59e6f7261a34ab8d7bbc05c0eff105df",
+      "resources": {
+        "cpu_seconds": 1.3598199999999991,
+        "disk_bytes": 1138497,
+        "original_estimate": null,
+        "peak_rss_bytes": 375603200,
+        "rss_convention": "macOS bytes",
+        "training_updates": 472,
+        "wall_seconds": 1.363146125
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__node_generic",
+      "manifest": "study/control-development/evidence/M30/20260930T213504-2339da04/manifest.json",
+      "manifest_sha256": "2a22f4259632409f6ccd3ecffb49358b008dccae58cc409a145a4e1d2ec2363e",
+      "resources": {
+        "cpu_seconds": 1.6131809999999973,
+        "disk_bytes": 1203279,
+        "original_estimate": null,
+        "peak_rss_bytes": 382664704,
+        "rss_convention": "macOS bytes",
+        "training_updates": 519,
+        "wall_seconds": 1.61830875
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__power_correct",
+      "manifest": "study/control-development/evidence/M30/20260930T223223-9230dde9/manifest.json",
+      "manifest_sha256": "b14063aff099155ddd5785fdd7b0ca1ac86597631a1e6822e68f876494894e85",
+      "resources": {
+        "cpu_seconds": 0.8658509999999993,
+        "disk_bytes": 1208899,
+        "original_estimate": null,
+        "peak_rss_bytes": 380928000,
+        "rss_convention": "macOS bytes",
+        "training_updates": 527,
+        "wall_seconds": 0.866537084
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__gru_dt",
+      "manifest": "study/control-development/evidence/M30/20260930T230949-730a3de0/manifest.json",
+      "manifest_sha256": "8a6692e73f9b1b824989e39cbef014697f2130bb2697714e623bb2431a819147",
+      "resources": {
+        "cpu_seconds": 1.477142999999998,
+        "disk_bytes": 1014098,
+        "original_estimate": null,
+        "peak_rss_bytes": 371408896,
+        "rss_convention": "macOS bytes",
+        "training_updates": 656,
+        "wall_seconds": 1.477627042
+      }
+    },
+    {
+      "cell_id": "learning_control__direct__gru_dt",
+      "manifest": "study/control-development/evidence/M30/20260930T230937-01035e5e/manifest.json",
+      "manifest_sha256": "2f877bf57228dd39307eb32d2baacc7ddde0d375f953796653a61d037cb181c4",
+      "resources": {
+        "cpu_seconds": 1.322972,
+        "disk_bytes": 945748,
+        "original_estimate": null,
+        "peak_rss_bytes": 357007360,
+        "rss_convention": "macOS bytes",
+        "training_updates": 580,
+        "wall_seconds": 1.32375825
+      }
+    },
+    {
+      "cell_id": "learning_control__direct__gru_dt",
+      "manifest": "study/control-development/evidence/M30/20261001T064826-26e3a41b/manifest.json",
+      "manifest_sha256": "b2349f474984e26e2293578151be03a5d09a203601458c41c492d8f0b08b0dea",
+      "resources": {
+        "cpu_seconds": 1.714425,
+        "disk_bytes": 945761,
+        "original_estimate": null,
+        "peak_rss_bytes": 350928896,
+        "rss_convention": "macOS bytes",
+        "training_updates": 580,
+        "wall_seconds": 1.723244916
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__mlp_dt",
+      "manifest": "study/control-development/evidence/M30/20260930T223216-3ce157c4/manifest.json",
+      "manifest_sha256": "f29792b66f0b75afaf2b0891af1619ee5c6ce205a363c844229b4057d6be2893",
+      "resources": {
+        "cpu_seconds": 0.6650379999999991,
+        "disk_bytes": 1208833,
+        "original_estimate": null,
+        "peak_rss_bytes": 370081792,
+        "rss_convention": "macOS bytes",
+        "training_updates": 527,
+        "wall_seconds": 0.701651166
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__mlp_dt",
+      "manifest": "study/control-development/evidence/M30/20260930T212858-a64bc676/manifest.json",
+      "manifest_sha256": "61891cecea764a9acdfc487fb6c7c7e16e4dc15fb9835e210795a8eac15fa77a",
+      "resources": {
+        "cpu_seconds": 0.7090769999999988,
+        "disk_bytes": 1208733,
+        "original_estimate": null,
+        "peak_rss_bytes": 377126912,
+        "rss_convention": "macOS bytes",
+        "training_updates": 527,
+        "wall_seconds": 0.715059542
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__node_structured",
+      "manifest": "study/control-development/evidence/M30/20260930T212909-0e372996/manifest.json",
+      "manifest_sha256": "aa8c6ec2177923c3d27a7fffece8495f5dba2921f4951d3eefe874249567b894",
+      "resources": {
+        "cpu_seconds": 1.4303610000000013,
+        "disk_bytes": 1180391,
+        "original_estimate": null,
+        "peak_rss_bytes": 381698048,
+        "rss_convention": "macOS bytes",
+        "training_updates": 482,
+        "wall_seconds": 1.439464083
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__node_generic",
+      "manifest": "study/control-development/evidence/M30/20260930T223225-62ce2f9b/manifest.json",
+      "manifest_sha256": "9d3883d2a0c02c5b026bb4f0c9f155b6e2bbd58398875991a9a8e5860bd50565",
+      "resources": {
+        "cpu_seconds": 1.5059279999999973,
+        "disk_bytes": 1203392,
+        "original_estimate": null,
+        "peak_rss_bytes": 383401984,
+        "rss_convention": "macOS bytes",
+        "training_updates": 519,
+        "wall_seconds": 1.506814333
+      }
+    },
+    {
+      "cell_id": "learning_control__direct__gru_dt",
+      "manifest": "study/control-development/evidence/M30/20260930T225011-dfe91eb8/manifest.json",
+      "manifest_sha256": "2bdd0db72dd58ee3f1225b651fd58af1c13d61493bd98d29a26ad848c89941c8",
+      "resources": {
+        "cpu_seconds": 1.3388689999999999,
+        "disk_bytes": 945780,
+        "original_estimate": null,
+        "peak_rss_bytes": 356728832,
+        "rss_convention": "macOS bytes",
+        "training_updates": 580,
+        "wall_seconds": 1.339891458
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__node_structured",
+      "manifest": "study/control-development/evidence/M30/20260930T213318-5c24469e/manifest.json",
+      "manifest_sha256": "53efee65576091c8abd7e806d2d243382cf89850cf7250aedc146bbe38b4a233",
+      "resources": {
+        "cpu_seconds": 1.4366210000000024,
+        "disk_bytes": 1180360,
+        "original_estimate": null,
+        "peak_rss_bytes": 383582208,
+        "rss_convention": "macOS bytes",
+        "training_updates": 482,
+        "wall_seconds": 1.441666
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__node_generic",
+      "manifest": "study/control-development/evidence/M30/20260930T212907-12cb3bf4/manifest.json",
+      "manifest_sha256": "6e6d0314cd7edee3a6616e898d985548de005b033e5c0de410a28ad881003b3a",
+      "resources": {
+        "cpu_seconds": 1.6184420000000017,
+        "disk_bytes": 1203319,
+        "original_estimate": null,
+        "peak_rss_bytes": 381337600,
+        "rss_convention": "macOS bytes",
+        "training_updates": 519,
+        "wall_seconds": 1.622884042
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__gru_dt",
+      "manifest": "study/control-development/evidence/M30/20261001T064850-a5a5a33c/manifest.json",
+      "manifest_sha256": "25a9254ef9baa87e6c3da1864ddce611112d15790db95fd4ec11ac98fcde50bb",
+      "resources": {
+        "cpu_seconds": 1.850685,
+        "disk_bytes": 1014062,
+        "original_estimate": null,
+        "peak_rss_bytes": 352223232,
+        "rss_convention": "macOS bytes",
+        "training_updates": 656,
+        "wall_seconds": 1.860413958
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__gru_dt",
+      "manifest": "study/control-development/evidence/M30/20260930T212901-4e28d862/manifest.json",
+      "manifest_sha256": "fff983cbda9735fd4d95755363a5986043c2ba49f474711d8065a9500f1aa768",
+      "resources": {
+        "cpu_seconds": 1.5500439999999998,
+        "disk_bytes": 1267583,
+        "original_estimate": null,
+        "peak_rss_bytes": 379109376,
+        "rss_convention": "macOS bytes",
+        "training_updates": 656,
+        "wall_seconds": 1.552498625
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__power_correct",
+      "manifest": "study/control-development/evidence/M30/20260930T212905-69b6a830/manifest.json",
+      "manifest_sha256": "611938ec40e30c5352b8ceccc3e7a8ff8b2609acc3af9be6c33e5536889a74c6",
+      "resources": {
+        "cpu_seconds": 0.9340839999999986,
+        "disk_bytes": 1208870,
+        "original_estimate": null,
+        "peak_rss_bytes": 381042688,
+        "rss_convention": "macOS bytes",
+        "training_updates": 527,
+        "wall_seconds": 0.937678208
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__node_generic",
+      "manifest": "study/control-development/evidence/M30/20261001T064901-761a262d/manifest.json",
+      "manifest_sha256": "126a134de59d651e861e083a7201cfa2e0f4983d8758a8ff019d6d6c780da55e",
+      "resources": {
+        "cpu_seconds": 1.9935440000000002,
+        "disk_bytes": 952897,
+        "original_estimate": null,
+        "peak_rss_bytes": 355893248,
+        "rss_convention": "macOS bytes",
+        "training_updates": 519,
+        "wall_seconds": 2.006053791
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__node_structured",
+      "manifest": "study/control-development/evidence/M30/20260930T225032-3837b0b4/manifest.json",
+      "manifest_sha256": "13cb55b6b913ba01f45c63e0cc1694db11ea2355957899de9dfce3dcf41edb32",
+      "resources": {
+        "cpu_seconds": 1.309621,
+        "disk_bytes": 930016,
+        "original_estimate": null,
+        "peak_rss_bytes": 373555200,
+        "rss_convention": "macOS bytes",
+        "training_updates": 482,
+        "wall_seconds": 1.310201334
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__mlp_dt",
+      "manifest": "study/control-development/evidence/M30/20260930T213455-2ea223e9/manifest.json",
+      "manifest_sha256": "8e127bcf90b487d7c6375de9cf9615cc979f857114731cd1eaed0bf9fc4f2dcb",
+      "resources": {
+        "cpu_seconds": 0.7165560000000006,
+        "disk_bytes": 1208741,
+        "original_estimate": null,
+        "peak_rss_bytes": 376225792,
+        "rss_convention": "macOS bytes",
+        "training_updates": 527,
+        "wall_seconds": 0.718759833
+      }
+    },
+    {
+      "cell_id": "learning_control__direct__node_structured",
+      "manifest": "study/control-development/evidence/M30/20260930T223214-ca081753/manifest.json",
+      "manifest_sha256": "bee1d05b2ffde166e48378bea316999c49dbe05131f4c1edb9f8ef9335fb2fe3",
+      "resources": {
+        "cpu_seconds": 1.2811140000000005,
+        "disk_bytes": 1138613,
+        "original_estimate": null,
+        "peak_rss_bytes": 367378432,
+        "rss_convention": "macOS bytes",
+        "training_updates": 472,
+        "wall_seconds": 1.28149275
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__power_correct",
+      "manifest": "study/control-development/evidence/M30/20261001T064858-f92af099/manifest.json",
+      "manifest_sha256": "be672c133a222af877ac2cc70a599dadc843db84dd4a298a35a4b5786a90dd35",
+      "resources": {
+        "cpu_seconds": 1.309727,
+        "disk_bytes": 958422,
+        "original_estimate": null,
+        "peak_rss_bytes": 352616448,
+        "rss_convention": "macOS bytes",
+        "training_updates": 527,
+        "wall_seconds": 1.318020208
+      }
+    },
+    {
+      "cell_id": "learning_control__direct__node_structured",
+      "manifest": "study/control-development/evidence/M30/20260930T230945-1a27d0e3/manifest.json",
+      "manifest_sha256": "ac72fbe5d53ec9130ffd7582625e5dd038b74e4ed503577200946a1e0aed8fe7",
+      "resources": {
+        "cpu_seconds": 1.2281150000000007,
+        "disk_bytes": 888168,
+        "original_estimate": null,
+        "peak_rss_bytes": 366477312,
+        "rss_convention": "macOS bytes",
+        "training_updates": 472,
+        "wall_seconds": 1.228879083
+      }
+    },
+    {
+      "cell_id": "learning_control__direct__node_structured",
+      "manifest": "study/control-development/evidence/M30/20261001T064840-7136fb00/manifest.json",
+      "manifest_sha256": "abc55b1d76f31f5d67b5b783dfe8bddca605a2348de46376674e3f526f84d51a",
+      "resources": {
+        "cpu_seconds": 1.719346,
+        "disk_bytes": 888171,
+        "original_estimate": null,
+        "peak_rss_bytes": 354041856,
+        "rss_convention": "macOS bytes",
+        "training_updates": 472,
+        "wall_seconds": 1.726406917
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__node_structured",
+      "manifest": "study/control-development/evidence/M30/20260930T223227-8b38ee52/manifest.json",
+      "manifest_sha256": "28f3f2653c0d839cffebb2c3f1a135d18106d7bb526dd9fb0ce779f6c590fe13",
+      "resources": {
+        "cpu_seconds": 1.3535949999999985,
+        "disk_bytes": 1180501,
+        "original_estimate": null,
+        "peak_rss_bytes": 383565824,
+        "rss_convention": "macOS bytes",
+        "training_updates": 482,
+        "wall_seconds": 1.354714625
+      }
+    },
+    {
+      "cell_id": "learning_control__direct__gru_dt",
+      "manifest": "study/control-development/evidence/M30/20260930T212848-fcf4ebf5/manifest.json",
+      "manifest_sha256": "fba6511f0ccfcddcb172663cede48aaa75394e6ab4c5b89cef7b73ccc120eef7",
+      "resources": {
+        "cpu_seconds": 1.4401710000000003,
+        "disk_bytes": 1199231,
+        "original_estimate": null,
+        "peak_rss_bytes": 372408320,
+        "rss_convention": "macOS bytes",
+        "training_updates": 580,
+        "wall_seconds": 1.445397375
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__gru_dt",
+      "manifest": "study/control-development/evidence/M30/20260930T213458-6125e4e7/manifest.json",
+      "manifest_sha256": "2ea5f87442ad98cdd748a394fd9002ece257adaa1a90ae5ed36f9ff76539581f",
+      "resources": {
+        "cpu_seconds": 1.5620809999999992,
+        "disk_bytes": 1267579,
+        "original_estimate": null,
+        "peak_rss_bytes": 377192448,
+        "rss_convention": "macOS bytes",
+        "training_updates": 656,
+        "wall_seconds": 1.565484292
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__power_correct",
+      "manifest": "study/control-development/evidence/M30/20260930T213314-f2d8b786/manifest.json",
+      "manifest_sha256": "f3ac2988e5a621870adaac4030c7377e275388b2802225c74ad79dd15dea96dd",
+      "resources": {
+        "cpu_seconds": 0.9361390000000007,
+        "disk_bytes": 1208803,
+        "original_estimate": null,
+        "peak_rss_bytes": 381927424,
+        "rss_convention": "macOS bytes",
+        "training_updates": 527,
+        "wall_seconds": 0.938496459
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__power_correct",
+      "manifest": "study/control-development/evidence/M30/20260930T225028-bc52e00c/manifest.json",
+      "manifest_sha256": "43942ed0ee708ab41566ba305b61b71cfeed43f865c064199e9fc948fbcd103f",
+      "resources": {
+        "cpu_seconds": 0.8572030000000019,
+        "disk_bytes": 958408,
+        "original_estimate": null,
+        "peak_rss_bytes": 373325824,
+        "rss_convention": "macOS bytes",
+        "training_updates": 527,
+        "wall_seconds": 0.859075667
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__gru_dt",
+      "manifest": "study/control-development/evidence/M30/20260930T223219-6226162a/manifest.json",
+      "manifest_sha256": "0b8aeb83eda43d80cbb8ce21195edef552ae6a9b5017ae2ddaea7c475871b0fd",
+      "resources": {
+        "cpu_seconds": 1.494655999999999,
+        "disk_bytes": 1267658,
+        "original_estimate": null,
+        "peak_rss_bytes": 375603200,
+        "rss_convention": "macOS bytes",
+        "training_updates": 656,
+        "wall_seconds": 1.496247875
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__gru_dt",
+      "manifest": "study/control-development/evidence/M30/20260930T225024-b3011d65/manifest.json",
+      "manifest_sha256": "10248094812c530c4f8f65409885bb49666ca72d892b614eb218ac12c3773c76",
+      "resources": {
+        "cpu_seconds": 1.452258999999998,
+        "disk_bytes": 1014076,
+        "original_estimate": null,
+        "peak_rss_bytes": 373129216,
+        "rss_convention": "macOS bytes",
+        "training_updates": 656,
+        "wall_seconds": 1.453147125
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__node_structured",
+      "manifest": "study/control-development/evidence/M30/20261001T064905-05ad2b99/manifest.json",
+      "manifest_sha256": "a598e28cab246b31c0423dde3a3676fb7a30232ad336567a9f3c67caaf02f56e",
+      "resources": {
+        "cpu_seconds": 1.812776,
+        "disk_bytes": 930037,
+        "original_estimate": null,
+        "peak_rss_bytes": 350093312,
+        "rss_convention": "macOS bytes",
+        "training_updates": 482,
+        "wall_seconds": 1.816942834
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__mlp_dt",
+      "manifest": "study/control-development/evidence/M30/20261001T064844-c9304f37/manifest.json",
+      "manifest_sha256": "fbf28e931b216350a4ec7a69c2c297ff55c0cf70699d724ade1e08df798185cd",
+      "resources": {
+        "cpu_seconds": 1.0863310000000002,
+        "disk_bytes": 958472,
+        "original_estimate": null,
+        "peak_rss_bytes": 351043584,
+        "rss_convention": "macOS bytes",
+        "training_updates": 527,
+        "wall_seconds": 1.092651917
+      }
+    },
+    {
+      "cell_id": "learning_control__direct__node_structured",
+      "manifest": "study/control-development/evidence/M30/20260930T212856-c00e8265/manifest.json",
+      "manifest_sha256": "384e17390e64c8b493d013d711c178aaa0e31a3989a0f872c1d1eb21684ceebc",
+      "resources": {
+        "cpu_seconds": 1.3553049999999995,
+        "disk_bytes": 1138502,
+        "original_estimate": null,
+        "peak_rss_bytes": 375668736,
+        "rss_convention": "macOS bytes",
+        "training_updates": 472,
+        "wall_seconds": 1.362318042
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__node_structured",
+      "manifest": "study/control-development/evidence/M30/20260930T213506-e1e55e12/manifest.json",
+      "manifest_sha256": "1b740fe282afe72c5e72af4fbe1d8f2830b10acbf28e428f3030920bae9e784a",
+      "resources": {
+        "cpu_seconds": 1.480011000000001,
+        "disk_bytes": 1180372,
+        "original_estimate": null,
+        "peak_rss_bytes": 382779392,
+        "rss_convention": "macOS bytes",
+        "training_updates": 482,
+        "wall_seconds": 1.489388125
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__node_structured",
+      "manifest": "study/control-development/evidence/M30/20260930T230958-29b6b56b/manifest.json",
+      "manifest_sha256": "f2c93fb5e25fe08518a8098aa7882e51e293bb8d8ba5db12ae0f9fa99f8cb7d6",
+      "resources": {
+        "cpu_seconds": 1.337931000000001,
+        "disk_bytes": 930037,
+        "original_estimate": null,
+        "peak_rss_bytes": 374636544,
+        "rss_convention": "macOS bytes",
+        "training_updates": 482,
+        "wall_seconds": 1.338277334
+      }
+    },
+    {
+      "cell_id": "learning_control__lagged__gru_dt",
+      "manifest": "study/control-development/evidence/M30/20260930T213309-38cab2a4/manifest.json",
+      "manifest_sha256": "eb7c698132f7e13dce5bf02748e785ce2e48c2f2e3a4921481158dc8c85863d9",
+      "resources": {
+        "cpu_seconds": 1.5723470000000006,
+        "disk_bytes": 1267598,
+        "original_estimate": null,
+        "peak_rss_bytes": 380518400,
+        "rss_convention": "macOS bytes",
+        "training_updates": 656,
+        "wall_seconds": 1.575763792
+      }
+    },
+    {
+      "cell_id": "learning_control__direct__node_structured",
+      "manifest": "study/control-development/evidence/M30/20260930T225019-5ae0014b/manifest.json",
+      "manifest_sha256": "80f466630951d1c6679d3f45b4adcb611f9e191f06512abc1f01ca4c5e209484",
+      "resources": {
+        "cpu_seconds": 1.2661280000000001,
+        "disk_bytes": 888173,
+        "original_estimate": null,
+        "peak_rss_bytes": 371179520,
+        "rss_convention": "macOS bytes",
+        "training_updates": 472,
+        "wall_seconds": 1.267494625
+      }
+    }
+  ],
+  "projection_margin": 1.25,
+  "recorded_utc": "2026-10-02T02:56:14.838038Z",
+  "schema_version": 1,
+  "scope": "Seven participating original analytic learning controls after recovery-source repair",
+  "wall_seconds": 14.42966817625
+}

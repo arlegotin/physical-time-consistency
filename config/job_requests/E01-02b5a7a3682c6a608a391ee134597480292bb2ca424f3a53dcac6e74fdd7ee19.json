@@ -1,0 +1,16 @@
+{
+  "phase": "exploratory",
+  "protocol_version": "PTCO-1.0",
+  "purpose": "evaluation",
+  "semantic_inputs": {
+    "actuator": "direct",
+    "cell_id": "direct__A__one_step__gru_dt__seed9000",
+    "condition": "A",
+    "corpus_manifest": "data/direct/A/development/manifest.json",
+    "freeze_path": "config/exploratory_progress_freeze.json",
+    "loss_mode": "one_step",
+    "model_id": "gru_dt",
+    "seed": 9000,
+    "training_manifest": "evidence/M30/20261001T074633-e7625103/manifest.json"
+  }
+}

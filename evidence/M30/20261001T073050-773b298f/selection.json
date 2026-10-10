@@ -1,0 +1,9 @@
+{
+  "epoch": 100,
+  "four_count": 0,
+  "four_step": 0.0,
+  "nominal_40ms_one_step": 0.0007921650540083647,
+  "objective": 0.0010295821357431123,
+  "one_count": 8192,
+  "one_step": 0.0010295821357431123
+}

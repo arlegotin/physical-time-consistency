@@ -1,0 +1,19 @@
+{
+  "candidate_axes": [
+    "replanning_index",
+    "global_candidate_id",
+    "knot",
+    "joint"
+  ],
+  "candidate_positive_infinity": "Only rows with explicit non-ok status and nonempty failure reason",
+  "command_unit": "N*m",
+  "q_unit": "rad",
+  "state_columns": [
+    "q1",
+    "q2",
+    "v1",
+    "v2"
+  ],
+  "time_unit": "ns",
+  "v_unit": "rad/s"
+}

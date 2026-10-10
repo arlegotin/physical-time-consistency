@@ -1,0 +1,6 @@
+{
+  "actuator": "direct",
+  "condition": "A",
+  "n_trajectories": 256,
+  "role": "validation"
+}

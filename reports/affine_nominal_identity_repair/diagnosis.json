@@ -1,0 +1,29 @@
+{
+  "protocol_id": "PTCO-AFF-0.1",
+  "status": "INVALID actuator pointer; original direct training retained",
+  "root_cause": "Actuator was present only in producer closure/argv, absent from semantic job configuration. Both calls used the same content-addressed key.",
+  "observed_pointers": {
+    "direct": {
+      "actuator": "direct",
+      "checkpoint_sha256": "53fe92e7950c5f773b94a92c07108887b7498161e1e5622192ebc7df9df468a6",
+      "manifest_sha256": "4f8473b3b3123bf39583d83635511d3b5dda1816d3841098ba7f837acb96c134",
+      "model_manifest": "evidence/M30/20261008T065455-569aff09/manifest.json",
+      "protocol_id": "PTCO-AFF-0.1"
+    },
+    "lagged": {
+      "actuator": "lagged",
+      "checkpoint_sha256": "53fe92e7950c5f773b94a92c07108887b7498161e1e5622192ebc7df9df468a6",
+      "manifest_sha256": "4f8473b3b3123bf39583d83635511d3b5dda1816d3841098ba7f837acb96c134",
+      "model_manifest": "evidence/M30/20261008T065455-569aff09/manifest.json",
+      "protocol_id": "PTCO-AFF-0.1"
+    }
+  },
+  "actual_record_actuator": "direct",
+  "original_job_key": "99cf3a802762a6b78715abdd9bc7dcd1e7907ed7185761f96867dcfeee947cbf",
+  "original_freeze_archive": "config/revisions/affine-refinement-freeze-before-actuator-key-repair.json",
+  "original_freeze_sha256": "690caf521cc5e3984711524b09352711362ca9f821ba187f602fd42b9dc7c105",
+  "scientific_outputs_opened": false,
+  "fine_time_or_control_descendants": [],
+  "repair": "Freeze separate actuator request JSON inputs, include their contents in job identity, and assert returned summary actuator.",
+  "rerun_rule": "Both fits repeated under repaired producer/freeze; old completed run and work directory preserved."
+}

@@ -1,0 +1,13 @@
+{
+  "blocker": null,
+  "checks": [
+    {
+      "check_id": "control.reference_bank",
+      "reason": "Complete identical bank replay, preserved scores and refinement arrays",
+      "scope": "calibration",
+      "status": "pass",
+      "tolerance": null
+    }
+  ],
+  "validity_status": "valid"
+}

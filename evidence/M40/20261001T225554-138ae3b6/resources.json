@@ -1,0 +1,13 @@
+{
+  "cpu_seconds": 31.491183000000003,
+  "disk_bytes": 2254211,
+  "original_estimate": {
+    "disk_bytes": 10000000,
+    "reason": "Initial representative robot episode; measure before remaining calibration jobs",
+    "wall_seconds": null
+  },
+  "peak_rss_bytes": 277446656,
+  "rss_convention": "macOS bytes",
+  "training_updates": 0,
+  "wall_seconds": 31.573459333
+}

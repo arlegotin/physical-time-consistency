@@ -1,0 +1,27 @@
+{
+  "blocker": null,
+  "checks": [
+    {
+      "check_id": "repair.counterexample",
+      "reason": "Packed and legacy checkpoints preserve identical updates, targets and ragged permutations",
+      "scope": "checkpoint serialization only",
+      "status": "pass",
+      "tolerance": 0
+    },
+    {
+      "check_id": "repair.resume",
+      "reason": "Packed and legacy checkpoints preserve identical updates, targets and ragged permutations",
+      "scope": "checkpoint serialization only",
+      "status": "pass",
+      "tolerance": 0
+    },
+    {
+      "check_id": "repair.regressions",
+      "reason": "Packed and legacy checkpoints preserve identical updates, targets and ragged permutations",
+      "scope": "checkpoint serialization only",
+      "status": "pass",
+      "tolerance": 0
+    }
+  ],
+  "validity_status": "valid"
+}

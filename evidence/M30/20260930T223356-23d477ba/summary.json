@@ -1,0 +1,7 @@
+{
+  "manifest_path": "data/direct/F/validation/manifest.json",
+  "manifest_sha256": "169e26a7c98dc4042199625794990fafea90414eaae1877f49f4f4a9df20784a",
+  "missing_cells": [],
+  "trajectory_count": 256,
+  "transition_count": 8192
+}

@@ -1,0 +1,32 @@
+{
+  "batch_sha256": "370e98358fac5a93e55ae37fd45a125066366a395977a0ea5f36059fec6117fd",
+  "candidate_failure_count": 0,
+  "checked_episode_count": 96,
+  "compatible_sources": [
+    {
+      "current_sha256": "acbc3d196301c7128a26aab0585f40e0f55e7d536792741cf746c942366aca4f",
+      "path": "poc/control_jobs.py",
+      "prior_path": "config/revisions/control-review-originals/control_jobs.py",
+      "prior_sha256": "4d5f23bb14c1515de4c5a8be33b5bd1e800cf620bb143c68c75690e23722cc56"
+    },
+    {
+      "current_sha256": "50432a27298ef52e598d05e019fcf84e7d63a849dd9a62cc3a2bb7cb2e42ad31",
+      "path": "poc/control_models.py",
+      "prior_path": "config/revisions/control-review-originals/control_models.py",
+      "prior_sha256": "359c9fa2d175ebae1b9a87140c32c7dca1b0a97446611bf56caf70ef690b4942"
+    }
+  ],
+  "evidence": {
+    "path": "reports/control_review_calibration_context.json",
+    "sha256": "0f0fe8e15db899f87a5acacd1205f7a9f076a67ccb64f5a99fc2c4ee8369e328"
+  },
+  "numerical_algorithms_changed": false,
+  "reason": "Reviewed launch eligibility and plant-reference exception classification only; exact numerical prediction/cost/path algorithms remain unchanged",
+  "recorded_utc": "2026-10-02T00:59:26.069481Z",
+  "regression_tests": [
+    "test_simulator_warning_invalidates_reference_instead_of_becoming_model_fallback",
+    "test_true_qualification_flags_do_not_bypass_stale_evidence"
+  ],
+  "schema_version": 1,
+  "scope": "Prior clean 96-episode calibration only; any subsequent source or evidence change fails authorization"
+}

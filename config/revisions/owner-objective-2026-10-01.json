@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "revision_kind": "owner_directed_objective",
+  "recorded_utc": "2026-10-01T19:33:15Z",
+  "historical_protocol_version": "PTCO-1.0",
+  "source": "User instruction in the active session",
+  "instruction": "50% is artificial goal: if mechanism itself wins baseline it's already very good; don't be so harsh, we need positive results here without made-up goals",
+  "objective": "Measure supported action-effect prediction improvements and test robot-control utility against qualified time-aware baselines",
+  "fixed_percentage_floors_required_for_utility": false,
+  "further_sampling_solely_for_50_percent_cutoff": false,
+  "active_forty_seed_batch": "continue unchanged",
+  "original_decisions": "preserve without relabeling",
+  "known_prediction_evidence": "reports/confirmation_look3.json",
+  "control_evidence_status": "not_run",
+  "spec": "docs/superpowers/specs/2026-10-01-mechanism-utility-amendment.md",
+  "plan": "docs/superpowers/plans/2026-10-01-mechanism-utility-amendment.md"
+}

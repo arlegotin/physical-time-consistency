@@ -1,0 +1,42 @@
+{
+  "alpha_spent": null,
+  "code_tree_sha256": "a2b90c1b4c3aa5c6d2e345d0079e14dc9413a2398de458ac1f118c7d592b8923",
+  "configuration_sha256": "7034f3e8f7a567225de9a111e5226fa34b5271e44e44f72be2f01bf1a3920f1f",
+  "created_utc": "2026-09-30T22:22:18.098102Z",
+  "criterion_evaluations": [
+    {
+      "bounds": null,
+      "criterion_id": "G00.validity",
+      "estimate": null,
+      "operator": "qualification",
+      "reason": "Producer declares invalid evidence",
+      "status": "invalid",
+      "threshold": null
+    }
+  ],
+  "decision_id": "772e3f2c98c59efddbe0268d3742724324883f87e6168c55da12fbbf332040be",
+  "evidence": [
+    {
+      "path": "evidence/M00/20260930T222207-42209eda/manifest.json",
+      "producing_run_id": "20260930T222207-42209eda",
+      "role": "manifest",
+      "sha256": "9473040930db9a96c1db5d4c30b2e6c8ac0e40f67d8531dbbb1a7f16e9b8ad08"
+    }
+  ],
+  "gate_id": "G00",
+  "look_index": null,
+  "milestone_id": "M00",
+  "outcome": "INVALID",
+  "permitted_next_actions": [
+    {
+      "branch": "repair",
+      "milestone_id": "MX",
+      "question": "Producer declares invalid evidence"
+    }
+  ],
+  "phase": "preflight",
+  "protocol_version": "PTCO-1.0",
+  "schema_version": 1,
+  "terminal_verdict": null,
+  "validity_status": "invalid"
+}

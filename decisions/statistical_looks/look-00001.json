@@ -1,0 +1,76 @@
+{
+  "alpha": 0.025,
+  "bootstrap_seed_entropy": [
+    9101,
+    1
+  ],
+  "created_utc": "2026-10-01T12:35:12.076606Z",
+  "cumulative_alpha": 0.025,
+  "evidence_identity": {
+    "criteria": "4cba6f0d13e439a0bf02bd56a7647d2d406861461f403076454b5895ee72f700",
+    "rejection_freeze": "967a681f7e542a0a6c69acb452e71632fe2b8716ce3bc8c510a9c41d2783c33f",
+    "run_hashes": [
+      "0bd174f26fa7343934a0a3ca9c168a4f1dac58c7d10106fb3ac917dd8a750ce3",
+      "23fbee3793f72727ca2ee36853b4a65958cea61c90e9c7a95e8fd92b70e35b39",
+      "e9f49baa4dc36c9d5f81ddab97770524a50166ac0c521c88b15b49dab75c8607",
+      "c44fc41c1c9cb2239b80abc79589dc35687da61601e92a452b5946859d8408ee",
+      "904b1c11b372ae85042880099fdbce026a8c8fda763eebc8755bd24b038f08c1",
+      "575c2df3e159f73473cd97249e0d4f7e2aaa8846b18e36e60b39fa0782bf0bec",
+      "1a439b08889ddb98ed59733ed8a875dddd7dc4983747e1a633700d20784606b8",
+      "114fde66d6340ed096fcbca41cde5328a50f2b24adf135f1049a81ff54ca0197",
+      "9a0af090b6121fd3d1067e6c38d235af5511371820c7fe55b1df7801aaae7ca1",
+      "aa89d311fec77f21531d456fdf06c7c95262b671a12268792a3e05048a4b3bb3",
+      "39a98a49ba45095cd5ca2609c107ed25b744a2789c8fc53cfa056b424ced0b40",
+      "b6f7a97b868eaf67e52485fe380a4a14eac039d179a322e8553d8ae708551bcc",
+      "c1545c0e5e8163ac99fd4dbb6a806e2461873a1d2c9c37fd1ec8df791a288ac3",
+      "90fbdbd18c12f3b3e98222d25351734d6dbe2c4d86df2b81d5b9df8154e59305",
+      "cb7df714f9223e1129050afd9583bdc0de81f900cef957921829fa19871879f4",
+      "a814f954be1c2a00faeec74740f94058d4b1190e3dac58997e0e645d003e4f8b",
+      "a1d5ab345a12d436b94635dcc88e244492bb818d731bdd2333624ad0be4e5d60",
+      "5b5ba14d3035b3ec488f379b69147cbddc92ccde00a5ec3350de057165a02763",
+      "4dfcf369a7d1a5acb2966bdccbcc3ede2aae9c536650c218d1816aabb5d62ace",
+      "e1b5362bf695b513d86c3229c2e438a8f8df9fba85362c4128164aed4edb2c3c",
+      "47f136ea0c4868b90486da7c572c0bd1025815ba69f47b83f8f80ed342629746",
+      "5f939c23175e8eaee8c21991cf152beb02531d23099bf83e0018a29b02551294",
+      "aaa10279db1893706a639605fe67686f3c6b8fb1fb6c1349704aa3f660548b56",
+      "909b5d0e47c566a8a71e6c8063f228fb098768dc4ce88270a641ddd8e8f47e81",
+      "c38d0717aa53b379168fd4090ce114dbd3e635c797587b9a50d35d33fb9726c4",
+      "c8905d92683b1a8fdf8a5adcd9340471c07cf22ac4ab2864e58211fd5e26d116"
+    ],
+    "scope": {
+      "actuator": "direct",
+      "competitor": "node_generic",
+      "condition": "A",
+      "criterion_ids": [
+        "K02.relative/actuator=direct/stratum=cold/h_ns=5000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+        "K02.relative/actuator=direct/stratum=cold/h_ns=5000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+        "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+        "K02.relative/actuator=direct/stratum=cold/h_ns=10000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+        "K02.relative/actuator=direct/stratum=warm/h_ns=5000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+        "K02.relative/actuator=direct/stratum=warm/h_ns=5000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct",
+        "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=relative/training_condition=A/loss_mode=shared/method=power_correct",
+        "K02.relative/actuator=direct/stratum=warm/h_ns=10000000/competitor=node_generic/contrast=strict_improvement/training_condition=A/loss_mode=shared/method=power_correct"
+      ],
+      "loss_mode": "shared",
+      "negative_only": true,
+      "positive_return_milestone": "M30",
+      "protocol_version": "PTCO-1.0",
+      "readiness_decision_id": "ea035b5f554e877eb4a9eff2d2419b4f324214bdbd6ada73479a7e01c6e44c8c",
+      "seed_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "statistical_family_size": 280
+    },
+    "scope_sha256": "9f8ac850f31bef567f56d73eb8a48d76763fb3e17ab12f3cc0e82f13e97e213c"
+  },
+  "evidence_sha256": "895c357acb3294580fc225ff3b98239b0e20dbcd930f5d022034524e2f584d64",
+  "family_size": 280,
+  "look_index": 1,
+  "protocol_version": "PTCO-1.0",
+  "rejection_alpha": 8.928571428571429e-05,
+  "schema_version": 1
+}

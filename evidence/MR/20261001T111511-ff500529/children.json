@@ -1,0 +1,229 @@
+{
+  "records": [
+    {
+      "path": "evidence/M30/20261001T111514-e9ebc8c4/manifest.json",
+      "role": "corpus",
+      "sha256": "0bd174f26fa7343934a0a3ca9c168a4f1dac58c7d10106fb3ac917dd8a750ce3"
+    },
+    {
+      "path": "evidence/M30/20261001T111842-f679c6ad/manifest.json",
+      "role": "training",
+      "sha256": "23fbee3793f72727ca2ee36853b4a65958cea61c90e9c7a95e8fd92b70e35b39"
+    },
+    {
+      "path": "evidence/M30/20261001T112616-4f51cf93/manifest.json",
+      "role": "solver",
+      "sha256": "e9f49baa4dc36c9d5f81ddab97770524a50166ac0c521c88b15b49dab75c8607"
+    },
+    {
+      "key": [
+        "direct",
+        "A",
+        "shared",
+        "node_generic",
+        null,
+        0
+      ],
+      "path": "evidence/M30/20261001T112146-b7dbfa37/manifest.json",
+      "role": "E01",
+      "sha256": "c44fc41c1c9cb2239b80abc79589dc35687da61601e92a452b5946859d8408ee",
+      "solver_manifest": "evidence/M30/20261001T112616-4f51cf93/manifest.json",
+      "training_manifest": "evidence/M30/20261001T111842-f679c6ad/manifest.json"
+    },
+    {
+      "path": "evidence/M30/20261001T112832-58efd77c/manifest.json",
+      "role": "training",
+      "sha256": "904b1c11b372ae85042880099fdbce026a8c8fda763eebc8755bd24b038f08c1"
+    },
+    {
+      "key": [
+        "direct",
+        "A",
+        "shared",
+        "power_correct",
+        null,
+        0
+      ],
+      "path": "evidence/M30/20261001T113013-29fca6e2/manifest.json",
+      "role": "E01",
+      "sha256": "575c2df3e159f73473cd97249e0d4f7e2aaa8846b18e36e60b39fa0782bf0bec",
+      "training_manifest": "evidence/M30/20261001T112832-58efd77c/manifest.json"
+    },
+    {
+      "path": "evidence/M30/20261001T113030-77ebef30/manifest.json",
+      "role": "training",
+      "sha256": "1a439b08889ddb98ed59733ed8a875dddd7dc4983747e1a633700d20784606b8"
+    },
+    {
+      "path": "evidence/M30/20261001T113338-562da4f1/manifest.json",
+      "role": "solver",
+      "sha256": "114fde66d6340ed096fcbca41cde5328a50f2b24adf135f1049a81ff54ca0197"
+    },
+    {
+      "key": [
+        "direct",
+        "A",
+        "shared",
+        "node_generic",
+        null,
+        1
+      ],
+      "path": "evidence/M30/20261001T113313-494b9a21/manifest.json",
+      "role": "E01",
+      "sha256": "9a0af090b6121fd3d1067e6c38d235af5511371820c7fe55b1df7801aaae7ca1",
+      "solver_manifest": "evidence/M30/20261001T113338-562da4f1/manifest.json",
+      "training_manifest": "evidence/M30/20261001T113030-77ebef30/manifest.json"
+    },
+    {
+      "path": "evidence/M30/20261001T114143-a2333d40/manifest.json",
+      "role": "training",
+      "sha256": "aa89d311fec77f21531d456fdf06c7c95262b671a12268792a3e05048a4b3bb3"
+    },
+    {
+      "key": [
+        "direct",
+        "A",
+        "shared",
+        "power_correct",
+        null,
+        1
+      ],
+      "path": "evidence/M30/20261001T114347-6dd61034/manifest.json",
+      "role": "E01",
+      "sha256": "39a98a49ba45095cd5ca2609c107ed25b744a2789c8fc53cfa056b424ced0b40",
+      "training_manifest": "evidence/M30/20261001T114143-a2333d40/manifest.json"
+    },
+    {
+      "path": "evidence/M30/20261001T114717-6fe3e36e/manifest.json",
+      "role": "training",
+      "sha256": "b6f7a97b868eaf67e52485fe380a4a14eac039d179a322e8553d8ae708551bcc"
+    },
+    {
+      "path": "evidence/M30/20261001T115121-9ace938c/manifest.json",
+      "role": "solver",
+      "sha256": "c1545c0e5e8163ac99fd4dbb6a806e2461873a1d2c9c37fd1ec8df791a288ac3"
+    },
+    {
+      "key": [
+        "direct",
+        "A",
+        "shared",
+        "node_generic",
+        null,
+        2
+      ],
+      "path": "evidence/M30/20261001T115047-5b79c56d/manifest.json",
+      "role": "E01",
+      "sha256": "90fbdbd18c12f3b3e98222d25351734d6dbe2c4d86df2b81d5b9df8154e59305",
+      "solver_manifest": "evidence/M30/20261001T115121-9ace938c/manifest.json",
+      "training_manifest": "evidence/M30/20261001T114717-6fe3e36e/manifest.json"
+    },
+    {
+      "path": "evidence/M30/20261001T115813-921ab0a1/manifest.json",
+      "role": "training",
+      "sha256": "cb7df714f9223e1129050afd9583bdc0de81f900cef957921829fa19871879f4"
+    },
+    {
+      "key": [
+        "direct",
+        "A",
+        "shared",
+        "power_correct",
+        null,
+        2
+      ],
+      "path": "evidence/M30/20261001T120018-01963873/manifest.json",
+      "role": "E01",
+      "sha256": "a814f954be1c2a00faeec74740f94058d4b1190e3dac58997e0e645d003e4f8b",
+      "training_manifest": "evidence/M30/20261001T115813-921ab0a1/manifest.json"
+    },
+    {
+      "path": "evidence/M30/20261001T121624-10167093/manifest.json",
+      "role": "training",
+      "sha256": "a1d5ab345a12d436b94635dcc88e244492bb818d731bdd2333624ad0be4e5d60"
+    },
+    {
+      "path": "evidence/M30/20261001T122011-df6f4d4c/manifest.json",
+      "role": "solver",
+      "sha256": "5b5ba14d3035b3ec488f379b69147cbddc92ccde00a5ec3350de057165a02763"
+    },
+    {
+      "key": [
+        "direct",
+        "A",
+        "shared",
+        "node_generic",
+        null,
+        3
+      ],
+      "path": "evidence/M30/20261001T121945-fb070027/manifest.json",
+      "role": "E01",
+      "sha256": "4dfcf369a7d1a5acb2966bdccbcc3ede2aae9c536650c218d1816aabb5d62ace",
+      "solver_manifest": "evidence/M30/20261001T122011-df6f4d4c/manifest.json",
+      "training_manifest": "evidence/M30/20261001T121624-10167093/manifest.json"
+    },
+    {
+      "path": "evidence/M30/20261001T122402-3bcf0fff/manifest.json",
+      "role": "training",
+      "sha256": "e1b5362bf695b513d86c3229c2e438a8f8df9fba85362c4128164aed4edb2c3c"
+    },
+    {
+      "key": [
+        "direct",
+        "A",
+        "shared",
+        "power_correct",
+        null,
+        3
+      ],
+      "path": "evidence/M30/20261001T122549-99532ead/manifest.json",
+      "role": "E01",
+      "sha256": "47f136ea0c4868b90486da7c572c0bd1025815ba69f47b83f8f80ed342629746",
+      "training_manifest": "evidence/M30/20261001T122402-3bcf0fff/manifest.json"
+    },
+    {
+      "path": "evidence/M30/20261001T122606-99fc22f8/manifest.json",
+      "role": "training",
+      "sha256": "5f939c23175e8eaee8c21991cf152beb02531d23099bf83e0018a29b02551294"
+    },
+    {
+      "path": "evidence/M30/20261001T122916-dde7464b/manifest.json",
+      "role": "solver",
+      "sha256": "aaa10279db1893706a639605fe67686f3c6b8fb1fb6c1349704aa3f660548b56"
+    },
+    {
+      "key": [
+        "direct",
+        "A",
+        "shared",
+        "node_generic",
+        null,
+        4
+      ],
+      "path": "evidence/M30/20261001T122850-e463c07d/manifest.json",
+      "role": "E01",
+      "sha256": "909b5d0e47c566a8a71e6c8063f228fb098768dc4ce88270a641ddd8e8f47e81",
+      "solver_manifest": "evidence/M30/20261001T122916-dde7464b/manifest.json",
+      "training_manifest": "evidence/M30/20261001T122606-99fc22f8/manifest.json"
+    },
+    {
+      "path": "evidence/M30/20261001T123311-3f91df44/manifest.json",
+      "role": "training",
+      "sha256": "c38d0717aa53b379168fd4090ce114dbd3e635c797587b9a50d35d33fb9726c4"
+    },
+    {
+      "key": [
+        "direct",
+        "A",
+        "shared",
+        "power_correct",
+        null,
+        4
+      ],
+      "path": "evidence/M30/20261001T123458-48d73193/manifest.json",
+      "role": "E01",
+      "sha256": "c8905d92683b1a8fdf8a5adcd9340471c07cf22ac4ab2864e58211fd5e26d116",
+      "training_manifest": "evidence/M30/20261001T123311-3f91df44/manifest.json"
+    }
+  ]
+}

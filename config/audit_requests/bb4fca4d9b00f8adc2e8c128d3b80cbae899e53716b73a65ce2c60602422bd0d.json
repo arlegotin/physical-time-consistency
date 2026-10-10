@@ -1,0 +1,13 @@
+{
+  "actuator": "direct",
+  "cell_id": "direct__A__one_step__node_structured__seed9000",
+  "condition": "A",
+  "corpus_manifest": "data/direct/A/development/manifest.json",
+  "experiment_id": "E01",
+  "freeze_path": "config/exploratory_progress_freeze.json",
+  "loss_mode": "one_step",
+  "model_id": "node_structured",
+  "seed": 9000,
+  "solver_substeps": 2,
+  "training_manifest": "evidence/M30/20261001T075920-690334ed/manifest.json"
+}

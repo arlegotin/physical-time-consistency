@@ -1,0 +1,184 @@
+{
+  "argv": [
+    "python",
+    "-m",
+    "poc",
+    "run",
+    "M00"
+  ],
+  "code_revision": "dae1881bbe57aca7c511c7d1f5379fa5def635bd",
+  "code_tree_sha256": "c566101dec1e17536881060c2d726d6b857922099465b041e07cc22fd5bdb477",
+  "completion_status": "blocked",
+  "configuration_sha256": "bd5c064fda35b53ab3e3eb75d372cb52f991e9ef960e1c571b4455619aa0dd4e",
+  "data_hashes": {},
+  "dirty": true,
+  "ended_utc": "2026-09-30T17:46:43.979055Z",
+  "environment_sha256": "92ee923c399e390d8bb8bc47b467c978985b9d9b23115fa1b2e257783c911f50",
+  "expected_cells": [
+    "authorization",
+    "python",
+    "architecture",
+    "virtual_environment",
+    "disk",
+    "packages",
+    "determinism",
+    "nstep",
+    "torch_smoke",
+    "wheel_lock",
+    "offline_install",
+    "validators"
+  ],
+  "job_inputs": {
+    "configuration_keys": {
+      "config/authorization.json": {
+        "authority_note": "User requested execution on the current branch and explicitly imposed no artificial RAM, disk or time caps; report real shortages for owner provisioning. Package acquisition is necessary to the authorized local protocol. No paid services.",
+        "cpu_time_limit_hours": null,
+        "disk_limit_gib": null,
+        "local_compute_authorized": true,
+        "package_network_authorized": true,
+        "paid_services_authorized": false,
+        "ram_limit_gib": null,
+        "recorded_utc": "2026-09-30T17:10:19.297355Z"
+      },
+      "config/base.json": {
+        "actuator_intervals_s": [
+          0.04,
+          0.02,
+          0.01
+        ],
+        "audit_dtype": "float64",
+        "bootstrap_resamples": 20000,
+        "device": "cpu",
+        "effective_batch": 256,
+        "episode_s": 1.6,
+        "episodes_per_seed": 20,
+        "gradient_clip_norm": 1.0,
+        "h0_s": 0.04,
+        "history_s": 0.32,
+        "initial_epochs": 100,
+        "initial_training_seeds": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "learning_rate": 0.001,
+        "model_partitions_s": [
+          0.04,
+          0.02,
+          0.01,
+          0.005,
+          0.0025
+        ],
+        "mpc_horizon_s": 0.24,
+        "observation_interval_s": 0.04,
+        "physics_step_s": 0.0005,
+        "primary_model_step_s": 0.005,
+        "protocol_version": "PTCO-1.0",
+        "replanning_interval_s": 0.04,
+        "rollout_loss_weight": 0.25,
+        "rollout_steps": 4,
+        "sensitivity_horizons_s": [
+          0.0025,
+          0.005,
+          0.01,
+          0.02,
+          0.04,
+          0.08
+        ],
+        "tau_s": 0.08,
+        "torque_limit_nm": 2.0,
+        "train_dtype": "float32",
+        "weight_decay": 1e-06
+      },
+      "config/criteria.json": {
+        "protocol_version": "PTCO-1.0",
+        "statistical_family_size": 280
+      },
+      "config/milestones.json": {
+        "protocol_version": "PTCO-1.0"
+      }
+    },
+    "dependencies": {
+      "POC_EXECUTION_PLAN.md": "d4f5e4edf7a2b645c46507dea14cc0c93cbfa605a5c79ff09fd0b17282b94df0",
+      "config/protocol_provenance.json": "fca11b57d878a246ff0b1faf2df92f271f2a10beb4a0fdaba793bbe231111b89",
+      "poc/__init__.py": "a2663e8d543cbef68f5ef143d68b63cc6fde80d0d59bb560d4f23347632dcd10",
+      "poc/__main__.py": "7e6168e57a39be15d9e6269d43cd71cd59c600f1eb7275ad0906b0885350f7db",
+      "poc/bootstrap.py": "0cecff4d46ff046fd366f4187c00ef7eafe34566041aaa2f233dc10bb8c73ff8",
+      "poc/contracts.py": "2ad6e0d60b900b05b1bb372abd52791c5d6dcdf2b11c6bef57d27d871d2c3d05",
+      "poc/gates.py": "69fcdd1c3caad525002fd601abf6aca5155a75e44ddc79e6cec19c7ca4cb86a6",
+      "poc/io.py": "b7c169b0c7e296b7e11dfe42ae620ad33806de61b36b610db67d727bd7ac04cd",
+      "requirements.in": "791895fba0129c9c7f07e95781ef516542b626436f21c96b232c9c9149831146",
+      "schemas/decision.schema.json": "11e5dcafe7c1c05c8c297dff1600dd891f7c8d2f38247e2b3905f9c49b05068b",
+      "schemas/manifest.schema.json": "eee6c0586eb8e665939901736b339802d4451f541aaeca99b3d6568a54e1376f"
+    },
+    "environment_fingerprint": {
+      "architecture": "arm64",
+      "core_count": 14,
+      "cpu_description": "arm",
+      "executable": "/workspace/physical-time-consistency/.venv/bin/python",
+      "kernel": "25.6.0",
+      "os": "Darwin",
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "python": "3.11.5 | packaged by conda-forge | (main, Aug 27 2023, 03:33:12) [Clang 15.0.7 ]",
+      "thread_environment": {
+        "MKL_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1"
+      },
+      "virtual_environment": true
+    },
+    "intended_versions": {
+      "mujoco": "3.14.0",
+      "numpy": "2.2.6",
+      "pytest": "8.4.1",
+      "scipy": "1.15.3",
+      "torch": "2.8.0"
+    },
+    "milestone_id": "M00",
+    "phase": "preflight",
+    "protocol_version": "PTCO-1.0",
+    "wheel_hashes": {}
+  },
+  "job_key": "83f7829e1a84fb0f6ba85ded7e420015afda92b07e0e5430fa95465a8c4d81e6",
+  "milestone_id": "M00",
+  "model_hashes": {},
+  "parent_decisions": [],
+  "phase": "preflight",
+  "produced_files": [
+    {
+      "path": "evidence/M00/20260930T194636-e1ecb544/environment.json",
+      "sha256": "92ee923c399e390d8bb8bc47b467c978985b9d9b23115fa1b2e257783c911f50"
+    },
+    {
+      "path": "evidence/M00/20260930T194636-e1ecb544/events.jsonl",
+      "sha256": "1f786ac61c3853a2f83bd253b5ea88d62f8c9ecda86e9f3e4f5fa524730f65e0"
+    },
+    {
+      "path": "evidence/M00/20260930T194636-e1ecb544/resources.json",
+      "sha256": "69bbf5ef1f7a58f282c07457c64264541d835bb0a1c5537e7ccc58fda9ad7e52"
+    },
+    {
+      "path": "evidence/M00/20260930T194636-e1ecb544/stderr.log",
+      "sha256": "4e9461137c52db87bf5a53bea817076632f4084d456ad71236d8e121284097f2"
+    },
+    {
+      "path": "evidence/M00/20260930T194636-e1ecb544/stdout.log",
+      "sha256": "e1dd48346efb89e900ee4a58e0c237360bd9dfd7910c5293c5800617937f85a5"
+    },
+    {
+      "path": "evidence/M00/20260930T194636-e1ecb544/summary.json",
+      "sha256": "6866b35230d5b97b7a8f0d155326befe46f09e418dc5e8c668f0841088ef8202"
+    },
+    {
+      "path": "evidence/M00/20260930T194636-e1ecb544/validity.json",
+      "sha256": "8957fc2ee93ffac77e0bb5fdd5024cd7efb19a08d92fdfdc81d69e1542bfceaf"
+    }
+  ],
+  "protocol_version": "PTCO-1.0",
+  "run_id": "20260930T194636-e1ecb544",
+  "schema_version": 1,
+  "started_utc": "2026-09-30T17:46:36.118958Z"
+}

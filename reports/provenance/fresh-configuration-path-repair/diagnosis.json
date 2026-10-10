@@ -1,0 +1,17 @@
+{
+  "affected_outputs": "two corpus receipts; no trained fresh checkpoint or held-out measurement",
+  "new_freeze_sha256": "2d8bee7b01d7a415592a60c7c9d6aa7ec8bc1288033f748d356b40c95dd55258",
+  "original_corpus_receipts": {
+    "train": {
+      "path": "evidence/M30/20261008T090630-4241a7b0/manifest.json",
+      "sha256": "da3ca1d7be62faa7dfe6470c0c0556a54a8543108e775b2337a69b38aac1d5d5"
+    },
+    "validation": {
+      "path": "evidence/M30/20261008T090709-e1abced5/manifest.json",
+      "sha256": "f17d0e16d8a27700de39f8e8581a729d224e980b1bb9e69810cdb690297e5913"
+    }
+  },
+  "repair": "write immutable per-job request JSON and regenerate source-bound corpora, preserving originals",
+  "root_cause": "run_job configuration_keys must map actual JSON filenames to relevant key-values, not stage labels",
+  "thresholds_seeds_architectures_data_laws_changed": false
+}

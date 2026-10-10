@@ -1,0 +1,47 @@
+{
+  "final_review": "complete: fresh read-only review; reporting corrections applied; no remaining findings",
+  "limits": [
+    "One development seed, fixed library; no population superiority claim.",
+    "No new learned method, training or control evaluation in this diagnostic."
+  ],
+  "manifest": {
+    "manifest_path": "evidence/M40/20261007T230617-ff6297b2/manifest.json",
+    "manifest_sha256": "6a93b78d12ee56eedc96f11a456ee74e0460a38898a134ed8e340d31422cda61",
+    "protocol_id": "PTCO-DIAG-0.1"
+  },
+  "measured_model_rows": 3072,
+  "new_control_episodes": 0,
+  "new_training_updates": 0,
+  "protocol_id": "PTCO-DIAG-0.1",
+  "report_hashes": {
+    "reports/shared_state_diagnostic_findings.md": "39c362c8ec03030f27ed101ab0a367b49126cd59e372f59e0c06ba3084fc54c9",
+    "reports/shared_state_diagnostic_independent_arithmetic.json": "71a6887de9afeab13f787ea8948e391cccf9339b866eee66bc896158f8e787a9",
+    "reports/shared_state_diagnostic_result.json": "4c9711503fe48644cf494efe94a2c541301baa41b849b52143cedd27d5f872f8",
+    "reports/shared_state_diagnostic_result.md": "92e82382bf668b8da3e6eb992bcda825b6f4291146901deb53b37f1d423b5235",
+    "reports/shared_state_diagnostic_review.md": "ddb9355245cae0bb8c7570ddb7ae84f81540ec561e14c30565f4cace4ed08064",
+    "reports/shared_state_diagnostic_verification.json": "1dbcb1befd89fc76728834cf3bd701dde4adc7947fef7f17863442db64c16185"
+  },
+  "resources": {
+    "cpu_seconds": 24.919224000000003,
+    "disk_bytes": 1108635,
+    "original_estimate": {
+      "additional_control_episodes": 0,
+      "additional_training_updates": 0,
+      "new_disk_bytes_estimate": 20971520,
+      "runtime_projection": "Measure first reference batch; no artificial runtime cap"
+    },
+    "peak_rss_bytes": 288358400,
+    "rss_convention": "macOS bytes",
+    "training_updates": 0,
+    "wall_seconds": 25.094726417
+  },
+  "review_path": "reports/shared_state_diagnostic_review.md",
+  "status": "complete",
+  "test_evidence": {
+    "command": ".venv/bin/python -m pytest -q",
+    "elapsed_seconds": 132.44,
+    "passed": 962,
+    "path": "reports/shared_state_diagnostic_release/task-3-final-suite.log",
+    "sha256": "b5be94849a4983813224f7452e29c8e8bf4073de8313f1b94ace5e49c7bee4f3"
+  }
+}

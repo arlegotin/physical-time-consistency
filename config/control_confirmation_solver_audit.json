@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "protocol_id": "UTILITY-2026-10-02-control-v1",
+  "model_id": "node_generic",
+  "phase": "confirmatory",
+  "actuators": ["direct", "lagged"],
+  "training_seed_ids": [0, 1, 2, 3, 4],
+  "episode_ids": [0, 1, 2, 3, 4],
+  "horizons_ns": [5000000, 40000000],
+  "substeps": [1, 2, 4],
+  "command_namespace": 9104,
+  "candidate_decision_ids": [0, 20, 39]
+}

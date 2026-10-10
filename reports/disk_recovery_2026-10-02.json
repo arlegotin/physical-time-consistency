@@ -1,0 +1,21 @@
+{
+  "bridge_directory": "study/precision-look-2/study/precision-look-3/study/precision-look-4/evidence/M30/20261001T221506-9781e191",
+  "classification": "operational storage interruption; no scientific outcome",
+  "created_utc": "2026-10-01T22:15:06.042109Z",
+  "failed_manifest_sha256": "f00d1bb598765078376b3b9e50fb03c9c06fbd2c8b1c9f14eeaa4188a7275475",
+  "failed_run_id": "20261001T215207-c0cbe5ec",
+  "job_key": "a4e92529b6f83d776f61659acad3ea972448d7d75d6ad7c8986f86ead3429240",
+  "new_free_space_available": true,
+  "optimizer_update": 70016,
+  "purpose": "Hash-identical unfinished input for the unchanged training_job --resume implementation",
+  "schema_version": 1,
+  "source_hashes": {
+    "request.json": "9493a9f13bf638c7c03eb361eb075e821e4c321fa12c1dc7a1e279136c73fe4b",
+    "resume.complete.json": "aabe9217b41f21d61002e97357f6098e0a0978b746e38449408c9c64d9eb49fd",
+    "resume.pt": "9e92b759f5cc35820215d3b1ef4f637041f8d75fe1090ae9c524db565de8efe0",
+    "resume.rng.json": "7f13089ea95897011801a0eca46288243a2f7388480aa19b2893ade7682beb0f",
+    "validation_history.json": "485d8ca13256e0ac4bc52814ad1ea1ffd1cc5d0ea989457dcfdfad7e48c4b68c",
+    "weights.pt": "6b61ab66a09dfad9a289f3732aed3814b889286992e5f056a2b820b8d4f94c60"
+  },
+  "working_context": "study/precision-look-2/study/precision-look-3/study/precision-look-4"
+}

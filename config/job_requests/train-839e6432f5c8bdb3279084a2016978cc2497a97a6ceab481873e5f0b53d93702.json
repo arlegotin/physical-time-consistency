@@ -1,0 +1,18 @@
+{
+  "phase": "exploratory",
+  "protocol_version": "PTCO-1.0",
+  "purpose": "training",
+  "semantic_inputs": {
+    "actuator": "direct",
+    "cell_id": "direct__F__one_step__power_correct__seed9000",
+    "condition": "F",
+    "continue_from": "evidence/M30/20261001T072727-cf6ec90b",
+    "epochs": 200,
+    "learning_rate": 0.001,
+    "loss_mode": "one_step",
+    "model_id": "power_correct",
+    "seed": 9000,
+    "train_manifest": "data/direct/F/train/manifest.json",
+    "validation_manifest": "data/direct/F/validation/manifest.json"
+  }
+}

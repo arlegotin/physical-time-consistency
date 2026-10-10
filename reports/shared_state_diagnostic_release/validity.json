@@ -1,0 +1,34 @@
+{
+  "blocker": null,
+  "checks": [
+    {
+      "check_id": "diagnostic.coordinates",
+      "reason": "Complete frozen rows; qualified references; signed error identity; source/hash closure",
+      "scope": "PTCO-DIAG-0.1",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "diagnostic.references",
+      "reason": "Complete frozen rows; qualified references; signed error identity; source/hash closure",
+      "scope": "PTCO-DIAG-0.1",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "diagnostic.decomposition",
+      "reason": "Complete frozen rows; qualified references; signed error identity; source/hash closure",
+      "scope": "PTCO-DIAG-0.1",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "diagnostic.provenance",
+      "reason": "Complete frozen rows; qualified references; signed error identity; source/hash closure",
+      "scope": "PTCO-DIAG-0.1",
+      "status": "pass",
+      "tolerance": null
+    }
+  ],
+  "validity_status": "valid"
+}

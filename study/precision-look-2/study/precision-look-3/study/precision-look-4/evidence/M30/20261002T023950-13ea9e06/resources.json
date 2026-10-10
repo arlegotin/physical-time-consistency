@@ -1,0 +1,9 @@
+{
+  "cpu_seconds": 173.85992099999999,
+  "disk_bytes": 38679258,
+  "original_estimate": null,
+  "peak_rss_bytes": 740016128,
+  "rss_convention": "macOS bytes",
+  "training_updates": 89600,
+  "wall_seconds": 174.430253917
+}

@@ -1,0 +1,111 @@
+{
+  "action_parameters": {
+    "actuators": [
+      "direct",
+      "lagged"
+    ],
+    "command_holds_ns": [
+      40000000,
+      10000000
+    ],
+    "episode_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "expected_episodes": 408,
+    "models": [
+      "power_correct",
+      "mlp_h",
+      "node_generic",
+      "node_structured",
+      "physics_fit"
+    ],
+    "observation_ns": 40000000,
+    "oracle_episode_ids": [
+      0,
+      1
+    ],
+    "partitions_ns": [
+      40000000,
+      5000000
+    ],
+    "phase": "exploratory",
+    "physics_step_ns": 250000,
+    "replanning_ns": 40000000,
+    "training_seed": 9000,
+    "workload_root": 7101
+  },
+  "alpha_spent": 0,
+  "authority": "Owner approved targeted strong-baseline research and current-branch local execution with proceed on 2026-10-07",
+  "authorization_reference": "config/authorization.json",
+  "branch": "targeted-efficiency",
+  "claim_ids": [
+    "C02",
+    "C04",
+    "C05"
+  ],
+  "contract": {
+    "1": "Element 1 in docs/superpowers/specs/2026-10-07-targeted-efficiency-pilot.md, Twelve-part extension contract",
+    "10": "Element 10 in docs/superpowers/specs/2026-10-07-targeted-efficiency-pilot.md, Twelve-part extension contract",
+    "11": "Element 11 in docs/superpowers/specs/2026-10-07-targeted-efficiency-pilot.md, Twelve-part extension contract",
+    "12": "Element 12 in docs/superpowers/specs/2026-10-07-targeted-efficiency-pilot.md, Twelve-part extension contract",
+    "2": "Element 2 in docs/superpowers/specs/2026-10-07-targeted-efficiency-pilot.md, Twelve-part extension contract",
+    "3": "Element 3 in docs/superpowers/specs/2026-10-07-targeted-efficiency-pilot.md, Twelve-part extension contract",
+    "4": "Element 4 in docs/superpowers/specs/2026-10-07-targeted-efficiency-pilot.md, Twelve-part extension contract",
+    "5": "Element 5 in docs/superpowers/specs/2026-10-07-targeted-efficiency-pilot.md, Twelve-part extension contract",
+    "6": "Element 6 in docs/superpowers/specs/2026-10-07-targeted-efficiency-pilot.md, Twelve-part extension contract",
+    "7": "Element 7 in docs/superpowers/specs/2026-10-07-targeted-efficiency-pilot.md, Twelve-part extension contract",
+    "8": "Element 8 in docs/superpowers/specs/2026-10-07-targeted-efficiency-pilot.md, Twelve-part extension contract",
+    "9": "Element 9 in docs/superpowers/specs/2026-10-07-targeted-efficiency-pilot.md, Twelve-part extension contract"
+  },
+  "expected_artifacts": [
+    "config/efficiency_pilot_pretraining.json",
+    "reports/efficiency_pilot_nominal.json",
+    "config/efficiency_pilot_freeze.json",
+    "config/efficiency_pilot_cells.json",
+    "reports/efficiency_pilot_batch.json",
+    "reports/efficiency_pilot_profiles.json",
+    "reports/efficiency_pilot_result.json",
+    "reports/efficiency_pilot_result.md",
+    "reports/efficiency_pilot_quality_compute.svg"
+  ],
+  "input_evidence": [
+    {
+      "path": "reports/utility_results_2026-10-07.md",
+      "sha256": "44476b9de9ae748208e04e72a8f1398267f154a1e578472ccc06a45b27358766"
+    }
+  ],
+  "live_explanations": [
+    "Head offers a useful control or compute edge",
+    "Strong structured/time-aware predictors remove the advantage"
+  ],
+  "new_information": "Matched actual-command-rate and prediction-resolution comparisons with strong qualified models plus measured optimized inference",
+  "parent_gate": "completed_limited_utility_study",
+  "plan": "docs/superpowers/plans/2026-10-07-targeted-efficiency-pilot.md",
+  "progress_condition": "Complete matched quality/compute evidence that selects a specific confirmation or exposes the strongest-baseline limitation",
+  "protocol_id": "PTCO-EFF-0.1",
+  "protocol_version": "PTCO-1.0",
+  "recorded_utc": "2026-10-07T11:30:54.935553Z",
+  "request_id": "MX-efficiency-pilot-0001",
+  "resource_projection": {
+    "initial_total_artifact_bytes": 1020000000,
+    "owner_imposed_caps": null,
+    "prior_artifact_bytes_per_episode": 2500000,
+    "reason": "Project runtime from actual first pilot job; historical coarse/fine episodes vary about 25–90 seconds; oracle costs more",
+    "wall_seconds": null
+  },
+  "return_milestone": "M40",
+  "schema_version": 1,
+  "spec": "docs/superpowers/specs/2026-10-07-targeted-efficiency-pilot.md",
+  "statistical_look": null,
+  "status": "ready",
+  "unresolved_question": "Does the equivalent optimized power head deliver useful control quality or computation gains against time-scaled MLP and both NODEs, especially when actual commands change between observations?"
+}

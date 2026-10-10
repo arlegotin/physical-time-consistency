@@ -1,0 +1,10 @@
+{
+  "failure": "Child train failed; preserved diagnostics: evidence/M30/20260930T223329-67028ca2/train-e54211c289dee70af9e88a926e104199071af4a01aa813a50fced962be7ad744.stderr.log",
+  "measurements": {},
+  "missing_cells": [
+    "M30.data",
+    "M30.training",
+    "M30.nominal_freeze",
+    "M30.audit"
+  ]
+}

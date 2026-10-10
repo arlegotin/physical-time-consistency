@@ -1,0 +1,60 @@
+{
+  "alpha_spent": null,
+  "code_tree_sha256": "68001a7a9078cbdee7966ec9cb3319f68834860e7941f49661448833b9c1d92a",
+  "configuration_sha256": "a5b8f8de15125540001978a165f59c9bccc876d37fc06c1bc05fc002cf85e01e",
+  "created_utc": "2026-10-01T11:08:49.440278Z",
+  "criterion_evaluations": [
+    {
+      "bounds": null,
+      "criterion_id": "negative.request",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "Qualified original recipes permit a limited independent rejection test",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "negative.nominal",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "Qualified original recipes permit a limited independent rejection test",
+      "status": "pass",
+      "threshold": null
+    },
+    {
+      "bounds": null,
+      "criterion_id": "negative.freeze",
+      "estimate": 1.0,
+      "operator": "qualification",
+      "reason": "Qualified original recipes permit a limited independent rejection test",
+      "status": "pass",
+      "threshold": null
+    }
+  ],
+  "decision_id": "ea035b5f554e877eb4a9eff2d2419b4f324214bdbd6ada73479a7e01c6e44c8c",
+  "evidence": [
+    {
+      "path": "evidence/MX/20261001T105917-2fd4404d/manifest.json",
+      "producing_run_id": "20261001T105917-2fd4404d",
+      "role": "manifest",
+      "sha256": "497b06b6c0adb977dcf1d523732fda05c61d4a7ceb7e94a732860c0b22974133"
+    }
+  ],
+  "gate_id": "GX",
+  "look_index": null,
+  "milestone_id": "MX",
+  "outcome": "GO",
+  "permitted_next_actions": [
+    {
+      "branch": null,
+      "milestone_id": "MR",
+      "question": "Obtain independent rejection-only evidence; no full-PoC support from this shortcut"
+    }
+  ],
+  "phase": "calibration",
+  "protocol_version": "PTCO-1.0",
+  "schema_version": 1,
+  "terminal_verdict": null,
+  "validity_status": "valid"
+}

@@ -1,0 +1,90 @@
+{
+  "protocol_id": "PTCO-EFF-0.1",
+  "status": "complete_exploratory",
+  "created_utc": "2026-10-07T21:44:00.087414+00:00",
+  "expected_episodes": 408,
+  "completed_episodes": 408,
+  "main_episodes": 400,
+  "simulator_audit_episodes": 8,
+  "n_training_seeds": 1,
+  "n_tasks_per_main_condition": 10,
+  "condition_rows": 44,
+  "paired_comparisons": 32,
+  "fallbacks": 0,
+  "alpha_spent": 0,
+  "statistical_look": null,
+  "source_hash_closure": "unchanged frozen producer/model/consumer source",
+  "tests": {
+    "full_suite_passed": 952,
+    "focused_completion_passed": 25,
+    "full_suite_evidence": "reports/efficiency_pilot_release_evidence/review-fix-full-suite.log",
+    "focused_evidence": "reports/efficiency_pilot_release_evidence/task-3-tests.log"
+  },
+  "resources": {
+    "producer_wall_hours": 7.939296607374996,
+    "producer_cpu_hours": 7.905471093333336,
+    "logical_episode_artifact_bytes": 1028332753,
+    "maximum_producer_peak_rss_bytes": 422363136,
+    "scope": "408 completed episode producers only; excludes training, startup, profiling, verification and previous study"
+  },
+  "artifacts": [
+    {
+      "path": "reports/efficiency_pilot_result.json",
+      "sha256": "5bb346689b1c9be04452ac12ba8bb5f660da9a8c3be767a3d9eba173fd7af9e3"
+    },
+    {
+      "path": "reports/efficiency_pilot_result.md",
+      "sha256": "739b3a99dcbd9311e7b1c5256feb1a343eff2bdffeebe4b4196991126cc798a8"
+    },
+    {
+      "path": "reports/efficiency_pilot_quality_compute.svg",
+      "sha256": "cae7032a3ddb28dd98e89d37d13561f22a16ff6bd4d4465afd28b25d68556cfe"
+    },
+    {
+      "path": "reports/efficiency_pilot_demo.html",
+      "sha256": "64a20e5a7bceb2d4f2ff070b68f34ec281faa13d3955debf2f02f9e4f57f97de"
+    },
+    {
+      "path": "reports/efficiency_pilot_findings.md",
+      "sha256": "7002406aee03c832354aeef5ba4276c3428461f1f345c1343aa7e38c3524f833"
+    },
+    {
+      "path": "reports/efficiency_pilot_first_interval_diagnostic.json",
+      "sha256": "6a39880f1e883a2c554b3551b0eb006ac26869f7553d3f4b400d8e75ffdb0829"
+    },
+    {
+      "path": "reports/efficiency_pilot_visual_check.json",
+      "sha256": "d4afefaa1cd3696187950b5258f4efb7a1f87cce71cc38a285ab96c9dc33102b"
+    },
+    {
+      "path": "reports/efficiency_pilot_release_review.md",
+      "sha256": "d67519821e94dbdbd5ebb937a2cdc4b40960fed27f21f4959828953fbab50d10"
+    },
+    {
+      "path": "reports/efficiency_pilot_release_evidence/archive_index.json",
+      "sha256": "ee4bc3fec55f2d7abfda0c5ac2a627dd734dfccaf7364da89d9f347899348ba1"
+    },
+    {
+      "path": "reports/efficiency_pilot_batch.json",
+      "sha256": "c57a90305f8ac7c80f8aa6501dc5b8edf7f9012e58a2f7a563afddd0b1b2190c"
+    },
+    {
+      "path": "reports/efficiency_pilot_profiles.json",
+      "sha256": "7b3742697218d5af15bc1a74ba2dce677c16e51dac46dc95f1acb1231082a3d7"
+    },
+    {
+      "path": "config/efficiency_pilot_cells.json",
+      "sha256": "73199edef88c06c305255f4343e0efd64273b46413e0b731e83967d060160e63"
+    },
+    {
+      "path": "config/efficiency_pilot_freeze.json",
+      "sha256": "39bacb772bcc4af7e44879ea2d345c35e5247c7916f161c535c5a486c430d132"
+    }
+  ],
+  "deferred_minors": [
+    "Final: minor (deferred): Show the eight two-task oracle audits in a separate readable Markdown table; all audit measurements remain present in JSON and are excluded from the ten-task frontier.",
+    "Final: minor (deferred): Closing run CLI stdout says expected_episodes=0 because the completed batch has neither expected_episodes nor jobs fields; the strict result consumer independently verifies the full 408-cell registry. Frozen producer source is retained; this is a display default, not missing scientific coverage."
+  ],
+  "next_action": "Prospectively freeze a shared-state drift/command-response/composition diagnostic; not executed.",
+  "limitation": "Exploratory efficacy comparison; does not establish population superiority, equivalence, real-time operation or full PTCO PASS."
+}

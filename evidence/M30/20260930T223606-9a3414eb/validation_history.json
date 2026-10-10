@@ -1,0 +1,36 @@
+{
+  "rows": [
+    {
+      "epoch": 5,
+      "four_count": 0,
+      "four_step": 0.0,
+      "objective": 0.008184005295333918,
+      "one_count": 8192,
+      "one_step": 0.008184005295333918
+    },
+    {
+      "epoch": 10,
+      "four_count": 0,
+      "four_step": 0.0,
+      "objective": 0.0029814793670084327,
+      "one_count": 8192,
+      "one_step": 0.0029814793670084327
+    },
+    {
+      "epoch": 15,
+      "four_count": 0,
+      "four_step": 0.0,
+      "objective": 0.0023961950864759274,
+      "one_count": 8192,
+      "one_step": 0.0023961950864759274
+    },
+    {
+      "epoch": 20,
+      "four_count": 0,
+      "four_step": 0.0,
+      "objective": 0.0012918463926325785,
+      "one_count": 8192,
+      "one_step": 0.0012918463926325785
+    }
+  ]
+}

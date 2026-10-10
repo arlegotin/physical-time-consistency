@@ -1,0 +1,27 @@
+{
+  "blocker": null,
+  "checks": [
+    {
+      "check_id": "negative.request",
+      "reason": "Valid request and complete nominal-only fitting attempts; qualification evaluated separately",
+      "scope": "registered-negative-readiness",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "negative.nominal",
+      "reason": "Valid request and complete nominal-only fitting attempts; qualification evaluated separately",
+      "scope": "registered-negative-readiness",
+      "status": "pass",
+      "tolerance": null
+    },
+    {
+      "check_id": "negative.freeze",
+      "reason": "Valid request and complete nominal-only fitting attempts; qualification evaluated separately",
+      "scope": "registered-negative-readiness",
+      "status": "pass",
+      "tolerance": null
+    }
+  ],
+  "validity_status": "valid"
+}

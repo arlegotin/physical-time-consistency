@@ -1,0 +1,127 @@
+{
+  "comparisons": [
+    {
+      "absolute_reduction": 0.013063822490190127,
+      "baseline_fallback_count": 0,
+      "baseline_mean_cost": 0.0536096169772431,
+      "baseline_model": "mlp_dt",
+      "baseline_seed_means": [
+        0.0536096169772431
+      ],
+      "confidence_bounds": null,
+      "denominator_status": "resolved_observed_mean",
+      "episodes_per_seed": 1,
+      "method_fallback_count": 0,
+      "method_mean_cost": 0.04054579448705297,
+      "method_seed_means": [
+        0.04054579448705297
+      ],
+      "model_step_ns": 40000000,
+      "n_training_seeds": 1,
+      "phase": "exploratory",
+      "relative_reduction": 0.2436843093979878,
+      "scope": "Paired measured costs; seed-level inference requires its prospectively frozen contrast procedure",
+      "seed_contrasts": [
+        0.013063822490190127
+      ],
+      "seed_ids": [
+        9000
+      ],
+      "statistical_status": "descriptive_only"
+    },
+    {
+      "absolute_reduction": 0.003910234947041673,
+      "baseline_fallback_count": 0,
+      "baseline_mean_cost": 0.04445602943409464,
+      "baseline_model": "node_generic",
+      "baseline_seed_means": [
+        0.04445602943409464
+      ],
+      "confidence_bounds": null,
+      "denominator_status": "resolved_observed_mean",
+      "episodes_per_seed": 1,
+      "method_fallback_count": 0,
+      "method_mean_cost": 0.04054579448705297,
+      "method_seed_means": [
+        0.04054579448705297
+      ],
+      "model_step_ns": 40000000,
+      "n_training_seeds": 1,
+      "phase": "exploratory",
+      "relative_reduction": 0.08795735914379255,
+      "scope": "Paired measured costs; seed-level inference requires its prospectively frozen contrast procedure",
+      "seed_contrasts": [
+        0.003910234947041673
+      ],
+      "seed_ids": [
+        9000
+      ],
+      "statistical_status": "descriptive_only"
+    },
+    {
+      "absolute_reduction": 0.08053055865616571,
+      "baseline_fallback_count": 0,
+      "baseline_mean_cost": 0.12317709538440201,
+      "baseline_model": "mlp_dt",
+      "baseline_seed_means": [
+        0.12317709538440201
+      ],
+      "confidence_bounds": null,
+      "denominator_status": "resolved_observed_mean",
+      "episodes_per_seed": 1,
+      "method_fallback_count": 0,
+      "method_mean_cost": 0.042646536728236296,
+      "method_seed_means": [
+        0.042646536728236296
+      ],
+      "model_step_ns": 5000000,
+      "n_training_seeds": 1,
+      "phase": "exploratory",
+      "relative_reduction": 0.6537786786159543,
+      "scope": "Paired measured costs; seed-level inference requires its prospectively frozen contrast procedure",
+      "seed_contrasts": [
+        0.08053055865616571
+      ],
+      "seed_ids": [
+        9000
+      ],
+      "statistical_status": "descriptive_only"
+    },
+    {
+      "absolute_reduction": 0.0018094927058583468,
+      "baseline_fallback_count": 0,
+      "baseline_mean_cost": 0.04445602943409464,
+      "baseline_model": "node_generic",
+      "baseline_seed_means": [
+        0.04445602943409464
+      ],
+      "confidence_bounds": null,
+      "denominator_status": "resolved_observed_mean",
+      "episodes_per_seed": 1,
+      "method_fallback_count": 0,
+      "method_mean_cost": 0.042646536728236296,
+      "method_seed_means": [
+        0.042646536728236296
+      ],
+      "model_step_ns": 5000000,
+      "n_training_seeds": 1,
+      "phase": "exploratory",
+      "relative_reduction": 0.04070297615177021,
+      "scope": "Paired measured costs; seed-level inference requires its prospectively frozen contrast procedure",
+      "seed_contrasts": [
+        0.0018094927058583468
+      ],
+      "seed_ids": [
+        9000
+      ],
+      "statistical_status": "descriptive_only"
+    }
+  ],
+  "interpretation": "Positive one-task development comparison only; no training-seed confidence claim or causal attribution yet",
+  "recorded_utc": "2026-10-02T01:13:21.329672Z",
+  "schema_version": 1,
+  "source": {
+    "path": "reports/control_representative_measurements.json",
+    "sha256": "b38c68909ebce05de1d5cc4d66b4040167e8ca745397fba8657fdce0d1e3e411"
+  }
+}

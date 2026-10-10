@@ -1,0 +1,13 @@
+{
+  "current_free_bytes": 2140999680,
+  "limits": "No owner-imposed caps; estimates are operational projections, not scientific decisions.",
+  "measured_prior_ten_seed_training_disk_bytes": 631283871,
+  "new_evidence_observed_allocated_bytes": 404602880,
+  "note": "New evidence snapshot includes completed and partial current jobs. Current batch projection excludes retained archived bytes and adds audit/log overhead separately. All scientific coverage remains unchanged.",
+  "projected_next_twenty_seed_training_disk_bytes": 1262567742,
+  "projection_not_result": true,
+  "recorded_utc": "2026-10-01T19:07:50.810490Z",
+  "request_id": "MX-precision-0007",
+  "request_sha256": "2bc218c4c0681f8e587ae8c865c6d9ae38c333314db4d4e795d289a67e20988c",
+  "schema_version": 1
+}

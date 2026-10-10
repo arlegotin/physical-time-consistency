@@ -1,0 +1,4 @@
+{
+  "actuator": "direct",
+  "model_id": "lstm_dt"
+}

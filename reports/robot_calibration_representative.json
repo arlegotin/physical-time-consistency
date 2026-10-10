@@ -1,0 +1,142 @@
+{
+  "estimate_limitations": "Linear projection from the same fixed representative task; candidate-bank refinement audits are additional.",
+  "remaining_episode_disk_bytes_estimate": 218996760,
+  "remaining_episode_wall_seconds_estimate": 6007.775805630001,
+  "remaining_episodes": 90,
+  "rows": [
+    {
+      "actuator": "direct",
+      "episode_id": 0,
+      "fallback_count": 0,
+      "manifest": "evidence/M40/20261001T225554-138ae3b6/manifest.json",
+      "manifest_sha256": "ed12780f93b99a9b2caf713310f4b619b05695dd93b139f2f1732b720f0c5d10",
+      "model_id": "zero_command",
+      "realized_cost": 0.8570392024958827,
+      "resources": {
+        "cpu_seconds": 31.491183000000003,
+        "disk_bytes": 2254211,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "reason": "Initial representative robot episode; measure before remaining calibration jobs",
+          "wall_seconds": null
+        },
+        "peak_rss_bytes": 277446656,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 31.573459333
+      }
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 0,
+      "fallback_count": 0,
+      "manifest": "evidence/M40/20261001T225637-00d9fbcd/manifest.json",
+      "manifest_sha256": "3da2707ee68cc48ccaee7438f9fbbaf3efffed5e8d6cbfc58983817851192384",
+      "model_id": "physics_fit",
+      "realized_cost": 0.04234934317553173,
+      "resources": {
+        "cpu_seconds": 45.36143,
+        "disk_bytes": 2480585,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "reason": "Initial representative robot episode; measure before remaining calibration jobs",
+          "wall_seconds": null
+        },
+        "peak_rss_bytes": 288260096,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 45.466714375
+      }
+    },
+    {
+      "actuator": "direct",
+      "episode_id": 0,
+      "fallback_count": 0,
+      "manifest": "evidence/M40/20261001T225803-5c931777/manifest.json",
+      "manifest_sha256": "2c3bd089ec88cf3f276f4b98c07b38fd88ac09564fe212bbad360f2a0bb43722",
+      "model_id": "sim_oracle",
+      "realized_cost": 0.04234934317553173,
+      "resources": {
+        "cpu_seconds": 120.406576,
+        "disk_bytes": 2480162,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "reason": "Initial representative robot episode; measure before remaining calibration jobs",
+          "wall_seconds": null
+        },
+        "peak_rss_bytes": 278953984,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 120.610869584
+      }
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 0,
+      "fallback_count": 0,
+      "manifest": "evidence/M40/20261001T230013-99aa7e3e/manifest.json",
+      "manifest_sha256": "7f2827614fcbf6fdcb2a443a681f3470cb162172d4fcd4839a987378acab7821",
+      "model_id": "zero_command",
+      "realized_cost": 0.8570392024958827,
+      "resources": {
+        "cpu_seconds": 33.022489,
+        "disk_bytes": 2257575,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "reason": "Initial representative robot episode; measure before remaining calibration jobs",
+          "wall_seconds": null
+        },
+        "peak_rss_bytes": 277692416,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 33.131616875
+      }
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 0,
+      "fallback_count": 0,
+      "manifest": "evidence/M40/20261001T230101-046ccfa0/manifest.json",
+      "manifest_sha256": "d74dd78450dd634915c5c07001905ad2d4f1339c6553ae486c11fc47ace23e23",
+      "model_id": "physics_fit",
+      "realized_cost": 0.04498115664883245,
+      "resources": {
+        "cpu_seconds": 46.365546,
+        "disk_bytes": 2563815,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "reason": "Initial representative robot episode; measure before remaining calibration jobs",
+          "wall_seconds": null
+        },
+        "peak_rss_bytes": 294551552,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 46.471558916
+      }
+    },
+    {
+      "actuator": "lagged",
+      "episode_id": 0,
+      "fallback_count": 0,
+      "manifest": "evidence/M40/20261001T230250-5659ba9f/manifest.json",
+      "manifest_sha256": "bc2eec8c053f8bab6ba1d55c006d34a8df204adbd35d2e98141550eb5d05e500",
+      "model_id": "sim_oracle",
+      "realized_cost": 0.04498115664883245,
+      "resources": {
+        "cpu_seconds": 123.01900900000001,
+        "disk_bytes": 2563436,
+        "original_estimate": {
+          "disk_bytes": 10000000,
+          "reason": "Initial representative robot episode; measure before remaining calibration jobs",
+          "wall_seconds": null
+        },
+        "peak_rss_bytes": 278052864,
+        "rss_convention": "macOS bytes",
+        "training_updates": 0,
+        "wall_seconds": 123.264167959
+      }
+    }
+  ],
+  "schema_version": 1,
+  "scope": "First fixed reference task only; full robot qualification and learned-model control pending"
+}

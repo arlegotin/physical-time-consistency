@@ -1,0 +1,184 @@
+{
+  "criteria": [
+    {
+      "central_bootstrap": [
+        -0.00438459116709391,
+        0.0002482238646255186
+      ],
+      "criterion_id": "utility_control/direct/mlp_dt/h40000000",
+      "lower_bound": -0.010165274525946202,
+      "numerical_envelope": {
+        "lower": 8.165690346118026e-14,
+        "upper": 8.165690346118026e-14
+      },
+      "point_difference": -0.001684410800892422,
+      "status": "unresolved",
+      "upper_bound": 0.006796452924161357
+    },
+    {
+      "central_bootstrap": [
+        0.034907897296001196,
+        0.07424697238886836
+      ],
+      "criterion_id": "utility_control/direct/mlp_dt/h5000000",
+      "lower_bound": -0.018042045077986915,
+      "numerical_envelope": {
+        "lower": 3.6676217618492046e-13,
+        "upper": 3.6676217618492046e-13
+      },
+      "point_difference": 0.05526643313159685,
+      "status": "unresolved",
+      "upper_bound": 0.1285749113411806
+    },
+    {
+      "central_bootstrap": [
+        -0.0038556555656499404,
+        0.00018162701672833626
+      ],
+      "criterion_id": "utility_control/direct/node_generic/h40000000",
+      "lower_bound": -0.009319778105565259,
+      "numerical_envelope": {
+        "lower": 8.998357614586894e-14,
+        "upper": 8.998357614586894e-14
+      },
+      "point_difference": -0.001686830876523626,
+      "status": "unresolved",
+      "upper_bound": 0.005946116352518006
+    },
+    {
+      "central_bootstrap": [
+        -0.004290151666600661,
+        -0.0002666683037319428
+      ],
+      "criterion_id": "utility_control/direct/node_generic/h5000000",
+      "lower_bound": -0.01001254134503835,
+      "numerical_envelope": {
+        "lower": 8.149037000748649e-14,
+        "upper": 8.149037000748649e-14
+      },
+      "point_difference": -0.002437121246395224,
+      "status": "unresolved",
+      "upper_bound": 0.005138298852247902
+    },
+    {
+      "central_bootstrap": [
+        -0.0011110841250143056,
+        0.0026290864830750492
+      ],
+      "criterion_id": "utility_control/lagged/mlp_dt/h40000000",
+      "lower_bound": -0.006026012316427631,
+      "numerical_envelope": {
+        "lower": 4.566902411795581e-13,
+        "upper": 4.566902411795581e-13
+      },
+      "point_difference": 0.001153699542800929,
+      "status": "unresolved",
+      "upper_bound": 0.00833341140202949
+    },
+    {
+      "central_bootstrap": [
+        0.05371312973500462,
+        0.09763727636150939
+      ],
+      "criterion_id": "utility_control/lagged/mlp_dt/h5000000",
+      "lower_bound": -0.011463224681375908,
+      "numerical_envelope": {
+        "lower": 1.0200729150255938e-12,
+        "upper": 1.0200729150255938e-12
+      },
+      "point_difference": 0.07165488271222746,
+      "status": "unresolved_influence",
+      "upper_bound": 0.15477299010583084
+    },
+    {
+      "central_bootstrap": [
+        -0.0009268461398324823,
+        0.002283620797054564
+      ],
+      "criterion_id": "utility_control/lagged/node_generic/h40000000",
+      "lower_bound": -0.007324804104680412,
+      "numerical_envelope": {
+        "lower": 0.0021998693940659675,
+        "upper": 0.0021998693940659675
+      },
+      "point_difference": 0.0006783873286110409,
+      "status": "unresolved",
+      "upper_bound": 0.008681578761902495
+    },
+    {
+      "central_bootstrap": [
+        -0.0011679121442321528,
+        0.0023066737904968216
+      ],
+      "criterion_id": "utility_control/lagged/node_generic/h5000000",
+      "lower_bound": -0.00589783128320194,
+      "numerical_envelope": {
+        "lower": 3.749778265671466e-13,
+        "upper": 3.749778265671466e-13
+      },
+      "point_difference": 0.0003647185286192511,
+      "status": "unresolved",
+      "upper_bound": 0.006627268340440442
+    }
+  ],
+  "descriptive_fine_time_mlp_comparison": {
+    "direct": {
+      "all_five_seed_means_favor_head": true,
+      "descriptive_relative_reduction": 0.1838477018297261,
+      "seed_level_cost_differences": [
+        0.06160991665548338,
+        0.02169987298409351,
+        0.06702833694897581,
+        0.038209903373978116,
+        0.0877841356954534
+      ]
+    },
+    "lagged": {
+      "all_five_seed_means_favor_head": true,
+      "descriptive_relative_reduction": 0.20459798604280632,
+      "seed_level_cost_differences": [
+        0.06198498127118632,
+        0.12195080991135693,
+        0.046274533420577135,
+        0.06030702181591158,
+        0.06775706714210539
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "path": "reports/control_confirmation_result.json",
+      "sha256": "345c2a96a4b1b2055f814efc535f19605f76bf2247d9d8ee5c8f1357872afbb4"
+    },
+    {
+      "path": "reports/control_confirmation_result.md",
+      "sha256": "80637ac14309aa8e109808955359a2257b6d2fc58d8bc582d29438fbcdfc48c1"
+    },
+    {
+      "path": "reports/control_confirmation_numerical.json",
+      "sha256": "05172cb970f89cd494103fdd152aff33759713cd375c5dbd1b2ffa8178d1345e"
+    },
+    {
+      "path": "reports/control_solver_continuation_2026-10-05/completion_2026-10-06.json",
+      "sha256": "dcb14a9e5d2adb0abf27bbea22f8641d29d648634b4dd52ce34fa9fde2119620"
+    }
+  ],
+  "family_size": 8,
+  "interpretation": "Point estimates favor the head over the MLP at 5 ms in every initial seed; the registered uncertainty procedure leaves all eight population contrasts unresolved. No full-suite, equivalence or superiority-over-NODE claim.",
+  "look_alpha": 0.025,
+  "look_index": 1,
+  "n_episodes": 1200,
+  "n_training_seeds": 5,
+  "next_actions": [
+    "Fresh-process replay, fresh retraining and repeated control under the fixed reproduction design",
+    "Prospectively registered precision analysis for unresolved comparisons; no new outcomes before its sample-size rule is frozen"
+  ],
+  "protocol_id": "UTILITY-2026-10-02-control-v1",
+  "recorded_utc": "2026-10-06T03:15:46.882046Z",
+  "returncode": 0,
+  "schema_version": 1,
+  "scope": "Two-link direct and known-lag plants; A/shared corrected head versus specified qualified MLP and generic NODE; no full competitor-suite claim",
+  "state": "verified_limited_result_requires_reproduction_and_precision",
+  "tail_alpha": 0.0015625,
+  "terminal_verdict": null
+}

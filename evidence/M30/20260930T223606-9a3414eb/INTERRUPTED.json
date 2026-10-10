@@ -1,0 +1,6 @@
+{
+  "classification": "interrupted_incomplete_training",
+  "fine_time_outcomes_opened": false,
+  "reason": "Measured checkpoint serialization overhead; retain saved state and diagnostics, restart the unchanged seed under verified packed storage",
+  "recorded_utc": "2026-09-30T22:49:08.223744Z"
+}

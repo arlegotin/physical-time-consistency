@@ -1,0 +1,116 @@
+{
+  "protocol_id": "PTCO-EFF-0.1",
+  "scope": "Direct actuator, ten development tasks, nominal 40 ms query/command clocks; optimized head versus original selected-head controller. Not a baseline-quality comparison or fresh population confirmation.",
+  "rows": [
+    {
+      "task": 0,
+      "old_manifest": "evidence/M40/20261002T010827-cabe514e/manifest.json",
+      "new_manifest": "evidence/M40/20261007T120040-ee57fb4d/manifest.json",
+      "old_manifest_sha256": "7db59b98bb2de8338bc20535b5b046a94c4d2133e24a6f1b4cd85a216ceaa11b",
+      "new_manifest_sha256": "39e279ec0cf788a0757ac2201b6c1a488994227f97f0d55aedff4c991e7fe0ba",
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "max_command_difference": 0.0,
+      "absolute_cost_difference": 0.0
+    },
+    {
+      "task": 1,
+      "old_manifest": "evidence/M40/20261002T015727-98aa33df/manifest.json",
+      "new_manifest": "evidence/M40/20261007T120118-3ad42482/manifest.json",
+      "old_manifest_sha256": "c30c174382b982520a9bd067cc757b1f361cedc1733b6ba556972a8b67c4e0ae",
+      "new_manifest_sha256": "1757fae7f02290faa521a71cdc1a378872063e412538c25b927fb626548241a2",
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "max_command_difference": 0.0,
+      "absolute_cost_difference": 0.0
+    },
+    {
+      "task": 2,
+      "old_manifest": "evidence/M40/20261002T015803-dc34091c/manifest.json",
+      "new_manifest": "evidence/M40/20261007T120155-b3b74647/manifest.json",
+      "old_manifest_sha256": "487eab05337861b4124ce6354addae2941668b199d61641d0efc8e939b9936b7",
+      "new_manifest_sha256": "3ce18b9d7759c5bfd1defa47654c67d135aa150bb07216e2f399ea4cf96155cb",
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "max_command_difference": 0.0,
+      "absolute_cost_difference": 0.0
+    },
+    {
+      "task": 3,
+      "old_manifest": "evidence/M40/20261002T015839-0a3edb89/manifest.json",
+      "new_manifest": "evidence/M40/20261007T120235-23cf8b14/manifest.json",
+      "old_manifest_sha256": "3f6375296c584cf8085eb50a89a6e9398129af89378dd6c18c02cfd5b4c2a47c",
+      "new_manifest_sha256": "c922858585b278fd8d3c4b5e4668d73d5467f61f76ab07e28fb4f45b0222b649",
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "max_command_difference": 0.0,
+      "absolute_cost_difference": 0.0
+    },
+    {
+      "task": 4,
+      "old_manifest": "evidence/M40/20261002T015916-daa0381d/manifest.json",
+      "new_manifest": "evidence/M40/20261007T120315-e2edb4e3/manifest.json",
+      "old_manifest_sha256": "3497d951000ac485a805e87445c5143c622b304f3af7a25e58030c2ca52edeb0",
+      "new_manifest_sha256": "d46bdd19280341d75d9f5815da4973093831ec2e0473dc70a366fe09a29fae37",
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "max_command_difference": 0.0,
+      "absolute_cost_difference": 0.0
+    },
+    {
+      "task": 5,
+      "old_manifest": "evidence/M40/20261002T015952-a9c83047/manifest.json",
+      "new_manifest": "evidence/M40/20261007T120354-2d2414e8/manifest.json",
+      "old_manifest_sha256": "314b2b98cb1ac2c996803a9a7c6ed4b4aa9df4a5af119a243105c3af6ce7df97",
+      "new_manifest_sha256": "c77859eebfddb71b6dbb24cd703cbad012a4ac73da03c653e774692b76d369bb",
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "max_command_difference": 0.0,
+      "absolute_cost_difference": 0.0
+    },
+    {
+      "task": 6,
+      "old_manifest": "evidence/M40/20261002T020029-fdce2b30/manifest.json",
+      "new_manifest": "evidence/M40/20261007T120432-0cfc9337/manifest.json",
+      "old_manifest_sha256": "5a41eda2f6fd98853635d2a2f6f2305603f30eafd2545fd73d39454877b8a39a",
+      "new_manifest_sha256": "cc0980f7c805657d3946ab0170e46d63b61ca045d364b46020fd4392e698cc4e",
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "max_command_difference": 0.0,
+      "absolute_cost_difference": 0.0
+    },
+    {
+      "task": 7,
+      "old_manifest": "evidence/M40/20261002T020105-9e43b69b/manifest.json",
+      "new_manifest": "evidence/M40/20261007T120511-483aec6e/manifest.json",
+      "old_manifest_sha256": "adf1cbb7b077c86bbd65d06e7c258f19ccc6d8c751a92fa056ef8193101b4f70",
+      "new_manifest_sha256": "637d146237bc374c9eac21078aff1e8ac1b7dae609e748f14b8fd752ff7d8f9a",
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "max_command_difference": 0.0,
+      "absolute_cost_difference": 0.0
+    },
+    {
+      "task": 8,
+      "old_manifest": "evidence/M40/20261002T020142-13c88144/manifest.json",
+      "new_manifest": "evidence/M40/20261007T120552-83f996aa/manifest.json",
+      "old_manifest_sha256": "22e8d4d7c5c43c8d6a079a6d8f05a393cd2920ca669b07ddd7343bbc9805182c",
+      "new_manifest_sha256": "09ac9e3bd7d6c8860f0be63fb07cee1afe30b22ee8a90e71888ae68a8fbe43c5",
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "max_command_difference": 0.0,
+      "absolute_cost_difference": 0.0
+    },
+    {
+      "task": 9,
+      "old_manifest": "evidence/M40/20261002T020219-5efd37a1/manifest.json",
+      "new_manifest": "evidence/M40/20261007T120631-0819da53/manifest.json",
+      "old_manifest_sha256": "0a6400a6b2437fe6ec4d6c4ebb8d0614d815a06c3c082b1f0d945b6ad3cfacf3",
+      "new_manifest_sha256": "4107cc10f0cba1d821c4031c3d993e8e0ea834db66e5911502f7386bf2403e07",
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "max_command_difference": 0.0,
+      "absolute_cost_difference": 0.0
+    }
+  ]
+}

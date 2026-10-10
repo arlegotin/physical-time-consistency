@@ -1,0 +1,169 @@
+{
+  "argv": [
+    "python",
+    "-m",
+    "poc",
+    "run",
+    "MF"
+  ],
+  "code_revision": "dc637a486ef4c02d3fc3fc542dce181cd6f29d05",
+  "code_tree_sha256": "c21d40d84c3e690ccd29a5c187103a4150cf3ee70d1b202f97b26bae03a96eab",
+  "completion_status": "complete",
+  "configuration_sha256": "c48a8d40c65c387ecca9ba52d8c8a1aea724c259d0a70308550786e5cc4a602b",
+  "data_hashes": {},
+  "dirty": true,
+  "ended_utc": "2026-10-01T15:34:17.814093Z",
+  "environment_sha256": "6f62cf50712625ed40af8a3d527dfaa2c654835099e3eaa3647990ee8421dc77",
+  "expected_cells": [
+    "source_closure",
+    "claim_tables",
+    "report_artifacts",
+    "reproduction_contract"
+  ],
+  "job_inputs": {
+    "configuration_keys": {
+      "config/report_source.json": {
+        "protocol_version": "PTCO-1.0",
+        "schema_version": 1,
+        "snapshot_sha256": "50aef9170641ac5b4cb9a2c49ab423ea2824dbc926909f00f0102c78d2227cea",
+        "study_relative": "study/first-confirmation"
+      }
+    },
+    "dependencies": {
+      "config/report_source.json": "502aae61650c74f61a6200059f23a9aafbd3d76d40c27fcb81aaa73c020c791d",
+      "poc/__init__.py": "a2663e8d543cbef68f5ef143d68b63cc6fde80d0d59bb560d4f23347632dcd10",
+      "poc/__main__.py": "0f27902c62b9843290556f97636abe8c9df75f58e233d5349b2c09c522f15542",
+      "poc/contracts.py": "3615336d4cf41840c8026ad74afe0be2f36929bec625b7f0b2aaff56c7e4b7e4",
+      "poc/criteria.py": "65c7517af0e54706e669ab6cf01457beb1a997fadc42f094b6c03dcf058cf7a8",
+      "poc/execution.py": "6084c93a126873b8fc9a74dd86fcb68444631788b9a7d148d7cd79d7904d80cb",
+      "poc/finalization.py": "3b4fa7f7ec40fc2441ffb0df5f7a5ba810fe57be28bf4a83c2ce3a6e835fd27d",
+      "poc/gates.py": "a260b655bd8a7829237f00441be9d62a1bc3847d6d6570fecbd3b3a4042604b7",
+      "poc/io.py": "b7c169b0c7e296b7e11dfe42ae620ad33806de61b36b610db67d727bd7ac04cd",
+      "poc/report.py": "c3f24c25f46db54144359d1202328f3d9710f0bb2732740a48513596431f611e",
+      "poc/report_job.py": "ccd82887ebd2cd5fd42f381efcab7d157ea551d90025d1a0e0ad9de6c099ce2c",
+      "poc/study_archive.py": "bde33d76a9328a05eb81dd5ff23421d7f031cbb3f083271d580d589969509252",
+      "poc/study_audit.py": "f736b1fdee609f35bd06b8f195315fcf32383839d3597ff8c511e6f7e843fde0",
+      "poc/study_context.py": "666d2f52b4d49e86b708e92f77b26d15561d9ae1549b7280886fc86c376d2b97",
+      "poc/study_release.py": "cb028624e8c4f0f5ad01e59b93ea53cf34174e57f467691b106f18a51181e95c",
+      "poc/study_report.py": "279ca2bed4684e22dfd615569ebb114c305b823e81d3c93b95e3fc37d69643c2",
+      "poc/study_reproduce.py": "0fe4cdbd30bcb927eec5597722c522fcef5cb772f7258254020f5c9a0134c5a1",
+      "study/first-confirmation/STUDY_SNAPSHOT.json": "50aef9170641ac5b4cb9a2c49ab423ea2824dbc926909f00f0102c78d2227cea",
+      "study/first-confirmation/decisions/GR/0b79513e7f2cc7e8cc1eb8a416ba0e1330f54bab6e6f3d264977eb7eb5f1173d.json": "52c39be772c2375e91e0871c44192bb6186f288613c779538caa1e13dd61ee6b"
+    },
+    "environment_fingerprint": {
+      "architecture": "arm64",
+      "core_count": 14,
+      "deterministic_algorithms": true,
+      "kernel": "25.6.0",
+      "os": "Darwin",
+      "python": "3.11.5 | packaged by conda-forge | (main, Aug 27 2023, 03:33:12) [Clang 15.0.7 ]",
+      "torch_configuration": "PyTorch built with:\n  - GCC 4.2\n  - C++ Version: 201703\n  - clang 15.0.0\n  - OpenMP 201811\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: NO AVX\n  - Build settings: BLAS_INFO=accelerate, BUILD_TYPE=Release, COMMIT_SHA=a1cb3cc05d46d198467bebbb6e8fba50a325d4e7, CXX_COMPILER=/usr/bin/c++, CXX_FLAGS= -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOCUPTI -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_PYTORCH_QNNPACK -DAT_BUILD_ARM_VEC256_WITH_SLEEF -DUSE_XNNPACK -DUSE_PYTORCH_METAL_EXPORT -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -DUSE_COREML_DELEGATE -O2 -fPIC -DC10_NODEPRECATED -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=braced-scalar-init -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wvla-extension -Wsuggest-override -Wnewline-eof -Winconsistent-missing-override -Winconsistent-missing-destructor-override -Wno-pass-failed -Wno-error=old-style-cast -Wconstant-conversion -Qunused-arguments -faligned-new -fno-math-errno -fno-trapping-math -Werror=format -DUSE_MPS -Wno-missing-braces, LAPACK_INFO=accelerate, TORCH_VERSION=2.8.0, USE_CUDA=OFF, USE_CUDNN=OFF, USE_CUSPARSELT=OFF, USE_EIGEN_FOR_BLAS=ON, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=OFF, USE_MKLDNN=OFF, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n",
+      "torch_interop_threads": 1,
+      "torch_threads": 1,
+      "versions": {
+        "mujoco": "3.14.0",
+        "numpy": "2.2.6",
+        "pytest": "8.4.1",
+        "scipy": "1.15.3",
+        "torch": "2.8.0"
+      }
+    },
+    "milestone_id": "MF",
+    "phase": "report",
+    "protocol_version": "PTCO-1.0",
+    "wheel_hashes": {
+      "absl_py-2.5.0-py3-none-any.whl": "0f17b89f2a4eaaedc4f28c622998aa690564b3012a396a4ffad0821007fe03ba",
+      "etils-1.14.0-py3-none-any.whl": "b5df7341f54dbe1405a4450b2741207b4a8c279780402b45f87202b94dfc52b4",
+      "filelock-4.0.7-py3-none-any.whl": "a93c4d93269b339a6af4848342c7e940d0f9928ad95eff64764699e5f1bf8a6a",
+      "fsspec-2026.9.0-py3-none-any.whl": "8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f",
+      "glfw-2.10.2-py2.py3-none-macosx_11_0_arm64.whl": "c000b8a5e5fb4374b2c18d12347255ccb92001b9bcf80ef74c56072acbb98fe3",
+      "iniconfig-2.3.0-py3-none-any.whl": "f631c04d2c48c52b84d0d0549c99ff3859c98df65b3101406327ecc7d53fbf12",
+      "jinja2-3.1.6-py3-none-any.whl": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+      "markupsafe-3.0.3-cp311-cp311-macosx_11_0_arm64.whl": "4bd4cd07944443f5a265608cc6aab442e4f74dff8088b0dfc8238647b8f6ae9a",
+      "mpmath-1.3.0-py3-none-any.whl": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c",
+      "mujoco-3.14.0-cp311-cp311-macosx_11_0_arm64.whl": "ac43ebbfdf5522c556291cbc94a4d420ffed226f67e37a00dfcaf01525fa93bc",
+      "networkx-3.6.1-py3-none-any.whl": "d47fbf302e7d9cbbb9e2555a0d267983d2aa476bac30e90dfbe5669bd57f3762",
+      "numpy-2.2.6-cp311-cp311-macosx_14_0_arm64.whl": "3d70692235e759f260c3d837193090014aebdf026dfd167834bcba43e30c2a42",
+      "packaging-26.3-py3-none-any.whl": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "pip-23.2.1-py3-none-any.whl": "7ccf472345f20d35bdc9d1841ff5f313260c2c33fe417f48c30ac46cccabf5be",
+      "pluggy-1.6.0-py3-none-any.whl": "e920276dd6813095e9377c0bc5566d94c932c33b27a3e3945d8389c374dd4746",
+      "pygments-2.21.0-py3-none-any.whl": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+      "pyopengl-3.1.10-py3-none-any.whl": "794a943daced39300879e4e47bd94525280685f42dbb5a998d336cfff151d74f",
+      "pytest-8.4.1-py3-none-any.whl": "539c70ba6fcead8e78eebbf1115e8b589e7565830d7d006a8723f19ac8a0afb7",
+      "scipy-1.15.3-cp311-cp311-macosx_14_0_arm64.whl": "3b0334816afb8b91dab859281b1b9786934392aa3d527cd847e41bb6f45bee65",
+      "setuptools-65.5.0-py3-none-any.whl": "f62ea9da9ed6289bfe868cd6845968a2c854d1427f8548d52cae02a42b4f0356",
+      "sympy-1.14.0-py3-none-any.whl": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5",
+      "torch-2.8.0-cp311-none-macosx_11_0_arm64.whl": "5ae0524688fb6707c57a530c2325e13bb0090b745ba7b4a2cd6a3ce262572916",
+      "typing_extensions-4.16.0-py3-none-any.whl": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "websockets-17.1-cp311-cp311-macosx_11_0_arm64.whl": "020e271205f8ab3406d7a59cd00de6dec722315924411c421bd00642f18bad86",
+      "zipp-4.1.0-py3-none-any.whl": "25ad4e16390cd314347dd8f1de67a2ac538ae658ed4ab9db16029c07c188e97f"
+    }
+  },
+  "job_key": "f98741e23dfbe2f8c54f3d7968560898194b71d081ed7ff9b42d9770112b09c0",
+  "milestone_id": "MF",
+  "model_hashes": {},
+  "parent_decisions": [],
+  "phase": "report",
+  "produced_files": [
+    {
+      "path": "evidence/MF/20261001T152926-056f62ce/claims.csv",
+      "sha256": "ad517d63cb42989b85da7ad17be5c99f5f1747b602410fdc411e89b94dbfa605"
+    },
+    {
+      "path": "evidence/MF/20261001T152926-056f62ce/events.jsonl",
+      "sha256": "a4882ac2cb104d1db9a4d2b019c2da0d90dc358b8dd3677a14ecb529b276aeb1"
+    },
+    {
+      "path": "evidence/MF/20261001T152926-056f62ce/final_report.md",
+      "sha256": "68e0618bd22cf940b585e5c7d9dc01ae72dc4ca9b50624547cf23f5cb91efa83"
+    },
+    {
+      "path": "evidence/MF/20261001T152926-056f62ce/independent_primary_audit.json",
+      "sha256": "40e0ffacafaeb486cce476b1126a485e740ae90a2221fa5263ae8d862181e4b6"
+    },
+    {
+      "path": "evidence/MF/20261001T152926-056f62ce/paired_primary_results.json",
+      "sha256": "edc11eaf3c3a8168859999377bb04ea797a2aaabbda5c8ce6acdb62e1e851174"
+    },
+    {
+      "path": "evidence/MF/20261001T152926-056f62ce/reproduce.sh",
+      "sha256": "b9d63c131a6a4cfb32cdea4ec53d3fec3d0779e0a7d644e8b2e5dcbe24723981"
+    },
+    {
+      "path": "evidence/MF/20261001T152926-056f62ce/reproduction_request.json",
+      "sha256": "0be47057a9d9f2c3dcc14950c460616a4d83cb30ccb3244738d570c3883f03f7"
+    },
+    {
+      "path": "evidence/MF/20261001T152926-056f62ce/resources.json",
+      "sha256": "e31d71676c86c37f3a65ff92154a8c06f6c351a08d738aca47f67a40c0a4b31e"
+    },
+    {
+      "path": "evidence/MF/20261001T152926-056f62ce/run_index.csv",
+      "sha256": "2a6db60b37bffb496d2ec6090faf4be560c35eff7d3add781497afae26652dd4"
+    },
+    {
+      "path": "evidence/MF/20261001T152926-056f62ce/state.json",
+      "sha256": "bfb024a319daac82df45931c95664c28d1afdad8a4219392e511e2d7758cb9ff"
+    },
+    {
+      "path": "evidence/MF/20261001T152926-056f62ce/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/MF/20261001T152926-056f62ce/stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/MF/20261001T152926-056f62ce/summary.json",
+      "sha256": "416222ef6a997ca2816ab473c1d44febdde975395444bba85ffa319a3828f4ca"
+    },
+    {
+      "path": "evidence/MF/20261001T152926-056f62ce/validity.json",
+      "sha256": "1a62bdbddb2ee3b22ff71599eb889eaa47f699cc1f13f353d62a3b6e78aae74d"
+    }
+  ],
+  "protocol_version": "PTCO-1.0",
+  "run_id": "20261001T152926-056f62ce",
+  "schema_version": 1,
+  "started_utc": "2026-10-01T15:29:26.297398Z"
+}

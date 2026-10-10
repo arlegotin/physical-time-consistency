@@ -1,0 +1,8 @@
+{
+  "canonical_tensor_sha256": "e0ba23cb4261cce4a5ab388b09f744ba18bffc25d1d25f32746c92442860327e",
+  "checkpoint_sha256": "fb3d6f1bc93914dd3ac24abaf7fc0ff9edea4bb76ba5b0d1267062302a91d7d3",
+  "model_id": "affine_flow",
+  "path": "evidence/M30/20261008T092610-03a44692/manifest.json",
+  "seed": 2026100800,
+  "sha256": "1ff5e56383556baa28c3ad854c2c18a81ba265c512851d7398343b1ba97b89f7"
+}

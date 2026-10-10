@@ -1,0 +1,38 @@
+{
+  "cli_dry_run_exitcode": 0,
+  "cli_help_exitcode": 0,
+  "contract": "config/revisions/MX-control-precision-replay-0001.json",
+  "contract_sha256": "b4ef485423556452d0a1050b1bffafbefcf5b88f3d3ec780cfe09baddef53ca6",
+  "diff_check_exitcode": 0,
+  "existing_supervisor_inputs_unchanged": true,
+  "files": {
+    "config/milestones.json": "8a4421a35e17dffde2da16d695a15a3ffd4c81fe0ea34220440f82b206b920cd",
+    "config/revisions/MX-control-precision-replay-0001.json": "b4ef485423556452d0a1050b1bffafbefcf5b88f3d3ec780cfe09baddef53ca6",
+    "docs/superpowers/specs/2026-10-06-control-precision-replay.md": "7d3e435bd1c9acd695af0e6287e29a0b8e4c5511d05d409fdce8d40d1b22bda3",
+    "poc/control_precision_replay.py": "dd39d2267a823f5d1f9c3d9e960f97c1a49004fb239581a41592ad99b5626f6f",
+    "tests/test_control_precision_replay.py": "fb3b2ecec6306922548001edca269e60d81f819d8976a3bfd348f7002e9a7b64"
+  },
+  "new_precision_scientific_jobs_started": false,
+  "new_statistical_look": false,
+  "observed_utc": "2026-10-06T07:49:45.716754Z",
+  "precision_request_verified": true,
+  "prepared_nominal_registry_verified": true,
+  "real_mujoco_fixture": "Fresh confirmatory/replication zero-command phases, complete raw motion/commands/cost equality; software fixture only",
+  "red_observed": [
+    "Missing replay module: 25 intended failures",
+    "Missing source/parent hash closure: five intended failures",
+    "Explicit qualified numerical follow-up return: one intended failure"
+  ],
+  "schema_version": 1,
+  "scientific_verdict": null,
+  "scope": "Precision selected-weight replay implementation verification only",
+  "tests": {
+    "affected": 117,
+    "affected_exitcode": 0,
+    "focused": 33,
+    "focused_exitcode": 0,
+    "full_suite": 927,
+    "full_suite_exitcode": 0,
+    "full_suite_seconds": 125.91
+  }
+}

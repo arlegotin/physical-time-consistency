@@ -1,0 +1,21 @@
+{
+  "batch_sha256": "370e98358fac5a93e55ae37fd45a125066366a395977a0ea5f36059fec6117fd",
+  "candidate_failure_count": 0,
+  "checked_episode_count": 96,
+  "expected_candidate_count_per_episode": 20480,
+  "original_sources": [
+    {
+      "path": "poc/control_jobs.py",
+      "prior_path": "config/revisions/control-review-originals/control_jobs.py",
+      "prior_sha256": "4d5f23bb14c1515de4c5a8be33b5bd1e800cf620bb143c68c75690e23722cc56"
+    },
+    {
+      "path": "poc/control_models.py",
+      "prior_path": "config/revisions/control-review-originals/control_models.py",
+      "prior_sha256": "359c9fa2d175ebae1b9a87140c32c7dca1b0a97446611bf56caf70ef690b4942"
+    }
+  ],
+  "reason": "Archive exact launch/exception-boundary implementations before fixing review; no numerical prediction algorithm is changed",
+  "recorded_utc": "2026-10-02T00:53:53.869465Z",
+  "schema_version": 1
+}

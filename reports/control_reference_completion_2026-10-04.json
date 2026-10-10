@@ -1,0 +1,2356 @@
+{
+  "descriptive_context": [
+    {
+      "actuator": "direct",
+      "fallback_count": 0,
+      "interpretation": "Descriptive task-context only; one calibrated fit per plant, simulator subset has first five episode IDs",
+      "mean_realized_cost": 0.24229082632074528,
+      "n_episodes": 100,
+      "n_task_batches": 5,
+      "reference": "physics_fit",
+      "success_count": 23
+    },
+    {
+      "actuator": "direct",
+      "fallback_count": 0,
+      "interpretation": "Descriptive task-context only; one calibrated fit per plant, simulator subset has first five episode IDs",
+      "mean_realized_cost": 0.1770118082685314,
+      "n_episodes": 25,
+      "n_task_batches": 5,
+      "reference": "sim_oracle",
+      "success_count": 4
+    },
+    {
+      "actuator": "direct",
+      "fallback_count": 0,
+      "interpretation": "Descriptive task-context only; one calibrated fit per plant, simulator subset has first five episode IDs",
+      "mean_realized_cost": 5.483613202447832,
+      "n_episodes": 100,
+      "n_task_batches": 5,
+      "reference": "zero_command",
+      "success_count": 1
+    },
+    {
+      "actuator": "lagged",
+      "fallback_count": 0,
+      "interpretation": "Descriptive task-context only; one calibrated fit per plant, simulator subset has first five episode IDs",
+      "mean_realized_cost": 0.2784640417584824,
+      "n_episodes": 100,
+      "n_task_batches": 5,
+      "reference": "physics_fit",
+      "success_count": 60
+    },
+    {
+      "actuator": "lagged",
+      "fallback_count": 0,
+      "interpretation": "Descriptive task-context only; one calibrated fit per plant, simulator subset has first five episode IDs",
+      "mean_realized_cost": 0.19895329352582233,
+      "n_episodes": 25,
+      "n_task_batches": 5,
+      "reference": "sim_oracle",
+      "success_count": 16
+    },
+    {
+      "actuator": "lagged",
+      "fallback_count": 0,
+      "interpretation": "Descriptive task-context only; one calibrated fit per plant, simulator subset has first five episode IDs",
+      "mean_realized_cost": 5.483613202447832,
+      "n_episodes": 100,
+      "n_task_batches": 5,
+      "reference": "zero_command",
+      "success_count": 1
+    }
+  ],
+  "episode_provenance": [
+    {
+      "cell_id": "reference__direct__physics_fit__seed0__episode0",
+      "manifest": "evidence/M70/20261004T074603-335f0cc4/manifest.json",
+      "manifest_sha256": "032d603ce5b84787062e3ba5367fbedff1abaae5008fac81c217fe19b9d5c08f"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed0__episode1",
+      "manifest": "evidence/M70/20261004T074731-f7aac324/manifest.json",
+      "manifest_sha256": "b191b1b8b35ee91a413063cbcb862a76ca4586e4e022bda6a3fc7d6b13647ae8"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed0__episode2",
+      "manifest": "evidence/M70/20261004T074900-16735a96/manifest.json",
+      "manifest_sha256": "b7172da807b2326bce52adbb25914f6f1387301c320e846bceb569ed5d423b56"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed0__episode3",
+      "manifest": "evidence/M70/20261004T075031-23aca2ae/manifest.json",
+      "manifest_sha256": "8eafa24e8830972ca5e38ee3119135b8dd43495833efa2be937f94451e578ce5"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed0__episode4",
+      "manifest": "evidence/M70/20261004T075203-8a2cf452/manifest.json",
+      "manifest_sha256": "099ab5c7c8d89a98c676d8e5c0927f0bba6c6af31e9826403630b787933952a4"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed0__episode5",
+      "manifest": "evidence/M70/20261004T075334-ee24780c/manifest.json",
+      "manifest_sha256": "d4780364acfadc78e79d4ed99b4c1f2f17928cf9e675a28941f9dd67e3ae39be"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed0__episode6",
+      "manifest": "evidence/M70/20261004T075506-f9a5ad63/manifest.json",
+      "manifest_sha256": "12d48f5335463b6a4faaf4ab2a22b85d4958ab5d60a50aa4ee744b22dc92cfbe"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed0__episode7",
+      "manifest": "evidence/M70/20261004T075637-d6c603b0/manifest.json",
+      "manifest_sha256": "e616493f847e18459c1396c80d06b567a79abf9c7bfef4d2e47313e7227dbd1c"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed0__episode8",
+      "manifest": "evidence/M70/20261004T075808-0aa8045a/manifest.json",
+      "manifest_sha256": "99018c546b40e1bd92217b917f588fda42b295f147c7495c007965996bc8420e"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed0__episode9",
+      "manifest": "evidence/M70/20261004T075940-8579cd5f/manifest.json",
+      "manifest_sha256": "3ba9ac192b1ab6dfce2b41d0f7b656d49381fa360e19617caa398fbd9636bd5f"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed0__episode10",
+      "manifest": "evidence/M70/20261004T080112-3ceea773/manifest.json",
+      "manifest_sha256": "b7dcfb9c8af547a3060964d8ef0175ae26e1ee02d2691e2d05b5f5dc1ea08917"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed0__episode11",
+      "manifest": "evidence/M70/20261004T080244-51df0114/manifest.json",
+      "manifest_sha256": "bcd147f283e9ab97770fbc2e5dbe08f5387b2123edd3a185ae386df53935dd34"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed0__episode12",
+      "manifest": "evidence/M70/20261004T080416-c66a22d7/manifest.json",
+      "manifest_sha256": "aa93bb47ece4320a6c836478050bafb72581847721e4ef3af260c5605b057967"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed0__episode13",
+      "manifest": "evidence/M70/20261004T080548-de62da2c/manifest.json",
+      "manifest_sha256": "8ba8d2d772597dfd91960262aefb42af64219695f454f4c31e76c94987d56cd0"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed0__episode14",
+      "manifest": "evidence/M70/20261004T080719-31cf6e1c/manifest.json",
+      "manifest_sha256": "93f1a091e727a0109a2f06aa772e78fde902a4ada222e42a4b35fc45733f97cb"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed0__episode15",
+      "manifest": "evidence/M70/20261004T080852-400950a2/manifest.json",
+      "manifest_sha256": "d4ab566acaf28d64fac4073da375808e78e87b2caf48ab120c18a3cfedf44d0e"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed0__episode16",
+      "manifest": "evidence/M70/20261004T081024-533709af/manifest.json",
+      "manifest_sha256": "ab85f5ccde96894c2fcb1d029955ebd9eb5428ac00ce2e69a2a35104ee7c2345"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed0__episode17",
+      "manifest": "evidence/M70/20261004T081156-70197950/manifest.json",
+      "manifest_sha256": "e7334a2f2577ed92e2aaa39c75d2bfc820647d3cf33df0ef5798eb64afa1a5e6"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed0__episode18",
+      "manifest": "evidence/M70/20261004T081329-3b564b5f/manifest.json",
+      "manifest_sha256": "a57bca6a50d65e06b56989decaf9ff7bbb18a3677c73bba73edc01f6839d393c"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed0__episode19",
+      "manifest": "evidence/M70/20261004T081502-1a20de63/manifest.json",
+      "manifest_sha256": "d4439605773cc6249204a2432d57e7bce7a9f4d6b55865909be77492110afbc3"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed1__episode0",
+      "manifest": "evidence/M70/20261004T081634-0b656053/manifest.json",
+      "manifest_sha256": "d9f237e3516bfec390674953e82ce511ba29975dccc025fe2185d7b1a0a2da39"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed1__episode1",
+      "manifest": "evidence/M70/20261004T081806-355d98cb/manifest.json",
+      "manifest_sha256": "32da6e6a5d3cd13f6459fb3c90b08059128cb3d6f1729170a4fe025fc29a7061"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed1__episode2",
+      "manifest": "evidence/M70/20261004T081938-9c4bfaef/manifest.json",
+      "manifest_sha256": "d3619d57533c531fec44bcbce2711c910b64896f560bc9c3b68d3bb2a5515c4e"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed1__episode3",
+      "manifest": "evidence/M70/20261004T082111-95e0e0c3/manifest.json",
+      "manifest_sha256": "8bdb4fbc24289c59796df8bf022c75205ff86bbd766e35d1ca04f15ea93af6de"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed1__episode4",
+      "manifest": "evidence/M70/20261004T082245-e5149147/manifest.json",
+      "manifest_sha256": "17e068a20e3e3b63e00e8704e0c99b0f63f5ad8787b5dba8307b097965afc0ff"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed1__episode5",
+      "manifest": "evidence/M70/20261004T082419-8a182a7a/manifest.json",
+      "manifest_sha256": "246df7c86844548985a306fdcffef8e750ad95a519b92570cd886220257a3491"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed1__episode6",
+      "manifest": "evidence/M70/20261004T082551-25e0ff26/manifest.json",
+      "manifest_sha256": "6206339ce9384c1407c2960ee58ce975725bcbb5126420119e61bc4bd4732da2"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed1__episode7",
+      "manifest": "evidence/M70/20261004T082724-af69c574/manifest.json",
+      "manifest_sha256": "749e778741aac6dd47838d1a1beadd20103e35de282c20f0d260290effd10d8a"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed1__episode8",
+      "manifest": "evidence/M70/20261004T082856-5ed13060/manifest.json",
+      "manifest_sha256": "6d0f19c41271488570bd67129cbe1a9cf8f625fc87577cf465b267cf0d9700dd"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed1__episode9",
+      "manifest": "evidence/M70/20261004T083028-3d2e5bad/manifest.json",
+      "manifest_sha256": "a4223fc7b6bbcee36d049dbd944121407710fdb09758faeb83977248f44b058e"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed1__episode10",
+      "manifest": "evidence/M70/20261004T083201-436cee8b/manifest.json",
+      "manifest_sha256": "cd1b906e7d60697374efa4a1dc02b2f0d41c6941f7ca2e9956a913e756df7665"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed1__episode11",
+      "manifest": "evidence/M70/20261004T083333-33ee671a/manifest.json",
+      "manifest_sha256": "2dd8dd47dfa955366729f79679c2dae0fa9d1feadb9efdd4af53bfdfb23c39c4"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed1__episode12",
+      "manifest": "evidence/M70/20261004T083507-480c1556/manifest.json",
+      "manifest_sha256": "d3d05a64b5a4e4884a5d2f353609ad36305f793a2ffedee97c08b6ba599ebe32"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed1__episode13",
+      "manifest": "evidence/M70/20261004T083640-45739054/manifest.json",
+      "manifest_sha256": "ac7bd0eef5335cde48b1a40fb8c5a4a56b15382a77aa2ec2b553cd251faae515"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed1__episode14",
+      "manifest": "evidence/M70/20261004T083812-09bf278c/manifest.json",
+      "manifest_sha256": "8f59dca611447fca33f34ae7b16543dd745815e67e4bee5e6264efd7671372e5"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed1__episode15",
+      "manifest": "evidence/M70/20261004T083945-13e310a0/manifest.json",
+      "manifest_sha256": "808f2b4ae4d7a9d674635ec03e1d9ad96f913685a793dfbf0135cb9ae74720da"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed1__episode16",
+      "manifest": "evidence/M70/20261004T084118-ce64f74d/manifest.json",
+      "manifest_sha256": "79230711331a6e3e05be1d644aed4587cba1a81d681a3eac3fb25ab10c2afa9c"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed1__episode17",
+      "manifest": "evidence/M70/20261004T084250-7e553dac/manifest.json",
+      "manifest_sha256": "8a8f2701fb821b0fb8976dc69fdcb2de7c06e2a2b723e793a8d51b7313486630"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed1__episode18",
+      "manifest": "evidence/M70/20261004T084423-b2bf2c02/manifest.json",
+      "manifest_sha256": "51ebd1ebe6397a5f9ad50ee29174f1a233879fd79fc21c466b4326f70c0eaffe"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed1__episode19",
+      "manifest": "evidence/M70/20261004T084556-f648b235/manifest.json",
+      "manifest_sha256": "251162ffb06a404c29a278c5722487f1089b5d01a1480bc003160061f76c1a41"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed2__episode0",
+      "manifest": "evidence/M70/20261004T084729-607fd60f/manifest.json",
+      "manifest_sha256": "ef8f40e06e864bf7095a2b17a1a14a7d1eabba7069968a5e947f45547989daeb"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed2__episode1",
+      "manifest": "evidence/M70/20261004T084903-be8ebe5a/manifest.json",
+      "manifest_sha256": "f3b83edaac3e626d8ed5895be1660478cb4e9f34048b373d523195890f669bc4"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed2__episode2",
+      "manifest": "evidence/M70/20261004T085038-a232993b/manifest.json",
+      "manifest_sha256": "3e1b953c0d06f44d3bacada8326a7987451f735a917b0bf2e86d5940178f3299"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed2__episode3",
+      "manifest": "evidence/M70/20261004T085213-d9e3bf80/manifest.json",
+      "manifest_sha256": "32c7a5fe7ea1c087f3e141b09200bde14bb5af5f9723c78b412450954942d2c8"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed2__episode4",
+      "manifest": "evidence/M70/20261004T085344-1cb03ce9/manifest.json",
+      "manifest_sha256": "d319220e5da8f519dacd5605a5ee2abf3d54e9365634415ae4fe98c6ba3398ec"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed2__episode5",
+      "manifest": "evidence/M70/20261004T085517-5780d46d/manifest.json",
+      "manifest_sha256": "fc67674b39465cffb2914dc5aef78499d713977a7a617264f19fafeed9fef181"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed2__episode6",
+      "manifest": "evidence/M70/20261004T085650-a9e89eb1/manifest.json",
+      "manifest_sha256": "75ff441b4ef403db86fb2a0852ae17b772c6232fa59357a7a59cdcca7ef77200"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed2__episode7",
+      "manifest": "evidence/M70/20261004T085824-2d6f1b2a/manifest.json",
+      "manifest_sha256": "956bb8883ca4a8adaf8b2bef7646a0bc9703ad7922f8eacfd28341afbef5724a"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed2__episode8",
+      "manifest": "evidence/M70/20261004T090000-bf2fe5f2/manifest.json",
+      "manifest_sha256": "a182ef503730289dd4a93f631482d66a1eaa8a3de0c134f15a539216f45d4aba"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed2__episode9",
+      "manifest": "evidence/M70/20261004T090132-fe2aaa64/manifest.json",
+      "manifest_sha256": "6774681c5f763a2a7a85181a9f99bbe18c42092c72f3cc8c899658add689742e"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed2__episode10",
+      "manifest": "evidence/M70/20261004T090303-045d407c/manifest.json",
+      "manifest_sha256": "df709cbfa511789db6c36eb20be4e4dd8247bfd9174948014dcb74cb37e9e130"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed2__episode11",
+      "manifest": "evidence/M70/20261004T090435-7937b86e/manifest.json",
+      "manifest_sha256": "f14dc9051f27317cddfd0c73c6f352500e23b0045f0b965c906b9a5ece67cac7"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed2__episode12",
+      "manifest": "evidence/M70/20261004T090607-06328824/manifest.json",
+      "manifest_sha256": "f135f47432d9df2381c3caab333f8caa5acc310b3dde9a81755e273fa4e35b46"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed2__episode13",
+      "manifest": "evidence/M70/20261004T090738-e9e8013c/manifest.json",
+      "manifest_sha256": "ae79d711f43106368a681147a2476dd2f2487570d1f19e9a4f68ea4faf5c8821"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed2__episode14",
+      "manifest": "evidence/M70/20261004T090909-f5237a65/manifest.json",
+      "manifest_sha256": "e0da139648927fc97e30263dfc1833ef52fca8e92dc96922f2db55c34a596c3d"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed2__episode15",
+      "manifest": "evidence/M70/20261004T091038-b6d9c454/manifest.json",
+      "manifest_sha256": "f7cb9ddad85fc2d7d1ccd03ee2eb4c8e920db860fa85d453248864a330fdd56f"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed2__episode16",
+      "manifest": "evidence/M70/20261004T091209-10ea4f58/manifest.json",
+      "manifest_sha256": "0f023244d6cfd4b7ae434e87714335c631a05eada6292970df03ba76e90c3d4e"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed2__episode17",
+      "manifest": "evidence/M70/20261004T091340-a333914a/manifest.json",
+      "manifest_sha256": "aea995e5d96db915819210d4911cba8c39a6067b60f02661778bf0feb31af235"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed2__episode18",
+      "manifest": "evidence/M70/20261004T091511-744898a0/manifest.json",
+      "manifest_sha256": "1a38ffd881d144fe467cd75e346613a71e39691197ba53c0ed8ac939322b6ada"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed2__episode19",
+      "manifest": "evidence/M70/20261004T091643-f5d09082/manifest.json",
+      "manifest_sha256": "3136ec1eda1e97556ab207466f294e9f9b14b4706893541f00aeac03976ce28e"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed3__episode0",
+      "manifest": "evidence/M70/20261004T091816-5f20ed2e/manifest.json",
+      "manifest_sha256": "9c3dd22fd125bc07aeabb9611faffb054a481118f558e21541959f5df4cbed6f"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed3__episode1",
+      "manifest": "evidence/M70/20261004T091949-126ac333/manifest.json",
+      "manifest_sha256": "8a5d90e1a91dd6681fa89375f12087bf5592457d17a1d3a8885d323316b4f956"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed3__episode2",
+      "manifest": "evidence/M70/20261004T092122-a3e52fde/manifest.json",
+      "manifest_sha256": "a9ada164c632fc49cde929b825df643c05097e1a7eabd433efbdc7de4f2aa865"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed3__episode3",
+      "manifest": "evidence/M70/20261004T092255-0f8b7e9b/manifest.json",
+      "manifest_sha256": "691423bffed2a4fecdc4524eb36f5dc4b9e2f9987cf8333698527979a0f95133"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed3__episode4",
+      "manifest": "evidence/M70/20261004T092427-c7c2065f/manifest.json",
+      "manifest_sha256": "4e0b7dcba7c8cab31c38ff732400e5bd6ad6f62b4b178ba7a58ed518267f4567"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed3__episode5",
+      "manifest": "evidence/M70/20261004T092600-6150400e/manifest.json",
+      "manifest_sha256": "1291177b340f530be9d15f5e28cfe3cf69bc7ff53064f6153785fefd3f757194"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed3__episode6",
+      "manifest": "evidence/M70/20261004T092732-1b40b0cb/manifest.json",
+      "manifest_sha256": "644ff742ce767d148afc4612000d3ac10ef00f7499c62b1a4c3f4847d820e6a7"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed3__episode7",
+      "manifest": "evidence/M70/20261004T092904-e2b15c40/manifest.json",
+      "manifest_sha256": "45a47f1c790e02c7068653ee1e9165f99fd97324e12efa2017618affa4c1c347"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed3__episode8",
+      "manifest": "evidence/M70/20261004T093036-b983c6c6/manifest.json",
+      "manifest_sha256": "6f0287a6c9e62a61e5d97d89543ac34fc0812c0433267d941b505d97efc86f6e"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed3__episode9",
+      "manifest": "evidence/M70/20261004T093209-997c96fb/manifest.json",
+      "manifest_sha256": "26b7d03bae240dbc57a2be587c8b271c202f8374477132bbf3ba8349bc78c064"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed3__episode10",
+      "manifest": "evidence/M70/20261004T093342-9350c08d/manifest.json",
+      "manifest_sha256": "3e6bc0a84a7e343dc2ee638a2a78fcfef593521d6907992a3ab48b45af3ef5d0"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed3__episode11",
+      "manifest": "evidence/M70/20261004T093515-b503a43a/manifest.json",
+      "manifest_sha256": "e35129260fc0402a9bf3c6a352ca07c20567afc564b794448ff4df2519fb3cf9"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed3__episode12",
+      "manifest": "evidence/M70/20261004T093648-1004fbd0/manifest.json",
+      "manifest_sha256": "63e99faafef0851441186aad85a625a4fb63b62f953b3fe2274aea4d2df814e7"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed3__episode13",
+      "manifest": "evidence/M70/20261004T093819-9389ad43/manifest.json",
+      "manifest_sha256": "996671869e5cad22eb7aa82f4251040479748bcb37e5248d9267b9caf50de418"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed3__episode14",
+      "manifest": "evidence/M70/20261004T093951-0e9c4b64/manifest.json",
+      "manifest_sha256": "d0fa4e65a919f189baac2bd5a38ef43271b7cabba16a81acb7c10968d45c0c9f"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed3__episode15",
+      "manifest": "evidence/M70/20261004T094123-f1ff335b/manifest.json",
+      "manifest_sha256": "ca786f1efca9a019fd80da86d9491f1efb1785556b7b0988f31953be7b6cfe74"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed3__episode16",
+      "manifest": "evidence/M70/20261004T094256-f646ac1f/manifest.json",
+      "manifest_sha256": "90323a293069c595549229330c385929d1b1e2c142918544f06c92759d0ecc8d"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed3__episode17",
+      "manifest": "evidence/M70/20261004T094428-e15c6ba3/manifest.json",
+      "manifest_sha256": "16a90fe7240028cbffc1ff522707fbf13eb76010d82db38472f1bd2ab6b54fc6"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed3__episode18",
+      "manifest": "evidence/M70/20261004T094602-0da66530/manifest.json",
+      "manifest_sha256": "ad66ad93fa913a109e65a730a91c721a838317024cd5d4f11b8a0698057c94c3"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed3__episode19",
+      "manifest": "evidence/M70/20261004T094734-4e3ec2ee/manifest.json",
+      "manifest_sha256": "8428e16b3ba42eef4eba363ca4f32112675a37fb1f12b8900160553e0751dc09"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed4__episode0",
+      "manifest": "evidence/M70/20261004T094906-ad9118fa/manifest.json",
+      "manifest_sha256": "c4261b9128c821ace6b9e1e3f348d2295159f44c68c3e4b85d53a735bce858de"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed4__episode1",
+      "manifest": "evidence/M70/20261004T095041-1cc2ee93/manifest.json",
+      "manifest_sha256": "43f31c10785ac2fe53e3b457c7f0622d79413d28c7fc8890f3691cf05e65ad8d"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed4__episode2",
+      "manifest": "evidence/M70/20261004T095216-147d7d29/manifest.json",
+      "manifest_sha256": "db2a8274004749be483443d9cec55407b24ef2fa929bd6eabb936f6b847f54fd"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed4__episode3",
+      "manifest": "evidence/M70/20261004T095351-57db3485/manifest.json",
+      "manifest_sha256": "4b2ff1225b02b21d5c13c0c605e40fc1f8feef15bcc7a8eb8acc9cea647db932"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed4__episode4",
+      "manifest": "evidence/M70/20261004T095526-df4253c4/manifest.json",
+      "manifest_sha256": "e86e279e4399e60e7229b603666defe89faba19aa5975e194b0414c6130aa1d0"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed4__episode5",
+      "manifest": "evidence/M70/20261004T095700-0b367309/manifest.json",
+      "manifest_sha256": "03cbf4cd2a68a1dfb83051ed536391b5b58be1280890b72b372a2deb30c32872"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed4__episode6",
+      "manifest": "evidence/M70/20261004T095836-d9518f07/manifest.json",
+      "manifest_sha256": "82f3e1f197666d727324aebb7153a6ee2a9db32a81b977f82cda414d014d8598"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed4__episode7",
+      "manifest": "evidence/M70/20261004T100011-51683743/manifest.json",
+      "manifest_sha256": "170a68c156eb578c3dbd5172651fe1975c29d828112353755f57a2b59a964bac"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed4__episode8",
+      "manifest": "evidence/M70/20261004T100149-2a18e61f/manifest.json",
+      "manifest_sha256": "b58e6a0ba672f0227333c875e253344bc5c53a9b3ed31fc2841451b910da3868"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed4__episode9",
+      "manifest": "evidence/M70/20261004T100324-13fec2fe/manifest.json",
+      "manifest_sha256": "3f38e359e2675cc769380d4657555071c27e36facb579925e72ee09937c6b339"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed4__episode10",
+      "manifest": "evidence/M70/20261004T100456-8f2bce15/manifest.json",
+      "manifest_sha256": "14068dd6068c7d45b776bb7a34674019abdc531b0df7a9bd8601008941378d2b"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed4__episode11",
+      "manifest": "evidence/M70/20261004T100629-3b27c3c6/manifest.json",
+      "manifest_sha256": "bcf16b444cd753d58a099b8411a2857808062048d3225759d6f97cee2b129f03"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed4__episode12",
+      "manifest": "evidence/M70/20261004T100806-4891a688/manifest.json",
+      "manifest_sha256": "191f4c80064ca6d5b85439af0d31f4e8bd13f95113d665948384f2267d038551"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed4__episode13",
+      "manifest": "evidence/M70/20261004T100946-e7f8a6d8/manifest.json",
+      "manifest_sha256": "8df3901667fa2629ba41e733855a03edb6f8b43a357c608d6918709d616d619e"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed4__episode14",
+      "manifest": "evidence/M70/20261004T101128-6ed7923d/manifest.json",
+      "manifest_sha256": "3a4a8c17b35ddf8213a73cef7c556922918a4e1c4bdf076462e3edf77ceae940"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed4__episode15",
+      "manifest": "evidence/M70/20261004T101306-32393d53/manifest.json",
+      "manifest_sha256": "74cfb55cd7885d15d38a37685bad091e4197a0d725b3d4fc8c28e508ea1de6e6"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed4__episode16",
+      "manifest": "evidence/M70/20261004T101438-e20265c3/manifest.json",
+      "manifest_sha256": "8bda7a12be79efd33ce7ccf20d3523d906f41b2376a536e15449bbf392135b29"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed4__episode17",
+      "manifest": "evidence/M70/20261004T101610-242365f9/manifest.json",
+      "manifest_sha256": "51227e8329e9021d5533b8cfdb78fc700cefa2e2d55c5178fd84b7bd6a27f262"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed4__episode18",
+      "manifest": "evidence/M70/20261004T101743-cbd36802/manifest.json",
+      "manifest_sha256": "165af74c7a92940e6e0b3943ca861fb7535e3d9108ea966d422e6b4dbc76c7f7"
+    },
+    {
+      "cell_id": "reference__direct__physics_fit__seed4__episode19",
+      "manifest": "evidence/M70/20261004T101917-644dbbc1/manifest.json",
+      "manifest_sha256": "99fea6cdb3c03f1cce239b45fd82cd3c4d3d0d748da2fb1232db6061608e2be8"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed0__episode0",
+      "manifest": "evidence/M70/20261004T102054-fc15669f/manifest.json",
+      "manifest_sha256": "3de2f876f4180f50b6eddd66f3921473bbf457f887b443cf2c8e371f1d2d022d"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed0__episode1",
+      "manifest": "evidence/M70/20261004T102220-a56545fd/manifest.json",
+      "manifest_sha256": "2398a3f92009475799ab380569476f88eb83c8dabfc9878a3ed1687ca623d81c"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed0__episode2",
+      "manifest": "evidence/M70/20261004T102349-b40cb188/manifest.json",
+      "manifest_sha256": "97b6014be056552e7b97651d0cdb4c8099df86f0f474e24caa2110841b354b66"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed0__episode3",
+      "manifest": "evidence/M70/20261004T102515-e93169f2/manifest.json",
+      "manifest_sha256": "b4e2df929615849af63f1fc16c7cd0365a62e1ec9603c3325047623860e0d8ce"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed0__episode4",
+      "manifest": "evidence/M70/20261004T102642-7d24c45a/manifest.json",
+      "manifest_sha256": "32fd004261b25b4e94f1bd02c445eb2227d91c73c3fa5e93eb77ddcfebcfd90e"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed0__episode5",
+      "manifest": "evidence/M70/20261004T102807-5f7c9f90/manifest.json",
+      "manifest_sha256": "f6396bef60c63c70e1da03b8e3cb952a47abfb1e8be8e0ab62e1c53cf690f70b"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed0__episode6",
+      "manifest": "evidence/M70/20261004T102929-7fdb4d47/manifest.json",
+      "manifest_sha256": "73c6dd710bf578bf13d1e1917e7132a3749d9813082d78e1ef9a82e0bf2c4f04"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed0__episode7",
+      "manifest": "evidence/M70/20261004T103052-ed2de13f/manifest.json",
+      "manifest_sha256": "c0de49b4e1441c17ad6f756a24cfa1dad940a827aab11d95b95f4966f452802c"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed0__episode8",
+      "manifest": "evidence/M70/20261004T103213-106e6423/manifest.json",
+      "manifest_sha256": "bd765f77c1dcff98d6100588fec4541f4136304936355295452de763e84def13"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed0__episode9",
+      "manifest": "evidence/M70/20261004T103332-8a67fae8/manifest.json",
+      "manifest_sha256": "6ae5aff45ddb65a500137f64eccbfbf04c929551ac589861d632d6df0884646f"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed0__episode10",
+      "manifest": "evidence/M70/20261004T103452-991fc611/manifest.json",
+      "manifest_sha256": "e1e9477a3fb36f628c51bf7d137759877d418987f4d0e733eb354889639ff7d1"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed0__episode11",
+      "manifest": "evidence/M70/20261004T103613-91abf6c6/manifest.json",
+      "manifest_sha256": "aa017494b90f98550c4455f5a162b4d16eca9b0ec0b3624ef5f2e9488a486db9"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed0__episode12",
+      "manifest": "evidence/M70/20261004T103733-812ec9bc/manifest.json",
+      "manifest_sha256": "1fa96ef7a9b3a80ccaacd0e8f7a425ebc606f39d614f19f8c0139cdf2b6e9e3f"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed0__episode13",
+      "manifest": "evidence/M70/20261004T103857-03ab701c/manifest.json",
+      "manifest_sha256": "506895b26c577150721ebad515c2e59f3cce291447bdcec6591ef84f86dbe0e9"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed0__episode14",
+      "manifest": "evidence/M70/20261004T104017-ee4459bc/manifest.json",
+      "manifest_sha256": "aa2d7bd36529c857b0d26ac8045a6d744220e5e785c76bf4e144192492dd008e"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed0__episode15",
+      "manifest": "evidence/M70/20261004T104138-2f555be4/manifest.json",
+      "manifest_sha256": "558d278237c46fe746bfb978696263c0b1ab814fd1248719fb34f087c3814deb"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed0__episode16",
+      "manifest": "evidence/M70/20261004T104258-ce00426f/manifest.json",
+      "manifest_sha256": "3a47150c4a4bb99310051906e7bde03383126c40a955af6b1e86acb4eaa9ef4a"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed0__episode17",
+      "manifest": "evidence/M70/20261004T104420-9db65835/manifest.json",
+      "manifest_sha256": "fe95528ef9b0866b4a6c3fad8796aae5db775b611bfb3e3abb13687f56a7f58e"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed0__episode18",
+      "manifest": "evidence/M70/20261004T104540-f7412bf9/manifest.json",
+      "manifest_sha256": "99aa6837997e11e1060ea19aca1fcfbb97ed362ac68e39a1782133f8cbafc4a9"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed0__episode19",
+      "manifest": "evidence/M70/20261004T104701-d777a15a/manifest.json",
+      "manifest_sha256": "c7572fc9fe7e8adb0f37823df32994917a06bddd72f9dec50bc07676f5591cab"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed1__episode0",
+      "manifest": "evidence/M70/20261004T104821-816e87eb/manifest.json",
+      "manifest_sha256": "bbbe73dfde7977f1cce70816749fb9f72dd63d7086422c9f04d390a736780d82"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed1__episode1",
+      "manifest": "evidence/M70/20261004T104941-f2e0c288/manifest.json",
+      "manifest_sha256": "f452341a100124b8148fc07255eb4072988c36cb3113b5820ed36bfad1fb13a6"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed1__episode2",
+      "manifest": "evidence/M70/20261004T105101-d5d3e921/manifest.json",
+      "manifest_sha256": "58043952997c5dec989aaf1c3a9f0b185fdfe7bfed83198a139e8e7b0289fc1d"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed1__episode3",
+      "manifest": "evidence/M70/20261004T105222-f10b29e8/manifest.json",
+      "manifest_sha256": "2b6295e0f4325c9a3106f15b845ea195396547a5ae09be5566e75fe4d9e0b5ef"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed1__episode4",
+      "manifest": "evidence/M70/20261004T105345-755be81c/manifest.json",
+      "manifest_sha256": "c3981cb5421e7afb54333cec8893326a38e66491749f144a8d1240d2ed6611c1"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed1__episode5",
+      "manifest": "evidence/M70/20261004T105509-90b0b8c5/manifest.json",
+      "manifest_sha256": "fa75c5e260a1dffda5ac85f7f9728fe329b350e233448949d328b5cfbdd508af"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed1__episode6",
+      "manifest": "evidence/M70/20261004T105633-230de89a/manifest.json",
+      "manifest_sha256": "3caed98936f3f5579bfc8437f01e09d9fb771a809866ff9466fe67f13cacdbe0"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed1__episode7",
+      "manifest": "evidence/M70/20261004T105757-8e3798e0/manifest.json",
+      "manifest_sha256": "73734b40ae267504116e1bb2e31b832fc2e6115c073ab1d975b87b0aa4b9c2fd"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed1__episode8",
+      "manifest": "evidence/M70/20261004T105923-ec7e373c/manifest.json",
+      "manifest_sha256": "3c833788fa14bcd3b5577d0f279ca0a88512676db5dabbae6006ab63eb15328d"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed1__episode9",
+      "manifest": "evidence/M70/20261004T110047-9f812cc0/manifest.json",
+      "manifest_sha256": "487f43b2b77e23527bfe7f90fba8d0b3939e45fd680e44b5ec9678a3771c04d4"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed1__episode10",
+      "manifest": "evidence/M70/20261004T110213-aab5e2b2/manifest.json",
+      "manifest_sha256": "7fd3f13a26a6df54fcd58fe83786427525a2fcb526fe36f039f745473f32df53"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed1__episode11",
+      "manifest": "evidence/M70/20261004T110338-de79ce7e/manifest.json",
+      "manifest_sha256": "f4f7ea7cf7bb4bf16187888af2bac7d6ac535ef85f72ed09b83d59ff696e2219"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed1__episode12",
+      "manifest": "evidence/M70/20261004T110504-b1b11419/manifest.json",
+      "manifest_sha256": "d57bac627178931ebda967c0b884e4027ce33845ccfb812c676fc67e5b3202c9"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed1__episode13",
+      "manifest": "evidence/M70/20261004T110631-91202eeb/manifest.json",
+      "manifest_sha256": "27c336d51fa0ab0fd1c622dcbec83b5d4afa431ef779e2ad9d759383430f72a8"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed1__episode14",
+      "manifest": "evidence/M70/20261004T110759-57251304/manifest.json",
+      "manifest_sha256": "daefd60432426fdbb815afd1a3cfc2cff91930b14a1749e9de22ba55422cc03a"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed1__episode15",
+      "manifest": "evidence/M70/20261004T110928-739ebf18/manifest.json",
+      "manifest_sha256": "5e9f2822ed05af0ecdee814865bca25e9f666f6ef2cfe5f1e7a6924a2670119b"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed1__episode16",
+      "manifest": "evidence/M70/20261004T111052-28b46c5b/manifest.json",
+      "manifest_sha256": "d8d73875e25d5d2ae374b255ebe56ea65a15a5a7ed8134a5c86523e1689e9c4f"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed1__episode17",
+      "manifest": "evidence/M70/20261004T111213-f381c104/manifest.json",
+      "manifest_sha256": "559221b022cc2d762c33caa28a81d76a858bea5f5fd50b80ef189f2c77ff1852"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed1__episode18",
+      "manifest": "evidence/M70/20261004T111334-0dbcf569/manifest.json",
+      "manifest_sha256": "0c75414c7d206ad6e30e10a8bd474a353c21087dd57f6f4b5178afc46527cb2f"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed1__episode19",
+      "manifest": "evidence/M70/20261004T111456-3c435b6c/manifest.json",
+      "manifest_sha256": "56b39ce256bd92d3db8502c1892d6673a81b3506ae9af59e980696fb34453c32"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed2__episode0",
+      "manifest": "evidence/M70/20261004T111617-2ba0071e/manifest.json",
+      "manifest_sha256": "cf0153a6bdb78a9fd86bc62a21bea287cfa7c1782ccbe336101c79fcb67a85f9"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed2__episode1",
+      "manifest": "evidence/M70/20261004T111739-236cdec0/manifest.json",
+      "manifest_sha256": "4bfe63dfdc97812e17fd9193a88eab800ac9e66085b50edbc96668adce2d98f1"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed2__episode2",
+      "manifest": "evidence/M70/20261004T111904-6da89482/manifest.json",
+      "manifest_sha256": "4a1f1ac6959e56a087cf602f3eeb5d1bbc32b571250ad81ce1fd318a4a903ad9"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed2__episode3",
+      "manifest": "evidence/M70/20261004T112028-09595179/manifest.json",
+      "manifest_sha256": "559b01659bdfa399adcde1af05e77cb1d86b7c0d9527338f4ad3481a1864d03a"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed2__episode4",
+      "manifest": "evidence/M70/20261004T112153-409db81f/manifest.json",
+      "manifest_sha256": "55c09892a0478f65284b189fd10b49ce9a32fa61924e0d40d4f3cf088a70a6f7"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed2__episode5",
+      "manifest": "evidence/M70/20261004T112317-ebb8303b/manifest.json",
+      "manifest_sha256": "2ae383bbd01e0977e996916068f20b0ec9d2f2f6c12fa4ebf4cd04dafa8e1448"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed2__episode6",
+      "manifest": "evidence/M70/20261004T112442-6173934e/manifest.json",
+      "manifest_sha256": "2bcc2789d2cf08bbbbcba4f044f3a29708dc24c1ec9d24847fb84e04218da5cd"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed2__episode7",
+      "manifest": "evidence/M70/20261004T112606-4f5fe9d1/manifest.json",
+      "manifest_sha256": "1d3b47010d473f924dbd90e2e55b13afb464b08f590eeb9a659bcd34bf3ec26b"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed2__episode8",
+      "manifest": "evidence/M70/20261004T112728-f7e6cdce/manifest.json",
+      "manifest_sha256": "903b581997ace50ac40b76e923df7d3fced859fa670ecded7b0b5f556f3d0963"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed2__episode9",
+      "manifest": "evidence/M70/20261004T112851-3db84bbe/manifest.json",
+      "manifest_sha256": "dd3afdaebc7075520df67b218d5a50c96290744af8d7dd50b54f1e2a097856eb"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed2__episode10",
+      "manifest": "evidence/M70/20261004T113015-245f1353/manifest.json",
+      "manifest_sha256": "81e25c1f71b3c9439df7d59fadbbf9e77b32f17802a443c8201358aeeeadbd9a"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed2__episode11",
+      "manifest": "evidence/M70/20261004T113136-6322fd2f/manifest.json",
+      "manifest_sha256": "dee23df4699bfe18c7d5d4cacb9b22a27097f7c734e0a49ab939edb168242e2c"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed2__episode12",
+      "manifest": "evidence/M70/20261004T113256-7897eb44/manifest.json",
+      "manifest_sha256": "14af02e5f276a2710fa459365f00470fbbebe82c762800f9a83dfd14d682cecb"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed2__episode13",
+      "manifest": "evidence/M70/20261004T113423-79a2f3ad/manifest.json",
+      "manifest_sha256": "2b48a6fec82024d07f03f03e5102b1bc852121062802310bef565508a725c8f2"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed2__episode14",
+      "manifest": "evidence/M70/20261004T113546-1b8d5e45/manifest.json",
+      "manifest_sha256": "7d2f68e82e12f80de6dbb3d271ec2a75c584bbcea196c9afb6634b34a476acc0"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed2__episode15",
+      "manifest": "evidence/M70/20261004T113710-64a5602a/manifest.json",
+      "manifest_sha256": "1f2ce6082913eac46a715604df1e5d5072b7015f4bbb0e2f1743218ab8184508"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed2__episode16",
+      "manifest": "evidence/M70/20261004T113833-bd906645/manifest.json",
+      "manifest_sha256": "709711c0ecf6b6136e78df09b629aaa8f9657602a9dec789fd842b8787aeb499"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed2__episode17",
+      "manifest": "evidence/M70/20261004T113956-9167b384/manifest.json",
+      "manifest_sha256": "b46e2aaf8809d597c49d3c033d9c9be68b8869ae3ad3af8d05173732da324b4b"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed2__episode18",
+      "manifest": "evidence/M70/20261004T114118-e5c15d5c/manifest.json",
+      "manifest_sha256": "6313ee2d344ab07826dbe87cf4a2659833b5f2673f70ab425773ec1d96b748d6"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed2__episode19",
+      "manifest": "evidence/M70/20261004T114240-b94349c9/manifest.json",
+      "manifest_sha256": "9c13b65cdd01151a7b05472b51762db203326798c4f8861e48e4b82dd436d2ba"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed3__episode0",
+      "manifest": "evidence/M70/20261004T114402-8329a9c7/manifest.json",
+      "manifest_sha256": "dbf099aa1fccc23b19ec1a0c422d35c22eb3e97c397f26683e96ec6437f76fbf"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed3__episode1",
+      "manifest": "evidence/M70/20261004T114525-8b2f9372/manifest.json",
+      "manifest_sha256": "06259dce1d5f5b6d2030e1536112074161a8b6517c38639b349807d29a6dc16f"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed3__episode2",
+      "manifest": "evidence/M70/20261004T114647-a45e805a/manifest.json",
+      "manifest_sha256": "6e45cdb774c9639a2f0eb7c30620d6122810008add550616e597278bbfd7a572"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed3__episode3",
+      "manifest": "evidence/M70/20261004T114808-3e11ff1c/manifest.json",
+      "manifest_sha256": "bff843eb906748bddd121197d31072278dfcef068b08daa60658e2998006d6eb"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed3__episode4",
+      "manifest": "evidence/M70/20261004T114930-5ec47583/manifest.json",
+      "manifest_sha256": "f68f0b664425b6fab61e49a6bdc777e19b21be2e43c59db59f4bdee1e52642e5"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed3__episode5",
+      "manifest": "evidence/M70/20261004T115054-95bdb534/manifest.json",
+      "manifest_sha256": "56691a6dd684590d697fd7da2f39e8f25ac30531583c4491e85bc52b8b7d897b"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed3__episode6",
+      "manifest": "evidence/M70/20261004T115217-fbc94451/manifest.json",
+      "manifest_sha256": "d80c2c5434747a1706074b4b25aa5f840096b96593ee7403c13ca03413d9c7e3"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed3__episode7",
+      "manifest": "evidence/M70/20261004T115339-c52c8969/manifest.json",
+      "manifest_sha256": "6a54d90ad2e232a8cb2aadd696c339e284f7af63eab4730af4e318050af30af2"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed3__episode8",
+      "manifest": "evidence/M70/20261004T115459-fd905432/manifest.json",
+      "manifest_sha256": "62c3688cea714bc1380041777d405200cffe4f727fc9952b125b3e9f6da4c6bb"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed3__episode9",
+      "manifest": "evidence/M70/20261004T115620-ac2c0218/manifest.json",
+      "manifest_sha256": "6735b5f2f42d626b286238a7790e1fadd6e3c18391cb89fca17f703c872605cc"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed3__episode10",
+      "manifest": "evidence/M70/20261004T115741-fdaf4b2a/manifest.json",
+      "manifest_sha256": "71e89809251e8402902a9aaeeafccfde73c2fcfa23c02e62f417d4a14a2a86e3"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed3__episode11",
+      "manifest": "evidence/M70/20261004T115900-453e8c22/manifest.json",
+      "manifest_sha256": "0c502fd78e86a76af633d637c9a2eb177da70169b5b79b2b881c6e01ce0a6894"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed3__episode12",
+      "manifest": "evidence/M70/20261004T120018-4b35350a/manifest.json",
+      "manifest_sha256": "335a10cdd197db40f3afd5aab2f8de9a3bd84cff9804ad41f501983496b6fa49"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed3__episode13",
+      "manifest": "evidence/M70/20261004T120137-34c02aeb/manifest.json",
+      "manifest_sha256": "3fa2e31c003f5ef3bbc1b0e05de034043c0b1f85e4c640d795a3e5eb9058c2ec"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed3__episode14",
+      "manifest": "evidence/M70/20261004T120256-5cc744f0/manifest.json",
+      "manifest_sha256": "c1d6407e38c158b45a28297d69cbdb48bab49a53ffbdbccd4dbeb75da2313e2b"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed3__episode15",
+      "manifest": "evidence/M70/20261004T120416-e4382fbe/manifest.json",
+      "manifest_sha256": "d82ab5312e5d8ed711c81428e45541d691d72e9642e2288ae9a7a0625300ea87"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed3__episode16",
+      "manifest": "evidence/M70/20261004T120535-110c1b11/manifest.json",
+      "manifest_sha256": "8abc7db6cd43bf711737f6042fec1776674b621a68755525a4a99369a5fe0208"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed3__episode17",
+      "manifest": "evidence/M70/20261004T120654-5b7ecc8e/manifest.json",
+      "manifest_sha256": "f457143ab9ce1f81b27de3d97f3c6331f2cc52471c67c4dae784c4aca3bca824"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed3__episode18",
+      "manifest": "evidence/M70/20261004T120813-49d7f2c1/manifest.json",
+      "manifest_sha256": "5a549a2e670b08aab6b768dbf138025813f533a1e8a8ccf72db8527f663c88f2"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed3__episode19",
+      "manifest": "evidence/M70/20261004T120931-02423d6a/manifest.json",
+      "manifest_sha256": "ef24c9dde0b5567d18164c017d292de3d204fbc213571414fd1b21b0bed064bd"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed4__episode0",
+      "manifest": "evidence/M70/20261004T121050-867e635e/manifest.json",
+      "manifest_sha256": "c0c5320cadcd22e6287d41682230e53ab951b25d90ace49ff272d442bbb139c7"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed4__episode1",
+      "manifest": "evidence/M70/20261004T121210-381019e2/manifest.json",
+      "manifest_sha256": "60169b4f5616927361ae571004af2c503138a3a73cd1e972945b4718756020ed"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed4__episode2",
+      "manifest": "evidence/M70/20261004T121331-86fda0ee/manifest.json",
+      "manifest_sha256": "b02d41f527ac9c2c2929be98dcff1dcf2a0a3badd5762cb2cfac3162ad73ec2f"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed4__episode3",
+      "manifest": "evidence/M70/20261004T121452-93787ea2/manifest.json",
+      "manifest_sha256": "ab81a8027807da803ca4ca313ede42d51f766e9977e08bf1ad6037dfb39d56ee"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed4__episode4",
+      "manifest": "evidence/M70/20261004T121615-3fcb8c13/manifest.json",
+      "manifest_sha256": "db4590f6b360d2ee12968e91b862f9c9695c1ab6172640502a26a94812cbbc0d"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed4__episode5",
+      "manifest": "evidence/M70/20261004T121737-620b1714/manifest.json",
+      "manifest_sha256": "c8db6e9424b9054053ee9167ec413b5f0d556274299a907a561ac7da53c521b3"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed4__episode6",
+      "manifest": "evidence/M70/20261004T121858-f37524f6/manifest.json",
+      "manifest_sha256": "92d63b312666e379050b8dd20dfd4ba3a1bc8b9150405cad90dc57cb360d3cf6"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed4__episode7",
+      "manifest": "evidence/M70/20261004T122021-9d386146/manifest.json",
+      "manifest_sha256": "99bb40e2c44a89b395b907b1b0003b38012dece24369dcac4bb55f3ae96c1912"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed4__episode8",
+      "manifest": "evidence/M70/20261004T122142-c9fd9f87/manifest.json",
+      "manifest_sha256": "346792b7c528cc5b15b9f62ac246650adc2682812383a63321e3fc6ca561c38c"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed4__episode9",
+      "manifest": "evidence/M70/20261004T122304-f9ca2fd6/manifest.json",
+      "manifest_sha256": "b65c61cba0ce8082b6c5150cad9c9b699a3a8a600bc8fb12986d9209d7f11cb4"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed4__episode10",
+      "manifest": "evidence/M70/20261004T122429-36f63422/manifest.json",
+      "manifest_sha256": "a4a8ce594e5ae946ba70cdf652f6e382643833659769ec1da1e8bfa340b6156f"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed4__episode11",
+      "manifest": "evidence/M70/20261004T122555-10bc2196/manifest.json",
+      "manifest_sha256": "ba6f8392ef316178c336b7d2bf4c846fec02f1f5de4e48a6c78b5d24cf2c0381"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed4__episode12",
+      "manifest": "evidence/M70/20261004T122724-d45868c7/manifest.json",
+      "manifest_sha256": "d4c767197324d819adce43b926fe600ada531712ed91a5bb629a60e7dbe7fdc1"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed4__episode13",
+      "manifest": "evidence/M70/20261004T122848-688257d5/manifest.json",
+      "manifest_sha256": "0feaf78ec2d098a7523630fc5dea47dba9e2130ec3d0ad3b6d636da1698a55e2"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed4__episode14",
+      "manifest": "evidence/M70/20261004T123014-6ca129bb/manifest.json",
+      "manifest_sha256": "58d2a5daa362954acbca37780176673575af9fe5f226b5b8fe25006d4fb43272"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed4__episode15",
+      "manifest": "evidence/M70/20261004T123134-988a433b/manifest.json",
+      "manifest_sha256": "719ca13d38e1f3d655000a99438a5adca08e3405669e6c80ba86b7b5c8a02f5e"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed4__episode16",
+      "manifest": "evidence/M70/20261004T123258-1b40bf82/manifest.json",
+      "manifest_sha256": "0e6862bbe3395792bc1158ee90adb1f325f2fb23cf489b4d504abb11fef43a4e"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed4__episode17",
+      "manifest": "evidence/M70/20261004T123421-38d9d43a/manifest.json",
+      "manifest_sha256": "36157a73fffb3a83717b4108e3e26cbbb6e0bc5677f877286a8ddc48f9af76c7"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed4__episode18",
+      "manifest": "evidence/M70/20261004T123543-3fb1e579/manifest.json",
+      "manifest_sha256": "f84dc43230854d8bbdc10c42546ce70505f007824451fe070f4b709c4c70c2a5"
+    },
+    {
+      "cell_id": "reference__direct__zero_command__seed4__episode19",
+      "manifest": "evidence/M70/20261004T123706-8b660242/manifest.json",
+      "manifest_sha256": "3e815495a4d389b509e4074f6a9e608703876fdfeb93af3605dde879dbaa4b34"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed0__episode0",
+      "manifest": "evidence/M70/20261004T123828-7200ef91/manifest.json",
+      "manifest_sha256": "14c76d1459935df3edcf05d2a1744167382b3725d9ee3d3b18738c2b1242d5d4"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed0__episode1",
+      "manifest": "evidence/M70/20261004T124201-2e38d494/manifest.json",
+      "manifest_sha256": "0e235ed68ca0351bd0d5f4956496bf822e7134c5f439d5c57d2cc92b4774c924"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed0__episode2",
+      "manifest": "evidence/M70/20261004T124536-d3de79dc/manifest.json",
+      "manifest_sha256": "8db9f286e5818e8d7d1ff89be089e0b62af60a097052cb45db8c63ea15af1287"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed0__episode3",
+      "manifest": "evidence/M70/20261004T124909-c07ccadd/manifest.json",
+      "manifest_sha256": "b888b0b0b93df7b967f591306a0322e1d0b69e89111c2a572319a40a3abf5e2c"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed0__episode4",
+      "manifest": "evidence/M70/20261004T125244-012e1e29/manifest.json",
+      "manifest_sha256": "1debb593d7a3006042084470e6e14294c1fc14896a52bf7d7964aa792950621e"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed1__episode0",
+      "manifest": "evidence/M70/20261004T125622-7c72588e/manifest.json",
+      "manifest_sha256": "e177de1939bb1914ddc5bf17ffdef1fad2ea56970f91c3d7fa08678383b9bb1f"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed1__episode1",
+      "manifest": "evidence/M70/20261004T125959-4820a7de/manifest.json",
+      "manifest_sha256": "26a9190084504064e5f032df2eeed5dcd795eb97f958c2811eb28b0002ac2b33"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed1__episode2",
+      "manifest": "evidence/M70/20261004T130339-eccb978a/manifest.json",
+      "manifest_sha256": "fd254f92a3fcbb8237c7a64448af775350c6a9dc122647bb51e91edb66e7ea8a"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed1__episode3",
+      "manifest": "evidence/M70/20261004T131332-07e242aa/manifest.json",
+      "manifest_sha256": "7025e21163762dfec3db683e4baf00db51d2e1f169978b3440573d688e2c8ab9"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed1__episode4",
+      "manifest": "evidence/M70/20261004T133212-160883f5/manifest.json",
+      "manifest_sha256": "10bbbebd10bf74cce2ed35732dfe8c7db0dc5f4799051e4c60b32aa83e9ba400"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed2__episode0",
+      "manifest": "evidence/M70/20261004T133551-b86cdab2/manifest.json",
+      "manifest_sha256": "c7b6d970c833825c0c6325f0db15326656cd37c7d0dc6b6c56ddad27c759ff27"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed2__episode1",
+      "manifest": "evidence/M70/20261004T133929-01562c2b/manifest.json",
+      "manifest_sha256": "4e29fcb214c99afb5a1efbecfd638074a94adad71949e7cff71a6b08cae5572a"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed2__episode2",
+      "manifest": "evidence/M70/20261004T134302-3ca3d140/manifest.json",
+      "manifest_sha256": "7785a443d80b668e7da00940108c855e78c01df00661c1fab87a2d38de6100bd"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed2__episode3",
+      "manifest": "evidence/M70/20261004T134640-776b9308/manifest.json",
+      "manifest_sha256": "a616ff3f73014b550f94a3fcecd3a49c793e32ed95d4d1d141076779bc0b9840"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed2__episode4",
+      "manifest": "evidence/M70/20261004T135018-8f440e0f/manifest.json",
+      "manifest_sha256": "e6d5565f336f4e50fbbaec82a406d62a139bc0617eb634da70d83760d13de0f1"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed3__episode0",
+      "manifest": "evidence/M70/20261004T135357-3ceb4a22/manifest.json",
+      "manifest_sha256": "c9b70895e954a1ab03255c0cc010a0c60a28606a63674e5957910d1bddb74b9e"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed3__episode1",
+      "manifest": "evidence/M70/20261004T135743-9060e7d2/manifest.json",
+      "manifest_sha256": "c3ca17227dc4b36be913ea33a1a0394a1c1cee0dae73c4cf2efe78d902b9d9bf"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed3__episode2",
+      "manifest": "evidence/M70/20261004T140126-b20a9290/manifest.json",
+      "manifest_sha256": "3d1da9af5314349fd1005621f16bbd076e0a3a8768ff8d75d7134dd40daf34cf"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed3__episode3",
+      "manifest": "evidence/M70/20261004T140505-6d5026ee/manifest.json",
+      "manifest_sha256": "9af1b5eb7f0de8515ec60f9415a4fc228dd280debbaacf364caf8592615f69e7"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed3__episode4",
+      "manifest": "evidence/M70/20261004T140840-bcbbad1a/manifest.json",
+      "manifest_sha256": "6c97d6014852e2be6960c127c29fe8c898d4736d1ec4e1bfd4cb7db40df191eb"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed4__episode0",
+      "manifest": "evidence/M70/20261004T141214-9f99ed8d/manifest.json",
+      "manifest_sha256": "f1643774abdad38ecb887be2aa75c37833adaac358ef26b9871df1a927d9cb07"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed4__episode1",
+      "manifest": "evidence/M70/20261004T141546-17124ec2/manifest.json",
+      "manifest_sha256": "376cbee93de9400eb6f893bc468114fda7f0cc2fd111208ee71ea2da15a60f06"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed4__episode2",
+      "manifest": "evidence/M70/20261004T141918-6127cc66/manifest.json",
+      "manifest_sha256": "0f84ff7fb40f3a13abd0664c722b5e5c49802fa78019fe634788f9b18b384d17"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed4__episode3",
+      "manifest": "evidence/M70/20261004T142246-caaa0e60/manifest.json",
+      "manifest_sha256": "a8df4cd4a9da1343f0b51ca3c36b56c769576f49354f8ca88151c07715887417"
+    },
+    {
+      "cell_id": "reference__direct__sim_oracle__seed4__episode4",
+      "manifest": "evidence/M70/20261004T142612-fef080e8/manifest.json",
+      "manifest_sha256": "b828080bd442331c1659472a001a5efbfdca068eb6396a0f272ed3e35c9fd7ce"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed0__episode0",
+      "manifest": "evidence/M70/20261004T142938-721c2dc8/manifest.json",
+      "manifest_sha256": "92f0e5e1aa443263bcc2bf3999a2e07ecff48bb0cd81b37ddde93962d3cc7161"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed0__episode1",
+      "manifest": "evidence/M70/20261004T143108-57ef382e/manifest.json",
+      "manifest_sha256": "659b3457dca6833e41d1a0d3b847624d108366323c87de1e24fde67a458fefde"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed0__episode2",
+      "manifest": "evidence/M70/20261004T143239-243fbcee/manifest.json",
+      "manifest_sha256": "5489ed99f03f62581e283ea826ea89036fb300221f7773aeb8166e9d1f31a183"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed0__episode3",
+      "manifest": "evidence/M70/20261004T143412-5960978a/manifest.json",
+      "manifest_sha256": "7303986271bc8225948159bb6cefe7fc428bc6d7f24c40a535ecf86039c78bb5"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed0__episode4",
+      "manifest": "evidence/M70/20261004T143549-b011f776/manifest.json",
+      "manifest_sha256": "dcefafe1df823b67a7b67ee88530c30ac3c164b652513321618b9c074de3bfc8"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed0__episode5",
+      "manifest": "evidence/M70/20261004T143724-2c841efa/manifest.json",
+      "manifest_sha256": "cc7a2584d27909170401b86884ebc546d649d6860886851c20212a96dc83e02f"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed0__episode6",
+      "manifest": "evidence/M70/20261004T143856-e64e21d0/manifest.json",
+      "manifest_sha256": "e3703990e34dfba15dd2f903e318509e94d5b18600d0b2d3f84bc79a66cd9d78"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed0__episode7",
+      "manifest": "evidence/M70/20261004T144028-e6db8d6b/manifest.json",
+      "manifest_sha256": "1dd9d065bbb5baf9ac5bfc795ab70c53d3dbd6cd031120294f067c9b988b2a47"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed0__episode8",
+      "manifest": "evidence/M70/20261004T144201-c038f641/manifest.json",
+      "manifest_sha256": "0617567211455e1bffce2863b7a6a42de3debaf2d8d167278a122eb3cdc00cab"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed0__episode9",
+      "manifest": "evidence/M70/20261004T144337-47db5b29/manifest.json",
+      "manifest_sha256": "cc0cbfdfcd8318ab2f0de192f5e6213b2bab2f8cffdef6bb2c0d82b7fa1496cb"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed0__episode10",
+      "manifest": "evidence/M70/20261004T144520-d58b9cd3/manifest.json",
+      "manifest_sha256": "c3984aa565b38499851f31d493ab0c9f49c8edb652abd22355cbae51563040a7"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed0__episode11",
+      "manifest": "evidence/M70/20261004T144707-b104a1d6/manifest.json",
+      "manifest_sha256": "45f110467e98ab7e2add9f938847243f54f2b6893d6e353253ad72a42fdb32e2"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed0__episode12",
+      "manifest": "evidence/M70/20261004T144851-6e620698/manifest.json",
+      "manifest_sha256": "037050f7b091168aaf90c427b2d590185cc3272ca67eddd41c33b6225aa06a42"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed0__episode13",
+      "manifest": "evidence/M70/20261004T145030-2f2cb96a/manifest.json",
+      "manifest_sha256": "d95a128054a5ba21ce4c9c37ce34c5e5f7dc92cc5616b1ef158bb022aceaec7e"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed0__episode14",
+      "manifest": "evidence/M70/20261004T145208-6e24b0ac/manifest.json",
+      "manifest_sha256": "668d363804c54e4a298bb5a7e1bafc398a79c195982e9316b8e8592bc2592061"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed0__episode15",
+      "manifest": "evidence/M70/20261004T145347-0f7a78f9/manifest.json",
+      "manifest_sha256": "86aea103e9cb661221bb75598d5b1743419cabf8d8b2150482c1b4cea5212a2e"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed0__episode16",
+      "manifest": "evidence/M70/20261004T145524-511d0fbd/manifest.json",
+      "manifest_sha256": "70953512e1059797524efe823dc05762663913db5d843152bc8ac4fc0ef894f3"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed0__episode17",
+      "manifest": "evidence/M70/20261004T145655-12b2ed3d/manifest.json",
+      "manifest_sha256": "d5d1e062eca7c5a897dd6883b93bae5ec75843378761856026889739cf335deb"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed0__episode18",
+      "manifest": "evidence/M70/20261004T145831-44285ce0/manifest.json",
+      "manifest_sha256": "ef6026a3c1923c8198269e168bd4be1464bc38aa62910750eb83116f8a5ffad2"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed0__episode19",
+      "manifest": "evidence/M70/20261004T150008-888ed144/manifest.json",
+      "manifest_sha256": "f8313dcc3435b59b8414447426ca51372eb148041a2de382df0a252d205df0cb"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed1__episode0",
+      "manifest": "evidence/M70/20261004T150502-ab6b5092/manifest.json",
+      "manifest_sha256": "fd26b258accd4b06979625f7bf3b3227caec14f8cb2661d82370fad3cd9daf1a"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed1__episode1",
+      "manifest": "evidence/M70/20261004T151314-5e3142e0/manifest.json",
+      "manifest_sha256": "2215032928990ac0a4703a8d2cb708f206d9e1fe08bc0f0cc297a90376807bda"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed1__episode2",
+      "manifest": "evidence/M70/20261004T151655-a5fe082b/manifest.json",
+      "manifest_sha256": "e89db21a39ee68a1b6dcfa0380acdbacc54f3be5c85c94f02edaef072d75046f"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed1__episode3",
+      "manifest": "evidence/M70/20261004T151838-8cd0dd2a/manifest.json",
+      "manifest_sha256": "4fc7612ccdac411be39badad76c9195648da323923bd8890546faa614e186acf"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed1__episode4",
+      "manifest": "evidence/M70/20261004T152015-58a3c382/manifest.json",
+      "manifest_sha256": "02385a2037ee7682630084735d16e82ef6ff16aaeb8b93cc75d2f210d8986177"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed1__episode5",
+      "manifest": "evidence/M70/20261004T152149-b772652a/manifest.json",
+      "manifest_sha256": "44c02b5ebc939177f00780a81576fadb983672c64b2f4d7ec89e7c34f7eb2930"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed1__episode6",
+      "manifest": "evidence/M70/20261004T152326-4ab389ce/manifest.json",
+      "manifest_sha256": "e50051c229cd6a3415bed4230872cc87f7655663451b7fd8ab1a961ff9e67d1f"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed1__episode7",
+      "manifest": "evidence/M70/20261004T152504-bc9492de/manifest.json",
+      "manifest_sha256": "279662573584a1410ae7fd722cd30ea48b94c0cc023928e886215e7be445117c"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed1__episode8",
+      "manifest": "evidence/M70/20261004T152644-76f08ca0/manifest.json",
+      "manifest_sha256": "2ee282f39ce6da3e5f95abd3010a7cdc0fcc00566ebb910cb4d9af2961a99a12"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed1__episode9",
+      "manifest": "evidence/M70/20261004T152823-cb0c8ff8/manifest.json",
+      "manifest_sha256": "b6c0e51d5db5187e687e52040aa3ba0cb5f9733fb1078766354f8ddc60eabe38"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed1__episode10",
+      "manifest": "evidence/M70/20261004T153003-5589a689/manifest.json",
+      "manifest_sha256": "8a5f0dbaf9c9c3b0a8872540e74e7d1d7e255faa9a64f5190044689a3d852b98"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed1__episode11",
+      "manifest": "evidence/M70/20261004T153138-978a180c/manifest.json",
+      "manifest_sha256": "629b099ff95138f7a5cfed8cbb9296bae9b1db42ea9f0db2abb1cd7775f4607c"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed1__episode12",
+      "manifest": "evidence/M70/20261004T153313-13d6d360/manifest.json",
+      "manifest_sha256": "490aedaef63eaf5da05ea1d6be99d9c13ec99e9d5f3a27b8ec294581d65bbd3c"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed1__episode13",
+      "manifest": "evidence/M70/20261004T153447-5b16e3bc/manifest.json",
+      "manifest_sha256": "61bd78db5d276b254cbe2f0b0c03e17ab13aa058ba5b7ee763c9ce4c4174a19c"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed1__episode14",
+      "manifest": "evidence/M70/20261004T153622-4c01a56a/manifest.json",
+      "manifest_sha256": "c438a9195217b0d04da7b4c2baefc88c8521dfd2145ec9301f909b5f6dd2c373"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed1__episode15",
+      "manifest": "evidence/M70/20261004T153757-a41d9a71/manifest.json",
+      "manifest_sha256": "a6ee72869636d2a062d78ebcf6540e81823f48e2e60da9f84d0a9b846348f725"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed1__episode16",
+      "manifest": "evidence/M70/20261004T153929-4dc7a31d/manifest.json",
+      "manifest_sha256": "8c87e3649224d15aa55fbfdf94c9ef182b80c691bff61044a11fd03c520ad0db"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed1__episode17",
+      "manifest": "evidence/M70/20261004T154102-18de6b75/manifest.json",
+      "manifest_sha256": "acb471f6d02754e631def94023eba018882cb9bb7c0026adf2c02ab503d8700d"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed1__episode18",
+      "manifest": "evidence/M70/20261004T154235-17dec93e/manifest.json",
+      "manifest_sha256": "c73dfd7b9cae5e29271415d8472d95f0392520a0542e085f2438c830085a8c2b"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed1__episode19",
+      "manifest": "evidence/M70/20261004T154408-c9e20656/manifest.json",
+      "manifest_sha256": "d9a7e2de55cd7c51a9fcc6c12bd5347ee37492c5ac028b83f065ca71ed3ccf21"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed2__episode0",
+      "manifest": "evidence/M70/20261004T154541-28186575/manifest.json",
+      "manifest_sha256": "687e6c6c73f92c5e30da0ab579c233dc2586b292a88f2dbbda412a3de4566124"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed2__episode1",
+      "manifest": "evidence/M70/20261004T154713-2dd4cd19/manifest.json",
+      "manifest_sha256": "9612e442d637e77d88162fffcb0a7075bd5ba7ca260e45fe4bf0f548b45dddd7"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed2__episode2",
+      "manifest": "evidence/M70/20261004T154842-b68c4851/manifest.json",
+      "manifest_sha256": "6d99ffa836c0b3a94fb1686f37a4f045f32e9ba8d17427838baa3f8f14455867"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed2__episode3",
+      "manifest": "evidence/M70/20261004T155012-516c5287/manifest.json",
+      "manifest_sha256": "50b83eb775fccf470f399b0b3bf7ebe2ff2c065d18d0173e555f54e699978e58"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed2__episode4",
+      "manifest": "evidence/M70/20261004T155142-c006edc5/manifest.json",
+      "manifest_sha256": "9178569a487d1f2bdbdf5bd85ef78ee4796f0440cd43f0f99902a6a1356c0619"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed2__episode5",
+      "manifest": "evidence/M70/20261004T155311-b5927723/manifest.json",
+      "manifest_sha256": "ef204e89dada022b8c765b6f9668271ade0dbace325dde09d1cd93d145d28541"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed2__episode6",
+      "manifest": "evidence/M70/20261004T155440-5a2a2ec5/manifest.json",
+      "manifest_sha256": "b5b9d0644148d3facbbd2ec3ff4c2a609c802a3a66be193a2c65a8139523a641"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed2__episode7",
+      "manifest": "evidence/M70/20261004T155612-40dc4368/manifest.json",
+      "manifest_sha256": "636ee78f3b06a21b7ba3504e91148a2f9b59a3f1ffb254d4865ac2a417a0800e"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed2__episode8",
+      "manifest": "evidence/M70/20261004T155746-57fe782e/manifest.json",
+      "manifest_sha256": "68044af660f630656c17b25e7a36f1ede2e51f330014ee3ac4b2549e28cb80f5"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed2__episode9",
+      "manifest": "evidence/M70/20261004T155921-14327f29/manifest.json",
+      "manifest_sha256": "f230858912a17719d69fce9cf0a730849037198d5b84e0a910f97311a050c3de"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed2__episode10",
+      "manifest": "evidence/M70/20261004T160059-d72c9637/manifest.json",
+      "manifest_sha256": "ad5f7ec677b2947b85ce5dcbabf6fd329e12439b6cad7349db572f34e3255649"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed2__episode11",
+      "manifest": "evidence/M70/20261004T160235-8c9d7ca5/manifest.json",
+      "manifest_sha256": "c858747784ee818f4bea67c075c934529b99dec17c487ff722ef7214cfab876e"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed2__episode12",
+      "manifest": "evidence/M70/20261004T160410-fd83f4ec/manifest.json",
+      "manifest_sha256": "5143e8d4bba4d61f69f65cfe1e012e27061211203390526842fdf44d34d78b99"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed2__episode13",
+      "manifest": "evidence/M70/20261004T160546-c27e17bd/manifest.json",
+      "manifest_sha256": "b816aa66b441e18d5d636d516706b2c038515060f0b530be80e36ada58d92ed9"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed2__episode14",
+      "manifest": "evidence/M70/20261004T160719-05214d1d/manifest.json",
+      "manifest_sha256": "aebae7189ed674c84996c6633c339181b916496ef77de9980d73c903b78875b2"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed2__episode15",
+      "manifest": "evidence/M70/20261004T160852-b881579a/manifest.json",
+      "manifest_sha256": "9173f51fa4026ec872883192233ef333ee04f7415c5fa22250732b07536ab229"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed2__episode16",
+      "manifest": "evidence/M70/20261004T161029-cf89ab86/manifest.json",
+      "manifest_sha256": "ee13795fafeefbafa9c0c71c47de594f87ee7a095162131ff163e436a1e0135f"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed2__episode17",
+      "manifest": "evidence/M70/20261004T161205-a318d9b3/manifest.json",
+      "manifest_sha256": "ae6da4c980023325447765207b3a73dd72f72a4b69caa3f75310bc68f8437373"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed2__episode18",
+      "manifest": "evidence/M70/20261004T161339-204c58b1/manifest.json",
+      "manifest_sha256": "b66b0cf5417a876f7956e8eedb7d55eba13839b122b70ec660c2ebae748c82c3"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed2__episode19",
+      "manifest": "evidence/M70/20261004T161511-f13a7b89/manifest.json",
+      "manifest_sha256": "8eeb3da170a62c45405b15b40e8fbc2439f74293bab99e9a2839b7e9a82b2567"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed3__episode0",
+      "manifest": "evidence/M70/20261004T161644-5ad39a86/manifest.json",
+      "manifest_sha256": "c9a6a810b13263762d5cb7e175b2e98cde3e15066bc33b4dab0735b275c0a4c6"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed3__episode1",
+      "manifest": "evidence/M70/20261004T161820-eebf1c3d/manifest.json",
+      "manifest_sha256": "bacfc3e1abfdd10b5cab612749e0b4955371a7f61c62cfef45237374f9c4763d"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed3__episode2",
+      "manifest": "evidence/M70/20261004T161951-9a9c3c7d/manifest.json",
+      "manifest_sha256": "f041fb87e32690be98b5896cae43c9d8088cb5eca4e35c36dfb3000f535ff2df"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed3__episode3",
+      "manifest": "evidence/M70/20261004T162123-4fd0a7d0/manifest.json",
+      "manifest_sha256": "39632f55b3f30366acb0e7b4075abd9f807efc8b16996a91c04d63c700919f90"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed3__episode4",
+      "manifest": "evidence/M70/20261004T162253-ed25d56d/manifest.json",
+      "manifest_sha256": "43bbe6c1f476c36b969a0a427e6a6122c48a748f12aea3845c588546b8229ef0"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed3__episode5",
+      "manifest": "evidence/M70/20261004T162428-8e134ab5/manifest.json",
+      "manifest_sha256": "0477b19e8ccede22b485a8452dc945177181e4f700294594419725253db45d69"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed3__episode6",
+      "manifest": "evidence/M70/20261004T162601-9888fcd4/manifest.json",
+      "manifest_sha256": "7abf6a8f6b96d9fc7e7fa41c6d6e47a5310e9b4fc2948effdeff41802ac9b02d"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed3__episode7",
+      "manifest": "evidence/M70/20261004T162732-e7a5a41c/manifest.json",
+      "manifest_sha256": "83662cd34271c6c56de07de2dd42accec190f372bbd2886a89aa626767a1a452"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed3__episode8",
+      "manifest": "evidence/M70/20261004T162906-d0adb94b/manifest.json",
+      "manifest_sha256": "8beda837066f4e7cfda3eb351413403f0d465154434af1f445ac96002bab5099"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed3__episode9",
+      "manifest": "evidence/M70/20261004T163037-8d9b51ad/manifest.json",
+      "manifest_sha256": "2aa767de536c0afba15de447c45caf859097d00f475ff3d3423b04d1b52123f6"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed3__episode10",
+      "manifest": "evidence/M70/20261004T163210-783ae4c4/manifest.json",
+      "manifest_sha256": "3ab46bbb580726dd4971114e0b9f6d085b4582f7c661157a06b3b1fb5dc8675d"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed3__episode11",
+      "manifest": "evidence/M70/20261004T163344-9ba7cdd5/manifest.json",
+      "manifest_sha256": "2c96fa6dfdf3db9774fd86787fa8d045d64c96803768ee7875f84ba6fb7f142c"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed3__episode12",
+      "manifest": "evidence/M70/20261004T163520-19941550/manifest.json",
+      "manifest_sha256": "b74a78c5bcf1ce9970685ba5a9e70913d244cc2b47f273e716c93d46780c9341"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed3__episode13",
+      "manifest": "evidence/M70/20261004T163656-7de382a1/manifest.json",
+      "manifest_sha256": "29d71307613aa65ac48ac5eb054091a93da0ff6aeda05fffd66ceeb948408857"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed3__episode14",
+      "manifest": "evidence/M70/20261004T163836-45044342/manifest.json",
+      "manifest_sha256": "3ccec7f3dd0a2fd0c47631bc6e44af9872ca591a2f19c7a203d4957252dc9b7f"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed3__episode15",
+      "manifest": "evidence/M70/20261004T164011-b8c82fc6/manifest.json",
+      "manifest_sha256": "e32a4009b3273014f59c4d98ba9e82dcb5cbc472ed655fa860457fb5f2313fe8"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed3__episode16",
+      "manifest": "evidence/M70/20261004T164145-fbe72c39/manifest.json",
+      "manifest_sha256": "9350e0387b08ca9829bb95f3a11422d99d1ea4f8176b87dfb0a3aee5ef0dc683"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed3__episode17",
+      "manifest": "evidence/M70/20261004T164318-ff217756/manifest.json",
+      "manifest_sha256": "1b56a6d0214c189b027f09d37ab96036155ab059fff2e24d00d381144f9cac17"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed3__episode18",
+      "manifest": "evidence/M70/20261004T164452-e1c52657/manifest.json",
+      "manifest_sha256": "8d18806bec7b3cf395292689eae6e82fda90b09070ed085918408ab6fe62448c"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed3__episode19",
+      "manifest": "evidence/M70/20261004T164628-c3455252/manifest.json",
+      "manifest_sha256": "864f116da85fb634830dddbe416300eba9925d189ed9487ea9740cde4e82bff4"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed4__episode0",
+      "manifest": "evidence/M70/20261004T164803-eab80dca/manifest.json",
+      "manifest_sha256": "52ca6d629a5ff6de94ae9d04260389b20946dec896d40364279342beedeb731d"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed4__episode1",
+      "manifest": "evidence/M70/20261004T164938-9da3c8a3/manifest.json",
+      "manifest_sha256": "5e1b46e309fa247c97b1c3252aa2eee48643ff7f835e3a6e1c11af6115166387"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed4__episode2",
+      "manifest": "evidence/M70/20261004T165115-132466aa/manifest.json",
+      "manifest_sha256": "ce98850634827b12e2681d9ad5f319a9ce1ac24737bed956aa919871fb30740b"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed4__episode3",
+      "manifest": "evidence/M70/20261004T165250-86729d4f/manifest.json",
+      "manifest_sha256": "92ed3c26d49d8fb39f4671204b75471cfa327dfaf8bdc0496d688538ba8f6a3c"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed4__episode4",
+      "manifest": "evidence/M70/20261004T165425-234564f4/manifest.json",
+      "manifest_sha256": "57632b04a81acfa8b5d3dea925a1d5d3c7e4754745f82627c9ea1750f2a33a8b"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed4__episode5",
+      "manifest": "evidence/M70/20261004T165558-f4483135/manifest.json",
+      "manifest_sha256": "f29d5ed36fd4c0b1fbc693138947f99c22ed2fef434de9da24dae291cf56f5b5"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed4__episode6",
+      "manifest": "evidence/M70/20261004T165733-107469b1/manifest.json",
+      "manifest_sha256": "ddf2c5831423a65d4232d7f7eb22c78fd98657a1aef31e01510284fb60b0151f"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed4__episode7",
+      "manifest": "evidence/M70/20261004T165908-1c47d5b4/manifest.json",
+      "manifest_sha256": "60a4fef0093bd8e0bc8162f6c7d01cc861918c8fbb01d142770ddc6d2ed5d629"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed4__episode8",
+      "manifest": "evidence/M70/20261004T170046-09264843/manifest.json",
+      "manifest_sha256": "fd890714e8332d992a71a161ec72d1ff6f9de83a0feda93739bf41404b310db7"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed4__episode9",
+      "manifest": "evidence/M70/20261004T170224-126166f5/manifest.json",
+      "manifest_sha256": "bd060952e4dd056085c84c8a0648ec18fc67647bb4fcf3d85e7926fdac335448"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed4__episode10",
+      "manifest": "evidence/M70/20261004T170358-27f4c9b2/manifest.json",
+      "manifest_sha256": "3f3ac494455cc87dcb34bb9656132a81094dbd464f47705c21b1d4def91123af"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed4__episode11",
+      "manifest": "evidence/M70/20261004T170532-78b37259/manifest.json",
+      "manifest_sha256": "af46fbe277385eb9ca994d367fd3675c703b99cddee210a6e225f9dc30802349"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed4__episode12",
+      "manifest": "evidence/M70/20261004T170707-04a2dba2/manifest.json",
+      "manifest_sha256": "d105fd2caf85bbe47fcf13327de5ecb3b38a954d238430afc3b8d4f98e88156d"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed4__episode13",
+      "manifest": "evidence/M70/20261004T170840-39ca5952/manifest.json",
+      "manifest_sha256": "adbb550f1931c7f50f84fcb6f7450ca614169612432bc542989419438242d829"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed4__episode14",
+      "manifest": "evidence/M70/20261004T171014-452420df/manifest.json",
+      "manifest_sha256": "21556f643473adafcc8535b50f1f7e9aaf1580f1ecb545a6afa4f3239dc4dc56"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed4__episode15",
+      "manifest": "evidence/M70/20261004T171147-14061620/manifest.json",
+      "manifest_sha256": "6e0d2c0d2e50ab6021bdc9ca2e46c9980bdcae6ee78a5aa07c5e267e06ae0c24"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed4__episode16",
+      "manifest": "evidence/M70/20261004T171320-1a0b4366/manifest.json",
+      "manifest_sha256": "51ad81fdbcbbb546dc66f82015e4ce9f7437ccb9578fc7e5ddbe0f8747723940"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed4__episode17",
+      "manifest": "evidence/M70/20261004T171455-64a91613/manifest.json",
+      "manifest_sha256": "00d4fa68eec95f58a937d2b011359db44f7010f23b46248c3d1672f70b4fce35"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed4__episode18",
+      "manifest": "evidence/M70/20261004T171630-a98ca3b6/manifest.json",
+      "manifest_sha256": "83389b9288241a4e2a03d03fac4591e03615d99bcfad1a946c1920620face74d"
+    },
+    {
+      "cell_id": "reference__lagged__physics_fit__seed4__episode19",
+      "manifest": "evidence/M70/20261004T171804-e324eada/manifest.json",
+      "manifest_sha256": "ff7b88c404384c8dcddc798d824ca4033db33329a3b09e56579a1a2555ba4b8e"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed0__episode0",
+      "manifest": "evidence/M70/20261004T171939-531a46f2/manifest.json",
+      "manifest_sha256": "d5dd191d445e6a0776a23a05b7f1ea234ed37aed3cd3e034d209f33c68071349"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed0__episode1",
+      "manifest": "evidence/M70/20261004T172100-b99dd5f5/manifest.json",
+      "manifest_sha256": "486560129c96dc61d48c12a55a026235b42535f257258a6b704b0abccbacf001"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed0__episode2",
+      "manifest": "evidence/M70/20261004T172221-5d7c4e5b/manifest.json",
+      "manifest_sha256": "5ba9918debf0d9c66780e6e07a3e6a847594d785cb7d33e269843b26a6fdaf1c"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed0__episode3",
+      "manifest": "evidence/M70/20261004T172342-68e498c7/manifest.json",
+      "manifest_sha256": "6d2facac18a202198553d91bdf018ac72a396113e205fa491141fa30021a5a78"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed0__episode4",
+      "manifest": "evidence/M70/20261004T172504-9b922b98/manifest.json",
+      "manifest_sha256": "4c4a1f1065b1b6fe0ba3914da35fcc2a447f93ea76e3bfb8facc20f81befe7ce"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed0__episode5",
+      "manifest": "evidence/M70/20261004T172626-90b77e1e/manifest.json",
+      "manifest_sha256": "f64c5d2edcf65cef022e9d8332f1354fa309a8a9e23457b9658184526da9d15b"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed0__episode6",
+      "manifest": "evidence/M70/20261004T172747-1d2654e2/manifest.json",
+      "manifest_sha256": "895a5daf3975ad2b322f0ae89cd949937646e253f0788aed4c0e918911c80a91"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed0__episode7",
+      "manifest": "evidence/M70/20261004T172909-3a0f4859/manifest.json",
+      "manifest_sha256": "98a8f6b09ae9a45258217c0a6ff884500623409c76dca5ffb1a4f929be5251ec"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed0__episode8",
+      "manifest": "evidence/M70/20261004T173029-c87ec516/manifest.json",
+      "manifest_sha256": "f7e3c69425245c1bcc9a14926e702ff275726823604cf757a2f40432e5a1ad19"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed0__episode9",
+      "manifest": "evidence/M70/20261004T173150-01491e4d/manifest.json",
+      "manifest_sha256": "e59b071ad1ee080c06a484600b7fb64659b1b39c0d47f89e87dc0e326e91deec"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed0__episode10",
+      "manifest": "evidence/M70/20261004T173315-68946ac1/manifest.json",
+      "manifest_sha256": "067a2a314866e6ff11de4f26d0b942d25fc8514bc32b915b33322b0f8a776851"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed0__episode11",
+      "manifest": "evidence/M70/20261004T173436-1f17cdca/manifest.json",
+      "manifest_sha256": "689e20aad2b823547ca1238101800ce49837fc15a4c15b782a60d19a70ea1e29"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed0__episode12",
+      "manifest": "evidence/M70/20261004T173557-e87b1adc/manifest.json",
+      "manifest_sha256": "0e6f4aeba4ac08c57d3a2c382f27e702da2d8051a908217a0b86ce517c595a61"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed0__episode13",
+      "manifest": "evidence/M70/20261004T173719-1b4f6a33/manifest.json",
+      "manifest_sha256": "84d4bb4dfa2ef692e218d71fc7724301aac1fb47a961ac839ce16b294a433686"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed0__episode14",
+      "manifest": "evidence/M70/20261004T173839-f0528c1f/manifest.json",
+      "manifest_sha256": "5dc45eb589ee6df6a565ab685c9e6905751895c61d41dcda4192c9401dd895e3"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed0__episode15",
+      "manifest": "evidence/M70/20261004T173959-aa077206/manifest.json",
+      "manifest_sha256": "edc5ad0c78caa5b2b6005a84efb94d998a6fc486837109350c270fef0ba60c9a"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed0__episode16",
+      "manifest": "evidence/M70/20261004T174124-a496bdd6/manifest.json",
+      "manifest_sha256": "a75c19c3daa8cdcae25c338c5bc9f39d30c692fe066f08d2c88dc92e61953d8a"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed0__episode17",
+      "manifest": "evidence/M70/20261004T174251-a04bb13b/manifest.json",
+      "manifest_sha256": "89998605453ba21f9dc99e36d46904e23dfb909782baf905336974273d648aa3"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed0__episode18",
+      "manifest": "evidence/M70/20261004T174413-6d6b52de/manifest.json",
+      "manifest_sha256": "175c8b51bdab1e6dbc85633a821391a6f9b753aaeb227b851cf2125462eec43b"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed0__episode19",
+      "manifest": "evidence/M70/20261004T174536-06c6e33d/manifest.json",
+      "manifest_sha256": "dcd4d04ae3ad0eb080790aa52a35c05769cfe1174395eab467b49077800314f5"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed1__episode0",
+      "manifest": "evidence/M70/20261004T174659-2f530a1d/manifest.json",
+      "manifest_sha256": "6b6d9207fc7f3db163f55a49afe470899693bbddaf23f97e36a03bac8c509737"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed1__episode1",
+      "manifest": "evidence/M70/20261004T174823-1d49bd55/manifest.json",
+      "manifest_sha256": "11fc4ec1f02f270f1bec56c5a34e04ebb237d11f9c1aea5bb59838c661b9a422"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed1__episode2",
+      "manifest": "evidence/M70/20261004T174948-7c19cec3/manifest.json",
+      "manifest_sha256": "7f0ce5fa1092ac65aede41ef284c46080b5e07d7d8bcb7ffd381adbd82b5ce51"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed1__episode3",
+      "manifest": "evidence/M70/20261004T175113-1b241bb4/manifest.json",
+      "manifest_sha256": "2f35514e8beb9f74d7d15a2b2e5b75049e9f1bdc833030f08320048a1287be6d"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed1__episode4",
+      "manifest": "evidence/M70/20261004T175239-996ddb1c/manifest.json",
+      "manifest_sha256": "587c3ae1502da668f147fe7e29523594f851d588284b5edcd4af3e74bb09dd63"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed1__episode5",
+      "manifest": "evidence/M70/20261004T175404-53630dc6/manifest.json",
+      "manifest_sha256": "8d928e2b706cb7df8cf261973fe6d964bd427968542d623e15ac092ac12842b6"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed1__episode6",
+      "manifest": "evidence/M70/20261004T175528-5622e424/manifest.json",
+      "manifest_sha256": "62c27909c8886a5ba9ee4752677d9678031cc4eb9064c7a8b91c71023eb22500"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed1__episode7",
+      "manifest": "evidence/M70/20261004T175655-c49feaa5/manifest.json",
+      "manifest_sha256": "fdee18e075b11d0e00c396da74f38580bb46fb45fcef332865988b8331db6f1a"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed1__episode8",
+      "manifest": "evidence/M70/20261004T175819-a34a3945/manifest.json",
+      "manifest_sha256": "16eb3fbf5f8e73846d30144e1c4ea207c8709387844f60ffe014ff8487dbf502"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed1__episode9",
+      "manifest": "evidence/M70/20261004T175941-82f0632a/manifest.json",
+      "manifest_sha256": "8d10663968b73d70ba6f7a72f9de3e0a44169a0cd85abbbe4fad3d5d7269692a"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed1__episode10",
+      "manifest": "evidence/M70/20261004T180102-373fe12a/manifest.json",
+      "manifest_sha256": "57c10d40ea1e06a76ace58d32c29c777277e23c930f577f0bd0f12aff63c5d8e"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed1__episode11",
+      "manifest": "evidence/M70/20261004T180221-658b5796/manifest.json",
+      "manifest_sha256": "7e4ff54d9ef25562045ba234b3cae9a5ad87f968e264b02deac678c50d9dff59"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed1__episode12",
+      "manifest": "evidence/M70/20261004T180340-c4bd9654/manifest.json",
+      "manifest_sha256": "a8227e86e97cecf80480c6a0221be10f33ceadfc3f7d8f7e632adea2eab5159e"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed1__episode13",
+      "manifest": "evidence/M70/20261004T180500-6373a05b/manifest.json",
+      "manifest_sha256": "80dc9a58f3536402134060161e2e6df2b79159658ccc5c5dfa84e6d13cc1cf3b"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed1__episode14",
+      "manifest": "evidence/M70/20261004T180620-cd7f8774/manifest.json",
+      "manifest_sha256": "076be47a8e324b26847f4e59088f94119580cf86da1a7bf53cceca025ba8d0d6"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed1__episode15",
+      "manifest": "evidence/M70/20261004T180743-59585a3b/manifest.json",
+      "manifest_sha256": "fb36e8399c38f70deeed045c4c550c472894139b039c2f975fb98197386a7198"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed1__episode16",
+      "manifest": "evidence/M70/20261004T180901-12f08b13/manifest.json",
+      "manifest_sha256": "a4e451e6293f5882783c90218a31c696c84ad7ec419accdb78e981cc71a9fedb"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed1__episode17",
+      "manifest": "evidence/M70/20261004T181020-160f382c/manifest.json",
+      "manifest_sha256": "6b84b1b3d9484d0fa2b1cd5fe202a00139af5164014ecf8c88802b58c2fd120e"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed1__episode18",
+      "manifest": "evidence/M70/20261004T181139-1fb2c97f/manifest.json",
+      "manifest_sha256": "bdda8e8398d9f59ed7a55fd3ebbbe9066d8b9762e71b6140d71ef0dae9ede42d"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed1__episode19",
+      "manifest": "evidence/M70/20261004T181258-d424da4c/manifest.json",
+      "manifest_sha256": "cb8cfe869edf077e678f082c9c6bee7758d692511dd31f6099d9b9928771294d"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed2__episode0",
+      "manifest": "evidence/M70/20261004T181417-e8e6b336/manifest.json",
+      "manifest_sha256": "865fd777b082d220437edd88d30f953c60275ed1deb3a23a5f844273f9168f02"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed2__episode1",
+      "manifest": "evidence/M70/20261004T181538-6f5bb21b/manifest.json",
+      "manifest_sha256": "58f0725901ac96430c4d1ba7ccde230ff2bfaf3222cc7b63b779afbfee25656b"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed2__episode2",
+      "manifest": "evidence/M70/20261004T181700-f611a6a9/manifest.json",
+      "manifest_sha256": "43163babdf89cb98999829803ec8e86f726b87d6b9098ff7af45a1d53e2b9861"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed2__episode3",
+      "manifest": "evidence/M70/20261004T181822-6e394b38/manifest.json",
+      "manifest_sha256": "922fe56cbe0a3ec30331687729093b19227fd16bc56b9ced15f364281027ea35"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed2__episode4",
+      "manifest": "evidence/M70/20261004T181945-a30bd0f6/manifest.json",
+      "manifest_sha256": "267938e454c43128ec981d378a7020c99de576f03270e7b92b1819b7578910d5"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed2__episode5",
+      "manifest": "evidence/M70/20261004T182108-22440114/manifest.json",
+      "manifest_sha256": "3b2d62234a01a3f3bf923d55f5933ea402209dad76b752efd66b287086321ac2"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed2__episode6",
+      "manifest": "evidence/M70/20261004T182231-061b61f2/manifest.json",
+      "manifest_sha256": "63d515e758f7d1987acf0f84a9a36586091d7dfa72f4a5b9dec4cec5030f05fd"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed2__episode7",
+      "manifest": "evidence/M70/20261004T182355-32c5a3d3/manifest.json",
+      "manifest_sha256": "356afce3dc6842d21ef80cd99b584c6f08da67c8b2cd3f706f79ba184e8e1891"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed2__episode8",
+      "manifest": "evidence/M70/20261004T182518-1258937c/manifest.json",
+      "manifest_sha256": "6748f3a47a147d9e6bdd206eda43b634569ad3365baaf333e020589c9f8455d3"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed2__episode9",
+      "manifest": "evidence/M70/20261004T182643-a5615ee1/manifest.json",
+      "manifest_sha256": "7dad4d4f29b692645d9c0dc99e5841d4d84dae2ecaedc441baa819939274b781"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed2__episode10",
+      "manifest": "evidence/M70/20261004T182807-2d2eebb3/manifest.json",
+      "manifest_sha256": "6633d30e6da916c54e0756df23d9eb16b54fed503970cf273802221f1fd4ff83"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed2__episode11",
+      "manifest": "evidence/M70/20261004T182929-80304ece/manifest.json",
+      "manifest_sha256": "3587e8cc65b3aaf4787bb75d92331873461b365ad3030131ce71dea78b595462"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed2__episode12",
+      "manifest": "evidence/M70/20261004T183050-a79539d5/manifest.json",
+      "manifest_sha256": "364b518834d8939836eb48ddff960ef8b61c2ad6c0db38a7805e210ddaad5874"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed2__episode13",
+      "manifest": "evidence/M70/20261004T183212-8496d738/manifest.json",
+      "manifest_sha256": "b2fce5779404e75885d7a15e8988db1c590f4a78628d71f6dd1a26170a000f53"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed2__episode14",
+      "manifest": "evidence/M70/20261004T183333-ac0de384/manifest.json",
+      "manifest_sha256": "021de46bb5e4b458118a34b3404ebc2e4bcb6c03b31a581756dddd79dc7a10d2"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed2__episode15",
+      "manifest": "evidence/M70/20261004T183454-0efdfc75/manifest.json",
+      "manifest_sha256": "adb31df1ce46159e44072daf7132c33da76e4a97ea8fc38793b3416e4ddb4218"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed2__episode16",
+      "manifest": "evidence/M70/20261004T183615-bcf18d98/manifest.json",
+      "manifest_sha256": "09b04d24cba9ed09224a330f220407da97c50933e7def24e60fba9017685956d"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed2__episode17",
+      "manifest": "evidence/M70/20261004T183737-e1428718/manifest.json",
+      "manifest_sha256": "fd49a8b6d9a7d6230498651fcec51d508d310d46af2704e7213200e7dc4ab48f"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed2__episode18",
+      "manifest": "evidence/M70/20261004T183859-183aca40/manifest.json",
+      "manifest_sha256": "3d8c1636e74b0b5d96c623cdaee2e948b718870ebd34ed90366e402fde409913"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed2__episode19",
+      "manifest": "evidence/M70/20261004T184020-a4b15e17/manifest.json",
+      "manifest_sha256": "d887723338dbb74a9b9d06e4ca5ddb8f56fe8b6aded35decd3af644f8e2f2e0e"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed3__episode0",
+      "manifest": "evidence/M70/20261004T184141-684c0e81/manifest.json",
+      "manifest_sha256": "9f32d2b8a681cf88a8cba6c39b26947f648ea20dc085af61e68fc20dfcfadf60"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed3__episode1",
+      "manifest": "evidence/M70/20261004T184303-04f4c57f/manifest.json",
+      "manifest_sha256": "8ad5907e76829b87e7480b537d2ad3c0c1cc154a8ae5e2decba9c7d41860858d"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed3__episode2",
+      "manifest": "evidence/M70/20261004T184424-3bfbb746/manifest.json",
+      "manifest_sha256": "37b0c28b87dcdb320d5f0473c842539798e346510aae6dfbbcb4fe591a6f8583"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed3__episode3",
+      "manifest": "evidence/M70/20261004T184546-4ada53ea/manifest.json",
+      "manifest_sha256": "62050f3e1919a60f343eeae3828c11ca51bcafb1db6b3bdd7c4508cf9161a573"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed3__episode4",
+      "manifest": "evidence/M70/20261004T184706-379a9f08/manifest.json",
+      "manifest_sha256": "30dac44e18aed0ba674b7bf387f7989a3ef1321006c4d7e292df525d10da9f11"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed3__episode5",
+      "manifest": "evidence/M70/20261004T184826-79b61e2f/manifest.json",
+      "manifest_sha256": "1a4323a6c50b0ce49edc5dafb0678e2f8164e0e881a0a70b4fd9b1f884a13260"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed3__episode6",
+      "manifest": "evidence/M70/20261004T184948-555e33d0/manifest.json",
+      "manifest_sha256": "0973e7b31d9efaa0cd25cac240da1394fa106818bb6b62c1dbca21d5bce02dd7"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed3__episode7",
+      "manifest": "evidence/M70/20261004T185110-5c1d6dcd/manifest.json",
+      "manifest_sha256": "b3fd169db7ebc1dda4547af6352293ca67575c80bcfe4dd2863d2fd1e1b46be7"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed3__episode8",
+      "manifest": "evidence/M70/20261004T185231-f67c3cb6/manifest.json",
+      "manifest_sha256": "cf1d313ba05e4a3512e121ad128c44c779f7c878cb9d08ed94f655a6a2c43475"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed3__episode9",
+      "manifest": "evidence/M70/20261004T185353-cff630d0/manifest.json",
+      "manifest_sha256": "d56195f1130b0021a54a04f6b04cd607bd6559867aca4aac46b9614c8ab2abd7"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed3__episode10",
+      "manifest": "evidence/M70/20261004T185515-663c9a27/manifest.json",
+      "manifest_sha256": "4747453815714b471bf5fcf6e54555775c405f66f5db2ce8f6fbbefb4cb6dbf7"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed3__episode11",
+      "manifest": "evidence/M70/20261004T185639-d58c2ffc/manifest.json",
+      "manifest_sha256": "0b4292616c9dadd3825009add22f3e642f15092b0608db856c9658aea5c5b290"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed3__episode12",
+      "manifest": "evidence/M70/20261004T185806-54d2d561/manifest.json",
+      "manifest_sha256": "537036c0fc84a28e8f1e0644f5f28a48b61dbf0043e5ca70aae34e17c29c1928"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed3__episode13",
+      "manifest": "evidence/M70/20261004T185929-d6a25c4f/manifest.json",
+      "manifest_sha256": "de3f7fd689e8f037d4b3c0e680d27ef514c4a2ea4402a910a4ba4c314ac6ee87"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed3__episode14",
+      "manifest": "evidence/M70/20261004T190052-ea5ae0de/manifest.json",
+      "manifest_sha256": "4e3d72bae57497e58d42803a89f05b01173ef71ae254b87323fe3c02a5e1e17b"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed3__episode15",
+      "manifest": "evidence/M70/20261004T190216-cbc5347d/manifest.json",
+      "manifest_sha256": "e872f50901a385ef5b5f11c2d71006b648f9a3c59412fd7c829dde0646b51610"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed3__episode16",
+      "manifest": "evidence/M70/20261004T190339-48b0eb12/manifest.json",
+      "manifest_sha256": "7f3585264273e971ab6044eb76f31ca9e5cbb7ab5929444eba901cce19ecf448"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed3__episode17",
+      "manifest": "evidence/M70/20261004T190503-a731b920/manifest.json",
+      "manifest_sha256": "a70be3f24c8262b66789adac36019d287c40adf8b2c0b32c89aaea8f4f88d691"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed3__episode18",
+      "manifest": "evidence/M70/20261004T190625-5a634881/manifest.json",
+      "manifest_sha256": "da7d5a075fc88212ba9a3ea3d462dbb991a8da3f3b6c164d703d4c3d9a5adf0c"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed3__episode19",
+      "manifest": "evidence/M70/20261004T190745-9619f459/manifest.json",
+      "manifest_sha256": "50643ef2ea2afc57b8faea6a9bd46c98ccc1f323977bd47638fca374a9e48270"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed4__episode0",
+      "manifest": "evidence/M70/20261004T190904-1250626b/manifest.json",
+      "manifest_sha256": "2ca60c2b18c8aa65a8b5ca0a87d4f3395ab53437dbc06621e02170c2b96c6214"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed4__episode1",
+      "manifest": "evidence/M70/20261004T191022-4a6f3e17/manifest.json",
+      "manifest_sha256": "80f1dd95a40a9887817e441db27e3e5c3d8874aa21a097199e75a7661236b7d3"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed4__episode2",
+      "manifest": "evidence/M70/20261004T191141-1176a6f2/manifest.json",
+      "manifest_sha256": "961122a16aa644361bb9913dafba2ea58399b24e72d1bc623d6a0e49605d258f"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed4__episode3",
+      "manifest": "evidence/M70/20261004T191300-b0a21974/manifest.json",
+      "manifest_sha256": "366d4e8ec9a1db6ed3d3f5d3e80a8ec83dc5bdf6442823fb681df367ba2f087d"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed4__episode4",
+      "manifest": "evidence/M70/20261004T191419-38220027/manifest.json",
+      "manifest_sha256": "a9e1159fb7fb5a5d26d975331c2e7d8035fc436f41c0f00b7bbb6c8daa5f0dc6"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed4__episode5",
+      "manifest": "evidence/M70/20261004T191537-d1976830/manifest.json",
+      "manifest_sha256": "e9421b5430f483fc57d4dd7761b54024f8e8796b8afa61a050d0c2ce35cbd7c3"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed4__episode6",
+      "manifest": "evidence/M70/20261004T191656-5012d31b/manifest.json",
+      "manifest_sha256": "5052d60ebb6a380f6f4f421cb49410fec577252176e3d8509d95128f2a1bd8e2"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed4__episode7",
+      "manifest": "evidence/M70/20261004T191814-275fc309/manifest.json",
+      "manifest_sha256": "0ae750690d42c37831be9f26c656945404dd6dfab979f80ead8e127addbf0682"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed4__episode8",
+      "manifest": "evidence/M70/20261004T191933-761772c0/manifest.json",
+      "manifest_sha256": "9d514129cd2fc6a70ab30ad94fa5c623ca9ab8c4515dfbb3f98ab35d0d9215ad"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed4__episode9",
+      "manifest": "evidence/M70/20261004T192051-410a7a7d/manifest.json",
+      "manifest_sha256": "c664ba0d9ca903ced89bc06b52f56ff56a45edc93dd088596dfe286420c16269"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed4__episode10",
+      "manifest": "evidence/M70/20261004T192210-4e55bcbd/manifest.json",
+      "manifest_sha256": "10f0a1588010d706da75a8b31845f77b83e39a46181e8d321fa7670aaf58a588"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed4__episode11",
+      "manifest": "evidence/M70/20261004T192328-c2ceed0c/manifest.json",
+      "manifest_sha256": "59cfbfca67b8142e41a34162ec71886d70c091ed19d48bb08c1f611e55413aa7"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed4__episode12",
+      "manifest": "evidence/M70/20261004T192447-e36a1a19/manifest.json",
+      "manifest_sha256": "713c95f1a22ea539455f8ddab6e42136742c042845f2b9675e3b3f4648e638b7"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed4__episode13",
+      "manifest": "evidence/M70/20261004T192605-81ebd364/manifest.json",
+      "manifest_sha256": "335090ed999e716bbb794cd3439be80f7c609959b9a94a698d91e13a8ab0e0e5"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed4__episode14",
+      "manifest": "evidence/M70/20261004T192724-f0cc1d31/manifest.json",
+      "manifest_sha256": "d899b22c2fb859ceb19ea6caa5564f57cf0992a1139309c3da5c199170610423"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed4__episode15",
+      "manifest": "evidence/M70/20261004T192842-09f6da65/manifest.json",
+      "manifest_sha256": "dddcadf66c3df8fe545a3da4f5c31889f1b62c42efbdfe0955f969da2c3f09d1"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed4__episode16",
+      "manifest": "evidence/M70/20261004T193001-1e7818a2/manifest.json",
+      "manifest_sha256": "42512530c76ee26048526a1b24011ece95dfe3bd63005c919ec41f1fc3149f91"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed4__episode17",
+      "manifest": "evidence/M70/20261004T193120-f545fbac/manifest.json",
+      "manifest_sha256": "8728fc271d3bf841f10d3f1567594ff05a42f7e42a380d912de3df36a3cd3a1b"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed4__episode18",
+      "manifest": "evidence/M70/20261004T193239-281656f0/manifest.json",
+      "manifest_sha256": "64fd68e647f944fcd9da84a095512c60c89fa722e39370216cfe418bc25eeae5"
+    },
+    {
+      "cell_id": "reference__lagged__zero_command__seed4__episode19",
+      "manifest": "evidence/M70/20261004T193401-1257a1d8/manifest.json",
+      "manifest_sha256": "a45f829a686221b64607886d016789b0615d2296523c1f2fd699ff3f0ff54598"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed0__episode0",
+      "manifest": "evidence/M70/20261004T193525-9abd8153/manifest.json",
+      "manifest_sha256": "857f6f2fd79e93826f19e82b01a3cda62ffac65e2c54fddc67d02cb91115a581"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed0__episode1",
+      "manifest": "evidence/M70/20261004T193900-987798f2/manifest.json",
+      "manifest_sha256": "18cb0a81a20405119a545a2be29fcbb5fa8f59772e29ffe22a9ab48ce54b2814"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed0__episode2",
+      "manifest": "evidence/M70/20261004T194235-b100cee3/manifest.json",
+      "manifest_sha256": "0e74337d49be79c59b0226b9680c2e0b76d95642a69b74c1ad4414f87441f7ed"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed0__episode3",
+      "manifest": "evidence/M70/20261004T194609-75435031/manifest.json",
+      "manifest_sha256": "3c7acfc1aedb3fc2e083f7361d7662b94a6732aeb94c6b538fd0b8b8ed203722"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed0__episode4",
+      "manifest": "evidence/M70/20261004T194943-19502464/manifest.json",
+      "manifest_sha256": "418cdf9bd6ace83be357b44fc77e28cbfb4993bb304d98ee8b400b2a8dbcca61"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed1__episode0",
+      "manifest": "evidence/M70/20261004T195313-c74178c7/manifest.json",
+      "manifest_sha256": "a331635e93bb4618a020cc6b9547edc0c96174e8fe70eb4bc9bdc4cec27e13f1"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed1__episode1",
+      "manifest": "evidence/M70/20261004T195642-1d152b71/manifest.json",
+      "manifest_sha256": "cb95b2530843805164cf89cd987602cc794ac59645e5de22aeaca7763b007e64"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed1__episode2",
+      "manifest": "evidence/M70/20261004T200014-077132ec/manifest.json",
+      "manifest_sha256": "9bd087a45ee09eaa2937e7127a1824baf088831016bef5b32532cb83439b7855"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed1__episode3",
+      "manifest": "evidence/M70/20261004T200356-6edd1b1b/manifest.json",
+      "manifest_sha256": "491497513bf9a062c1dd988831d7881e5d19cf03757d69312a322870a33eff7d"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed1__episode4",
+      "manifest": "evidence/M70/20261004T200735-6fb1236c/manifest.json",
+      "manifest_sha256": "0a2278abdea1a0979b8062da5b006f67f18ff575bcf788f9eb9fafac2a875ba6"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed2__episode0",
+      "manifest": "evidence/M70/20261004T201110-08441ea6/manifest.json",
+      "manifest_sha256": "0fc6aa5f14070fb21c704d3b039cad3dceffa587db52d09a8e3e02c231d99203"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed2__episode1",
+      "manifest": "evidence/M70/20261004T201445-80a73d2a/manifest.json",
+      "manifest_sha256": "8a8d884192eb234bdb71cb2f4ef2a69f6d61e2a6aba3c1bdd3b30e856265d148"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed2__episode2",
+      "manifest": "evidence/M70/20261004T201820-5eca1b0d/manifest.json",
+      "manifest_sha256": "c8790cfe68e119532783a52445dc29bd1ca7ef385effbf58ca19e701deedd8b5"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed2__episode3",
+      "manifest": "evidence/M70/20261004T202202-86280e4b/manifest.json",
+      "manifest_sha256": "adbe9ef6bd04165b2da6d5288c27e94bbf34998db6ad97a613c90f682134ec35"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed2__episode4",
+      "manifest": "evidence/M70/20261004T202545-f971b71b/manifest.json",
+      "manifest_sha256": "b2c2cc8164a4d07645c5fcc28ebcd93ad1b05915f1c67caee9c442ad3dfb5fbb"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed3__episode0",
+      "manifest": "evidence/M70/20261004T202932-30c0b86a/manifest.json",
+      "manifest_sha256": "c9df0ddd9de83e3370a27db6974a8cc0ad47758f2ee860414a3c9a50f4016fad"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed3__episode1",
+      "manifest": "evidence/M70/20261004T203315-192aef02/manifest.json",
+      "manifest_sha256": "8d9db2b0819442945b257e23dd8c0346f2d987830b42b0c62269cde2ff007fd7"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed3__episode2",
+      "manifest": "evidence/M70/20261004T203700-d23d88fa/manifest.json",
+      "manifest_sha256": "fc9b55b96db3c43aec56b78a8a0f6248b793f48b62abd1f1c6fb0e9d0ef985a6"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed3__episode3",
+      "manifest": "evidence/M70/20261004T204041-b3c69118/manifest.json",
+      "manifest_sha256": "8c2082f7657405c2fd39bf98a7283c44fbde72dfee9ebd62bb4fe62654493a2e"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed3__episode4",
+      "manifest": "evidence/M70/20261004T204420-f6ac2c2e/manifest.json",
+      "manifest_sha256": "e0f5dded305680964daaafba8defe94103430bdda86f99acc242801168dedfc5"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed4__episode0",
+      "manifest": "evidence/M70/20261004T204757-130230e6/manifest.json",
+      "manifest_sha256": "bab3ab9e5f0c9c528c8f4ca126ee9ff394311a09824a0938424a43015d964630"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed4__episode1",
+      "manifest": "evidence/M70/20261004T205133-7c71159f/manifest.json",
+      "manifest_sha256": "ffc07985e15717011a65fe45ece3d63fa5f965057b149ea216ee63c7ba42a629"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed4__episode2",
+      "manifest": "evidence/M70/20261004T205513-bb7c6c76/manifest.json",
+      "manifest_sha256": "6146672b90bc88b8875e4149546805069dd2063c2de427b2c29e411e21eb9ca2"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed4__episode3",
+      "manifest": "evidence/M70/20261004T205853-55c1b9ed/manifest.json",
+      "manifest_sha256": "54068b5eabd26ebfd7d502cf27bc41853fa87f8a356f9c7210c2f671a5a2294f"
+    },
+    {
+      "cell_id": "reference__lagged__sim_oracle__seed4__episode4",
+      "manifest": "evidence/M70/20261004T210232-55cb3f1e/manifest.json",
+      "manifest_sha256": "811a21acbdf311e2bb51d53c23667414cb94a7116f1b8aefff4726682ec4746b"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "reports/control_reference_batch.json",
+      "sha256": "ae21bde51b87d8764050f0a6512eccc662e2d6f22a69e000bf49e4cdca61a425"
+    },
+    {
+      "path": "reports/control_reference_audit.json",
+      "sha256": "c721247dd69ff8dbcdf8740a17867406ea38c18099dc6d74b0db5ce80f44422c"
+    },
+    {
+      "path": "config/control_reference_jobs.json",
+      "sha256": "c1ff5195dda2d071a4f4722784816df28925b5c03de3350bd25a1cff057fd000"
+    }
+  ],
+  "limitations": [
+    "Context for fixed paired tasks, not another trained-model superiority test.",
+    "The simulator reference covers 25 episodes per plant; compare it only on that matched subset.",
+    "Solver, numerical decision readiness, statistical control look and independent reproduction remain separate."
+  ],
+  "recorded_utc": "2026-10-04T21:08:23.154959+00:00",
+  "resources": {
+    "artifact_bytes": 1079004812,
+    "cpu_seconds": 45713.40822200003,
+    "free_disk_bytes_at_verification": 4355850240,
+    "max_recorded_peak_rss_bytes": 300875776,
+    "running_timer_seconds": 46553.501738084,
+    "scope": "Completed reference episode producers only; excludes preparation, audit, startup and other study phases"
+  },
+  "schema_version": 1,
+  "scientific_decision": "context_only_no_head_superiority_claim",
+  "state": "complete",
+  "statistical_look_reserved": false,
+  "verification": {
+    "complete_unique_expected_episodes": 450,
+    "episode_manifest_and_marker_hashes_verified": 450,
+    "fitted_physics_models_per_plant": 1,
+    "frozen_input_hashes_verified": 2235,
+    "raw_costs_and_outcomes_reconciled": 450,
+    "request_hashes_verified": 450
+  }
+}

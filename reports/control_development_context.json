@@ -1,0 +1,14 @@
+{
+  "copied_files": 419876,
+  "copied_inventory_sha256": "55b360bd337a712c28dfba005b1cd83f1c4727f975989efc7a3e2656454cfbc6",
+  "created_utc": "2026-10-01T23:17:44.859105Z",
+  "immutable_binary_policy": "Hardlinks only to immutable NPZ, tensor archives and wheels; never modify either name.",
+  "owner_amendment_path": "config/revisions/owner-objective-2026-10-01.json",
+  "owner_amendment_sha256": "da4216c94bc8afa9df0715db0a02f7b3e7fb8bdf06795348512a0194f1965791",
+  "purpose": "Complete original nominal-only development fits without modifying the sealed twenty-seed evidence",
+  "schema_version": 1,
+  "source_context": "study/precision-look-2/study/precision-look-3",
+  "source_snapshot_sha256": "4b40ef480f8c5d48ce01493f485c95786ea26ba0367829b4bf8fb1efc2ba1388",
+  "working_context": "study/control-development",
+  "working_context_record_sha256": "906dd2ebe9fdd2e2aaeeb71f7f7592a916f0c93388daf1b5c6da9922286c1c36"
+}

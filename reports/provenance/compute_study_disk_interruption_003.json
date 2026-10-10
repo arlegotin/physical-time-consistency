@@ -1,0 +1,21 @@
+{
+  "completed_store_jobs": 837,
+  "error": "OSError: [Errno 28] No space left on device while saving progress receipt",
+  "failed_command": "python -m poc.compute_study_episodes controls",
+  "logs": {
+    "reports/provenance/compute_study_disk_003_failed_episode-controls.log": "84e76c6c4b3ab8db2085852aa02fb13b2852c10d2fed2f81cc7f4ba7a86fe3c5",
+    "reports/provenance/compute_study_disk_003_failed_episode-pipeline.log": "3d6a6b2d5230b2879871cf135bae32bdb93ab3a2030d1a3c55a505dcb03d1893"
+  },
+  "prior_status": {
+    "source_sha256": "09f0a5dd8a6b810dfb9f7f0ca74d1a816cc917adb926c8e1324de33b470f7100",
+    "stages": [],
+    "started_utc": "2026-10-09T13:48:25.896270Z",
+    "state": "running_controls",
+    "updated_utc": "2026-10-09T13:48:25.901928Z"
+  },
+  "recorded_utc": "2026-10-09T16:13:34.449928Z",
+  "recovery_receipt": "reports/provenance/compute_study_disk_recovery_003.json",
+  "resume": "Same frozen producer and content-addressed job keys; reuse completed jobs, append missing receipt, then continue remaining tasks",
+  "saved_receipts": 836,
+  "sources_and_selected_models_valid": true
+}

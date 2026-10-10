@@ -1,0 +1,126 @@
+{
+  "protocol_id": "PTCO-EFF-0.1",
+  "scope": "Lagged actuator, ten development tasks, nominal 40 ms query/command clocks; batched optimized head versus original selected-head controller. Not a baseline-quality comparison or fresh population confirmation.",
+  "rows": [
+    {
+      "task": 0,
+      "old_manifest": "evidence/M40/20261003T002901-c6d5b32f/manifest.json",
+      "new_manifest": "evidence/M40/20261007T163651-9f5ccd9f/manifest.json",
+      "old_manifest_sha256": "f88d729fb39d4842af7a83e072ed34b740a0dd731016695aa9498cf10bac8413",
+      "new_manifest_sha256": "6f22e0c1217be3a0c1b695618c88c8b14cda7cc9a5551b43593f4f71565c3714",
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "max_activation_difference": 0.0,
+      "max_command_difference": 0.0,
+      "absolute_cost_difference": 0.0
+    },
+    {
+      "task": 1,
+      "old_manifest": "evidence/M40/20261003T002939-1b2bee86/manifest.json",
+      "new_manifest": "evidence/M40/20261007T163729-8ede149f/manifest.json",
+      "old_manifest_sha256": "260f087808e595ddfba27c98e10bcb3f2b28484b498506d85e04420d7106b20f",
+      "new_manifest_sha256": "70c8f9f9c51b8ffa2edb2a2e1bcd4cb42eaeebbbccbb263b3bf733af43ab7187",
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "max_activation_difference": 0.0,
+      "max_command_difference": 0.0,
+      "absolute_cost_difference": 0.0
+    },
+    {
+      "task": 2,
+      "old_manifest": "evidence/M40/20261003T003016-26e1c0f3/manifest.json",
+      "new_manifest": "evidence/M40/20261007T163809-c69320ae/manifest.json",
+      "old_manifest_sha256": "e6628d7248eaabf9649e117d9f0962cda346cb09d07b52d544bbb5b824ac70e8",
+      "new_manifest_sha256": "069592c3d9625898ccab4445f8439d9cd4724685a6f7c307433deb3a939e1fe5",
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "max_activation_difference": 0.0,
+      "max_command_difference": 0.0,
+      "absolute_cost_difference": 0.0
+    },
+    {
+      "task": 3,
+      "old_manifest": "evidence/M40/20261003T003054-b6a2f755/manifest.json",
+      "new_manifest": "evidence/M40/20261007T163847-ee1f03db/manifest.json",
+      "old_manifest_sha256": "9bb586d3897787f85d6c982ec43fe0c86a785656c3cc1739de138611b50fd81f",
+      "new_manifest_sha256": "f2c3ae06470fb41635fc261f6c5ef3515d4b7d0aba1722fa22c72e9edbaf6b2e",
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "max_activation_difference": 0.0,
+      "max_command_difference": 0.0,
+      "absolute_cost_difference": 0.0
+    },
+    {
+      "task": 4,
+      "old_manifest": "evidence/M40/20261003T003131-6f48b7c5/manifest.json",
+      "new_manifest": "evidence/M40/20261007T163925-a6454fd2/manifest.json",
+      "old_manifest_sha256": "ea888bf7eb2ff9b5ec4e5708cf7f657bc8ecbbf6f004b6751451d6418993fcff",
+      "new_manifest_sha256": "6301a58aacece5af3d546a3bcb7954a7a617c61ac80772798e949955f1a86686",
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "max_activation_difference": 0.0,
+      "max_command_difference": 0.0,
+      "absolute_cost_difference": 0.0
+    },
+    {
+      "task": 5,
+      "old_manifest": "evidence/M40/20261003T003209-2941e866/manifest.json",
+      "new_manifest": "evidence/M40/20261007T164004-acca1d31/manifest.json",
+      "old_manifest_sha256": "241b5fcc3cc8fbdf35618d8380ef73639f419bfa3c7622598408798e4563fee1",
+      "new_manifest_sha256": "0c4156455c4bde777cd29bf24746a2faf1a66317b3d2408f34935c097180c9fa",
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "max_activation_difference": 0.0,
+      "max_command_difference": 0.0,
+      "absolute_cost_difference": 0.0
+    },
+    {
+      "task": 6,
+      "old_manifest": "evidence/M40/20261003T003246-58168b64/manifest.json",
+      "new_manifest": "evidence/M40/20261007T164046-e1c6a3ab/manifest.json",
+      "old_manifest_sha256": "734b0b30a8ada8edc7d3710b0095505651bc9327027a44cab951bb075ff625f0",
+      "new_manifest_sha256": "e57579fba86ba47778a776d1ceca671faa14682c81d8a4a6785aa4c7f54c1209",
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "max_activation_difference": 0.0,
+      "max_command_difference": 0.0,
+      "absolute_cost_difference": 0.0
+    },
+    {
+      "task": 7,
+      "old_manifest": "evidence/M40/20261003T003323-b358ffb8/manifest.json",
+      "new_manifest": "evidence/M40/20261007T164128-b11bdd19/manifest.json",
+      "old_manifest_sha256": "d333b730441f683905b924c15a7cfcc4a331e02dd55f91464a45557ec73d9c47",
+      "new_manifest_sha256": "afd25b0701d834b0a84eecf150a34233b97aebaaa86eeb440def2dd60d18bc16",
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "max_activation_difference": 0.0,
+      "max_command_difference": 0.0,
+      "absolute_cost_difference": 0.0
+    },
+    {
+      "task": 8,
+      "old_manifest": "evidence/M40/20261003T003400-098f6220/manifest.json",
+      "new_manifest": "evidence/M40/20261007T164208-73cd09d4/manifest.json",
+      "old_manifest_sha256": "1899dc215f5952c0ebbfbf2a6876b3465b745cb80f230c3bbbfa728d3e1e5b44",
+      "new_manifest_sha256": "6bb2abf7f212ae8d72958651df3757602a99bc0f260ad0b8bcbe4dcb628895ce",
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "max_activation_difference": 0.0,
+      "max_command_difference": 0.0,
+      "absolute_cost_difference": 0.0
+    },
+    {
+      "task": 9,
+      "old_manifest": "evidence/M40/20261003T003437-161805af/manifest.json",
+      "new_manifest": "evidence/M40/20261007T164247-e8cc6cc3/manifest.json",
+      "old_manifest_sha256": "69a7af3891e3e61d3bc58e3531dfa7af8d23478d085f8ce0789346ec3a095645",
+      "new_manifest_sha256": "3603fe81044969bea31bda323163ef69d5c4ed61f3e84ae12b04187aa11df670",
+      "max_q_difference": 0.0,
+      "max_v_difference": 0.0,
+      "max_activation_difference": 0.0,
+      "max_command_difference": 0.0,
+      "absolute_cost_difference": 0.0
+    }
+  ]
+}
