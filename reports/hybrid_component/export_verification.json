@@ -1,0 +1,164 @@
+{
+  "all_checks_passed": true,
+  "artifact_hash_count": 79,
+  "csv_configuration_count": 48,
+  "lf_crlf_equivalent_csv_rows_and_line_ranges": true,
+  "csv_line_count": 49,
+  "newline_handling": "csv newline=\"\"; link ranges counted with bytes.decode().splitlines() (CRLF-aware)",
+  "local_link_count": 38,
+  "checked_links": [
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "component_findings.md"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "component_gate.json"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "short_calibration_findings.md"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "short_calibration_metrics.csv"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "short_calibration_result.json"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "short_calibration_learning_curves.svg"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "hybrid_recipe.json"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "source-freeze.json"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "numerical_replication.json"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "resource_audit.json"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "execution_commands.json"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "support_provenance.md"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "run_study_initial.py"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "orchestration_failure_traceback.txt"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "orchestration_failure.json"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "short_calibration_reproduce.md"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "run_study.py"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "replication_driver.py"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "run_numerical.py"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "audit_driver.py"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "verify_exports.py"
+    },
+    {
+      "document": "reports/hybrid_component/task4_execution_report.md",
+      "target": "write_execution_report.py"
+    },
+    {
+      "document": "docs/research-trajectory.md",
+      "target": "../reports/control_confirmation_result.md"
+    },
+    {
+      "document": "docs/research-trajectory.md",
+      "target": "../reports/control_precision_release_review_2026-10-07.md"
+    },
+    {
+      "document": "docs/research-trajectory.md",
+      "target": "../reports/efficiency_pilot_findings.md"
+    },
+    {
+      "document": "docs/research-trajectory.md",
+      "target": "../reports/shared_state_diagnostic_findings.md"
+    },
+    {
+      "document": "docs/research-trajectory.md",
+      "target": "../reports/affine_refinement_findings.md"
+    },
+    {
+      "document": "docs/research-trajectory.md",
+      "target": "../reports/compute_study_findings.md"
+    },
+    {
+      "document": "docs/research-trajectory.md",
+      "target": "../reports/compute_study_interpretation.md"
+    },
+    {
+      "document": "docs/research-trajectory.md",
+      "target": "../reports/short_calibration_pilot/pilot_execution_findings.md"
+    },
+    {
+      "document": "docs/research-trajectory.md",
+      "target": "superpowers/plans/2026-10-12-short-calibration-pilot-scope-amendment.md"
+    },
+    {
+      "document": "docs/research-trajectory.md",
+      "target": "../reports/hybrid_component/component_findings.md"
+    },
+    {
+      "document": "docs/research-trajectory.md",
+      "target": "../reports/hybrid_component/task4_execution_report.md"
+    },
+    {
+      "document": "docs/research-trajectory.md",
+      "target": "superpowers/specs/2026-10-12-hybrid-affine-component-design.md"
+    },
+    {
+      "document": "docs/research-trajectory.md",
+      "target": "../README.md"
+    },
+    {
+      "document": "docs/research-trajectory.md",
+      "target": "superpowers/specs/2026-10-12-short-calibration-affineflow-design.md"
+    },
+    {
+      "document": "docs/research-trajectory.md",
+      "target": "../reports/short_calibration_pilot/task9_execution_report.md"
+    },
+    {
+      "document": "docs/research-trajectory.md",
+      "target": "../reports/hybrid_component/component_gate.json"
+    }
+  ],
+  "source_runtime_recipe_and_spec_match_freeze": true
+}

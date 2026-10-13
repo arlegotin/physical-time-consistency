@@ -1,0 +1,245 @@
+{
+  "all_equal": true,
+  "decision_checks": [
+    {
+      "all_costs_feasibility_selection_and_regret_equal": true,
+      "checked_candidate_coordinates": 2048,
+      "max_abs_predicted_cost_difference": 0.0,
+      "model_id": "affine_rk4",
+      "state_ids": [
+        0,
+        1512
+      ]
+    },
+    {
+      "all_costs_feasibility_selection_and_regret_equal": true,
+      "checked_candidate_coordinates": 2048,
+      "max_abs_predicted_cost_difference": 0.0,
+      "model_id": "node_actuator_aware",
+      "state_ids": [
+        0,
+        1512
+      ]
+    },
+    {
+      "all_costs_feasibility_selection_and_regret_equal": true,
+      "checked_candidate_coordinates": 2048,
+      "max_abs_predicted_cost_difference": 0.0,
+      "model_id": "physics_residual",
+      "state_ids": [
+        0,
+        1512
+      ]
+    }
+  ],
+  "elapsed_wall_s": 95.80750454099325,
+  "evaluation_arrays_equal": true,
+  "fits": [
+    {
+      "all_selected_tensors_equal": true,
+      "canonical_tensor_hash_equal": true,
+      "canonical_tensor_sha256": "9cef82d2876ebca7fa7aebd587f334b9b4aad85e008b69a4222409774baaf1e4",
+      "coordinate": {
+        "budget_s": 30,
+        "initialization_id": 0,
+        "model_id": "affine_rk4",
+        "session_id": 0
+      },
+      "primary_receipt": {
+        "job_key": "97752080181bcd137cba33852706789765cb7b9fd5a20cf3b4be6aee415590d6",
+        "manifest_sha256": "1433b73c3f6775532f184e605e1a22040db1a65b3a74903eebc57cb7e03c0bd2",
+        "path": "jobs/fit/97752080181bcd137cba33852706789765cb7b9fd5a20cf3b4be6aee415590d6"
+      },
+      "replica_receipt": {
+        "job_key": "b4035d7dfd5211e380e1ea922dd8428c8871f83b395f8b0940363bf0191b809c",
+        "manifest_sha256": "c1ce3721c4e1f4c38410d95550d8a35852b0e96d8819ff35e878a80555203926",
+        "path": "jobs/fit/b4035d7dfd5211e380e1ea922dd8428c8871f83b395f8b0940363bf0191b809c"
+      },
+      "selected": {
+        "epoch": 680,
+        "four_count": 132,
+        "four_step": 0.02278955839574337,
+        "learning_rate": 0.0003,
+        "objective": 0.006484580226242542,
+        "one_count": 150,
+        "one_step": 0.0007871906273066998,
+        "rate_index": 1
+      },
+      "selected_validation_equal": true
+    },
+    {
+      "all_selected_tensors_equal": true,
+      "canonical_tensor_hash_equal": true,
+      "canonical_tensor_sha256": "dfb4e86d979b255fd6cf193174e760c1f9419a9efd3e7b906f78e7300bcf3256",
+      "coordinate": {
+        "budget_s": 30,
+        "initialization_id": 0,
+        "model_id": "node_actuator_aware",
+        "session_id": 0
+      },
+      "primary_receipt": {
+        "job_key": "361b3244b4f0f93e7985d8c1bedafd2e40ba9fff8ee3970e2e06e827d2d7cd63",
+        "manifest_sha256": "f6d5d51b2165b15734e19db77361d654b530dae9ff7a7592cbebae65b455105d",
+        "path": "jobs/fit/361b3244b4f0f93e7985d8c1bedafd2e40ba9fff8ee3970e2e06e827d2d7cd63"
+      },
+      "replica_receipt": {
+        "job_key": "73d3aab7c322a7ee7ebcd075d41d686b93866c11b5bfebc02b681d58371d076a",
+        "manifest_sha256": "4abcfd1a77cdc05de69acafe2b8d940e4348e6cc04b25d2b8a99f6c2d98b6944",
+        "path": "jobs/fit/73d3aab7c322a7ee7ebcd075d41d686b93866c11b5bfebc02b681d58371d076a"
+      },
+      "selected": {
+        "epoch": 1000,
+        "four_count": 132,
+        "four_step": 0.04832391068339348,
+        "learning_rate": 0.0003,
+        "objective": 0.013494924758560956,
+        "one_count": 150,
+        "one_step": 0.001413947087712586,
+        "rate_index": 1
+      },
+      "selected_validation_equal": true
+    },
+    {
+      "all_selected_tensors_equal": true,
+      "canonical_tensor_hash_equal": true,
+      "canonical_tensor_sha256": "29e196aa5cb4f362f66bbf2e54ef8ba681fd9337dea1f8a013f9ddefc322663b",
+      "coordinate": {
+        "budget_s": 30,
+        "initialization_id": 0,
+        "model_id": "physics_residual",
+        "session_id": 0
+      },
+      "primary_receipt": {
+        "job_key": "b21c035b617e69cfb22c80ffeb960026732927a206fb2a7389d0c12133151b29",
+        "manifest_sha256": "b619537a99be8930076ba4ccc9de11662c5f7d5911817e53cead010d2230ab5d",
+        "path": "jobs/fit/b21c035b617e69cfb22c80ffeb960026732927a206fb2a7389d0c12133151b29"
+      },
+      "replica_receipt": {
+        "job_key": "3b35610653513f3b8a577453cb331ed61f407f92b101bd2754db41bbf52b9cd6",
+        "manifest_sha256": "690766b827b333ccedbcf83bd439e9c4edbf7508119ee8ac2118b7cee8ffba69",
+        "path": "jobs/fit/3b35610653513f3b8a577453cb331ed61f407f92b101bd2754db41bbf52b9cd6"
+      },
+      "selected": {
+        "epoch": 545,
+        "four_count": 132,
+        "four_step": 0.004442307632416487,
+        "learning_rate": 0.001,
+        "objective": 0.0012575465661939234,
+        "one_count": 150,
+        "one_step": 0.00014696965808980167,
+        "rate_index": 0
+      },
+      "selected_validation_equal": true
+    }
+  ],
+  "independently_regenerated_candidate_banks_equal": true,
+  "prediction_checks": [
+    {
+      "all_predictions_truth_errors_envelopes_and_statuses_equal": true,
+      "checked_component_coordinates": 108,
+      "max_abs_difference": 0.0,
+      "model_id": "affine_rk4",
+      "state_ids": [
+        0,
+        1534,
+        1535
+      ]
+    },
+    {
+      "all_predictions_truth_errors_envelopes_and_statuses_equal": true,
+      "checked_component_coordinates": 108,
+      "max_abs_difference": 0.0,
+      "model_id": "node_actuator_aware",
+      "state_ids": [
+        0,
+        1534,
+        1535
+      ]
+    },
+    {
+      "all_predictions_truth_errors_envelopes_and_statuses_equal": true,
+      "checked_component_coordinates": 108,
+      "max_abs_difference": 0.0,
+      "model_id": "physics_residual",
+      "state_ids": [
+        0,
+        1534,
+        1535
+      ]
+    }
+  ],
+  "primary_output_root": "/private/tmp/physical-time-consistency-short-calibration",
+  "replica_output_root": "/private/tmp/physical-time-consistency-short-calibration-replication",
+  "resources": {
+    "accounting_status": "measured",
+    "active_cpu_s": 95.16086600000001,
+    "active_wall_s": 95.80460358301934,
+    "attempts": [
+      {
+        "active_cpu_s": 95.16086600000001,
+        "active_wall_s": 95.80460358301934,
+        "attempt_id": 1,
+        "boundary_count": 1,
+        "last_boundary_utc": "2026-10-12T18:31:57.479904Z",
+        "parent_producer_attempt": null,
+        "persistence_cpu_s": 2.0000000000575113e-06,
+        "persistence_wall_s": 2.458997187204659e-06,
+        "started_utc": "2026-10-12T18:30:21.672971Z",
+        "status": "completed",
+        "unknown_tail": false
+      }
+    ],
+    "cpu_s": 95.16086800000001,
+    "inactive_gaps_included": false,
+    "persistence_cpu_s": 2.0000000000575113e-06,
+    "persistence_wall_s": 2.458997187204659e-06,
+    "producer_key": null,
+    "resource_record_write_measured": false,
+    "scope": "producer active work plus measured checkpoint persistence; excludes inactive gaps, resource-ledger writes and post-producer finalization",
+    "wall_s": 95.80460604201653
+  },
+  "scope": "independent fresh-root fitting and numerical replication; resources excluded from primary commissioning projection",
+  "session_arrays_equal": true,
+  "truth_checks": {
+    "decisions": {
+      "all_cost_feasibility_and_envelope_values_equal": true,
+      "candidate_count": 256,
+      "maximum_resolution_cost_discrepancy": {
+        "125000/62500": 6.217248937900877e-14,
+        "250000/125000": 1.156408302449563e-12
+      },
+      "replayed_primary_adaptive_resolution_choices": true,
+      "resolution_ns": [
+        250000,
+        125000,
+        62500
+      ],
+      "state_ids": [
+        0,
+        1512
+      ],
+      "trajectory_ids": [
+        0,
+        63
+      ]
+    },
+    "predictions": {
+      "all_values_equal": true,
+      "audit_trajectory_ids": [
+        0,
+        63
+      ],
+      "case_count": 15,
+      "maximum_resolution_discrepancy": {
+        "125000/62500": 1.4876988529977098e-13,
+        "250000/125000": 2.042810365310288e-12
+      },
+      "resolution_ns": [
+        250000,
+        125000,
+        62500
+      ],
+      "state_count": 48
+    }
+  }
+}

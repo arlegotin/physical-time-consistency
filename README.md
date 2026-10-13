@@ -2,9 +2,22 @@
 
 **AffineFlow is a learned transition model for smooth torque-controlled robots.** It learns acceleration drift and torque response, then propagates position and velocity using known actuator dynamics. The aim is reliable prediction when a planner queries a model at a different timestep from its training data, with less neural computation than an RK4 neural ODE.
 
-The completed simulation study finds a **small, statistically supported control-cost advantage at matched CPU planning time**: AffineFlow with 40 ms queries reduces mean cost by **0.71% versus the strongest tested coarse NODE** and **1.07% versus a cheaper two-evaluation NODE**. The result covers **38 training seeds and 4,560 paired episodes** on one fully observed two-link arm with known actuator lag. Gains are conditional on this plant, corpus, controller and cost; the method does not win on every accuracy or speed metric.
+**Status: the continuation is complete, and active investment in this research direction has ended.** The short-calibration pilot and final physics-prior component study did not establish a practical AffineFlow advantage over stronger alternatives. Better state prediction in the final study did not produce acceptable decision quality in every calibration session; cheap two-evaluation alternatives were also faster in diagnostic timing measurements.
 
-[Results and uncertainty](reports/compute_study_findings.md) · [Simulation replay](reports/compute_study_demo.html) · [Method](docs/method.md) · [Reproduction](docs/reproduction.md) · [Citation](CITATION.cff)
+An earlier simulation study found a **small, statistically supported control-cost advantage at matched CPU planning time**: AffineFlow with 40 ms queries reduced mean cost by **0.71% versus the strongest tested coarse NODE** and **1.07% versus a cheaper two-evaluation NODE**. That result covers **38 training seeds and 4,560 paired episodes** on one fully observed two-link arm with known actuator lag. It remains scoped historical evidence; the follow-ups below tested different questions and stronger physical alternatives.
+
+[Final component findings](reports/hybrid_component/component_findings.md) · [Calibration pilot](reports/short_calibration_pilot/pilot_execution_findings.md) · [Research trajectory](docs/research-trajectory.md) · [Earlier control result](reports/compute_study_findings.md) · [Method](docs/method.md) · [Reproduction](docs/reproduction.md) · [Citation](CITATION.cff)
+
+## Latest continuation results
+
+The continuation asked whether AffineFlow needs less calibration data or computation to make useful decisions. It added two mechanism controls: the same torque-affine network propagated with RK4, and a two-evaluation actuator-aware NODE. Fitted physics and nominal physics plus a learned residual provided practical references. Every learned method trained through its own propagation rule.
+
+- **Standalone calibration pilot: `no_advantage`.** All 21 fits completed. Torque-affine models passed the provisional simulator screen with 30 seconds of calibration, but fitted physics and the physics residual did too. The residual improved prediction, decision regret and complete-scorer runtime versus AffineFlow at the same budgets and 20/40 ms partitions. This was one calibration session; the larger development matrix was not run.
+- **Final physics-prior component study: `no_component_advantage`.** All 30 neural fits across three fresh calibration sessions completed. At the fixed 30-second / 40-ms primary configuration, Flow reduced position RMSE by **20–38%** and velocity RMSE by **15–24%** versus the newly trained acceleration-residual RK4 reference. All prediction error bands passed, but realized selected-action cost was worse in session 3 beyond numerical uncertainty. Sessions 1 and 2 retained unresolved paired comparisons because the RK4 anchor had one invalid selected decision in each session.
+
+The final study's complete-scorer median was **16.40 ms for Flow**, **16.11 ms for the coefficient actuator-aware control**, and **14.39 ms for the acceleration actuator-aware reference**. These are diagnostic timings: no primary method passed the quality requirements in all sessions, so there was no eligible comparator for the declared 25% runtime-saving claim. The scorer evaluates a shared finite candidate bank; these are not physical control-loop deadline measurements.
+
+Fresh-process selected fits and numerical products reproduced exactly in both follow-ups. The studies use a noiseless, fully observed, two-joint simulator with known first-order actuator lag and provisional engineering thresholds. The negative results end this bounded research direction; they do not prove universal model inferiority. Code, complete outcomes, secondary improvements and unresolved comparisons are preserved. [Final execution account](reports/hybrid_component/task4_execution_report.md).
 
 ## Why physical time matters
 
@@ -30,9 +43,9 @@ Each prediction evaluates the network at the initial state and a predicted midpo
 
 AffineFlow is a later refinement of the original **discrete power head**. Its results are reported as a separate method and protocol, rather than as a success of the original PTCO-1.0 acceptance criteria.
 
-## Main control result
+## Earlier compute-matched control result
 
-The final `PTCO-COMPUTE-0.1` study compares AffineFlow against two mechanics-structured neural ODE (NODE) predictors: a four-evaluation RK4 implementation and a competitive two-evaluation acceleration-quadrature implementation. Both NODEs enforce `q_dot = v` and correct actuator semantics.
+The completed `PTCO-COMPUTE-0.1` study compares AffineFlow against two mechanics-structured neural ODE (NODE) predictors: a four-evaluation RK4 implementation and a competitive two-evaluation acceleration-quadrature implementation. Both NODEs enforce `q_dot = v` and correct actuator semantics.
 
 All models use the same augmented training corpus, one-plus-four-step endpoint objective, nominal-only checkpoint selection and optimizer opportunity. The controller uses six torque knots over a 240 ms horizon. Sensing, replanning and executed command holds stay at **40 ms**. Each model can use **5 ms or 40 ms internal queries**. Candidate counts were selected from timing before new control outcomes, then frozen; measured planning times satisfy the declared 10% matching tolerance.
 
@@ -48,7 +61,7 @@ The cost weights position error, joint speed, squared commanded torque and termi
 
 ## Accuracy and computation trade-offs
 
-These are separate measurements at **5 ms prediction intervals**, rather than the matched-compute controller result above:
+These are measurements from the earlier study at **5 ms prediction intervals**, separate from its matched-compute controller result and the calibration follow-ups:
 
 - **Prediction:** average position/velocity endpoint errors are 29.5%/22.8% lower than RK4 across equally weighted cold and warm probes. On warm, already-moving states, RK4 is more accurate: AffineFlow errors are 5.4%/11.2% higher.
 - **Batched inference:** at batch 128, AffineFlow takes 0.666 ms versus RK4's 0.956 ms, a 30.3% time reduction. Quadrature is faster at 0.516 ms.
@@ -81,7 +94,7 @@ See [reproduction instructions](docs/reproduction.md) for the prediction API, ve
 
 ## Evidence and limits
 
-The final study independently recomputes all 4,560 episode costs. **912 fresh-process replay and finer-physics comparisons pass**, first/last quadrature training replications reproduce selected tensors, and no controller episode uses an intrinsic failed-search fallback. Protocols and earlier statistical looks are retained. These are internal reproducibility checks, rather than independent laboratory replication.
+The earlier compute-matched study independently recomputes all 4,560 episode costs. **912 fresh-process replay and finer-physics comparisons pass**, first/last quadrature training replications reproduce selected tensors, and no controller episode uses an intrinsic failed-search fallback. Protocols and earlier statistical looks are retained. These are internal reproducibility checks, rather than independent laboratory replication.
 
 The supported claim concerns **one smooth, fully observed, known-lag, two-link simulated arm**, the fixed corpus and specified MPC workload. Contact, unknown actuator dynamics, larger robots, physical hardware, energy consumption and general state-of-the-art superiority remain untested. The prior is motivated by established mechanics; research novelty is not asserted.
 

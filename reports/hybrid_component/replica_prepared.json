@@ -1,0 +1,297 @@
+{
+  "bindings": {
+    "asset": "c81b8fb77da383d572f595ca2c8bb539e7b5b1082e1790bd761744b8a1daf3b8",
+    "executing_source": "9ed68f61895f214815f9bac2c9e546a01f896ec961b473d9e4634b2eb5535324",
+    "recipe": "686b276e7bf52543e6dac73edbb50e0e472ce9116a2914bc06ef656bfa5cda0f",
+    "root": "/workspace/physical-time-consistency",
+    "runtime": "03525754d9cb67e0475ab1243e222b4143e2a656115c733d1d9ed631aa69b624",
+    "source": "8ec160368c99b08aefee564b7f8ff569d31ab53563548bc696bcc5eb31eeac8f"
+  },
+  "protocol_id": "PTCO-CAL-0.1",
+  "recipe": {
+    "actuator": {
+      "command_unit": "N*m",
+      "joint_count": 2,
+      "kind": "lagged",
+      "state_order": [
+        "q1",
+        "q2",
+        "v1",
+        "v2",
+        "w1",
+        "w2"
+      ],
+      "tau_s": 0.08
+    },
+    "aggregation": {
+      "bootstrap": "paired session cluster; fixed namespace",
+      "bootstrap_draws": 10000,
+      "bootstrap_namespace": [
+        20261012,
+        1,
+        1,
+        0,
+        0,
+        5
+      ],
+      "bootstrap_rng": "PCG64 SeedSequence([20261012,1,role=1,session=0,trajectory=0,channel=5])",
+      "independent_cluster": "calibration session",
+      "initializations": "average within session",
+      "interval_percent": 95
+    },
+    "budgets_s": [
+      30,
+      120
+    ],
+    "collector": {
+      "commands_per_segment": 25,
+      "d_bounds": [
+        -0.75,
+        0.75
+      ],
+      "d_hold_ticks": 5,
+      "excitation_channel": 1,
+      "independent_simulator_resets": true,
+      "initial_q": [
+        -0.5,
+        0.5
+      ],
+      "initial_state_channel": 0,
+      "initial_v": [
+        -0.25,
+        0.25
+      ],
+      "initial_w": [
+        -0.3,
+        0.3
+      ],
+      "law": "clip(-q - .25*v + d, -1.5, 1.5)",
+      "observation_tick_ns": 40000000,
+      "physics_step_ns": 250000,
+      "reset_settling_overhead_counted": false,
+      "segment_count": 600,
+      "segment_seconds": 1,
+      "telemetry": "40 ms states and held-command log; dense truth is evaluator-only"
+    },
+    "decisions": {
+      "anchor_ns": 320000000,
+      "auxiliary_queries": "query offsets from main-step start; only main endpoint advances state",
+      "bank_channel": 4,
+      "bank_law": "PCG64 role=1/session=1/trajectory/channel=4; independent uniform six-knot paths at each 40 ms observation coordinate",
+      "candidate_count": 256,
+      "command_cost": 4e-05,
+      "empty_true_feasible_bank": "shared bank-design failure; screen unresolved",
+      "included_candidates": [
+        "zero",
+        "collector current PD repeated"
+      ],
+      "invalid_selection": "decision failure, no benign zero regret",
+      "knot_count": 6,
+      "knot_duration_ns": 40000000,
+      "position_cost": 0.04,
+      "q_bound": 1.5,
+      "random_command_bounds": [
+        -1.5,
+        1.5
+      ],
+      "regret": "truth selected cost - minimum truly feasible cost; conditional on valid decisions",
+      "sampled_feasibility_tick_ns": 5000000,
+      "target_bounds": [
+        -0.5,
+        0.5
+      ],
+      "terminal_cost": 5.0,
+      "tie_selection": "lowest candidate index among numerically resolved predicted-cost ties",
+      "truth_refinement": "all candidates 250000/125000/62500 ns; unresolved simulator-cost separations refine at 31250/15625 ns; plateau or exhaustion retains ties",
+      "u_bound": 2.0,
+      "v_bound": 3.0,
+      "velocity_cost": 0.002
+    },
+    "empirical_claims_allowed": true,
+    "evaluation": {
+      "adaptive_refinement_policy": "refine cases above 1% error; last-two-resolution discrepancy envelope; stop on nondecreasing discrepancy or exhausted integer grid; retain unresolved equality",
+      "adaptive_refinement_steps_ns": [
+        31250,
+        15625
+      ],
+      "anchor_start_ns": 320000000,
+      "anchor_stop_ns": 1200000000,
+      "anchor_tick_ns": 40000000,
+      "anchors_per_trajectory": 23,
+      "composition": "held P(h) versus P(h/2) composed twice with identical command",
+      "drift_command": [
+        0.0,
+        0.0
+      ],
+      "endpoint_horizons_ns": [
+        5000000,
+        10000000,
+        20000000,
+        40000000
+      ],
+      "envelope_fraction_limit": 0.01,
+      "held_probe_bounds": [
+        -1.5,
+        1.5
+      ],
+      "held_probe_channel": 2,
+      "held_probe_law": "independent uniform two-joint draw at each of 41 observation coordinates; shared across horizons",
+      "initial_secondary": true,
+      "intervention": "immutable observed q/v/w initial state for new-command and zero-command branches",
+      "query_steps_ns": [
+        5000000,
+        10000000,
+        20000000,
+        40000000
+      ],
+      "refinement_coordinates": "first and last evaluation trajectories",
+      "refinement_steps_ns": [
+        125000,
+        62500
+      ],
+      "role_code": 1,
+      "rollout_horizons_ns": [
+        80000000,
+        160000000,
+        400000000
+      ],
+      "scoring_dtype": "float64",
+      "seed_session_id": 1,
+      "stress_held_horizons_ns": [
+        80000000,
+        160000000
+      ],
+      "target_bounds": [
+        -0.5,
+        0.5
+      ],
+      "target_channel": 3,
+      "target_law": "one independent uniform two-joint target per trajectory",
+      "trajectory_count": 64,
+      "trajectory_seconds": 1.6,
+      "truth_step_ns": 250000
+    },
+    "hybrid_component": {
+      "anchor_model_id": "hybrid_accel_rk4",
+      "error_ratio_limit": 1.05,
+      "initialization_ids": [
+        0
+      ],
+      "median_ratio_limit": 0.75,
+      "p95_ratio_limit": 1.0,
+      "primary_budget_s": 30,
+      "primary_model_id": "hybrid_affine_flow",
+      "primary_query_step_ns": 40000000,
+      "session_ids": [
+        1,
+        2,
+        3
+      ]
+    },
+    "initialization_seed": "2026101200 + 2*session_id + initialization_id",
+    "metrics": {
+      "p95": "95th percentile of two-joint Euclidean endpoint-error norms",
+      "rmse": "sqrt(mean squared component error over endpoints and both joints)"
+    },
+    "models": [
+      "hybrid_affine_flow",
+      "hybrid_affine_rk4",
+      "hybrid_affine_aware",
+      "hybrid_accel_rk4",
+      "hybrid_accel_aware"
+    ],
+    "nominal_prior_parameters": [
+      0.1,
+      0.02,
+      0.02,
+      0.05,
+      0.05
+    ],
+    "phase": "exploratory",
+    "protocol_id": "PTCO-CAL-0.1",
+    "raw_record_encoding": {
+      "compression_level": 1,
+      "decisions": "rows.jsonl.gz",
+      "format": "gzip-jsonl",
+      "mtime": 0,
+      "predictions": "rows.jsonl.gz"
+    },
+    "role_codes": {
+      "confirmation": 2,
+      "development-evaluation": 1,
+      "train-session": 0
+    },
+    "screen": {
+      "decision_failure_fraction": 0.01,
+      "horizon_ns": 160000000,
+      "prediction_failures": 0,
+      "q_p95_rad": 0.03,
+      "q_rmse_rad": 0.01,
+      "same_main_partition_required": true,
+      "undefined_zero_cost_le": 1e-08,
+      "v_p95_rad_s": 0.3,
+      "v_rmse_rad_s": 0.1,
+      "valid_regret_fraction_of_zero_cost": 0.01
+    },
+    "seed_coordinates": [
+      "role",
+      "session",
+      "trajectory",
+      "channel"
+    ],
+    "seed_namespace": [
+      20261012,
+      1
+    ],
+    "timing": {
+      "batches": [
+        1,
+        128,
+        256
+      ],
+      "cache": "detached fixed interval coefficients equally available to applicable models; differentiable h bypasses cache",
+      "complete_scorer": "includes auxiliary queries, batching, constraints and selection",
+      "measured_repetitions": 50,
+      "measurements": [
+        "median",
+        "p95",
+        "cpu",
+        "wall"
+      ],
+      "method_order": "rotated",
+      "representative_input": "earliest primary decision anchor from lowest trajectory identity; fixed common state target and bank",
+      "threads": 1,
+      "warmup_calls": 20
+    },
+    "training": {
+      "device": "cpu",
+      "dtype": "float32",
+      "effective_batch": 256,
+      "epoch_block": 100,
+      "failed_attempts": "retain; never replace draws or discard poor fits",
+      "independent_initialization_per_budget": true,
+      "learning_rates": [
+        0.001,
+        0.0003
+      ],
+      "max_epochs_per_rate": 1000,
+      "objective": "one_step + .25 * four_step",
+      "optimizer": "AdamW",
+      "own_solver": true,
+      "physical_epochs": 100,
+      "physics_fit": "existing endpoint fitting recipe and solver-resolution check",
+      "plateau": "existing nominal plateau rule after at least 100 epochs",
+      "qualification": "historical constant-velocity threshold does not reject study fits",
+      "selection": "all valid rates/checkpoints by nominal validation and existing deterministic tie rule",
+      "shuffle": "shuffle eight-start windows, flatten, batch up to 256 starts",
+      "threads": 1,
+      "validation_every_epochs": 5
+    },
+    "validation_rule": "every fifth complete segment (zero-based id % 5 == 4)"
+  },
+  "recipe_receipt": {
+    "job_key": "de2b98982faf4fe4d9cca29172e5795c44fa6f1f63ebea1e79d308e91e3906a1",
+    "manifest_sha256": "643773344a347a537c7a3cff5cc780b6446cb4ec17891d35e60a90fc44f476b4",
+    "path": "jobs/recipe/de2b98982faf4fe4d9cca29172e5795c44fa6f1f63ebea1e79d308e91e3906a1"
+  }
+}

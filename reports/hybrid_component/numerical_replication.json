@@ -1,0 +1,251 @@
+{
+  "all_equal": true,
+  "decision_checks": [
+    {
+      "all_costs_feasibility_selection_and_regret_equal": true,
+      "checked_candidate_coordinates": 2048,
+      "max_abs_predicted_cost_difference": 0.0,
+      "model_id": "hybrid_affine_flow",
+      "state_ids": [
+        0,
+        1512
+      ]
+    },
+    {
+      "all_costs_feasibility_selection_and_regret_equal": true,
+      "checked_candidate_coordinates": 2048,
+      "max_abs_predicted_cost_difference": 0.0,
+      "model_id": "hybrid_affine_rk4",
+      "state_ids": [
+        0,
+        1512
+      ]
+    },
+    {
+      "all_costs_feasibility_selection_and_regret_equal": true,
+      "checked_candidate_coordinates": 2048,
+      "max_abs_predicted_cost_difference": 0.0,
+      "model_id": "hybrid_affine_aware",
+      "state_ids": [
+        0,
+        1512
+      ]
+    }
+  ],
+  "elapsed_wall_s": 88.68285004199424,
+  "evaluation_arrays_equal": true,
+  "fits": [
+    {
+      "all_selected_tensors_equal": true,
+      "canonical_tensor_hash_equal": true,
+      "canonical_tensor_sha256": "681e1743266802646cd425bee9d5cb611395f095e51cee004d09b64c76d589f0",
+      "coordinate": {
+        "budget_s": 30,
+        "initialization_id": 0,
+        "model_id": "hybrid_affine_flow",
+        "session_id": 1
+      },
+      "primary_receipt": {
+        "job_key": "e4838a07f78322757f9433889a0740df81a19e466aef6c04a3636d3483f640e8",
+        "manifest_sha256": "eeb28a9ee5753365d8b2390e5a3779c941b3ac9d88897cebc83c80bbee164a2d",
+        "path": "jobs/fit/e4838a07f78322757f9433889a0740df81a19e466aef6c04a3636d3483f640e8"
+      },
+      "replica_receipt": {
+        "job_key": "9b95a2f510041dc7c78f5e0a81121678928a1de03b6cb07e3327bf182a7f68ff",
+        "manifest_sha256": "47ce57c0e02ca13d6905a504209e09d5e9f4322614a54c0cc3911c03f11dd78a",
+        "path": "jobs/fit/9b95a2f510041dc7c78f5e0a81121678928a1de03b6cb07e3327bf182a7f68ff"
+      },
+      "selected": {
+        "epoch": 500,
+        "four_count": 132,
+        "four_step": 0.0007789263036102057,
+        "learning_rate": 0.001,
+        "objective": 0.00025521092538838275,
+        "one_count": 150,
+        "one_step": 6.0479349485831335e-05,
+        "rate_index": 0
+      },
+      "selected_validation_equal": true
+    },
+    {
+      "all_selected_tensors_equal": true,
+      "canonical_tensor_hash_equal": true,
+      "canonical_tensor_sha256": "6215822fa27ea62d409e5a4375a742456d1d2480ccf1659ada865505c3f8c319",
+      "coordinate": {
+        "budget_s": 30,
+        "initialization_id": 0,
+        "model_id": "hybrid_affine_rk4",
+        "session_id": 1
+      },
+      "primary_receipt": {
+        "job_key": "1f7ac09372c0c93ce44caf271ff1255e6cc1ea7a229ea2075cdf66696fccf691",
+        "manifest_sha256": "30924145f4086de6478d55d7382fdd457b58c8259af0c288ba9c727551663d37",
+        "path": "jobs/fit/1f7ac09372c0c93ce44caf271ff1255e6cc1ea7a229ea2075cdf66696fccf691"
+      },
+      "replica_receipt": {
+        "job_key": "fa06d7823bc7f2f0d094529c9d2c99d7e5ae972d74ce8768eec97680dea37313",
+        "manifest_sha256": "02a59c7ed9ba6961afa7529bf91d6c79e47fa56db3a418bd5773b1156ee4a69b",
+        "path": "jobs/fit/fa06d7823bc7f2f0d094529c9d2c99d7e5ae972d74ce8768eec97680dea37313"
+      },
+      "selected": {
+        "epoch": 300,
+        "four_count": 132,
+        "four_step": 0.0008396193734370172,
+        "learning_rate": 0.001,
+        "objective": 0.00024031912289501633,
+        "one_count": 150,
+        "one_step": 3.0414279535762034e-05,
+        "rate_index": 0
+      },
+      "selected_validation_equal": true
+    },
+    {
+      "all_selected_tensors_equal": true,
+      "canonical_tensor_hash_equal": true,
+      "canonical_tensor_sha256": "223ff0b4c150f22bb7b68608f838b9ce195b884bacb225c39d4ed151a2e4185e",
+      "coordinate": {
+        "budget_s": 30,
+        "initialization_id": 0,
+        "model_id": "hybrid_affine_aware",
+        "session_id": 1
+      },
+      "primary_receipt": {
+        "job_key": "0697ea1119dfe49d82bfd12ff714262228299831d97c480f4e94add1c4010cbe",
+        "manifest_sha256": "fb3d3d80b67e4bf5fa5d667e9b6860473fd5d3c51dfa3a89770172a6f58aa2c7",
+        "path": "jobs/fit/0697ea1119dfe49d82bfd12ff714262228299831d97c480f4e94add1c4010cbe"
+      },
+      "replica_receipt": {
+        "job_key": "f23b8b2d7b57195b5142acd8e6bd47c21e5d8fe66fda7a6571aa7012d98c6373",
+        "manifest_sha256": "23a2d7db897555fc569aa3a37e1a8208be84277649b2119f34cbe2a0792b7e07",
+        "path": "jobs/fit/f23b8b2d7b57195b5142acd8e6bd47c21e5d8fe66fda7a6571aa7012d98c6373"
+      },
+      "selected": {
+        "epoch": 500,
+        "four_count": 132,
+        "four_step": 0.0013324914034456015,
+        "learning_rate": 0.001,
+        "objective": 0.00037561340286629274,
+        "one_count": 150,
+        "one_step": 4.249055200489238e-05,
+        "rate_index": 0
+      },
+      "selected_validation_equal": true
+    }
+  ],
+  "independently_regenerated_candidate_banks_equal": true,
+  "prediction_checks": [
+    {
+      "all_drift_command_response_composition_values_errors_envelopes_and_statuses_equal": true,
+      "all_predictions_truth_errors_envelopes_and_statuses_equal": true,
+      "checked_additional_component_coordinates": 108,
+      "checked_component_coordinates": 108,
+      "max_abs_difference": 0.0,
+      "model_id": "hybrid_affine_flow",
+      "state_ids": [
+        0,
+        1534,
+        1535
+      ]
+    },
+    {
+      "all_drift_command_response_composition_values_errors_envelopes_and_statuses_equal": true,
+      "all_predictions_truth_errors_envelopes_and_statuses_equal": true,
+      "checked_additional_component_coordinates": 108,
+      "checked_component_coordinates": 108,
+      "max_abs_difference": 0.0,
+      "model_id": "hybrid_affine_rk4",
+      "state_ids": [
+        0,
+        1534,
+        1535
+      ]
+    },
+    {
+      "all_drift_command_response_composition_values_errors_envelopes_and_statuses_equal": true,
+      "all_predictions_truth_errors_envelopes_and_statuses_equal": true,
+      "checked_additional_component_coordinates": 108,
+      "checked_component_coordinates": 108,
+      "max_abs_difference": 0.0,
+      "model_id": "hybrid_affine_aware",
+      "state_ids": [
+        0,
+        1534,
+        1535
+      ]
+    }
+  ],
+  "primary_output_root": "/private/tmp/physical-time-consistency-hybrid-component",
+  "replica_output_root": "/private/tmp/physical-time-consistency-hybrid-component-replication",
+  "resources": {
+    "accounting_status": "measured",
+    "active_cpu_s": 88.664196,
+    "active_wall_s": 88.68015337499673,
+    "attempts": [
+      {
+        "active_cpu_s": 88.664196,
+        "active_wall_s": 88.68015337499673,
+        "attempt_id": 1,
+        "boundary_count": 1,
+        "last_boundary_utc": "2026-10-12T23:03:51.387009Z",
+        "parent_producer_attempt": null,
+        "persistence_cpu_s": 9.999999999177334e-07,
+        "persistence_wall_s": 1.8749997252598405e-06,
+        "started_utc": "2026-10-12T23:02:22.714324Z",
+        "status": "completed",
+        "unknown_tail": false
+      }
+    ],
+    "cpu_s": 88.664197,
+    "inactive_gaps_included": false,
+    "persistence_cpu_s": 9.999999999177334e-07,
+    "persistence_wall_s": 1.8749997252598405e-06,
+    "producer_key": null,
+    "resource_record_write_measured": false,
+    "scope": "producer active work plus measured checkpoint persistence; excludes inactive gaps, resource-ledger writes and post-producer finalization",
+    "wall_s": 88.68015524999646
+  },
+  "scope": "independent fresh-root fitting and numerical replication; resources excluded from primary commissioning projection",
+  "session_arrays_equal": true,
+  "truth_checks": {
+    "decisions": {
+      "all_cost_feasibility_and_envelope_values_equal": true,
+      "candidate_count": 256,
+      "maximum_resolution_cost_discrepancy": {
+        "125000/62500": 9.414691248821327e-14,
+        "250000/125000": 1.2727596754302795e-12
+      },
+      "replayed_primary_adaptive_resolution_choices": true,
+      "resolution_ns": [
+        250000,
+        125000,
+        62500
+      ],
+      "state_ids": [
+        0,
+        1512
+      ],
+      "trajectory_ids": [
+        0,
+        63
+      ]
+    },
+    "predictions": {
+      "all_values_equal": true,
+      "audit_trajectory_ids": [
+        0,
+        63
+      ],
+      "case_count": 15,
+      "maximum_resolution_discrepancy": {
+        "125000/62500": 1.2040368702059823e-13,
+        "250000/125000": 1.8861578965356784e-12
+      },
+      "resolution_ns": [
+        250000,
+        125000,
+        62500
+      ],
+      "state_count": 48
+    }
+  }
+}

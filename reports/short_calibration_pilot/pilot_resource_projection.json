@@ -1,0 +1,2613 @@
+{
+  "utc": "2026-10-12T18:17:45.199748+00:00",
+  "raw_output_root": "/private/tmp/physical-time-consistency-short-calibration",
+  "resource_audit": {
+    "ledger_count": 132,
+    "ledgers": [
+      {
+        "path": "jobs/collect/fa89db97974ee49a2e111c18cac26ada60b74fd535dd8972af4445beb37195ac/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decision_truth/54ec3f9ff85c688a8551ef7c9788eba311280b8c1e36a6ebe81980abfcf265d6/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/088c0fd2807b261f2ae2f7770b0e67e9760a71ad8eeb7216c9a1fbb974cba60c/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/094fe1941a0d6b34243c5e222e0d33c714d8e9305c4e05d0a86d59afa8cd048a/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/0985f1fbc299c4f4deac49463001639d6ba386a6812dce61f7f4b0cbc11740e3/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/10f8a1097be7ef5b0441f636085ce839b60b6ca585aea8c231b5c0072e2fb6f3/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/1cd97b0717e7cd2336cee7aca2038fbec1be9060e7ca52f2043bd54fa30e30d6/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/23a3a1eaf2d78b4a64f2e505bfe6af35130193945b76ca7c21c7b99ef8828499/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/2d108dd568d67a43c5e24d1778bbbc2cb4e26b70c765ae4111a376f2260e8637/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/3e1b9d16f2ce932185dcb64fd74ff14d7b896d0e02dc0c17f52bffce1fcbccf2/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/56d2ab01d9b91498385c27a54754f539ba5c1502869df0aa8319efacb4e02221/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/59a7720dd20919d57859e20e7bdf13b6ad260f198f51cc1c84f68915320ab00a/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/5fa4057ca71f9077122263be1e04b48a1000a0a5028ad56fa3c683e2172f475e/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/8326ccb1e551f7d2a6fbafd7483f05830d14e46366644e69e050d9988e55245f/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/96f8d5d014d1be7ccea24c4d62cd13012382a90939f3d15fd32456f337ecdf8a/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/b0b5a307a31e0d88db340bf55d355387148aa6740ee23c1c3520fb98b6f1e431/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/b23402b663408b1c18bf4202f0f2b00fa778e593db0c5195cdef1a12e4f9ccd7/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/baf906d8e9763a2bcea04d19f0aa9fcdf845070ff29353cf31b25183cf39d56b/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/c9c03d6c9381a1b83a14a018d9f4a11a33bbc54947dced8a35c45bf3866938c9/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/d043479b79b1e5511719c3c05ed1309ad301e1c0c813d7d03513a6b7f69bee90/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/d50ec7bfeb6a4bd62e9b4946cfe5b06659a6c10e972d65d8e9564536e695d869/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/dfee5ab1712cfe467ec8132e0cb06ef2640a114b3bd2f08fea9d0f9fe8606477/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/ebd5494e0844ec5a66ddc3d3199a325a6ad4791164e86f9cf055e5381c4c29c0/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/edd8adfb43cbfe9d01a1f6a2d86d859f1088a13be7a244f3b18c8064e24c59a5/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/ee7cb72f20f9af0a9a4dde370eed25923fa37119a8bd24d2a53a2e11beb21b3a/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/decisions/faf46c45c28d296500724077f412a00d6d8256e9965f855869f136393a1f873e/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/evaluation/ebaec5504312198187d5fe064e39998af0e02a9504f14f227e5804cc1be74d3a/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/199ffc84ade0e8dced1fdc99cffb8fcefbee4771fde18b32a0443df9263080ed/rate-0/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/199ffc84ade0e8dced1fdc99cffb8fcefbee4771fde18b32a0443df9263080ed/rate-1/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/199ffc84ade0e8dced1fdc99cffb8fcefbee4771fde18b32a0443df9263080ed/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/2b8c6a046610a31a2e8e67bb148b56ca978b1ab664c3466c71ffbbeec2c70d41/rate-0/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/2b8c6a046610a31a2e8e67bb148b56ca978b1ab664c3466c71ffbbeec2c70d41/rate-1/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/2b8c6a046610a31a2e8e67bb148b56ca978b1ab664c3466c71ffbbeec2c70d41/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/361b3244b4f0f93e7985d8c1bedafd2e40ba9fff8ee3970e2e06e827d2d7cd63/rate-0/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/361b3244b4f0f93e7985d8c1bedafd2e40ba9fff8ee3970e2e06e827d2d7cd63/rate-1/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/361b3244b4f0f93e7985d8c1bedafd2e40ba9fff8ee3970e2e06e827d2d7cd63/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/3bacdbcbda05f81346e1fb63870dd0f409dd83969a17844176ed3743dd9b2f41/rate-0/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/3bacdbcbda05f81346e1fb63870dd0f409dd83969a17844176ed3743dd9b2f41/rate-1/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/3bacdbcbda05f81346e1fb63870dd0f409dd83969a17844176ed3743dd9b2f41/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/4feb8c3c7bcc7719a5b79b926f10d8becb81518a256b9012fd06d487812062e7/rate-0/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/4feb8c3c7bcc7719a5b79b926f10d8becb81518a256b9012fd06d487812062e7/rate-1/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/4feb8c3c7bcc7719a5b79b926f10d8becb81518a256b9012fd06d487812062e7/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/5b20cffa83a7a74bfb1b5348fe0203d3d8db7734ac3f6a69a71f4550e592c332/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/636d3b59c47f2f2ba75c458a87aedec807897580356c240682f74d8213de6941/rate-0/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/636d3b59c47f2f2ba75c458a87aedec807897580356c240682f74d8213de6941/rate-1/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/636d3b59c47f2f2ba75c458a87aedec807897580356c240682f74d8213de6941/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/8b29b9f4e8d192908cd13122baed1e48ea0eccc7de64f09f6762f95a52e5ce1c/rate-0/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/8b29b9f4e8d192908cd13122baed1e48ea0eccc7de64f09f6762f95a52e5ce1c/rate-1/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/8b29b9f4e8d192908cd13122baed1e48ea0eccc7de64f09f6762f95a52e5ce1c/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/8c24a5694622c1c61e4ebe72d745e39bfee0f117233bef05a253be11c542c8e2/rate-0/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/8c24a5694622c1c61e4ebe72d745e39bfee0f117233bef05a253be11c542c8e2/rate-1/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/8c24a5694622c1c61e4ebe72d745e39bfee0f117233bef05a253be11c542c8e2/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/97752080181bcd137cba33852706789765cb7b9fd5a20cf3b4be6aee415590d6/rate-0/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/97752080181bcd137cba33852706789765cb7b9fd5a20cf3b4be6aee415590d6/rate-1/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/97752080181bcd137cba33852706789765cb7b9fd5a20cf3b4be6aee415590d6/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/9a040959b7eaf809a9a30c1bfef98169af22168d24a0cb7ec2ca316d031121f0/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/9c1c3cfc4b5d290232e326ea73b0c26ab80835cd978e00a9178b6d7363ac9cf7/rate-0/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/9c1c3cfc4b5d290232e326ea73b0c26ab80835cd978e00a9178b6d7363ac9cf7/rate-1/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/9c1c3cfc4b5d290232e326ea73b0c26ab80835cd978e00a9178b6d7363ac9cf7/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/9c5c9edbbf3c9e4ae37bc147bac01b9a46faaf665365a473eba765add8b9eff5/rate-0/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/9c5c9edbbf3c9e4ae37bc147bac01b9a46faaf665365a473eba765add8b9eff5/rate-1/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/9c5c9edbbf3c9e4ae37bc147bac01b9a46faaf665365a473eba765add8b9eff5/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/9f9079cf31416d9c50334c13ae0a98ca222a675331dc686cb5e7fdd2bb87e740/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/ac28b454ab9cc561413d84924e5c62342221b4263f3337ff6cc4bc2f7d0d7cdd/rate-0/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/ac28b454ab9cc561413d84924e5c62342221b4263f3337ff6cc4bc2f7d0d7cdd/rate-1/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/ac28b454ab9cc561413d84924e5c62342221b4263f3337ff6cc4bc2f7d0d7cdd/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/b21c035b617e69cfb22c80ffeb960026732927a206fb2a7389d0c12133151b29/rate-0/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/b21c035b617e69cfb22c80ffeb960026732927a206fb2a7389d0c12133151b29/rate-1/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/b21c035b617e69cfb22c80ffeb960026732927a206fb2a7389d0c12133151b29/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/b2e6c0969447a6ce49dff7ff70f257143dbd149231e00aea84bc640efdabf0ae/rate-0/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/b2e6c0969447a6ce49dff7ff70f257143dbd149231e00aea84bc640efdabf0ae/rate-1/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/b2e6c0969447a6ce49dff7ff70f257143dbd149231e00aea84bc640efdabf0ae/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/be0bcd0ac2852f110bd07fe40958dab48041753fdc67c6cbc2c2007d13dc8db9/rate-0/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/be0bcd0ac2852f110bd07fe40958dab48041753fdc67c6cbc2c2007d13dc8db9/rate-1/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/be0bcd0ac2852f110bd07fe40958dab48041753fdc67c6cbc2c2007d13dc8db9/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/be798259e4b4e7aaa3857967f700380cec8cb415950e644e7a04f8abb22f450a/rate-0/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/be798259e4b4e7aaa3857967f700380cec8cb415950e644e7a04f8abb22f450a/rate-1/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/be798259e4b4e7aaa3857967f700380cec8cb415950e644e7a04f8abb22f450a/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/ed430446c8f3bf51db73c1c9a044c8a8877468c95c881e89ea67f3cc3e4244ca/rate-0/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/ed430446c8f3bf51db73c1c9a044c8a8877468c95c881e89ea67f3cc3e4244ca/rate-1/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/ed430446c8f3bf51db73c1c9a044c8a8877468c95c881e89ea67f3cc3e4244ca/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/f1be41e1d2f69eb97160e2ad6e98ac8ba5c9afa2f8ceb342f699bbaaebcc7197/rate-0/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/f1be41e1d2f69eb97160e2ad6e98ac8ba5c9afa2f8ceb342f699bbaaebcc7197/rate-1/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/fit/f1be41e1d2f69eb97160e2ad6e98ac8ba5c9afa2f8ceb342f699bbaaebcc7197/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/matrix/3dff72f564b5585910aa7de540e659353d34e6667ab8e77755ebebe9a1546095/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/nominal/2292578fe608d0d766cf31403e9faf668e19fdc46e5797f336635fcc7c54601d/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/nominal/494c29f24f4affd5de87e9359b6b9b8c4e58a25d86408ded13c976867b4d5b7f/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/nominal/6bd1e06994841f931f37f49771a87eff2f733631eae36eed17ffc1c5fd9ad831/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/prediction_refinement/16baf875d4070e2bf0605d22be5bd2ae58b4cce047356b56da76bf0dcb6b6628/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/prediction_refinement/2c0deab6f3d5aac3fd41e5c5506bb5ac0b8f3aa6973be861c682153974b06549/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/prediction_refinement/87e5d07f07ccb15b9c21c6f01466fecee51e80a27ecff6e5f4cf270e1f6b5092/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/prediction_refinement/9076e6b7d2499925c7e27ea3c82994dd655d21fd61843039f27be7a0b07865d8/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/prediction_refinement/9b966f956f390fe86b30a9f7422fb7c5edbb9529de063eaa036350060481a9d3/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/prediction_refinement/ad4d7b62f683bb5f0af3d80d2594504dc2bfe434baa78f42623c9e2705923a21/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/prediction_refinement/b5bb7b23822a0efeaa66ae99a76d07a73589f8c36b1754626c428ecfe3a80b39/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/prediction_refinement/bb849dee87b401ef58bb2e9ad64edffbb2c485eb4679e0acac9b9b41a7877139/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/prediction_refinement/c3df0b6f9694b8336e7207b6f9396010b9f9d379e7671b00b460fa64280fa77d/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/prediction_refinement/d9a28980a56db4cb0c0fc6d493bf2bd7c95da0ccea9f266e388890fd556a6186/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/prediction_refinement/e895f3de9acbf288afb94dd3eccd83b617ecc6f19cb45843a281fd057dccc4d1/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/prediction_truth/5fa587855e1d3190acefa1c862fa4d527650db208f7657ef4cd45144f568f752/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/188674dccae9f509e291377f53725692c71f2ecbfcb079e67f262a297cbe2f1b/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/1a69bcaccdabc6cf10e64d108a7e54a5fdc3138ceab9f3a7bc25f47870d5bf01/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/1b46b0ca4286c34ef764a2fd4aa9e9314d5f79cc0a61b859f1038032c8e6ac19/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/3a29a16dbda660b1c13d3785662a88afd0daa7931e7dcb7d92c6e5bf4c9c1213/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/3b108990df63225c03212e4e687e00e7e8f7dffc45ad3ad7ff6680c6c9e85a14/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/43bc55a56b790d0278131cdd3d7040f2b09091166100a8384a8149bd517cb81b/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/4902bc497cdf2afcc9435e82a348b7e0dc3c810935094fef6952a2722ae5f8fe/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/574841965130b1e709153b624220116d86f042bb12f927f9c560c42fea20a13c/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/5b708a29256d6ffd867aa1541b94435448a3060265c4e94f941cfd42873a37ef/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/612f8fd0060a877ed54f791c39e017db95684b34822ad754ae28a29011d0153e/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/67a054f3d29fd0edeefd86088a629c1839f2d9f88884cb25b3bd22dd1e44ec7d/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/71406fdee3ac9420c0940613d3bc78b053fad6d19e74774b08e45d31823935c7/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/79e9f4965b12309fa7015f38ff381d8ded7950456cedd399ef3d45fa260cf812/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/7a75df2e3766a964d1e6ce87a6a6794dba211744c158102518da08f6e481655e/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/8320412eb4476925f88b4eb1dc4e2c8dc7e08813ad2919c5f00d1dc6fa5cd105/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/8f9a7833cf451bc2ddfe691ffc43f1066e408bf8356fbe2605cccfb7679fe558/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/9190dbdccdab193cb604ea8323ffa1cece84ad62af13d0d80dc7b2a8ec8286a3/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/b47e3b7c91b4fddf442c20a168ca6874fe725d6f1c6ef6b7af59ffba874c53a9/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/bd6082184bba0dca109096d791684b512a8e0974bd701be15f0232a97a83c763/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/c29f391740dc0a26e34988c9aa9264ca07e9777804c77141e3b8514f037d2487/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/d15b07a0e7ac72fc4a03f33daaf6c5ab3463730fa340647e3bb445a97e94e51a/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/e9e9bab0c5041d4866f9d38ce334f081baf677b3f61d1bf6fc4d78fda0062d41/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/fd4d0d31c13595c07364f431d3dbc5e015bf73d9aa37def5ab464eb0931ab4b7/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/predictions/ff97169391ff95b7d8f57bb2ac6b37bc8c13b9402ebb0710aeeb9087b320472e/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/propagation/18938befb4209ac5ea13133e6681b6c6774a30c7755d41bc527aaf8f6e890dcb/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/propagation/3ab8fd991d38416d3957ae22b527b409d4e1497dbb8b4d40eba4a77336dd5359/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/propagation/409c098f921b370e69a45a93c30b9ec45e2643ad93b76855195c07be26d680a2/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/propagation/a7513cb82f93ed9ca3b65dca53e85a7bd77bc2dfead01cedf6d6408e3b653ac3/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/propagation/a91ca98149253452e47222404b2348516e626a7184926ca712a303a003d7b0c6/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/propagation/ac08085b864c6f083d43c2c36ca9d859bb7a25a94068c489f4b94adc12528e3d/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/recipe/8589b82309a925360f4eef5a3cee98ddc1e1c280a187cf9794953d3f378168f2/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      },
+      {
+        "path": "jobs/timing/b8a733dd12a3c685790b1e8d19151ea376368b6a0312a95cd8f802dbb6c0cf76/resources.json",
+        "attempt_count": 1,
+        "statuses": [
+          "completed"
+        ],
+        "unknown_tails": 0
+      }
+    ],
+    "concerns": [],
+    "failed_events": [],
+    "stderr_logs": [
+      {
+        "path": "execution-logs/pilot-collect.stderr",
+        "bytes": 0,
+        "content": ""
+      },
+      {
+        "path": "execution-logs/pilot-decisions.stderr",
+        "bytes": 0,
+        "content": ""
+      },
+      {
+        "path": "execution-logs/pilot-predict.stderr",
+        "bytes": 0,
+        "content": ""
+      },
+      {
+        "path": "execution-logs/pilot-prepare.stderr",
+        "bytes": 0,
+        "content": ""
+      },
+      {
+        "path": "execution-logs/pilot-report.stderr",
+        "bytes": 0,
+        "content": ""
+      },
+      {
+        "path": "execution-logs/pilot-resource-audit.stderr",
+        "bytes": 0,
+        "content": ""
+      },
+      {
+        "path": "execution-logs/pilot-time.stderr",
+        "bytes": 0,
+        "content": ""
+      },
+      {
+        "path": "execution-logs/pilot-train.stderr",
+        "bytes": 0,
+        "content": ""
+      },
+      {
+        "path": "execution-logs/pilot-verify.stderr",
+        "bytes": 0,
+        "content": ""
+      }
+    ],
+    "known_parked_defect": "Caught interruption during post-commit resource observation may double-count persistence; no such interruption is inferred only when every ledger and command completed without failures.",
+    "exact_primary_resource_totals_qualified": false
+  },
+  "fit_count": 21,
+  "projected_development_fit_count": 195,
+  "producer_categories": [
+    {
+      "stage": "collect",
+      "kind": "calibration_sessions",
+      "pilot_wall_s": 8.48254291426565,
+      "pilot_cpu_s": 8.453946999999976,
+      "pilot_bytes": 2750078,
+      "development_multiplier": 5,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 222232576
+    },
+    {
+      "stage": "decision_truth",
+      "kind": "common",
+      "pilot_wall_s": 1996.5069044999982,
+      "pilot_cpu_s": 1991.035669,
+      "pilot_bytes": 43291370,
+      "development_multiplier": 1,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 273842176
+    },
+    {
+      "stage": "decisions",
+      "kind": "affine_rk4",
+      "pilot_wall_s": 19.369290792004904,
+      "pilot_cpu_s": 19.35563000000002,
+      "pilot_bytes": 9775473,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 600424448
+    },
+    {
+      "stage": "decisions",
+      "kind": "physics_fit",
+      "pilot_wall_s": 36.635103833003086,
+      "pilot_cpu_s": 36.59770100000014,
+      "pilot_bytes": 9746420,
+      "development_multiplier": 5,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 600424448
+    },
+    {
+      "stage": "decisions",
+      "kind": "physics_nominal",
+      "pilot_wall_s": 35.82313916599378,
+      "pilot_cpu_s": 35.79615899999999,
+      "pilot_bytes": 9834291,
+      "development_multiplier": 5,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 600424448
+    },
+    {
+      "stage": "decisions",
+      "kind": "physics_residual",
+      "pilot_wall_s": 10.476096790996962,
+      "pilot_cpu_s": 10.465103,
+      "pilot_bytes": 9818281,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 600424448
+    },
+    {
+      "stage": "decisions",
+      "kind": "physics_nominal",
+      "pilot_wall_s": 35.7746569999872,
+      "pilot_cpu_s": 35.753600000000006,
+      "pilot_bytes": 9830795,
+      "development_multiplier": 5,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 600424448
+    },
+    {
+      "stage": "decisions",
+      "kind": "physics_fit",
+      "pilot_wall_s": 36.563135332995444,
+      "pilot_cpu_s": 36.536919000000125,
+      "pilot_bytes": 9747756,
+      "development_multiplier": 5,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 600424448
+    },
+    {
+      "stage": "decisions",
+      "kind": "physics_fit",
+      "pilot_wall_s": 36.24978070901125,
+      "pilot_cpu_s": 36.234035000000404,
+      "pilot_bytes": 9767565,
+      "development_multiplier": 5,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 586711040
+    },
+    {
+      "stage": "decisions",
+      "kind": "node_structured",
+      "pilot_wall_s": 19.876322625001194,
+      "pilot_cpu_s": 19.840247999999974,
+      "pilot_bytes": 9816270,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 600424448
+    },
+    {
+      "stage": "decisions",
+      "kind": "affine_flow",
+      "pilot_wall_s": 11.625394791000872,
+      "pilot_cpu_s": 11.616404999999759,
+      "pilot_bytes": 9784075,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 600424448
+    },
+    {
+      "stage": "decisions",
+      "kind": "node_actuator_aware",
+      "pilot_wall_s": 12.313038583000889,
+      "pilot_cpu_s": 12.297244999999748,
+      "pilot_bytes": 9818921,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 600424448
+    },
+    {
+      "stage": "decisions",
+      "kind": "node_actuator_aware",
+      "pilot_wall_s": 12.175926625001011,
+      "pilot_cpu_s": 12.151140999999825,
+      "pilot_bytes": 9832682,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 580190208
+    },
+    {
+      "stage": "decisions",
+      "kind": "physics_residual",
+      "pilot_wall_s": 10.582928375006304,
+      "pilot_cpu_s": 10.571575999999823,
+      "pilot_bytes": 9825347,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 598360064
+    },
+    {
+      "stage": "decisions",
+      "kind": "affine_flow",
+      "pilot_wall_s": 11.877399750010227,
+      "pilot_cpu_s": 11.867236000000048,
+      "pilot_bytes": 9794933,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 600424448
+    },
+    {
+      "stage": "decisions",
+      "kind": "physics_residual",
+      "pilot_wall_s": 10.505664458993124,
+      "pilot_cpu_s": 10.477484999999888,
+      "pilot_bytes": 9825673,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 600424448
+    },
+    {
+      "stage": "decisions",
+      "kind": "node_actuator_aware",
+      "pilot_wall_s": 12.018520541998441,
+      "pilot_cpu_s": 11.998203999999987,
+      "pilot_bytes": 9830797,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 600424448
+    },
+    {
+      "stage": "decisions",
+      "kind": "affine_flow",
+      "pilot_wall_s": 11.781317708999268,
+      "pilot_cpu_s": 11.75556900000015,
+      "pilot_bytes": 9788196,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 540737536
+    },
+    {
+      "stage": "decisions",
+      "kind": "affine_rk4",
+      "pilot_wall_s": 19.719745832990156,
+      "pilot_cpu_s": 19.665335999999797,
+      "pilot_bytes": 9789533,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 553664512
+    },
+    {
+      "stage": "decisions",
+      "kind": "node_structured",
+      "pilot_wall_s": 19.89191729199956,
+      "pilot_cpu_s": 19.87581599999976,
+      "pilot_bytes": 9801680,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 600424448
+    },
+    {
+      "stage": "decisions",
+      "kind": "affine_rk4",
+      "pilot_wall_s": 20.488434250000864,
+      "pilot_cpu_s": 20.37839299999996,
+      "pilot_bytes": 9788786,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 600424448
+    },
+    {
+      "stage": "decisions",
+      "kind": "physics_nominal",
+      "pilot_wall_s": 36.20770454200101,
+      "pilot_cpu_s": 36.187288999999964,
+      "pilot_bytes": 9815657,
+      "development_multiplier": 5,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 600424448
+    },
+    {
+      "stage": "decisions",
+      "kind": "node_quadrature",
+      "pilot_wall_s": 11.208069291998981,
+      "pilot_cpu_s": 11.186206000000084,
+      "pilot_bytes": 9822550,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 572702720
+    },
+    {
+      "stage": "decisions",
+      "kind": "node_structured",
+      "pilot_wall_s": 19.988506833004067,
+      "pilot_cpu_s": 19.951465999999982,
+      "pilot_bytes": 9815209,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 561954816
+    },
+    {
+      "stage": "decisions",
+      "kind": "node_quadrature",
+      "pilot_wall_s": 11.129106749998755,
+      "pilot_cpu_s": 11.113851999999952,
+      "pilot_bytes": 9810502,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 600424448
+    },
+    {
+      "stage": "decisions",
+      "kind": "node_quadrature",
+      "pilot_wall_s": 10.87501579200034,
+      "pilot_cpu_s": 10.863592000000153,
+      "pilot_bytes": 9824633,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 600424448
+    },
+    {
+      "stage": "evaluation",
+      "kind": "common",
+      "pilot_wall_s": 1.3908223339967662,
+      "pilot_cpu_s": 1.389132,
+      "pilot_bytes": 311718,
+      "development_multiplier": 1,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 222085120
+    },
+    {
+      "stage": "fit",
+      "kind": "node_quadrature",
+      "pilot_wall_s": 42.41789740957029,
+      "pilot_cpu_s": 42.23816700000077,
+      "pilot_bytes": 3020033,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 483508224
+    },
+    {
+      "stage": "fit",
+      "kind": "node_structured",
+      "pilot_wall_s": 116.29094981812523,
+      "pilot_cpu_s": 115.94527200000067,
+      "pilot_bytes": 3911844,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 481624064
+    },
+    {
+      "stage": "fit",
+      "kind": "node_actuator_aware",
+      "pilot_wall_s": 32.75916720487294,
+      "pilot_cpu_s": 32.35331800000043,
+      "pilot_bytes": 2476410,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 412991488
+    },
+    {
+      "stage": "fit",
+      "kind": "node_structured",
+      "pilot_wall_s": 552.1680654634984,
+      "pilot_cpu_s": 551.3002250000018,
+      "pilot_bytes": 12311337,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 589742080
+    },
+    {
+      "stage": "fit",
+      "kind": "physics_residual",
+      "pilot_wall_s": 531.9758124699583,
+      "pilot_cpu_s": 529.8421110000049,
+      "pilot_bytes": 11070184,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 642957312
+    },
+    {
+      "stage": "fit",
+      "kind": "physics_fit",
+      "pilot_wall_s": 10.813544170872774,
+      "pilot_cpu_s": 10.789682999999968,
+      "pilot_bytes": 251145,
+      "development_multiplier": 5,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 488161280
+    },
+    {
+      "stage": "fit",
+      "kind": "node_actuator_aware",
+      "pilot_wall_s": 147.713508215209,
+      "pilot_cpu_s": 147.5656940000008,
+      "pilot_bytes": 6316615,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 642957312
+    },
+    {
+      "stage": "fit",
+      "kind": "affine_flow",
+      "pilot_wall_s": 21.25307506606623,
+      "pilot_cpu_s": 20.920005999999994,
+      "pilot_bytes": 2265924,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 378552320
+    },
+    {
+      "stage": "fit",
+      "kind": "affine_flow",
+      "pilot_wall_s": 136.03092913981527,
+      "pilot_cpu_s": 135.74459999999885,
+      "pilot_bytes": 6340023,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 511590400
+    },
+    {
+      "stage": "fit",
+      "kind": "affine_rk4",
+      "pilot_wall_s": 39.14603753799747,
+      "pilot_cpu_s": 38.950641000000076,
+      "pilot_bytes": 2419444,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 402702336
+    },
+    {
+      "stage": "fit",
+      "kind": "physics_fit",
+      "pilot_wall_s": 50.24443195200001,
+      "pilot_cpu_s": 50.2216150000022,
+      "pilot_bytes": 999683,
+      "development_multiplier": 5,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 642957312
+    },
+    {
+      "stage": "fit",
+      "kind": "node_structured",
+      "pilot_wall_s": 27.55495476521901,
+      "pilot_cpu_s": 27.350908999999866,
+      "pilot_bytes": 2171179,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 406405120
+    },
+    {
+      "stage": "fit",
+      "kind": "node_quadrature",
+      "pilot_wall_s": 23.007881649100455,
+      "pilot_cpu_s": 22.594793999999865,
+      "pilot_bytes": 2323101,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 412549120
+    },
+    {
+      "stage": "fit",
+      "kind": "physics_fit",
+      "pilot_wall_s": 3.3529922928864835,
+      "pilot_cpu_s": 3.344856000000078,
+      "pilot_bytes": 110859,
+      "development_multiplier": 5,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 425820160
+    },
+    {
+      "stage": "fit",
+      "kind": "affine_flow",
+      "pilot_wall_s": 70.94460160410381,
+      "pilot_cpu_s": 70.31214700000038,
+      "pilot_bytes": 3707720,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 451788800
+    },
+    {
+      "stage": "fit",
+      "kind": "physics_residual",
+      "pilot_wall_s": 40.200858988042455,
+      "pilot_cpu_s": 39.85736900000046,
+      "pilot_bytes": 1159075,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 447791104
+    },
+    {
+      "stage": "fit",
+      "kind": "affine_rk4",
+      "pilot_wall_s": 85.42076695001742,
+      "pilot_cpu_s": 85.07634899999908,
+      "pilot_bytes": 3263929,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 468811776
+    },
+    {
+      "stage": "fit",
+      "kind": "node_actuator_aware",
+      "pilot_wall_s": 120.35653528590046,
+      "pilot_cpu_s": 119.72708700000248,
+      "pilot_bytes": 4806592,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 485769216
+    },
+    {
+      "stage": "fit",
+      "kind": "physics_residual",
+      "pilot_wall_s": 118.4598246440728,
+      "pilot_cpu_s": 118.17872100000227,
+      "pilot_bytes": 2671058,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 488161280
+    },
+    {
+      "stage": "fit",
+      "kind": "affine_rk4",
+      "pilot_wall_s": 221.67838755398407,
+      "pilot_cpu_s": 221.24020999999948,
+      "pilot_bytes": 6336377,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 512622592
+    },
+    {
+      "stage": "fit",
+      "kind": "node_quadrature",
+      "pilot_wall_s": 371.6772482080705,
+      "pilot_cpu_s": 371.0738390000065,
+      "pilot_bytes": 13311422,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 642908160
+    },
+    {
+      "stage": "matrix",
+      "kind": "common",
+      "pilot_wall_s": 0.00024045800091698766,
+      "pilot_cpu_s": 0.00021999999999999797,
+      "pilot_bytes": 13025,
+      "development_multiplier": 1,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 207568896
+    },
+    {
+      "stage": "nominal",
+      "kind": "physics_nominal",
+      "pilot_wall_s": 0.0007735830004094169,
+      "pilot_cpu_s": 0.0007530000000000037,
+      "pilot_bytes": 22007,
+      "development_multiplier": 5,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 253214720
+    },
+    {
+      "stage": "nominal",
+      "kind": "physics_nominal",
+      "pilot_wall_s": 0.0008130410133162513,
+      "pilot_cpu_s": 0.0007980000000000764,
+      "pilot_bytes": 17768,
+      "development_multiplier": 5,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 252936192
+    },
+    {
+      "stage": "nominal",
+      "kind": "physics_nominal",
+      "pilot_wall_s": 0.0007412090053549036,
+      "pilot_cpu_s": 0.0007199999999998319,
+      "pilot_bytes": 46023,
+      "development_multiplier": 5,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 254918656
+    },
+    {
+      "stage": "prediction_refinement",
+      "kind": "common",
+      "pilot_wall_s": 2.2194982090004487,
+      "pilot_cpu_s": 2.219110999999998,
+      "pilot_bytes": 923189,
+      "development_multiplier": 1,
+      "parent_attempts": [
+        {
+          "attempt_id": 1,
+          "job_key": "574841965130b1e709153b624220116d86f042bb12f927f9c560c42fea20a13c"
+        }
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 766017536
+    },
+    {
+      "stage": "prediction_refinement",
+      "kind": "common",
+      "pilot_wall_s": 1.7018364999967162,
+      "pilot_cpu_s": 1.7007800000000088,
+      "pilot_bytes": 529108,
+      "development_multiplier": 1,
+      "parent_attempts": [
+        {
+          "attempt_id": 1,
+          "job_key": "612f8fd0060a877ed54f791c39e017db95684b34822ad754ae28a29011d0153e"
+        }
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 790642688
+    },
+    {
+      "stage": "prediction_refinement",
+      "kind": "common",
+      "pilot_wall_s": 0.15125062500010245,
+      "pilot_cpu_s": 0.15092599999999834,
+      "pilot_bytes": 102155,
+      "development_multiplier": 1,
+      "parent_attempts": [
+        {
+          "attempt_id": 1,
+          "job_key": "fd4d0d31c13595c07364f431d3dbc5e015bf73d9aa37def5ab464eb0931ab4b7"
+        }
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 735297536
+    },
+    {
+      "stage": "prediction_refinement",
+      "kind": "common",
+      "pilot_wall_s": 4.038881915999809,
+      "pilot_cpu_s": 4.03611699999999,
+      "pilot_bytes": 923172,
+      "development_multiplier": 1,
+      "parent_attempts": [
+        {
+          "attempt_id": 1,
+          "job_key": "574841965130b1e709153b624220116d86f042bb12f927f9c560c42fea20a13c"
+        }
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 766017536
+    },
+    {
+      "stage": "prediction_refinement",
+      "kind": "common",
+      "pilot_wall_s": 3.173063042006106,
+      "pilot_cpu_s": 3.1725020000000086,
+      "pilot_bytes": 531638,
+      "development_multiplier": 1,
+      "parent_attempts": [
+        {
+          "attempt_id": 1,
+          "job_key": "612f8fd0060a877ed54f791c39e017db95684b34822ad754ae28a29011d0153e"
+        }
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 790642688
+    },
+    {
+      "stage": "prediction_refinement",
+      "kind": "common",
+      "pilot_wall_s": 0.4722463340003742,
+      "pilot_cpu_s": 0.4719620000000049,
+      "pilot_bytes": 102147,
+      "development_multiplier": 1,
+      "parent_attempts": [
+        {
+          "attempt_id": 1,
+          "job_key": "fd4d0d31c13595c07364f431d3dbc5e015bf73d9aa37def5ab464eb0931ab4b7"
+        }
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 735297536
+    },
+    {
+      "stage": "prediction_refinement",
+      "kind": "common",
+      "pilot_wall_s": 0.26112462500168476,
+      "pilot_cpu_s": 0.2610909999999933,
+      "pilot_bytes": 102153,
+      "development_multiplier": 1,
+      "parent_attempts": [
+        {
+          "attempt_id": 1,
+          "job_key": "fd4d0d31c13595c07364f431d3dbc5e015bf73d9aa37def5ab464eb0931ab4b7"
+        }
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 735297536
+    },
+    {
+      "stage": "prediction_refinement",
+      "kind": "common",
+      "pilot_wall_s": 0.21931441700144205,
+      "pilot_cpu_s": 0.21900999999999726,
+      "pilot_bytes": 25073,
+      "development_multiplier": 1,
+      "parent_attempts": [
+        {
+          "attempt_id": 1,
+          "job_key": "574841965130b1e709153b624220116d86f042bb12f927f9c560c42fea20a13c"
+        }
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 766017536
+    },
+    {
+      "stage": "prediction_refinement",
+      "kind": "common",
+      "pilot_wall_s": 0.9976407500071218,
+      "pilot_cpu_s": 0.9965700000000197,
+      "pilot_bytes": 529119,
+      "development_multiplier": 1,
+      "parent_attempts": [
+        {
+          "attempt_id": 1,
+          "job_key": "612f8fd0060a877ed54f791c39e017db95684b34822ad754ae28a29011d0153e"
+        }
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 790642688
+    },
+    {
+      "stage": "prediction_refinement",
+      "kind": "common",
+      "pilot_wall_s": 7.74731525000243,
+      "pilot_cpu_s": 7.746818999999988,
+      "pilot_bytes": 943814,
+      "development_multiplier": 1,
+      "parent_attempts": [
+        {
+          "attempt_id": 1,
+          "job_key": "574841965130b1e709153b624220116d86f042bb12f927f9c560c42fea20a13c"
+        }
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 766017536
+    },
+    {
+      "stage": "prediction_refinement",
+      "kind": "common",
+      "pilot_wall_s": 0.0581019160017604,
+      "pilot_cpu_s": 0.058064999999999145,
+      "pilot_bytes": 12291,
+      "development_multiplier": 1,
+      "parent_attempts": [
+        {
+          "attempt_id": 1,
+          "job_key": "612f8fd0060a877ed54f791c39e017db95684b34822ad754ae28a29011d0153e"
+        }
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 790642688
+    },
+    {
+      "stage": "prediction_truth",
+      "kind": "common",
+      "pilot_wall_s": 31.370749541994883,
+      "pilot_cpu_s": 31.367648000000003,
+      "pilot_bytes": 1031296,
+      "development_multiplier": 1,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 231243776
+    },
+    {
+      "stage": "predictions",
+      "kind": "node_actuator_aware",
+      "pilot_wall_s": 6.782021874998463,
+      "pilot_cpu_s": 6.771076999999991,
+      "pilot_bytes": 9726724,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 790642688
+    },
+    {
+      "stage": "predictions",
+      "kind": "physics_nominal",
+      "pilot_wall_s": 8.193146834004438,
+      "pilot_cpu_s": 8.18227300000001,
+      "pilot_bytes": 9170547,
+      "development_multiplier": 5,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 790642688
+    },
+    {
+      "stage": "predictions",
+      "kind": "node_quadrature",
+      "pilot_wall_s": 6.730150584000512,
+      "pilot_cpu_s": 6.7284150000000125,
+      "pilot_bytes": 9717441,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 766017536
+    },
+    {
+      "stage": "predictions",
+      "kind": "affine_rk4",
+      "pilot_wall_s": 7.463041791997966,
+      "pilot_cpu_s": 7.461568999999997,
+      "pilot_bytes": 9715206,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 709836800
+    },
+    {
+      "stage": "predictions",
+      "kind": "affine_rk4",
+      "pilot_wall_s": 7.7184966249915306,
+      "pilot_cpu_s": 7.717704999999995,
+      "pilot_bytes": 9728371,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 787562496
+    },
+    {
+      "stage": "predictions",
+      "kind": "affine_flow",
+      "pilot_wall_s": 6.629515416003414,
+      "pilot_cpu_s": 6.62871899999999,
+      "pilot_bytes": 9718523,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 735297536
+    },
+    {
+      "stage": "predictions",
+      "kind": "physics_residual",
+      "pilot_wall_s": 6.443817584004137,
+      "pilot_cpu_s": 6.4354490000000055,
+      "pilot_bytes": 9749343,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 790642688
+    },
+    {
+      "stage": "predictions",
+      "kind": "physics_fit",
+      "pilot_wall_s": 23.467926419019932,
+      "pilot_cpu_s": 23.446410999999983,
+      "pilot_bytes": 9712691,
+      "development_multiplier": 5,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 766017536
+    },
+    {
+      "stage": "predictions",
+      "kind": "affine_flow",
+      "pilot_wall_s": 6.6308074999979,
+      "pilot_cpu_s": 6.6239109999999926,
+      "pilot_bytes": 9719148,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 766017536
+    },
+    {
+      "stage": "predictions",
+      "kind": "physics_fit",
+      "pilot_wall_s": 15.032277750011417,
+      "pilot_cpu_s": 15.00471499999992,
+      "pilot_bytes": 9430332,
+      "development_multiplier": 5,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 790642688
+    },
+    {
+      "stage": "predictions",
+      "kind": "physics_nominal",
+      "pilot_wall_s": 8.246987500009709,
+      "pilot_cpu_s": 8.237459000000001,
+      "pilot_bytes": 9174871,
+      "development_multiplier": 5,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 790642688
+    },
+    {
+      "stage": "predictions",
+      "kind": "node_structured",
+      "pilot_wall_s": 7.904486708997865,
+      "pilot_cpu_s": 7.9037600000000054,
+      "pilot_bytes": 9723891,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 766017536
+    },
+    {
+      "stage": "predictions",
+      "kind": "node_actuator_aware",
+      "pilot_wall_s": 6.740345750004053,
+      "pilot_cpu_s": 6.739789999999999,
+      "pilot_bytes": 9724135,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 766017536
+    },
+    {
+      "stage": "predictions",
+      "kind": "node_quadrature",
+      "pilot_wall_s": 6.702329000007012,
+      "pilot_cpu_s": 6.701373000000004,
+      "pilot_bytes": 9701255,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 735297536
+    },
+    {
+      "stage": "predictions",
+      "kind": "affine_flow",
+      "pilot_wall_s": 6.424090166998212,
+      "pilot_cpu_s": 6.42239,
+      "pilot_bytes": 9705973,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 479002624
+    },
+    {
+      "stage": "predictions",
+      "kind": "affine_rk4",
+      "pilot_wall_s": 7.52219858400349,
+      "pilot_cpu_s": 7.52122700000001,
+      "pilot_bytes": 9725670,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 766017536
+    },
+    {
+      "stage": "predictions",
+      "kind": "physics_nominal",
+      "pilot_wall_s": 8.211020167000243,
+      "pilot_cpu_s": 8.204293000000007,
+      "pilot_bytes": 9174779,
+      "development_multiplier": 5,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 790642688
+    },
+    {
+      "stage": "predictions",
+      "kind": "node_quadrature",
+      "pilot_wall_s": 6.761407874990255,
+      "pilot_cpu_s": 6.752320999999995,
+      "pilot_bytes": 9720471,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 790642688
+    },
+    {
+      "stage": "predictions",
+      "kind": "physics_residual",
+      "pilot_wall_s": 6.283579333990929,
+      "pilot_cpu_s": 6.283315000000002,
+      "pilot_bytes": 9735465,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 735297536
+    },
+    {
+      "stage": "predictions",
+      "kind": "node_structured",
+      "pilot_wall_s": 7.975412458006758,
+      "pilot_cpu_s": 7.966058000000032,
+      "pilot_bytes": 9738186,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 790642688
+    },
+    {
+      "stage": "predictions",
+      "kind": "node_structured",
+      "pilot_wall_s": 7.7321718750026776,
+      "pilot_cpu_s": 7.731353999999996,
+      "pilot_bytes": 9712738,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 735297536
+    },
+    {
+      "stage": "predictions",
+      "kind": "physics_residual",
+      "pilot_wall_s": 6.440240582989645,
+      "pilot_cpu_s": 6.439796999999999,
+      "pilot_bytes": 9742507,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 766017536
+    },
+    {
+      "stage": "predictions",
+      "kind": "physics_fit",
+      "pilot_wall_s": 9.692772791982861,
+      "pilot_cpu_s": 9.679287000000002,
+      "pilot_bytes": 9158670,
+      "development_multiplier": 5,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 735297536
+    },
+    {
+      "stage": "predictions",
+      "kind": "node_actuator_aware",
+      "pilot_wall_s": 6.7447903330030385,
+      "pilot_cpu_s": 6.743632000000005,
+      "pilot_bytes": 9724565,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 735297536
+    },
+    {
+      "stage": "propagation",
+      "kind": "affine_rk4",
+      "pilot_wall_s": 14.110622624997632,
+      "pilot_cpu_s": 14.095894000000001,
+      "pilot_bytes": 19460322,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 735297536
+    },
+    {
+      "stage": "propagation",
+      "kind": "affine_rk4",
+      "pilot_wall_s": 14.299670499996864,
+      "pilot_cpu_s": 14.290627999999998,
+      "pilot_bytes": 19481963,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 766017536
+    },
+    {
+      "stage": "propagation",
+      "kind": "affine_rk4",
+      "pilot_wall_s": 14.501252374990145,
+      "pilot_cpu_s": 14.455962000000028,
+      "pilot_bytes": 19480304,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 790642688
+    },
+    {
+      "stage": "propagation",
+      "kind": "affine_flow",
+      "pilot_wall_s": 14.397173667006427,
+      "pilot_cpu_s": 14.389933000000013,
+      "pilot_bytes": 19471824,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 787562496
+    },
+    {
+      "stage": "propagation",
+      "kind": "affine_flow",
+      "pilot_wall_s": 13.814084041005117,
+      "pilot_cpu_s": 13.811460000000004,
+      "pilot_bytes": 19446623,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 709836800
+    },
+    {
+      "stage": "propagation",
+      "kind": "affine_flow",
+      "pilot_wall_s": 14.231298916987726,
+      "pilot_cpu_s": 14.230008000000012,
+      "pilot_bytes": 19476394,
+      "development_multiplier": 10,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 766017536
+    },
+    {
+      "stage": "recipe",
+      "kind": "common",
+      "pilot_wall_s": 0.009102041003643535,
+      "pilot_cpu_s": 0.008830999999999922,
+      "pilot_bytes": 63821,
+      "development_multiplier": 1,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 207568896
+    },
+    {
+      "stage": "timing",
+      "kind": "pooled_timing_approximation",
+      "pilot_wall_s": 571.7886333750066,
+      "pilot_cpu_s": 569.674535,
+      "pilot_bytes": 26328412,
+      "development_multiplier": 8.75,
+      "parent_attempts": [
+        null
+      ],
+      "accounting_status": "measured",
+      "peak_rss_native": 493223936
+    }
+  ],
+  "nonoverlapping_stage_projection": {
+    "collect": {
+      "pilot_wall_s": 8.48254291426565,
+      "pilot_cpu_s": 8.453946999999976,
+      "projected_development_total_wall_s": 42.41271457132825,
+      "projected_development_total_cpu_s": 42.26973499999988
+    },
+    "decision_truth": {
+      "pilot_wall_s": 1996.5069044999982,
+      "pilot_cpu_s": 1991.035669,
+      "projected_development_total_wall_s": 1996.5069044999982,
+      "projected_development_total_cpu_s": 1991.035669
+    },
+    "decisions": {
+      "pilot_wall_s": 473.1562176669977,
+      "pilot_cpu_s": 472.53620599999954,
+      "projected_development_total_wall_s": 3645.294573755018,
+      "projected_development_total_cpu_s": 3639.8335449999922
+    },
+    "evaluation": {
+      "pilot_wall_s": 1.3908223339967662,
+      "pilot_cpu_s": 1.389132,
+      "projected_development_total_wall_s": 1.3908223339967662,
+      "projected_development_total_cpu_s": 1.389132
+    },
+    "fit": {
+      "pilot_wall_s": 2763.4674703893834,
+      "pilot_cpu_s": 2754.627613000021,
+      "projected_development_total_wall_s": 27312.619861815037,
+      "projected_development_total_cpu_s": 27224.495360000205
+    },
+    "matrix": {
+      "pilot_wall_s": 0.00024045800091698766,
+      "pilot_cpu_s": 0.00021999999999999797,
+      "projected_development_total_wall_s": 0.00024045800091698766,
+      "projected_development_total_cpu_s": 0.00021999999999999797
+    },
+    "nominal": {
+      "pilot_wall_s": 0.002327833019080572,
+      "pilot_cpu_s": 0.002270999999999912,
+      "projected_development_total_wall_s": 0.01163916509540286,
+      "projected_development_total_cpu_s": 0.01135499999999956
+    },
+    "prediction_truth": {
+      "pilot_wall_s": 31.370749541994883,
+      "pilot_cpu_s": 31.367648000000003,
+      "projected_development_total_wall_s": 31.370749541994883,
+      "projected_development_total_cpu_s": 31.367648000000003
+    },
+    "predictions": {
+      "pilot_wall_s": 198.47303550601646,
+      "pilot_cpu_s": 198.32629999999995,
+      "projected_development_total_wall_s": 1620.5096977500216,
+      "projected_development_total_cpu_s": 1619.4908099999998
+    },
+    "propagation": {
+      "pilot_wall_s": 85.35410212498391,
+      "pilot_cpu_s": 85.27388500000005,
+      "projected_development_total_wall_s": 853.5410212498391,
+      "projected_development_total_cpu_s": 852.7388500000005
+    },
+    "recipe": {
+      "pilot_wall_s": 0.009102041003643535,
+      "pilot_cpu_s": 0.008830999999999922,
+      "projected_development_total_wall_s": 0.009102041003643535,
+      "projected_development_total_cpu_s": 0.008830999999999922
+    },
+    "timing": {
+      "pilot_wall_s": 571.7886333750066,
+      "pilot_cpu_s": 569.674535,
+      "projected_development_total_wall_s": 5003.150542031308,
+      "projected_development_total_cpu_s": 4984.65218125
+    }
+  },
+  "projection_assumptions": [
+    "Each neural pilot coordinate is projected to ten session/initialization coordinates; physical and nominal coordinates to five sessions.",
+    "The pilot selected epochs are observations, not assumed fixed in new draws; stopping/caps and throughput can vary substantially.",
+    "Existing common base evaluation/truth receipts are reusable; new adaptive truth requests depend on future selected-model errors. Parent-inclusive nested work is projected with parents and never added again.",
+    "One new complete pooled timing request is required for development, including unchanged pilot coordinates; old pilot timing remains retained. Incremental/cumulative projections therefore add the sunk pilot timing to requested-development totals. Timing coordinate-count scaling is approximate.",
+    "Primary commissioned fitting is separate from evaluator/truth/scoring/timing/reporting and all independent replication.",
+    "These are workload estimates; no hardware commissioning or favorable-compute claim.",
+    "Projected artifact bytes retain the old pilot timing separately; new matrix/driver/report/verification overhead and additional adaptive-truth artifact bytes are not guaranteed by this point estimate.",
+    "Reporting/raw verification costs are excluded from producer projections and reported separately from their completed CLI measurements."
+  ],
+  "compressed_streams": {
+    "compressed_bytes": 518604389,
+    "decoded_bytes": 4274479414,
+    "decoded_to_compressed_ratio": 8.242273888661593
+  },
+  "raw_bytes": 753982391,
+  "projected_development_total_artifact_bytes": 6456546879.0,
+  "raw_volume_free_bytes": 60740956160,
+  "repository_free_bytes": 2830254080,
+  "observed_peak_rss_native": 790642688,
+  "observed_peak_rss_native_unit": "bytes on macOS",
+  "projected_additional_producer_wall_s": 34948.60435390298,
+  "projected_cumulative_pilot_and_development_producer_wall_s": 41078.606502587645,
+  "projected_additional_fit_producer_wall_s": 24549.152391425654,
+  "projected_cumulative_store_artifact_bytes": 6482875291.0,
+  "closed_cli_commands": {
+    "pilot-time.execution.json": {
+      "command": [
+        "/workspace/physical-time-consistency/.venv/bin/python",
+        "-m",
+        "poc.calibration_study",
+        "time",
+        "--matrix",
+        "pilot",
+        "--output-root",
+        "/private/tmp/physical-time-consistency-short-calibration"
+      ],
+      "start_utc": "2026-10-12T17:57:56.335724+00:00",
+      "end_utc": "2026-10-12T18:07:41.189889+00:00",
+      "elapsed_wall_s": 584.855490624992,
+      "child_cpu_s": 582.412693,
+      "returncode": 0
+    },
+    "pilot-decisions.execution.json": {
+      "command": [
+        "/workspace/physical-time-consistency/.venv/bin/python",
+        "-m",
+        "poc.calibration_study",
+        "decisions",
+        "--matrix",
+        "pilot",
+        "--output-root",
+        "/private/tmp/physical-time-consistency-short-calibration"
+      ],
+      "start_utc": "2026-10-12T17:16:20.255269+00:00",
+      "end_utc": "2026-10-12T17:57:56.308751+00:00",
+      "elapsed_wall_s": 2496.0466920000035,
+      "child_cpu_s": 2489.2511590000004,
+      "returncode": 0
+    },
+    "pilot-verify.execution.json": {
+      "command": [
+        "/workspace/physical-time-consistency/.venv/bin/python",
+        "-m",
+        "poc.calibration_study",
+        "verify",
+        "--matrix",
+        "pilot",
+        "--output-root",
+        "/private/tmp/physical-time-consistency-short-calibration"
+      ],
+      "start_utc": "2026-10-12T18:12:08.219133+00:00",
+      "end_utc": "2026-10-12T18:16:32.585316+00:00",
+      "elapsed_wall_s": 264.3652620829962,
+      "child_cpu_s": 262.692748,
+      "returncode": 0
+    },
+    "pilot-train.execution.json": {
+      "command": [
+        "/workspace/physical-time-consistency/.venv/bin/python",
+        "-m",
+        "poc.calibration_study",
+        "train",
+        "--matrix",
+        "pilot",
+        "--output-root",
+        "/private/tmp/physical-time-consistency-short-calibration"
+      ],
+      "start_utc": "2026-10-12T15:47:02.511669+00:00",
+      "end_utc": "2026-10-12T17:10:27.940148+00:00",
+      "elapsed_wall_s": 2790.735497124988,
+      "returncode": 0
+    },
+    "pilot-report.execution.json": {
+      "command": [
+        "/workspace/physical-time-consistency/.venv/bin/python",
+        "-m",
+        "poc.calibration_study",
+        "report",
+        "--matrix",
+        "pilot",
+        "--output-root",
+        "/private/tmp/physical-time-consistency-short-calibration",
+        "--destination",
+        "reports/short_calibration_pilot"
+      ],
+      "start_utc": "2026-10-12T18:07:41.219176+00:00",
+      "end_utc": "2026-10-12T18:12:08.183377+00:00",
+      "elapsed_wall_s": 266.9637170829956,
+      "child_cpu_s": 264.930092,
+      "returncode": 0
+    },
+    "pilot-predict.execution.json": {
+      "command": [
+        "/workspace/physical-time-consistency/.venv/bin/python",
+        "-m",
+        "poc.calibration_study",
+        "predict",
+        "--matrix",
+        "pilot",
+        "--output-root",
+        "/private/tmp/physical-time-consistency-short-calibration"
+      ],
+      "start_utc": "2026-10-12T17:10:47.362610+00:00",
+      "end_utc": "2026-10-12T17:16:20.230671+00:00",
+      "elapsed_wall_s": 332.8653769999946,
+      "child_cpu_s": 332.241963,
+      "returncode": 0
+    }
+  },
+  "utc_monotonic_discrepancies": [
+    {
+      "command_log": "pilot-train.execution.json",
+      "utc_minus_monotonic_s": 2214.6929818750123,
+      "cause": "unverified; no timekeeping diagnosis",
+      "resource_duration_basis": "recorded monotonic wall and process CPU"
+    }
+  ]
+}
