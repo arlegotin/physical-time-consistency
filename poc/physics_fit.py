@@ -5,7 +5,7 @@ import math
 from pathlib import Path
 import numpy as np
 import torch
-from torch import nn
+from torch import Tensor, nn
 from torch.nn import functional as F
 
 from .analytic import coefficients
@@ -61,20 +61,39 @@ class PhysicsFit(RigidReference):
         return torch.stack((c**2 / theta2 + a + 1e-4, theta2, c, e1, e2))
 
     def mass_matrix(self, q):
-        theta1, theta2, theta3 = self.physical_parameters()[:3].unbind()
+        return self._mass_matrix(q, self.physical_parameters())
+
+    @staticmethod
+    def _mass_matrix(q, parameters):
+        theta1, theta2, theta3 = parameters[:3].unbind()
         coupling = theta3 * torch.cos(q[:, 1])
         m11 = theta1 + theta2 + 2 * coupling + .02
         m12 = theta2 + coupling
         m22 = torch.ones_like(coupling) * (theta2 + .02)
         return torch.stack((torch.stack((m11, m12), 1), torch.stack((m12, m22), 1)), 1)
 
-    def acceleration(self, qv, effort):
+    def _mechanical_terms(self, qv):
+        """Compute shared mass, Coriolis and damping without combining forces."""
         parameters = self.physical_parameters()
         v1, v2 = qv[:, 2], qv[:, 3]
         cross = parameters[2] * torch.sin(qv[:, 1])
         coriolis = torch.stack((-cross * (2 * v1 * v2 + v2**2), cross * v1**2), 1)
-        rhs = effort - coriolis - parameters[3:] * qv[:, 2:4]
-        return torch.linalg.solve(self.mass_matrix(qv[:, :2]), rhs.unsqueeze(2)).squeeze(2)
+        damping = parameters[3:] * qv[:, 2:4]
+        return self._mass_matrix(qv[:, :2], parameters), coriolis, damping
+
+    def acceleration(self, qv, effort):
+        mass, coriolis, damping = self._mechanical_terms(qv)
+        # Retain the legacy subtraction order for the physical forward path.
+        rhs = effort - coriolis - damping
+        return torch.linalg.solve(mass, rhs.unsqueeze(2)).squeeze(2)
+
+    def acceleration_coefficients(self, qv: Tensor) -> tuple[Tensor, Tensor]:
+        """Nominal drift and dense effort gain from one three-column solve."""
+        mass, coriolis, damping = self._mechanical_terms(qv)
+        identity = torch.eye(2, dtype=qv.dtype, device=qv.device).expand(len(qv), -1, -1)
+        rhs = torch.cat(((-coriolis - damping).unsqueeze(-1), identity), dim=2)
+        solved = torch.linalg.solve(mass, rhs)
+        return solved[:, :, 0], solved[:, :, 1:]
 
 
 def ridge_features(state, effort):

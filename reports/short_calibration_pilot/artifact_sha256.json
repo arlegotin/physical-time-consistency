@@ -1,0 +1,106 @@
+{
+  "config/short_calibration_protocol.json": {
+    "bytes": 8472,
+    "sha256": "1363674253ce29f160c2ea9988da4e711890a04490ec0bf727c24d4aa9e91178"
+  },
+  "docs/research-trajectory.md": {
+    "bytes": 4156,
+    "sha256": "c2c108add51dd1fbeaafb1b296170182198874e7cbd63af0bef12ffc699ee441"
+  },
+  "docs/superpowers/plans/2026-10-12-short-calibration-pilot-execution-checklist.md": {
+    "bytes": 2639,
+    "sha256": "7db13900f01d272ce8ed3274c6d952f61f1b974ba8bb30127110001985cb3697"
+  },
+  "docs/superpowers/plans/2026-10-12-short-calibration-pilot-scope-amendment.md": {
+    "bytes": 4915,
+    "sha256": "9ea60e5ce7615db25ae32b5f546f625913456f4ac6cd3261cd5b6b2920358ece"
+  },
+  "reports/short_calibration_execution.md": {
+    "bytes": 7121,
+    "sha256": "ad779755959b3fcd0e05d565db970144b27b651a9ff06a4884f18968c09a246b"
+  },
+  "reports/short_calibration_pilot/audit_driver.py": {
+    "bytes": 5879,
+    "sha256": "512e6b02454f767fe96e668df230d134941a6595fcf53eb99787d2eff52b3df9"
+  },
+  "reports/short_calibration_pilot/numerical_replication.json": {
+    "bytes": 8053,
+    "sha256": "3896bec167d78fc3dc6d0a43d8f79749bdd8421295db08c60f8af1c03eb9fbf1"
+  },
+  "reports/short_calibration_pilot/numerical_replication_resources.json": {
+    "bytes": 517,
+    "sha256": "983e7f6b64fa571928ae94b3941cf54e35ced6efa6b67b89ded92b6e33f033c2"
+  },
+  "reports/short_calibration_pilot/pilot_execution_findings.md": {
+    "bytes": 9694,
+    "sha256": "5a82ed293a4bce0704f47dc47db15276115a28a406f444b701b92cb70becdcd8"
+  },
+  "reports/short_calibration_pilot/pilot_fit_selection.json": {
+    "bytes": 1375155,
+    "sha256": "6c57d5151335dc1b588617f804455f7739e172defa35bc6e879e3b9e2bc0f6d0"
+  },
+  "reports/short_calibration_pilot/pilot_resource_projection.json": {
+    "bytes": 76370,
+    "sha256": "7ae8e23e131c40bdb21a38e3d2509e887ff77b8b984cdb45510b72f3c29aeaa7"
+  },
+  "reports/short_calibration_pilot/pilot_screen_frontier.json": {
+    "bytes": 165746,
+    "sha256": "015943a974f15e01a6b0d36462e6c1f08146592926eb66e9afb76554accdda0d"
+  },
+  "reports/short_calibration_pilot/pilot_verify.json": {
+    "bytes": 2499,
+    "sha256": "f78c693a5433872eb61568e034a3b8e6a9db66d9960097f88b55cb5eaf6c8524"
+  },
+  "reports/short_calibration_pilot/preflight_record.json": {
+    "bytes": 2324,
+    "sha256": "cef21f30376ef8d55c934faf2c65c1399c88d126db4a7411baab2d15456a75e6"
+  },
+  "reports/short_calibration_pilot/primary_command_records.json": {
+    "bytes": 3124,
+    "sha256": "7f7ff0305610c3340f755c8e0c18fdf45ad5ac8942e644104a732dbacf4ca35f"
+  },
+  "reports/short_calibration_pilot/replication_driver.py": {
+    "bytes": 14091,
+    "sha256": "eb3d0e58a8729935d64590f48188ca6aec33b164f515bb62f76c9beb1049f201"
+  },
+  "reports/short_calibration_pilot/replication_execution.json": {
+    "bytes": 15041,
+    "sha256": "6dc7a02a1762e9b4bb05f5d63ec414db521e819d53c93871625346278d63cf3f"
+  },
+  "reports/short_calibration_pilot/replication_orchestration.py": {
+    "bytes": 1006,
+    "sha256": "fbdb188ec2dceb28c0854d940cfe23ddf7f5b515c270de5e79725ff212c4fc94"
+  },
+  "reports/short_calibration_pilot/replication_stage_driver.py": {
+    "bytes": 1238,
+    "sha256": "1d10d46746f50c0ef34756bdab6f27e58fe0f79f947ef3c251c74dd6c75c33f5"
+  },
+  "reports/short_calibration_pilot/short_calibration_findings.md": {
+    "bytes": 18867,
+    "sha256": "4c05876dcb61a3309512b9540396c643850e5ca8fd0f3b290cedb6b76df55aae"
+  },
+  "reports/short_calibration_pilot/short_calibration_learning_curves.svg": {
+    "bytes": 79187,
+    "sha256": "a588af6a2a36af138a9abfe45f60fcb89298b98cac8eb0c70799caa17edee4a0"
+  },
+  "reports/short_calibration_pilot/short_calibration_metrics.csv": {
+    "bytes": 20316,
+    "sha256": "c518d4f9f1e7adc3f6ec543d519f690fb023c650e2662429aac4079b12d8079f"
+  },
+  "reports/short_calibration_pilot/short_calibration_reproduce.md": {
+    "bytes": 2311,
+    "sha256": "42e2d45411063f820da1ff51f949dc5411fea38be8bd5f9a72cd644bdfdcb25a"
+  },
+  "reports/short_calibration_pilot/short_calibration_result.json": {
+    "bytes": 42576254,
+    "sha256": "90c00c0ea0864fd74c74a37989988652c4fee16619da5360a9fbee6a8a0da060"
+  },
+  "reports/short_calibration_pilot/support_provenance.md": {
+    "bytes": 2516,
+    "sha256": "126a5e2663019130cf0356af0d89457dd5e8659f9b8882a80a4e8ddefd90c16d"
+  },
+  "reports/short_calibration_pilot/task9_execution_report.md": {
+    "bytes": 10284,
+    "sha256": "d46963302ce9dd8ad7e331a2ce83ea78a4d0196f0f325024d91549cf04a461d1"
+  }
+}

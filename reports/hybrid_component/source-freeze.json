@@ -1,0 +1,32 @@
+{
+  "approved": true,
+  "commit": "97be931dcaa5d61f364397e606de17da5ce6e1e2",
+  "bindings": {
+    "root": "/workspace/physical-time-consistency",
+    "source": "8ec160368c99b08aefee564b7f8ff569d31ab53563548bc696bcc5eb31eeac8f",
+    "executing_source": "9ed68f61895f214815f9bac2c9e546a01f896ec961b473d9e4634b2eb5535324",
+    "asset": "c81b8fb77da383d572f595ca2c8bb539e7b5b1082e1790bd761744b8a1daf3b8",
+    "runtime": "03525754d9cb67e0475ab1243e222b4143e2a656115c733d1d9ed631aa69b624",
+    "recipe": "686b276e7bf52543e6dac73edbb50e0e472ce9116a2914bc06ef656bfa5cda0f"
+  },
+  "spec_sha256": "6c122249518a00beda593ce1f3713e4cdebac60826f708ae6d71374852776f91",
+  "plan_sha256": "1e736f7caf0661dda22a0cd8809ae50c2cf7b98a3965f339b2325507202a5756",
+  "review": "source-rereview.md: ADDRESSED; approved for freeze/preparation",
+  "verification": {
+    "full_suite": {
+      "commit": "f11252a",
+      "passed": 1490,
+      "wall_s": 671.01
+    },
+    "p95_fix": {
+      "commit": "9cdcb1e",
+      "passed": 87
+    },
+    "pooled_request_fix": {
+      "commit": "97be931",
+      "passed": 124,
+      "wall_s": 477.76
+    }
+  },
+  "source_change_policy": "No scientific source changes after first empirical preparation; report/driver archival outside poc only."
+}

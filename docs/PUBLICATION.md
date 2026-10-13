@@ -58,6 +58,18 @@ omitted from the public package. The superseded supplied execution plan is also
 omitted. Its original bytes and provenance remain in earlier private Git revisions
 and scientific snapshots, rather than being rewritten in historical evidence.
 
+For a continuation of this already-public repository, keep the research branch
+and its original evidence intact. Build the screened changes as a separate PR
+branch based on the current public `main`; do not push the research branch's
+execution history. Preserve the initial `PUBLICATION_MANIFEST.json` and record
+the new source revision, omissions and exported-file hashes in
+`PUBLICATION_CONTINUATION_MANIFEST.json`. Screen metadata with the same privacy
+and credential rules, and keep implementation and test bytes unchanged. Exact
+execution logs and launch records stay in the private archive. Scientific
+hash manifests continue to describe the original frozen artifacts; any screened
+copies are derived presentation evidence, with transformations recorded in the
+continuation publication manifest.
+
 From the extracted `physical-time-consistency/` folder, the following stages
 only the manifest's verified files, including tracked study metadata that the
 development `.gitignore` excludes from ordinary discovery:

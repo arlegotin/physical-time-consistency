@@ -1,0 +1,18 @@
+{
+  "attempts": [
+    {
+      "active_cpu_s": 88.664196,
+      "active_wall_s": 88.68015337499673,
+      "attempt_id": 1,
+      "boundary_count": 1,
+      "last_boundary_utc": "2026-10-12T23:03:51.387009Z",
+      "parent_producer_attempt": null,
+      "persistence_cpu_s": 9.999999999177334e-07,
+      "persistence_wall_s": 1.8749997252598405e-06,
+      "started_utc": "2026-10-12T23:02:22.714324Z",
+      "status": "completed",
+      "unknown_tail": false
+    }
+  ],
+  "schema": "calibration-resources-v1"
+}
